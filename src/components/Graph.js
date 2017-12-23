@@ -1,5 +1,11 @@
 import React from 'react'
-import { VictoryChart, VictoryBar, VictoryAxis, VictoryLabel, VictoryTheme } from 'victory'
+import {
+  VictoryChart,
+  VictoryBar,
+  VictoryAxis,
+  VictoryLabel,
+  VictoryTheme
+} from 'victory'
 import numeral from 'numeral'
 
 const styles = {
@@ -14,10 +20,10 @@ const styles = {
   axis: {
     axis: { stroke: 'black', strokeWidth: 1 },
     ticks: {
-      size: (tick) => 10,
+      size: tick => 10,
       stroke: 'black',
       strokeWidth: 1
-    },
+    }
     // tickLabels: {
     //   fill: 'black',
     //   fontFamily: 'inherit'
@@ -25,29 +31,29 @@ const styles = {
   }
 }
 
-function getGraphData (projects, sortOrder) {
+function getGraphData(projects, sortOrder) {
   const count = projects.length
   const data = projects
-    .filter(project => project.stats[sortOrder] > 0)
+    .filter(project => project.delta > 0)
     .map((project, i) => {
       return {
         url: project.url || project.repository,
         label: project.name,
         color: project.color,
         x: count - i,
-        y: project.stats[sortOrder]
+        y: project.delta
       }
     })
   return data
 }
 
-function formatDelta (delta, decimals = 0) {
+function formatDelta(delta, decimals = 0) {
   const numberFormat = decimals === 0 ? '0' : `0.${'0'.repeat(decimals)}`
   const formattedNumber = numeral(delta).format(`${numberFormat}a`)
   return `+${formattedNumber}`
 }
 
-const MyBarLabel = (props) => {
+const MyBarLabel = props => {
   const url = props.datum.url
   return (
     <a href={url} target="_blank">
@@ -88,7 +94,7 @@ const Graph = ({ projects, sortOrder, width, height }) => {
           labelComponent={<MyBarLabel />}
           style={{
             data: {
-              fill: project => '#FFAC2C',// project.color
+              fill: project => '#FFAC2C' // project.color
             },
             labels: {
               fill: project => '#541600', // project.color,

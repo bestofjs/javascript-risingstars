@@ -1,7 +1,7 @@
 const processProject = require('./processProject')
 
 const sortBy = fn => (a, b) => fn(b) - fn(a)
-const sortByYearlyDelta = sortBy(project => project.stats.yearly)
+const sortByYearlyDelta = sortBy(project => project.delta)
 
 function getSortedProjects(entities) {
   return Object.values(entities)

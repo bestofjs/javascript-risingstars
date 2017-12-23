@@ -7,7 +7,15 @@ import Description from './Description'
 import ProjectAvatar from '../ProjectAvatar'
 import Stars from '../Stars'
 
-const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta = true, deltaFilter = 'yearly' }) => (
+const ProjectTableView = ({
+  title,
+  comment,
+  icon,
+  projects,
+  showStars,
+  showDelta = true,
+  deltaFilter = 'yearly'
+}) => (
   <div className="project-table">
     {projects.map((project, i) => (
       <ProjectTableView.Row
@@ -22,7 +30,14 @@ const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta
   </div>
 )
 
-ProjectTableView.Row = ({ project, showStars, showDelta, deltaFilter, showDescription = true, index }) => {
+ProjectTableView.Row = ({
+  project,
+  showStars,
+  showDelta,
+  deltaFilter,
+  showDescription = true,
+  index
+}) => {
   const url = project.url || project.repository
   return (
     <a className="project-table-row" href={url}>
@@ -34,7 +49,7 @@ ProjectTableView.Row = ({ project, showStars, showDelta, deltaFilter, showDescri
             <span>{project.name}</span>
           </div>
           <div>
-            <Stars value={project.stats.yearly} decimals={1} />
+            <Stars value={project.delta} decimals={1} />
           </div>
         </div>
         <div className="description-section">

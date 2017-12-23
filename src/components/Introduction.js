@@ -20,7 +20,7 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
       </h3>
       <ol>
         {categories.map((item, i) => {
-          const key = item.tag.replace(/-/, '')
+          const key = item.tag.replace(/-/gi, '')
           return (
             <li key={item.tag}>
               <a href={`#${item.tag}`}>

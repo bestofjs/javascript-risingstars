@@ -23,15 +23,21 @@
     "excluded": ["react"]
   },
   {
+    "tag": "vue",
+    "count": 10,
+    "excluded": ["vuejs"]
+  },
+  {
     "tag": "mobile",
-    "count": 3
+    "count": 5
   },
   {
     "tag": "compiler",
-    "count": 10
+    "count": 3
   },
   {
-    "tag": "build"
+    "tag": "build",
+    "count": 5
   },
   {
     "tag": "test-framework",
@@ -40,6 +46,10 @@
   {
     "tag": "ide",
     "count": 5
+  },
+  {
+    "tag": "css-in-js",
+    "count": 10
   },
   {
     "tag": "ssg",

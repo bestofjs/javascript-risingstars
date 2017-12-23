@@ -14,7 +14,7 @@ function graphFactory({ projects, entities, locale, translations }) {
       const graphProjects = projects[tag]
         .filter(project => !excluded.includes(project.slug))
         .slice(0, count)
-      const key = tag.replace(/-/, '')
+      const key = tag.replace(/-/gi, '')
       const height = Math.max(count * 15 + 100, 150)
       return (
         <section className="section">
