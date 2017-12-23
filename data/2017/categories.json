@@ -26,7 +26,7 @@
   {
     "tag": "vue",
     "count": 10,
-    "excluded": ["vuejs"]
+    "excluded": ["vuejs", "storybook"]
   },
   {
     "tag": "mobile",
@@ -34,7 +34,7 @@
   },
   {
     "tag": "compiler",
-    "count": 3
+    "count": 5
   },
   {
     "tag": "build",
