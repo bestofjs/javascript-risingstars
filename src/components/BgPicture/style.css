@@ -1,0 +1,26 @@
+#bgpicture {
+  margin: 50px auto 100px;
+  width: 1050px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.bgpicture-grid {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  background-color: rgba(230, 80, 0, 0.9);
+}
+.bgpicture-grid > div {
+  opacity: 0.30;
+  /*flex: 0 0 12.5%;*/
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.empty-cell {
+  background-color: #B94100;
+}

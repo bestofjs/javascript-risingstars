@@ -1,0 +1,27 @@
+#wall {
+  margin: 50px auto 100px;
+  width: 400px;
+  position: relative;
+}
+#wall .text {
+  position: absolute;
+  top: 45px;
+  color: white;
+  font-size: 3.2rem;
+  text-align: center;
+  z-index: 1;
+  text-shadow: 0 3px 3px rgba(143,50,0,0.99);
+}
+.icon-wall-grid {
+  display: flex;
+  height: 280px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  background-color: rgba(230, 80, 0, 0.9);
+  padding: 0.3rem 0 0 0.3rem;
+}
+.icon-wall-grid div {
+  opacity: 0.30;
+  flex: 0 0 20%;
+  padding: 0 0.2rem 0.7rem 0;
+}

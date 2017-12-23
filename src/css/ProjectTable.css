@@ -1,0 +1,48 @@
+.project-table {
+    margin-top: 2rem;
+    padding: 0;
+    background-color: #fff;
+}
+.project-table-row {
+    display: block;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed #FFAC2C;
+    padding: 1rem 0;
+}
+.project-table-row:hover {
+    text-decoration: none;
+    background-color: #fff7eb;
+    color: #000;
+}
+.project-table-row .avatar-section {
+}
+.project-table-row:first-child {
+    border-top: 1px dashed #FFAC2C;
+}
+.project-table-row .description-section {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: italic;
+    margin-top: .5rem;
+    color: #FF762C;
+}
+.project-table-row img {
+}
+.project-table-row .main-column {
+    flex: 1;
+    padding-left: 1rem;
+    overflow: hidden;
+}
+.project-table-row .main-column .row-1 {
+  display: flex;
+}
+.project-table-row .main-column .row-1 div:first-child {
+  flex-grow: 1;
+}
+.project-table-rank {
+  color: #FFAC2C;
+  margin-right: .25rem;
+}

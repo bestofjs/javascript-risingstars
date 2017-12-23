@@ -1,0 +1,27 @@
+# Meta data
+page:
+  title: "2016 JavaScript Rising Stars"
+  description: "A complete overview of the JavaScript landscape in 2016: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
+
+# Page content
+header:
+  title: "2016 JavaScript Rising Stars"
+introduction:
+  table_of_contents: "Table of Contents"
+  explanation: "The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform."
+conclusion: "Conclusion"
+
+categories:
+  all: "Most Popular Projects in 2016"
+  framework: 'Front-end Frameworks'
+  nodejsframework: 'Node.js Frameworks'
+  reacttemplate: 'React Boilerplates'
+  mobile: 'Mobile'
+  compiler: 'Compilers'
+  build: 'Build Tools'
+  testframework: 'Testing Frameworks'
+  ide: 'IDE'
+  ssg: 'Static Site Generators'
+
+social:
+  text: "Check the JavaScript landscape in 2016"  

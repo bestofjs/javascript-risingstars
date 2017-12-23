@@ -1,0 +1,25 @@
+#app {
+  width: 100%;
+}
+.intro {
+  font-size: 1.25rem;
+}
+.markdown-body :first-child {
+  margin-top: 0
+}
+.markdown-body :last-child {
+  margin-bottom: 0
+}
+
+.section {
+  padding: 2rem 0;
+}
+.section:nth-child(2n + 1) {
+  /*background-color: #FFBE59;*/
+}
+.star {
+  transform: translateY(2px);
+}
+.conclusion-share-buttons {
+  margin-top: 1.25rem;
+}

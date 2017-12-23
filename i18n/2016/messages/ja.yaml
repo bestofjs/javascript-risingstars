@@ -1,0 +1,27 @@
+# Meta data
+page:
+  title: "JavaScript ベスト・オブ・ザ・イヤー 2016"
+  description: "2016年 JavaScript 白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2016年のJavaScriptの動向を完全網羅"
+
+# Page content
+header:
+  title: "JavaScript ベスト・オブ・ザ・イヤー 2016"
+introduction:
+  table_of_contents: "目次"
+  explanation: "本サイトに掲載したチャートは、2016年の12か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webテクノロジに関連するベストプロジェクトをまとめています。"
+conclusion: "おわりに"
+
+categories:
+  all: "2016年人気プロジェクトランキング"
+  framework: 'フロントエンドフレームワーク'
+  nodejsframework: 'Node.jsフレームワーク'
+  reacttemplate: 'Reactボイラープレート'
+  mobile: 'モバイル'
+  compiler: 'コンパイラ'
+  build: 'ビルドツール'
+  testframework: 'テスティングフレームワーク'
+  ide: '統合開発環境（IDE）'
+  ssg: '静的サイトジェネレータ'
+
+social:
+  text: "「2016年 JavaScript 白書」をチェックする"

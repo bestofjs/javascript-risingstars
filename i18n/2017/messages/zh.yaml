@@ -1,0 +1,27 @@
+# Meta data
+page:
+  title: "2017 年崛起的 JS 项目"
+  description: "对 2017 年 JS 领域的完整回顾，内容包括：框架、工具、IDE、静态网站生成器..."
+
+# Page content
+header:
+  title: "2017 年崛起的 JS 项目"
+introduction:
+  table_of_contents: "目录"
+  explanation: "下列图表对比了各个项目 Github 上 2017 年新增 star 的数量。分析的项目主要来自 {link}，这里列出了 WEB 领域的最佳项目。"
+conclusion: "总结"
+
+categories:
+  all: "最受欢迎项目"
+  framework: '前端框架'
+  nodejsframework: 'Node.js 框架'
+  react: 'React 项目模板'
+  mobile: '移动开发'
+  compiler: '编译工具'
+  build: '构建工具'
+  testframework: '测试框架'
+  ide: 'IDE'
+  ssg: '静态网站生成器'
+
+social:
+  text: "了解 2017 年崛起的 JS 项目"

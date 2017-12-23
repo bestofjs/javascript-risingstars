@@ -1,0 +1,52 @@
+.TranslatorSection {
+  padding: 2rem 0;
+  background-color: #B94100;
+  background: linear-gradient(135deg, #ed8518, #e75f16, #B94100);
+  color: rgba(255, 255, 255, 0.6);
+}
+.TranslatorSection .container {
+  padding: 0 1rem;
+}
+@media (min-width: 750px) {
+  .TranslatorSection .container {
+    padding: 0rem;
+  }
+}
+.TranslatorSection a {
+  color: #fbf3ef;
+}
+.translator-list-item {
+  display: flex;
+  align-items: center;
+  /*margin-bottom: 2rem;*/
+  padding: 1rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+.translator-list-item:last-child {
+  border-bottom-width: 0;
+  padding-bottom: 0;
+}
+.translator-list-item:first-child {
+  padding-top: 0;
+}
+.translator-list-item:hover .translator-name {
+  color: white;
+}
+.translator-item-body {
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.translator-name {
+  color: rgba(255, 255, 255, 0.95);
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.member-list-header {
+  color: rgba(255, 255, 255, 0.95);
+  margin-top: 0;
+  text-align: left;
+  font-size: 1.4rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

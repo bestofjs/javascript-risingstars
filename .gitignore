@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+/public
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+
+# Gatsby
+.gatsby-context.js
+.cache
+
+.vscode
+
+# Temporary hiding private files
+memo.node_modules
+/test
+/scripts
