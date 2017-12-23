@@ -1,4 +1,12 @@
-const processProject = require('./processProject')
+const slugify = require('./slugify')
+
+const processProject = item => {
+  return {
+    ...item,
+    repository: `https://github.com/${item.full_name}`,
+    slug: slugify(item.name)
+  }
+}
 
 const sortBy = fn => (a, b) => fn(b) - fn(a)
 const sortByYearlyDelta = sortBy(project => project.delta)
