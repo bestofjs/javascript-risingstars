@@ -2,6 +2,9 @@
   "name": "javascript-risingstars",
   "version": "2.0.0",
   "description": "JavaScript Rising Stars",
+  "engines": {
+    "node": ">=8.4.0"
+  },
   "main": "index.js",
   "dependencies": {
     "flat": "^4.0.0",
