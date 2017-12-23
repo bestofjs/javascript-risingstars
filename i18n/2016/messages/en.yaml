@@ -15,7 +15,7 @@ categories:
   all: "Most Popular Projects in 2016"
   framework: 'Front-end Frameworks'
   nodejsframework: 'Node.js Frameworks'
-  reacttemplate: 'React Boilerplates'
+  react: 'React Ecosystem'
   mobile: 'Mobile'
   compiler: 'Compilers'
   build: 'Build Tools'

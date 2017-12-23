@@ -18,8 +18,9 @@
     "count": 10
   },
   {
-    "tag": "react-template",
-    "count": 5
+    "tag": "react",
+    "count": 10,
+    "excluded": ["react"]
   },
   {
     "tag": "mobile",

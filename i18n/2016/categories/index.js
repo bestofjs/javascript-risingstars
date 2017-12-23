@@ -5,7 +5,7 @@ import framework from './framework'
 import ide from './ide'
 import mobile from './mobile'
 import nodejsframework from './nodejs-framework'
-import reacttemplate from './react-template'
+import react from './react'
 import ssg from './ssg'
 import testframework from './test-framework'
 
@@ -17,7 +17,7 @@ export default {
   ide,
   mobile,
   nodejsframework,
-  reacttemplate,
+  react,
   ssg,
   testframework
 }
