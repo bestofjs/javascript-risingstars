@@ -12,7 +12,7 @@ function getSortedProjects(entities) {
 function filterByTag(sortedProjects, entities, tag) {
   return sortedProjects
     .filter(project => tag === 'all' || project.tags.includes(tag))
-    .slice(0, 20)
+    .slice(0, 30)
 }
 
 function getProjectsByTag(sortedProjects, entities, tags) {
