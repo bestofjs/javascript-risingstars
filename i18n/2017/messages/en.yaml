@@ -24,6 +24,7 @@ categories:
   ide: 'IDE'
   ssg: 'Static Site Generators'
   cssinjs: 'CSS in JavaScript'
+  graphql: 'GraphQL'
 
 social:
   text: "Check the JavaScript landscape in 2017"  

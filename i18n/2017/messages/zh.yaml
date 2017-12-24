@@ -16,12 +16,15 @@ categories:
   framework: '前端框架'
   nodejsframework: 'Node.js 框架'
   react: 'React 项目模板'
+  vue: 'Vue Ecosystem'
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'
   testframework: '测试框架'
   ide: 'IDE'
   ssg: '静态网站生成器'
+  cssinjs: 'CSS in JavaScript'
+  graphql: 'GraphQL'  
 
 social:
   text: "了解 2017 年崛起的 JS 项目"

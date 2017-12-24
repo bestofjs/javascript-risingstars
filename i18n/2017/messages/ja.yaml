@@ -16,12 +16,14 @@ categories:
   framework: 'フロントエンドフレームワーク'
   nodejsframework: 'Node.jsフレームワーク'
   react: 'Reactボイラープレート'
+  vue: 'Vue Ecosystem'
   mobile: 'モバイル'
   compiler: 'コンパイラ'
   build: 'ビルドツール'
   testframework: 'テスティングフレームワーク'
   ide: '統合開発環境（IDE）'
   ssg: '静的サイトジェネレータ'
-
+  cssinjs: 'CSS in JavaScript'
+  graphql: 'GraphQL'  
 social:
   text: "「2017年 JavaScript 白書」をチェックする"

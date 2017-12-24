@@ -25,7 +25,7 @@
   },
   {
     "tag": "vue",
-    "count": 20,
+    "count": 10,
     "excluded": ["vuejs", "storybook"]
   },
   {
@@ -56,5 +56,10 @@
   {
     "tag": "ssg",
     "count": 5
+  },
+  {
+    "tag": "graphql",
+    "count": 10,
+    "excluded": ["gatsby", "react-starter-kit"]
   }
 ]
