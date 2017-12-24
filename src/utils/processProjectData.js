@@ -18,13 +18,12 @@ function getSortedProjects(entities) {
 }
 
 function filterByTag(sortedProjects, entities, tag) {
-  return sortedProjects
-    .filter(project => tag === 'all' || project.tags.includes(tag))
-    .slice(0, 30)
+  return sortedProjects.filter(
+    project => tag === 'all' || project.tags.includes(tag)
+  )
 }
 
 function getProjectsByTag(sortedProjects, entities, tags) {
-  const all = sortedProjects.slice(0, 50)
   return tags.reduce(
     (result, tag) =>
       Object.assign({}, result, {

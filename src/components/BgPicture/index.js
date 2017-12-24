@@ -3,15 +3,27 @@ import ProjectAvatar from '../ProjectAvatar'
 import './style.css'
 
 const excluded = [
-  'axios', 'typescript', 'animatecss', 'react-boilerplate',
-  'angularjs', 'airbnb-style-guide', 'awesome', 'material-ui', 'json-server', 'threejs', 'express',
-  'reveal', 'react-starter-kit', 'immutable', 'material-design-icons'
+  'axios',
+  'create-react-app',
+  'animatecss',
+  'react-boilerplate',
+  'airbnb-style-guide',
+  'front-end-checklist',
+  'awesome',
+  'json-server',
+  'threejs',
+  'express',
+  'reveal',
+  'immutable',
+  'material-design-icons',
+  '30-seconds-of-code'
 ]
 
 const Wall = ({ projects }) => {
-  const niceProjects = projects
-    .filter(project => !excluded.includes(project.slug))
-    .slice(0, 36)
+  const niceProjects = projects.filter(
+    project => !excluded.includes(project.slug)
+  )
+  // .slice(0, 50)
   return (
     <div id="bgpicture">
       <div className="bgpicture-grid">

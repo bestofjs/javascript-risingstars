@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import svg from './bestofjs.svg'
+import BestofjsLogo from './BestofjsLogo'
 
 const items = [
   { code: 'en', text: 'English' },
@@ -14,7 +15,8 @@ const Header = ({ language, year }) => (
     <div className="container small-container">
       <div className="header-layout">
         <a id="logo" href="https://bestof.js.org">
-          <img src={svg} width="160" alt="bestof.js.org logo" />
+          <BestofjsLogo color="#e65100" style={{ width: 160 }} />
+          {false && <img src={svg} width="160" alt="bestof.js.org logo" />}
         </a>
         <div className="language-menu">
           {items.map(item => (

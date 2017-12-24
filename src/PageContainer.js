@@ -5,7 +5,7 @@ import __intlEN from 'react-intl/locale-data/en'
 import __intlZH from 'react-intl/locale-data/zh'
 import __intlJA from 'react-intl/locale-data/ja'
 
-import App from './App'
+import Page from './Page'
 import getMessages from './utils/getMessages'
 import appData from '../data'
 import packageJson from '../package.json'
@@ -30,7 +30,7 @@ class PageContainer extends React.Component {
     const { entities, projectsByTag } = processProjectData(projects, categories)
     return (
       <IntlProvider locale={language} messages={messages}>
-        <App
+        <Page
           projects={projectsByTag}
           entities={entities}
           url={url}

@@ -3,15 +3,27 @@ import ProjectAvatar from '../ProjectAvatar'
 import './style.css'
 
 const excluded = [
-  'axios', 'typescript', 'animatecss', 'react-boilerplate',
-  'angularjs', 'airbnb-style-guide', 'awesome', 'material-ui',
-  'create-react-app', 'standard', 'skeleton', 'webtorrent', 'handlebarsjs'
+  'axios',
+  'animatecss',
+  'react-boilerplate',
+  'angularjs',
+  'airbnb-style-guide',
+  'awesome',
+  'create-react-app',
+  'standard',
+  'skeleton',
+  'webtorrent',
+  'handlebarsjs'
 ]
 
 const Wall = ({ projects, lang = 'ja' }) => {
   const titles = {
-    'en': '2016 JavaScript Rising Stars',
-    'ja': <span>JavaScript<br /> ベスト・オブ・ザ・イヤー2016</span>
+    en: '2016 JavaScript Rising Stars',
+    ja: (
+      <span>
+        JavaScript<br /> ベスト・オブ・ザ・イヤー2016
+      </span>
+    )
   }
   const niceProjects = projects
     .filter(project => !excluded.includes(project.slug))
