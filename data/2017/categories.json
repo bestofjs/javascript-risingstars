@@ -25,11 +25,12 @@
   },
   {
     "tag": "vue",
-    "count": 10,
+    "count": 20,
     "excluded": ["vuejs", "storybook"]
   },
   {
     "tag": "mobile",
+    "excluded": ["mint-ui"],
     "count": 5
   },
   {
