@@ -27,8 +27,19 @@ const Avatar = ({ project, size = 100 }) => {
     return (
       <div style={{ width: size }} dangerouslySetInnerHTML={{ __html: svg }} />
     )
-  const url = getProjectAvatarUrl(project, size)
-  return <img src={url} width={size} height={size} alt={project.name} />
+  const urls = {
+    standard: getProjectAvatarUrl(project, size),
+    retina: getProjectAvatarUrl(project, size * 2)
+  }
+  return (
+    <img
+      src={urls.standard}
+      srcSet={`${urls.retina} 2x`}
+      width={size}
+      height={size}
+      alt={project.name}
+    />
+  )
 }
 
 export default Avatar
