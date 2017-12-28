@@ -4,7 +4,7 @@ In 2016 it has never been easier to create and deploy a node.js application with
 * [Webtask.io](https://webtask.io/)
 * [Stdlib](https://stdlib.com/)
 
-Projects like [Gomix](https://gomix.com) even lowered the barrier to the node.js world, making easy to anyone to **write** and **share** node.js code in a few clicks, right from the browser.
+Projects like [Glitch](https://glitch.com/) (previously called _Gomix_) even lowered the barrier to the node.js world, making easy to anyone to **write** and **share** node.js code in a few clicks, right from the browser.
 
 So if you have to build a web application, which framework to choose?
 
@@ -15,7 +15,7 @@ Its philosophy (a minimalistic core that you can extend using middleware package
 
 #### {koa}
 
-{koa} philosophy is close to {express} but it's built using ES6 generators to avoid a problem sometimes called *[ Callback Hell](https://www.sitepoint.com/saved-from-callback-hell/)*.
+{koa} philosophy is close to {express} but it's built using ES6 generators to avoid a problem sometimes called _[ Callback Hell](https://www.sitepoint.com/saved-from-callback-hell/)_.
 
 #### {feathers}
 

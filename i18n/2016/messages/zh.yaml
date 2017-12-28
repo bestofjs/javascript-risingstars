@@ -15,7 +15,7 @@ categories:
   all: "最受欢迎项目"
   framework: '前端框架'
   nodejsframework: 'Node.js 框架'
-  reacttemplate: 'React 项目模板'
+  react: 'React 项目模板'
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'

@@ -15,7 +15,7 @@ categories:
   all: "2016年人気プロジェクトランキング"
   framework: 'フロントエンドフレームワーク'
   nodejsframework: 'Node.jsフレームワーク'
-  reacttemplate: 'Reactボイラープレート'
+  react: 'Reactボイラープレート'
   mobile: 'モバイル'
   compiler: 'コンパイラ'
   build: 'ビルドツール'

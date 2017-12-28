@@ -4,7 +4,7 @@
 * [Webtask.io](https://webtask.io/)
 * [Stdlib](https://stdlib.com/)
 
-类似于 [Gomix](https://gomix.com) 的项目则把 Node.js 的门槛降到不能再低，只需要通过浏览器简单的点击拖拽就都能轻而易举的**编写**和**分享** Node.js 代码。
+类似于 [Glitch](https://glitch.com/) 的项目则把 Node.js 的门槛降到不能再低，只需要通过浏览器简单的点击拖拽就都能轻而易举的**编写**和**分享** Node.js 代码。
 
 那么，如果想创建一个 WEB 应用，我们该选哪个框架呢？
 
