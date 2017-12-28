@@ -8,6 +8,9 @@ import {
 } from 'victory'
 import numeral from 'numeral'
 
+// How to disable default inline styles?
+// https://github.com/FormidableLabs/victory/issues/559
+
 const styles = {
   chart: {
     padding: {
@@ -24,10 +27,6 @@ const styles = {
       stroke: 'black',
       strokeWidth: 1
     }
-    // tickLabels: {
-    //   fill: 'black',
-    //   fontFamily: 'inherit'
-    // }
   }
 }
 
@@ -62,19 +61,20 @@ const MyBarLabel = props => {
   )
 }
 
+const customTheme = VictoryTheme.material
+
 const Graph = ({ projects, sortOrder, width, height }) => {
   return (
     <div className="tag-card-graph-container">
       <VictoryChart
         domainPadding={20}
         padding={styles.chart.padding}
-        theme={VictoryTheme.material}
+        theme={customTheme}
         width={width}
         height={height}
       >
         <VictoryAxis
           style={styles.axis}
-          labelB={`by Github stars added in 2016`}
           axisLabelComponent={<VictoryLabel dy={3} />}
           tickFormat={x => formatDelta(x, 0)}
         />
@@ -83,7 +83,6 @@ const Graph = ({ projects, sortOrder, width, height }) => {
           style={{
             ticks: { strokeWidth: 0 }
           }}
-          tickCountC={0}
           tickValues={[]}
           tickFormat={datum => ''}
         />
@@ -94,11 +93,17 @@ const Graph = ({ projects, sortOrder, width, height }) => {
           labelComponent={<MyBarLabel />}
           style={{
             data: {
-              fill: project => '#FFAC2C' // project.color
+              fill: null, // project => '#FFAC2C'
+              stroke: null,
+              strokeWidth: null,
+              padding: null
             },
             labels: {
-              fill: project => '#541600', // project.color,
-              cursor: 'pointer'
+              fill: null,
+              fontSize: 12,
+              fontFamily: null,
+              stroke: null,
+              strokeWidth: null
             }
           }}
         />

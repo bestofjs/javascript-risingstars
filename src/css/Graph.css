@@ -1,0 +1,7 @@
+.VictoryContainer path {
+  fill: #ffac2c;
+}
+.VictoryContainer tspan {
+  /* font-size: 12px; do not work, a default fontSize is applied by VictoryLabel component */
+  fill: #541600;
+}

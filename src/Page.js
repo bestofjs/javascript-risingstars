@@ -11,16 +11,7 @@ import graphFactory from './components/graphFactory'
 import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
 import BgPicture from './components/BgPicture'
 
-import './css/github.css'
-import './css/index.css'
-import './css/App.css'
-import './css/ProjectTable.css'
-import './css/social.css'
-import './css/Picture.css'
-import './css/TagCard.css'
-import './css/Header.css'
-import './css/Footer.css'
-import './css/TranslatorSection.css'
+import './css/index.js'
 
 class Page extends React.Component {
   render() {
