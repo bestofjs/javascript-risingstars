@@ -1,0 +1,18 @@
+#footer {
+  padding: 3rem 0;
+  background-color: #8f3200;
+  color: #ff9359;
+  text-align: center;
+  .container {
+    padding: 0 2rem;
+  }
+  a {
+    color: #fbf3ef;
+  }
+  p:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

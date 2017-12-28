@@ -1,0 +1,58 @@
+#header {
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  z-index: 50;
+  height: 60px;
+  .container {
+    height: 100%;
+  }
+}
+.header-layout {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 1rem;
+  @media (min-width: 550px) {
+    padding-left: 2rem;
+  }
+  @media (min-width: 750px) {
+    padding-left: 0;
+  }
+}
+
+#logo {
+  flex-grow: 1;
+  img {
+    display: block;
+  }
+  /* Make the logo smaller on small screens */
+  @media (max-width: 450px) {
+    img {
+      width: 120px;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.language-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.language-menu-item {
+  padding: 0 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  &.is-active {
+    background-color: #cc4700;
+    color: white;
+    /* Hide the current language on very small screens */
+    @media (max-width: 360px) {
+      display: none;
+    }
+  }
+}

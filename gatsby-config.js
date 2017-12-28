@@ -1,3 +1,5 @@
+// Important Note:  we don't use `gatsby-transformer-remark` plugin because
+// markdown content is process by `react-markdown` in order to process project 'slugs'
 module.exports = {
   siteMetadata: {
     title: `JavaScript Rising Stars`
@@ -11,13 +13,10 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-sass'
+    },
+    {
       resolve: `gatsby-plugin-netlify`
     }
-    // {
-    //   resolve: `gatsby-transformer-remark`,
-    //   options: {
-    //     plugins: []
-    //   }
-    // }
   ]
 }
