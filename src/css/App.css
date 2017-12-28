@@ -100,10 +100,10 @@ h1 {
   }
 }
 
-.card-conclusion p,
+/* .card-conclusion p,
 .card-conclusion li {
   font-size: 1.25rem;
-}
+} */
 
 .img-responsive {
   max-width: 100%;

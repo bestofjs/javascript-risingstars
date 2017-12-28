@@ -9,7 +9,7 @@ header:
 introduction:
   table_of_contents: "Table of Contents"
   explanation: "The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform."
-conclusion: "Conclusion"
+conclusion: "Stories of the Year"
 
 categories:
   all: "Most Popular Projects in 2017"
