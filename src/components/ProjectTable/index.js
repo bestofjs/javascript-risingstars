@@ -12,20 +12,26 @@ const ProjectTableView = ({
   showStars,
   showDelta = true,
   deltaFilter = 'yearly'
-}) => (
-  <div className="project-table">
-    {projects.map((project, i) => (
-      <ProjectTableView.Row
-        key={project.slug}
-        project={project}
-        showStars={showStars}
-        showDelta={showDelta}
-        deltaFilter={deltaFilter}
-        index={i + 1}
-      />
-    ))}
-  </div>
-)
+}) => {
+  
+  const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a,b))
+
+  return (
+    <div className="project-table">
+      {projects.map((project, i) => (
+        <ProjectTableView.Row
+          key={project.slug}
+          maxDelta={maxDelta}
+          project={project}
+          showStars={showStars}
+          showDelta={showDelta}
+          deltaFilter={deltaFilter}
+          index={i + 1}
+        />
+      ))}
+    </div>
+  )
+}
 
 ProjectTableView.Row = ({
   project,
@@ -33,11 +39,20 @@ ProjectTableView.Row = ({
   showDelta,
   deltaFilter,
   showDescription = true,
-  index
+  index,
+  maxDelta,
 }) => {
   const url = project.url || project.repository
+
+  // use relative scale
+  const widthPercent = project.delta*100/maxDelta
+
+  // use absolute scale based on Vue as the max
+  // const widthPercent = project.delta*100/39263
+  
   return (
     <a className="project-table-row" href={url}>
+      <div className="project-table-bar" style={{width: `${widthPercent}%`}}/>
       <ProjectAvatar project={project} size={50} />
       <div className="main-column">
         <div className="row-1">

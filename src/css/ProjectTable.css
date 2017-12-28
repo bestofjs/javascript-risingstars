@@ -10,6 +10,14 @@
     align-items: center;
     border-bottom: 1px dashed #FFAC2C;
     padding: 1rem 0;
+    position: relative;
+}
+.project-table-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.05);
 }
 .project-table-row:hover {
     text-decoration: none;
