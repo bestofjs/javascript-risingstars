@@ -1,0 +1,82 @@
+.project-table {
+  margin-top: 2rem;
+  padding: 0;
+  background-color: #fff;
+}
+.project-table-row {
+  display: block;
+  color: inherit;
+  border-bottom: 1px dashed #ffac2c;
+  padding: 1rem 0;
+  position: relative;
+}
+.project-table-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.05);
+}
+.project-table-row:hover {
+  text-decoration: none;
+  background-color: #fff7eb;
+  color: #000;
+}
+.project-table-contents {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.project-table-row .avatar-section {
+}
+.project-table-row:first-child {
+  border-top: 1px dashed #ffac2c;
+}
+.project-table-row .description-section {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #ff762c;
+}
+.project-table-row img {
+}
+.project-table-row .main-column {
+  flex: 1;
+  padding-left: 1rem;
+  overflow: hidden;
+}
+.project-table-row .main-column .row-1 {
+  display: flex;
+}
+.project-table-row .main-column .row-1 div:first-child {
+  flex-grow: 1;
+}
+.project-table-rank {
+  color: #ffac2c;
+  margin-right: 0.25rem;
+}
+
+.stars{
+  @include font-bold;
+  .project-table-row-downfast & {
+    color: #8b8de8;
+  }
+  .project-table-row-down & {
+    color: #b3b5e6;
+  }
+  .project-table-row-neutral & {
+    color: #999;
+  }
+  .project-table-row-up & {
+    color: #e28194;
+  }
+  .project-table-row-upfast & {
+    color: #ea2149;
+  }
+  .project-table-row-na & {
+    color: #999;
+  }
+}

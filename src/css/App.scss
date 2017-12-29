@@ -10,19 +10,27 @@ body {
   font-size: 14px;
   background-color: #f9e9e0;
   color: #541600;
+
+  @include primary-font;
 }
 h2,
 h3 {
   font-weight: 400;
 }
+
+h1, h2, h3, h4, h5, h6{
+  @include secondary-font;
+  margin: 0 0 $spacing 0;
+}
+
 a {
   color: #cc4700;
   text-decoration: none;
 }
-a[:not(.resp-sharing-button__link)]:hover {
-  text-decoration: underline;
-  color: #e65000;
-}
+// a[:not(.resp-sharing-button__link)]:hover {
+//   text-decoration: underline;
+//   color: #e65000;
+// }
 
 .container {
   margin: 0 auto;
