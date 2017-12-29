@@ -30,7 +30,7 @@
   },
   {
     "tag": "mobile",
-    "excluded": ["mint-ui"],
+    "excluded": ["mint-ui", "nativebase"],
     "count": 5
   },
   {
