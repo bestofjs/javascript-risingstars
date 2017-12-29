@@ -17,3 +17,5 @@ While {webpack} and {parcel} both target the building process of web **applicati
 From the [React blog](https://reactjs.org/blog/2017/12/15/improving-the-repository-infrastructure.html)
 
 > Rollup is a perfect fit for libraries like React that can be pre-built and then integrated into apps.
+
+{poi} has the same goal as {parcel}: a build tool for modern web applications, but its scope is limited to {react}, {preact} and {vuejs} projects.
