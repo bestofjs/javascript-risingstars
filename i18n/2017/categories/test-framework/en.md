@@ -1,4 +1,4 @@
-[As we predicted last year](/2016/en#test-framework), {jest} became the trendiest testing framework in 2017.
+As we predicted [last year](/2016/en#test-framework) (it's the first time we predicted something right!), {jest} became the trendiest testing framework in 2017.
 
 It was first created by Facebook to run tests for React components, but its evolution has been very fast over the last months (already 22 majors versions released!) and it can be used to write tests for front-end and back-end code.
 
@@ -12,6 +12,6 @@ Jest shines because of several points:
 
 {ava}, number one last year, has still a lot of traction.
 
-It has been created by [Sindre Sorhus](https://github.com/sindresorhus) who uses on all his projects... and that means a lot of great projects!
+It has been created by [Sindre Sorhus](https://github.com/sindresorhus) who uses it on all his projects... and that means a lot of great projects!
 
 Compared to Jest, it emphasizes on speed by running tests in parallel, it has a smaller footprint and is closer to testing standards, with a syntax close to test frameworks like {tape}.
