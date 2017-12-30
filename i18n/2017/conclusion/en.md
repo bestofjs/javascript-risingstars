@@ -42,6 +42,32 @@ Mozilla Firefox, Google Chrome, Apple Safari, and Microsoft Edge all provide sup
 
 [High-Performance Applications in Your Browser](https://spectrum.ieee.org/computing/software/webassembly-will-finally-let-you-run-highperformance-applications-in-your-browser) is really promising, will it be the next revolution?
 
+## Node.js growing up
+
+{nodejs} keeps evolving at a fast pace. The biggest change is the adoption, since the release 7.6 of the [`async await` pattern](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9).
+This pattern makes asynchronous code easier to read and to write: no more callback, no more promise chain.
+
+It can make easier the onboarding of backend developers coming from other backgrounds.
+
+It's good to know that, under the hood, this pattern uses the `Promise` specification.
+
+The `async await` pattern comes from the ECMAScript 2017 specification. Node.js made a lot of progress to include natively a lot of these modern features, a compiler like {babel} is no more needed to write modern JavaScript backend code.
+
+The next step coming soon is the adoption of [ES6 modules](http://2ality.com/2014/09/es6-modules-final.html).
+
+The point number 2 showing Node.js maturity is {npm}, the Node.js Package Manager
+
+In 2016, {yarn} emerged as one of the _Rising Stars_ of 2016 (the project number 3 overall). It was an attempt from Facebook to fix some of the npm flaws by:
+
+* Improving install performance
+* Making install results more predictable, using a file that locks the exact version of all installed packages.
+
+{yarn} is so popular that a lot of project documentation pages explain that you can start the installation process using either `npm install` or `yarn add` command.
+
+But {npm} made a lot of progresses since the release of the version 5, addressing the two issues mentioned above and making {yarn} less relevant than before.
+
+Among other improvements, we could also mention `npx` a tool that lets developers run locally installed packages easily, as explained here: [Introducing npx: an npm package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b).
+
 ---
 
 Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/bestofjs/javascriptrisingstars)!
