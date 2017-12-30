@@ -1,6 +1,6 @@
 {
-  "date": "2017-12-29T01:01:06.120Z",
-  "count": 613,
+  "date": "2017-12-30T12:22:17.928Z",
+  "count": 498,
   "projects": [
     {
       "name": "RiotJS",
@@ -9,7 +9,9 @@
       "description": "Simple and elegant component-based UI library",
       "owner_id": 12729373,
       "tags": ["framework", "vdom"],
-      "delta": 1381
+      "delta": 1386,
+      "stars": 12649,
+      "created_at": "2013-09-27T05:21:01.000Z"
     },
     {
       "name": "Aurelia",
@@ -19,7 +21,9 @@
         "The aurelia framework brings together all the required core aurelia libraries into a ready-to-go app",
       "owner_id": 9808864,
       "tags": ["framework"],
-      "delta": 1595
+      "delta": 1595,
+      "stars": 10322,
+      "created_at": "2014-12-10T19:22:29.000Z"
     },
     {
       "name": "Angular 1",
@@ -28,7 +32,9 @@
       "description": "AngularJS - HTML enhanced for web apps!",
       "owner_id": 139426,
       "tags": ["framework", "angular"],
-      "delta": 3609
+      "delta": 3616,
+      "stars": 57749,
+      "created_at": "2010-01-06T00:34:37.000Z"
     },
     {
       "name": "Flux",
@@ -37,7 +43,9 @@
       "description": "Application Architecture for Building User Interfaces",
       "owner_id": 69631,
       "tags": ["flux"],
-      "delta": 1686,
+      "delta": 1685,
+      "stars": 14682,
+      "created_at": "2014-07-20T23:33:08.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/flux.svg"
     },
     {
@@ -48,7 +56,9 @@
         "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "owner_id": 69631,
       "tags": ["framework", "vdom", "react"],
-      "delta": 27606,
+      "delta": 27684,
+      "stars": 84500,
+      "created_at": "2013-05-24T16:15:54.000Z",
       "icon": "react.svg"
     },
     {
@@ -59,7 +69,9 @@
         "The most advanced responsive front-end framework in the world. Quickly create prototypes and product",
       "owner_id": 156122,
       "tags": ["css-lib"],
-      "delta": 2157
+      "delta": 2161,
+      "stars": 26841,
+      "created_at": "2011-10-13T23:05:42.000Z"
     },
     {
       "name": "Bootstrap",
@@ -69,7 +81,9 @@
         "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first project",
       "owner_id": 2918581,
       "tags": ["css-lib"],
-      "delta": 14455
+      "delta": 14498,
+      "stars": 119737,
+      "created_at": "2011-07-29T21:19:00.000Z"
     },
     {
       "name": "Ionic",
@@ -79,7 +93,9 @@
         "Build amazing native and progressive web apps with open web technologies. One app running on everyth",
       "owner_id": 3171503,
       "tags": ["mobile"],
-      "delta": 5468
+      "delta": 5486,
+      "stars": 32783,
+      "created_at": "2013-08-20T23:06:02.000Z"
     },
     {
       "name": "Sails",
@@ -88,7 +104,9 @@
       "description": "Realtime MVC Framework for Node.js",
       "owner_id": 1445252,
       "tags": ["nodejs-framework"],
-      "delta": 1998
+      "delta": 2004,
+      "stars": 18200,
+      "created_at": "2012-03-18T19:46:15.000Z"
     },
     {
       "name": "Keystone",
@@ -97,7 +115,9 @@
       "description": "node.js cms and web app framework",
       "owner_id": 6118534,
       "tags": ["nodejs-framework", "cms"],
-      "delta": 3023
+      "delta": 3027,
+      "stars": 11670,
+      "created_at": "2013-07-02T05:01:55.000Z"
     },
     {
       "name": "PureCSS",
@@ -107,7 +127,9 @@
         "A set of small, responsive CSS modules that you can use in every web project.",
       "owner_id": 16574,
       "tags": ["css-lib"],
-      "delta": 2359
+      "delta": 2366,
+      "stars": 17991,
+      "created_at": "2013-04-22T16:16:39.000Z"
     },
     {
       "name": "Phaser",
@@ -117,7 +139,9 @@
         "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web b",
       "owner_id": 164476,
       "tags": ["game"],
-      "delta": 3000
+      "delta": 3010,
+      "stars": 17010,
+      "created_at": "2013-04-12T12:27:51.000Z"
     },
     {
       "name": "Greensock",
@@ -127,7 +151,9 @@
         "GreenSock's GSAP JavaScript animation library (including Draggable).",
       "owner_id": 2386673,
       "tags": ["animation"],
-      "delta": 1492
+      "delta": 1495,
+      "stars": 7005,
+      "created_at": "2012-09-21T18:03:25.000Z"
     },
     {
       "name": "SemanticUI",
@@ -137,7 +163,9 @@
         "Semantic is a UI component framework based around useful principles from natural language.",
       "owner_id": 5796209,
       "tags": ["css-lib"],
-      "delta": 8305
+      "delta": 8318,
+      "stars": 38764,
+      "created_at": "2013-04-08T23:32:04.000Z"
     },
     {
       "name": "Ember",
@@ -147,7 +175,9 @@
         "Ember.js - A JavaScript framework for creating ambitious web applications",
       "owner_id": 1253363,
       "tags": ["framework"],
-      "delta": 1221
+      "delta": 1224,
+      "stars": 18559,
+      "created_at": "2011-05-25T23:39:40.000Z"
     },
     {
       "name": "ChartJS",
@@ -156,16 +186,9 @@
       "description": "Simple HTML5 Charts using the <canvas> tag",
       "owner_id": 10342521,
       "tags": ["chart", "canvas"],
-      "delta": 7105
-    },
-    {
-      "name": "Raphael",
-      "url": "http://www.raphaeljs.com/",
-      "full_name": "DmitryBaranovskiy/raphael",
-      "description": "JavaScript Vector Library",
-      "owner_id": 22726,
-      "tags": ["drawing"],
-      "delta": 686
+      "delta": 7124,
+      "stars": 34278,
+      "created_at": "2013-03-17T23:56:36.000Z"
     },
     {
       "name": "D3",
@@ -175,7 +198,9 @@
         "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
       "owner_id": 1562726,
       "tags": ["chart", "d3", "svg", "canvas"],
-      "delta": 12592
+      "delta": 12619,
+      "stars": 71246,
+      "created_at": "2010-09-27T17:22:42.000Z"
     },
     {
       "name": "Backbone",
@@ -185,7 +210,9 @@
         "Give your JS App some Backbone with Models, Views, Collections, and Events",
       "owner_id": 4732,
       "tags": ["framework"],
-      "delta": 1000,
+      "delta": 1002,
+      "stars": 26914,
+      "created_at": "2010-09-30T19:41:28.000Z",
       "icon":
         "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/backbone-icon.svg"
     },
@@ -197,7 +224,9 @@
         "The de-facto solution to flexible routing with nested views in AngularJS",
       "owner_id": 1530011,
       "tags": ["angular", "routing"],
-      "delta": 1080
+      "delta": 1079,
+      "stars": 13704,
+      "created_at": "2013-01-18T20:26:29.000Z"
     },
     {
       "name": "Material UI",
@@ -207,7 +236,9 @@
         "React components that implement Google's Material Design.",
       "owner_id": 33663932,
       "tags": ["material", "react", "component"],
-      "delta": 9580
+      "delta": 9615,
+      "stars": 31737,
+      "created_at": "2014-08-18T19:11:54.000Z"
     },
     {
       "name": "Polymer",
@@ -216,7 +247,9 @@
       "description": "Build modern apps using web components",
       "owner_id": 2159051,
       "tags": ["framework"],
-      "delta": 2255
+      "delta": 2259,
+      "stars": 18950,
+      "created_at": "2012-08-23T20:56:30.000Z"
     },
     {
       "name": "Restify",
@@ -225,17 +258,9 @@
       "description": "The future of Node.js REST development",
       "owner_id": 6948699,
       "tags": ["api", "nodejs-framework"],
-      "delta": 1533
-    },
-    {
-      "name": "Brunch",
-      "url": "http://brunch.io",
-      "full_name": "brunch/brunch",
-      "description":
-        ":fork_and_knife: Fast front-end web app build tool with simple declarative config, seamless incremen",
-      "owner_id": 575509,
-      "tags": ["build"],
-      "delta": 612
+      "delta": 1534,
+      "stars": 7625,
+      "created_at": "2011-04-25T21:19:26.000Z"
     },
     {
       "name": "Express",
@@ -244,7 +269,9 @@
       "description": "Fast, unopinionated, minimalist web framework for node.",
       "owner_id": 5658226,
       "tags": ["nodejs-framework", "express"],
-      "delta": 6641
+      "delta": 6657,
+      "stars": 35832,
+      "created_at": "2009-06-26T18:56:01.000Z"
     },
     {
       "name": "Materialize CSS",
@@ -253,16 +280,9 @@
       "description": "Materialize, a CSS Framework based on Material Design",
       "owner_id": 2775751,
       "tags": ["css-lib", "material"],
-      "delta": 6978
-    },
-    {
-      "name": "Material Angular",
-      "url": "https://material.angularjs.org/",
-      "full_name": "angular/material",
-      "description": "Material design for AngularJS",
-      "owner_id": 139426,
-      "tags": ["angular", "material"],
-      "delta": 957
+      "delta": 6988,
+      "stars": 30692,
+      "created_at": "2014-09-12T19:35:38.000Z"
     },
     {
       "name": "Impress",
@@ -272,7 +292,9 @@
         "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browse",
       "owner_id": 5477410,
       "tags": ["presentation"],
-      "delta": 2308
+      "delta": 2312,
+      "stars": 32878,
+      "created_at": "2011-12-28T22:23:19.000Z"
     },
     {
       "name": "jQuery",
@@ -281,7 +303,9 @@
       "description": "jQuery JavaScript Library",
       "owner_id": 70142,
       "tags": ["util", "dom"],
-      "delta": 4711
+      "delta": 4720,
+      "stars": 47558,
+      "created_at": "2009-04-03T15:20:14.000Z"
     },
     {
       "name": "React Router",
@@ -290,7 +314,9 @@
       "description": "Declarative routing for React",
       "owner_id": 11823761,
       "tags": ["react", "routing"],
-      "delta": 8633
+      "delta": 8647,
+      "stars": 27176,
+      "created_at": "2014-05-16T22:22:51.000Z"
     },
     {
       "name": "Webpack",
@@ -300,7 +326,9 @@
         "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting a",
       "owner_id": 2105791,
       "tags": ["build", "module"],
-      "delta": 12997,
+      "delta": 13025,
+      "stars": 35373,
+      "created_at": "2012-03-10T10:08:14.000Z",
       "icon": "webpack.svg"
     },
     {
@@ -310,7 +338,9 @@
       "description": "The streaming build system",
       "owner_id": 6200624,
       "tags": ["build"],
-      "delta": 3584
+      "delta": 3590,
+      "stars": 28287,
+      "created_at": "2013-07-04T05:26:06.000Z"
     },
     {
       "name": "Fontawesome",
@@ -319,7 +349,9 @@
       "description": "The iconic font and CSS toolkit",
       "owner_id": 1505683,
       "tags": ["icon"],
-      "delta": 6586
+      "delta": 6603,
+      "stars": 54052,
+      "created_at": "2012-02-17T14:19:43.000Z"
     },
     {
       "name": "Ionicons",
@@ -328,7 +360,9 @@
       "description": "The premium icon font for Ionic",
       "owner_id": 3171503,
       "tags": ["icon"],
-      "delta": 1855
+      "delta": 1861,
+      "stars": 12181,
+      "created_at": "2013-10-10T14:34:18.000Z"
     },
     {
       "name": "Reveal",
@@ -337,7 +371,9 @@
       "description": "The HTML Presentation Framework",
       "owner_id": 629429,
       "tags": ["presentation"],
-      "delta": 6189
+      "delta": 6202,
+      "stars": 38209,
+      "created_at": "2011-06-07T18:54:22.000Z"
     },
     {
       "name": "Select2",
@@ -347,7 +383,9 @@
         "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and",
       "owner_id": 8077542,
       "tags": ["plugin", "autocomplete"],
-      "delta": 2546
+      "delta": 2552,
+      "stars": 21685,
+      "created_at": "2012-03-04T18:43:12.000Z"
     },
     {
       "name": "RxJS",
@@ -356,7 +394,9 @@
       "description": "The Reactive Extensions for JavaScript",
       "owner_id": 984368,
       "tags": ["fp", "stream"],
-      "delta": 4470
+      "delta": 4476,
+      "stars": 18260,
+      "created_at": "2012-01-07T00:31:41.000Z"
     },
     {
       "name": "Jasmine",
@@ -366,7 +406,9 @@
         "Simple JavaScript testing framework for browsers and node.js",
       "owner_id": 4624349,
       "tags": ["test-framework", "test"],
-      "delta": 1182
+      "delta": 1184,
+      "stars": 13158,
+      "created_at": "2008-12-02T23:46:37.000Z"
     },
     {
       "name": "Mocha",
@@ -376,7 +418,9 @@
         "☕️ simple, flexible, fun javascript test framework for node.js & the browser",
       "owner_id": 8770005,
       "tags": ["test-framework", "test"],
-      "delta": 3044
+      "delta": 3052,
+      "stars": 14251,
+      "created_at": "2011-03-07T18:44:25.000Z"
     },
     {
       "name": "Jest",
@@ -385,7 +429,9 @@
       "description": "🃏 Delightful JavaScript Testing.",
       "owner_id": 69631,
       "tags": ["test-framework", "test"],
-      "delta": 7079,
+      "delta": 7103,
+      "stars": 14416,
+      "created_at": "2013-12-10T00:18:04.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/jest.svg"
     },
     {
@@ -395,7 +441,9 @@
       "description": "Test spies, stubs and mocks for JavaScript.",
       "owner_id": 6570253,
       "tags": ["test"],
-      "delta": 1683
+      "delta": 1689,
+      "stars": 5229,
+      "created_at": "2010-06-29T21:15:32.000Z"
     },
     {
       "name": "Karma",
@@ -404,7 +452,9 @@
       "description": "Spectacular Test Runner for JavaScript",
       "owner_id": 3284117,
       "tags": ["test"],
-      "delta": 1347
+      "delta": 1353,
+      "stars": 9320,
+      "created_at": "2011-10-12T07:55:46.000Z"
     },
     {
       "name": "Zepto",
@@ -414,7 +464,9 @@
         "Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API",
       "owner_id": 3390,
       "tags": ["dom"],
-      "delta": 1511
+      "delta": 1514,
+      "stars": 13384,
+      "created_at": "2010-09-20T07:57:57.000Z"
     },
     {
       "name": "Underscore",
@@ -423,7 +475,9 @@
       "description": "JavaScript's utility _ belt",
       "owner_id": 4732,
       "tags": ["util"],
-      "delta": 2238
+      "delta": 2245,
+      "stars": 22097,
+      "created_at": "2009-10-25T18:31:06.000Z"
     },
     {
       "name": "Lodash",
@@ -433,7 +487,9 @@
         "A modern JavaScript utility library delivering modularity, performance, & extras.",
       "owner_id": 2565403,
       "tags": ["util"],
-      "delta": 7933
+      "delta": 7961,
+      "stars": 28634,
+      "created_at": "2012-04-07T04:11:46.000Z"
     },
     {
       "name": "Koa",
@@ -443,7 +499,9 @@
         "Expressive middleware for node.js using ES2017 async functions",
       "owner_id": 5055057,
       "tags": ["nodejs-framework"],
-      "delta": 5748
+      "delta": 5767,
+      "stars": 18952,
+      "created_at": "2013-07-20T18:53:45.000Z"
     },
     {
       "name": "Moment",
@@ -453,7 +511,9 @@
         "Parse, validate, manipulate, and display dates in javascript.",
       "owner_id": 4129662,
       "tags": ["format", "date"],
-      "delta": 5610
+      "delta": 5624,
+      "stars": 34904,
+      "created_at": "2011-03-01T02:46:06.000Z"
     },
     {
       "name": "Format.JS",
@@ -463,7 +523,9 @@
         "Internationalize React apps. This library provides React components and an API to format dates, numb",
       "owner_id": 16574,
       "tags": ["format", "i18n"],
-      "delta": 2603
+      "delta": 2603,
+      "stars": 6376,
+      "created_at": "2014-04-24T17:28:36.000Z"
     },
     {
       "name": "Math.JS",
@@ -472,7 +534,9 @@
       "description": "An extensive math library for JavaScript and Node.js",
       "owner_id": 568626,
       "tags": ["math"],
-      "delta": 1269
+      "delta": 1274,
+      "stars": 5255,
+      "created_at": "2013-02-15T19:46:01.000Z"
     },
     {
       "name": "Numeral.JS",
@@ -482,7 +546,9 @@
         "A javascript library for formatting and manipulating numbers.",
       "owner_id": 678099,
       "tags": ["format"],
-      "delta": 1160
+      "delta": 1163,
+      "stars": 5773,
+      "created_at": "2012-10-01T20:50:23.000Z"
     },
     {
       "name": "Metalsmith",
@@ -491,7 +557,9 @@
       "description": "An extremely simple, pluggable static site generator.",
       "owner_id": 819518,
       "tags": ["ssg"],
-      "delta": 1006
+      "delta": 1007,
+      "stars": 6461,
+      "created_at": "2014-02-04T03:46:22.000Z"
     },
     {
       "name": "Radium",
@@ -500,7 +568,9 @@
       "description": "A toolchain for React component styling.",
       "owner_id": 5078602,
       "tags": ["css-in-js"],
-      "delta": 1195
+      "delta": 1194,
+      "stars": 5927,
+      "created_at": "2015-01-09T19:35:59.000Z"
     },
     {
       "name": "Typeahead",
@@ -510,7 +580,9 @@
         "typeahead.js is a fast and fully-featured autocomplete library",
       "owner_id": 50278,
       "tags": ["plugin", "autocomplete"],
-      "delta": 1196
+      "delta": 1199,
+      "stars": 14841,
+      "created_at": "2013-02-19T19:45:01.000Z"
     },
     {
       "name": "Atom",
@@ -519,7 +591,9 @@
       "description": ":atom: The hackable text editor",
       "owner_id": 1089146,
       "tags": ["ide"],
-      "delta": 9030
+      "delta": 9051,
+      "stars": 42567,
+      "created_at": "2012-01-20T18:18:21.000Z"
     },
     {
       "name": "Brackets",
@@ -529,7 +603,9 @@
         "An open source code editor for the web, written in JavaScript, HTML and CSS.",
       "owner_id": 476009,
       "tags": ["ide"],
-      "delta": 1870
+      "delta": 1874,
+      "stars": 28531,
+      "created_at": "2011-12-07T21:14:40.000Z"
     },
     {
       "name": "Chosen",
@@ -539,7 +615,9 @@
         "Chosen is a library for making long, unwieldy select boxes more friendly.",
       "owner_id": 43635,
       "tags": ["plugin"],
-      "delta": 1007
+      "delta": 1008,
+      "stars": 21313,
+      "created_at": "2011-04-18T15:07:41.000Z"
     },
     {
       "name": "Hapi",
@@ -548,7 +626,9 @@
       "description": "Server Framework  for Node.js",
       "owner_id": 3774533,
       "tags": ["nodejs-framework"],
-      "delta": 1722
+      "delta": 1725,
+      "stars": 8880,
+      "created_at": "2011-08-06T00:35:39.000Z"
     },
     {
       "name": "Meteor",
@@ -557,7 +637,9 @@
       "description": "Meteor, the JavaScript App Platform",
       "owner_id": 789528,
       "tags": ["fullstack", "meteor"],
-      "delta": 2609
+      "delta": 2612,
+      "stars": 38948,
+      "created_at": "2012-01-19T01:58:17.000Z"
     },
     {
       "name": "Browserify",
@@ -566,7 +648,9 @@
       "description": "browser-side require() the node.js way",
       "owner_id": 6320506,
       "tags": ["build", "module"],
-      "delta": 1044
+      "delta": 1047,
+      "stars": 11643,
+      "created_at": "2010-09-22T16:11:32.000Z"
     },
     {
       "name": "Loopback",
@@ -576,7 +660,9 @@
         "LoopBack makes it easy to build modern applications that require complex integrations.",
       "owner_id": 3020012,
       "tags": ["api", "nodejs-framework"],
-      "delta": 2320
+      "delta": 2327,
+      "stars": 10322,
+      "created_at": "2013-04-09T16:02:18.000Z"
     },
     {
       "name": "Istanbul",
@@ -586,7 +672,9 @@
         "Yet another JS code coverage tool that computes statement, line, function and branch coverage with m",
       "owner_id": 1056819,
       "tags": ["test"],
-      "delta": 1397
+      "delta": 1401,
+      "stars": 6879,
+      "created_at": "2012-09-12T06:36:32.000Z"
     },
     {
       "name": "Highcharts",
@@ -595,7 +683,9 @@
       "description": "Highcharts JS, the JavaScript charting framework",
       "owner_id": 15981345,
       "tags": ["chart"],
-      "delta": 1301
+      "delta": 1308,
+      "stars": 7114,
+      "created_at": "2010-06-11T12:23:53.000Z"
     },
     {
       "name": "ChartistJS",
@@ -604,7 +694,9 @@
       "description": "Simple responsive charts",
       "owner_id": 2203704,
       "tags": ["chart"],
-      "delta": 1313
+      "delta": 1316,
+      "stars": 10300,
+      "created_at": "2014-03-09T22:40:07.000Z"
     },
     {
       "name": "Immutable",
@@ -614,7 +706,9 @@
         "Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
       "owner_id": 69631,
       "tags": ["data-structure"],
-      "delta": 5452,
+      "delta": 5463,
+      "stars": 21872,
+      "created_at": "2014-07-02T06:02:29.000Z",
       "icon":
         "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/immutable.svg"
     },
@@ -625,7 +719,9 @@
       "description": "Material design theme for Bootstrap 3 and 4",
       "owner_id": 5382443,
       "tags": ["css-lib", "material"],
-      "delta": 1611
+      "delta": 1613,
+      "stars": 18903,
+      "created_at": "2014-08-18T11:54:00.000Z"
     },
     {
       "name": "Sheperd",
@@ -635,7 +731,9 @@
         "Guide your users through a tour of your app #hubspot-open-source",
       "owner_id": 326419,
       "tags": ["presentation"],
-      "delta": 1000
+      "delta": 1001,
+      "stars": 5411,
+      "created_at": "2013-12-17T06:30:27.000Z"
     },
     {
       "name": "IntroJS",
@@ -645,7 +743,9 @@
         "A better way for new feature introduction and step-by-step users guide for your website and project.",
       "owner_id": 2010360,
       "tags": ["presentation"],
-      "delta": 1447
+      "delta": 1449,
+      "stars": 16142,
+      "created_at": "2013-03-10T15:12:45.000Z"
     },
     {
       "name": "PACE",
@@ -655,7 +755,9 @@
         "Automatically add a progress bar to your site. #hubspot-open-source",
       "owner_id": 326419,
       "tags": ["progress-bar"],
-      "delta": 1952
+      "delta": 1953,
+      "stars": 13041,
+      "created_at": "2013-09-12T04:24:29.000Z"
     },
     {
       "name": "Vue.js",
@@ -665,7 +767,9 @@
         "A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
       "owner_id": 6128107,
       "tags": ["framework", "vdom", "vue"],
-      "delta": 39785,
+      "delta": 39908,
+      "stars": 78243,
+      "created_at": "2013-07-29T03:24:51.000Z",
       "icon": "vue.svg"
     },
     {
@@ -675,7 +779,9 @@
       "description": "Web Starter Kit - a workflow for multi-device websites",
       "owner_id": 1342004,
       "tags": ["html"],
-      "delta": 2529
+      "delta": 2531,
+      "stars": 17900,
+      "created_at": "2014-04-07T08:45:18.000Z"
     },
     {
       "name": "HTML5 boilerplate",
@@ -685,17 +791,9 @@
         "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
       "owner_id": 1136800,
       "tags": ["html"],
-      "delta": 3216
-    },
-    {
-      "name": "Vex",
-      "url": "http://github.hubspot.com/vex/docs/welcome",
-      "full_name": "HubSpot/vex",
-      "description":
-        "A modern dialog library which is highly configurable and easy to style. #hubspot-open-source",
-      "owner_id": 326419,
-      "tags": ["modal"],
-      "delta": 641
+      "delta": 3225,
+      "stars": 39403,
+      "created_at": "2010-01-24T18:03:24.000Z"
     },
     {
       "name": "Async",
@@ -704,7 +802,9 @@
       "description": "Async utilities for node and the browser",
       "owner_id": 5274,
       "tags": ["flow"],
-      "delta": 2941,
+      "delta": 2948,
+      "stars": 23014,
+      "created_at": "2010-06-01T21:01:30.000Z",
       "icon": "https://caolan.github.io/async/img/async-logo.svg"
     },
     {
@@ -715,7 +815,9 @@
         "Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain",
       "owner_id": 679144,
       "tags": ["scrolling"],
-      "delta": 1102
+      "delta": 1105,
+      "stars": 17684,
+      "created_at": "2012-03-18T15:41:35.000Z"
     },
     {
       "name": "Animate.css",
@@ -725,7 +827,9 @@
         "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.",
       "owner_id": 439365,
       "tags": ["animation"],
-      "delta": 9898
+      "delta": 9929,
+      "stars": 47928,
+      "created_at": "2011-10-12T10:07:38.000Z"
     },
     {
       "name": "NativeScript",
@@ -735,7 +839,9 @@
         "NativeScript is an open source framework for building truly native mobile apps with JavaScript. Use ",
       "owner_id": 7392261,
       "tags": ["mobile"],
-      "delta": 2920
+      "delta": 2925,
+      "stars": 12044,
+      "created_at": "2015-03-01T09:47:08.000Z"
     },
     {
       "name": "Validator",
@@ -744,7 +850,9 @@
       "description": "String validation",
       "owner_id": 364903,
       "tags": ["string", "validation"],
-      "delta": 2469
+      "delta": 2473,
+      "stars": 9290,
+      "created_at": "2010-10-06T06:58:48.000Z"
     },
     {
       "name": "React hot loader",
@@ -753,7 +861,9 @@
       "description": "Tweak React components in real time.",
       "owner_id": 810438,
       "tags": ["react"],
-      "delta": 1911
+      "delta": 1917,
+      "stars": 7958,
+      "created_at": "2014-07-12T23:49:43.000Z"
     },
     {
       "name": "Mithril",
@@ -763,18 +873,10 @@
         "A Javascript Framework for Building Brilliant Applications",
       "owner_id": 19475707,
       "tags": ["framework", "vdom"],
-      "delta": 1463,
+      "delta": 1464,
+      "stars": 8262,
+      "created_at": "2014-03-17T01:59:39.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/mithril.svg"
-    },
-    {
-      "name": "Fixed datatable",
-      "url": "http://facebook.github.io/fixed-data-table/",
-      "full_name": "facebookarchive/fixed-data-table",
-      "description":
-        "A React table component designed to allow presenting thousands of rows of data.",
-      "owner_id": 7560860,
-      "tags": ["table", "react"],
-      "delta": 951
     },
     {
       "name": "TotalJS",
@@ -783,27 +885,9 @@
       "description": "Node.js framework",
       "owner_id": 6499216,
       "tags": ["nodejs-framework"],
-      "delta": 1427
-    },
-    {
-      "name": "Knockout",
-      "url": "http://knockoutjs.com/",
-      "full_name": "knockout/knockout",
-      "description":
-        "Knockout makes it easier to create rich, responsive UIs with JavaScript",
-      "owner_id": 3863375,
-      "tags": ["framework"],
-      "delta": 705
-    },
-    {
-      "name": "Ratchet",
-      "url": "http://goratchet.com",
-      "full_name": "twbs/ratchet",
-      "description":
-        "Build mobile apps with simple HTML, CSS, and JavaScript components. ",
-      "owner_id": 2918581,
-      "tags": ["css-lib", "mobile"],
-      "delta": 686
+      "delta": 1432,
+      "stars": 3544,
+      "created_at": "2012-12-16T13:12:02.000Z"
     },
     {
       "name": "Snap.svg",
@@ -812,7 +896,9 @@
       "description": "The JavaScript library for modern SVG graphics.",
       "owner_id": 2976699,
       "tags": ["drawing", "svg"],
-      "delta": 1635
+      "delta": 1639,
+      "stars": 10781,
+      "created_at": "2013-08-15T20:51:34.000Z"
     },
     {
       "name": "Three.js",
@@ -821,7 +907,9 @@
       "description": "JavaScript 3D library.",
       "owner_id": 97088,
       "tags": ["3d"],
-      "delta": 8155
+      "delta": 8203,
+      "stars": 38014,
+      "created_at": "2010-03-23T18:58:01.000Z"
     },
     {
       "name": "Hammer.js",
@@ -831,7 +919,9 @@
         "A javascript library for multi-touch gestures :// You can touch this",
       "owner_id": 7997161,
       "tags": ["touch"],
-      "delta": 2179
+      "delta": 2185,
+      "stars": 17481,
+      "created_at": "2012-03-02T12:58:28.000Z"
     },
     {
       "name": "Slick",
@@ -840,7 +930,9 @@
       "description": "the last carousel you'll ever need",
       "owner_id": 286616,
       "tags": ["nav"],
-      "delta": 3482
+      "delta": 3488,
+      "stars": 20348,
+      "created_at": "2014-03-24T02:10:05.000Z"
     },
     {
       "name": "Hexo",
@@ -850,7 +942,9 @@
         "A fast, simple & powerful blog framework, powered by Node.js.",
       "owner_id": 6375567,
       "tags": ["ssg", "blog"],
-      "delta": 6108
+      "delta": 6127,
+      "stars": 19875,
+      "created_at": "2012-09-23T15:17:08.000Z"
     },
     {
       "name": "socket.io",
@@ -859,16 +953,9 @@
       "description": "Realtime application framework (Node.JS server)",
       "owner_id": 10566080,
       "tags": ["realtime", "websocket"],
-      "delta": 8570
-    },
-    {
-      "name": "csso",
-      "url": "https://css.github.io/csso/csso.html",
-      "full_name": "css/csso",
-      "description": "CSS minifier with structural optimizations",
-      "owner_id": 1517864,
-      "tags": ["css-tool"],
-      "delta": 689
+      "delta": 8595,
+      "stars": 38182,
+      "created_at": "2010-03-11T18:24:48.000Z"
     },
     {
       "name": "deepstream.io",
@@ -877,7 +964,9 @@
       "description": "deepstream.io server",
       "owner_id": 9024218,
       "tags": ["realtime"],
-      "delta": 1110
+      "delta": 1112,
+      "stars": 5774,
+      "created_at": "2014-11-09T08:30:01.000Z"
     },
     {
       "name": "Stylus",
@@ -887,7 +976,9 @@
         "Expressive, robust, feature-rich CSS language built for nodejs",
       "owner_id": 10009463,
       "tags": ["css-tool"],
-      "delta": 1038
+      "delta": 1041,
+      "stars": 8730,
+      "created_at": "2010-12-28T22:11:43.000Z"
     },
     {
       "name": "autoprefixer",
@@ -896,7 +987,9 @@
       "description": " Parse CSS and add vendor prefixes to rules by Can I Use",
       "owner_id": 8296347,
       "tags": ["css-tool"],
-      "delta": 2795
+      "delta": 2803,
+      "stars": 14316,
+      "created_at": "2013-03-14T05:04:51.000Z"
     },
     {
       "name": "PurifyCSS",
@@ -905,16 +998,9 @@
       "description": "Remove unused CSS. Also works with single-page apps.",
       "owner_id": 12516362,
       "tags": ["css-tool"],
-      "delta": 1224
-    },
-    {
-      "name": "Elemental UI",
-      "url": "elemental-ui.com",
-      "full_name": "elementalui/elemental",
-      "description": "A flexible and beautiful UI framework for React.js",
-      "owner_id": 11880721,
-      "tags": ["react", "component"],
-      "delta": 655
+      "delta": 1226,
+      "stars": 7976,
+      "created_at": "2015-05-26T02:42:17.000Z"
     },
     {
       "name": "Flexbox",
@@ -923,7 +1009,9 @@
       "description": "Grid based on CSS3 flexbox",
       "owner_id": 76308,
       "tags": ["css-lib"],
-      "delta": 1844
+      "delta": 1846,
+      "stars": 6863,
+      "created_at": "2013-12-21T23:48:16.000Z"
     },
     {
       "name": "Awesome",
@@ -932,7 +1020,9 @@
       "description": ":sunglasses: Curated list of awesome lists",
       "owner_id": 170270,
       "tags": ["meta"],
-      "delta": 25334,
+      "delta": 25390,
+      "stars": 74514,
+      "created_at": "2014-07-11T13:42:37.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/awesome.svg"
     },
     {
@@ -942,7 +1032,9 @@
       "description": "Material Design icons by Google",
       "owner_id": 1342004,
       "tags": ["icon", "material"],
-      "delta": 5555
+      "delta": 5562,
+      "stars": 32939,
+      "created_at": "2014-10-08T18:01:28.000Z"
     },
     {
       "name": "Redux",
@@ -951,7 +1043,9 @@
       "description": "Predictable state container for JavaScript apps",
       "owner_id": 6412038,
       "tags": ["flux", "redux", "state"],
-      "delta": 9993,
+      "delta": 10014,
+      "stars": 36870,
+      "created_at": "2015-05-29T23:53:15.000Z",
       "icon": "redux.svg"
     },
     {
@@ -962,7 +1056,9 @@
         " :cyclone: PostCSS plugin to use tomorrow's CSS syntax, today.",
       "owner_id": 157534,
       "tags": ["css-tool"],
-      "delta": 1219
+      "delta": 1222,
+      "stars": 4859,
+      "created_at": "2014-08-01T06:49:41.000Z"
     },
     {
       "name": "Amaze UI",
@@ -972,7 +1068,9 @@
         "Amaze UI, a mobile-first and modular front-end framework.",
       "owner_id": 8945728,
       "tags": ["mobile"],
-      "delta": 2493
+      "delta": 2502,
+      "stars": 11096,
+      "created_at": "2014-08-04T14:23:37.000Z"
     },
     {
       "name": "Airbnb Style Guide",
@@ -981,7 +1079,9 @@
       "description": "JavaScript Style Guide",
       "owner_id": 698437,
       "tags": ["learning"],
-      "delta": 18442
+      "delta": 18477,
+      "stars": 63604,
+      "created_at": "2012-11-01T23:13:50.000Z"
     },
     {
       "name": "UIkit",
@@ -991,7 +1091,9 @@
         "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
       "owner_id": 4173184,
       "tags": ["css-lib"],
-      "delta": 3236
+      "delta": 3240,
+      "stars": 11327,
+      "created_at": "2013-07-18T16:00:26.000Z"
     },
     {
       "name": "Bootswatch",
@@ -1000,16 +1102,9 @@
       "description": "Themes for Bootstrap",
       "owner_id": 900407,
       "tags": ["css-lib"],
-      "delta": 1312
-    },
-    {
-      "name": "Dynamic.JS",
-      "url": "http://dynamicsjs.com",
-      "full_name": "michaelvillar/dynamics.js",
-      "description": "Javascript library to create physics-based animations",
-      "owner_id": 173322,
-      "tags": ["animation"],
-      "delta": 692
+      "delta": 1313,
+      "stars": 9741,
+      "created_at": "2012-02-07T04:31:56.000Z"
     },
     {
       "name": "React bootstrap",
@@ -1018,7 +1113,9 @@
       "description": "Bootstrap 3 components built with React",
       "owner_id": 6853419,
       "tags": ["react", "component"],
-      "delta": 3460
+      "delta": 3465,
+      "stars": 11834,
+      "created_at": "2013-12-27T19:06:07.000Z"
     },
     {
       "name": "selectize.js",
@@ -1028,7 +1125,9 @@
         "Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and",
       "owner_id": 14022691,
       "tags": ["plugin", "autocomplete"],
-      "delta": 1443
+      "delta": 1443,
+      "stars": 10548,
+      "created_at": "2012-08-29T18:31:57.000Z"
     },
     {
       "name": "Pixi.js",
@@ -1038,17 +1137,9 @@
         "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL",
       "owner_id": 5406849,
       "tags": ["game"],
-      "delta": 4344
-    },
-    {
-      "name": "JSHint",
-      "url": "http://jshint.com",
-      "full_name": "jshint/jshint",
-      "description":
-        "JSHint is a tool that helps to detect errors and potential problems in your JavaScript code",
-      "owner_id": 1335450,
-      "tags": ["lint"],
-      "delta": 686
+      "delta": 4367,
+      "stars": 17013,
+      "created_at": "2013-01-21T22:40:50.000Z"
     },
     {
       "name": "You Don't Know JS",
@@ -1058,7 +1149,9 @@
       "description": "A book series on JavaScript. @YDKJS on twitter.",
       "owner_id": 150330,
       "tags": ["learning", "book"],
-      "delta": 24803,
+      "delta": 24853,
+      "stars": 72752,
+      "created_at": "2013-11-16T02:37:24.000Z",
       "icon": "js.svg"
     },
     {
@@ -1069,7 +1162,9 @@
         "A fully pluggable tool for identifying and reporting on patterns in JavaScript.",
       "owner_id": 6019716,
       "tags": ["lint"],
-      "delta": 3221
+      "delta": 3232,
+      "stars": 9840,
+      "created_at": "2013-06-29T23:59:48.000Z"
     },
     {
       "name": "Babylon.js",
@@ -1079,7 +1174,9 @@
         "Babylon.js: a complete JavaScript framework for building 3D games with HTML 5 and WebGL",
       "owner_id": 4855800,
       "tags": ["game", "3d", "webgl"],
-      "delta": 1925
+      "delta": 1937,
+      "stars": 5949,
+      "created_at": "2013-06-27T20:40:42.000Z"
     },
     {
       "name": "Spectacle",
@@ -1088,16 +1185,9 @@
       "description": "ReactJS based Presentation Library",
       "owner_id": 5078602,
       "tags": ["presentation"],
-      "delta": 1890
-    },
-    {
-      "name": "PlayCanvas",
-      "url": "https://playcanvas.com/",
-      "full_name": "playcanvas/engine",
-      "description": "JavaScript game engine built on WebGL and WebVR.",
-      "owner_id": 1030579,
-      "tags": ["game"],
-      "delta": 790
+      "delta": 1891,
+      "stars": 5792,
+      "created_at": "2015-06-30T20:36:07.000Z"
     },
     {
       "name": "Ramda",
@@ -1106,7 +1196,9 @@
       "description": ":ram: Practical functional Javascript",
       "owner_id": 5298359,
       "tags": ["fp"],
-      "delta": 4006
+      "delta": 4022,
+      "stars": 10482,
+      "created_at": "2013-06-21T20:32:35.000Z"
     },
     {
       "name": "Standard",
@@ -1116,7 +1208,9 @@
         "🌟 JavaScript Style Guide, with linter & automatic code fixer",
       "owner_id": 29208316,
       "tags": ["lint"],
-      "delta": 6696,
+      "delta": 6714,
+      "stars": 15419,
+      "created_at": "2015-01-27T01:23:31.000Z",
       "icon": "https://standardjs.com/favicons/apple-touch-icon-180x180.png"
     },
     {
@@ -1126,7 +1220,9 @@
       "description": "🏊🏾 Simplified HTTP request client.",
       "owner_id": 730467,
       "tags": ["http"],
-      "delta": 4261
+      "delta": 4270,
+      "stars": 18033,
+      "created_at": "2011-01-23T01:25:14.000Z"
     },
     {
       "name": "Axios",
@@ -1135,7 +1231,9 @@
       "description": "Promise based HTTP client for the browser and node.js",
       "owner_id": 32372333,
       "tags": ["http"],
-      "delta": 21846
+      "delta": 21887,
+      "stars": 33097,
+      "created_at": "2014-08-18T22:30:27.000Z"
     },
     {
       "name": "superagent",
@@ -1144,7 +1242,9 @@
       "description": "Ajax with less suck - (and node.js HTTP client to match)",
       "owner_id": 9285252,
       "tags": ["http"],
-      "delta": 2504
+      "delta": 2511,
+      "stars": 11966,
+      "created_at": "2011-04-13T02:29:45.000Z"
     },
     {
       "name": "Bluebird",
@@ -1154,7 +1254,9 @@
         ":bird: :zap: Bluebird is a full featured promise library with unmatched performance.",
       "owner_id": 829734,
       "tags": ["flow"],
-      "delta": 2689
+      "delta": 2699,
+      "stars": 15999,
+      "created_at": "2013-09-07T19:39:57.000Z"
     },
     {
       "name": "q",
@@ -1163,7 +1265,9 @@
       "description": "A promise library for JavaScript",
       "owner_id": 60294,
       "tags": ["flow"],
-      "delta": 1131
+      "delta": 1132,
+      "stars": 13890,
+      "created_at": "2010-09-04T01:21:12.000Z"
     },
     {
       "name": "Material Design Lite",
@@ -1172,7 +1276,9 @@
       "description": "Material Design Components in HTML/CSS/JS",
       "owner_id": 1342004,
       "tags": ["css-lib", "material"],
-      "delta": 3951
+      "delta": 3958,
+      "stars": 29272,
+      "created_at": "2015-01-14T22:01:33.000Z"
     },
     {
       "name": "React Motion",
@@ -1181,7 +1287,9 @@
       "description": "A spring that solves your animation problems.",
       "owner_id": 1909539,
       "tags": ["react", "animation"],
-      "delta": 4110
+      "delta": 4117,
+      "stars": 11349,
+      "created_at": "2015-06-11T07:38:23.000Z"
     },
     {
       "name": "Dropzone",
@@ -1191,7 +1299,9 @@
         "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress b",
       "owner_id": 133277,
       "tags": ["dnd"],
-      "delta": 1622
+      "delta": 1625,
+      "stars": 13256,
+      "created_at": "2012-02-12T16:19:18.000Z"
     },
     {
       "name": "Masonry",
@@ -1200,7 +1310,9 @@
       "description": ":love_hotel: Cascading grid layout library",
       "owner_id": 85566,
       "tags": ["layout"],
-      "delta": 1422
+      "delta": 1426,
+      "stars": 12641,
+      "created_at": "2009-11-21T21:04:56.000Z"
     },
     {
       "name": "Pug",
@@ -1210,16 +1322,9 @@
         "Pug – robust, elegant, feature rich template engine for Node.js",
       "owner_id": 9338635,
       "tags": ["template"],
-      "delta": 2637
-    },
-    {
-      "name": "Formsy React",
-      "url": "",
-      "full_name": "christianalfoni/formsy-react",
-      "description": "A form input builder and validator for React JS",
-      "owner_id": 3956929,
-      "tags": ["react", "form"],
-      "delta": 646
+      "delta": 2645,
+      "stars": 15805,
+      "created_at": "2010-06-23T01:05:42.000Z"
     },
     {
       "name": "PostCSS",
@@ -1228,7 +1333,9 @@
       "description": "Transforming styles with JS plugins",
       "owner_id": 8296347,
       "tags": ["css-tool"],
-      "delta": 4017
+      "delta": 4037,
+      "stars": 17022,
+      "created_at": "2013-09-24T23:06:48.000Z"
     },
     {
       "name": "Pikaday",
@@ -1238,7 +1345,9 @@
         "A refreshing JavaScript Datepicker — lightweight, no dependencies, modular CSS",
       "owner_id": 998922,
       "tags": ["plugin", "date"],
-      "delta": 1074
+      "delta": 1075,
+      "stars": 5787,
+      "created_at": "2012-10-08T07:51:03.000Z"
     },
     {
       "name": "NodeBB",
@@ -1247,7 +1356,9 @@
       "description": "Node.js based forum software built for the modern web",
       "owner_id": 4449608,
       "tags": ["blog"],
-      "delta": 1373
+      "delta": 1379,
+      "stars": 8110,
+      "created_at": "2013-04-22T16:49:40.000Z"
     },
     {
       "name": "Ghost",
@@ -1256,7 +1367,9 @@
       "description": "The platform for professional publishers",
       "owner_id": 2178663,
       "tags": ["blog"],
-      "delta": 3133
+      "delta": 3141,
+      "stars": 24652,
+      "created_at": "2013-05-04T11:09:13.000Z"
     },
     {
       "name": "React-select",
@@ -1265,7 +1378,9 @@
       "description": "A Select control built with and for React JS",
       "owner_id": 872310,
       "tags": ["autocomplete", "react"],
-      "delta": 4256
+      "delta": 4264,
+      "stars": 9910,
+      "created_at": "2014-08-26T04:27:45.000Z"
     },
     {
       "name": "Tape",
@@ -1274,7 +1389,9 @@
       "description": "tap-producing test harness for node and browsers",
       "owner_id": 12631,
       "tags": ["test-framework", "test"],
-      "delta": 1007
+      "delta": 1007,
+      "stars": 4319,
+      "created_at": "2012-11-25T17:08:02.000Z"
     },
     {
       "name": "Guide to FP",
@@ -1283,16 +1400,9 @@
       "description": "Mostly adequate guide to FP (in javascript)",
       "owner_id": 14079115,
       "tags": ["fp", "learning", "book"],
-      "delta": 2717
-    },
-    {
-      "name": "Angular seed",
-      "url": "http://angularjs.org/",
-      "full_name": "angular/angular-seed",
-      "description": "Seed project for angular apps. ",
-      "owner_id": 139426,
-      "tags": ["angular"],
-      "delta": 773
+      "delta": 2739,
+      "stars": 12776,
+      "created_at": "2015-05-06T01:44:15.000Z"
     },
     {
       "name": "Dragula",
@@ -1301,7 +1411,9 @@
       "description": ":ok_hand: Drag and drop so simple it hurts",
       "owner_id": 934293,
       "tags": ["dnd"],
-      "delta": 2028
+      "delta": 2034,
+      "stars": 17027,
+      "created_at": "2015-04-13T21:35:38.000Z"
     },
     {
       "name": "React DnD",
@@ -1310,7 +1422,9 @@
       "description": "Drag and Drop for React",
       "owner_id": 25307599,
       "tags": ["dnd", "react"],
-      "delta": 2896
+      "delta": 2905,
+      "stars": 7387,
+      "created_at": "2014-10-19T13:29:28.000Z"
     },
     {
       "name": "Paper.js",
@@ -1320,7 +1434,9 @@
         "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the brow",
       "owner_id": 846856,
       "tags": ["drawing"],
-      "delta": 1371
+      "delta": 1374,
+      "stars": 8646,
+      "created_at": "2011-02-07T18:21:30.000Z"
     },
     {
       "name": "Devdocs.io",
@@ -1329,7 +1445,9 @@
       "description": "API Documentation Browser",
       "owner_id": 17579,
       "tags": ["learning"],
-      "delta": 5178
+      "delta": 5189,
+      "stars": 16505,
+      "created_at": "2013-10-24T18:16:07.000Z"
     },
     {
       "name": "Video.js",
@@ -1338,7 +1456,9 @@
       "description": "Video.js - open source HTML5 & Flash video player",
       "owner_id": 3287189,
       "tags": ["video"],
-      "delta": 3963
+      "delta": 3974,
+      "stars": 18699,
+      "created_at": "2010-05-14T18:45:10.000Z"
     },
     {
       "name": "Media Element",
@@ -1348,7 +1468,9 @@
         "HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, F",
       "owner_id": 1226323,
       "tags": ["video"],
-      "delta": 1306
+      "delta": 1310,
+      "stars": 5702,
+      "created_at": "2010-07-28T02:32:56.000Z"
     },
     {
       "name": "howler.js",
@@ -1357,7 +1479,9 @@
       "description": "Javascript audio library for the modern web.",
       "owner_id": 882005,
       "tags": ["audio"],
-      "delta": 1875
+      "delta": 1880,
+      "stars": 9106,
+      "created_at": "2013-01-28T16:47:12.000Z"
     },
     {
       "name": "FabricJS",
@@ -1367,25 +1491,9 @@
         "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
       "owner_id": 383,
       "tags": ["drawing", "svg", "canvas"],
-      "delta": 2233
-    },
-    {
-      "name": "MUI",
-      "url": "https://www.muicss.com",
-      "full_name": "muicss/mui",
-      "description": "Lightweight CSS framework",
-      "owner_id": 7343632,
-      "tags": ["css-lib", "material"],
-      "delta": 715
-    },
-    {
-      "name": "Less",
-      "url": "http://lesscss.org",
-      "full_name": "less/less.js",
-      "description": "Less. The dynamic stylesheet language.",
-      "owner_id": 3538330,
-      "tags": ["css-tool"],
-      "delta": 964
+      "delta": 2245,
+      "stars": 9331,
+      "created_at": "2010-06-09T22:24:38.000Z"
     },
     {
       "name": "nunjucks",
@@ -1395,7 +1503,9 @@
         "A powerful templating engine with inheritance, asynchronous control, and more (jinja2 inspired)",
       "owner_id": 131524,
       "tags": ["template"],
-      "delta": 1070
+      "delta": 1070,
+      "stars": 4832,
+      "created_at": "2012-08-09T05:40:44.000Z"
     },
     {
       "name": "cytoscape.js",
@@ -1405,7 +1515,9 @@
         "Graph theory / network library for analysis and visualisation (supports CommonJS/Node.js/Browserify/",
       "owner_id": 956141,
       "tags": ["chart"],
-      "delta": 1061
+      "delta": 1061,
+      "stars": 3782,
+      "created_at": "2011-08-23T15:28:32.000Z"
     },
     {
       "name": "Chai",
@@ -1415,7 +1527,9 @@
         "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framew",
       "owner_id": 1515293,
       "tags": ["test"],
-      "delta": 1220
+      "delta": 1224,
+      "stars": 4900,
+      "created_at": "2011-12-07T08:06:35.000Z"
     },
     {
       "name": "Blessed",
@@ -1425,7 +1539,9 @@
         "Build terminal dashboards using ascii/ansi art and javascript",
       "owner_id": 1359037,
       "tags": ["cli", "dashboard"],
-      "delta": 1784
+      "delta": 1790,
+      "stars": 10644,
+      "created_at": "2015-01-14T14:18:07.000Z"
     },
     {
       "name": "Velocity",
@@ -1434,7 +1550,9 @@
       "description": "Accelerated JavaScript animation.",
       "owner_id": 655026,
       "tags": ["animation"],
-      "delta": 2049
+      "delta": 2052,
+      "stars": 14004,
+      "created_at": "2014-04-09T20:02:38.000Z"
     },
     {
       "name": "Johnny-Five",
@@ -1444,16 +1562,9 @@
         "JavaScript Robotics and IoT programming framework, developed at Bocoup.",
       "owner_id": 27985,
       "tags": ["iot"],
-      "delta": 1297
-    },
-    {
-      "name": "Seneca",
-      "url": "http://senecajs.org",
-      "full_name": "senecajs/seneca",
-      "description": "A microservices toolkit for Node.js.",
-      "owner_id": 10085488,
-      "tags": ["microservice"],
-      "delta": 875
+      "delta": 1303,
+      "stars": 8478,
+      "created_at": "2012-03-30T20:09:52.000Z"
     },
     {
       "name": "Serverless",
@@ -1463,7 +1574,9 @@
         "Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AW",
       "owner_id": 13742415,
       "tags": ["microservice"],
-      "delta": 7298
+      "delta": 7309,
+      "stars": 20930,
+      "created_at": "2015-04-21T03:48:40.000Z"
     },
     {
       "name": "Cycle.js",
@@ -1473,7 +1586,9 @@
         "A functional and reactive JavaScript framework for predictable code",
       "owner_id": 12686838,
       "tags": ["fp", "vdom", "framework"],
-      "delta": 1987
+      "delta": 1990,
+      "stars": 7841,
+      "created_at": "2014-11-07T11:28:45.000Z"
     },
     {
       "name": "System.js",
@@ -1482,7 +1597,9 @@
       "description": "Dynamic ES module loader",
       "owner_id": 6577368,
       "tags": ["module"],
-      "delta": 1148
+      "delta": 1151,
+      "stars": 8782,
+      "created_at": "2013-05-14T20:45:48.000Z"
     },
     {
       "name": "Relay",
@@ -1492,7 +1609,9 @@
         "Relay is a JavaScript framework for building data-driven React applications.",
       "owner_id": 69631,
       "tags": ["framework", "graphql"],
-      "delta": 2474,
+      "delta": 2483,
+      "stars": 10148,
+      "created_at": "2015-08-10T22:09:16.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/relay.svg"
     },
     {
@@ -1503,7 +1622,9 @@
         ":art: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more",
       "owner_id": 4633636,
       "tags": ["react"],
-      "delta": 1388
+      "delta": 1388,
+      "stars": 4550,
+      "created_at": "2015-08-09T18:45:30.000Z"
     },
     {
       "name": "Falcor",
@@ -1512,7 +1633,9 @@
       "description": "A JavaScript library for efficient data fetching",
       "owner_id": 913567,
       "tags": ["data"],
-      "delta": 1270
+      "delta": 1273,
+      "stars": 8377,
+      "created_at": "2015-02-13T00:17:50.000Z"
     },
     {
       "name": "echarts",
@@ -1522,7 +1645,9 @@
         "A powerful, interactive charting and visualization library for browser",
       "owner_id": 2268460,
       "tags": ["chart"],
-      "delta": 7613
+      "delta": 7626,
+      "stars": 23022,
+      "created_at": "2013-04-03T03:18:59.000Z"
     },
     {
       "name": "Leaflet",
@@ -1532,7 +1657,9 @@
         " :leaves: JavaScript library for mobile-friendly interactive maps",
       "owner_id": 2854298,
       "tags": ["map"],
-      "delta": 3162
+      "delta": 3167,
+      "stars": 20319,
+      "created_at": "2010-09-22T16:57:44.000Z"
     },
     {
       "name": "chroma.js",
@@ -1541,16 +1668,9 @@
       "description": "JavaScript library for all kinds of color manipulations",
       "owner_id": 617518,
       "tags": ["color"],
-      "delta": 1301
-    },
-    {
-      "name": "sigma.js",
-      "url": "http://sigmajs.org",
-      "full_name": "jacomyal/sigma.js",
-      "description": "A JavaScript library dedicated to graph drawing",
-      "owner_id": 144846,
-      "tags": ["chart"],
-      "delta": 842
+      "delta": 1302,
+      "stars": 4748,
+      "created_at": "2011-12-12T00:33:02.000Z"
     },
     {
       "name": "json-server",
@@ -1560,7 +1680,9 @@
         "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
       "owner_id": 5502029,
       "tags": ["api"],
-      "delta": 9497
+      "delta": 9511,
+      "stars": 27733,
+      "created_at": "2013-11-27T13:21:13.000Z"
     },
     {
       "name": "Critical",
@@ -1569,7 +1691,9 @@
       "description": "Extract & Inline Critical-path CSS in HTML pages",
       "owner_id": 110953,
       "tags": ["performance"],
-      "delta": 2400
+      "delta": 2404,
+      "stars": 6335,
+      "created_at": "2014-06-28T09:31:42.000Z"
     },
     {
       "name": "Cheerio",
@@ -1579,7 +1703,9 @@
         "Fast, flexible, and lean implementation of core jQuery designed specifically for the server.",
       "owner_id": 7230330,
       "tags": ["parsing"],
-      "delta": 3711
+      "delta": 3724,
+      "stars": 14460,
+      "created_at": "2011-10-09T04:23:20.000Z"
     },
     {
       "name": "nock",
@@ -1588,7 +1714,9 @@
       "description": "HTTP mocking and expectations library",
       "owner_id": 17545810,
       "tags": ["test"],
-      "delta": 1445
+      "delta": 1450,
+      "stars": 5756,
+      "created_at": "2011-09-22T10:08:03.000Z"
     },
     {
       "name": "Electron",
@@ -1598,16 +1726,9 @@
         "Build cross platform desktop apps with JavaScript, HTML, and CSS",
       "owner_id": 13409222,
       "tags": ["desktop"],
-      "delta": 14722
-    },
-    {
-      "name": "x-ray",
-      "url": "http://lapwinglabs.com/",
-      "full_name": "matthewmueller/x-ray",
-      "description": "The next web scraper. See through the <html> noise.",
-      "owner_id": 170299,
-      "tags": ["parsing"],
-      "delta": 793
+      "delta": 14763,
+      "stars": 54583,
+      "created_at": "2013-04-12T01:47:36.000Z"
     },
     {
       "name": "PM2",
@@ -1617,25 +1738,9 @@
         "PM2 CE: Production Runtime and Process Manager for Node.js apps with a built-in Load Balancer.",
       "owner_id": 757747,
       "tags": ["process"],
-      "delta": 6203
-    },
-    {
-      "name": "Clusterize.js",
-      "url": "https://clusterize.js.org",
-      "full_name": "NeXTs/Clusterize.js",
-      "description": "Tiny vanilla JS plugin to display large data sets easily",
-      "owner_id": 1753208,
-      "tags": ["table"],
-      "delta": 660
-    },
-    {
-      "name": "Octicons",
-      "url": "https://octicons.github.com/",
-      "full_name": "primer/octicons",
-      "description": "A scalable set of icons handcrafted with <3 by GitHub",
-      "owner_id": 7143434,
-      "tags": ["icon"],
-      "delta": 619
+      "delta": 6218,
+      "stars": 22726,
+      "created_at": "2013-05-21T03:25:25.000Z"
     },
     {
       "name": "ACE",
@@ -1644,7 +1749,9 @@
       "description": "Ace (Ajax.org Cloud9 Editor)",
       "owner_id": 168515,
       "tags": ["highlight"],
-      "delta": 2430
+      "delta": 2448,
+      "stars": 16517,
+      "created_at": "2010-10-27T10:43:36.000Z"
     },
     {
       "name": "co",
@@ -1654,7 +1761,9 @@
         "The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)",
       "owner_id": 25254,
       "tags": ["flow"],
-      "delta": 1922
+      "delta": 1927,
+      "stars": 9144,
+      "created_at": "2013-06-06T04:06:16.000Z"
     },
     {
       "name": "CodeMirror",
@@ -1663,7 +1772,9 @@
       "description": "In-browser code editor",
       "owner_id": 8876537,
       "tags": ["highlight"],
-      "delta": 2841
+      "delta": 2848,
+      "stars": 13535,
+      "created_at": "2011-01-14T13:44:03.000Z"
     },
     {
       "name": "TypeScript",
@@ -1673,7 +1784,9 @@
         "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "owner_id": 6154722,
       "tags": ["compiler"],
-      "delta": 11472,
+      "delta": 11519,
+      "stars": 29413,
+      "created_at": "2014-06-17T15:28:39.000Z",
       "icon": "typescript.svg"
     },
     {
@@ -1684,7 +1797,9 @@
         "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
       "owner_id": 1706326,
       "tags": ["scrolling"],
-      "delta": 4644
+      "delta": 4657,
+      "stars": 21817,
+      "created_at": "2013-09-20T11:58:29.000Z"
     },
     {
       "name": "Babel",
@@ -1694,18 +1809,9 @@
         ":tropical_fish: Babel is a compiler for writing next generation JavaScript.",
       "owner_id": 9637642,
       "tags": ["compiler"],
-      "delta": 5679
-    },
-    {
-      "name": "CoffeeScript",
-      "url": "http://coffeescript.org/",
-      "full_name": "jashkenas/coffeescript",
-      "description": "Unfancy JavaScript",
-      "owner_id": 4732,
-      "tags": ["compiler"],
-      "delta": 892,
-      "icon":
-        "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/coffeescript.svg"
+      "delta": 5696,
+      "stars": 24945,
+      "created_at": "2014-09-28T13:38:23.000Z"
     },
     {
       "name": "ws",
@@ -1715,16 +1821,9 @@
         "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js",
       "owner_id": 10721323,
       "tags": ["realtime", "websocket"],
-      "delta": 2696
-    },
-    {
-      "name": "ProseMirror",
-      "url": "http://prosemirror.net/",
-      "full_name": "ProseMirror/prosemirror",
-      "description": "The ProseMirror WYSIWYM editor",
-      "owner_id": 13659461,
-      "tags": ["rich-text-editor"],
-      "delta": 770
+      "delta": 2707,
+      "stars": 7124,
+      "created_at": "2011-11-09T22:32:45.000Z"
     },
     {
       "name": "Tracking.js",
@@ -1733,7 +1832,9 @@
       "description": "A modern approach for Computer Vision on the web",
       "owner_id": 113087,
       "tags": ["image"],
-      "delta": 1488
+      "delta": 1493,
+      "stars": 5959,
+      "created_at": "2012-06-18T04:39:34.000Z"
     },
     {
       "name": "Feathers",
@@ -1742,16 +1843,9 @@
       "description": "A REST and realtime API layer for modern applications.",
       "owner_id": 5321853,
       "tags": ["api", "nodejs-framework", "realtime"],
-      "delta": 2949
-    },
-    {
-      "name": "Vega",
-      "url": "http://vega.github.io/vega",
-      "full_name": "vega/vega",
-      "description": "A visualization grammar.",
-      "owner_id": 11796929,
-      "tags": ["chart"],
-      "delta": 944
+      "delta": 2956,
+      "stars": 8099,
+      "created_at": "2011-10-19T22:45:16.000Z"
     },
     {
       "name": "Morgan",
@@ -1760,7 +1854,9 @@
       "description": "HTTP request logger middleware for node.js",
       "owner_id": 5658226,
       "tags": ["log"],
-      "delta": 1097
+      "delta": 1100,
+      "stars": 3066,
+      "created_at": "2014-02-08T19:19:14.000Z"
     },
     {
       "name": "Winston",
@@ -1769,16 +1865,9 @@
       "description": "A logger for just about everything.",
       "owner_id": 9682013,
       "tags": ["log"],
-      "delta": 2430
-    },
-    {
-      "name": "gm",
-      "url": "http://aheckmann.github.com/gm/",
-      "full_name": "aheckmann/gm",
-      "description": "GraphicsMagick for node",
-      "owner_id": 166834,
-      "tags": ["image"],
-      "delta": 857
+      "delta": 2437,
+      "stars": 9101,
+      "created_at": "2010-12-29T18:49:51.000Z"
     },
     {
       "name": "Animate Plus",
@@ -1787,7 +1876,9 @@
       "description": "A+ animation module for the modern web",
       "owner_id": 51664,
       "tags": ["animation", "svg"],
-      "delta": 2065
+      "delta": 2068,
+      "stars": 4384,
+      "created_at": "2015-05-12T18:54:16.000Z"
     },
     {
       "name": "StackEdit",
@@ -1796,17 +1887,9 @@
       "description": "In-browser markdown editor",
       "owner_id": 1005257,
       "tags": ["md"],
-      "delta": 1573
-    },
-    {
-      "name": "Lovefield",
-      "url": "https://google.github.io/lovefield/",
-      "full_name": "google/lovefield",
-      "description":
-        "Lovefield is a relational database for web apps. Written in JavaScript, works cross-browser. Provide",
-      "owner_id": 1342004,
-      "tags": ["db"],
-      "delta": 900
+      "delta": 1580,
+      "stars": 10563,
+      "created_at": "2013-03-24T13:46:06.000Z"
     },
     {
       "name": "CSS Modules",
@@ -1815,7 +1898,9 @@
       "description": "Documentation about css-modules",
       "owner_id": 12612655,
       "tags": ["css-in-js"],
-      "delta": 2928
+      "delta": 2933,
+      "stars": 8694,
+      "created_at": "2015-05-25T21:54:47.000Z"
     },
     {
       "name": "node-inspector",
@@ -1824,16 +1909,9 @@
       "description": "Node.js debugger based on Blink Developer Tools",
       "owner_id": 4449877,
       "tags": ["debug"],
-      "delta": 1071
-    },
-    {
-      "name": "minimist",
-      "url": "",
-      "full_name": "substack/minimist",
-      "description": "parse argument options",
-      "owner_id": 12631,
-      "tags": ["cli"],
-      "delta": 721
+      "delta": 1072,
+      "stars": 11917,
+      "created_at": "2010-07-17T23:20:19.000Z"
     },
     {
       "name": "Modernizr",
@@ -1843,7 +1921,9 @@
         "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
       "owner_id": 131060,
       "tags": ["compatibility"],
-      "delta": 2328
+      "delta": 2330,
+      "stars": 21822,
+      "created_at": "2009-09-25T20:13:23.000Z"
     },
     {
       "name": "React Native",
@@ -1852,17 +1932,9 @@
       "description": "A framework for building native apps with React.",
       "owner_id": 69631,
       "tags": ["mobile", "react-native"],
-      "delta": 15503
-    },
-    {
-      "name": "MEAN",
-      "url": "http://mean.io",
-      "full_name": "linnovate/mean",
-      "description":
-        "The MEAN stack uses Mongo, Express, Angular(4) and Node for simple and scalable fullstack js applica",
-      "owner_id": 307487,
-      "tags": ["fullstack"],
-      "delta": 947
+      "delta": 15554,
+      "stars": 57815,
+      "created_at": "2015-01-09T18:10:16.000Z"
     },
     {
       "name": "You might not need jQuery",
@@ -1871,27 +1943,9 @@
       "description": "A resource for doing things au naturel.",
       "owner_id": 326419,
       "tags": ["learning"],
-      "delta": 1592
-    },
-    {
-      "name": "FlowChart",
-      "url": "http://flowchart.js.org/",
-      "full_name": "adrai/flowchart.js",
-      "description":
-        "Draws simple SVG flow chart diagrams from textual representation of the diagram",
-      "owner_id": 1086194,
-      "tags": ["chart"],
-      "delta": 981
-    },
-    {
-      "name": "Sequence Diagrams",
-      "url": "https://bramp.github.io/js-sequence-diagrams/",
-      "full_name": "bramp/js-sequence-diagrams",
-      "description":
-        "Draws simple SVG sequence diagrams from textual representation of the diagram",
-      "owner_id": 160627,
-      "tags": ["chart"],
-      "delta": 836
+      "delta": 1599,
+      "stars": 9710,
+      "created_at": "2014-01-16T00:21:17.000Z"
     },
     {
       "name": "Pomelo",
@@ -1901,7 +1955,9 @@
         "A fast,scalable,distributed game server framework for Node.js.",
       "owner_id": 1460597,
       "tags": ["game"],
-      "delta": 1724
+      "delta": 1731,
+      "stars": 8667,
+      "created_at": "2012-09-20T02:37:07.000Z"
     },
     {
       "name": "NW.js",
@@ -1911,17 +1967,9 @@
         "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications wi",
       "owner_id": 10180421,
       "tags": ["desktop"],
-      "delta": 2720
-    },
-    {
-      "name": "bookshelf",
-      "url": "http://bookshelfjs.org",
-      "full_name": "bookshelf/bookshelf",
-      "description":
-        "A simple Node.js ORM for PostgreSQL, MySQL and SQLite3 built on top of Knex.js",
-      "owner_id": 4448260,
-      "tags": ["db"],
-      "delta": 780
+      "delta": 2724,
+      "stars": 33020,
+      "created_at": "2012-01-04T06:21:10.000Z"
     },
     {
       "name": "clipboard.js",
@@ -1931,7 +1979,9 @@
         ":scissors: Modern copy to clipboard. No Flash. Just 3kb gzipped :clipboard:",
       "owner_id": 398893,
       "tags": ["util"],
-      "delta": 4873
+      "delta": 4898,
+      "stars": 20355,
+      "created_at": "2015-09-18T23:04:55.000Z"
     },
     {
       "name": "jimp",
@@ -1941,7 +1991,9 @@
         "An image processing library written entirely in JavaScript for Node, with zero external or native de",
       "owner_id": 414918,
       "tags": ["image"],
-      "delta": 3278
+      "delta": 3284,
+      "stars": 5059,
+      "created_at": "2014-09-13T22:53:45.000Z"
     },
     {
       "name": "Gatsby",
@@ -1950,7 +2002,9 @@
       "description": "⚛️📄🚀 Blazing fast static site generator for React",
       "owner_id": 12551863,
       "tags": ["ssg", "react", "graphql"],
-      "delta": 9541,
+      "delta": 9600,
+      "stars": 16489,
+      "created_at": "2015-05-21T22:43:05.000Z",
       "icon": "https://www.gatsbyjs.org/gatsby-negative.svg"
     },
     {
@@ -1961,7 +2015,9 @@
         "The JavaScript motion engine. Create unique animations and interactions with tweens, physics and inp",
       "owner_id": 14272617,
       "tags": ["animation"],
-      "delta": 3401
+      "delta": 3485,
+      "stars": 6883,
+      "created_at": "2014-08-17T16:23:07.000Z"
     },
     {
       "name": "React Starter Kit",
@@ -1971,7 +2027,9 @@
         "React Starter Kit — isomorphic web app boilerplate (Node.js, Express, GraphQL, React.js, Babel, Post",
       "owner_id": 773036,
       "tags": ["react", "isomorphic", "boilerplate", "graphql"],
-      "delta": 4291
+      "delta": 4298,
+      "stars": 16436,
+      "created_at": "2014-04-16T13:08:18.000Z"
     },
     {
       "name": "Sharp",
@@ -1981,7 +2039,9 @@
         "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF ima",
       "owner_id": 210965,
       "tags": ["image"],
-      "delta": 2926
+      "delta": 2933,
+      "stars": 6952,
+      "created_at": "2013-08-19T20:24:24.000Z"
     },
     {
       "name": "Node.js",
@@ -1991,7 +2051,9 @@
         "Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:",
       "owner_id": 9950313,
       "tags": ["node.js"],
-      "delta": 13645
+      "delta": 13678,
+      "stars": 43949,
+      "created_at": "2014-11-26T19:57:11.000Z"
     },
     {
       "name": "Relax",
@@ -2000,7 +2062,9 @@
       "description": "New generation CMS on top of React, Redux and GraphQL",
       "owner_id": 13644940,
       "tags": ["cms"],
-      "delta": 1074
+      "delta": 1078,
+      "stars": 7723,
+      "created_at": "2015-08-31T12:16:25.000Z"
     },
     {
       "name": "Sequelize",
@@ -2009,7 +2073,9 @@
       "description": "An easy-to-use multi SQL dialect ORM for Node.js",
       "owner_id": 3591786,
       "tags": ["db"],
-      "delta": 4133
+      "delta": 4149,
+      "stars": 12556,
+      "created_at": "2010-07-22T07:11:11.000Z"
     },
     {
       "name": "Recompose",
@@ -2019,7 +2085,9 @@
         "A React utility belt for function components and higher-order components.",
       "owner_id": 3624098,
       "tags": ["react"],
-      "delta": 5008
+      "delta": 5019,
+      "stars": 8411,
+      "created_at": "2015-10-07T05:54:51.000Z"
     },
     {
       "name": "AMP HTML",
@@ -2029,7 +2097,9 @@
         "AMP HTML source code, samples, and documentation.  See below for more info.",
       "owner_id": 14114390,
       "tags": ["performance"],
-      "delta": 1513
+      "delta": 1515,
+      "stars": 10828,
+      "created_at": "2015-09-01T22:10:53.000Z"
     },
     {
       "name": "photon",
@@ -2039,7 +2109,9 @@
         "The fastest way to build beautiful Electron apps using simple HTML and CSS",
       "owner_id": 874145,
       "tags": ["desktop"],
-      "delta": 1614
+      "delta": 1617,
+      "stars": 7931,
+      "created_at": "2015-09-28T04:03:26.000Z"
     },
     {
       "name": "Synaptic",
@@ -2049,16 +2121,9 @@
         "architecture-free neural network library for node.js and the browser",
       "owner_id": 2781777,
       "tags": ["neural", "ml"],
-      "delta": 2262
-    },
-    {
-      "name": "smartcrop.js",
-      "url": "http://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping",
-      "full_name": "jwagner/smartcrop.js",
-      "description": "Content aware image cropping",
-      "owner_id": 293536,
-      "tags": ["image"],
-      "delta": 663
+      "delta": 2267,
+      "stars": 5618,
+      "created_at": "2014-09-30T18:07:03.000Z"
     },
     {
       "name": "Inquirer.js",
@@ -2068,16 +2133,9 @@
         "A collection of common interactive command line user interfaces.",
       "owner_id": 923865,
       "tags": ["cli"],
-      "delta": 2179
-    },
-    {
-      "name": "Trix",
-      "url": "https://trix-editor.org/",
-      "full_name": "basecamp/trix",
-      "description": "A rich text editor for everyday writing",
-      "owner_id": 13131,
-      "tags": ["rich-text-editor"],
-      "delta": 921
+      "delta": 2191,
+      "stars": 5897,
+      "created_at": "2013-05-17T01:41:36.000Z"
     },
     {
       "name": "Structor",
@@ -2086,7 +2144,9 @@
       "description": "Structor - React UI Builder",
       "owner_id": 11865795,
       "tags": ["react"],
-      "delta": 1368
+      "delta": 1368,
+      "stars": 4927,
+      "created_at": "2015-10-17T15:49:40.000Z"
     },
     {
       "name": "Nightmare",
@@ -2095,16 +2155,20 @@
       "description": "A high-level browser automation library.",
       "owner_id": 819518,
       "tags": ["auto"],
-      "delta": 4578
+      "delta": 4578,
+      "stars": 14479,
+      "created_at": "2014-04-05T22:19:51.000Z"
     },
     {
-      "name": "rollup",
+      "name": "Rollup",
       "url": "http://rollupjs.org",
       "full_name": "rollup/rollup",
       "description": "Next-generation ES6 module bundler",
       "owner_id": 12554859,
       "tags": ["module", "build"],
-      "delta": 3494
+      "delta": 3509,
+      "stars": 11327,
+      "created_at": "2015-05-14T22:26:28.000Z"
     },
     {
       "name": "Quill",
@@ -2114,7 +2178,9 @@
         "Quill is a modern rich text editor built for compatibility and extensibility.",
       "owner_id": 7089101,
       "tags": ["rich-text-editor"],
-      "delta": 4194
+      "delta": 4206,
+      "stars": 16039,
+      "created_at": "2012-07-30T23:23:18.000Z"
     },
     {
       "name": "isomorphic-fetch",
@@ -2123,16 +2189,9 @@
       "description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
       "owner_id": 825088,
       "tags": ["http", "isomorphic"],
-      "delta": 1703
-    },
-    {
-      "name": "imagemin",
-      "url": "",
-      "full_name": "imagemin/imagemin",
-      "description": "Tense, nervous, minifying images?",
-      "owner_id": 7868808,
-      "tags": ["image"],
-      "delta": 756
+      "delta": 1706,
+      "stars": 5188,
+      "created_at": "2014-11-07T08:46:13.000Z"
     },
     {
       "name": "Mongoose",
@@ -2142,7 +2201,9 @@
         "MongoDB object modeling designed to work in an asynchronous environment.",
       "owner_id": 887802,
       "tags": ["db"],
-      "delta": 3227
+      "delta": 3234,
+      "stars": 14351,
+      "created_at": "2010-04-06T21:39:05.000Z"
     },
     {
       "name": "React toolbox",
@@ -2152,7 +2213,9 @@
         "A set of React components implementing Google's Material Design specification with the power of CSS ",
       "owner_id": 13482715,
       "tags": ["material", "react", "component"],
-      "delta": 2457
+      "delta": 2459,
+      "stars": 7487,
+      "created_at": "2015-05-27T15:23:33.000Z"
     },
     {
       "name": "Sortable",
@@ -2162,7 +2225,9 @@
         "Sortable — is a JavaScript library for reorderable drag-and-drop lists on modern browsers and touch ",
       "owner_id": 1109562,
       "tags": ["dnd"],
-      "delta": 3268
+      "delta": 3281,
+      "stars": 12229,
+      "created_at": "2013-12-19T10:10:13.000Z"
     },
     {
       "name": "AVA",
@@ -2171,26 +2236,9 @@
       "description": ":rocket: Futuristic JavaScript test runner",
       "owner_id": 8527916,
       "tags": ["test-framework", "test"],
-      "delta": 4746
-    },
-    {
-      "name": "got",
-      "url": "",
-      "full_name": "sindresorhus/got",
-      "description": "Simplified HTTP requests",
-      "owner_id": 170270,
-      "tags": ["http"],
-      "delta": 872
-    },
-    {
-      "name": "slideout",
-      "url": "https://slideout.js.org",
-      "full_name": "Mango/slideout",
-      "description":
-        "A touch slideout navigation menu for your mobile web apps.",
-      "owner_id": 5920385,
-      "tags": ["nav"],
-      "delta": 899
+      "delta": 4751,
+      "stars": 12339,
+      "created_at": "2014-11-18T17:20:26.000Z"
     },
     {
       "name": "MathJax",
@@ -2199,17 +2247,9 @@
       "description": "Beautiful math in all browsers",
       "owner_id": 252187,
       "tags": ["math"],
-      "delta": 1098
-    },
-    {
-      "name": "notie",
-      "url": "https://jaredreich.com/notie",
-      "full_name": "jaredreich/notie",
-      "description":
-        "🔔 a clean and simple notification, input, and selection suite for javascript, with no dependencies",
-      "owner_id": 8563847,
-      "tags": ["notify"],
-      "delta": 653
+      "delta": 1104,
+      "stars": 4775,
+      "created_at": "2010-08-19T03:28:53.000Z"
     },
     {
       "name": "plotly.js",
@@ -2219,7 +2259,9 @@
         "The open source JavaScript graphing library that powers plotly",
       "owner_id": 5997976,
       "tags": ["chart"],
-      "delta": 1649
+      "delta": 1651,
+      "stars": 7365,
+      "created_at": "2015-11-05T23:27:17.000Z"
     },
     {
       "name": "mo · js",
@@ -2228,7 +2270,9 @@
       "description": "motion graphics toolbelt for the web",
       "owner_id": 1478800,
       "tags": ["animation"],
-      "delta": 3842
+      "delta": 3846,
+      "stars": 12699,
+      "created_at": "2014-06-26T08:49:14.000Z"
     },
     {
       "name": "GraphQL",
@@ -2238,7 +2282,9 @@
         "GraphQL is a query language and execution engine tied to any backend service.",
       "owner_id": 69631,
       "tags": ["data", "graphql"],
-      "delta": 2779,
+      "delta": 2786,
+      "stars": 6863,
+      "created_at": "2015-07-01T01:26:56.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/graphql.svg"
     },
     {
@@ -2249,6 +2295,8 @@
       "owner_id": 10355,
       "tags": ["auth"],
       "delta": 2839,
+      "stars": 12320,
+      "created_at": "2011-10-08T22:38:32.000Z",
       "icon":
         "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/passport.svg"
     },
@@ -2259,27 +2307,10 @@
       "description": "Visual Studio Code",
       "owner_id": 6154722,
       "tags": ["ide"],
-      "delta": 20061,
+      "delta": 20126,
+      "stars": 41265,
+      "created_at": "2015-09-03T20:23:38.000Z",
       "icon": "vscode.svg"
-    },
-    {
-      "name": "headroom.js",
-      "url": "http://wicky.nillia.ms/headroom.js/",
-      "full_name": "WickyNilliams/headroom.js",
-      "description":
-        "Give your pages some headroom. Hide your header until you need it",
-      "owner_id": 1091390,
-      "tags": ["scrolling"],
-      "delta": 835
-    },
-    {
-      "name": "lunr",
-      "url": "http://lunrjs.com",
-      "full_name": "olivernn/lunr.js",
-      "description": "A bit like Solr, but much smaller and not as bright",
-      "owner_id": 35913,
-      "tags": ["search"],
-      "delta": 956
     },
     {
       "name": "vivus",
@@ -2288,7 +2319,9 @@
       "description": "JavaScript library to make drawing animation on SVG",
       "owner_id": 1097232,
       "tags": ["animation", "svg"],
-      "delta": 1876
+      "delta": 1880,
+      "stars": 9655,
+      "created_at": "2014-05-13T22:22:18.000Z"
     },
     {
       "name": "virtual-dom",
@@ -2297,16 +2330,9 @@
       "description": "A Virtual DOM and diffing algorithm",
       "owner_id": 1058839,
       "tags": ["vdom"],
-      "delta": 1463
-    },
-    {
-      "name": "page.js",
-      "url": "http://visionmedia.github.com/page.js",
-      "full_name": "visionmedia/page.js",
-      "description": "Micro client-side router inspired by the Express router",
-      "owner_id": 9285252,
-      "tags": ["routing"],
-      "delta": 755
+      "delta": 1466,
+      "stars": 8647,
+      "created_at": "2014-01-23T17:12:21.000Z"
     },
     {
       "name": "supertest",
@@ -2316,7 +2342,9 @@
         "Super-agent driven library for testing node.js HTTP servers using a fluent API",
       "owner_id": 9285252,
       "tags": ["test"],
-      "delta": 1647
+      "delta": 1656,
+      "stars": 6128,
+      "created_at": "2012-06-27T20:56:12.000Z"
     },
     {
       "name": "Solved by Flexbox",
@@ -2326,7 +2354,9 @@
         "A showcase of problems once hard or impossible to solve with CSS alone, now made trivially easy with",
       "owner_id": 326742,
       "tags": ["learning"],
-      "delta": 1488
+      "delta": 1491,
+      "stars": 10646,
+      "created_at": "2013-08-31T23:04:51.000Z"
     },
     {
       "name": "Enzyme",
@@ -2335,7 +2365,9 @@
       "description": "JavaScript Testing utilities for React",
       "owner_id": 698437,
       "tags": ["test", "react"],
-      "delta": 4357
+      "delta": 4366,
+      "stars": 12096,
+      "created_at": "2015-11-10T21:45:38.000Z"
     },
     {
       "name": "marked",
@@ -2344,7 +2376,9 @@
       "description": "A markdown parser and compiler. Built for speed.",
       "owner_id": 470564,
       "tags": ["md"],
-      "delta": 3564
+      "delta": 3578,
+      "stars": 14930,
+      "created_at": "2011-07-24T13:15:51.000Z"
     },
     {
       "name": "Swiper",
@@ -2354,7 +2388,9 @@
         "Most modern mobile touch slider with hardware accelerated transitions",
       "owner_id": 999588,
       "tags": ["nav"],
-      "delta": 4278
+      "delta": 4288,
+      "stars": 14765,
+      "created_at": "2012-03-14T19:11:45.000Z"
     },
     {
       "name": "Framework7",
@@ -2364,7 +2400,9 @@
         "Full featured HTML framework for building iOS & Android apps",
       "owner_id": 31954178,
       "tags": ["mobile"],
-      "delta": 2874
+      "delta": 2876,
+      "stars": 11457,
+      "created_at": "2014-02-23T12:15:53.000Z"
     },
     {
       "name": "react virtualized",
@@ -2374,7 +2412,9 @@
         "React components for efficiently rendering large lists and tabular data",
       "owner_id": 29597,
       "tags": ["react", "scrolling"],
-      "delta": 4039
+      "delta": 4049,
+      "stars": 8255,
+      "created_at": "2015-11-03T00:48:07.000Z"
     },
     {
       "name": "ScrollReveal",
@@ -2383,7 +2423,9 @@
       "description": "Easy scroll animations for web and mobile browsers.",
       "owner_id": 2044842,
       "tags": ["scrolling"],
-      "delta": 2878
+      "delta": 2886,
+      "stars": 14110,
+      "created_at": "2014-01-16T17:37:20.000Z"
     },
     {
       "name": "aframe",
@@ -2393,7 +2435,9 @@
         ":a: web framework for building virtual reality experiences.",
       "owner_id": 16024092,
       "tags": ["virtual"],
-      "delta": 2913
+      "delta": 2918,
+      "stars": 7248,
+      "created_at": "2015-09-15T02:04:40.000Z"
     },
     {
       "name": "Strapi",
@@ -2403,7 +2447,9 @@
         ":rocket: Node.js Content Management Framework (headless-CMS) to build powerful API with no effort.",
       "owner_id": 19872173,
       "tags": ["api"],
-      "delta": 1513
+      "delta": 1518,
+      "stars": 2463,
+      "created_at": "2015-09-30T15:34:48.000Z"
     },
     {
       "name": "Victory",
@@ -2413,7 +2459,9 @@
         "A collection of composable React components for building interactive data visualizations",
       "owner_id": 5078602,
       "tags": ["chart", "react", "d3"],
-      "delta": 1871
+      "delta": 1875,
+      "stars": 5382,
+      "created_at": "2015-07-02T22:36:50.000Z"
     },
     {
       "name": "BrowserSync",
@@ -2423,7 +2471,9 @@
         "Keep multiple browsers & devices in sync when building websites. http://browsersync.io",
       "owner_id": 10654171,
       "tags": ["test"],
-      "delta": 1397
+      "delta": 1398,
+      "stars": 9517,
+      "created_at": "2013-10-12T19:35:45.000Z"
     },
     {
       "name": "LocalForage",
@@ -2433,7 +2483,9 @@
         "💾 Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful A",
       "owner_id": 18673496,
       "tags": ["offline"],
-      "delta": 3631
+      "delta": 3641,
+      "stars": 10738,
+      "created_at": "2013-10-31T00:10:06.000Z"
     },
     {
       "name": "joi",
@@ -2442,16 +2494,9 @@
       "description": "Object schema validation",
       "owner_id": 3774533,
       "tags": ["json", "validation"],
-      "delta": 2614
-    },
-    {
-      "name": "SocketCluster",
-      "url": "http://socketcluster.io/",
-      "full_name": "SocketCluster/socketcluster",
-      "description": "Highly scalable realtime framework",
-      "owner_id": 12481324,
-      "tags": ["realtime", "websocket"],
-      "delta": 800
+      "delta": 2621,
+      "stars": 6713,
+      "created_at": "2012-09-16T16:38:06.000Z"
     },
     {
       "name": "redux-form",
@@ -2461,17 +2506,9 @@
         "A Higher Order Component using react-redux to keep form state in a Redux store",
       "owner_id": 4396759,
       "tags": ["form", "redux"],
-      "delta": 3687
-    },
-    {
-      "name": "remarkable",
-      "url": "https://jonschlinkert.github.io/remarkable/demo/",
-      "full_name": "jonschlinkert/remarkable",
-      "description":
-        "Markdown parser, done right. Commonmark support, extensions, syntax plugins, high speed - all in one",
-      "owner_id": 383994,
-      "tags": ["md"],
-      "delta": 615
+      "delta": 3695,
+      "stars": 8479,
+      "created_at": "2015-07-31T16:07:03.000Z"
     },
     {
       "name": "React Redux Universal Hot Example",
@@ -2481,7 +2518,9 @@
         "A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transfo",
       "owner_id": 4396759,
       "tags": ["boilerplate", "react", "redux"],
-      "delta": 2270
+      "delta": 2275,
+      "stars": 10755,
+      "created_at": "2015-06-23T16:39:21.000Z"
     },
     {
       "name": "Este",
@@ -2490,7 +2529,9 @@
       "description": "Explore the source code",
       "owner_id": 3302034,
       "tags": ["boilerplate", "react", "redux"],
-      "delta": 1045
+      "delta": 1044,
+      "stars": 5294,
+      "created_at": "2013-02-16T03:30:38.000Z"
     },
     {
       "name": "React boilerplate",
@@ -2500,7 +2541,9 @@
         ":fire: A highly scalable, offline-first foundation with the best developer experience and a focus on",
       "owner_id": 25323389,
       "tags": ["boilerplate", "react", "redux", "offline"],
-      "delta": 5306
+      "delta": 5313,
+      "stars": 16493,
+      "created_at": "2015-02-18T14:36:32.000Z"
     },
     {
       "name": "Milligram",
@@ -2509,7 +2552,9 @@
       "description": "A minimalist CSS framework.",
       "owner_id": 16243913,
       "tags": ["css-lib"],
-      "delta": 2047
+      "delta": 2049,
+      "stars": 6752,
+      "created_at": "2015-12-10T17:03:36.000Z"
     },
     {
       "name": "Skeleton",
@@ -2519,7 +2564,9 @@
         "Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
       "owner_id": 693790,
       "tags": ["css-lib"],
-      "delta": 1806
+      "delta": 1809,
+      "stars": 15077,
+      "created_at": "2011-04-30T20:04:24.000Z"
     },
     {
       "name": "Highlight.js",
@@ -2528,16 +2575,9 @@
       "description": "Javascript syntax highlighter",
       "owner_id": 99931,
       "tags": ["highlight"],
-      "delta": 2453
-    },
-    {
-      "name": "stats.js",
-      "url": "",
-      "full_name": "mrdoob/stats.js",
-      "description": "JavaScript Performance Monitor",
-      "owner_id": 97088,
-      "tags": ["performance"],
-      "delta": 899
+      "delta": 2457,
+      "stars": 11362,
+      "created_at": "2011-01-01T23:47:21.000Z"
     },
     {
       "name": "jsonwebtoken",
@@ -2547,7 +2587,9 @@
         "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token",
       "owner_id": 2824157,
       "tags": ["auth"],
-      "delta": 2553
+      "delta": 2569,
+      "stars": 6490,
+      "created_at": "2013-07-01T01:28:43.000Z"
     },
     {
       "name": "es6-promise",
@@ -2556,7 +2598,9 @@
       "description": "A polyfill for ES6-style Promises",
       "owner_id": 1377,
       "tags": ["flow"],
-      "delta": 1353
+      "delta": 1354,
+      "stars": 5277,
+      "created_at": "2013-12-09T12:04:03.000Z"
     },
     {
       "name": "React Slingshot",
@@ -2566,7 +2610,9 @@
         "React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working ex",
       "owner_id": 1688997,
       "tags": ["boilerplate", "react", "redux"],
-      "delta": 2414
+      "delta": 2419,
+      "stars": 7922,
+      "created_at": "2015-12-31T22:04:53.000Z"
     },
     {
       "name": "Inferno",
@@ -2576,7 +2622,9 @@
         "An extremely fast, React-like JavaScript library for building modern user interfaces",
       "owner_id": 14214240,
       "tags": ["vdom", "framework"],
-      "delta": 4590
+      "delta": 4590,
+      "stars": 11971,
+      "created_at": "2015-02-01T22:07:38.000Z"
     },
     {
       "name": "Preact",
@@ -2586,7 +2634,9 @@
         "⚛️ Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM.",
       "owner_id": 105127,
       "tags": ["vdom", "framework"],
-      "delta": 10395,
+      "delta": 10413,
+      "stars": 16948,
+      "created_at": "2015-09-11T02:40:18.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/preact.svg"
     },
     {
@@ -2597,7 +2647,9 @@
         "Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution.",
       "owner_id": 12655868,
       "tags": ["rich-text-editor"],
-      "delta": 1800
+      "delta": 1806,
+      "stars": 11552,
+      "created_at": "2013-05-29T17:40:11.000Z"
     },
     {
       "name": "Bulma",
@@ -2606,7 +2658,9 @@
       "description": "Modern CSS framework based on Flexbox",
       "owner_id": 1254808,
       "tags": ["css-lib"],
-      "delta": 11935
+      "delta": 11960,
+      "stars": 23118,
+      "created_at": "2016-01-23T23:48:34.000Z"
     },
     {
       "name": "micro",
@@ -2615,7 +2669,9 @@
       "description": "Asynchronous HTTP microservices",
       "owner_id": 14985020,
       "tags": ["microservice"],
-      "delta": 3146
+      "delta": 3150,
+      "stars": 5648,
+      "created_at": "2016-01-23T05:17:00.000Z"
     },
     {
       "name": "mjml",
@@ -2625,16 +2681,9 @@
         "MJML: the only framework that makes responsive-email easy",
       "owner_id": 16115896,
       "tags": ["email"],
-      "delta": 1938
-    },
-    {
-      "name": "Vorpal",
-      "url": "http://vorpal.js.org",
-      "full_name": "dthree/vorpal",
-      "description": "Node's framework for interactive CLIs",
-      "owner_id": 10319897,
-      "tags": ["cli"],
-      "delta": 724
+      "delta": 1939,
+      "stars": 6084,
+      "created_at": "2016-01-28T14:04:05.000Z"
     },
     {
       "name": "Nodemailer",
@@ -2643,7 +2692,9 @@
       "description": "✉️ Send e-mails with Node.JS – easy as cake!",
       "owner_id": 16486629,
       "tags": ["email"],
-      "delta": 1776
+      "delta": 1777,
+      "stars": 8811,
+      "created_at": "2011-01-19T21:17:36.000Z"
     },
     {
       "name": "Recharts",
@@ -2652,7 +2703,9 @@
       "description": "Redefined chart library built with React and D3",
       "owner_id": 13690587,
       "tags": ["chart", "react", "d3", "svg"],
-      "delta": 3198
+      "delta": 3203,
+      "stars": 7572,
+      "created_at": "2015-08-07T06:50:27.000Z"
     },
     {
       "name": "GrapeJS",
@@ -2662,17 +2715,9 @@
         "Free and Open source Web Builder Framework. Next generation tool for building templates without codi",
       "owner_id": 11614725,
       "tags": ["rich-text-editor"],
-      "delta": 1465
-    },
-    {
-      "name": "Mousetrap",
-      "url": "https://craig.is/killing/mice",
-      "full_name": "ccampbell/mousetrap",
-      "description":
-        "Simple library for handling keyboard shortcuts in Javascript",
-      "owner_id": 259316,
-      "tags": ["util"],
-      "delta": 961
+      "delta": 1470,
+      "stars": 3036,
+      "created_at": "2016-01-22T00:23:19.000Z"
     },
     {
       "name": "Mermaid",
@@ -2682,7 +2727,9 @@
         "Generation of diagram and flowchart from text in a similar manner as markdown",
       "owner_id": 5837277,
       "tags": ["chart", "d3"],
-      "delta": 5766
+      "delta": 5773,
+      "stars": 14915,
+      "created_at": "2014-11-01T23:52:32.000Z"
     },
     {
       "name": "MERN Starter",
@@ -2691,7 +2738,9 @@
       "description": "Boilerplate for getting started with MERN stack",
       "owner_id": 16342708,
       "tags": ["boilerplate", "redux", "fullstack", "react"],
-      "delta": 1016
+      "delta": 1018,
+      "stars": 4290,
+      "created_at": "2016-01-29T14:40:26.000Z"
     },
     {
       "name": "Draft.js",
@@ -2700,7 +2749,9 @@
       "description": "A React framework for building text editors.",
       "owner_id": 69631,
       "tags": ["rich-text-editor"],
-      "delta": 3194
+      "delta": 3199,
+      "stars": 11745,
+      "created_at": "2016-02-19T20:18:26.000Z"
     },
     {
       "name": "Razzle",
@@ -2710,17 +2761,9 @@
         "✨ Create server-rendered universal JavaScript applications with no configuration",
       "owner_id": 4060187,
       "tags": ["boilerplate", "isomorphic", "scaffolding", "react"],
-      "delta": 1672
-    },
-    {
-      "name": "Claudia.js",
-      "url": "https://claudiajs.com",
-      "full_name": "claudiajs/claudia",
-      "description":
-        "Deploy Node.js projects to AWS Lambda and API Gateway easily",
-      "owner_id": 17075165,
-      "tags": ["microservice"],
-      "delta": 790
+      "delta": 1676,
+      "stars": 2682,
+      "created_at": "2016-02-10T18:34:27.000Z"
     },
     {
       "name": "Adonis",
@@ -2730,7 +2773,9 @@
         "NodeJs Web Application Framework. Makes it easy for you to write webapps with less code :smiley:",
       "owner_id": 13810373,
       "tags": ["nodejs-framework"],
-      "delta": 1895
+      "delta": 1903,
+      "stars": 3333,
+      "created_at": "2015-08-15T17:03:54.000Z"
     },
     {
       "name": "react-vis",
@@ -2739,7 +2784,9 @@
       "description": "Data-Visualization oriented components",
       "owner_id": 538264,
       "tags": ["chart", "react"],
-      "delta": 1207
+      "delta": 1208,
+      "stars": 2715,
+      "created_at": "2016-02-22T20:45:50.000Z"
     },
     {
       "name": "rebass",
@@ -2749,7 +2796,9 @@
         "Functional React UI component library, built with styled-components",
       "owner_id": 3451712,
       "tags": ["react", "component"],
-      "delta": 1380
+      "delta": 1381,
+      "stars": 3336,
+      "created_at": "2015-02-11T14:48:09.000Z"
     },
     {
       "name": "Tachyons",
@@ -2758,35 +2807,9 @@
       "description": "Functional css for humans",
       "owner_id": 15205635,
       "tags": ["css-lib"],
-      "delta": 2661
-    },
-    {
-      "name": "Balloon.css",
-      "url": "https://kazzkiq.github.io/balloon.css/",
-      "full_name": "kazzkiq/balloon.css",
-      "description": "Simple tooltips made of pure CSS",
-      "owner_id": 1953194,
-      "tags": ["tooltip"],
-      "delta": 785
-    },
-    {
-      "name": "Hamburgers",
-      "url": "https://jonsuh.com/hamburgers",
-      "full_name": "jonsuh/hamburgers",
-      "description": "Tasty CSS-animated Hamburgers",
-      "owner_id": 359871,
-      "tags": ["icon"],
-      "delta": 833
-    },
-    {
-      "name": "interact.js",
-      "url": "http://interactjs.io/",
-      "full_name": "taye/interact.js",
-      "description":
-        "JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping for modern bro",
-      "owner_id": 1679746,
-      "tags": ["touch", "dnd"],
-      "delta": 931
+      "delta": 2666,
+      "stars": 6082,
+      "created_at": "2013-11-04T10:41:59.000Z"
     },
     {
       "name": "Handlebars.js",
@@ -2796,7 +2819,9 @@
         "Handlebars provides the power necessary to let you build semantic templates effectively with no frus",
       "owner_id": 4,
       "tags": ["template"],
-      "delta": 1509
+      "delta": 1510,
+      "stars": 12800,
+      "created_at": "2010-07-31T18:54:46.000Z"
     },
     {
       "name": "Popper.js",
@@ -2805,7 +2830,9 @@
       "description": "A kickass library to manage your poppers",
       "owner_id": 5382443,
       "tags": ["tooltip"],
-      "delta": 3784
+      "delta": 3793,
+      "stars": 7150,
+      "created_at": "2016-03-29T17:00:47.000Z"
     },
     {
       "name": "mobx",
@@ -2814,7 +2841,9 @@
       "description": "Simple, scalable state management.",
       "owner_id": 17475736,
       "tags": ["state"],
-      "delta": 6120
+      "delta": 6135,
+      "stars": 12625,
+      "created_at": "2015-03-14T14:31:38.000Z"
     },
     {
       "name": "uWebSockets",
@@ -2823,7 +2852,9 @@
       "description": "Tiny WebSockets",
       "owner_id": 28876608,
       "tags": ["realtime", "websocket"],
-      "delta": 3608
+      "delta": 3609,
+      "stars": 8298,
+      "created_at": "2016-03-21T04:39:40.000Z"
     },
     {
       "name": "Phenomic",
@@ -2832,7 +2863,9 @@
       "description": "Modular website compiler ⚡️",
       "owner_id": 28756976,
       "tags": ["ssg", "react"],
-      "delta": 1393
+      "delta": 1396,
+      "stars": 2764,
+      "created_at": "2015-09-01T09:40:57.000Z"
     },
     {
       "name": "mustache.js",
@@ -2841,7 +2874,9 @@
       "description": "Minimal templating with {{mustaches}} in JavaScript",
       "owner_id": 11321,
       "tags": ["template"],
-      "delta": 1322
+      "delta": 1325,
+      "stars": 11542,
+      "created_at": "2009-10-04T23:41:19.000Z"
     },
     {
       "name": "Nightwatch",
@@ -2851,7 +2886,9 @@
         "Automated testing and continous integration framework based on node.js and selenium webdriver",
       "owner_id": 12559275,
       "tags": ["auto"],
-      "delta": 1995
+      "delta": 2002,
+      "stars": 7617,
+      "created_at": "2012-03-17T21:28:18.000Z"
     },
     {
       "name": "WebdriverIO",
@@ -2861,7 +2898,9 @@
         "A Node.js bindings implementation for the W3C WebDriver protocol",
       "owner_id": 6512473,
       "tags": ["auto"],
-      "delta": 1107
+      "delta": 1109,
+      "stars": 3635,
+      "created_at": "2011-08-30T19:02:35.000Z"
     },
     {
       "name": "jsdom",
@@ -2871,7 +2910,9 @@
         "A JavaScript implementation of the WHATWG DOM and HTML standards, for use with node.js",
       "owner_id": 46673,
       "tags": ["test"],
-      "delta": 2048
+      "delta": 2051,
+      "stars": 8944,
+      "created_at": "2010-01-19T06:55:19.000Z"
     },
     {
       "name": "Web Fundamentals",
@@ -2880,7 +2921,9 @@
       "description": "Best practices for modern web development",
       "owner_id": 1342004,
       "tags": ["learning"],
-      "delta": 1391
+      "delta": 1395,
+      "stars": 8241,
+      "created_at": "2014-04-28T18:45:45.000Z"
     },
     {
       "name": "nodemon",
@@ -2890,7 +2933,9 @@
         "Monitor for any changes in your node.js application and automatically restart the server - perfect f",
       "owner_id": 13700,
       "tags": ["process"],
-      "delta": 3580
+      "delta": 3586,
+      "stars": 13041,
+      "created_at": "2010-10-03T12:50:52.000Z"
     },
     {
       "name": "brain",
@@ -2899,7 +2944,9 @@
       "description": "🤖 Neural networks in JavaScript",
       "owner_id": 23732838,
       "tags": ["neural", "ml"],
-      "delta": 1082
+      "delta": 1084,
+      "stars": 1539,
+      "created_at": "2016-02-13T18:09:44.000Z"
     },
     {
       "name": "Plyr",
@@ -2908,17 +2955,9 @@
       "description": "A simple HTML5, YouTube and Vimeo player",
       "owner_id": 719092,
       "tags": ["video"],
-      "delta": 1566
-    },
-    {
-      "name": "Horizon",
-      "url": "https://horizon.io",
-      "full_name": "rethinkdb/horizon",
-      "description":
-        "Horizon is a realtime, open-source backend for JavaScript apps.",
-      "owner_id": 1229647,
-      "tags": ["realtime"],
-      "delta": 838
+      "delta": 1569,
+      "stars": 10379,
+      "created_at": "2015-02-14T11:33:07.000Z"
     },
     {
       "name": "PouchDB",
@@ -2927,7 +2966,9 @@
       "description": ":koala: - PouchDB is a pocket-sized database.",
       "owner_id": 3406112,
       "tags": ["realtime", "db"],
-      "delta": 1893
+      "delta": 1897,
+      "stars": 9904,
+      "created_at": "2010-06-10T18:34:24.000Z"
     },
     {
       "name": "date-fns",
@@ -2936,7 +2977,9 @@
       "description": "⏳ Modern JavaScript date utility library ⌛️",
       "owner_id": 14921202,
       "tags": ["date"],
-      "delta": 4718
+      "delta": 4730,
+      "stars": 8509,
+      "created_at": "2014-10-06T10:24:22.000Z"
     },
     {
       "name": "Push",
@@ -2946,7 +2989,9 @@
         "The world's most versatile desktop notifications framework :earth_americas:",
       "owner_id": 2104129,
       "tags": ["notify"],
-      "delta": 1504
+      "delta": 1508,
+      "stars": 7045,
+      "created_at": "2015-07-20T01:46:04.000Z"
     },
     {
       "name": "Spectre.css",
@@ -2956,7 +3001,9 @@
         "Spectre.css - a Lightweight, Responsive and Modern CSS Framework",
       "owner_id": 126385,
       "tags": ["css-lib"],
-      "delta": 2227
+      "delta": 2233,
+      "stars": 5415,
+      "created_at": "2016-03-07T11:53:15.000Z"
     },
     {
       "name": "forever",
@@ -2966,7 +3013,9 @@
         "A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)",
       "owner_id": 10152066,
       "tags": ["process"],
-      "delta": 1605
+      "delta": 1606,
+      "stars": 10591,
+      "created_at": "2010-09-27T15:47:23.000Z"
     },
     {
       "name": "redux-actions",
@@ -2975,7 +3024,9 @@
       "description": "Flux Standard Action utilities for Redux.",
       "owner_id": 30840905,
       "tags": ["redux"],
-      "delta": 1909
+      "delta": 1914,
+      "stars": 4358,
+      "created_at": "2015-07-01T21:08:45.000Z"
     },
     {
       "name": "redux-saga",
@@ -2984,25 +3035,9 @@
       "description": "An alternative side effect model for Redux apps",
       "owner_id": 24776643,
       "tags": ["redux"],
-      "delta": 5585
-    },
-    {
-      "name": "Deco IDE",
-      "url": "https://www.decosoftware.com/",
-      "full_name": "decosoftware/deco-ide",
-      "description": "The React Native IDE",
-      "owner_id": 14793641,
-      "tags": ["ide"],
-      "delta": 995
-    },
-    {
-      "name": "react-redux-form",
-      "url": "https://davidkpiano.github.io/react-redux-form",
-      "full_name": "davidkpiano/react-redux-form",
-      "description": "Create forms easily in React with Redux.",
-      "owner_id": 1093738,
-      "tags": ["redux", "react", "form"],
-      "delta": 681
+      "delta": 5605,
+      "stars": 11262,
+      "created_at": "2015-11-29T16:58:12.000Z"
     },
     {
       "name": "barba.js",
@@ -3012,7 +3047,9 @@
         "Create badass, fluid and smooth transition between your website's pages.",
       "owner_id": 61326,
       "tags": ["nav"],
-      "delta": 1995
+      "delta": 1997,
+      "stars": 5815,
+      "created_at": "2015-11-12T20:08:53.000Z"
     },
     {
       "name": "PhantomJS",
@@ -3021,7 +3058,9 @@
       "description": "Scriptable Headless WebKit",
       "owner_id": 7288,
       "tags": ["auto"],
-      "delta": 3619
+      "delta": 3629,
+      "stars": 24163,
+      "created_at": "2010-12-27T08:18:58.000Z"
     },
     {
       "name": "Waypoints",
@@ -3031,7 +3070,9 @@
         "Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.",
       "owner_id": 406639,
       "tags": ["scrolling"],
-      "delta": 1068
+      "delta": 1068,
+      "stars": 9021,
+      "created_at": "2011-01-25T07:46:22.000Z"
     },
     {
       "name": "Choo",
@@ -3041,7 +3082,9 @@
         ":steam_locomotive::train: - sturdy 4kb frontend framework",
       "owner_id": 29929674,
       "tags": ["framework"],
-      "delta": 1741
+      "delta": 1744,
+      "stars": 4894,
+      "created_at": "2016-05-10T17:50:35.000Z"
     },
     {
       "name": "flatpickr",
@@ -3051,7 +3094,9 @@
         "lightweight and powerful datetimepicker with no dependencies",
       "owner_id": 11352152,
       "tags": ["plugin", "date"],
-      "delta": 4338
+      "delta": 4341,
+      "stars": 9236,
+      "created_at": "2015-08-10T23:52:45.000Z"
     },
     {
       "name": "anime.js",
@@ -3060,7 +3105,9 @@
       "description": "JavaScript Animation Engine",
       "owner_id": 1268691,
       "tags": ["animation"],
-      "delta": 7536
+      "delta": 7555,
+      "stars": 17803,
+      "created_at": "2016-03-13T21:37:45.000Z"
     },
     {
       "name": "Grommet",
@@ -3069,7 +3116,9 @@
       "description": "Focus on the essential experience",
       "owner_id": 14203820,
       "tags": ["react", "component"],
-      "delta": 1509
+      "delta": 1513,
+      "stars": 2736,
+      "created_at": "2015-03-24T08:54:10.000Z"
     },
     {
       "name": "NativeBase",
@@ -3078,16 +3127,9 @@
       "description": "Essential cross-platform UI components for React Native",
       "owner_id": 18482943,
       "tags": ["react-native", "mobile"],
-      "delta": 4376
-    },
-    {
-      "name": "LokiJS",
-      "url": "http://lokijs.org",
-      "full_name": "techfort/LokiJS",
-      "description": "javascript embeddable / in-memory database",
-      "owner_id": 4130173,
-      "tags": ["db"],
-      "delta": 915
+      "delta": 4382,
+      "stars": 7153,
+      "created_at": "2016-04-15T11:37:23.000Z"
     },
     {
       "name": "debug",
@@ -3097,7 +3139,9 @@
         "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node",
       "owner_id": 9285252,
       "tags": ["debug", "log"],
-      "delta": 1543
+      "delta": 1556,
+      "stars": 5368,
+      "created_at": "2011-11-29T02:23:54.000Z"
     },
     {
       "name": "Helmet",
@@ -3106,7 +3150,9 @@
       "description": "Help secure Express apps with various HTTP headers",
       "owner_id": 8338613,
       "tags": ["express"],
-      "delta": 1375
+      "delta": 1379,
+      "stars": 4079,
+      "created_at": "2012-02-01T22:54:45.000Z"
     },
     {
       "name": "You Don't Need JavaScript",
@@ -3115,7 +3161,9 @@
       "description": "CSS is powerful, you can do a lot of things without JS.",
       "owner_id": 21141794,
       "tags": ["learning"],
-      "delta": 1217
+      "delta": 1223,
+      "stars": 9596,
+      "created_at": "2016-07-05T07:30:42.000Z"
     },
     {
       "name": "Slate",
@@ -3125,7 +3173,9 @@
         "A completely customizable framework for building rich text editors.",
       "owner_id": 311752,
       "tags": ["rich-text-editor"],
-      "delta": 3549
+      "delta": 3557,
+      "stars": 6227,
+      "created_at": "2016-06-18T01:52:42.000Z"
     },
     {
       "name": "Hyper",
@@ -3134,7 +3184,9 @@
       "description": "A terminal built on web technologies",
       "owner_id": 14985020,
       "tags": ["cli"],
-      "delta": 6863
+      "delta": 6878,
+      "stars": 20498,
+      "created_at": "2016-07-01T06:01:21.000Z"
     },
     {
       "name": "cleave.js",
@@ -3143,17 +3195,9 @@
       "description": "Format input text content when you are typing...",
       "owner_id": 352617,
       "tags": ["plugin"],
-      "delta": 1375
-    },
-    {
-      "name": "Just",
-      "url": "http://anguscroll.com/just",
-      "full_name": "angus-c/just",
-      "description":
-        "A library of dependency-free utilities that do just do one thing. ",
-      "owner_id": 604030,
-      "tags": ["util", "fp"],
-      "delta": 610
+      "delta": 1378,
+      "stars": 7741,
+      "created_at": "2016-05-18T12:45:03.000Z"
     },
     {
       "name": "Create React App",
@@ -3162,17 +3206,9 @@
       "description": "Create React apps with no build configuration.",
       "owner_id": 19538647,
       "tags": ["boilerplate", "react"],
-      "delta": 22420
-    },
-    {
-      "name": "redux-logic",
-      "url": "",
-      "full_name": "jeffbski/redux-logic",
-      "description":
-        "Redux middleware for organizing all your business logic. Intercept actions and perform async process",
-      "owner_id": 5689,
-      "tags": ["redux"],
-      "delta": 624
+      "delta": 22479,
+      "stars": 40040,
+      "created_at": "2016-07-17T14:55:11.000Z"
     },
     {
       "name": "Text Mask",
@@ -3182,7 +3218,9 @@
         "Input mask for React, Angular, Ember, Vue, & plain JavaScript",
       "owner_id": 21117230,
       "tags": ["plugin"],
-      "delta": 1138
+      "delta": 1139,
+      "stars": 2466,
+      "created_at": "2016-01-22T23:19:59.000Z"
     },
     {
       "name": "Fuse.js",
@@ -3191,7 +3229,9 @@
       "description": "Lightweight fuzzy-search, in JavaScript",
       "owner_id": 565580,
       "tags": ["search"],
-      "delta": 1531
+      "delta": 1532,
+      "stars": 5394,
+      "created_at": "2012-05-28T04:31:06.000Z"
     },
     {
       "name": "react-game-kit",
@@ -3201,7 +3241,9 @@
         "Component library for making games with React  & React Native",
       "owner_id": 5078602,
       "tags": ["game", "react"],
-      "delta": 1037
+      "delta": 1045,
+      "stars": 3300,
+      "created_at": "2016-09-15T07:46:01.000Z"
     },
     {
       "name": "Matter.js",
@@ -3210,7 +3252,9 @@
       "description": "a 2D rigid body physics engine for the web ▲● ■",
       "owner_id": 654420,
       "tags": ["game"],
-      "delta": 1624
+      "delta": 1626,
+      "stars": 6467,
+      "created_at": "2014-02-19T14:16:17.000Z"
     },
     {
       "name": "stdlib",
@@ -3220,17 +3264,9 @@
         "StdLib Service Creation, Deployment, and Management Tools",
       "owner_id": 25233216,
       "tags": ["microservice"],
-      "delta": 2359
-    },
-    {
-      "name": "JsBarcode",
-      "url": "http://lindell.me/JsBarcode",
-      "full_name": "lindell/JsBarcode",
-      "description":
-        "Barcode generation library written in JavaScript that works in both the browser and on Node.js",
-      "owner_id": 284868,
-      "tags": ["canvas"],
-      "delta": 824
+      "delta": 2366,
+      "stars": 2984,
+      "created_at": "2016-08-08T11:27:43.000Z"
     },
     {
       "name": "Vuex",
@@ -3239,7 +3275,9 @@
       "description": "Centralized State Management for Vue.js.",
       "owner_id": 6128107,
       "tags": ["flux", "vue", "state"],
-      "delta": 7129
+      "delta": 7138,
+      "stars": 11891,
+      "created_at": "2015-07-16T04:21:26.000Z"
     },
     {
       "name": "Aphrodite",
@@ -3249,7 +3287,9 @@
         "Framework-agnostic CSS-in-JS with support for server-side rendering, browser prefixing, and minimum ",
       "owner_id": 15455,
       "tags": ["css-in-js"],
-      "delta": 1466
+      "delta": 1470,
+      "stars": 3768,
+      "created_at": "2015-10-07T02:31:35.000Z"
     },
     {
       "name": "Marko",
@@ -3259,7 +3299,9 @@
         "A friendly (and fast!) UI library from eBay that makes building web apps fun",
       "owner_id": 11873696,
       "tags": ["template"],
-      "delta": 4582
+      "delta": 4588,
+      "stars": 5769,
+      "created_at": "2014-01-07T23:58:21.000Z"
     },
     {
       "name": "snabbdom",
@@ -3269,7 +3311,9 @@
         "A virtual DOM library with focus on simplicity, modularity, powerful features and performance.",
       "owner_id": 22341607,
       "tags": ["vdom"],
-      "delta": 1124
+      "delta": 1137,
+      "stars": 3094,
+      "created_at": "2015-05-09T20:25:10.000Z"
     },
     {
       "name": "React Styleguidist",
@@ -3279,7 +3323,9 @@
         "Isolated React component development environment with a living style guide",
       "owner_id": 23550189,
       "tags": ["react", "styleguide"],
-      "delta": 2449
+      "delta": 2453,
+      "stars": 3526,
+      "created_at": "2015-09-07T05:30:30.000Z"
     },
     {
       "name": "lowdb",
@@ -3289,7 +3335,9 @@
         ":zap: lowdb is a small local JSON database powered by Lodash (supports Node, Electron and the browse",
       "owner_id": 5502029,
       "tags": ["db"],
-      "delta": 2781
+      "delta": 2787,
+      "stars": 6688,
+      "created_at": "2014-04-02T02:16:06.000Z"
     },
     {
       "name": "electron-builder",
@@ -3299,7 +3347,9 @@
         "A complete solution to package and build a ready for distribution Electron app with “auto update” su",
       "owner_id": 17519142,
       "tags": ["desktop"],
-      "delta": 2074
+      "delta": 2079,
+      "stars": 4042,
+      "created_at": "2015-05-21T07:45:02.000Z"
     },
     {
       "name": "Netlify CMS",
@@ -3308,7 +3358,9 @@
       "description": "A CMS for Static Site Generators",
       "owner_id": 7892489,
       "tags": ["cms"],
-      "delta": 3178
+      "delta": 3182,
+      "stars": 3867,
+      "created_at": "2015-01-20T05:47:47.000Z"
     },
     {
       "name": "hotel",
@@ -3318,7 +3370,9 @@
         ":love_hotel: A simple process manager for developers. Start apps from your browser and access them u",
       "owner_id": 5502029,
       "tags": ["cli"],
-      "delta": 2129
+      "delta": 2133,
+      "stars": 7022,
+      "created_at": "2015-05-27T08:24:07.000Z"
     },
     {
       "name": "core-js",
@@ -3327,7 +3381,9 @@
       "description": "Standard Library",
       "owner_id": 2213682,
       "tags": ["compatibility"],
-      "delta": 2492
+      "delta": 2498,
+      "stars": 5294,
+      "created_at": "2013-07-17T16:32:27.000Z"
     },
     {
       "name": "Angular 2",
@@ -3336,7 +3392,9 @@
       "description": "One framework. Mobile & desktop.",
       "owner_id": 139426,
       "tags": ["framework", "angular"],
-      "delta": 12093
+      "delta": 12125,
+      "stars": 31490,
+      "created_at": "2014-09-18T16:12:01.000Z"
     },
     {
       "name": "Front-end Job Interview Questions",
@@ -3346,16 +3404,9 @@
         "A list of helpful front-end related questions you can use to interview potential candidates, test yo",
       "owner_id": 1136800,
       "tags": ["learning"],
-      "delta": 6334
-    },
-    {
-      "name": "react-markdown",
-      "url": "http://rexxars.github.io/react-markdown/",
-      "full_name": "rexxars/react-markdown",
-      "description": "Render Markdown as React components",
-      "owner_id": 48200,
-      "tags": ["md", "react"],
-      "delta": 994
+      "delta": 6352,
+      "stars": 31418,
+      "created_at": "2012-02-09T23:34:10.000Z"
     },
     {
       "name": "knex.js",
@@ -3365,7 +3416,9 @@
         "A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use",
       "owner_id": 154748,
       "tags": ["db"],
-      "delta": 2049
+      "delta": 2052,
+      "stars": 5891,
+      "created_at": "2012-12-29T05:18:25.000Z"
     },
     {
       "name": "PDF.js",
@@ -3374,7 +3427,9 @@
       "description": "PDF Reader in JavaScript",
       "owner_id": 131524,
       "tags": ["pdf"],
-      "delta": 3853
+      "delta": 3867,
+      "stars": 20447,
+      "created_at": "2011-04-26T06:32:03.000Z"
     },
     {
       "name": "jsPDF",
@@ -3383,7 +3438,9 @@
       "description": "Client-side JavaScript PDF generation for everyone.",
       "owner_id": 47539,
       "tags": ["pdf"],
-      "delta": 2686
+      "delta": 2693,
+      "stars": 9802,
+      "created_at": "2009-12-06T14:56:32.000Z"
     },
     {
       "name": "p5",
@@ -3393,7 +3450,9 @@
         "p5.js is a JS client-side library for creating graphic and interactive experiences, based on the cor",
       "owner_id": 1617169,
       "tags": ["drawing", "canvas", "3d"],
-      "delta": 2148
+      "delta": 2160,
+      "stars": 6981,
+      "created_at": "2013-02-26T03:14:47.000Z"
     },
     {
       "name": "Yarn",
@@ -3402,7 +3461,9 @@
       "description": "📦🐈 Fast, reliable, and secure dependency management.",
       "owner_id": 22247014,
       "tags": ["package"],
-      "delta": 8343
+      "delta": 8363,
+      "stars": 29428,
+      "created_at": "2016-01-19T17:39:16.000Z"
     },
     {
       "name": "Lerna",
@@ -3412,7 +3473,9 @@
         ":dragon: A tool for managing JavaScript projects with multiple packages.",
       "owner_id": 19333396,
       "tags": ["package"],
-      "delta": 4394
+      "delta": 4407,
+      "stars": 7276,
+      "created_at": "2015-12-04T09:36:55.000Z"
     },
     {
       "name": "Tesseract.js",
@@ -3421,7 +3484,9 @@
       "description": "Pure Javascript OCR for 62 Languages 📖🎉🖥",
       "owner_id": 7720173,
       "tags": ["image"],
-      "delta": 1905
+      "delta": 1917,
+      "stars": 12741,
+      "created_at": "2015-06-24T02:49:52.000Z"
     },
     {
       "name": "Styled Components",
@@ -3431,7 +3496,9 @@
         "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without",
       "owner_id": 20658825,
       "tags": ["css-in-js"],
-      "delta": 8689
+      "delta": 8707,
+      "stars": 12244,
+      "created_at": "2016-08-16T06:41:32.000Z"
     },
     {
       "name": "Ajv: Another JSON Schema Validator",
@@ -3441,7 +3508,9 @@
         "The fastest JSON Schema Validator. Supports draft-04/06/07",
       "owner_id": 2769109,
       "tags": ["json", "validation"],
-      "delta": 1661
+      "delta": 1665,
+      "stars": 2773,
+      "created_at": "2015-05-19T23:23:32.000Z"
     },
     {
       "name": "gun",
@@ -3451,7 +3520,9 @@
         "A realtime, decentralized, offline-first, graph database engine.",
       "owner_id": 433412,
       "tags": ["db"],
-      "delta": 3145
+      "delta": 3152,
+      "stars": 6992,
+      "created_at": "2014-07-31T15:52:10.000Z"
     },
     {
       "name": "TestCafe",
@@ -3460,7 +3531,9 @@
       "description": "A Node.js tool to automate end-to-end web testing.",
       "owner_id": 4243232,
       "tags": ["auto"],
-      "delta": 2073
+      "delta": 2078,
+      "stars": 3785,
+      "created_at": "2015-04-20T13:43:28.000Z"
     },
     {
       "name": "Node-RED",
@@ -3469,7 +3542,9 @@
       "description": "A visual tool for wiring the Internet of Things",
       "owner_id": 5375661,
       "tags": ["iot"],
-      "delta": 1635
+      "delta": 1640,
+      "stars": 5299,
+      "created_at": "2013-09-05T13:30:47.000Z"
     },
     {
       "name": "WebTorrent",
@@ -3478,7 +3553,9 @@
       "description": "⚡️ Streaming torrent client for the web",
       "owner_id": 5800008,
       "tags": ["webrtc"],
-      "delta": 3075
+      "delta": 3086,
+      "stars": 15384,
+      "created_at": "2013-10-15T08:16:40.000Z"
     },
     {
       "name": "vux",
@@ -3487,7 +3564,9 @@
       "description": "Mobile UI Components based on Vue & WeUI",
       "owner_id": 559179,
       "tags": ["vue"],
-      "delta": 4631
+      "delta": 4642,
+      "stars": 10695,
+      "created_at": "2016-02-15T03:23:27.000Z"
     },
     {
       "name": "React Redux Starter Kit",
@@ -3496,7 +3575,9 @@
       "description": "Get started with React, Redux, and React-Router.",
       "owner_id": 6439050,
       "tags": ["boilerplate", "redux", "react"],
-      "delta": 2644
+      "delta": 2647,
+      "stars": 9906,
+      "created_at": "2015-06-24T18:38:28.000Z"
     },
     {
       "name": "Next.js",
@@ -3506,7 +3587,9 @@
         "Framework for server-rendered or statically-exported React apps",
       "owner_id": 14985020,
       "tags": ["boilerplate", "isomorphic", "react"],
-      "delta": 12594
+      "delta": 12641,
+      "stars": 20352,
+      "created_at": "2016-10-05T23:32:51.000Z"
     },
     {
       "name": "Glamor",
@@ -3515,7 +3598,9 @@
       "description": "inline css for react et al",
       "owner_id": 18808,
       "tags": ["css-in-js"],
-      "delta": 1307
+      "delta": 1309,
+      "stars": 2804,
+      "created_at": "2016-07-18T11:25:39.000Z"
     },
     {
       "name": "flv.js",
@@ -3524,7 +3609,9 @@
       "description": "HTML5 FLV Player",
       "owner_id": 12002442,
       "tags": ["video"],
-      "delta": 3000
+      "delta": 3012,
+      "stars": 10860,
+      "created_at": "2016-05-12T08:34:31.000Z"
     },
     {
       "name": "Flow",
@@ -3534,7 +3621,9 @@
         "Adds static typing to JavaScript to improve developer productivity and code quality.",
       "owner_id": 69631,
       "tags": ["compiler"],
-      "delta": 5027,
+      "delta": 5045,
+      "stars": 14814,
+      "created_at": "2014-10-28T17:17:45.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/flow.svg"
     },
     {
@@ -3544,8 +3633,10 @@
       "description":
         "Interactive development & testing environment for React, React-Native, Vue UI components",
       "owner_id": 22632046,
-      "tags": ["react", "vue"],
-      "delta": 9533
+      "tags": ["react", "vue", "angular"],
+      "delta": 9599,
+      "stars": 17321,
+      "created_at": "2016-03-18T04:23:44.000Z"
     },
     {
       "name": "JavaScript Cookie",
@@ -3555,18 +3646,9 @@
         "A simple, lightweight JavaScript API for handling browser cookies",
       "owner_id": 11557446,
       "tags": ["util"],
-      "delta": 3199
-    },
-    {
-      "name": "kyt",
-      "url":
-        "https://open.nytimes.com/introducing-kyt-our-web-app-configuration-toolkit-9ccddf6f6988",
-      "full_name": "NYTimes/kyt",
-      "description":
-        "Starting a new JS app? Build, test and run advanced apps with kyt 🔥",
-      "owner_id": 221409,
-      "tags": ["scaffolding", "boilerplate"],
-      "delta": 646
+      "delta": 3207,
+      "stars": 8055,
+      "created_at": "2015-03-19T15:57:47.000Z"
     },
     {
       "name": "vue-router",
@@ -3575,7 +3657,9 @@
       "description": "The official router for Vue.js.",
       "owner_id": 6128107,
       "tags": ["vue", "routing"],
-      "delta": 4640
+      "delta": 4643,
+      "stars": 8219,
+      "created_at": "2013-12-11T19:37:46.000Z"
     },
     {
       "name": "JavaScript Stack from Scratch",
@@ -3585,16 +3669,9 @@
         "🛠️⚡ Step-by-step tutorial to build a modern JavaScript stack.",
       "owner_id": 522007,
       "tags": ["learning"],
-      "delta": 7103
-    },
-    {
-      "name": "Practical ES6",
-      "url": "https://mjavascript.com",
-      "full_name": "mjavascript/practical-modern-javascript",
-      "description": "🏊 Dive into ES6 and the future of JavaScript",
-      "owner_id": 21339970,
-      "tags": ["learning", "book"],
-      "delta": 790
+      "delta": 7109,
+      "stars": 16603,
+      "created_at": "2016-10-02T13:31:23.000Z"
     },
     {
       "name": "Whitestorm.js",
@@ -3604,7 +3681,9 @@
         ":rocket: 🌪 Super-fast 3D framework for Web Applications 🥇 & Games 🎮. Based on Three.js",
       "owner_id": 16437392,
       "tags": ["3d"],
-      "delta": 2029
+      "delta": 2032,
+      "stars": 4597,
+      "created_at": "2015-08-30T10:29:14.000Z"
     },
     {
       "name": "Botkit",
@@ -3614,7 +3693,9 @@
         "Botkit is the leading developer tool for building chat bots, apps and custom integrations for major ",
       "owner_id": 16260958,
       "tags": ["bot"],
-      "delta": 2384
+      "delta": 2389,
+      "stars": 7533,
+      "created_at": "2015-12-11T21:21:12.000Z"
     },
     {
       "name": "Blueprint",
@@ -3623,7 +3704,9 @@
       "description": "A React-based UI toolkit for the web",
       "owner_id": 303157,
       "tags": ["react", "component"],
-      "delta": 2791
+      "delta": 2796,
+      "stars": 7930,
+      "created_at": "2016-10-25T21:17:50.000Z"
     },
     {
       "name": "Element",
@@ -3632,17 +3715,9 @@
       "description": "A Vue.js 2.0 UI Toolkit for Web",
       "owner_id": 12810740,
       "tags": ["vue", "component"],
-      "delta": 14855
-    },
-    {
-      "name": "AlloyFinger",
-      "url": "http://alloyteam.github.io/AlloyFinger/",
-      "full_name": "AlloyTeam/AlloyFinger",
-      "description":
-        "super tiny size multi-touch gestures library for the web. 　　　You can touch this →",
-      "owner_id": 1503033,
-      "tags": ["touch"],
-      "delta": 675
+      "delta": 14893,
+      "stars": 21447,
+      "created_at": "2016-09-03T06:19:26.000Z"
     },
     {
       "name": "pino",
@@ -3651,7 +3726,9 @@
       "description": "🌲 super fast, all natural json logger 🌲",
       "owner_id": 23048140,
       "tags": ["log"],
-      "delta": 1521
+      "delta": 1524,
+      "stars": 2169,
+      "created_at": "2016-02-16T14:14:29.000Z"
     },
     {
       "name": "realm",
@@ -3661,7 +3738,9 @@
         " Realm is a mobile database: an alternative to SQLite & key-value stores",
       "owner_id": 7575099,
       "tags": ["db"],
-      "delta": 1010
+      "delta": 1011,
+      "stars": 2526,
+      "created_at": "2015-08-13T15:51:36.000Z"
     },
     {
       "name": "Clarity Design System",
@@ -3671,7 +3750,9 @@
         "UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional expe",
       "owner_id": 473334,
       "tags": ["angular"],
-      "delta": 1939
+      "delta": 1943,
+      "stars": 2808,
+      "created_at": "2016-09-29T17:24:17.000Z"
     },
     {
       "name": "deck.gl",
@@ -3680,7 +3761,9 @@
       "description": "WebGL based visualization layers",
       "owner_id": 538264,
       "tags": ["webgl"],
-      "delta": 2332
+      "delta": 2337,
+      "stars": 3936,
+      "created_at": "2015-12-15T08:38:29.000Z"
     },
     {
       "name": "markdown-it",
@@ -3690,7 +3773,9 @@
         "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed",
       "owner_id": 10248321,
       "tags": ["md"],
-      "delta": 1696
+      "delta": 1698,
+      "stars": 4573,
+      "created_at": "2014-12-19T22:54:53.000Z"
     },
     {
       "name": "React Sortable",
@@ -3700,7 +3785,9 @@
         "A set of higher-order components to turn any list into an animated, touch-friendly, sortable list ✌️",
       "owner_id": 1416436,
       "tags": ["dnd", "react"],
-      "delta": 2095
+      "delta": 2098,
+      "stars": 3575,
+      "created_at": "2016-06-08T03:11:35.000Z"
     },
     {
       "name": "dva",
@@ -3710,7 +3797,9 @@
         "🌱 React and redux based, lightweight and elm-style framework. (Inspired by elm and choo)",
       "owner_id": 20552239,
       "tags": ["framework", "redux"],
-      "delta": 5224
+      "delta": 5241,
+      "stars": 7219,
+      "created_at": "2016-06-24T09:06:16.000Z"
     },
     {
       "name": "Svelte",
@@ -3719,7 +3808,9 @@
       "description": "The magical disappearing UI framework",
       "owner_id": 23617963,
       "tags": ["framework"],
-      "delta": 2167
+      "delta": 2170,
+      "stars": 5737,
+      "created_at": "2016-11-20T18:13:05.000Z"
     },
     {
       "name": "vuelidate",
@@ -3728,7 +3819,9 @@
       "description": "Simple, lightweight model-based validation for Vue.js",
       "owner_id": 234138,
       "tags": ["vue", "form"],
-      "delta": 1210
+      "delta": 1212,
+      "stars": 1700,
+      "created_at": "2016-11-05T14:30:37.000Z"
     },
     {
       "name": "rxdb",
@@ -3738,7 +3831,9 @@
         ":computer: :iphone: A reactive Database for Progressive Web Apps and more",
       "owner_id": 8926560,
       "tags": ["db", "realtime"],
-      "delta": 4464
+      "delta": 4466,
+      "stars": 6129,
+      "created_at": "2016-12-02T19:34:42.000Z"
     },
     {
       "name": "Styled JSX",
@@ -3747,7 +3842,9 @@
       "description": "Full CSS support for JSX without compromises",
       "owner_id": 14985020,
       "tags": ["css-in-js"],
-      "delta": 1653
+      "delta": 1661,
+      "stars": 2537,
+      "created_at": "2016-12-05T13:58:02.000Z"
     },
     {
       "name": "JSS",
@@ -3757,7 +3854,9 @@
         "JSS is an authoring tool for CSS which uses JavaScript as a host language.",
       "owner_id": 9503099,
       "tags": ["css-in-js"],
-      "delta": 1284
+      "delta": 1290,
+      "stars": 2924,
+      "created_at": "2014-10-12T20:33:53.000Z"
     },
     {
       "name": "styletron",
@@ -3766,34 +3865,9 @@
       "description": ":zap: Universal, high-performance JavaScript styles",
       "owner_id": 780408,
       "tags": ["css-in-js"],
-      "delta": 1036
-    },
-    {
-      "name": "most",
-      "url": "",
-      "full_name": "cujojs/most",
-      "description": "Ultra-high performance reactive programming",
-      "owner_id": 1211266,
-      "tags": ["fp", "stream"],
-      "delta": 908
-    },
-    {
-      "name": "scrollMonitor",
-      "url": "",
-      "full_name": "stutrek/scrollMonitor",
-      "description": "A simple and fast API to monitor elements as you scroll",
-      "owner_id": 339327,
-      "tags": ["scrolling"],
-      "delta": 850
-    },
-    {
-      "name": "Chance",
-      "url": "http://chancejs.com",
-      "full_name": "chancejs/chancejs",
-      "description": "Chance - Random generator helper for JavaScript",
-      "owner_id": 17460423,
-      "tags": ["random"],
-      "delta": 606
+      "delta": 1037,
+      "stars": 2309,
+      "created_at": "2016-04-01T00:00:06.000Z"
     },
     {
       "name": "faker.js",
@@ -3803,7 +3877,9 @@
         "generate massive amounts of fake data in Node.js and the browser",
       "owner_id": 70011,
       "tags": ["random"],
-      "delta": 3567
+      "delta": 3576,
+      "stars": 12454,
+      "created_at": "2010-05-15T00:53:07.000Z"
     },
     {
       "name": "Vuetify",
@@ -3812,7 +3888,9 @@
       "description": "Material Component Framework for Vue.js 2",
       "owner_id": 22138497,
       "tags": ["vue", "material"],
-      "delta": 6213
+      "delta": 6234,
+      "stars": 7374,
+      "created_at": "2016-09-12T00:39:35.000Z"
     },
     {
       "name": "Material Components",
@@ -3822,16 +3900,9 @@
         "Modular and customizable Material Design UI components for the web",
       "owner_id": 19478152,
       "tags": ["material", "css-lib"],
-      "delta": 5543
-    },
-    {
-      "name": "react-md",
-      "url": "https://react-md.mlaursen.com",
-      "full_name": "mlaursen/react-md",
-      "description": "React material design",
-      "owner_id": 3920850,
-      "tags": ["material", "react", "component"],
-      "delta": 861
+      "delta": 5556,
+      "stars": 7090,
+      "created_at": "2016-12-05T16:04:09.000Z"
     },
     {
       "name": "react-dates",
@@ -3841,7 +3912,9 @@
         "An easily internationalizable, mobile-friendly datepicker library for the web",
       "owner_id": 698437,
       "tags": ["date", "react"],
-      "delta": 2777
+      "delta": 2780,
+      "stars": 5962,
+      "created_at": "2016-05-04T00:49:45.000Z"
     },
     {
       "name": "Lighthouse",
@@ -3851,7 +3924,9 @@
         "Auditing, performance metrics, and best practices for Progressive Web Apps",
       "owner_id": 1778935,
       "tags": ["performance"],
-      "delta": 5617
+      "delta": 5632,
+      "stars": 11752,
+      "created_at": "2016-03-08T01:03:11.000Z"
     },
     {
       "name": "Nuclide",
@@ -3861,7 +3936,9 @@
         "An open IDE for web and native mobile development, built on top of Atom ",
       "owner_id": 69631,
       "tags": ["ide"],
-      "delta": 1416,
+      "delta": 1417,
+      "stars": 7336,
+      "created_at": "2015-03-02T05:25:27.000Z",
       "icon": "https://s3-us-west-2.amazonaws.com/svgporn.com/logos/nuclide.svg"
     },
     {
@@ -3872,17 +3949,9 @@
         "A blazing fast js bundler/loader with a comprehensive API :fire:",
       "owner_id": 23119087,
       "tags": ["module", "build"],
-      "delta": 2546
-    },
-    {
-      "name": "Electrode",
-      "url": "",
-      "full_name": "electrode-io/electrode",
-      "description":
-        "Electrode Platform for building large scale Universal React Applications",
-      "owner_id": 20847973,
-      "tags": ["scaffolding", "boilerplate", "isomorphic"],
-      "delta": 899
+      "delta": 2546,
+      "stars": 3019,
+      "created_at": "2016-10-28T10:37:16.000Z"
     },
     {
       "name": "React Native for Web",
@@ -3891,16 +3960,9 @@
       "description": "React Native for Web",
       "owner_id": 239676,
       "tags": ["react-native", "component"],
-      "delta": 3458
-    },
-    {
-      "name": "nyc",
-      "url": "https://istanbul.js.org/",
-      "full_name": "istanbuljs/nyc",
-      "description": "the Istanbul command line interface",
-      "owner_id": 13523395,
-      "tags": ["test"],
-      "delta": 986
+      "delta": 3463,
+      "stars": 7121,
+      "created_at": "2015-06-09T19:25:38.000Z"
     },
     {
       "name": "Vulcan",
@@ -3910,7 +3972,9 @@
         "🌋 A toolkit to quickly build apps with React, GraphQL & Meteor",
       "owner_id": 6634779,
       "tags": ["realtime", "meteor", "graphql"],
-      "delta": 1354
+      "delta": 1355,
+      "stars": 6436,
+      "created_at": "2012-09-07T01:13:24.000Z"
     },
     {
       "name": "Vue material",
@@ -3919,7 +3983,9 @@
       "description": "Material design for Vue.js",
       "owner_id": 23659108,
       "tags": ["vue", "material"],
-      "delta": 3704
+      "delta": 3708,
+      "stars": 5107,
+      "created_at": "2016-06-17T22:41:53.000Z"
     },
     {
       "name": "vue-resource",
@@ -3928,7 +3994,9 @@
       "description": "The HTTP client for Vue.js",
       "owner_id": 510472,
       "tags": ["vue", "http"],
-      "delta": 3583
+      "delta": 3589,
+      "stars": 7296,
+      "created_at": "2014-02-07T23:07:56.000Z"
     },
     {
       "name": "vue-i18n",
@@ -3938,7 +4006,9 @@
         ":globe_with_meridians: Internationalization plugin for Vue.js",
       "owner_id": 72989,
       "tags": ["vue", "i18n"],
-      "delta": 1363
+      "delta": 1367,
+      "stars": 1908,
+      "created_at": "2014-05-02T17:32:14.000Z"
     },
     {
       "name": "Weex",
@@ -3947,7 +4017,9 @@
       "description": "A framework for building Mobile cross-platform UI",
       "owner_id": 1961952,
       "tags": ["mobile", "vue"],
-      "delta": 5299
+      "delta": 5308,
+      "stars": 15660,
+      "created_at": "2016-03-11T10:18:11.000Z"
     },
     {
       "name": "Prism",
@@ -3956,7 +4028,9 @@
       "description": "Lightweight, robust, elegant syntax highlighting.",
       "owner_id": 11140484,
       "tags": ["highlight"],
-      "delta": 1052
+      "delta": 1057,
+      "stars": 4805,
+      "created_at": "2012-07-10T19:47:14.000Z"
     },
     {
       "name": "Botpress",
@@ -3966,7 +4040,9 @@
         "🤖 Modular chatbot framework that ⚡ thousands of bots all around the world",
       "owner_id": 23510677,
       "tags": ["bot"],
-      "delta": 3605
+      "delta": 3610,
+      "stars": 3916,
+      "created_at": "2016-11-16T21:57:59.000Z"
     },
     {
       "name": "Rax",
@@ -3975,7 +4051,9 @@
       "description": ":tophat: A universal React-compatible render engine.",
       "owner_id": 1961952,
       "tags": ["vdom", "framework"],
-      "delta": 2618
+      "delta": 2621,
+      "stars": 3818,
+      "created_at": "2016-10-14T07:53:50.000Z"
     },
     {
       "name": "nwb",
@@ -3985,7 +4063,9 @@
         "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for th",
       "owner_id": 226692,
       "tags": ["scaffolding", "boilerplate"],
-      "delta": 1076
+      "delta": 1076,
+      "stars": 2801,
+      "created_at": "2015-11-10T23:32:58.000Z"
     },
     {
       "name": "vue-multiselect",
@@ -3995,17 +4075,9 @@
         "Universal select/multiselect/tagging component for Vue.js",
       "owner_id": 3737591,
       "tags": ["vue", "autocomplete"],
-      "delta": 1534
-    },
-    {
-      "name": "vue-form-generator",
-      "url": "",
-      "full_name": "vue-generators/vue-form-generator",
-      "description":
-        ":clipboard: A schema-based form generator component for Vue.js",
-      "owner_id": 33808724,
-      "tags": ["vue", "form"],
-      "delta": 670
+      "delta": 1534,
+      "stars": 2528,
+      "created_at": "2016-04-23T13:02:33.000Z"
     },
     {
       "name": "Nuxt",
@@ -4014,17 +4086,9 @@
       "description": "Versatile Vue.js Framework",
       "owner_id": 23360933,
       "tags": ["vue", "isomorphic"],
-      "delta": 6218
-    },
-    {
-      "name": "i18next",
-      "url": "http://i18next.com/",
-      "full_name": "i18next/i18next",
-      "description":
-        "learn once - translate everywhere: i18next internationalization ecosystem",
-      "owner_id": 8546082,
-      "tags": ["i18n"],
-      "delta": 945
+      "delta": 6236,
+      "stars": 8434,
+      "created_at": "2016-10-26T11:18:47.000Z"
     },
     {
       "name": "WebSlides",
@@ -4033,7 +4097,9 @@
       "description": "Create HTML presentations in seconds —",
       "owner_id": 13846397,
       "tags": ["presentation"],
-      "delta": 1928
+      "delta": 1930,
+      "stars": 3987,
+      "created_at": "2017-01-08T20:35:48.000Z"
     },
     {
       "name": "docute",
@@ -4042,17 +4108,9 @@
       "description": ":scroll: Effortlessly documentation done right.",
       "owner_id": 8784712,
       "tags": ["doc"],
-      "delta": 1088
-    },
-    {
-      "name": "iFrame Resizer",
-      "url": "http://davidjbradshaw.github.io/iframe-resizer/",
-      "full_name": "davidjbradshaw/iframe-resizer",
-      "description":
-        "Keep same and cross domain iFrames sized to their content with support for window/content resizing, ",
-      "owner_id": 591634,
-      "tags": ["util"],
-      "delta": 634
+      "delta": 1090,
+      "stars": 1481,
+      "created_at": "2016-12-08T18:04:40.000Z"
     },
     {
       "name": "React Table",
@@ -4062,7 +4120,9 @@
         "React Table - A lightweight, fast and extendable datagrid for React",
       "owner_id": 30272234,
       "tags": ["table", "react"],
-      "delta": 1788
+      "delta": 1792,
+      "stars": 2281,
+      "created_at": "2016-10-20T17:25:08.000Z"
     },
     {
       "name": "Prettier",
@@ -4071,7 +4131,9 @@
       "description": "Prettier is an opinionated code formatter.",
       "owner_id": 25822731,
       "tags": ["lint"],
-      "delta": 17537,
+      "delta": 17594,
+      "stars": 18792,
+      "created_at": "2016-11-29T17:13:37.000Z",
       "icon": "prettier.svg"
     },
     {
@@ -4081,7 +4143,9 @@
       "description": "Simple React Bootstrap 4 components",
       "owner_id": 17580417,
       "tags": ["react", "component"],
-      "delta": 2219
+      "delta": 2229,
+      "stars": 3145,
+      "created_at": "2016-02-19T08:01:36.000Z"
     },
     {
       "name": "Quasar",
@@ -4090,7 +4154,9 @@
       "description": "Quasar Framework",
       "owner_id": 23064371,
       "tags": ["mobile", "vue"],
-      "delta": 3681
+      "delta": 3690,
+      "stars": 4538,
+      "created_at": "2015-10-05T15:45:36.000Z"
     },
     {
       "name": "React Navigation",
@@ -4099,26 +4165,9 @@
       "description": "Learn once, navigate anywhere",
       "owner_id": 29647600,
       "tags": ["routing", "react-native"],
-      "delta": 7275
-    },
-    {
-      "name": "node-html-pdf",
-      "url": "",
-      "full_name": "marcbachmann/node-html-pdf",
-      "description":
-        ":page_facing_up: Html to pdf converter in nodejs. It spawns a phantomjs process and passes the pdf a",
-      "owner_id": 431376,
-      "tags": ["pdf"],
-      "delta": 863
-    },
-    {
-      "name": "Dexie.js",
-      "url": "http://dexie.org",
-      "full_name": "dfahlander/Dexie.js",
-      "description": "A Minimalistic Wrapper for IndexedDB",
-      "owner_id": 6791329,
-      "tags": ["db"],
-      "delta": 909
+      "delta": 7288,
+      "stars": 8749,
+      "created_at": "2017-01-26T19:51:40.000Z"
     },
     {
       "name": "Calypso",
@@ -4127,7 +4176,9 @@
       "description": "The new JavaScript- and API-powered WordPress.com",
       "owner_id": 887802,
       "tags": ["cms", "redux", "react"],
-      "delta": 1155
+      "delta": 1159,
+      "stars": 9559,
+      "created_at": "2015-11-10T20:00:16.000Z"
     },
     {
       "name": "Hyperapp",
@@ -4137,7 +4188,9 @@
         "1 KB JavaScript library for building frontend applications.",
       "owner_id": 25238911,
       "tags": ["framework"],
-      "delta": 7271
+      "delta": 7752,
+      "stars": 8117,
+      "created_at": "2017-01-20T05:20:21.000Z"
     },
     {
       "name": "Keen-UI",
@@ -4147,35 +4200,9 @@
         "A lightweight collection of essential UI components written with Vue and inspired by Material Design",
       "owner_id": 5924865,
       "tags": ["material", "vue"],
-      "delta": 1345
-    },
-    {
-      "name": "OpenLayers",
-      "url": "https://openlayers.org",
-      "full_name": "openlayers/openlayers",
-      "description": "OpenLayers",
-      "owner_id": 240579,
-      "tags": ["map"],
-      "delta": 851
-    },
-    {
-      "name": "Mapbox GL JS",
-      "url": "https://www.mapbox.com/maps",
-      "full_name": "mapbox/mapbox-gl-js",
-      "description":
-        "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL",
-      "owner_id": 600935,
-      "tags": ["map"],
-      "delta": 960
-    },
-    {
-      "name": "Nachos UI",
-      "url": "https://avocode.com/nachos-ui/",
-      "full_name": "avocode/nachos-ui",
-      "description": "Nachos UI is a React Native component library.",
-      "owner_id": 7745351,
-      "tags": ["react-native"],
-      "delta": 813
+      "delta": 1345,
+      "stars": 3163,
+      "created_at": "2016-03-22T01:23:20.000Z"
     },
     {
       "name": "Ant Design",
@@ -4184,7 +4211,9 @@
       "description": "🐜 A UI Design Language",
       "owner_id": 12101536,
       "tags": ["react", "component"],
-      "delta": 13190
+      "delta": 13241,
+      "stars": 21798,
+      "created_at": "2015-04-24T15:37:24.000Z"
     },
     {
       "name": "lazysizes",
@@ -4194,7 +4223,9 @@
         "High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, ",
       "owner_id": 188254,
       "tags": ["load"],
-      "delta": 1771
+      "delta": 1775,
+      "stars": 7609,
+      "created_at": "2014-10-11T21:03:26.000Z"
     },
     {
       "name": "Poi",
@@ -4203,7 +4234,9 @@
       "description": ":zap: Delightful web development.",
       "owner_id": 8784712,
       "tags": ["vue", "build"],
-      "delta": 2652
+      "delta": 2666,
+      "stars": 2969,
+      "created_at": "2016-04-21T16:21:09.000Z"
     },
     {
       "name": "Apollo client",
@@ -4213,7 +4246,9 @@
         ":rocket: A fully-featured, production ready caching GraphQL client for every server or UI framework",
       "owner_id": 17189275,
       "tags": ["graphql"],
-      "delta": 4095
+      "delta": 4101,
+      "stars": 5360,
+      "created_at": "2016-02-26T20:25:00.000Z"
     },
     {
       "name": "TA.Gui",
@@ -4222,7 +4257,9 @@
       "description": "General purpose tool for automating web interactions",
       "owner_id": 10379612,
       "tags": ["auto", "test"],
-      "delta": 1325
+      "delta": 1325,
+      "stars": 2596,
+      "created_at": "2016-12-06T04:30:34.000Z"
     },
     {
       "name": "docsify",
@@ -4231,7 +4268,9 @@
       "description": "🃏 A magical documentation site generator.",
       "owner_id": 7565692,
       "tags": ["doc"],
-      "delta": 3366
+      "delta": 3374,
+      "stars": 4592,
+      "created_at": "2016-11-20T07:55:43.000Z"
     },
     {
       "name": "Neutrino",
@@ -4241,7 +4280,9 @@
         "Create and build modern JavaScript applications with zero initial configuration.",
       "owner_id": 21367267,
       "tags": ["scaffolding"],
-      "delta": 1598
+      "delta": 1601,
+      "stars": 2236,
+      "created_at": "2017-02-03T03:27:20.000Z"
     },
     {
       "name": "neurojs",
@@ -4251,7 +4292,9 @@
         "A javascript deep learning and reinforcement learning library.",
       "owner_id": 10101036,
       "tags": ["neural", "ml"],
-      "delta": 3166
+      "delta": 3165,
+      "stars": 3988,
+      "created_at": "2016-09-18T23:33:53.000Z"
     },
     {
       "name": "Caporal.js",
@@ -4261,7 +4304,9 @@
         "A full-featured framework for building command line applications (cli) with node.js",
       "owner_id": 178616,
       "tags": ["cli"],
-      "delta": 1317
+      "delta": 1317,
+      "stars": 2524,
+      "created_at": "2017-02-08T22:06:55.000Z"
     },
     {
       "name": "store.js",
@@ -4271,16 +4316,9 @@
         "Cross-browser storage for all use cases, used across the web.",
       "owner_id": 131967,
       "tags": ["db"],
-      "delta": 2571
-    },
-    {
-      "name": "Rapscallion",
-      "url": "",
-      "full_name": "FormidableLabs/rapscallion",
-      "description": "Asynchronous React VirtualDOM renderer for SSR.",
-      "owner_id": 5078602,
-      "tags": ["react", "isomorphic"],
-      "delta": 655
+      "delta": 2573,
+      "stars": 10667,
+      "created_at": "2010-06-27T20:29:33.000Z"
     },
     {
       "name": "React Trend",
@@ -4289,16 +4327,9 @@
       "description": "📈 Simple, elegant spark lines",
       "owner_id": 9951955,
       "tags": ["chart", "svg", "react"],
-      "delta": 1516
-    },
-    {
-      "name": "Gutenberg",
-      "url": "http://bafs.github.io/Gutenberg",
-      "full_name": "BafS/Gutenberg",
-      "description": "Modern framework to print the web correctly. ",
-      "owner_id": 588205,
-      "tags": ["css-lib", "typo"],
-      "delta": 875
+      "delta": 1517,
+      "stars": 1831,
+      "created_at": "2017-02-02T18:04:20.000Z"
     },
     {
       "name": "Planck.js",
@@ -4307,16 +4338,9 @@
       "description": "2D JavaScript Physics Engine",
       "owner_id": 1061095,
       "tags": ["game"],
-      "delta": 2577
-    },
-    {
-      "name": "hyperHTML",
-      "url": "",
-      "full_name": "WebReflection/hyperHTML",
-      "description": "A Fast & Light Virtual DOM Alternative",
-      "owner_id": 85749,
-      "tags": ["vdom"],
-      "delta": 991
+      "delta": 2578,
+      "stars": 2783,
+      "created_at": "2016-03-22T04:46:05.000Z"
     },
     {
       "name": "Create React Native App",
@@ -4326,7 +4350,9 @@
         "Create a React Native app on any OS with no build config.",
       "owner_id": 24483500,
       "tags": ["react-native"],
-      "delta": 5336
+      "delta": 5345,
+      "stars": 7647,
+      "created_at": "2017-01-11T17:54:30.000Z"
     },
     {
       "name": "react-loadable",
@@ -4336,7 +4362,9 @@
         ":hourglass_flowing_sand: A higher order component for loading components with promises.",
       "owner_id": 952783,
       "tags": ["isomorphic", "react"],
-      "delta": 4891
+      "delta": 4915,
+      "stars": 4927,
+      "created_at": "2017-03-09T18:41:17.000Z"
     },
     {
       "name": "iView",
@@ -4345,7 +4373,9 @@
       "description": "A high quality UI Toolkit built on Vue.js 2.0",
       "owner_id": 20693613,
       "tags": ["vue", "component"],
-      "delta": 9508
+      "delta": 9526,
+      "stars": 11811,
+      "created_at": "2016-07-28T01:52:59.000Z"
     },
     {
       "name": "Ant Design Mobile",
@@ -4354,7 +4384,9 @@
       "description": "A configurable Mobile UI",
       "owner_id": 12101536,
       "tags": ["mobile", "react-native"],
-      "delta": 2278
+      "delta": 2288,
+      "stars": 3750,
+      "created_at": "2015-11-30T03:33:06.000Z"
     },
     {
       "name": "Eagle.js",
@@ -4363,7 +4395,9 @@
       "description": "A hackable slideshow framework built with Vue.js",
       "owner_id": 1646122,
       "tags": ["presentation", "vue"],
-      "delta": 1106
+      "delta": 1105,
+      "stars": 1355,
+      "created_at": "2017-03-12T17:07:55.000Z"
     },
     {
       "name": "react-overdrive",
@@ -4372,17 +4406,9 @@
       "description": "Super easy magic-move transitions for React apps",
       "owner_id": 170214,
       "tags": ["animation", "react"],
-      "delta": 1184
-    },
-    {
-      "name": "MoveTo",
-      "url": "https://hsnaydd.github.io/moveTo/demo/",
-      "full_name": "hsnaydd/moveTo",
-      "description":
-        "A lightweight scroll animation javascript library without any dependency ",
-      "owner_id": 2880893,
-      "tags": ["scrolling"],
-      "delta": 856
+      "delta": 1184,
+      "stars": 2286,
+      "created_at": "2017-03-06T13:47:55.000Z"
     },
     {
       "name": "ngx-datatable",
@@ -4392,7 +4418,9 @@
         "✨  A feature-rich yet lightweight data-table crafted for Angular4 and beyond!",
       "owner_id": 10552812,
       "tags": ["angular", "table"],
-      "delta": 1314
+      "delta": 1319,
+      "stars": 2169,
+      "created_at": "2016-05-31T19:25:47.000Z"
     },
     {
       "name": "Redux Offline",
@@ -4401,17 +4429,9 @@
       "description": "Build Offline-First Apps for Web and React Native",
       "owner_id": 31570694,
       "tags": ["redux", "offline"],
-      "delta": 2139
-    },
-    {
-      "name": "Choices.js",
-      "url": "https://joshuajohnson.co.uk/Choices/",
-      "full_name": "jshjohnson/Choices",
-      "description":
-        "A vanilla JS customisable select box/text input plugin ⚡️",
-      "owner_id": 3064889,
-      "tags": ["autocomplete"],
-      "delta": 763
+      "delta": 2143,
+      "stars": 4160,
+      "created_at": "2017-03-11T18:37:50.000Z"
     },
     {
       "name": "AOS",
@@ -4420,7 +4440,9 @@
       "description": "Animate on scroll library",
       "owner_id": 4093559,
       "tags": ["scrolling"],
-      "delta": 1639
+      "delta": 1655,
+      "stars": 5181,
+      "created_at": "2015-07-09T17:49:00.000Z"
     },
     {
       "name": "Polished",
@@ -4430,7 +4452,9 @@
         "A lightweight toolset for writing styles in JavaScript ✨",
       "owner_id": 20658825,
       "tags": ["css-in-js"],
-      "delta": 2914
+      "delta": 2917,
+      "stars": 2918,
+      "created_at": "2016-11-03T14:39:21.000Z"
     },
     {
       "name": "You Don't Need jQuery",
@@ -4440,7 +4464,9 @@
         "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
       "owner_id": 33238961,
       "tags": ["learning"],
-      "delta": 2989
+      "delta": 2990,
+      "stars": 12607,
+      "created_at": "2015-11-21T16:02:26.000Z"
     },
     {
       "name": "Reactide",
@@ -4450,7 +4476,9 @@
         "Reactide is the first dedicated IDE for React web application development. http://reactide.io",
       "owner_id": 26257999,
       "tags": ["ide"],
-      "delta": 7364
+      "delta": 7366,
+      "stars": 7367,
+      "created_at": "2017-03-07T18:30:34.000Z"
     },
     {
       "name": "Tippy.js",
@@ -4459,16 +4487,9 @@
       "description": "A lightweight, pure JS tooltip library",
       "owner_id": 22450188,
       "tags": ["tooltip"],
-      "delta": 2954
-    },
-    {
-      "name": "react-datasheet",
-      "url": "https://nadbm.github.io/react-datasheet/",
-      "full_name": "nadbm/react-datasheet",
-      "description": "Excel-like data grid component for react",
-      "owner_id": 5846191,
-      "tags": ["table", "react"],
-      "delta": 964
+      "delta": 2957,
+      "stars": 3216,
+      "created_at": "2017-04-01T06:51:35.000Z"
     },
     {
       "name": "SweetAlert2",
@@ -4478,7 +4499,9 @@
         "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup b",
       "owner_id": 6059356,
       "tags": ["notify"],
-      "delta": 1798
+      "delta": 1811,
+      "stars": 4026,
+      "created_at": "2015-01-03T16:15:52.000Z"
     },
     {
       "name": "normalizr",
@@ -4487,7 +4510,9 @@
       "description": "Normalizes nested JSON according to a schema",
       "owner_id": 33297,
       "tags": ["json"],
-      "delta": 3806
+      "delta": 3818,
+      "stars": 11312,
+      "created_at": "2014-08-20T08:41:38.000Z"
     },
     {
       "name": "Glamorous",
@@ -4496,7 +4521,9 @@
       "description": "💄 Maintainable CSS with React",
       "owner_id": 476675,
       "tags": ["css-in-js"],
-      "delta": 2889
+      "delta": 2894,
+      "stars": 2898,
+      "created_at": "2017-04-03T21:35:49.000Z"
     },
     {
       "name": "AR.js",
@@ -4506,7 +4533,9 @@
         "Efficient Augmented Reality for the Web - 60fps on mobile!",
       "owner_id": 252962,
       "tags": ["virtual"],
-      "delta": 6481
+      "delta": 6487,
+      "stars": 9234,
+      "created_at": "2017-02-17T10:27:59.000Z"
     },
     {
       "name": "Turbolinks",
@@ -4515,26 +4544,9 @@
       "description": "Turbolinks makes navigating your web application faster",
       "owner_id": 16996872,
       "tags": ["http"],
-      "delta": 1329
-    },
-    {
-      "name": "C3.js",
-      "url": "c3js.org",
-      "full_name": "c3js/c3",
-      "description": "A D3-based reusable chart library",
-      "owner_id": 9966497,
-      "tags": ["chart", "d3"],
-      "delta": 749
-    },
-    {
-      "name": "SVG.js",
-      "url": "http://svgjs.com/",
-      "full_name": "svgdotjs/svg.js",
-      "description":
-        "The lightweight library for manipulating and animating SVG",
-      "owner_id": 22855482,
-      "tags": ["svg"],
-      "delta": 795
+      "delta": 1333,
+      "stars": 4689,
+      "created_at": "2016-02-01T02:14:01.000Z"
     },
     {
       "name": "React VR",
@@ -4543,7 +4555,9 @@
       "description": "Create amazing 360 and VR content using React",
       "owner_id": 69631,
       "tags": ["react-native", "virtual"],
-      "delta": 3183
+      "delta": 3187,
+      "stars": 5378,
+      "created_at": "2016-12-12T19:45:37.000Z"
     },
     {
       "name": "React Move",
@@ -4553,7 +4567,9 @@
         "React Move 🌀 Beautiful, data-driven animations for React",
       "owner_id": 30272234,
       "tags": ["animation", "react"],
-      "delta": 2315
+      "delta": 2312,
+      "stars": 3064,
+      "created_at": "2017-03-20T15:38:13.000Z"
     },
     {
       "name": "Vee-Validate",
@@ -4562,7 +4578,9 @@
       "description": "Simple Vue.js input validation plugin",
       "owner_id": 5085038,
       "tags": ["form", "vue"],
-      "delta": 2966
+      "delta": 2976,
+      "stars": 3369,
+      "created_at": "2016-07-30T01:10:44.000Z"
     },
     {
       "name": "mini.css",
@@ -4571,17 +4589,9 @@
       "description": "A minimal, responsive, style-agnostic CSS framework!",
       "owner_id": 8281875,
       "tags": ["css-lib"],
-      "delta": 1557
-    },
-    {
-      "name": "discord.js",
-      "url": "https://discord.js.org",
-      "full_name": "hydrabolt/discord.js",
-      "description":
-        "A powerful JavaScript library for interacting with the Discord API",
-      "owner_id": 10330923,
-      "tags": ["realtime"],
-      "delta": 827
+      "delta": 1559,
+      "stars": 2107,
+      "created_at": "2016-08-22T06:31:31.000Z"
     },
     {
       "name": "yargs",
@@ -4590,7 +4600,9 @@
       "description": " yargs the modern, pirate-themed successor to optimist.",
       "owner_id": 16504989,
       "tags": ["cli"],
-      "delta": 1012
+      "delta": 1013,
+      "stars": 3877,
+      "created_at": "2013-11-07T17:25:51.000Z"
     },
     {
       "name": "ShellJS",
@@ -4599,7 +4611,9 @@
       "description": ":shell: Portable Unix shell commands for Node.js",
       "owner_id": 14236201,
       "tags": ["cli"],
-      "delta": 1204
+      "delta": 1218,
+      "stars": 7035,
+      "created_at": "2012-03-02T17:04:47.000Z"
     },
     {
       "name": "Moon",
@@ -4608,35 +4622,9 @@
       "description": "🌙 ⚡️ A minimal, blazing fast UI library.",
       "owner_id": 15644571,
       "tags": ["framework"],
-      "delta": 3684
-    },
-    {
-      "name": "React Desktop",
-      "url": "http://reactdesktop.js.org",
-      "full_name": "gabrielbull/react-desktop",
-      "description": "React UI Components for macOS High Sierra and Windows 10",
-      "owner_id": 671923,
-      "tags": ["react", "desktop", "component"],
-      "delta": 991
-    },
-    {
-      "name": "freactal",
-      "url": "",
-      "full_name": "FormidableLabs/freactal",
-      "description":
-        "Clean and robust state management for React and React-like libs.",
-      "owner_id": 5078602,
-      "tags": ["state"],
-      "delta": 974
-    },
-    {
-      "name": "React Native Tab View",
-      "url": "",
-      "full_name": "react-native-community/react-native-tab-view",
-      "description": "A cross-platform Tab View component for React Native",
-      "owner_id": 20269980,
-      "tags": ["react-native"],
-      "delta": 670
+      "delta": 3689,
+      "stars": 4093,
+      "created_at": "2016-07-14T04:53:09.000Z"
     },
     {
       "name": "Prepack",
@@ -4646,7 +4634,9 @@
         "Prepack is a partial evaluator for JavaScript. Prepack rewrites a JavaScript bundle, resulting in Ja",
       "owner_id": 69631,
       "tags": ["performance"],
-      "delta": 4022
+      "delta": 4025,
+      "stars": 10626,
+      "created_at": "2015-10-28T23:25:08.000Z"
     },
     {
       "name": "Nest",
@@ -4656,7 +4646,9 @@
         "A progressive Node.js framework for building efficient and scalable server-side applications on top ",
       "owner_id": 28507035,
       "tags": ["nodejs-framework", "microservice"],
-      "delta": 2928
+      "delta": 2938,
+      "stars": 2943,
+      "created_at": "2017-02-04T20:12:52.000Z"
     },
     {
       "name": "Reaction",
@@ -4666,7 +4658,9 @@
         "Reaction is a customizable, real-time reactive, JavaScript commerce platform.",
       "owner_id": 5605462,
       "tags": ["meteor"],
-      "delta": 1863
+      "delta": 1869,
+      "stars": 6198,
+      "created_at": "2013-09-18T15:30:36.000Z"
     },
     {
       "name": "Britecharts",
@@ -4676,7 +4670,9 @@
         "Client-side reusable Charting Library based on D3.js v4 that allows easy and intuitive use of charts",
       "owner_id": 369874,
       "tags": ["chart", "d3"],
-      "delta": 1737
+      "delta": 1737,
+      "stars": 2922,
+      "created_at": "2015-05-19T22:42:39.000Z"
     },
     {
       "name": "vx",
@@ -4685,26 +4681,9 @@
       "description": "react + d3 = vx | visualization components",
       "owner_id": 339208,
       "tags": ["chart", "react", "d3", "svg"],
-      "delta": 2264
-    },
-    {
-      "name": "Element React",
-      "url": "https://eleme.github.io/element-react/",
-      "full_name": "eleme/element-react",
-      "description": "Element UI",
-      "owner_id": 1201438,
-      "tags": ["react", "component"],
-      "delta": 766
-    },
-    {
-      "name": "speedracer",
-      "url": "",
-      "full_name": "ngryman/speedracer",
-      "description":
-        ":racing_car: Collect performance metrics for your library/application.",
-      "owner_id": 892048,
-      "tags": ["performance"],
-      "delta": 854
+      "delta": 2267,
+      "stars": 3222,
+      "created_at": "2017-03-15T16:25:41.000Z"
     },
     {
       "name": "Mavo",
@@ -4714,7 +4693,9 @@
         "Create web applications entirely by writing HTML and CSS!",
       "owner_id": 27614671,
       "tags": ["cms"],
-      "delta": 1259
+      "delta": 1259,
+      "stars": 1782,
+      "created_at": "2015-09-14T05:21:12.000Z"
     },
     {
       "name": "Workbox",
@@ -4724,7 +4705,9 @@
         "📦 Workbox: JavaScript libraries for Progressive Web Apps",
       "owner_id": 1778935,
       "tags": ["webworker"],
-      "delta": 2486
+      "delta": 2489,
+      "stars": 3764,
+      "created_at": "2016-04-04T15:55:19.000Z"
     },
     {
       "name": "diegomura/react-pdf",
@@ -4733,7 +4716,9 @@
       "description": "Create PDF files using React",
       "owner_id": 5600341,
       "tags": ["react", "pdf"],
-      "delta": 2685
+      "delta": 2688,
+      "stars": 3703,
+      "created_at": "2016-10-18T21:33:58.000Z"
     },
     {
       "name": "Handsontable",
@@ -4743,7 +4728,9 @@
         "Handsontable Community Edition - JavaScript/HTML5 Spreadsheet Component for Web Apps",
       "owner_id": 8068250,
       "tags": ["table"],
-      "delta": 1053
+      "delta": 1057,
+      "stars": 9097,
+      "created_at": "2011-05-23T22:38:58.000Z"
     },
     {
       "name": "Spectre.css",
@@ -4753,7 +4740,9 @@
         "Spectre.css - a Lightweight, Responsive and Modern CSS Framework",
       "owner_id": 126385,
       "tags": ["css-lib"],
-      "delta": 1272
+      "delta": 1278,
+      "stars": 5415,
+      "created_at": "2016-03-07T11:53:15.000Z"
     },
     {
       "name": "Ory Editor",
@@ -4764,7 +4753,9 @@
         "Next-gen, highly customizable content editor for the browser - based on React and Redux. WYSIWYG on ",
       "owner_id": 25334553,
       "tags": ["rich-text-editor", "react", "redux"],
-      "delta": 4121
+      "delta": 4129,
+      "stars": 6322,
+      "created_at": "2015-05-29T12:19:44.000Z"
     },
     {
       "name": "Muuri",
@@ -4774,7 +4765,9 @@
         "Responsive, sortable, filterable and draggable grid layouts",
       "owner_id": 884254,
       "tags": ["layout", "dnd"],
-      "delta": 6182
+      "delta": 6196,
+      "stars": 6207,
+      "created_at": "2015-12-21T07:00:44.000Z"
     },
     {
       "name": "Chromatism",
@@ -4783,35 +4776,9 @@
       "description": ":rainbow: A simple set of utility functions for colours.",
       "owner_id": 8439945,
       "tags": ["color"],
-      "delta": 1625
-    },
-    {
-      "name": "React Live",
-      "url": "https://react-live.philpl.com/",
-      "full_name": "FormidableLabs/react-live",
-      "description":
-        "A production-focused playground for live editing React components",
-      "owner_id": 5078602,
-      "tags": ["react"],
-      "delta": 602
-    },
-    {
-      "name": "Fela",
-      "url": "http://fela.js.org",
-      "full_name": "rofrischmann/fela",
-      "description": "State-Driven Styling in JavaScript",
-      "owner_id": 10060928,
-      "tags": ["css-in-js"],
-      "delta": 838
-    },
-    {
-      "name": "ReactXP",
-      "url": "https://microsoft.github.io/reactxp/",
-      "full_name": "Microsoft/reactxp",
-      "description": "Library for cross-platform app development.",
-      "owner_id": 6154722,
-      "tags": ["react-native"],
-      "delta": 881
+      "delta": 1624,
+      "stars": 1694,
+      "created_at": "2015-08-30T00:00:33.000Z"
     },
     {
       "name": "Feather",
@@ -4820,16 +4787,9 @@
       "description": "Simply beautiful open source icons",
       "owner_id": 29268069,
       "tags": ["icon", "svg"],
-      "delta": 9397
-    },
-    {
-      "name": "DPlayer",
-      "url": "http://dplayer.js.org",
-      "full_name": "MoePlayer/DPlayer",
-      "description": ":lollipop: Wow, such a lovely HTML5 danmaku video player",
-      "owner_id": 30426040,
-      "tags": ["video"],
-      "delta": 846
+      "delta": 9404,
+      "stars": 11494,
+      "created_at": "2014-05-28T19:49:55.000Z"
     },
     {
       "name": "billboard.js",
@@ -4839,7 +4799,9 @@
         ":bar_chart: Re-usable, easy interface JavaScript chart library based on D3 v4+:chart_with_upwards_tr",
       "owner_id": 6589568,
       "tags": ["chart", "d3", "svg"],
-      "delta": 2081
+      "delta": 2081,
+      "stars": 2220,
+      "created_at": "2017-06-08T02:54:44.000Z"
     },
     {
       "name": "Cell",
@@ -4848,17 +4810,9 @@
       "description": "A self-driving web app framework",
       "owner_id": 29186916,
       "tags": ["framework"],
-      "delta": 1295
-    },
-    {
-      "name": "Now UI Kit",
-      "url": "",
-      "full_name": "creativetimofficial/now-ui-kit",
-      "description":
-        "Now UI Kit Bootstrap 4 - Designed by Invision. Coded by Creative Tim",
-      "owner_id": 20172349,
-      "tags": ["css-lib"],
-      "delta": 913
+      "delta": 1294,
+      "stars": 1435,
+      "created_at": "2017-06-06T06:31:44.000Z"
     },
     {
       "name": "flubber",
@@ -4867,7 +4821,9 @@
       "description": "Tools for smoother shape animations.",
       "owner_id": 2120446,
       "tags": ["animation", "svg"],
-      "delta": 2288
+      "delta": 2292,
+      "stars": 4397,
+      "created_at": "2017-06-09T08:16:56.000Z"
     },
     {
       "name": "Amplitude.js",
@@ -4877,7 +4833,9 @@
         "Amplitude.js is the HTML5 Audio Player for the modern era. No dependencies required.",
       "owner_id": 4382659,
       "tags": ["audio"],
-      "delta": 1214
+      "delta": 1269,
+      "stars": 2104,
+      "created_at": "2013-10-07T20:38:20.000Z"
     },
     {
       "name": "Spellbook of Modern Web Dev",
@@ -4887,7 +4845,9 @@
         "A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development",
       "owner_id": 43011,
       "tags": ["learning"],
-      "delta": 4638
+      "delta": 4638,
+      "stars": 9135,
+      "created_at": "2017-06-10T18:03:21.000Z"
     },
     {
       "name": "Collect.js",
@@ -4897,7 +4857,9 @@
         "💎 Convenient and dependency free wrapper for working with arrays and objects",
       "owner_id": 1481696,
       "tags": ["util"],
-      "delta": 2804
+      "delta": 2803,
+      "stars": 2972,
+      "created_at": "2016-09-11T14:53:13.000Z"
     },
     {
       "name": "Golden Layout",
@@ -4906,17 +4868,9 @@
       "description": "The ultimate Javascript layout manager",
       "owner_id": 9024218,
       "tags": ["layout"],
-      "delta": 1576
-    },
-    {
-      "name": "asm-dom",
-      "url": "",
-      "full_name": "mbasso/asm-dom",
-      "description":
-        "A minimal WebAssembly virtual DOM to build C++ SPA (Single page applications)",
-      "owner_id": 5837614,
-      "tags": ["webassembly"],
-      "delta": 724
+      "delta": 1577,
+      "stars": 3471,
+      "created_at": "2014-10-05T07:29:06.000Z"
     },
     {
       "name": "Flight",
@@ -4925,25 +4879,9 @@
       "description": "The best way to build animation compositions for React.",
       "owner_id": 83390,
       "tags": ["react", "animation"],
-      "delta": 1704
-    },
-    {
-      "name": "Redux-First Router",
-      "url": "",
-      "full_name": "faceyspacey/redux-first-router",
-      "description": "🎖 seamless redux-first routing -- just dispatch actions",
-      "owner_id": 154732,
-      "tags": ["redux", "routing"],
-      "delta": 750
-    },
-    {
-      "name": "Infinite Scroll",
-      "url": "https://infinite-scroll.com",
-      "full_name": "metafizzy/infinite-scroll",
-      "description": "📜 Automatically add next page",
-      "owner_id": 573910,
-      "tags": ["scrolling"],
-      "delta": 641
+      "delta": 1704,
+      "stars": 2486,
+      "created_at": "2017-06-15T05:52:50.000Z"
     },
     {
       "name": "Sonar",
@@ -4952,7 +4890,9 @@
       "description": "A linting tool for the web",
       "owner_id": 25042266,
       "tags": ["lint", "access"],
-      "delta": 1035
+      "delta": 1039,
+      "stars": 1188,
+      "created_at": "2017-02-16T18:15:31.000Z"
     },
     {
       "name": "react-native-ui-kitten",
@@ -4961,7 +4901,9 @@
       "description": "🐱  Customizable and reusable react-native component kit",
       "owner_id": 11921694,
       "tags": ["react-native"],
-      "delta": 1096
+      "delta": 1100,
+      "stars": 1968,
+      "created_at": "2016-12-20T08:22:38.000Z"
     },
     {
       "name": "Chalk",
@@ -4970,7 +4912,9 @@
       "description": "🖍 Terminal string styling done right",
       "owner_id": 13122722,
       "tags": ["cli"],
-      "delta": 1553
+      "delta": 1560,
+      "stars": 7672,
+      "created_at": "2013-08-03T00:20:12.000Z"
     },
     {
       "name": "Commander.js",
@@ -4979,17 +4923,9 @@
       "description": "node.js command-line interfaces made easy",
       "owner_id": 25254,
       "tags": ["cli"],
-      "delta": 1404
-    },
-    {
-      "name": "Titanic",
-      "url": "https://icons8.com/c/animated-icons",
-      "full_name": "icons8/titanic",
-      "description":
-        "A set of animated icons + code to insert them into the webpages",
-      "owner_id": 6615749,
-      "tags": ["icon"],
-      "delta": 722
+      "delta": 1417,
+      "stars": 9674,
+      "created_at": "2011-08-14T21:33:58.000Z"
     },
     {
       "name": "npm",
@@ -4998,7 +4934,9 @@
       "description": "a package manager for javascript",
       "owner_id": 6078720,
       "tags": ["package", "node.js"],
-      "delta": 1864
+      "delta": 1876,
+      "stars": 14959,
+      "created_at": "2009-09-29T17:21:24.000Z"
     },
     {
       "name": "Ink",
@@ -5007,7 +4945,9 @@
       "description": "🌈 React for interactive command-line apps",
       "owner_id": 697676,
       "tags": ["react", "cli"],
-      "delta": 3608
+      "delta": 3629,
+      "stars": 4254,
+      "created_at": "2017-06-12T06:12:28.000Z"
     },
     {
       "name": "Front End Guide",
@@ -5017,7 +4957,9 @@
         "📚 Study guide and introduction to the modern front end stack.",
       "owner_id": 17284363,
       "tags": ["learning"],
-      "delta": 2046
+      "delta": 2047,
+      "stars": 9815,
+      "created_at": "2017-04-24T02:06:06.000Z"
     },
     {
       "name": "Bundle Buddy",
@@ -5026,7 +4968,9 @@
       "description": "A tool to identify bundle duplication across splits.",
       "owner_id": 883126,
       "tags": ["performance"],
-      "delta": 1132
+      "delta": 1135,
+      "stars": 1976,
+      "created_at": "2017-06-25T01:15:25.000Z"
     },
     {
       "name": "Pell",
@@ -5036,7 +4980,9 @@
         "📝 the simplest and smallest (1kB) WYSIWYG text editor for web, with no dependencies",
       "owner_id": 8563847,
       "tags": ["rich-text-editor"],
-      "delta": 6127
+      "delta": 6132,
+      "stars": 6757,
+      "created_at": "2017-07-09T14:30:51.000Z"
     },
     {
       "name": "Emotion",
@@ -5045,7 +4991,9 @@
       "description": "⚡️ The Next Generation of CSS-in-JS",
       "owner_id": 31557565,
       "tags": ["css-in-js"],
-      "delta": 2510
+      "delta": 2524,
+      "stars": 2531,
+      "created_at": "2017-05-27T04:23:45.000Z"
     },
     {
       "name": "Scribbletune",
@@ -5054,7 +5002,9 @@
       "description": "Create music with JavaScript and Node.js!",
       "owner_id": 467030,
       "tags": ["audio"],
-      "delta": 1860
+      "delta": 1861,
+      "stars": 2307,
+      "created_at": "2013-11-25T21:44:43.000Z"
     },
     {
       "name": "Reselect",
@@ -5063,7 +5013,9 @@
       "description": "Selector library for Redux",
       "owner_id": 6412038,
       "tags": ["redux"],
-      "delta": 2046
+      "delta": 2055,
+      "stars": 9707,
+      "created_at": "2015-07-01T11:06:45.000Z"
     },
     {
       "name": "Redux Persist",
@@ -5072,16 +5024,9 @@
       "description": "persist and rehydrate a redux store",
       "owner_id": 2302315,
       "tags": ["redux"],
-      "delta": 1465
-    },
-    {
-      "name": "Markvis",
-      "url": "https://markvis.js.org/",
-      "full_name": "geekplux/markvis",
-      "description": "make visualization in markdown. 📊📈",
-      "owner_id": 3816105,
-      "tags": ["chart", "md"],
-      "delta": 707
+      "delta": 1470,
+      "stars": 4500,
+      "created_at": "2015-07-23T04:43:58.000Z"
     },
     {
       "name": "BotUI",
@@ -5090,7 +5035,9 @@
       "description": "🤖 A JavaScript framework to create conversational UIs",
       "owner_id": 29958442,
       "tags": ["bot"],
-      "delta": 1006
+      "delta": 1007,
+      "stars": 1515,
+      "created_at": "2017-06-29T15:54:57.000Z"
     },
     {
       "name": "Apollo Server",
@@ -5100,7 +5047,9 @@
         ":earth_africa: GraphQL server for Express, Connect, Hapi, Koa and more",
       "owner_id": 17189275,
       "tags": ["graphql"],
-      "delta": 2288
+      "delta": 2294,
+      "stars": 2808,
+      "created_at": "2016-04-21T09:26:01.000Z"
     },
     {
       "name": "Wade",
@@ -5109,7 +5058,9 @@
       "description": ":ocean: Blazing fast, 1kb search for Javascript",
       "owner_id": 15644571,
       "tags": ["search"],
-      "delta": 2163
+      "delta": 2164,
+      "stars": 2634,
+      "created_at": "2017-05-21T01:53:54.000Z"
     },
     {
       "name": "Project Guidelines",
@@ -5118,16 +5069,9 @@
       "description": "A set of best practices for JavaScript projects",
       "owner_id": 7815827,
       "tags": ["learning"],
-      "delta": 2945
-    },
-    {
-      "name": "Kea",
-      "url": "https://kea.js.org/",
-      "full_name": "keajs/kea",
-      "description": "High level abstraction between React and Redux",
-      "owner_id": 30091805,
-      "tags": ["react", "redux"],
-      "delta": 735
+      "delta": 2962,
+      "stars": 11239,
+      "created_at": "2017-06-30T10:17:55.000Z"
     },
     {
       "name": "Spacetime",
@@ -5136,7 +5080,9 @@
       "description": "A lightweight javascript timezone library",
       "owner_id": 15916329,
       "tags": ["date"],
-      "delta": 1267
+      "delta": 1267,
+      "stars": 1484,
+      "created_at": "2017-02-22T15:31:34.000Z"
     },
     {
       "name": "Fitty",
@@ -5145,16 +5091,9 @@
       "description": "✨ Makes text fit perfectly",
       "owner_id": 1132575,
       "tags": ["typo"],
-      "delta": 1182
-    },
-    {
-      "name": "React Autosuggest",
-      "url": "http://react-autosuggest.js.org",
-      "full_name": "moroshko/react-autosuggest",
-      "description": "WAI-ARIA compliant React autosuggest component",
-      "owner_id": 259753,
-      "tags": ["react", "autocomplete"],
-      "delta": 669
+      "delta": 1183,
+      "stars": 1916,
+      "created_at": "2017-07-24T09:39:26.000Z"
     },
     {
       "name": "Chromeless",
@@ -5164,7 +5103,9 @@
         "🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.",
       "owner_id": 17219288,
       "tags": ["auto"],
-      "delta": 4523
+      "delta": 4529,
+      "stars": 11511,
+      "created_at": "2017-06-01T16:11:11.000Z"
     },
     {
       "name": "SheetJS js-xlsx",
@@ -5174,16 +5115,9 @@
         ":green_book: SheetJS Community Edition -- Spreadsheet Parser and Writer",
       "owner_id": 5826089,
       "tags": ["table"],
-      "delta": 1620
-    },
-    {
-      "name": "Mailit",
-      "url": "",
-      "full_name": "dthree/mailit",
-      "description": "A tiny drop-in REST API to send emails",
-      "owner_id": 10319897,
-      "tags": ["email"],
-      "delta": 658
+      "delta": 1629,
+      "stars": 8497,
+      "created_at": "2012-12-03T19:25:52.000Z"
     },
     {
       "name": "React Helmet",
@@ -5192,7 +5126,9 @@
       "description": "A document head manager for React",
       "owner_id": 1261928,
       "tags": ["react"],
-      "delta": 1146
+      "delta": 1154,
+      "stars": 5985,
+      "created_at": "2015-06-18T00:07:34.000Z"
     },
     {
       "name": "react-beautiful-dnd",
@@ -5202,7 +5138,9 @@
         "Beautiful, accessible drag and drop for lists with React.js",
       "owner_id": 168166,
       "tags": ["react", "dnd"],
-      "delta": 3242
+      "delta": 3248,
+      "stars": 4564,
+      "created_at": "2017-08-09T03:37:15.000Z"
     },
     {
       "name": "NG-ZORRO",
@@ -5212,7 +5150,9 @@
         "An enterprise-class UI components based on Ant Design and Angular. 🐜 ",
       "owner_id": 30223759,
       "tags": ["angular", "component"],
-      "delta": 1093
+      "delta": 1097,
+      "stars": 2054,
+      "created_at": "2017-08-08T14:59:33.000Z"
     },
     {
       "name": "Nivo",
@@ -5222,7 +5162,9 @@
         "nivo provides a rich set of dataviz components, built on top of the awesome d3 and Reactjs libraries",
       "owner_id": 501642,
       "tags": ["react", "chart", "svg", "d3"],
-      "delta": 1900
+      "delta": 1902,
+      "stars": 2035,
+      "created_at": "2016-04-16T03:27:56.000Z"
     },
     {
       "name": "Puppeteer",
@@ -5231,7 +5173,9 @@
       "description": "Headless Chrome Node API",
       "owner_id": 1778935,
       "tags": ["auto"],
-      "delta": 21873
+      "delta": 21920,
+      "stars": 21943,
+      "created_at": "2017-05-09T22:16:13.000Z"
     },
     {
       "name": "Wekan",
@@ -5240,7 +5184,9 @@
       "description": "The open-source Trello-like kanban (built with Meteor)",
       "owner_id": 11725037,
       "tags": ["meteor"],
-      "delta": 1117
+      "delta": 1119,
+      "stars": 12041,
+      "created_at": "2014-01-21T01:26:28.000Z"
     },
     {
       "name": "Rocket.Chat",
@@ -5249,7 +5195,9 @@
       "description": "Have your own Slack like online chat, built with Meteor.",
       "owner_id": 12508788,
       "tags": ["meteor"],
-      "delta": 2509
+      "delta": 2530,
+      "stars": 15457,
+      "created_at": "2015-05-19T07:36:09.000Z"
     },
     {
       "name": "Vuestic Admin Dashboard",
@@ -5258,7 +5206,9 @@
       "description": "Vue.js admin dashboard",
       "owner_id": 30595047,
       "tags": ["vue", "dashboard"],
-      "delta": 2935
+      "delta": 2940,
+      "stars": 2944,
+      "created_at": "2017-07-31T11:52:40.000Z"
     },
     {
       "name": "Buefy",
@@ -5267,7 +5217,9 @@
       "description": "Lightweight UI components for Vue.js based on Bulma",
       "owner_id": 18370605,
       "tags": ["vue", "component"],
-      "delta": 1859
+      "delta": 1866,
+      "stars": 1871,
+      "created_at": "2017-03-31T16:44:48.000Z"
     },
     {
       "name": "fuzzysort",
@@ -5276,17 +5228,9 @@
       "description": "Fast SublimeText-like fuzzy search for JavaScript.",
       "owner_id": 1005136,
       "tags": ["search"],
-      "delta": 1201
-    },
-    {
-      "name": "redux-observable",
-      "url": "https://redux-observable.js.org",
-      "full_name": "redux-observable/redux-observable",
-      "description":
-        "RxJS middleware for action side effects in Redux using \"Epics\"",
-      "owner_id": 19417071,
-      "tags": ["redux", "stream", "fp"],
-      "delta": 909
+      "delta": 1201,
+      "stars": 1355,
+      "created_at": "2017-08-18T06:43:55.000Z"
     },
     {
       "name": "BootstrapVue",
@@ -5295,7 +5239,9 @@
       "description": "Quickly integrate Bootstrap 4 Components with Vue.js.",
       "owner_id": 22965283,
       "tags": ["vue", "component"],
-      "delta": 3220
+      "delta": 3227,
+      "stars": 3380,
+      "created_at": "2016-10-08T15:59:35.000Z"
     },
     {
       "name": "downshift",
@@ -5305,7 +5251,9 @@
         "🏎 Primitives to build simple, flexible, WAI-ARIA compliant enhanced input React components",
       "owner_id": 476675,
       "tags": ["react", "autocomplete"],
-      "delta": 2759
+      "delta": 2764,
+      "stars": 2916,
+      "created_at": "2017-07-25T14:31:42.000Z"
     },
     {
       "name": "Stencil",
@@ -5314,7 +5262,9 @@
       "description": "Stencil: A Compiler for Web Components",
       "owner_id": 3171503,
       "tags": ["framework"],
-      "delta": 1184
+      "delta": 1186,
+      "stars": 1803,
+      "created_at": "2017-02-15T18:57:07.000Z"
     },
     {
       "name": "r2",
@@ -5323,16 +5273,9 @@
       "description": "HTTP client. Spiritual successor to request.",
       "owner_id": 579,
       "tags": ["http"],
-      "delta": 3490
-    },
-    {
-      "name": "Semiotic",
-      "url": "https://emeeks.github.io/semiotic/",
-      "full_name": "emeeks/semiotic",
-      "description": "A data visualization framework combining React & D3",
-      "owner_id": 495634,
-      "tags": ["react", "d3", "chart"],
-      "delta": 787
+      "delta": 3492,
+      "stars": 4278,
+      "created_at": "2017-08-30T23:50:18.000Z"
     },
     {
       "name": "react-imgpro",
@@ -5341,7 +5284,9 @@
       "description": "📷  Image Processing Component for React",
       "owner_id": 16336071,
       "tags": ["react", "image"],
-      "delta": 1124
+      "delta": 1123,
+      "stars": 1740,
+      "created_at": "2017-09-02T10:01:40.000Z"
     },
     {
       "name": "Rythm.js",
@@ -5350,7 +5295,9 @@
       "description": "A javascript library that makes your page dance.",
       "owner_id": 5747538,
       "tags": ["audio"],
-      "delta": 2098
+      "delta": 2099,
+      "stars": 2851,
+      "created_at": "2016-03-12T20:29:07.000Z"
     },
     {
       "name": "Lozad",
@@ -5360,7 +5307,9 @@
         "🔥  Highly performant, light ~0.7kb and configurable lazy loader in pure JS with no dependencies for",
       "owner_id": 307583,
       "tags": ["load"],
-      "delta": 3017
+      "delta": 3021,
+      "stars": 3407,
+      "created_at": "2017-08-28T20:28:52.000Z"
     },
     {
       "name": "Fastify",
@@ -5369,7 +5318,9 @@
       "description": "Fast and low overhead web framework, for Node.js",
       "owner_id": 24939410,
       "tags": ["nodejs-framework"],
-      "delta": 5741
+      "delta": 5752,
+      "stars": 5759,
+      "created_at": "2016-09-28T19:10:14.000Z"
     },
     {
       "name": "Formik",
@@ -5378,7 +5329,9 @@
       "description": "Build forms in React, without the tears 😭 ",
       "owner_id": 4060187,
       "tags": ["react", "form"],
-      "delta": 1239
+      "delta": 1253,
+      "stars": 4089,
+      "created_at": "2017-06-14T19:50:59.000Z"
     },
     {
       "name": "Modern JavaScript Cheatsheet",
@@ -5388,7 +5341,9 @@
         "Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.",
       "owner_id": 8942633,
       "tags": ["learning"],
-      "delta": 7439
+      "delta": 7477,
+      "stars": 14938,
+      "created_at": "2017-09-18T14:56:00.000Z"
     },
     {
       "name": "Every Programmer Should Know",
@@ -5398,7 +5353,9 @@
         "A collection of (mostly) technical things every software developer should know",
       "owner_id": 33053074,
       "tags": ["meta"],
-      "delta": 6613
+      "delta": 6628,
+      "stars": 31048,
+      "created_at": "2017-08-24T13:18:26.000Z"
     },
     {
       "name": "Draggable",
@@ -5408,7 +5365,9 @@
         "The JavaScript Drag & Drop library your grandparents warned you about.",
       "owner_id": 8085,
       "tags": ["dnd"],
-      "delta": 5293
+      "delta": 5302,
+      "stars": 9586,
+      "created_at": "2017-09-27T15:31:23.000Z"
     },
     {
       "name": "deeplearn.js",
@@ -5418,7 +5377,9 @@
         "Hardware-accelerated deep learning // machine learning // NumPy library for the web.",
       "owner_id": 29804435,
       "tags": ["ml"],
-      "delta": 1853
+      "delta": 1882,
+      "stars": 5375,
+      "created_at": "2017-08-02T14:45:47.000Z"
     },
     {
       "name": "GraphiQL",
@@ -5427,7 +5388,9 @@
       "description": "An in-browser IDE for exploring GraphQL.",
       "owner_id": 12972006,
       "tags": ["graphql"],
-      "delta": 2542
+      "delta": 2552,
+      "stars": 4654,
+      "created_at": "2015-08-11T02:56:22.000Z"
     },
     {
       "name": "GraphQL Playground",
@@ -5437,7 +5400,9 @@
         "🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collabor",
       "owner_id": 17219288,
       "tags": ["graphql"],
-      "delta": 1288
+      "delta": 1290,
+      "stars": 1291,
+      "created_at": "2017-01-25T13:19:29.000Z"
     },
     {
       "name": "Material Design for Angular",
@@ -5446,7 +5411,9 @@
       "description": "Material Design components for Angular",
       "owner_id": 139426,
       "tags": ["material", "angular"],
-      "delta": 1401
+      "delta": 1413,
+      "stars": 12535,
+      "created_at": "2016-01-04T18:50:02.000Z"
     },
     {
       "name": "React Static",
@@ -5455,16 +5422,9 @@
       "description": "⚛️ 🚀 A progressive static-site generator for React.",
       "owner_id": 5400727,
       "tags": ["react", "ssg"],
-      "delta": 2975
-    },
-    {
-      "name": "React Email Editor",
-      "url": "https://unlayer.com",
-      "full_name": "unlayer/react-email-editor",
-      "description": "Drag-n-Drop Email Editor Component for React.js",
-      "owner_id": 32661111,
-      "tags": ["react", "email", "rich-text-editor"],
-      "delta": 716
+      "delta": 2985,
+      "stars": 2988,
+      "created_at": "2017-09-09T22:10:32.000Z"
     },
     {
       "name": "vuera",
@@ -5474,26 +5434,9 @@
         ":eyes: Vue in React, React in Vue. Seamless integration of the two. :dancers:",
       "owner_id": 17192674,
       "tags": ["react", "vue"],
-      "delta": 1152
-    },
-    {
-      "name": "maptalks",
-      "url": "https://maptalks.org",
-      "full_name": "maptalks/maptalks.js",
-      "description":
-        "A light and plugable JavaScript library for integrated 2D/3D maps.",
-      "owner_id": 13678959,
-      "tags": ["map", "3d"],
-      "delta": 837
-    },
-    {
-      "name": "ST",
-      "url": "https://selecttransform.github.io/site/",
-      "full_name": "SelectTransform/st.js",
-      "description": "JSON template over JSON",
-      "owner_id": 32342909,
-      "tags": ["json"],
-      "delta": 675
+      "delta": 1153,
+      "stars": 1452,
+      "created_at": "2017-09-27T21:26:27.000Z"
     },
     {
       "name": "accessibilityjs",
@@ -5502,7 +5445,9 @@
       "description": "Client side accessibility error scanner.",
       "owner_id": 9919,
       "tags": ["access"],
-      "delta": 1077
+      "delta": 1079,
+      "stars": 1963,
+      "created_at": "2017-06-22T12:41:18.000Z"
     },
     {
       "name": "napajs",
@@ -5511,36 +5456,9 @@
       "description": "Napa.js: a multi-threaded JavaScript runtime",
       "owner_id": 6154722,
       "tags": ["node.js"],
-      "delta": 2996
-    },
-    {
-      "name": "Redux Zero",
-      "url": "",
-      "full_name": "concretesolutions/redux-zero",
-      "description": "A lightweight state container based on Redux ",
-      "owner_id": 858781,
-      "tags": ["redux"],
-      "delta": 939
-    },
-    {
-      "name": "schnack.js",
-      "url": "https://www.vis4.net/blog/2017/10/hello-schnack/",
-      "full_name": "gka/schnack",
-      "description":
-        "🗣️ Simple node app for Disqus-like drop-in commenting on static websites ",
-      "owner_id": 617518,
-      "tags": ["blog"],
-      "delta": 927
-    },
-    {
-      "name": "Cypress",
-      "url": "https://www.cypress.io",
-      "full_name": "cypress-io/cypress",
-      "description":
-        "Fast, easy and reliable testing for anything that runs in a browser.",
-      "owner_id": 8908513,
-      "tags": ["test", "auto"],
-      "delta": 843
+      "delta": 3005,
+      "stars": 7368,
+      "created_at": "2017-07-18T21:41:10.000Z"
     },
     {
       "name": "Froala Design Blocks ",
@@ -5550,7 +5468,9 @@
         "A set of 170+ Bootstrap based design blocks ready to be used to create clean modern websites.",
       "owner_id": 7966884,
       "tags": ["html"],
-      "delta": 3689
+      "delta": 3703,
+      "stars": 9199,
+      "created_at": "2017-08-03T13:22:43.000Z"
     },
     {
       "name": "Front-End Checklist",
@@ -5560,7 +5480,9 @@
         "🗂 The perfect Front-End Checklist for modern websites and meticulous developers",
       "owner_id": 237229,
       "tags": ["learning"],
-      "delta": 15394
+      "delta": 15446,
+      "stars": 24218,
+      "created_at": "2017-10-16T10:12:36.000Z"
     },
     {
       "name": "HEML",
@@ -5570,7 +5492,9 @@
         "HEML is an open source markup language for building responsive email.",
       "owner_id": 9406778,
       "tags": ["email"],
-      "delta": 1817
+      "delta": 1819,
+      "stars": 3520,
+      "created_at": "2017-10-09T23:16:05.000Z"
     },
     {
       "name": "Graphcool",
@@ -5580,16 +5504,9 @@
         "⚡️ Framework to develop & deploy serverless GraphQL backends",
       "owner_id": 17219288,
       "tags": ["graphql"],
-      "delta": 1610
-    },
-    {
-      "name": "svgr",
-      "url": "https://svgr.now.sh/",
-      "full_name": "smooth-code/svgr",
-      "description": "Transform SVG into React components 🦁",
-      "owner_id": 26206404,
-      "tags": ["react", "svg"],
-      "delta": 616
+      "delta": 1628,
+      "stars": 3947,
+      "created_at": "2016-09-25T12:54:40.000Z"
     },
     {
       "name": "Frappé Charts",
@@ -5599,16 +5516,9 @@
         "📊🍩📈 Simple, responsive, modern SVG Charts with zero dependencies",
       "owner_id": 836974,
       "tags": ["chart", "svg"],
-      "delta": 8985
-    },
-    {
-      "name": "react-native-navigation",
-      "url": "https://wix.github.io/react-native-navigation/",
-      "full_name": "wix/react-native-navigation",
-      "description": "A complete native navigation solution for React Native",
-      "owner_id": 686511,
-      "tags": ["react-native", "nav"],
-      "delta": 677
+      "delta": 8991,
+      "stars": 10012,
+      "created_at": "2017-10-26T10:13:21.000Z"
     },
     {
       "name": "Ant Design Pro",
@@ -5618,7 +5528,9 @@
         "👨🏻‍💻👩🏻‍💻 An out-of-box UI solution for enterprise applications",
       "owner_id": 12101536,
       "tags": ["dashboard", "react"],
-      "delta": 5623
+      "delta": 5652,
+      "stars": 5663,
+      "created_at": "2017-08-25T10:40:44.000Z"
     },
     {
       "name": "Bottender",
@@ -5627,7 +5539,9 @@
       "description": "⚡️ Make Bots in Your Way, Fast and Flexibly ",
       "owner_id": 10671553,
       "tags": ["bot"],
-      "delta": 1490
+      "delta": 1492,
+      "stars": 1882,
+      "created_at": "2017-10-16T09:40:49.000Z"
     },
     {
       "name": "Tailwind CSS",
@@ -5636,16 +5550,9 @@
       "description": "A utility-first CSS framework for rapid UI development.",
       "owner_id": 30317862,
       "tags": ["css-lib"],
-      "delta": 2136
-    },
-    {
-      "name": "Devhints",
-      "url": "https://devhints.io",
-      "full_name": "rstacruz/cheatsheets",
-      "description": "My cheatsheets",
-      "owner_id": 74385,
-      "tags": ["learning"],
-      "delta": 604
+      "delta": 2143,
+      "stars": 3351,
+      "created_at": "2017-10-06T14:59:14.000Z"
     },
     {
       "name": "Server.js",
@@ -5655,16 +5562,9 @@
         ":desktop_computer: Simple and powerful server for Node.js",
       "owner_id": 2801252,
       "tags": ["nodejs-framework", "express"],
-      "delta": 2909
-    },
-    {
-      "name": "Emergence.js",
-      "url": "https://xtianmiller.github.io/emergence.js/",
-      "full_name": "xtianmiller/emergence.js",
-      "description": "Detect element visibility in the browser",
-      "owner_id": 6402731,
-      "tags": ["scrolling"],
-      "delta": 919
+      "delta": 2914,
+      "stars": 2915,
+      "created_at": "2016-12-20T20:51:08.000Z"
     },
     {
       "name": "cube-ui",
@@ -5674,7 +5574,9 @@
         ":large_orange_diamond: A fantastic mobile ui lib implement by Vue",
       "owner_id": 27521938,
       "tags": ["vue", "mobile"],
-      "delta": 1438
+      "delta": 1447,
+      "stars": 2063,
+      "created_at": "2017-11-03T06:17:27.000Z"
     },
     {
       "name": "Reason",
@@ -5684,27 +5586,20 @@
         "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems",
       "owner_id": 69631,
       "tags": ["compiler"],
-      "delta": 2028
+      "delta": 2050,
+      "stars": 4244,
+      "created_at": "2015-11-16T08:22:32.000Z"
     },
     {
-      "name": "Papers we love",
-      "url": "http://paperswelove.org/",
-      "full_name": "papers-we-love/papers-we-love",
-      "description":
-        "Papers from the computer science community to read and discuss.",
-      "owner_id": 6187757,
-      "tags": ["learning"],
-      "delta": 758
-    },
-    {
-      "name": "Tech Interview Handbook",
-      "url": "",
-      "full_name": "yangshun/tech-interview-handbook",
-      "description":
-        "💯 Algorithms, front end and behavioral content for rocking your coding interview",
-      "owner_id": 1315101,
-      "tags": ["meta"],
-      "delta": 686
+      "name": "ClojureScript",
+      "url": "http://clojurescript.org/",
+      "full_name": "clojure/clojurescript",
+      "description": "Clojure to JS compiler",
+      "owner_id": 317875,
+      "tags": ["compiler"],
+      "delta": 1049,
+      "stars": 7459,
+      "created_at": "2011-07-20T23:29:13.000Z"
     },
     {
       "name": "Node.js Best Practices",
@@ -5714,7 +5609,9 @@
         "The largest Node.JS best practices list. Curated from the top ranked articles and always updated",
       "owner_id": 8571500,
       "tags": ["learning"],
-      "delta": 2896
+      "delta": 2917,
+      "stars": 11391,
+      "created_at": "2017-09-15T08:33:19.000Z"
     },
     {
       "name": "Luxon",
@@ -5723,7 +5620,9 @@
       "description": "⏱ A library for working with dates and times in JS",
       "owner_id": 4129662,
       "tags": ["date"],
-      "delta": 4690
+      "delta": 4705,
+      "stars": 5052,
+      "created_at": "2015-11-30T12:48:48.000Z"
     },
     {
       "name": "react-fns",
@@ -5733,16 +5632,9 @@
         "Browser API's turned into declarative React components and HoC's",
       "owner_id": 4060187,
       "tags": ["react"],
-      "delta": 1199
-    },
-    {
-      "name": "PaperCSS",
-      "url": "https://getpapercss.com",
-      "full_name": "papercss/papercss",
-      "description": "The Less Formal CSS Framework",
-      "owner_id": 33295605,
-      "tags": ["css-lib"],
-      "delta": 894
+      "delta": 1200,
+      "stars": 2223,
+      "created_at": "2017-10-14T20:19:51.000Z"
     },
     {
       "name": "Scrollama",
@@ -5751,7 +5643,9 @@
       "description": "Scrollytelling with IntersectionObserver.",
       "owner_id": 324631,
       "tags": ["scrolling"],
-      "delta": 1605
+      "delta": 1609,
+      "stars": 2758,
+      "created_at": "2017-10-20T13:05:29.000Z"
     },
     {
       "name": "Functional-Light JavaScript",
@@ -5761,7 +5655,9 @@
         "Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.",
       "owner_id": 150330,
       "tags": ["fp", "book"],
-      "delta": 981
+      "delta": 1001,
+      "stars": 6255,
+      "created_at": "2016-08-17T01:40:50.000Z"
     },
     {
       "name": "Superstruct",
@@ -5771,17 +5667,9 @@
         "A simple and composable way  to validate data in Javascript.",
       "owner_id": 311752,
       "tags": ["validation", "json"],
-      "delta": 2454
-    },
-    {
-      "name": "Super Tiny Social Icons",
-      "url": "",
-      "full_name": "edent/SuperTinyIcons",
-      "description":
-        "Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos",
-      "owner_id": 837136,
-      "tags": ["icon"],
-      "delta": 988
+      "delta": 2464,
+      "stars": 2755,
+      "created_at": "2017-11-23T03:03:25.000Z"
     },
     {
       "name": "Parcel",
@@ -5791,7 +5679,9 @@
         "📦🚀 Blazing fast, zero configuration web application bundler",
       "owner_id": 32607881,
       "tags": ["module", "build"],
-      "delta": 13569
+      "delta": 13747,
+      "stars": 13816,
+      "created_at": "2017-08-07T16:36:47.000Z"
     },
     {
       "name": "30 seconds of code",
@@ -5801,7 +5691,9 @@
         "Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.",
       "owner_id": 8281875,
       "tags": ["learning"],
-      "delta": 10617
+      "delta": 10840,
+      "stars": 13251,
+      "created_at": "2017-11-29T17:35:03.000Z"
     },
     {
       "name": "Docusaurus",
@@ -5810,7 +5702,9 @@
       "description": "Easy to maintain open source documentation websites.",
       "owner_id": 69631,
       "tags": ["doc", "react"],
-      "delta": 2095
+      "delta": 2150,
+      "stars": 3030,
+      "created_at": "2017-06-20T16:13:53.000Z"
     },
     {
       "name": "Boardgame",
@@ -5819,7 +5713,9 @@
       "description": "State management and more for turn based games.",
       "owner_id": 1342004,
       "tags": ["state"],
-      "delta": 3991
+      "delta": 4032,
+      "stars": 4744,
+      "created_at": "2017-11-21T23:47:35.000Z"
     },
     {
       "name": "React Content Loader",
@@ -5829,7 +5725,9 @@
         "React component that uses SVG to create a collection of loaders which simulates the structure of the",
       "owner_id": 4838076,
       "tags": ["react", "svg"],
-      "delta": 1068
+      "delta": 1184,
+      "stars": 3047,
+      "created_at": "2017-01-20T00:30:11.000Z"
     },
     {
       "name": "Mint UI",
@@ -5838,7 +5736,20 @@
       "description": "Mobile UI elements for Vue.js",
       "owner_id": 12810740,
       "tags": ["vue", "component", "mobile"],
-      "delta": 5516
+      "delta": 5533,
+      "stars": 9048,
+      "created_at": "2016-05-17T09:54:10.000Z"
+    },
+    {
+      "name": "Purescript",
+      "url": "http://purescript.org",
+      "full_name": "purescript/purescript",
+      "description": "A strongly-typed language that compiles to Javascript",
+      "owner_id": 6556677,
+      "tags": ["compiler"],
+      "delta": 1221,
+      "stars": 4341,
+      "created_at": "2013-09-30T05:29:23.000Z"
     }
   ]
 }

@@ -15,7 +15,7 @@ Soon available in English, Japanese and Chinese.
 * [Frank Xu](https://github.com/frankyxhl)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
 
-## How ot contribute?
+## How to contribute?
 
 * Clone the repo
 * Install the dependencies: `npm install`
