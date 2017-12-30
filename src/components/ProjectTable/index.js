@@ -5,10 +5,11 @@ import ProjectAvatar from '../ProjectAvatar';
 import Stars from '../Stars';
 
 const trends = [
-  { name: 'downfast', value: -60 },
-  { name: 'down', value: -20 },
-  { name: 'neutral', value: 20 },
-  { name: 'up', value: 60 },
+  { name: 'downfast', value: -70 },
+  { name: 'down', value: -30 },
+  { name: 'downslow', value: 0 },
+  { name: 'upslow', value: 30 },
+  { name: 'up', value: 70 },
   { name: 'upfast', value: 9999 },
 ];
 
@@ -46,7 +47,9 @@ ProjectTableView.Row = ({
   const url = project.url || project.repository;
 
   // use relative scale
-  const widthPercent = project.delta * 100 / maxDelta;
+  const widthPercent = project.delta * 100 / maxDelta
+
+  const previousWidthPercent = widthPercent + widthPercent*trendPercent/100
 
   // use absolute scale based on Vue as the max
   // const widthPercent = project.delta*100/39263
@@ -59,6 +62,7 @@ ProjectTableView.Row = ({
   return (
     <a className={`project-table-row project-table-row-${trendClass}`} href={url}>
       <div className="project-table-bar" style={{ width: `${widthPercent}%` }} />
+      <div className="project-table-bar project-table-bar-previous" style={{ width: `${previousWidthPercent}%` }} />
       <div className="project-table-contents">
         <ProjectAvatar project={project} size={50} />
         <div className="main-column">
@@ -68,7 +72,8 @@ ProjectTableView.Row = ({
               <span>{project.name}</span>
             </div>
             <div>
-              <Stars value={project.delta} decimals={1} />
+            <Stars value={project.delta} decimals={1} />
+            <span className="project-trend">{trendPercent > 0 ? `+${trendPercent}` : trendPercent}%</span>
             </div>
           </div>
           <div className="description-section">
