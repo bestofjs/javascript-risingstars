@@ -40,7 +40,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   }
   const pages = [
     { year: 2016, languages: ['en', 'ja', 'zh'] },
-    { year: 2017, languages: ['en', 'ja', 'zh'] }
+    { year: 2017, languages: ['en', 'ja', 'zh', 'fr'] }
   ]
   const allYearLanguageCombinations = flatten(
     pages.map(item =>
