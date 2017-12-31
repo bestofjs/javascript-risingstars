@@ -1,7 +1,7 @@
-.small-card {
-  padding: 2rem;
-  background-color: white;
-}
+// .small-card {
+//   padding: 2rem;
+//   background-color: white;
+// }
 .small-card-header {
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -10,25 +10,26 @@
   margin: 2rem 0;
 }
 
-.tag-card {
-  padding: 2rem 0;
-  background-color: white;
-}
-.tag-card-inner {
-  background: white
-}
+// .tag-card {
+//   padding: 2rem 0;
+//   background-color: white;
+// }
+// .tag-card-inner {
+//   background: white
+// }
 .tag-card-header {
   margin-bottom: 2rem;
   padding: 0 2rem;
   font-size: 1.5rem;
 }
-.tag-card-header-text {
-  padding-bottom: 1rem;
-  border-bottom: 3px solid #f9e9e0;
-}
+// .tag-card-header-text {
+//   padding-bottom: 1rem;
+//   border-bottom: 3px solid #f9e9e0;
+// }
 .tag-card-number {
-  color: #FFAC2C;
-  padding-right: .5rem;
+  // color: #FFAC2C;
+  // padding-right: .5rem;
+  display: none;
 }
 .tag-card-body {
   display: flex;
@@ -46,9 +47,9 @@
 }
 
 .tag-card-column-2 {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 3px solid #f9e9e0;
+  // margin-top: 2rem;
+  // padding-top: 2rem;
+  // border-top: 3px solid #f9e9e0;
 }
 @media (min-width: 800px) {
   .tag-card-body > div {
@@ -58,8 +59,8 @@
   .tag-card-column-2 {
     margin-top: 0;
     padding-top: 0;
-    border-left: 3px solid #f9e9e0;
-    border-top-style: none;
+    // border-left: 3px solid #f9e9e0;
+    // border-top-style: none;
   }
   .tag-card-body {
     flex-direction: row;

@@ -38,7 +38,7 @@ const LanguageLink = ({ item, active, year }) => {
   if (active)
     return <span className="language-menu-item is-active">{item.text}</span>
   return (
-    <Link to={`/${year}/${item.code}/`} className="language-menu-item">
+    <Link to={`/${year}/${item.code}`} className="language-menu-item">
       {item.text}
     </Link>
   )

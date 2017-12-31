@@ -1,0 +1,31 @@
+$small-break:  600px;
+$medium-break: 1200px;
+
+$small-minus-one:  $small-break - 1;
+$medium-minus-one: $medium-break - 1;
+
+@mixin small(){ // smaller than small-break
+  @media screen and (max-width: $small-minus-one) {
+    @content;
+  }
+}
+@mixin small-medium(){ // smaller than medium-break
+  @media screen and (max-width: $medium-minus-one) {
+    @content;
+  }
+}
+@mixin medium(){ // between small and medium-break
+  @media screen and (min-width: $small-break) and (max-width: $medium-minus-one) {
+    @content;
+  }
+}
+@mixin medium-large(){ // larger than small-break
+  @media screen and (min-width: $small-break) {
+    @content;
+  }
+}
+@mixin large(){ // larger than medium-break
+  @media screen and (min-width: $medium-break) {
+    @content;
+  }
+}
