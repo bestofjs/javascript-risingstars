@@ -4,8 +4,12 @@
 }
 .project-table-row {
   position: relative; // needed because the `.project-table-background` has absolute position
+  transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
   &:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
+    .project-table-bar {
+      opacity: 0;
+    }
   }
 }
 .project-table-inner {
@@ -22,6 +26,8 @@
   left: 0;
   bottom: 0;
   background: rgba(212, 212, 212, 0.4);
+  opacity: 1;
+  transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
   &.project-table-bar-previous {
     // background: rgba(0, 119, 255, 0.05);
     background: none;
@@ -146,7 +152,6 @@
   bottom: 0;
   background: $white;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  z-index: 20;
   opacity: 0;
   transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
   padding-top: 90px;
@@ -157,6 +162,7 @@
     top: -10px;
     bottom: -200px;
     opacity: 1;
+    z-index: 20;
   }
 }
 

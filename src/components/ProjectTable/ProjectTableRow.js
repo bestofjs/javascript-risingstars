@@ -5,6 +5,7 @@ import ProjectAvatar from '../ProjectAvatar';
 import Stars from '../Stars';
 import strings from '../../../i18n/2017/messages/en.yaml';
 import formatDelta from '../../utils/formatDelta';
+import twitter from '../../../data/twitter.yaml'
 
 const trends = [
   { name: 'downfast', value: -70 },
@@ -48,7 +49,7 @@ const ProjectTableRow = ({
   const addSuffix = n => n === 1 ? '#1' : n === 2 ? 'second' : n === 3 ? 'third' : `${n}th`;
 
   const tweetText = `
-    In 2017, ${project.twitter || '@VulcanJS'} added ${formatDelta(project.delta)} stars, making it the ${addSuffix(index)} most popular ${strings['categories-share'][tagKey]} on GitHub. #RisingStarsJS http://risingstars.js.org
+    In 2017, ${twitter[project.slug] ? `@${twitter[project.slug]}` : `#${project.slug}`} added ${formatDelta(project.delta)} stars, making it the ${addSuffix(index)} most popular ${strings['categories-share'][tagKey]} on GitHub. #RisingStarsJS http://risingstars.js.org
   `.trim();
 
   return (
@@ -90,7 +91,7 @@ const ProjectTableRow = ({
         <div className="project-table-contents">
           <ProjectAvatar project={project} size={50} />
           <div className="project-infos">
-            <h4 className="project-name">{project.name}</h4>
+            <h4 className="project-name">{project.slug}</h4>
             <div className="description-section">
               <Description text={project.description} />
             </div>
