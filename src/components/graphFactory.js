@@ -38,7 +38,7 @@ function graphFactory({ projects, entities, locale, translations }) {
                       height={height}
                     />
                     */}
-                    <ProjectTable projects={graphProjects.slice(0, 20)} />
+                    <ProjectTable tagKey={key} projects={graphProjects.slice(0, 20)} />
                   </div>
                   <div className="tag-card-column-2">
                     <div className="tag-card-comments markdown-body">

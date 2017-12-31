@@ -3,6 +3,8 @@ import withState from 'recompose/withState';
 import Description from './Description';
 import ProjectAvatar from '../ProjectAvatar';
 import Stars from '../Stars';
+import strings from '../../../i18n/2017/messages/en.yaml';
+import formatDelta from '../../utils/formatDelta';
 
 const trends = [
   { name: 'downfast', value: -70 },
@@ -26,6 +28,7 @@ const ProjectTableRow = ({
   trendPercent,
   showDetails,
   toggleDetails,
+  tagKey,
 }) => {
   const url = project.url || project.repository;
 
@@ -42,6 +45,12 @@ const ProjectTableRow = ({
   });
   const trendClass = trend ? trend.name : 'na';
 
+  const addSuffix = n => n === 1 ? '#1' : n === 2 ? 'second' : n === 3 ? 'third' : `${n}th`;
+
+  const tweetText = `
+    In 2017, ${project.twitter || '@VulcanJS'} added ${formatDelta(project.delta)} stars, making it the ${addSuffix(index)} most popular ${strings['categories-share'][tagKey]} on GitHub. #RisingStarsJS http://risingstars.js.org
+  `.trim();
+
   return (
     <div
       className={`project-table-row project-table-row-${trendClass} project-table-row${
@@ -53,10 +62,17 @@ const ProjectTableRow = ({
     >
       <div className="project-table-background">
         <div className="project-details">
+          <div className="project-blurb">
+            In 2017, {project.name} added {formatDelta(project.delta)} stars, making it the {addSuffix(index)} most popular {strings['categories-share'][tagKey]} on GitHub
+            – <a href={`https://twitter.com/home?status=${encodeURIComponent(tweetText)}`} target="_blank">Tweet</a> 
+          </div>
           <ul>
             <li>Created {project.created_at}</li>
             <li>
               <a href={project.repository}>GitHub</a>
+            </li>
+            <li>
+              <a href={`https://bestof.js.org/projects/${project.slug}`}>BestOfJS</a>
             </li>
             <li>
               <a href={project.url}>Homepage</a>

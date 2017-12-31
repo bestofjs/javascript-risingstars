@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectTableRow from './ProjectTableRow';
 
-const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta = true, deltaFilter = 'yearly' }) => {
+const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta = true, deltaFilter = 'yearly', tagKey }) => {
   const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b));
 
   return (
@@ -15,6 +15,7 @@ const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta
           showDelta={showDelta}
           deltaFilter={deltaFilter}
           index={i + 1}
+          tagKey={tagKey}
           trendPercent={Math.round(Math.random() * 200) - 100}
         />
       ))}

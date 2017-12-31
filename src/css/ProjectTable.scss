@@ -156,7 +156,7 @@
     left: -10px;
     right: -10px;
     top: -10px;
-    bottom: -100px;
+    bottom: -200px;
     opacity: 1;
   }
 }
@@ -199,4 +199,10 @@
   li{
     margin-bottom: 5px;
   }
+}
+
+.project-blurb{
+  font-size: $large-font;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
