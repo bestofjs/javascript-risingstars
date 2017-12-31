@@ -1,14 +1,14 @@
 .project-table {
   margin-top: 2rem;
   padding: 0;
-  // background-color: #fff;
 }
 .project-table-row {
+  position: relative; // needed because the `.project-table-background` has absolute position
   &:hover {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
-.project-table-inner{
+.project-table-inner {
   display: block;
   color: inherit;
   border-bottom: 1px dashed $light-border-color;
@@ -21,8 +21,8 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background:rgba(212, 212, 212, 0.4);
-  &.project-table-bar-previous{
+  background: rgba(212, 212, 212, 0.4);
+  &.project-table-bar-previous {
     // background: rgba(0, 119, 255, 0.05);
     background: none;
     z-index: 1;
@@ -41,12 +41,12 @@
 .project-table-row:first-child {
   border-top: 1px dashed $light-border-color;
 }
-.project-infos{
+.project-infos {
   flex-grow: 1;
   margin-left: 10px;
   min-width: 0;
 }
-.project-name{
+.project-name {
   margin: 0;
 }
 .project-table-row .description-section {
@@ -65,7 +65,7 @@
   padding-left: 1rem;
   overflow: hidden;
 }
-.stars{
+.stars {
   display: block;
   white-space: nowrap;
   margin-left: 10px;
@@ -89,12 +89,12 @@
   @include secondary-font;
   text-align: right;
   width: 40px;
-  span{
+  span {
     display: block;
   }
 }
 
-.project-trend{
+.project-trend {
   margin-left: $spacing/2;
   @include font-bold;
   .project-table-row-downfast & {
@@ -138,20 +138,19 @@
   // }
 }
 
-
-.project-table-background{
+.project-table-background {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   background: $white;
-  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   z-index: 20;
   opacity: 0;
   transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
   padding-top: 90px;
-  .project-table-row-show-details &{
+  .project-table-row-show-details & {
     transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
     left: -10px;
     right: -10px;
@@ -161,26 +160,25 @@
   }
 }
 
-.project-table-row-show-details{
+.project-table-row-show-details {
   position: relative;
 
-  .project-table-contents{
-
+  .project-table-contents {
     // position: relative;
     // left: -10px;
     // top: -10px;
-    // transform: translate(-10px, -10px); 
+    // transform: translate(-10px, -10px);
     // padding: 20px;
     // margin-right: -20px;
     // margin-bottom: -20px;
     z-index: 100;
   }
-  .project-table-bar{
+  .project-table-bar {
     display: none;
   }
 }
 
-.project-details{
+.project-details {
   position: relative;
   z-index: 100;
   margin: 0 20px;
@@ -188,15 +186,15 @@
   font-size: $smallish-font;
   border-top: 1px dashed $light-border-color;
   display: none;
-  .project-table-row-show-details &{
+  .project-table-row-show-details & {
     display: block;
   }
-  ul{
+  ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
   }
-  li{
+  li {
     margin-bottom: 5px;
   }
 }
