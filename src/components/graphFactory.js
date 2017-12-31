@@ -2,10 +2,8 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
 import Graph from './Graph'
-// const Graph = () => <div>Graph</div>
 import TranslatedBlock from '../utils/TranslatedBlock'
-// import comments from '../../i18n/categories'
-import ProjectTable from './ProjectTable'
+import ProjectTable from './ProjectTable/ProjectTable'
 
 function graphFactory({ projects, entities, locale, translations }) {
   return {
