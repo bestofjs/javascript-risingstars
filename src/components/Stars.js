@@ -12,7 +12,7 @@ function formatDelta (delta, decimals = 0) {
 
 const Stars = ({ value, decimals }) => {
   return (
-    <span>
+    <span className="stars">
       {formatDelta(value, decimals)}
       <img className="star" src={svg} alt="☆" width="14" height="16" />
     </span>

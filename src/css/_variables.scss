@@ -1,0 +1,45 @@
+$spacing: 20px;
+
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin border{
+  border: 1px solid $border-color;
+}
+
+@mixin clearfix{
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@function black($opacity){
+  @return rgba(0,0,0,$opacity);
+}
+
+@function white($opacity){
+  @return rgba(255,255,255,$opacity);
+}
+
+@mixin crosshatchBg() {
+  position: relative;
+  z-index: 5;
+  &:before{
+    z-index: 1;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    height: 100%;
+    width: 100%;
+    // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAALUlEQVQYV2OsaGj439HQwMgABSA+nAMSAwmAaBQVIAGQLrAgTAXMGEZ0AZAiAJnTFPTxZT3RAAAAAElFTkSuQmCC);
+    // background: url('data:image/svg+xml;utf8,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><pattern id="Pattern2" width="0.1" height="0.1"><path d="M 0,10 l 10,-10 M -2.5,2.5 l 5,-5 M 7.5,12.5 l 5,-5" stroke-width="2" shape-rendering="auto" stroke="#788080" stroke-linecap="square" /></pattern></defs><rect fill="url(#Pattern2)" x="0" y="0" width="100" height="100"/></svg>');
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><pattern id="Pattern2" patternUnits="userSpaceOnUse" width="5" height="5"><path d="M 0,5 l 5,-5 M -1,1 l 2.5,-2.5 M 4,6 l 2.5,-2.5" stroke-width="1" shape-rendering="auto" stroke="#788080" stroke-linecap="square"></path></pattern></defs><rect fill="url(#Pattern2)" x="0" y="0" width="100" height="100"/></svg>');
+  }
+}

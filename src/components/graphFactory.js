@@ -22,12 +22,12 @@ function graphFactory({ projects, entities, locale, translations }) {
             <a name={tag} />
             <div className="tag-card">
               <div className="tag-card-inner">
-                <div className="tag-card-header">
+                <h2 className="tag-card-header">
                   <div className="tag-card-header-text">
                     <span className="tag-card-number">#{number}</span>
                     <FormattedMessage id={`categories.${key}`} />
                   </div>
-                </div>
+                </h2>
                 <div className="tag-card-body">
                   <div className="tag-card-column-1">
                     {/*
