@@ -1,6 +1,6 @@
 Pour construire une application web moderne, les développeurs ont besoin d'un outil capable d'assembler et de transformer diverses parties (_templates_, code JavaScript écrit dans un dialecte donné, styles...) et d'optimiser le tout dans le but de rendre l'application web performante. Ce sont ces outils de construction que nous analysons ici.
 
-La plus grosse surprise de l'année est l'arrivée de {parcel} qui détrône {webpack}, le roi incontesté de la categorie.
+La plus grosse surprise de l'année est l'arrivée de {parcel} qui détrône {webpack}, le roi incontesté de la catégorie.
 
 Lancé en août 2017, {parcel} a connu un départ fulgurant avec 14 000 étoiles ajoutées sur GitHub en l'espace de quelques mois.
 
