@@ -35,6 +35,15 @@ const team = [
     language: 'zh'
   },
   {
+    name: 'Frank Xu',
+    url: 'https://github.com/frankyxhl',
+    avatar: 'https://avatars1.githubusercontent.com/u/309457?v=3&s=75',
+    bio1:'全栈开发者、Lisp爱好者, 目前旅居日本',
+    bio2:'Lisp lover, full stack developer living in Japan',
+    role: 'translation',
+    language: 'zh'
+  },
+  {
     name: 'Michael Rambeau',
     url: 'http://michaelrambeau.com',
     avatar: 'https://avatars1.githubusercontent.com/u/5546996?v=3&s=75',
