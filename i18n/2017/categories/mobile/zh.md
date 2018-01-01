@@ -12,7 +12,7 @@ In this category, we find again the 3 main actors of the "Front-end frameworks":
 * Angular：{ionic} 和 {nativescript}
 
 Like in 2016, {react-native} is the trendiest solution, based on JavaScript, to build a native application, whether it's for iOS, Android or Windows systems.
-与2016年一样，{react-native}也是今年的第一名，把JavaScript编译成本地的APP应用，iOS、安卓或Windows系统。
+与2016年一样，{react-native}也是今年的第一名，把JavaScript编译成原生的APP应用，iOS、安卓或Windows系统。
 
 As highlighted in this video [Cross platform apps with React Native](https://www.youtube.com/watch?v=1cI-978DHaA), the promise: "Write Once, Run Everywhere" was fulfilled!
 正如这个视频[Cross platform apps with React Native](https://www.youtube.com/watch?v=1cI-978DHaA)中的口号：“一次编写，到处运行”可谓名副其实！
