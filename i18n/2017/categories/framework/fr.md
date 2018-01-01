@@ -1,6 +1,6 @@
-La catégorie des "Frameworks côté client" est la plus animée, cette année aussi la bataille a été intense.
+La catégorie des "Frameworks côté client" est traditionnellement la catégorie reine, cette année aussi la bataille fut intense entre les tous les prétendants.
 
-3 grands acteurs se disputent les plus grosses parts dans cette catégorie: {vuejs}, {react} et {angular-2}
+3 grands acteurs se disputent les faveurs des développeurs dans cette catégorie: {vuejs}, {react} et {angular-2}
 
 Nous avons vu précédemment ce qui faisait le succès de {vuejs}.
 

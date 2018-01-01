@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 const TOC = ({ entities, url, intl, translations, categories }) => (
   <div className="toc nav">
   <ol>
+  <li><a className="nav-link" href={`#introduction`}>Introduction</a></li>
     {categories.map((item, i) => {
       const key = item.tag.replace(/-/gi, '');
       return (
@@ -14,6 +15,7 @@ const TOC = ({ entities, url, intl, translations, categories }) => (
         </li>
       );
     })}
+    <li><a className="nav-link" href={`#conclusion`}>Conclusion</a></li>
   </ol>
   </div>
 );

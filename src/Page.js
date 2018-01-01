@@ -70,6 +70,13 @@ class Page extends React.Component {
             />
           </div>
           <div className="main-contents">
+            <Introduction 
+              entities={entities}
+              url={url}
+              intl={intl}
+              translations={translations}
+              categories={categories}
+            />
             {categories.map((item, i) => (
               <Graph
                 key={item.tag}

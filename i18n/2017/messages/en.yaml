@@ -22,7 +22,7 @@ categories:
   build: 'Build Tools'
   testframework: 'Testing Frameworks'
   ide: 'IDE'
-  ssg: 'Static Site Generators'
+  ssg: 'Static Sites'
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
 

@@ -1,11 +1,13 @@
-import React from 'react';
-import withState from 'recompose/withState';
-import Description from './Description';
-import ProjectAvatar from '../ProjectAvatar';
-import Stars from '../Stars';
-import strings from '../../../i18n/2017/messages/en.yaml';
-import formatDelta from '../../utils/formatDelta';
-import twitter from '../../../data/twitter.yaml';
+import React from 'react'
+import withState from 'recompose/withState'
+import tinytime from 'tinytime'
+
+import Description from './Description'
+import ProjectAvatar from '../ProjectAvatar'
+import Stars from '../Stars'
+import strings from '../../../i18n/2017/messages/en.yaml'
+import formatDelta from '../../utils/formatDelta'
+import twitter from '../../../data/twitter.yaml'
 
 const trends = [
   { name: 'downfast', value: -70 },
@@ -13,10 +15,12 @@ const trends = [
   { name: 'downslow', value: 0 },
   { name: 'upslow', value: 30 },
   { name: 'up', value: 70 },
-  { name: 'upfast', value: 9999 },
-];
+  { name: 'upfast', value: 9999 }
+]
 
-const withToggle = withState('showDetails', 'toggleDetails', false);
+const withToggle = withState('showDetails', 'toggleDetails', false)
+
+const templateMonthYear = tinytime('{Mo}/{YYYY}')
 
 const ProjectTableRow = ({
   project,
@@ -29,33 +33,35 @@ const ProjectTableRow = ({
   trendPercent,
   showDetails,
   toggleDetails,
-  tagKey,
+  tagKey
 }) => {
-  const url = project.url || project.repository;
+  const url = project.url || project.repository
 
   // use relative scale
-  const widthPercent = project.delta * 100 / maxDelta;
+  const widthPercent = project.delta * 100 / maxDelta
 
-  const previousWidthPercent = widthPercent + widthPercent * trendPercent / 100;
+  const previousWidthPercent = widthPercent + widthPercent * trendPercent / 100
 
   // use absolute scale based on Vue as the max
   // const widthPercent = project.delta*100/39263
 
   const trend = trends.find(trend => {
-    return trendPercent < trend.value;
-  });
-  const trendClass = trend ? trend.name : 'na';
+    return trendPercent < trend.value
+  })
+  const trendClass = trend ? trend.name : 'na'
 
-  const addSuffix = n => (n === 1 ? '#1' : n === 2 ? 'second' : n === 3 ? 'third' : `${n}th`);
+  const addSuffix = n =>
+    n === 1 ? '#1' : n === 2 ? 'second' : n === 3 ? 'third' : `${n}th`
 
   const tweetText = `
-    In 2017, ${twitter[project.slug] ? `@${twitter[project.slug]}` : `#${project.slug}`} added ${formatDelta(
-    project.delta,
-    1
-  )} stars, making it the ${addSuffix(index)} most popular ${
+    In 2017, ${
+      twitter[project.slug] ? `@${twitter[project.slug]}` : `#${project.slug}`
+    } added ${formatDelta(project.delta)} stars, making it the ${addSuffix(
+    index
+  )} most popular ${
     strings['categories-share'][tagKey]
-  } on GitHub. #RisingStarsJS http://risingstars.js.org
-  `.trim();
+  } on GitHub. #RisingStarsJS https://risingstars.js.org
+  `.trim()
 
   const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
   const monthlyDeltas = [100, 143, 234, 214, 253, 345, 435, 345, 234, 124, 345, 443];
@@ -67,12 +73,18 @@ const ProjectTableRow = ({
         showDetails ? '-show-details' : '-hide-details'
       }`}
       onClick={() => {
-        toggleDetails(!showDetails);
+        toggleDetails(!showDetails)
       }}
     >
       <div className="project-table-inner">
-        <div className="project-table-bar" style={{ width: `${widthPercent}%` }} />
-        <div className="project-table-bar project-table-bar-previous" style={{ width: `${previousWidthPercent}%` }} />
+        <div
+          className="project-table-bar"
+          style={{ width: `${widthPercent}%` }}
+        />
+        <div
+          className="project-table-bar project-table-bar-previous"
+          style={{ width: `${previousWidthPercent}%` }}
+        />
         <div className="project-table-rank">
           <span>{index}</span>
         </div>
@@ -117,7 +129,7 @@ const ProjectTableRow = ({
           <ul className="project-links">
             {/*<li>Created {project.created_at}</li>*/}
             <li>
-              <span>Created 01/2017</span>
+              <span className="project-created-at">Created {templateMonthYear.render(new Date(project.created_at))}</span>
             </li>
             <li>
               <a href={project.repository}>GitHub</a>
@@ -132,7 +144,7 @@ const ProjectTableRow = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default withToggle(ProjectTableRow);
+export default withToggle(ProjectTableRow)

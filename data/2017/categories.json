@@ -35,11 +35,11 @@
   },
   {
     "tag": "compiler",
-    "count": 5
+    "count": 7
   },
   {
     "tag": "build",
-    "count": 5
+    "count": 7
   },
   {
     "tag": "test-framework",

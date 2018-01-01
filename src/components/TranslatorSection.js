@@ -1,17 +1,20 @@
 import React from 'react'
 import team from '../../data/teamMembers'
 
-const Section = ({ language }) => (
-  <section className="TranslatorSection">
-    <div className="container small-container">
-      {language === 'en' ? (
-        <OtherLanguages />
-      ) : (
-        <TeamMemberList language={language} />
-      )}
-    </div>
-  </section>
-)
+const Section = ({ language }) => {
+  // if (language === 'fr') return null
+  return (
+    <section className="TranslatorSection">
+      <div className="container small-container">
+        {language === 'en' || language === 'fr' ? (
+          <OtherLanguages />
+        ) : (
+          <TeamMemberList language={language} />
+        )}
+      </div>
+    </section>
+  )
+}
 
 const OtherLanguages = () => (
   <div style={{ textAlign: 'center' }}>
