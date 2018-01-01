@@ -16,7 +16,7 @@ function graphFactory({ projects, entities, locale, translations }) {
       const height = Math.max(count * 15 + 100, 150)
       return (
         <section className="section">
-          <div className="container">
+          <div className="containerxxx">
             <a name={tag} />
             <div className="tag-card">
               <div className="tag-card-inner">

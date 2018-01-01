@@ -1,0 +1,27 @@
+.nav{
+  position: sticky;
+  top: 0px;
+  padding: $spacing*2 0;
+  ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin-bottom: $spacing/1.5;
+  }
+}
+
+.nav-link{
+  white-space: nowrap;
+  font-size: $medium-font;
+  margin: 0;
+  @include secondary-font;
+}
+
+.nav-link-active{
+  @include font-bold;
+  &:before{
+    content: "> ";
+  }  
+}

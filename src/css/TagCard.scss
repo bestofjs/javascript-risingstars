@@ -19,8 +19,8 @@
 // }
 .tag-card-header {
   margin-bottom: 2rem;
-  padding: 0 2rem;
-  font-size: 1.5rem;
+  // padding: 0 2rem;
+  // font-size: 1.5rem;
 }
 // .tag-card-header-text {
 //   padding-bottom: 1rem;
@@ -34,17 +34,27 @@
 .tag-card-body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.tag-card-column-1, .tag-card-column-2 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 
 .tag-card-graph-container {
   max-width: 500px;
   margin: 0 auto;
 }
+
+.tag-card-column-1{
+  // margin-right: $spacing*2;
+}
+
+.tag-card-column-1, .tag-card-column-2 {
+  // padding-left: 2rem;
+  // padding-right: 2rem;
+  // flex: 1;
+  width: 47%;
+  // width: calc((100% - #{$spacing*2})/2);
+}
+
 
 .tag-card-column-2 {
   // margin-top: 2rem;
@@ -54,7 +64,7 @@
 @media (min-width: 800px) {
   .tag-card-body > div {
     /*flex: 0 0 50%;*/
-    width: 50%;
+    // width: calc((100% - #{$spacing*2})/2);
   }
   .tag-card-column-2 {
     margin-top: 0;
@@ -65,4 +75,23 @@
   .tag-card-body {
     flex-direction: row;
   }
+}
+
+
+
+.tag-card-header{
+  // box-shadow: 10px 10px 0 0 $grey;
+  position: relative;
+  font-size: $larger-font;
+  border: 1px solid $border-color;
+  @include crosshatchBg;
+  margin-bottom: $spacing*2;
+}
+
+.tag-card-header-text{
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  padding: $spacing;
+  background: $bg-color;
 }

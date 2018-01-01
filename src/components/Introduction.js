@@ -15,22 +15,6 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
         entities={entities}
       />
       <hr />
-      <h3>
-        <FormattedMessage id="introduction.table_of_contents" />
-      </h3>
-      <ol>
-        {categories.map((item, i) => {
-          const key = item.tag.replace(/-/gi, '')
-          return (
-            <li key={item.tag}>
-              <a href={`#${item.tag}`}>
-                <FormattedMessage id={`categories.${key}`} />
-              </a>
-            </li>
-          )
-        })}
-      </ol>
-      <hr />
       <div>
         <Social url={url} text={intl.formatMessage({ id: 'social.text' })} />
       </div>
