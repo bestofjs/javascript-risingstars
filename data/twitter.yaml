@@ -4,7 +4,7 @@
 "prettier": "PrettierCode"
 "react-native": "reactnative"
 "electron": "electronjs"
-"bootsrap": "getbootstrap"
+"bootstrap": "getbootstrap"
 "parcel": "parceljs"
 "nodejs": "nodejs"
 "d3": "d3js_org"
