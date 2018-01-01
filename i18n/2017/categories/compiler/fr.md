@@ -9,6 +9,7 @@ Le langage JavaScript ne propose que des types "dynamiques", cette flexibilité 
 
 Dans le but d'offrir aux développeurs web le confort et la sécurité des "types statiques", 2 concurrents s'opposent farouchement: {typescript}, créé par MicroSoft et {flow}, créé par Facebook, et utilisé en interne par Facebook sur de nombreux projets.
 
-Ces 2 "dialectes" (dans le sens de "variations du langage JavaScript") étaient au coude à coude en 2016 mais {typescript} a pris un avantage déterminant en 2017.
+{typescript}, largement en tête en 2016, conserve l'avantage sur son rival en 2017.
+De nombreux projets utilisent {typescript}, à commencer par {angular-2} et l'intégration facile avec l'éditeur de texte {vs-code} joue en sa faveur.
 
 Pour mieux comprendre les différences, nous vous recommandons cet article de [James Kyle](https://github.com/thejameskyle): [A Comparison Between Adopting Flow or TypeScript](https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51)
