@@ -143,3 +143,18 @@ h1 {
 .conclusion-share-buttons {
   margin-top: 1.25rem;
 }
+
+.main{
+  display: flex;
+  margin: 0 $spacing*3;
+  padding: $spacing 0;
+}
+.main-sidebar{
+  position: sticky;
+  margin-right: $spacing*3;
+  min-width: 250px;
+  max-width: 350px;
+}
+.main-contents{
+  flex: 1;
+}

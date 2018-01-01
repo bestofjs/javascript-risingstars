@@ -30,6 +30,7 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
           )
         })}
       </ol>
+      {/*
       <hr />
       <div>
         <Social url={url} text={intl.formatMessage({ id: 'social.text' })} />
@@ -49,6 +50,7 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
           />
         </p>
       </small>
+          */}
     </div>
   </div>
 )

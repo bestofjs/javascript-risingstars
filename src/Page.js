@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
+import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
 import graphFactory from './components/graphFactory'
 import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
@@ -57,30 +58,36 @@ class Page extends React.Component {
             </h1>
           </div>
         </div>
-        <Introduction
-          entities={entities}
-          url={url}
-          intl={intl}
-          translations={translations}
-          categories={categories}
-        />
         {false && <ProjectIconWall projects={projects.all} />}
-        {categories.map((item, i) => (
-          <Graph
-            key={item.tag}
-            tag={item.tag}
-            number={i + 1}
-            title={item.title}
-            excluded={item.excluded}
-            count={item.count}
-          />
-        ))}
-        <Conclusion
-          entities={entities}
-          url={url}
-          intl={intl}
-          translations={translations}
-        />
+        <div className="main">
+          <div className="main-sidebar">
+            <TOC
+              entities={entities}
+              url={url}
+              intl={intl}
+              translations={translations}
+              categories={categories}
+            />
+          </div>
+          <div className="main-contents">
+            {categories.map((item, i) => (
+              <Graph
+                key={item.tag}
+                tag={item.tag}
+                number={i + 1}
+                title={item.title}
+                excluded={item.excluded}
+                count={item.count}
+              />
+            ))}
+            <Conclusion
+              entities={entities}
+              url={url}
+              intl={intl}
+              translations={translations}
+            />
+          </div>
+        </div>
         <TranslatorSection language={intl.locale} />
         <Footer language={intl.locale} />
       </div>
