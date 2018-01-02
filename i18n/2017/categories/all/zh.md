@@ -2,6 +2,7 @@
 ### 概览
 
 These are the hottest projects of the year, all categories included.
+
 在这里我们列出了今年最火的项目, 不细分类别。
 
 ### Vue.js strikes again
@@ -13,7 +14,9 @@ Once again, {vuejs} is the trendiest project of the year, with more than 40,000 
 
 It's far more than in 2016 (26,000 stars), and the gap with the next contender ({react}) is even bigger.
 
-相比于2016年(26,000Star)，今年Vue.js与排行榜第2 ({react})的优势更大了。
+相较于2016年(26,000Star)，今年Vue.js领先排行榜第2 ({react})的优势更大了。
+
+So what makes Vue.js special?
 
 那么,是什么令Vue.js如此出众？
 
@@ -23,15 +26,20 @@ It's far more than in 2016 (26,000 stars), and the gap with the next contender (
 * 首先，它有着平缓的学习曲线，与{react}相似的组件方案却更令人熟悉的语法。
 
 * The ecosystem is well defined, including a set of de-facto standards:
-* 设计优秀(well defined)的生态链，例如一些既定标准(de-facto standards):
+* 设计优秀(well defined)的生态圈，例如一些既定标准(de-facto standards):
+
   * Router: {vue-router}
   * 路由: {vue-router}
+  
   * State management library: {vuex}
   * 状态管理库: {vuex}
+  
 * The concept of single-file component that includes template, logic and styles in a single file `.vue` file is really nice.
 * 把模板、逻辑和样式放入在一个`.vue`文件中的单文件设计理念十分友好。
+
 * It's used by one of the most popular PHP frameworks, [Laravel](https://laravel.com/), as its default view engine.
 * 被最流行的PHP框架之一--[Laravel](https://laravel.com/)选为默认的视图引擎(View engine)
+
 * It's not backed by a big company of the Internet like Facebook or Google but maintained by [Evan You](https://github.com/yyx990803) as an open-source project sponsored through crowd-sourcing.
 * 并非由Facebook或Googld这样的互联网巨头来主导，而是由[Evan You](https://github.com/yyx990803)个人维护，通过众筹方式来支持的开源项目。 
 
@@ -48,7 +56,7 @@ Like in 2016, {react} is number 2, with more than 27,000 stars added on GitHub (
 
 {create-react-app}, the third project, is the recommended way to start a new project with React, and its success made a lot of React boilerplates less relevant than before.
 
-{create-react-app}, 季军，成为了新建React项目的推荐方式，它的成功让不少React样板(React boilerplates)与之前的相比完全已不再相关。
+{create-react-app}, 季军，它成为了新建React项目的首选推荐方式，它的成功让不少React样板(React boilerplates)与之前的相比完全已不再相关。
 
 [Dan Abramov](https://github.com/gaearon) (the creator of {redux}, now working for Facebook) did a great job, finding the right balance between simplicity and features. For example there is no fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
 
