@@ -8,7 +8,8 @@ const team = [
     bio1: 'A generic programmer and linguist living in Osaka from Sapporo.',
     bio2: '素朴なプログラマで言語マニア。札幌生まれの大阪在住。',
     role: 'translation',
-    language: 'ja'
+    language: 'ja',
+    years: [2016, 2017]
   },
   {
     name: 'Yohei Ice',
@@ -16,7 +17,8 @@ const team = [
     avatar: 'https://avatars3.githubusercontent.com/u/557001?v=3&s=75',
     bio1: 'Web application developer (Rails, React, ...)',
     role: 'translation',
-    language: 'ja'
+    language: 'ja',
+    years: [2016, 2017]
   },
   {
     name: 'Shigeto Yatani',
@@ -25,7 +27,8 @@ const team = [
     bio1:
       'Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山',
     role: 'translation',
-    language: 'ja'
+    language: 'ja',
+    years: [2016]
   },
   {
     name: '王仕军',
@@ -37,7 +40,8 @@ const team = [
       </span>
     ),
     role: 'translation',
-    language: 'zh'
+    language: 'zh',
+    years: [2016]
   },
   {
     name: 'Frank Xu',
@@ -46,7 +50,8 @@ const team = [
     bio1: '全栈开发者、Lisp爱好者, 目前旅居日本',
     bio2: 'Lisp lover, full stack developer living in Japan',
     role: 'translation',
-    language: 'zh'
+    language: 'zh',
+    years: [2017]
   },
   {
     name: 'Michael Rambeau',
@@ -54,10 +59,11 @@ const team = [
     avatar: 'https://avatars1.githubusercontent.com/u/5546996?v=3&s=75',
     bio1: (
       <span>
-        Creator of <a href="http://bestof.js.org">bestof.js.org</a>
+        Creator of <a href="https://bestof.js.org">bestof.js.org</a>
       </span>
     ),
-    role: 'author'
+    role: 'author',
+    years: [2016, 2017]
   }
 ]
 

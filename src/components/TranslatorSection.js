@@ -1,7 +1,7 @@
 import React from 'react'
 import team from '../../data/teamMembers'
 
-const Section = ({ language }) => {
+const Section = ({ language, year }) => {
   // if (language === 'fr') return null
   return (
     <section className="TranslatorSection">
@@ -9,7 +9,7 @@ const Section = ({ language }) => {
         {language === 'en' || language === 'fr' ? (
           <OtherLanguages />
         ) : (
-          <TeamMemberList language={language} />
+          <TeamMemberList language={language} year={year} />
         )}
       </div>
     </section>
@@ -31,22 +31,16 @@ const OtherLanguages = () => (
   </div>
 )
 
-const TeamMemberList = ({ language }) => {
+const TeamMemberList = ({ language, year }) => {
   const translators = team.filter(
-    member => member.role === 'translation' && member.language === language
+    member =>
+      member.role === 'translation' &&
+      member.language === language &&
+      member.years.includes(year)
   )
   const author = team.find(member => member.role === 'author')
   return (
     <div>
-      {language === 'ja' && (
-        <div style={{ textAlign: 'center', paddingBottom: '2rem' }}>
-          <img
-            src={`/img/${language}/rising-stars.png`}
-            className="img-responsive"
-            alt="Rising Stars 2016"
-          />
-        </div>
-      )}
       <TranslatorBlock translators={translators} language={language} />
       <AuthorBlock author={author} />
     </div>
