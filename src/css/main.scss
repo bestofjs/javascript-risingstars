@@ -1,16 +1,19 @@
-@import "_colors.scss";
-@import "_variables.scss";
-@import "_breakpoints.scss";
-@import "_typography.scss";
+@import '_colors.scss';
+@import '_variables.scss';
+@import '_breakpoints.scss';
+@import '_typography.scss';
 
-@import "github.scss";
-@import "App.scss";
-@import "ProjectTable.scss";
-@import "social.scss";
-@import "Picture.scss";
-@import "TagCard.scss";
-@import "Header.scss";
-@import "Footer.scss";
-@import "Graph.scss";
-@import "TranslatorSection.scss";
-@import "_toc.scss";
+@import 'github.scss';
+@import 'App.scss';
+// @import "ProjectTable.scss";
+@import 'social.scss';
+@import 'Picture.scss';
+// @import "TagCard.scss";
+@import 'Header.scss';
+@import 'Footer.scss';
+@import 'Graph.scss';
+@import 'TranslatorSection.scss';
+@import '_toc.scss';
+
+@import 'project-category.scss';
+@import 'project-details.scss';

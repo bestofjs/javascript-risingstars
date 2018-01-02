@@ -8,7 +8,7 @@ import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
 import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
-import graphFactory from './components/graphFactory'
+import makeCategory from './components/makeCategory'
 import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
 import BgPicture from './components/BgPicture'
 
@@ -26,8 +26,8 @@ class Page extends React.Component {
       categories
     } = this.props
     const locale = intl.locale
-    const factory = graphFactory({ projects, entities, locale, translations })
-    const Graph = props => factory.createGraph(props)
+    const factory = makeCategory({ projects, entities, locale, translations })
+    const Category = props => factory(props)
     const title = intl.formatMessage({ id: 'page.title' })
     const description = intl.formatMessage({ id: 'page.description' })
     return (
@@ -60,33 +60,37 @@ class Page extends React.Component {
         </div>
         {false && <ProjectIconWall projects={projects.all} />}
         <div className="main">
-          <div className="main-sidebar">
-            <TOC
-              entities={entities}
-              url={url}
-              intl={intl}
-              translations={translations}
-              categories={categories}
-            />
-          </div>
-          <div className="main-contents">
-            <Introduction 
-              entities={entities}
-              url={url}
-              intl={intl}
-              translations={translations}
-              categories={categories}
-            />
-            {categories.map((item, i) => (
-              <Graph
-                key={item.tag}
-                tag={item.tag}
-                number={i + 1}
-                title={item.title}
-                excluded={item.excluded}
-                count={item.count}
+          {false && (
+            <div className="main-sidebar">
+              <TOC
+                entities={entities}
+                url={url}
+                intl={intl}
+                translations={translations}
+                categories={categories}
               />
-            ))}
+            </div>
+          )}
+          <div className="main-contents">
+            <Introduction
+              entities={entities}
+              url={url}
+              intl={intl}
+              translations={translations}
+              categories={categories}
+            />
+            {categories
+              // .slice(0, 1)
+              .map((item, i) => (
+                <Category
+                  key={item.tag}
+                  tag={item.tag}
+                  number={i + 1}
+                  title={item.title}
+                  excluded={item.excluded}
+                  count={item.count}
+                />
+              ))}
             <Conclusion
               entities={entities}
               url={url}

@@ -18,7 +18,12 @@ h3 {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @include secondary-font;
   margin: 0 0 $spacing 0;
 }
@@ -144,17 +149,18 @@ h1 {
   margin-top: 1.25rem;
 }
 
-.main{
-  display: flex;
-  margin: 0 $spacing*3;
-  padding: $spacing 0;
-}
-.main-sidebar{
-  position: sticky;
-  margin-right: $spacing*3;
-  min-width: 250px;
-  max-width: 350px;
-}
-.main-contents{
-  flex: 1;
-}
+// Disable the 3 column layout for now
+// .main {
+//   display: flex;
+//   margin: 0 $spacing*3;
+//   padding: $spacing 0;
+// }
+// .main-sidebar {
+//   position: sticky;
+//   margin-right: $spacing*3;
+//   min-width: 250px;
+//   max-width: 350px;
+// }
+// .main-contents {
+//   flex: 1;
+// }
