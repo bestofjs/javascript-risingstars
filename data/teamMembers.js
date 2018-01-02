@@ -31,7 +31,7 @@ const team = [
     years: [2016]
   },
   {
-    name: '王仕军',
+    name: '王仕军 (Wang Shijun)',
     url: 'https://zhuanlan.zhihu.com/feweekly',
     avatar: 'https://avatars1.githubusercontent.com/u/719985?v=3&s=75',
     bio1: (
@@ -41,7 +41,7 @@ const team = [
     ),
     role: 'translation',
     language: 'zh',
-    years: [2016]
+    years: [2016, 2017]
   },
   {
     name: 'Frank Xu',

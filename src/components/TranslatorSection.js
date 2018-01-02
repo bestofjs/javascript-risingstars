@@ -1,13 +1,19 @@
 import React from 'react'
+import Link from 'gatsby-link'
+
 import team from '../../data/teamMembers'
 
-const Section = ({ language, year }) => {
+const Section = ({ language, year, availableLanguages }) => {
   // if (language === 'fr') return null
   return (
     <section className="TranslatorSection">
       <div className="container small-container">
         {language === 'en' || language === 'fr' ? (
-          <OtherLanguages />
+          <OtherLanguages
+            year={year}
+            language={language}
+            availableLanguages={availableLanguages}
+          />
         ) : (
           <TeamMemberList language={language} year={year} />
         )}
@@ -16,18 +22,14 @@ const Section = ({ language, year }) => {
   )
 }
 
-const OtherLanguages = () => (
+const OtherLanguages = ({ year, language, availableLanguages }) => (
   <div style={{ textAlign: 'center' }}>
-    <p>
-      This article is also available in <a href="/ja/">Japanese</a> and in{' '}
-      <a href="/zh/">Chinese (simplified)</a>.
-    </p>
-    <p>
-      <a href="/ja/">日本語はこちら</a>です
-    </p>
-    <p>
-      <a href="/zh/"> 简体中文版</a>
-    </p>
+    <p>This article is also available in:</p>
+    {availableLanguages.filter(lang => lang.code !== language).map(lang => (
+      <p key={lang.code}>
+        <Link to={`/${year}/${lang.code}`}>{lang.text}</Link>
+      </p>
+    ))}
   </div>
 )
 

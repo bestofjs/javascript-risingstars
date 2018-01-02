@@ -102,7 +102,11 @@ class Page extends React.Component {
             />
           </div>
         </div>
-        <TranslatorSection language={intl.locale} year={year} />
+        <TranslatorSection
+          language={intl.locale}
+          year={year}
+          availableLanguages={languages}
+        />
         <Footer language={intl.locale} />
       </div>
     )
