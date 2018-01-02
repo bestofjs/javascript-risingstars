@@ -19,7 +19,7 @@ const trends = [
 
 const ProjectTableRow = ({
   project,
-  showDescription = false,
+  showDescription = true,
   index,
   trendPercent,
   showDetails,
