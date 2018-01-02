@@ -19,12 +19,8 @@ const trends = [
 
 const ProjectTableRow = ({
   project,
-  showStars,
-  showDelta,
-  deltaFilter,
-  showDescription = true,
+  showDescription = false,
   index,
-  maxDelta,
   trendPercent,
   showDetails,
   toggleDetails,
@@ -52,7 +48,7 @@ const ProjectTableRow = ({
             />
           )}
           <h4 className="project-name">{project.name}</h4>
-          {true && (
+          {showDescription && (
             <div className="description">
               <span>{project.description}</span>
             </div>

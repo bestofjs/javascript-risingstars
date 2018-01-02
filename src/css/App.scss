@@ -10,8 +10,8 @@ body {
   font-size: 14px;
   background-color: $bg-color;
   color: #541600;
-
   @include primary-font;
+  overflow-x: hidden; // quick fix to prevent horizontal scrolling, I couldn't find the cause...
 }
 h2,
 h3 {
