@@ -23,7 +23,8 @@ class Page extends React.Component {
       intl,
       translations,
       year,
-      categories
+      categories,
+      languages
     } = this.props
     const locale = intl.locale
     const factory = makeCategory({ projects, entities, locale, translations })
@@ -50,7 +51,11 @@ class Page extends React.Component {
           rel="stylesheet"
         />
         {false && <BgPicture projects={projects.all} />}
-        <Header language={intl.locale} year={year} />
+        <Header
+          language={intl.locale}
+          year={year}
+          availableLanguages={languages}
+        />
         <div id="picture-block">
           <div className="container">
             <h1>
@@ -79,18 +84,16 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
-            {categories
-              // .slice(0, 1)
-              .map((item, i) => (
-                <Category
-                  key={item.tag}
-                  tag={item.tag}
-                  number={i + 1}
-                  title={item.title}
-                  excluded={item.excluded}
-                  count={item.count}
-                />
-              ))}
+            {categories.map((item, i) => (
+              <Category
+                key={item.tag}
+                tag={item.tag}
+                number={i + 1}
+                title={item.title}
+                excluded={item.excluded}
+                count={item.count}
+              />
+            ))}
             <Conclusion
               entities={entities}
               url={url}

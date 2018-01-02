@@ -22,7 +22,8 @@ const team = [
     name: 'Shigeto Yatani',
     url: 'https://www.facebook.com/vanxx2',
     avatar: 'https://avatars2.githubusercontent.com/u/572205?v=3&s=75',
-    bio1: 'Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山',
+    bio1:
+      'Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山',
     role: 'translation',
     language: 'ja'
   },
@@ -30,7 +31,11 @@ const team = [
     name: '王仕军',
     url: 'https://zhuanlan.zhihu.com/feweekly',
     avatar: 'https://avatars1.githubusercontent.com/u/719985?v=3&s=75',
-    bio1: <span><a href="https://zhuanlan.zhihu.com/feweekly">前端周刊</a>创办者</span>,
+    bio1: (
+      <span>
+        <a href="https://zhuanlan.zhihu.com/feweekly">前端周刊</a>创办者
+      </span>
+    ),
     role: 'translation',
     language: 'zh'
   },
@@ -38,16 +43,20 @@ const team = [
     name: 'Frank Xu',
     url: 'https://github.com/frankyxhl',
     avatar: 'https://avatars1.githubusercontent.com/u/309457?v=3&s=75',
-    bio1:'全栈开发者、Lisp爱好者, 目前旅居日本',
-    bio2:'Lisp lover, full stack developer living in Japan',
+    bio1: '全栈开发者、Lisp爱好者, 目前旅居日本',
+    bio2: 'Lisp lover, full stack developer living in Japan',
     role: 'translation',
     language: 'zh'
   },
   {
     name: 'Michael Rambeau',
-    url: 'http://michaelrambeau.com',
+    url: 'https://michaelrambeau.com',
     avatar: 'https://avatars1.githubusercontent.com/u/5546996?v=3&s=75',
-    bio1: <span>Creator of <a href="http://bestof.js.org">bestof.js.org</a></span>,
+    bio1: (
+      <span>
+        Creator of <a href="http://bestof.js.org">bestof.js.org</a>
+      </span>
+    ),
     role: 'author'
   }
 ]
