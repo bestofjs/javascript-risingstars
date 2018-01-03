@@ -150,11 +150,22 @@ h1 {
   padding: $spacing 0;
 }
 .main-sidebar{
-  position: sticky;
-  margin-right: $spacing*3;
-  min-width: 250px;
+  margin-right: $spacing*5;
   max-width: 350px;
+}
+.main-sidebar-contents{
+  position: sticky;
+  top: 0px;
+  padding: $spacing*2 0;
 }
 .main-contents{
   flex: 1;
+}
+
+
+.logo{
+  display: block;
+  width: 100%;
+  max-width: 10px;
+  margin-bottom: $spacing;
 }

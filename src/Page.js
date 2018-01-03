@@ -61,13 +61,15 @@ class Page extends React.Component {
         {false && <ProjectIconWall projects={projects.all} />}
         <div className="main">
           <div className="main-sidebar">
-            <TOC
-              entities={entities}
-              url={url}
-              intl={intl}
-              translations={translations}
-              categories={categories}
-            />
+            <div className="main-sidebar-contents">
+              <TOC
+                entities={entities}
+                url={url}
+                intl={intl}
+                translations={translations}
+                categories={categories}
+              />
+            </div>
           </div>
           <div className="main-contents">
             <Introduction 

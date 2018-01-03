@@ -10,7 +10,7 @@ const TOC = ({ entities, url, intl, translations, categories }) => (
       return (
         <li key={item.tag}>
           <a className="nav-link" href={`#${item.tag}`}>
-            <FormattedMessage id={`categories.${key}`} />
+            <FormattedMessage id={`categories-short.${key}`} />
           </a>
         </li>
       );

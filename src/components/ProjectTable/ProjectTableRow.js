@@ -72,11 +72,12 @@ const ProjectTableRow = ({
       className={`project-table-row project-table-row-${trendClass} project-table-row${
         showDetails ? '-show-details' : '-hide-details'
       }`}
-      onClick={() => {
-        toggleDetails(!showDetails)
-      }}
     >
-      <div className="project-table-inner">
+      <div className="project-table-inner"
+        onClick={() => {
+          toggleDetails(!showDetails)
+        }}
+      >
         <div
           className="project-table-bar"
           style={{ width: `${widthPercent}%` }}
