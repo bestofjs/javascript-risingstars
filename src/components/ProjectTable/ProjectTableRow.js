@@ -50,7 +50,7 @@ const ProjectTableRow = ({
           <h4 className="project-name">{project.name}</h4>
           {showDescription && (
             <div className="description">
-              <span>{project.description}</span>
+              <Description text={project.description} showEmojis />
             </div>
           )}
         </div>
