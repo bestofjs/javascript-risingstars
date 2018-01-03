@@ -78,13 +78,14 @@
 .project-chart-bar {
   background: rgba(0, 0, 0, 0.1);
   background: rgba(228, 91, 18, 0.15);
-  // position: relative;
+  position: relative;
 }
 
 .project-chart-stars {
   text-align: center;
   @include secondary-font;
   color: $lighter-text-color;
+  font-size: $small-font;
   position: absolute;
   top: -22px;
   width: 100%;
