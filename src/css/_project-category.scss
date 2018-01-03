@@ -25,6 +25,16 @@
   @include crosshatchBg;
   margin-bottom: $spacing*2;
   text-align: center;
+  background: $bg-color;
+}
+
+
+.project-category-header-inner{
+  display: block;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  @include flex-center;
   padding: $spacing;
   background: $bg-color;
 }

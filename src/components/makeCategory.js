@@ -23,7 +23,9 @@ const makeCategory = ({ projects, entities, locale, translations }) => ({
       <div className="container">
         <a name={tag} />
         <h2 className="project-category-header">
-          <FormattedMessage id={`categories.${key}`} />
+          <span className="project-category-header-inner">
+            <FormattedMessage id={`categories.${key}`} />
+          </span>
         </h2>
         <div className="project-category-grid">
           <div>
