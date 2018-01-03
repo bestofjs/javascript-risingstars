@@ -2,21 +2,19 @@ import React from 'react'
 import tinytime from 'tinytime'
 
 import formatDelta from '../../utils/formatDelta'
-import twitter from '../../../data/twitter.yaml'
 import strings from '../../../i18n/2017/messages/en.yaml'
 
 const templateMonthYear = tinytime('{Mo}/{YYYY}')
 
 const ProjectDetails = ({ project, index, tagKey, isOpen }) => {
+  const { slug, twitter, delta } = project
   const addSuffix = n =>
     n === 1 ? '#1' : n === 2 ? 'second' : n === 3 ? 'third' : `${n}th`
 
   const tweetText = `
-  In 2017, ${
-    twitter[project.slug] ? `@${twitter[project.slug]}` : `#${project.slug}`
-  } added ${formatDelta(project.delta)} stars, making it the ${addSuffix(
-    index
-  )} most popular ${
+  In 2017, ${twitter ? `@${twitter}` : `#${slug}`} added ${formatDelta(
+    delta
+  )} stars, making it the ${addSuffix(index)} most popular ${
     strings['categories-share'][tagKey]
   } on GitHub. #RisingStarsJS https://risingstars.js.org
 `.trim()
