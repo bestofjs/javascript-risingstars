@@ -56,7 +56,7 @@ Like in 2016, {react} is number 2, with more than 27,000 stars added on GitHub (
 
 {create-react-app}, the third project, is the recommended way to start a new project with React, and its success made a lot of React boilerplates less relevant than before.
 
-{create-react-app}, 季军，它成为了新建React项目的首选推荐方式，它的成功让不少React样板(React boilerplates)与之前的相比完全已不再相关。
+{create-react-app}, 是排行榜的季军。它成为了新建React项目的首选推荐方式，它的成功让不少React样板(React boilerplates)与之前完全不一样。
 
 [Dan Abramov](https://github.com/gaearon) (the creator of {redux}, now working for Facebook) did a great job, finding the right balance between simplicity and features. For example there is no fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
 
@@ -85,7 +85,7 @@ Axios的成功或许也与Vue.js有些关系，因为诸多Vue.js教程中用到
 
 Made by the Google Chrome team, it's a headless Chrome browser, that is to say a browser that runs in the background and that can be by piloted by code.
 
-它是Google Chrome团队开发的一个无界面Chrome浏览器，也就是说你可以通过代码在后台控制浏览器了。
+它是Google Chrome团队开发的一个无界面Chrome浏览器，也就是说你可以使用代码在后台控制浏览器了。
 
 It can be used to do things like:
 
