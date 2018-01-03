@@ -22,21 +22,11 @@ const ProjectDetails = ({ project, index, tagKey, isOpen }) => {
 `.trim()
 
   const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
-  const monthlyDeltas = [
-    100,
-    143,
-    234,
-    214,
-    253,
-    345,
-    435,
-    345,
-    234,
-    124,
-    345,
-    443
-  ]
-  const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b))
+  const monthlyDeltas = (project.monthly || [])
+    .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
+    .slice(0, 12)
+    .reverse() // sort by date ascending (from January to December)
+  const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0)
   return (
     <div className={`project-details ${isOpen ? 'is-open' : 'is-closed'}`}>
       <div className="project-details-inner">
