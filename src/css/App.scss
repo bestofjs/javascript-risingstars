@@ -10,15 +10,20 @@ body {
   font-size: 14px;
   background-color: $bg-color;
   color: #541600;
-
   @include primary-font;
+  overflow-x: hidden; // quick fix to prevent horizontal scrolling, I couldn't find the cause...
 }
 h2,
 h3 {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @include secondary-font;
   margin: 0 0 $spacing 0;
 }
@@ -144,23 +149,24 @@ h1 {
   margin-top: 1.25rem;
 }
 
-.main{
-  display: flex;
-  margin: 0 $spacing*3;
-  padding: $spacing 0;
-}
-.main-sidebar{
-  margin-right: $spacing*5;
-  max-width: 350px;
-}
-.main-sidebar-contents{
-  position: sticky;
-  top: 0px;
-  padding: $spacing*2 0;
-}
-.main-contents{
-  flex: 1;
-}
+// disable for now
+// .main{
+//   display: flex;
+//   margin: 0 $spacing*3;
+//   padding: $spacing 0;
+// }
+// .main-sidebar{
+//   margin-right: $spacing*5;
+//   max-width: 350px;
+// }
+// .main-sidebar-contents{
+//   position: sticky;
+//   top: 0px;
+//   padding: $spacing*2 0;
+// }
+// .main-contents{
+//   flex: 1;
+// }
 
 
 .logo{
@@ -168,4 +174,15 @@ h1 {
   width: 100%;
   max-width: 10px;
   margin-bottom: $spacing;
+}
+
+.introduction {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px solid $border-color;
+}
+.conclusion {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid $border-color;
 }

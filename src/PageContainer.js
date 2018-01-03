@@ -11,6 +11,8 @@ import getMessages from './utils/getMessages'
 import appData from '../data'
 import packageJson from '../package.json'
 import processProjectData from './utils/processProjectData'
+import allSettings from '../data/settings.json'
+import allLanguages from '../data/allLanguages.json'
 
 const url = packageJson.homepage
 
@@ -18,6 +20,9 @@ addLocaleData(__intlEN)
 addLocaleData(__intlZH)
 addLocaleData(__intlJA)
 addLocaleData(__intlFR)
+
+const getSettings = year =>
+  allSettings.find(pageSettings => pageSettings.year === year)
 
 class PageContainer extends React.Component {
   render() {
@@ -29,6 +34,11 @@ class PageContainer extends React.Component {
       `year${year}`
     ]
     const { projects, categories } = appData[`year${year}`]
+    const settings = getSettings(year)
+    const availableLanguageCodes = settings.languages || ['en']
+    const isAvailable = lang => availableLanguageCodes.includes(lang.code)
+    const languages = allLanguages.filter(isAvailable)
+    console.log({ availableLanguageCodes, languages })
     const { entities, projectsByTag } = processProjectData(projects, categories)
     return (
       <IntlProvider locale={language} messages={messages}>
@@ -39,6 +49,7 @@ class PageContainer extends React.Component {
           translations={translations}
           year={year}
           categories={categories}
+          languages={languages}
         />
       </IntlProvider>
     )

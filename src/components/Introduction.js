@@ -6,7 +6,7 @@ import TranslatedBlock from '../utils/TranslatedBlock'
 
 const Introduction = ({ entities, url, intl, translations, categories }) => (
   <div className="container container-section small-container">
-    <div className="small-card markdown-body card-introduction">
+    <div className="introduction small-card markdown-body card-introduction">
       {false && <Markdown source={md[intl.locale].body} entities={entities} />}
       <TranslatedBlock
         translations={translations}

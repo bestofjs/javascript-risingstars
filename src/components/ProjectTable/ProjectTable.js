@@ -1,13 +1,21 @@
-import React from 'react';
-import ProjectTableRow from './ProjectTableRow';
+import React from 'react'
+import ProjectContainer from './ProjectContainer'
 
-const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta = true, deltaFilter = 'yearly', tagKey }) => {
-  const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b));
-
+const ProjectTableView = ({
+  title,
+  comment,
+  icon,
+  projects,
+  showStars,
+  showDelta = true,
+  deltaFilter = 'yearly',
+  tagKey
+}) => {
+  const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b))
   return (
     <div className="project-table">
       {projects.map((project, i) => (
-        <ProjectTableRow
+        <ProjectContainer
           key={project.slug}
           maxDelta={maxDelta}
           project={project}
@@ -20,7 +28,7 @@ const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta
         />
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default ProjectTableView;
+export default ProjectTableView

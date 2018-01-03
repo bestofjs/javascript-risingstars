@@ -1,22 +1,22 @@
 # Meta data
 page:
-  title: "2017 年崛起的 JS 项目"
-  description: "对 2017 年 JS 领域的完整回顾，内容包括：框架、工具、IDE、静态网站生成器..."
+  title: "2017年JS领域那些冉冉升起的明星项目"
+  description: "对2017年JS领域的完整回顾，内容包括：前端框架、Node.js框架、编译工具、构建工具、测试框架、IDE、静态网站生成器...等各方面"
 
 # Page content
 header:
-  title: "2017 年崛起的 JS 项目"
+  title: "2017年JS领域那些冉冉升起的明星项目"
 introduction:
   table_of_contents: "目录"
-  explanation: "下列图表对比了各个项目 Github 上 2017 年新增 star 的数量。分析的项目主要来自 {link}，这里列出了 WEB 领域的最佳项目。"
+  explanation: "下列图表对比了各个项目在Github上2017年新增star的数量。分析的项目主要来自 {link}，这里列出了WEB领域的最佳项目。"
 conclusion: "总结"
 
 categories:
   all: "最受欢迎项目"
   framework: '前端框架'
-  nodejsframework: 'Node.js 框架'
-  react: 'React 项目模板'
-  vue: 'Vue Ecosystem'
+  nodejsframework: 'Node.js框架'
+  react: 'React生态圈'
+  vue: 'Vue生态圈'
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'
@@ -27,4 +27,4 @@ categories:
   graphql: 'GraphQL'  
 
 social:
-  text: "了解 2017 年崛起的 JS 项目"
+  text: "2017年JS领域那些冉冉升起的明星项目"

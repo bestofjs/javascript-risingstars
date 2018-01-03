@@ -11,9 +11,7 @@ It's far more than in 2016 (26,000 stars), and the gap with the next contender (
 So what makes Vue.js special?
 
 * First, it has a small learning curve, with a component approach similar to {react} but with a more familiar syntax.
-* The ecosystem is well defined, including a set of de-facto standards:
-  * Router: {vue-router}
-  * State management library: {vuex}
+* The ecosystem is well defined, including a set of de-facto standards: router: {vue-router}, State management library: {vuex}
 * The concept of single-file component that includes template, logic and styles in a single file `.vue` file is really nice.
 * It's used by one of the most popular PHP frameworks, [Laravel](https://laravel.com/), as its default view engine.
 * It's not backed by a big company of the Internet like Facebook or Google but maintained by [Evan You](https://github.com/yyx990803) as an open-source project sponsored through crowd-sourcing.
@@ -22,7 +20,7 @@ And this may be related with the last point, but Vue.js is very popular among de
 
 ### React, number 2, again!
 
-Like in 2016, {react} is number 2, with more than 27,000 stars added on GitHub (note that we're specifically talking about stars *added* over the year, not the *total* number of stars).
+Like in 2016, {react} is number 2, with more than 27,000 stars added on GitHub (note that we're specifically talking about stars _added_ over the year, not the _total_ number of stars).
 
 {create-react-app}, the third project, is the recommended way to start a new project with React, and its success made a lot of React boilerplates less relevant than before.
 

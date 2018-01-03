@@ -1,9 +1,18 @@
+.project-flex-container {
+  flex-grow: 1;
+  overflow: hidden;
+  min-width: 0;
+}
 .project-table {
   padding: 0;
 }
 .project-table-row {
-  position: relative; // needed because the `.project-table-background` has absolute position
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  // position: relative; // needed because the `.project-table-background` has absolute position
   transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
   border-bottom: 1px dashed $light-border-color;
   &:hover {
     background-color: rgba(255, 255, 255, 1);
@@ -11,21 +20,23 @@
       opacity: 0;
     }
   }
-  &.project-table-row-show-details{
+  &.project-table-row-show-details {
     background: $white;
   }
 }
 .project-table-inner {
-  display: block;
+  display: flex;
+  flex-grow: 1;
   color: inherit;
   position: relative;
   padding: 0.7rem 0.5rem;
   cursor: pointer;
+  min-width: 0;
 }
 .project-table-bar {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5px;
   bottom: 0;
   background: rgba(212, 212, 212, 0.4);
   opacity: 1;
@@ -39,7 +50,7 @@
   }
 }
 .project-table-contents {
-  position: relative;
+  // position: relative;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -50,21 +61,21 @@
   border-top: 1px dashed $light-border-color;
 }
 .project-infos {
-  flex-grow: 1;
-  margin-left: 10px;
-  min-width: 0;
+  display: flex;
+  // flex-grow: 1;
+  min-width: 0; // see https://css-tricks.com/flexbox-truncated-text/
+  // padding-left: 10px;
 }
 .project-name {
   margin: 0;
 }
-.project-table-row .description-section {
+.description-section {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-top: 0.2rem;
   color: $lighter-text-color;
   font-size: $smallish-font;
-  width: 100%;
 }
 .project-table-row img {
 }
@@ -86,20 +97,17 @@
   flex-grow: 1;
 }
 .project-table-rank {
-  @include flex-center;
-  justify-content: flex-end;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  left: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: $lightest-text-color;
   font-size: 1.5rem;
   @include secondary-font;
-  text-align: right;
-  width: 40px;
-  span {
-    display: block;
-  }
+  flex: 0 0 40px;
+}
+.project-table-stars {
+  display: flex;
+  align-items: center;
 }
 
 .project-trend {
@@ -146,9 +154,8 @@
   // }
 }
 
-
 .project-details {
-  // position: relative;
+  // // position: relative;
   max-height: 0;
   // left: 0;
   // right: 0;
@@ -172,10 +179,10 @@
 }
 
 .project-table-row-show-details {
-  position: relative;
+  // position: relative;
 
   .project-table-contents {
-    // position: relative;
+    // // position: relative;
     // left: -10px;
     // top: -10px;
     // transform: translate(-10px, -10px);
@@ -187,113 +194,4 @@
   .project-table-bar {
     display: none;
   }
-}
-
-.project-details {
-  background: $white;
-  position: relative;
-  z-index: 100;
-  // margin: 0 20px;
-  font-size: $smallish-font;
-  overflow: hidden;
-  // border-top: 1px dashed $light-border-color;
-  // display: none;
-  // .project-table-row-show-details & {
-  //   display: block;
-  // }
-}
-
-.project-details-inner{
-  padding: 10px 20px 20px 20px;
-}
-
-.project-blurb{
-  font-size: $medium-font;
-  margin-bottom: 10px;
-  line-height: 1.6;
-  background: rgba(0, 0, 0, 0.04);
-  padding: 15px;
-  border-radius: 3px;
-}
-
-.project-links{
-  @include flex-center;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  li{
-    display: block;
-    margin-right: 10px;
-    flex: 1;
-    &:last-child{
-      margin-right: 0;
-    }
-    a, span{
-      font-size: $small-font;
-      display: block;
-      border: 1px solid $light-border-color;
-      text-align: center;
-      border-radius: 3px;
-      padding: 6px 8px;
-    }
-  }
-  .project-created-at{
-    font-size: $smaller-font;
-  }
-}
-
-.project-chart{
-  width: 100%;
-  margin: 40px 0 15px 0;
-  // align-items: flex-end;
-}
-
-.project-chart-columns{
-  min-height: 150px;
-  display: flex;
-}
-
-.project-chart-column{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-right: 3px;
-  &:last-child{
-    margin-right: 0;
-  }
-}
-
-.project-chart-bar{
-  background: rgba(0, 0, 0, 0.1);
-  background: rgba(228, 91, 18, 0.15);
-  position: relative;
-}
-
-.project-chart-stars{
-  text-align: center;
-  @include secondary-font;
-  color: $lighter-text-color;
-  position: absolute;
-  top: -22px;
-  width: 100%;
-  span{
-    margin-left: -100%;
-    margin-right: -100%;
-  }
-}
-
-.project-chart-months{
-  display: flex;
-  margin-right: 3px;
-  &:last-child{
-    margin-right: 0;
-  }
-}
-
-.project-chart-month{
-  flex: 1;
-  margin-top: 5px;
-  text-align: center;
 }

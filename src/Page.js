@@ -8,7 +8,7 @@ import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
 import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
-import graphFactory from './components/graphFactory'
+import makeCategory from './components/makeCategory'
 import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
 import BgPicture from './components/BgPicture'
 
@@ -23,11 +23,12 @@ class Page extends React.Component {
       intl,
       translations,
       year,
-      categories
+      categories,
+      languages
     } = this.props
     const locale = intl.locale
-    const factory = graphFactory({ projects, entities, locale, translations })
-    const Graph = props => factory.createGraph(props)
+    const factory = makeCategory({ projects, entities, locale, translations })
+    const Category = props => factory(props)
     const title = intl.formatMessage({ id: 'page.title' })
     const description = intl.formatMessage({ id: 'page.description' })
     return (
@@ -50,7 +51,11 @@ class Page extends React.Component {
           rel="stylesheet"
         />
         {false && <BgPicture projects={projects.all} />}
-        <Header language={intl.locale} year={year} />
+        <Header
+          language={intl.locale}
+          year={year}
+          availableLanguages={languages}
+        />
         <div id="picture-block">
           <div className="container">
             <h1>
@@ -60,19 +65,21 @@ class Page extends React.Component {
         </div>
         {false && <ProjectIconWall projects={projects.all} />}
         <div className="main">
-          <div className="main-sidebar">
-            <div className="main-sidebar-contents">
-              <TOC
-                entities={entities}
-                url={url}
-                intl={intl}
-                translations={translations}
-                categories={categories}
-              />
+          {false && (
+            <div className="main-sidebar">
+              <div className="main-sidebar-contents">
+                <TOC
+                    entities={entities}
+                    url={url}
+                    intl={intl}
+                    translations={translations}
+                    categories={categories}
+                  />
+              </div>
             </div>
-          </div>
+          )}
           <div className="main-contents">
-            <Introduction 
+            <Introduction
               entities={entities}
               url={url}
               intl={intl}
@@ -80,7 +87,7 @@ class Page extends React.Component {
               categories={categories}
             />
             {categories.map((item, i) => (
-              <Graph
+              <Category
                 key={item.tag}
                 tag={item.tag}
                 number={i + 1}
@@ -97,7 +104,11 @@ class Page extends React.Component {
             />
           </div>
         </div>
-        <TranslatorSection language={intl.locale} />
+        <TranslatorSection
+          language={intl.locale}
+          year={year}
+          availableLanguages={languages}
+        />
         <Footer language={intl.locale} />
       </div>
     )

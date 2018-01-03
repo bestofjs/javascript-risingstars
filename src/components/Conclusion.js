@@ -7,12 +7,11 @@ import TranslatedBlock from '../utils/TranslatedBlock'
 
 const Conclusion = ({ entities, url, intl, translations }) => (
   <div className="container small-container">
-    <div className="small-card card-conclusion">
+    <div className="small-card conclusion">
       <div className="small-card-header">
-        <div className="tag-card-header-text">
-          <span className="tag-card-number">#</span>
+        <h2 className="tag-card-header-text">
           <FormattedMessage id="conclusion" />
-        </div>
+        </h2>
       </div>
       <div className="markdown-body">
         {false && (
