@@ -35,7 +35,7 @@ const ProjectTableRow = ({
         toggleDetails(!showDetails)
       }}
     >
-      <div className="ranking">{index}</div>
+      <div className="ranking"><span>{index}</span></div>
       <div className="inner">
         <div className="icon">
           <ProjectAvatar project={project} size={50} />
