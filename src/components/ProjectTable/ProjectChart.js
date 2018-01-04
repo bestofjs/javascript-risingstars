@@ -1,5 +1,7 @@
 import React from 'react'
 
+import formatDelta from '../../utils/formatDelta'
+
 const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
 
 const ProjectChart = ({ project }) => {
@@ -27,7 +29,7 @@ const ProjectChart = ({ project }) => {
                 }}
               >
                 <div className="project-chart-stars">
-                  {d > 0 && <span>{d}</span>}
+                  {d > 0 && <span>{formatDelta(d, 1)}</span>}
                 </div>
               </div>
             </div>
