@@ -35,7 +35,9 @@ const ProjectTableRow = ({
         toggleDetails(!showDetails)
       }}
     >
-      <div className="ranking"><span>{index}</span></div>
+      <div className="ranking">
+        <span>{index}</span>
+      </div>
       <div className="inner">
         <div className="icon">
           <ProjectAvatar project={project} size={50} />
@@ -50,7 +52,7 @@ const ProjectTableRow = ({
           <h4 className="project-name">{project.name}</h4>
           {showDescription && (
             <div className="description">
-              <Description text={project.description} showEmojis />
+              <Description text={project.description} showEmojis={false} />
             </div>
           )}
         </div>
