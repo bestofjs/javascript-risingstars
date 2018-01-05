@@ -31,6 +31,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage, createRedirect } = boundActionCreators
   const component = path.resolve(`src/PageContainer.js`)
   const createSinglePage = ({ language, year }) => {
+    console.log('Create page', language, year)
     createPage({
       path: `${year}/${language}`,
       component,

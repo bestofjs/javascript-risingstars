@@ -18,5 +18,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`
     }
-  ]
+  ],
+  pathPrefix: `/public`
 }

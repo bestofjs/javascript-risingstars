@@ -31,6 +31,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
+    "build.ghpages": "gatsby build --prefix-paths",
     "serve": "gatsby serve-build",
     "clean": "bash scripts/clean-html.sh",
     "deploy": "node scripts/deploy-ghpages/index.js",

@@ -1,20 +1,24 @@
 {
   "assetsByChunkName": {
     "path---2016-ja": [
-      "path---2016-ja-4b616c20c62ed32c2438.js",
-      "path---2016-ja-4b616c20c62ed32c2438.js.map"
+      "path---2016-ja-568c4e0d0df26dd7d8d9.js",
+      "path---2016-ja-568c4e0d0df26dd7d8d9.js.map"
+    ],
+    "path---2017-fr": [
+      "path---2017-fr-1dd66f84cddfc122fb7e.js",
+      "path---2017-fr-1dd66f84cddfc122fb7e.js.map"
     ],
     "path---2016-en": [
-      "path---2016-en-08b59ce0f57d1c15bba9.js",
-      "path---2016-en-08b59ce0f57d1c15bba9.js.map"
+      "path---2016-en-a0a9d3c332fbb979ea28.js",
+      "path---2016-en-a0a9d3c332fbb979ea28.js.map"
     ],
     "path---2017-ja": [
-      "path---2017-ja-dd73f48624f121ffde20.js",
-      "path---2017-ja-dd73f48624f121ffde20.js.map"
+      "path---2017-ja-1700410cc0894e45a2b7.js",
+      "path---2017-ja-1700410cc0894e45a2b7.js.map"
     ],
     "path---2017-zh": [
-      "path---2017-zh-b3db96983100bb3a1dae.js",
-      "path---2017-zh-b3db96983100bb3a1dae.js.map"
+      "path---2017-zh-754c63a17ed0a516775c.js",
+      "path---2017-zh-754c63a17ed0a516775c.js.map"
     ],
     "commons": [
       "commons-0da3130a40231805cb67.js",
@@ -23,22 +27,22 @@
       "build-js-styles.css.map"
     ],
     "path---2016-zh": [
-      "path---2016-zh-61bd98a9083c03b90444.js",
-      "path---2016-zh-61bd98a9083c03b90444.js.map"
+      "path---2016-zh-f44e3505bf2393326ea7.js",
+      "path---2016-zh-f44e3505bf2393326ea7.js.map"
     ],
     "component---src-page-container-js": [
-      "component---src-page-container-js-eade19cb2871ffeed855.js",
-      "component---src-page-container-js-eade19cb2871ffeed855.js.map"
+      "component---src-page-container-js-5d356cdcdda109e8dfa6.js",
+      "component---src-page-container-js-5d356cdcdda109e8dfa6.js.map"
     ],
     "app": [
-      "app-dde65c371d7ee96c9274.js",
+      "app-fd03d368330efce3173d.js",
       "build-js-styles.css",
-      "app-dde65c371d7ee96c9274.js.map",
+      "app-fd03d368330efce3173d.js.map",
       "build-js-styles.css.map"
     ],
     "path---2017-en": [
-      "path---2017-en-b58b438ea960a95d01b1.js",
-      "path---2017-en-b58b438ea960a95d01b1.js.map"
+      "path---2017-en-bdea347affe2d430fefe.js",
+      "path---2017-en-bdea347affe2d430fefe.js.map"
     ]
   }
 }
