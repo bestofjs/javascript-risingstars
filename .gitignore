@@ -21,4 +21,3 @@ npm-debug.log
 # Temporary hiding private files
 memo.node_modules
 /test
-/scripts
