@@ -3,10 +3,12 @@ import { FormattedMessage } from 'react-intl'
 
 import Social from './Social'
 import TranslatedBlock from '../utils/TranslatedBlock'
+import Newsletter from './Newsletter'
 
 const Introduction = ({ entities, url, intl, translations, categories }) => (
   <div className="container container-section small-container">
     <div className="introduction small-card markdown-body card-introduction">
+      <div className="introduction-inner">
       {false && <Markdown source={md[intl.locale].body} entities={entities} />}
       <TranslatedBlock
         translations={translations}
@@ -33,6 +35,9 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
           />
         </p>
       </small>
+      </div>
+      <Newsletter/>
+
     </div>
   </div>
 )

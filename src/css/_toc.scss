@@ -16,7 +16,7 @@
   font-size: $larger-font;
   @include secondary-font;
   margin-bottom: $spacing/2;
-  border: 1px solid $border-color;
+  border: 1px dashed $border-color;
   padding: $spacing;
   span{
     display: block;

@@ -5,10 +5,8 @@ import ProjectAvatar from './ProjectAvatar';
 const TOC = ({ entities, url, intl, translations, categories, projects }) => (
   <div className="toc nav container container-section small-container">
 
-    <h2 className="project-category-header">
-      <span className="project-category-header-inner">
-        <FormattedMessage id="introduction.table_of_contents" />
-      </span>
+    <h2 className="toc-header">
+      <FormattedMessage id="introduction.table_of_contents" />
     </h2>
     
     <ol>

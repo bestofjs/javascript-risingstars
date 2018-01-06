@@ -179,8 +179,10 @@ h1 {
 
 .introduction {
   margin-top: 2rem;
-  padding: 2rem;
   border: 1px solid $border-color;
+}
+.introduction-inner{
+  padding: 2rem;
 }
 .conclusion {
   margin: 2rem 0;

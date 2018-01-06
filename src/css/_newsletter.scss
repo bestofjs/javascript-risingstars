@@ -1,0 +1,82 @@
+
+.newsletter{
+  border-top: 1px solid $border-color;
+  // padding: $spacing/2 $spacing/2;
+  margin-top: $spacing;
+  font-size: $medium-font;
+  background: rgba(255,255,255,0.5);
+  padding: $spacing*1.5;
+  h3{
+    font-size: $large-font;
+    text-align: center;
+  }
+  form{
+    @include medium-large{
+      display: flex;
+    }
+    margin: 0;
+  }
+  .email{
+    font-size: $medium-font;
+    @include primary-font;
+    @include small{
+      margin-bottom: $spacing/2;
+    }
+    display: block;
+    border-radius: 3px;
+    padding: $spacing/2 $spacing/2;
+    border: 1px solid $active-color;
+    margin-right: $spacing/2;
+    flex-grow: 1;
+    width: 100%;
+    &:focus{
+      outline: none;
+      border-color: $secondary-color;
+    }
+  }
+  .button{
+    min-width: 140px;
+    display: block;
+    @include small{
+      width: 100%;
+    }
+    // border-radius: 10px;
+    // padding: 10px 20px;
+    // background: $active-color;
+    // border: none;
+    // color: white;
+    // @include secondary-font;
+    // cursor: pointer;
+    // &:hover{
+    //   background: $secondary-color;
+    // }
+  }
+}
+
+.button{
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  padding: $spacing/2 $spacing;
+  cursor: pointer;
+  display: block;
+  color: $active-color;
+  text-align: center;
+  white-space: nowrap;
+  @include secondary-font;
+  @include small{
+    font-size: $small-font;
+  }
+  @include medium-large{
+    font-size: $medium-font;
+  }
+  white-space: nowrap;
+  &:hover{
+    background: $hover-color;
+    color: $active-color;
+  }
+  &.large-button{
+    padding: $spacing $spacing;
+    font-size: $large-font;
+  }
+}
