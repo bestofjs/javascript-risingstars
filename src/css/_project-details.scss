@@ -108,3 +108,22 @@
   margin-top: 5px;
   text-align: center;
 }
+
+.evan{
+  display: flex;
+  margin-bottom: $spacing;
+  padding: $spacing;
+  border: 1px dashed $border-color;
+  background: $white;
+}
+.evan-portrait{
+  margin-left: $spacing;
+  img{
+    max-width: 120px;
+  }
+}
+.evan-blurb{
+  h3{
+    margin-bottom: $spacing/4;
+  }
+}

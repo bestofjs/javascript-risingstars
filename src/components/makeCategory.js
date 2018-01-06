@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl'
 import Graph from './Graph'
 import TranslatedBlock from '../utils/TranslatedBlock'
 import ProjectTable from './ProjectTable/ProjectTable'
+import Evan from './Evan'
 
 // HoF that returns a Category component
 const makeCategory = ({ projects, entities, locale, translations }) => ({
@@ -39,6 +40,7 @@ const makeCategory = ({ projects, entities, locale, translations }) => ({
           <div>
             <div className="column2">
               <div className="tag-card-comments markdown-body">
+                {key === 'vue' && <Evan/>}
                 <TranslatedBlock
                   translations={translations}
                   language={locale}
