@@ -2,7 +2,8 @@
 // markdown content is process by `react-markdown` in order to process project 'slugs'
 module.exports = {
   siteMetadata: {
-    title: `JavaScript Rising Stars`
+    title: `JavaScript Rising Stars`,
+    GA: 'UA-44563970-4'
   },
   plugins: [
     {
