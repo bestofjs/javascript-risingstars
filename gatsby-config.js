@@ -18,6 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`
     }
-  ],
-  pathPrefix: `/javascript-risingstars`
+  ]
+  // `no prefix needed when using the subdomain `.js.org`
+  // pathPrefix: `/javascript-risingstars` // needed when deployed on https://bestofjs.github.io/javascript-risingstars/
 }
