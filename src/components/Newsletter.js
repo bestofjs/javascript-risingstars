@@ -1,12 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 const Newsletter = () => (
   <div className="newsletter">
     <h3>Get the latest JS rankings in your inbox every week</h3>
-    <p>Sign up for <a href="http://bestof.js.org">Best of JS</a>'s newsletter, and you'll receive exclusive stats about the most popular JavaScript projects each week.</p>
+    <p>
+      Sign up for <a href="https://bestof.js.org">Best of JS</a>'s newsletter,
+      and you'll receive exclusive stats about the most popular JavaScript
+      projects each week.
+    </p>
     <div id="mc_embed_signup">
       <form
-        action="//sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&amp;id=d8282e7e96"
+        action="https://bestof.us17.list-manage.com/subscribe/post?u=3dac4d68c87b7450b93cadab8&amp;id=193206ef13"
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
@@ -14,7 +18,13 @@ const Newsletter = () => (
         target="_blank"
         noValidate
       >
-        <input type="email" placeholder="Your email" name="EMAIL" className="required email" id="mce-EMAIL" />
+        <input
+          type="email"
+          placeholder="Your email"
+          name="EMAIL"
+          className="required email"
+          id="mce-EMAIL"
+        />
         <input
           className="button"
           type="submit"
@@ -26,6 +36,6 @@ const Newsletter = () => (
       </form>
     </div>
   </div>
-);
+)
 
-export default Newsletter;
+export default Newsletter

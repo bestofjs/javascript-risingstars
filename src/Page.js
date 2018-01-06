@@ -8,7 +8,7 @@ import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
 import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
-import makeCategory from './components/makeCategory'
+import Category from './components/Category'
 import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
 import BgPicture from './components/BgPicture'
 
@@ -27,8 +27,6 @@ class Page extends React.Component {
       languages
     } = this.props
     const locale = intl.locale
-    const factory = makeCategory({ projects, entities, locale, translations })
-    const Category = props => factory(props)
     const title = intl.formatMessage({ id: 'page.title' })
     const description = intl.formatMessage({ id: 'page.description' })
     return (
@@ -65,20 +63,6 @@ class Page extends React.Component {
         </div>
         {false && <ProjectIconWall projects={projects.all} />}
         <div className="main">
-          {false && (
-            <div className="main-sidebar">
-              <div className="main-sidebar-contents">
-                <TOC
-                    projects={projects}
-                    entities={entities}
-                    url={url}
-                    intl={intl}
-                    translations={translations}
-                    categories={categories}
-                  />
-              </div>
-            </div>
-          )}
           <div className="main-contents">
             <Introduction
               entities={entities}
@@ -103,6 +87,10 @@ class Page extends React.Component {
                 title={item.title}
                 excluded={item.excluded}
                 count={item.count}
+                projects={projects}
+                entities={entities}
+                locale={locale}
+                translations={translations}
               />
             ))}
             <Conclusion

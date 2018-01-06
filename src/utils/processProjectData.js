@@ -17,17 +17,20 @@ function getSortedProjects(entities) {
     .sort(sortByYearlyDelta)
 }
 
-function filterByTag(sortedProjects, entities, tag) {
+function filterByTag(sortedProjects, entities, category) {
+  const { tag, excluded, count } = category
+  const isMatching = project => tag === 'all' || project.tags.includes(tag)
+  const isExcluded = project => excluded && excluded.includes(project.slug)
   return sortedProjects.filter(
-    project => tag === 'all' || project.tags.includes(tag)
+    project => isMatching(project) && !isExcluded(project)
   )
 }
 
-function getProjectsByTag(sortedProjects, entities, tags) {
-  return tags.reduce(
-    (result, tag) =>
+function getProjectsByTag(sortedProjects, entities, categories) {
+  return categories.reduce(
+    (result, category) =>
       Object.assign({}, result, {
-        [tag]: filterByTag(sortedProjects, entities, tag)
+        [category.tag]: filterByTag(sortedProjects, entities, category)
       }),
     {}
   )
@@ -45,8 +48,7 @@ function getProjectsBySlug(payload) {
 function processProjectData(projectData, categories) {
   const entities = getProjectsBySlug(projectData)
   const sorted = getSortedProjects(entities)
-  const tags = categories.map(cat => cat.tag)
-  const projectsByTag = getProjectsByTag(sorted, entities, tags)
+  const projectsByTag = getProjectsByTag(sorted, entities, categories)
   return {
     projectsByTag: projectsByTag,
     entities

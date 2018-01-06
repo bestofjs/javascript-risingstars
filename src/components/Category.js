@@ -6,18 +6,18 @@ import TranslatedBlock from '../utils/TranslatedBlock'
 import ProjectTable from './ProjectTable/ProjectTable'
 import Evan from './Evan'
 
-// HoF that returns a Category component
-const makeCategory = ({ projects, entities, locale, translations }) => ({
+const Category = ({
+  projects,
+  entities,
+  locale,
+  translations,
   tag,
   number,
   excluded = [],
-  count = 10,
-  children
+  count = 10
 }) => {
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
-  const graphProjects = projects[tag]
-    .filter(project => !excluded.includes(project.slug))
-    .slice(0, count)
+  const graphProjects = projects[tag].slice(0, count)
   const key = tag.replace(/-/gi, '')
   return (
     <section className="section">
@@ -40,7 +40,7 @@ const makeCategory = ({ projects, entities, locale, translations }) => ({
           <div>
             <div className="column2">
               <div className="tag-card-comments markdown-body">
-                {key === 'vue' && <Evan/>}
+                {key === 'vue' && <Evan />}
                 <TranslatedBlock
                   translations={translations}
                   language={locale}
@@ -56,4 +56,4 @@ const makeCategory = ({ projects, entities, locale, translations }) => ({
   )
 }
 
-export default makeCategory
+export default Category

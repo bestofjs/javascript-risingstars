@@ -38,7 +38,6 @@ class PageContainer extends React.Component {
     const availableLanguageCodes = settings.languages || ['en']
     const isAvailable = lang => availableLanguageCodes.includes(lang.code)
     const languages = allLanguages.filter(isAvailable)
-    console.log({ availableLanguageCodes, languages })
     const { entities, projectsByTag } = processProjectData(projects, categories)
     return (
       <IntlProvider locale={language} messages={messages}>
