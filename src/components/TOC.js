@@ -1,22 +1,37 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import ProjectAvatar from './ProjectAvatar';
 
-const TOC = ({ entities, url, intl, translations, categories }) => (
-  <div className="toc nav">
-  <ol>
-  <li><a className="nav-link" href={`#introduction`}>Introduction</a></li>
-    {categories.map((item, i) => {
-      const key = item.tag.replace(/-/gi, '');
-      return (
-        <li key={item.tag}>
-          <a className="nav-link" href={`#${item.tag}`}>
-            <FormattedMessage id={`categories-short.${key}`} />
-          </a>
-        </li>
-      );
-    })}
-    <li><a className="nav-link" href={`#conclusion`}>Conclusion</a></li>
-  </ol>
+const TOC = ({ entities, url, intl, translations, categories, projects }) => (
+  <div className="toc nav container container-section small-container">
+
+    <h2 className="project-category-header">
+      <span className="project-category-header-inner">
+        <FormattedMessage id="introduction.table_of_contents" />
+      </span>
+    </h2>
+    
+    <ol>
+      {categories.map((item, i) => {
+        const key = item.tag.replace(/-/gi, '');
+        return (
+          <li key={item.tag}>
+            <a className="toc-link" href={`#section-${item.tag}`}>
+              <span>
+                <FormattedMessage id={`categories.${key}`} />
+              </span>
+              <div className="toc-projects">
+                {projects[item.tag].slice(0, Math.min(item.count, 10)).map(project => 
+                  <ProjectAvatar project={project} size={30} link={false} />
+                )}
+              </div>
+            </a>
+          </li>
+        );
+      })}
+      <li><a className="toc-link" href={`#conclusion`}>Conclusion</a></li>
+    </ol>
+
   </div>
 );
 

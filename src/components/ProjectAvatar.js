@@ -21,7 +21,7 @@ const getProjectAvatarUrl = (project, size) =>
     ? formatIconUrl(project.icon)
     : formatOwnerAvatar(project.owner_id, size)
 
-const Avatar = ({ project, size = 100 }) => {
+const Avatar = ({ project, size = 100, link = false }) => {
   const { svg } = project
   if (svg)
     return (
@@ -31,7 +31,8 @@ const Avatar = ({ project, size = 100 }) => {
     standard: getProjectAvatarUrl(project, size),
     retina: getProjectAvatarUrl(project, size * 2)
   }
-  return (
+  
+  const img = (
     <img
       src={urls.standard}
       srcSet={`${urls.retina} 2x`}
@@ -40,6 +41,8 @@ const Avatar = ({ project, size = 100 }) => {
       alt={project.name}
     />
   )
+  
+  return link ? <a href={`#${project.slug}`}>{img}</a> : img;
 }
 
 export default Avatar

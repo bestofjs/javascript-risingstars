@@ -31,6 +31,7 @@ const ProjectTableRow = ({
   return (
     <div
       className={`project-table-row ${showDetails ? 'is-open' : 'is-closed'}`}
+      id={project.slug}
       onClick={() => {
         toggleDetails(!showDetails)
       }}

@@ -69,6 +69,7 @@ class Page extends React.Component {
             <div className="main-sidebar">
               <div className="main-sidebar-contents">
                 <TOC
+                    projects={projects}
                     entities={entities}
                     url={url}
                     intl={intl}
@@ -80,6 +81,14 @@ class Page extends React.Component {
           )}
           <div className="main-contents">
             <Introduction
+              entities={entities}
+              url={url}
+              intl={intl}
+              translations={translations}
+              categories={categories}
+            />
+            <TOC
+              projects={projects}
               entities={entities}
               url={url}
               intl={intl}

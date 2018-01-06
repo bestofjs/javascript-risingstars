@@ -22,7 +22,7 @@ const makeCategory = ({ projects, entities, locale, translations }) => ({
   return (
     <section className="section">
       <div className="container">
-        <a name={tag} />
+        <a name={`section-${tag}`} />
         <h2 className="project-category-header">
           <span className="project-category-header-inner">
             <FormattedMessage id={`categories.${key}`} />

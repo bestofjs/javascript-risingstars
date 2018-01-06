@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectContainer from './ProjectContainer'
 
-const ProjectTableView = ({
+const ProjectTable = ({
   title,
   comment,
   icon,
@@ -31,4 +31,4 @@ const ProjectTableView = ({
   )
 }
 
-export default ProjectTableView
+export default ProjectTable
