@@ -31,10 +31,7 @@ const Category = ({
         <div className="project-category-grid">
           <div>
             <div className="column1">
-              <ProjectTable
-                tagKey={key}
-                projects={graphProjects.slice(0, 20)}
-              />
+              <ProjectTable tagKey={key} projects={graphProjects} />
             </div>
           </div>
           <div>
