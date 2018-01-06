@@ -341,11 +341,10 @@
 }
 
 .markdown-body hr {
-  height: 0.25em;
+  height: 2px;
   padding: 0;
   margin: 24px 0;
-  background-color: #fbf3ef;
-  background-color: #FFEBA8;
+  background-color: $light-border-color;
   border: 0;
 }
 

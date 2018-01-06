@@ -98,6 +98,10 @@ h1 {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  @include secondary-font;
+}
+.resp-sharing-button{
+  font-size: $medium-font;
 }
 .share-buttons > div {
   /*text-align: center;*/
