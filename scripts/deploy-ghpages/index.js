@@ -5,13 +5,7 @@ to `docs` folder, used to deploy the site to Github Pages.
 const fs = require('fs-extra')
 const path = require('path')
 
-copyFolder('public', 'docs')
-  .then(data =>
-    console.log('Success! Next step: commit to deploy on Github Pages.')
-  )
-  .catch(err =>
-    console.error('Unexpected error during server-side rendering', err)
-  )
+const createRedirects = require('./create-redirects')
 
 function copyFolder(folderSource, folderDest) {
   const source = path.resolve(process.cwd(), folderSource)
@@ -24,3 +18,13 @@ function copyFolder(folderSource, folderDest) {
     })
   })
 }
+
+async function deploy() {
+  console.log('STEP 1: update the `docs` folder')
+  await copyFolder('public', 'docs')
+  console.log('STEP 2: create all redirect pages')
+  await createRedirects()
+  console.log('Success! Next step: commit to deploy on Github Pages.')
+}
+
+deploy()

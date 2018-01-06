@@ -54,18 +54,18 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   createRedirect({
     fromPath: `/`,
     toPath: `/2017/en`,
-    redirectInBrowser: true
+    redirectInBrowser: false
   })
   allYearLanguageCombinations.forEach(item => {
     createRedirect({
       fromPath: `/${item.year}`,
       toPath: `/${item.year}/en`,
-      redirectInBrowser: true
+      redirectInBrowser: false
     })
     createRedirect({
       fromPath: `/${item.year}/`, // the same thing with the trailing slash
       toPath: `/${item.year}/en`,
-      redirectInBrowser: true
+      redirectInBrowser: false
     })
   })
 }
