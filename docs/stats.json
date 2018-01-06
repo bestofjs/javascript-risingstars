@@ -1,24 +1,24 @@
 {
   "assetsByChunkName": {
     "path---2016-ja": [
-      "path---2016-ja-5ff921eda4208faada09.js",
-      "path---2016-ja-5ff921eda4208faada09.js.map"
+      "path---2016-ja-845063c56083ef3b3f50.js",
+      "path---2016-ja-845063c56083ef3b3f50.js.map"
     ],
     "path---2017-fr": [
-      "path---2017-fr-f9d9390cbff5f9329fce.js",
-      "path---2017-fr-f9d9390cbff5f9329fce.js.map"
+      "path---2017-fr-35f3b5d802f90d7907ea.js",
+      "path---2017-fr-35f3b5d802f90d7907ea.js.map"
     ],
     "path---2016-en": [
-      "path---2016-en-afee7941ee0234227ba7.js",
-      "path---2016-en-afee7941ee0234227ba7.js.map"
+      "path---2016-en-7ea4368700a4f0fc72c4.js",
+      "path---2016-en-7ea4368700a4f0fc72c4.js.map"
     ],
     "path---2017-ja": [
-      "path---2017-ja-7b77d5ee0df40d5f223a.js",
-      "path---2017-ja-7b77d5ee0df40d5f223a.js.map"
+      "path---2017-ja-9cfa18da2ce1872edcf8.js",
+      "path---2017-ja-9cfa18da2ce1872edcf8.js.map"
     ],
     "path---2017-zh": [
-      "path---2017-zh-be3a4b26c94e5ff58b92.js",
-      "path---2017-zh-be3a4b26c94e5ff58b92.js.map"
+      "path---2017-zh-65ed39fec3c581ee6573.js",
+      "path---2017-zh-65ed39fec3c581ee6573.js.map"
     ],
     "commons": [
       "commons-0da3130a40231805cb67.js",
@@ -27,8 +27,8 @@
       "build-js-styles.css.map"
     ],
     "path---2016-zh": [
-      "path---2016-zh-598b801624de44f8d46f.js",
-      "path---2016-zh-598b801624de44f8d46f.js.map"
+      "path---2016-zh-d51bd59f0f06d82b8d61.js",
+      "path---2016-zh-d51bd59f0f06d82b8d61.js.map"
     ],
     "component---src-page-container-js": [
       "component---src-page-container-js-5d356cdcdda109e8dfa6.js",
@@ -41,8 +41,8 @@
       "build-js-styles.css.map"
     ],
     "path---2017-en": [
-      "path---2017-en-2ed04e8fa24c6c0d7362.js",
-      "path---2017-en-2ed04e8fa24c6c0d7362.js.map"
+      "path---2017-en-3c3bb47a37a51b6406f1.js",
+      "path---2017-en-3c3bb47a37a51b6406f1.js.map"
     ]
   }
 }
