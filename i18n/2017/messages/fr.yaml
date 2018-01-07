@@ -28,3 +28,6 @@ categories:
 
 social:
   text: "Retour sur les tendances de l'année 2017 sur la planète JavaScript"
+newsletter:
+  title: "Les chiffres de la semaine dans votre boite à lettres"
+  signup: "Abonnez-vous à la newsletter {link}, et vous recevrez toutes les semaines un récapitulatif des dernières tendances de l'univers JavaScript!"   

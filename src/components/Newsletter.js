@@ -1,12 +1,22 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 const Newsletter = () => (
   <div className="newsletter">
-    <h3>Get the latest JS rankings in your inbox every week</h3>
+    <h3>
+      <FormattedMessage
+        id="newsletter.title"
+        defaultMessage={`Get the latest JS rankings in your inbox every week`}
+      />
+    </h3>
     <p>
-      Sign up for <a href="https://bestof.js.org">Best of JS</a>'s newsletter,
-      and you'll receive exclusive stats about the most popular JavaScript
-      projects each week.
+      <FormattedMessage
+        id="newsletter.signup"
+        defaultMessage={`Sign up for {link}'s newsletter, and...`}
+        values={{
+          link: <a href="https://bestof.js.org/">bestof.js.org</a>
+        }}
+      />
     </p>
     <div id="mc_embed_signup">
       <form

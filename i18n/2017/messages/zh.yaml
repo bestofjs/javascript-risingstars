@@ -28,3 +28,7 @@ categories:
 
 social:
   text: "2017年JS领域那些冉冉升起的明星项目"
+
+newsletter:
+  title: "Get the latest JS rankings in your inbox every week"
+  signup: "Sign up for {link}'s newsletter, and you'll receive exclusive stats about the most popular JavaScript projects each week."    
