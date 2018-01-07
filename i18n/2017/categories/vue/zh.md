@@ -1,9 +1,9 @@
-With the rising popularity of Vue itself, many Vue ecosystem projects also enjoyed rapid growth in 2017.
+伴随着 Vue 用户的增长，在2017年许多 Vue 生态圈中的项目也得到了令人喜悦地成长。
 
-{element} and {iview} are the two most popular UI component kits, both focused on rapid desktop UI development. {mint-ui} and {vux}, on the other hand, are the two most popular mobile-focused UI kits.
+{element} 和 {iview} 是两个最受欢迎的 UI 组件工具包, 都专注于桌面端 UI 界面的快速开发。 而 {mint-ui} 与 {vux} 则相反, 是移动端最受欢迎的 UI 工具包。
 
-{vuetify} is a Material Design component framework that can be used for both mobile and desktop web apps, and is probably the most feature rich with server-side rendering, PWA and CLI template support. There's also {vue-material which focuses more on providing a set components that strictly adhere to the Material Design spec.
+{vuetify} 是一款能同时使用于移动端和桌面端的 Material Design 组件框架， 也可能是所有提供服务器渲染， PWA 和 CLI 模板支持的框架中最完备的。
 
-{nuxt} is a higher-level framework built on top of Vue that provides a very smooth development experience for building universal, server-rendering Vue applications. It is also very versatile - you can use the same codebase to ship a normal SPA, or even generate a static site.
+{nuxt} 则是一款基于 Vue 的更高级别的框架，它能提供一个流畅地开发体验来构建全局，服务器端渲染的 Vue 应用。它的通用性使得能用同样的代码库来生成一份 SPA，甚至一个静态网站。
 
-{weex} is a framework that allows users to develop native-rendering mobile apps using familiar Vue syntax and API. It is developed by Alibaba and used in production in some of the most heavily used mobile apps in the world, with a strong focus on performance.
+{weex} 是一个可以用 Vue 语法和 API 来进行原生渲染的移动桌面应用开发。它由阿里巴巴公司开发，并已运用于世界上一些最高频使用的移动应用中，非常注重于性能问题的优化。

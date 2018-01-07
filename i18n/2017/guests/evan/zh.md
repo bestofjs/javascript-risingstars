@@ -1,5 +1,5 @@
-Guest Writer: [Evan You](https://twitter.com/youyuxi)
+特约撰稿人: [Evan You](https://twitter.com/youyuxi)
 
-As much as we admire Vue.js, we have to admit we're not that familiar with its ecosystem.
+虽然我们很欣赏 Vue.js, 但不得不承认我们并不太熟悉它的生态圈。
 
-That's why we looked for an expert to give us their opinion on this year's stats, and who better than the creator of Vue.js himself?
+为此我们找了一位专家来点评下今年Vue.js的发展情况，那么还有谁能比 Vue.js 作者更熟悉呢？
