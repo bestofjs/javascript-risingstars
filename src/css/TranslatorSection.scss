@@ -1,7 +1,7 @@
 .TranslatorSection {
   padding: 2rem 0;
-  background-color: #B94100;
-  background: linear-gradient(135deg, #ed8518, #e75f16, #B94100);
+  background-color: #b94100;
+  background: linear-gradient(135deg, #ed8518, #e75f16, #b94100);
   color: rgba(255, 255, 255, 0.6);
 }
 .TranslatorSection .container {
@@ -18,9 +18,13 @@
 .translator-list-item {
   display: flex;
   align-items: center;
-  /*margin-bottom: 2rem;*/
   padding: 1rem 0;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  .avatar {
+    background-color: white;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
 }
 .translator-list-item:last-child {
   border-bottom-width: 0;
@@ -47,6 +51,6 @@
   margin-top: 0;
   text-align: left;
   font-size: 1.4rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

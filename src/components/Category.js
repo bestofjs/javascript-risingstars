@@ -1,7 +1,6 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import Graph from './Graph'
 import TranslatedBlock from '../utils/TranslatedBlock'
 import ProjectTable from './ProjectTable/ProjectTable'
 import Evan from './Evan'

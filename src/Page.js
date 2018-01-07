@@ -44,6 +44,7 @@ class Page extends React.Component {
           htmlAttributes={{ lang: intl.locale }}
           bodyAttributes={{ class: `year${year}` }}
         />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
           rel="stylesheet"

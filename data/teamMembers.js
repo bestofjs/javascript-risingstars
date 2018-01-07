@@ -41,7 +41,7 @@ const team = [
     ),
     role: 'translation',
     language: 'zh',
-    years: [2016, 2017]
+    years: [2016]
   },
   {
     name: 'Frank Xu',
@@ -52,6 +52,20 @@ const team = [
     role: 'translation',
     language: 'zh',
     years: [2017]
+  },
+  {
+    name: 'Sacha Grief',
+    url: 'http://sachagreif.com',
+    avatar: 'https://avatars2.githubusercontent.com/u/358832?s=460&v=4',
+    bio1: (
+      <span>
+        Author of <a href="http://discovermeteor.com/">Discover Meteor</a> and
+        creator of <a href="http://vulcanjs.org/">Vulcan</a>, a React+GraphQL
+        open-source framework.
+      </span>
+    ),
+    role: 'author',
+    years: [2016, 2017]
   },
   {
     name: 'Michael Rambeau',

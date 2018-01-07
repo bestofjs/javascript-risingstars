@@ -1,8 +1,11 @@
-// Important Note:  we don't use `gatsby-transformer-remark` plugin because
-// markdown content is process by `react-markdown` in order to process project 'slugs'
+/*
+Important Note:  we don't use `gatsby-transformer-remark` plugin because
+markdown content is process by `react-markdown` in order to process project 'slugs'
+*/
 module.exports = {
   siteMetadata: {
     title: `JavaScript Rising Stars`,
+    url: 'https://risingstars.js.org',
     GA: 'UA-44563970-4'
   },
   plugins: [
@@ -18,6 +21,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify`
+    },
+    {
+      resolve: `gatsby-plugin-react-helmet`
     }
   ]
   // `no prefix needed when using the subdomain `.js.org`

@@ -40,22 +40,24 @@ const TeamMemberList = ({ language, year }) => {
       member.language === language &&
       member.years.includes(year)
   )
-  const author = team.find(member => member.role === 'author')
+  const authors = team.filter(member => member.role === 'author')
   return (
     <div>
       <TranslatorBlock translators={translators} language={language} />
-      <AuthorBlock author={author} />
+      <AuthorBlock authors={authors} />
     </div>
   )
 }
 
-const AuthorBlock = ({ author }) => (
+const AuthorBlock = ({ authors }) => (
   <div style={{ marginTop: '2rem' }}>
     <p className="member-list-header" style={{ marginTop: '1rem' }}>
       <a href="/">Original version</a>
     </p>
     <div className="translator-list">
-      <TeamMember member={author} key={author.name} />
+      {authors.map((author, i) => (
+        <TeamMember key={i} member={author} key={author.name} />
+      ))}
     </div>
   </div>
 )
@@ -79,7 +81,7 @@ const TranslatorBlock = ({ translators, language }) => (
 const TeamMember = ({ member }) => (
   <div className="translator-list-item">
     <a href={member.url}>
-      <img src={member.avatar} width="75" height="75" />
+      <img className="avatar" src={member.avatar} width="75" height="75" />
     </a>
     <div className="translator-item-body">
       <a href={member.url} className="translator-name">

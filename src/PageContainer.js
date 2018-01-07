@@ -9,12 +9,11 @@ import __intlFR from 'react-intl/locale-data/fr'
 import Page from './Page'
 import getMessages from './utils/getMessages'
 import appData from '../data'
-import packageJson from '../package.json'
 import processProjectData from './utils/processProjectData'
 import allSettings from '../data/settings.json'
 import allLanguages from '../data/allLanguages.json'
 
-const url = packageJson.homepage
+const { siteMetadata } = require('.././gatsby-config')
 
 addLocaleData(__intlEN)
 addLocaleData(__intlZH)
@@ -39,6 +38,7 @@ class PageContainer extends React.Component {
     const isAvailable = lang => availableLanguageCodes.includes(lang.code)
     const languages = allLanguages.filter(isAvailable)
     const { entities, projectsByTag } = processProjectData(projects, categories)
+    const url = `${siteMetadata.url}/${year}/${language}`
     return (
       <IntlProvider locale={language} messages={messages}>
         <Page
