@@ -16,21 +16,23 @@ const excluded = [
   'handlebarsjs'
 ]
 
-const Wall = ({ projects, lang = 'ja' }) => {
+const Wall = ({ projects, lang = 'ja', year }) => {
   const titles = {
-    en: '2016 JavaScript Rising Stars',
+    en: `${year} JavaScript Rising Stars`,
     ja: (
       <span>
-        JavaScript<br /> ベスト・オブ・ザ・イヤー2016
+        JavaScript<br /> ベスト・オブ・ザ・イヤー{year}
       </span>
-    )
+    ),
+    fr: `Le Meilleur du JavaScript en 2017`
   }
+  const title = titles[lang] || titles['en']
   const niceProjects = projects
     .filter(project => !excluded.includes(project.slug))
     .slice(0, 25)
   return (
     <div id="wall">
-      <div className="text">{titles[lang]}</div>
+      <div className="text">{title}</div>
       <div className="icon-wall-grid">
         {niceProjects.map(project => (
           <div key={project.slug}>

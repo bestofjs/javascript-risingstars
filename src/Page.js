@@ -38,7 +38,7 @@ class Page extends React.Component {
             { property: 'og:type', content: 'article' },
             {
               property: 'og:image',
-              content: `/img/${intl.locale}/rising-stars.png`
+              content: `/img/${year}/${intl.locale}/rising-stars.png`
             }
           ]}
           htmlAttributes={{ lang: intl.locale }}
@@ -62,7 +62,13 @@ class Page extends React.Component {
             </h1>
           </div>
         </div>
-        {false && <ProjectIconWall projects={projects.all} />}
+        {false && (
+          <ProjectIconWall
+            projects={projects.all}
+            lang={intl.locale}
+            year={year}
+          />
+        )}
         <div className="main">
           <div className="main-contents">
             <Introduction

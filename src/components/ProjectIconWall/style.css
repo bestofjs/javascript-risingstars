@@ -5,12 +5,17 @@
 }
 #wall .text {
   position: absolute;
-  top: 45px;
+  top: 0;
   color: white;
   font-size: 3.2rem;
+  line-height: 90px;
   text-align: center;
   z-index: 1;
-  text-shadow: 0 3px 3px rgba(143,50,0,0.99);
+  text-shadow: 0 3px 3px rgba(143, 50, 0, 0.99);
+  font-family: 'Space Mono', monospace;
+}
+[lang='fr'] #wall .text {
+  font-size: 3rem;
 }
 .icon-wall-grid {
   display: flex;
@@ -21,7 +26,7 @@
   padding: 0.3rem 0 0 0.3rem;
 }
 .icon-wall-grid div {
-  opacity: 0.30;
+  opacity: 0.3;
   flex: 0 0 20%;
   padding: 0 0.2rem 0.7rem 0;
 }
