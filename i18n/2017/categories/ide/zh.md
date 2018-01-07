@@ -1,5 +1,3 @@
-Here we talk about the text editors used by developers, open source and built with web technologies (sorry for Sublime users!).
-
 这里我们讨论的是利用开源的网络技术来开发的文本编辑器（Sublime粉们对不住了！）。
 
 In 2016, {vs-code}, backed by MicroSoft and {atom}, backed by GitHub were really close at the top of the category.

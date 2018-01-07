@@ -1,22 +1,22 @@
 # Meta data
 page:
-  title: "2017年JS领域那些冉冉升起的明星项目"
-  description: "对2017年JS领域的完整回顾，内容包括：前端框架、Node.js框架、编译工具、构建工具、测试框架、IDE、静态网站生成器...等各方面"
+  title: "2017年 JavaScript 明星项目"
+  description: "对2017年 JavaScript 领域，在前端框架、Node.js 框架、编译工具、构建工具、测试框架、IDE、静态网站生成器...等各方面进行完整的回顾"
 
 # Page content
 header:
-  title: "2017年JS领域那些冉冉升起的明星项目"
+  title: "2017年 JavaScript 明星项目"
 introduction:
   table_of_contents: "目录"
-  explanation: "下列图表对比了各个项目在Github上2017年新增star的数量。分析的项目主要来自 {link}，这里列出了WEB领域的最佳项目。"
-conclusion: "总结"
+  explanation: "下列图表对比了各个项目在 Github 上于过去12个月新增的 star 数量。分析的数据来源 {link} 网站 ，这是一个精选 WEB 领域优秀项目的网站。请注意，点击项目可以看到更多信息。"
+conclusion: "年度大事件"
 
 categories:
   all: "最受欢迎项目"
   framework: '前端框架'
-  nodejsframework: 'Node.js框架'
-  react: 'React生态圈'
-  vue: 'Vue生态圈'
+  nodejsframework: 'Node.js 框架'
+  react: 'React 生态圈'
+  vue: 'Vue 生态圈'
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'
@@ -26,9 +26,37 @@ categories:
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'  
 
-social:
-  text: "2017年JS领域那些冉冉升起的明星项目"
+categories-short:
+  all: "概览"
+  framework: '前端'
+  nodejsframework: 'Node.js'
+  react: 'React'
+  vue: 'Vue'
+  mobile: '移动端'
+  compiler: '编译工具'
+  build: '构建工具'
+  testframework: '测试工具'
+  ide: '编辑器'
+  ssg: '静态网站生成器'
+  cssinjs: 'CSS-in-JS'
+  graphql: 'GraphQL'
 
+categories-share:
+  all: "JavaScript 项目"
+  framework: '前端框架'
+  nodejsframework: 'Node.js 框架'
+  react: 'React 生态圈'
+  vue: 'Vue 生态圈'
+  mobile: '移动开发'
+  compiler: '编译工具'
+  build: '构建工具'
+  testframework: '测试框架'
+  ide: 'IDE'
+  ssg: '静态网站生成器'
+  cssinjs: 'CSS in JavaScript'
+  graphql: 'GraphQL'  
+social:
+  text: "2017年JS明星项目"
 newsletter:
-  title: "Get the latest JS rankings in your inbox every week"
-  signup: "Sign up for {link}'s newsletter, and you'll receive exclusive stats about the most popular JavaScript projects each week."    
+  title: "每周收到最新的 JS 排名"
+  signup: "在 {link} 订阅我们的邮件列表，你就能每周收到最新最流行的关于 JavaScript 项目趋势的独家报告。"
