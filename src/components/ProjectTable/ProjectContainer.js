@@ -26,7 +26,9 @@ const ProjectContainer = ({
   trendPercent,
   showDetails,
   toggleDetails,
-  tagKey
+  tagKey,
+  year,
+  intl
 }) => {
   const url = project.url || project.repository
 
@@ -61,6 +63,8 @@ const ProjectContainer = ({
         index={index}
         tagKey={tagKey}
         isOpen={showDetails}
+        year={year}
+        intl={intl}
       />
     </div>
   )

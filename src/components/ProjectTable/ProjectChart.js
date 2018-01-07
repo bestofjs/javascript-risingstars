@@ -2,15 +2,19 @@ import React from 'react'
 
 import formatDelta from '../../utils/formatDelta'
 
-const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
-
-const ProjectChart = ({ project }) => {
+const ProjectChart = ({ project, intl }) => {
   if (!project.monthly || project.monthly.length === 0)
     return (
       <div style={{ fontStyle: 'italic', marginBottom: '.5rem' }}>
         No data available
       </div>
     )
+  const months = intl
+    .formatMessage({
+      id: `view_project.months`,
+      defaultMessage: 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'
+    })
+    .split(' ')
   const monthlyDeltas = (project.monthly || [])
     .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
     .slice(0, 12)

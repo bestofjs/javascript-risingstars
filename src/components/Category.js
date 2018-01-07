@@ -13,7 +13,9 @@ const Category = ({
   tag,
   number,
   excluded = [],
-  count = 10
+  count = 10,
+  year,
+  intl
 }) => {
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
   const graphProjects = projects[tag].slice(0, count)
@@ -30,7 +32,12 @@ const Category = ({
         <div className="project-category-grid">
           <div>
             <div className="column1">
-              <ProjectTable tagKey={key} projects={graphProjects} />
+              <ProjectTable
+                tagKey={key}
+                projects={graphProjects}
+                year={year}
+                intl={intl}
+              />
             </div>
           </div>
           <div>

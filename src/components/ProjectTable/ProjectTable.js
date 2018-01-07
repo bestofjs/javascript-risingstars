@@ -9,7 +9,9 @@ const ProjectTable = ({
   showStars,
   showDelta = true,
   deltaFilter = 'yearly',
-  tagKey
+  tagKey,
+  year,
+  intl
 }) => {
   const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b))
   return (
@@ -25,6 +27,8 @@ const ProjectTable = ({
           index={i + 1}
           tagKey={tagKey}
           trendPercent={Math.round(Math.random() * 200) - 100}
+          year={year}
+          intl={intl}
         />
       ))}
     </div>

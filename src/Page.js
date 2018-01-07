@@ -98,6 +98,8 @@ class Page extends React.Component {
                 entities={entities}
                 locale={locale}
                 translations={translations}
+                year={year}
+                intl={intl}
               />
             ))}
             <Conclusion

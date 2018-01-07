@@ -60,3 +60,10 @@ social:
 newsletter:
   title: "每周收到最新的 JS 排名"
   signup: "在 {link} 订阅我们的邮件列表，你就能每周收到最新最流行的关于 JavaScript 项目趋势的独家报告。"
+view_project:
+  twitter:
+    text: "In {year}, {name} added {delta} stars, making it the #{ranking} most popular {category} on GitHub"
+    action: Tweet
+  months: "J F M A M J J A S O N D"
+  created: "Created"
+  homepage: "Homepage"  

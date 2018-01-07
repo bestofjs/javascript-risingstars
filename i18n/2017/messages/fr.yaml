@@ -26,8 +26,31 @@ categories:
   cssinjs: 'CSS dans JavaScript'
   graphql: 'GraphQL'
 
+categories-share:
+  all: "le projet JavaScript"
+  framework: 'le framework JavaScript côté client'
+  nodejsframework: 'le framework Node.js'
+  react: 'le projet React'
+  vue: 'le project Vue.js'
+  mobile: "le framework JavaScript pour mobiles"
+  compiler: "le compilateur JavaScript"
+  build: "l'outil de construction JavaScript"
+  testframework: "le framework de test JavaScript"
+  ide: "l'éditeur de texte"
+  ssg: "le générateur de site statique JavaScript"
+  cssinjs: "l'outil CSS-dans-JavaScript"
+  graphql: "le projet GraphQL JavaScript"
+
 social:
   text: "Retour sur les tendances de l'année 2017 sur la planète JavaScript"
 newsletter:
   title: "Les chiffres de la semaine dans votre boite à lettres"
   signup: "Abonnez-vous à la newsletter {link}, et vous recevrez toutes les semaines un récapitulatif des dernières tendances de l'univers JavaScript!"   
+
+view_project:
+  twitter:
+    text: "En {year}, avec plus de {delta} étoiles gagnées sur GitHub, {name} a été {category} numéro {ranking}."
+    action: "Tweet"
+  months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
+  created: "Créé"
+  homepage: "Site web"
