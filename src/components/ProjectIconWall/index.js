@@ -24,7 +24,12 @@ const Wall = ({ projects, lang = 'ja', year }) => {
         JavaScript<br /> ベスト・オブ・ザ・イヤー{year}
       </span>
     ),
-    fr: `Le Meilleur du JavaScript en 2017`
+    fr: `Le Meilleur du JavaScript en 2017`,
+    zh: (
+      <span>
+        2017年<br />JavaScript<br />明星项目
+      </span>
+    )
   }
   const title = titles[lang] || titles['en']
   const niceProjects = projects

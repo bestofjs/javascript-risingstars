@@ -6,6 +6,8 @@
 #wall .text {
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   color: white;
   font-size: 3.2rem;
   line-height: 90px;
