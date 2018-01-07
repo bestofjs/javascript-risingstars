@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl'
 
 import TranslatedBlock from '../utils/TranslatedBlock'
 import ProjectTable from './ProjectTable/ProjectTable'
-import Evan from './Evan'
+import Guest from './Guest'
 
 const Category = ({
   projects,
@@ -36,7 +36,14 @@ const Category = ({
           <div>
             <div className="column2">
               <div className="tag-card-comments markdown-body">
-                {key === 'vue' && <Evan />}
+                {key === 'vue' && (
+                  <Guest
+                    guestId="evan"
+                    translations={translations}
+                    language={locale}
+                    entities={entities}
+                  />
+                )}
                 <TranslatedBlock
                   translations={translations}
                   language={locale}
