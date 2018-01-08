@@ -24,4 +24,6 @@ That's probably partly why {angular-2} has a more "corporate" image. And this im
 Behind the Big-3, it's very interesting to notice that {preact} is number 4.
 {preact} is a smaller alternative to {react}: the same API, but in less than 3KB.
 
-Similar, most other contenders in this category emphasize a small footprint that leads to better performance in the browser in order to differentiate themselves from the big 3. 
+Similar, most other contenders in this category emphasize a small footprint that leads to better performance in the browser in order to differentiate themselves from the big 3.
+
+The best example about this motto is {hyperapp}, a very hot project over the last weeks. It mixes the functional approach and the JSX syntax from {react} **and** a state management system inspired by {redux}... In less than 1 KB!

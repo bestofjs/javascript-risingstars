@@ -70,4 +70,4 @@ Among other improvements, we could also mention `npx` a tool that lets developer
 
 ---
 
-Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/bestofjs/javascriptrisingstars)!
+Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/bestofjs/javascript-risingstars)!
