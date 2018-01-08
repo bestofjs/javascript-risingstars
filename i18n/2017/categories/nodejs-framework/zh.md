@@ -1,13 +1,15 @@
-Of course JavaScript is no more limited to the front-end side of web applications, it's more and more used to create the back-end too, and [Mikeal Rogers](https://github.com/mikeal), an influent member of the node.js community, predicts that [Node.js Will Overtake Java Within a Year](https://thenewstack.io/open-source-profile-mikeal-rogers-node-js/).
 
-But unlike other languages where de-facto standards have emerged over the years (think about Ruby on Rails for Ruby, Django for Python or Laravel for PHP), there is no golden standard or recommended architecture when you want to create a new node.js server.
+JavaScript 已不仅仅局限于前端 Web 应用方面，在后端上也被越来越多的人使用。 在 Node.js 社区十分具有影响力的 [Mikeal Rogers](https://github.com/mikeal), 做了一个 [Node.js 会在一年内超越 Java](https://thenewstack.io/open-source-profile-mikeal-rogers-node-js/)的预测。
 
-Despite its age, {express} was not only the trendiest node.js framework in 2017 but it's also used as the backbone of many other frameworks or CMS, including {feathers}, {keystone} or {nest}.
+但和其他语言都有事实上的标准不同（例如 Ruby 有 Ruby on Rails， Python 有 Django， PHP 有 Laravel ），目前在 node.js 上写服务器程序还没有一个默认的黄金标准。
 
-It seems that Express minimalist approach perfectly matches the micro-services trend that promotes the creation of several decoupled smaller applications over the development of a single "monolith" application.
+{express} 不是2017年份 node.js 框架分类中的排行冠军，毕竟这个项目已经成立多年，但它已转变为许多框架和 CMS 的基础组件，包括 {feathers}, {keystone} 和 {nest}。
 
-Compared to last year, 3 newcomers joined the TOP 10 node.js frameworks:
+Express 的极简主义设计似乎完美地符合了如今微服务理念的发展趋势：把一个大型程序解耦成几个小的应用。
 
-* {fastify} is built as a general-purpose web framework, inspired by {hapi}, but is well suited to building fast JSON-based HTTP APIs.
-* {serverjs} aims to be a ‘everything works out of the box’ experience.
-* {nest} feature an architecture familiar to Angular developers, made of modules and controller, written in TypeScript
+与去年相比, 今年有3个新面孔进入了 node.js 框架分类排行的TOP 10:
+
+* {fastify} 是一个受 {hapi} 启发的通用 Web 框架，也适合用作 JSON HTTP API 服务器。
+* {serverjs} 注重于“开箱即用”的开发体验。
+* {nest} 是一个用 TypeScript 写的框架，它的模块化和控制器组成的设计架构，让 Angular 用户感到十分亲切。
+

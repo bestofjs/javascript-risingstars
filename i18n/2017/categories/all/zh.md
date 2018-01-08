@@ -27,11 +27,11 @@
 
 ### React, 亚军, 再次！
 
-与2016一样, {react} 夺得第二名, 今年它在 GitHub 上获得了超过27,000 star 数量 (再次明确此处我们讨论的是整个年度*新增*的Stars数量而非*所有*的 Star 数量)。
+与2016一样, {react} 夺得第二名,今年它在 GitHub 上获得了超过27,000 star 数量 (再次明确一下，此处我们分析的是今年**新增**的Stars数量而非**所有**的 Star 数量。
 
-{create-react-app} , 是排行榜的季军。它成为了新建 React 项目的首选推荐方式，它的成功让不少 React 样板(React boilerplates)与之前完全不一样。
+{create-react-app} ,是排行榜的季军。它成为了新建 React 项目的首选推荐方式，{create-react-app} 的成功让不少 React 样板(React boilerplates)与之前完全不一样。
 
-[ Dan Abramov ](https://github.com/gaearon) ( {redux} 作者, 现在 Facebook 工作)做了一件了不起的事情, 他在简洁与功能性的平衡中找到了正确的方向(right balance)。 例如它没有花哨的样式解决方案(styling solution)(只有纯CSS)，以及无服务器端渲染, 但是一切又很好的封装了，同时开发者体验也很不错。
+[ Dan Abramov ](https://github.com/gaearon) ( {redux} 作者, 现在 Facebook 工作)做了一件了不起的工作, 在简洁性与功能性的平衡中找到了正确的方向(right balance)。 例如它没有花哨的样式解决方案(styling solution)(只有纯CSS)，以及无服务器端渲染, 封装得很好，同时开发者体验也很不错。
 
 ### Axios
 
@@ -39,13 +39,13 @@
 
 它能同时在用户端(在用户端发起AJAX请求)与服务器端(在 Node.js 环境中)使用。
 
-Axios 的成功或许也与 Vue.js 有些关系，因为诸多 Vue.js 教程中用到了它来发起远程 API 的 HTTP 请求。
+Axios 的成功或许也与 Vue.js 有些关系，因为诸多 Vue.js 教程中利用它来发起远程 API 的 HTTP 请求。
 
 ### Puppeteer
 
 {puppeteer} 是今年的大事件之一。
 
-这是 Google Chrome 团队开发的一个无界面Chrome浏览器，也就是说你可以使用代码在后台控制浏览器了。
+这是 Google Chrome 团队开发的一个无界面 Chrome 浏览器，意味着可以使用代码来控制后台运行的浏览器了。
 
 它可作如下用途:
 
