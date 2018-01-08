@@ -16,7 +16,7 @@
   * 路由: {vue-router}
   * 状态管理库: {vuex}
   
-* 把模板、逻辑和样式放入在一个 `.vue` 文件中的单文件设计理念十分棒。
+* 把模板、逻辑和样式放入一个 `.vue` 文件中的单文件设计理念十分棒。
 
 * 被最流行的 PHP 框架之一--[Laravel](https://laravel.com/)选为默认的视图引擎(View engine)。
 
@@ -29,9 +29,9 @@
 
 与2016一样, {react} 夺得第二名,今年它在 GitHub 上获得了超过27,000 star 数量 (再次明确一下，此处我们分析的是今年**新增**的Stars数量而非**所有**的 Star 数量。
 
-{create-react-app} ,是排行榜的季军。它成为了新建 React 项目的首选推荐方式，{create-react-app} 的成功让不少 React 样板(React boilerplates)与之前完全不一样。
+{create-react-app} ,是排行榜的季军，现在已是新建 React 项目的首选推荐方式。它的成功让不少 React 样板(React boilerplates)已经变得与以前完全不一样。
 
-[ Dan Abramov ](https://github.com/gaearon) ( {redux} 作者, 现在 Facebook 工作)做了一件了不起的工作, 在简洁性与功能性的平衡中找到了正确的方向(right balance)。 例如它没有花哨的样式解决方案(styling solution)(只有纯CSS)，以及无服务器端渲染, 封装得很好，同时开发者体验也很不错。
+[ Dan Abramov ](https://github.com/gaearon) ( {redux} 作者, 现在 Facebook 工作)做了一件了不起的工作, 在简洁性与功能性的平衡中找到了正确的方向(right balance)。 例如它没有花哨的样式解决方案(styling solution)(只有纯CSS)和服务器端渲染, 具有良好的功能封装以及开发体验。
 
 ### Axios
 
