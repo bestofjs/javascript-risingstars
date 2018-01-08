@@ -1,6 +1,6 @@
 Nous parlons ici des éditeurs de texte issues de projets open-source et utilisant des technologies web (désolé pour les utilisateurs de Sublime !).
 
-{vscode}, créé par MicroSoft et {atom}, créé par GitHub, sont 2 applications construites à partir d'{electron} une plateforme très populaire pour le développement d'applications _desktop_ pour Windows aussi bien que pour MacOS.
+{vs-scode}, créé par MicroSoft et {atom}, créé par GitHub, sont 2 applications construites à partir d'{electron} une plateforme très populaire pour le développement d'applications _desktop_ pour Windows aussi bien que pour MacOS.
 
 Les 2 projets étaient au coude-à-coude en 2016 mais {vscode} a pris un avantage déterminant en 2017.
 
@@ -13,4 +13,4 @@ Sans devoir installer aucune extension, les développeurs disposent de toutes le
 * Syntaxe React prise en compte
 * Ligne de commande intégrée
 
-Si on ajoute {prettier} à {vscode} et en activant l'option pour formatter automatiquement le code à chaque enregistrement, on obtient la combinaison parfaite pour écrire du code dans un confort absolu !
+Si on ajoute {prettier} à {vs-code} et en activant l'option pour formatter automatiquement le code à chaque enregistrement, on obtient la combinaison parfaite pour écrire du code dans un confort absolu !

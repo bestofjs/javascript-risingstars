@@ -1,4 +1,4 @@
-Here we talk about the text editors from open source and built with web technologies (sorry for Sublime users!).
+Here we talk about the text editors from the open source world, built with web technologies (sorry for Sublime users!).
 
 In 2016, {vs-code}, backed by MicroSoft and {atom}, backed by GitHub were really close at the top of the category.
 

@@ -9,7 +9,7 @@ header:
 introduction:
   table_of_contents: "Sommaire"
   explanation: "Les chiffres présentés sont les nombres d'étoiles ajoutées sur GitHub au cours de l'année 2017. Les projets présentés proviennent de {link}, une application web qui rassemble toutes les tendances liées au développement web."
-conclusion: "Les grandes et petites histoires de l'année"
+conclusion: "Conclusion"
 
 categories:
   all: "Projets les plus populaires en 2017"
@@ -18,7 +18,7 @@ categories:
   react: 'Eco-système React'
   vue: 'Eco-système Vue'
   mobile: 'Mobile'
-  compiler: 'Compileurs'
+  compiler: 'Compilateurs JavaScript'
   build: 'Outils de construction'
   testframework: 'Frameworks de test'
   ide: 'Editeurs de text'

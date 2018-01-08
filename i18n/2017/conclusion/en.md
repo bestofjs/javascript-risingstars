@@ -1,4 +1,4 @@
-We hope this round-up of the JavScript universe in 2017 was not too long.
+We hope this round-up of the JavaScript universe in 2017 was not too long.
 
 We have seen by the numbers that {vuejs} is once again the winner of this year and its success is not slowing down.
 
@@ -12,7 +12,7 @@ For an other point view over the trends, check the [State of JavaScript 2017 sur
 
 ---
 
-Going forward, which project will be the next JavaScript Rising Stars in 2018?
+Going forward, which projects will be the next _JavaScript Rising Stars_ in 2018?
 
 * a new framework based on {graphql}?
 * a library that takes advantage of the new WebAssembly standard to create a unique experience in the browser?
@@ -20,3 +20,5 @@ Going forward, which project will be the next JavaScript Rising Stars in 2018?
 ---
 
 Thank you for your attention, feel free to share this article and to reach us on [Github](https://github.com/bestofjs/javascript-risingstars)... or see you next year!
+
+---
