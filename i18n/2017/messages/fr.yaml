@@ -23,7 +23,7 @@ categories:
   testframework: 'Frameworks de test'
   ide: 'Editeurs de text'
   ssg: 'Générateurs de Site Statique'
-  cssinjs: 'CSS dans JavaScript'
+  cssinjs: 'Feuilles de style en JavaScript'
   graphql: 'GraphQL'
 
 categories-share:

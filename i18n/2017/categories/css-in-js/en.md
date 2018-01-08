@@ -2,7 +2,7 @@ There is still no consensus about the best way to style React components.
 
 You can use a ready-made component toolkit like {material-ui} or {ant-design} if your needs are pretty "standard" and you don't need too much customization.
 
-Or, if you need more flexibility, you can do it the "old way", using global CSS styles from a popular CSS toolkit like {bootstrap} or {bulma}, and assigning appropriate `className`s to your components. But then your component is not  self-contained anymore, since its style is being managed elsewhere.
+Or, if you need more flexibility, you can do it the "old way", using global CSS styles from a popular CSS toolkit like {bootstrap} or {bulma}, and assigning appropriate `className`s to your components. But then your component is not self-contained anymore, since its style is being managed elsewhere.
 
 To address this issue, the "CSS in JavaScript" category has emerged.
 
