@@ -13,7 +13,7 @@ import processProjectData from './utils/processProjectData'
 import allSettings from '../data/settings.json'
 import allLanguages from '../data/allLanguages.json'
 
-const { siteMetadata } = require('.././gatsby-config')
+const { siteMetadata } = require('../gatsby-config')
 
 addLocaleData(__intlEN)
 addLocaleData(__intlZH)
@@ -38,15 +38,17 @@ class PageContainer extends React.Component {
     const isAvailable = lang => availableLanguageCodes.includes(lang.code)
     const languages = allLanguages.filter(isAvailable)
     const { entities, projectsByTag } = processProjectData(projects, categories)
-    const url = `${siteMetadata.url}/${year}/${language}`
+    const { url, currentYear } = siteMetadata
+    const fullUrl = `${siteMetadata.url}/${year}/${language}`
     return (
       <IntlProvider locale={language} messages={messages}>
         <Page
           projects={projectsByTag}
           entities={entities}
-          url={url}
+          url={fullUrl}
           translations={translations}
           year={year}
+          currentYear={currentYear}
           categories={categories}
           languages={languages}
         />

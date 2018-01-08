@@ -28,6 +28,7 @@ const ProjectContainer = ({
   toggleDetails,
   tagKey,
   year,
+  currentYear,
   intl
 }) => {
   const url = project.url || project.repository
@@ -64,6 +65,7 @@ const ProjectContainer = ({
         tagKey={tagKey}
         isOpen={showDetails}
         year={year}
+        currentYear={currentYear}
         intl={intl}
       />
     </div>

@@ -15,6 +15,7 @@ const Category = ({
   excluded = [],
   count = 10,
   year,
+  currentYear,
   intl
 }) => {
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
@@ -36,6 +37,7 @@ const Category = ({
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
+                currentYear={currentYear}
                 intl={intl}
               />
             </div>

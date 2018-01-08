@@ -23,6 +23,7 @@ class Page extends React.Component {
       intl,
       translations,
       year,
+      currentYear,
       categories,
       languages
     } = this.props
@@ -99,6 +100,7 @@ class Page extends React.Component {
                 locale={locale}
                 translations={translations}
                 year={year}
+                currentYear={currentYear}
                 intl={intl}
               />
             ))}

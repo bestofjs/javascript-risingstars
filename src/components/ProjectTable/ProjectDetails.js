@@ -7,17 +7,27 @@ import ProjectBlurb from './ProjectBlurb'
 const templateMonthYear = tinytime('{Mo}/{YYYY}')
 import { FormattedMessage } from 'react-intl'
 
-const ProjectDetails = ({ project, index, tagKey, isOpen, year, intl }) => {
+const ProjectDetails = ({
+  project,
+  index,
+  tagKey,
+  isOpen,
+  year,
+  currentYear,
+  intl
+}) => {
   return (
     <div className={`project-details ${isOpen ? 'is-open' : 'is-closed'}`}>
       <div className="project-details-inner">
-        <ProjectBlurb
-          project={project}
-          index={index}
-          tagKey={tagKey}
-          year={year}
-          intl={intl}
-        />
+        {year === currentYear && (
+          <ProjectBlurb
+            project={project}
+            index={index}
+            tagKey={tagKey}
+            year={year}
+            intl={intl}
+          />
+        )}
         <ProjectChart project={project} intl={intl} />
         <ul className="project-links">
           <li>
