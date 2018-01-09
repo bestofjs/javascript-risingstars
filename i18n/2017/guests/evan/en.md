@@ -1,4 +1,4 @@
-Guest Writer: [Evan You](https://twitter.com/youyuxi)
+### Guest Writer: [Evan You](https://twitter.com/youyuxi)
 
 As much as we admire Vue.js, we have to admit we're not that familiar with its ecosystem.
 

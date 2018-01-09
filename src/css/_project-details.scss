@@ -109,21 +109,16 @@
   text-align: center;
 }
 
-.evan {
+.guest {
   display: flex;
   margin-bottom: $spacing;
   padding: $spacing;
   border: 1px dashed $border-color;
   background: $white;
 }
-.evan-portrait {
+.guest-portrait {
   margin-left: $spacing;
   img {
     max-width: 120px;
-  }
-}
-.evan-blurb {
-  h3 {
-    margin-bottom: $spacing/4;
   }
 }

@@ -4,8 +4,8 @@ import { FormattedMessage } from 'react-intl'
 import TranslatedBlock from '../utils/TranslatedBlock'
 
 const Guest = ({ guestId, translations, language, entities }) => (
-  <div className="evan">
-    <div className="evan-blurb">
+  <div className="guest">
+    <div className="guest-blurb">
       <TranslatedBlock
         translations={translations}
         language={language}
@@ -13,7 +13,7 @@ const Guest = ({ guestId, translations, language, entities }) => (
         entities={entities}
       />
     </div>
-    <div className="evan-portrait">
+    <div className="guest-portrait">
       <img src={`/img/guests/${guestId}.jpg`} />
     </div>
   </div>
