@@ -13,7 +13,8 @@ const trends = [
   { name: 'upfast', value: 9999 }
 ]
 
-const withToggle = withState('showDetails', 'toggleDetails', false)
+// only first project of "all" category should start expanded
+const withToggle = withState('showDetails', 'toggleDetails', props => props.tagKey === 'all' && props.index === 1)
 
 const ProjectContainer = ({
   project,

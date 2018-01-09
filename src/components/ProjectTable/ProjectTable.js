@@ -31,6 +31,7 @@ const ProjectTable = ({
           year={year}
           intl={intl}
           currentYear={currentYear}
+          tagKey={tagKey}
         />
       ))}
     </div>
