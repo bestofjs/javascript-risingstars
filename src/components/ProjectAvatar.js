@@ -27,11 +27,14 @@ const Avatar = ({ project, size = 100, link = false }) => {
     return (
       <div style={{ width: size }} dangerouslySetInnerHTML={{ __html: svg }} />
     )
+  // Performance optimization:
+  // to avoid fetching 2 times the same avatar in 2 different sizes, we fetch only once the biggest one
+  const maxSize = Math.max(size, 50)
   const urls = {
-    standard: getProjectAvatarUrl(project, size),
-    retina: getProjectAvatarUrl(project, size * 2)
+    standard: getProjectAvatarUrl(project, maxSize),
+    retina: getProjectAvatarUrl(project, maxSize * 2)
   }
-  
+
   const img = (
     <img
       src={urls.standard}
@@ -41,8 +44,8 @@ const Avatar = ({ project, size = 100, link = false }) => {
       alt={project.name}
     />
   )
-  
-  return link ? <a href={`#${project.slug}`}>{img}</a> : img;
+
+  return link ? <a href={`#${project.slug}`}>{img}</a> : img
 }
 
 export default Avatar
