@@ -33,7 +33,8 @@ const ProjectBlurb = ({ project, index, tagKey, year, intl }) => {
         id="view_project.twitter.text"
         defaultMessage={`In {year}, {name} was the project #{ranking}...`}
         values={{ ...values, name }}
-      />{' '}
+      />
+      {' '}–{' '}
       <a href={tweetURL} target="_blank">
         <FormattedMessage
           id="view_project.twitter.action"
