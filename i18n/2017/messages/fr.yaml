@@ -43,14 +43,3 @@ categories-share:
 
 social:
   text: "Retour sur les tendances de l'année 2017 sur la planète JavaScript"
-newsletter:
-  title: "Les chiffres de la semaine dans votre boite à lettres"
-  signup: "Abonnez-vous à la newsletter {link}, et vous recevrez toutes les semaines un récapitulatif des dernières tendances de l'univers JavaScript!"   
-
-view_project:
-  twitter:
-    text: "En {year}, avec plus de {delta} étoiles gagnées sur GitHub, {name} a été {category} numéro {ranking}."
-    action: "Tweet"
-  months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
-  created: "Créé"
-  homepage: "Site web"

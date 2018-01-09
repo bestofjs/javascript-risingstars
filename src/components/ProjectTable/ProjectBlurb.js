@@ -17,7 +17,7 @@ const ProjectBlurb = ({ project, index, tagKey, year, intl }) => {
   const tweetText = intl
     .formatMessage(
       {
-        id: 'view_project.twitter.text'
+        id: 'common.view_project.twitter.text'
       },
       values
     )
@@ -30,14 +30,14 @@ const ProjectBlurb = ({ project, index, tagKey, year, intl }) => {
   return (
     <div className="project-blurb">
       <FormattedMessage
-        id="view_project.twitter.text"
+        id="common.view_project.twitter.text"
         defaultMessage={`In {year}, {name} was the project #{ranking}...`}
         values={{ ...values, name }}
-      />
-      {' '}–{' '}
+      />{' '}
+      –{' '}
       <a href={tweetURL} target="_blank">
         <FormattedMessage
-          id="view_project.twitter.action"
+          id="common.view_project.twitter.action"
           defaultMessage="Tweet"
         />
       </a>

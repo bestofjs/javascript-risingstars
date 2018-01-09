@@ -11,7 +11,7 @@ const ProjectChart = ({ project, intl }) => {
     )
   const months = intl
     .formatMessage({
-      id: `view_project.months`,
+      id: `common.view_project.months`,
       defaultMessage: 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'
     })
     .split(' ')

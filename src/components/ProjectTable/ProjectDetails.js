@@ -33,7 +33,7 @@ const ProjectDetails = ({
           <li>
             <span className="project-created-at">
               <FormattedMessage
-                id="view_project.created"
+                id="common.view_project.created"
                 defaultMessage={`Created`}
               />{' '}
               {templateMonthYear.render(new Date(project.created_at))}
@@ -50,7 +50,7 @@ const ProjectDetails = ({
           <li>
             <a href={project.url}>
               <FormattedMessage
-                id="view_project.homepage"
+                id="common.view_project.homepage"
                 defaultMessage={`Homepage`}
               />
             </a>

@@ -5,13 +5,13 @@ const Newsletter = () => (
   <div className="newsletter container container-section small-container markdown-body">
     <h3>
       <FormattedMessage
-        id="newsletter.title"
+        id="common.newsletter.title"
         defaultMessage={`Get the latest JS rankings in your inbox every week`}
       />
     </h3>
     <p>
       <FormattedMessage
-        id="newsletter.signup"
+        id="common.newsletter.signup"
         defaultMessage={`Sign up for {link}'s newsletter, and...`}
         values={{
           link: <a href="https://bestof.js.org/">bestof.js.org</a>

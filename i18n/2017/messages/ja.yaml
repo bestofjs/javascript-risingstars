@@ -27,11 +27,3 @@ categories:
   graphql: 'GraphQL'  
 social:
   text: "「2017年 JavaScript 白書」をチェックする"
-
-newsletter:
-  title: "Get the latest JS rankings in your inbox every week"
-  signup: "Sign up for {link}'s newsletter, and you'll receive exclusive stats about the most popular JavaScript projects each week."    
-
-view_project:
-  twitter_text: "In {year}, {name} added {stars} stars, making it the #{ranking} most popular JavaScript project on GitHub"
-  twitter_action: Tweet

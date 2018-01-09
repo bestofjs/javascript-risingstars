@@ -1,0 +1,10 @@
+newsletter:
+  title: "Get the latest JS rankings in your inbox every week"
+  signup: "Sign up for {link}'s newsletter, and you'll receive exclusive stats about the most popular JavaScript projects each week."  
+view_project:
+  twitter:
+    text: "In {year}, {name} added {delta} stars, making it the #{ranking} most popular {category} on GitHub"
+    action: Tweet
+  months: "J F M A M J J A S O N D"
+  created: "Created"
+  homepage: "Homepage"   

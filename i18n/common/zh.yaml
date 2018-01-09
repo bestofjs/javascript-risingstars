@@ -1,0 +1,10 @@
+newsletter:
+  title: "每周收到最新的 JS 排名"
+  signup: "在下面注册 {link} 的订阅邮件列表，就能每周收到最新最流行的 JavaScript 项目趋势发展的独家报告哦！"
+view_project:
+  twitter:
+    text: "在{year}年, {name} 增加了 {delta} stars数量, 在 Github {category} 分类中排名第 {ranking}。 "
+    action: Tweet
+  months: "1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月"
+  created: "创建于"
+  homepage: "项目主页" 
