@@ -43,3 +43,4 @@ It can be used to do things like:
 
 * Automatically testing web application UIs in real browsers.
 * Taking snapshots of web pages to do server-side rendering.
+* Generating PDF files using Google Chrome ability to save pages as PDF files.

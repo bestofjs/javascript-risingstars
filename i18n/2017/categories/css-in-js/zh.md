@@ -6,10 +6,10 @@
 
 本类别" CSS in JavaScript "的出现即是为了解决上述问题，
 
-概念本身很简单：在 React 中你己能通过 JavaScript 来**同时**控制逻辑和模板部分。既然如此，为不再进一步，连样式也一起管理了呢？
+概念本身很简单：在 React 中你己能通过 JavaScript 来**同时**控制逻辑和模板部分。既然如此，何不再进一步，连样式也一并管理了呢？
 
 {styled-components} 是今年本类别的冠军。它利用 JavasScript 最近新加入的模板字符串特性，让开发者在 React 组件中使用标准的 CSS 语法。
 
 {css-modules}, 作为本类别的亚军, 则采用了混合的解决方案。 它让开发者自己挑选(标准CSS, Sass, {less}, {stylus})，再以文件的方式**导入**到组件中。
 
-[ Mark Dalgleish ](http://markdalgleish.com/), {css-modules} 的作者, 写了一篇有意思的文章来阐述 CSS-in-JavaScript 解决方案: [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660). 如果你对 CSS-in-Javascript 解决方案持怀疑态度的话，那此文不容错过。
+[ Mark Dalgleish ](http://markdalgleish.com/), {css-modules} 的作者, 写了一篇有意思的文章来阐述 CSS-in-JavaScript 解决方案: [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660). 如果你对 CSS-in-Javascript 解决方案仍持怀疑态度的话，那此文绝对不容错过。

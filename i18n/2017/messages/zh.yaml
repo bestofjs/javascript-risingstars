@@ -8,7 +8,7 @@ header:
   title: "2017年 JavaScript 明星项目"
 introduction:
   table_of_contents: "目录"
-  explanation: "下列图表对比了各个项目在 Github 上于过去12个月新增的 star 数量。分析的数据来源 {link} 网站 ，这是一个精选 WEB 领域优秀项目的网站。请注意，点击项目可以看到更多信息。"
+  explanation: "下列图表对比了各个项目在 Github 上于过去12个月新增的 star 数量。分析的数据来源 {link} 网站 ，这是一个精选 WEB 领域优秀项目的网站。提醒一下，点击项目可以看到更多信息。"
 conclusion: "年度大事件"
 
 categories:
@@ -57,11 +57,11 @@ categories-share:
   graphql: 'Javascript GraphQL 项目'
 
 social:
-  text: "2017年JavaScript领域回顾"
+  text: "2017年 JavaScript 领域回顾"
 
 newsletter:
   title: "每周收到最新的 JS 排名"
-  signup: "在 {link} 订阅我们的邮件列表，你就能每周收到最新最流行的关于 JavaScript 项目趋势的独家报告。"
+  signup: "在下面注册 {link} 的订阅邮件列表，就能每周收到最新最流行的 JavaScript 项目趋势发展的独家报告哦！"
 view_project:
   twitter:
     text: "在{year}年, {name} 增加了 {delta} stars数量, 在 Github {category} 分类中排名第 {ranking}。 "
