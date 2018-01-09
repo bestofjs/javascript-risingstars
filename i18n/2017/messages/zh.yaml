@@ -9,7 +9,7 @@ header:
 introduction:
   table_of_contents: "目录"
   explanation: "下列图表对比了各个项目在 Github 上于过去12个月新增的 star 数量。分析的数据来源 {link} 网站 ，这是一个精选 WEB 领域优秀项目的网站。提醒一下，点击项目可以看到更多信息。"
-conclusion: "年度大事件"
+conclusion: "总结"
 
 categories:
   all: "最受欢迎项目"
@@ -67,5 +67,5 @@ view_project:
     text: "在{year}年, {name} 增加了 {delta} stars数量, 在 Github {category} 分类中排名第 {ranking}。 "
     action: Tweet
   months: "1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月"
-  created: "创建"
+  created: "创建于"
   homepage: "项目主页"  
