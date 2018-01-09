@@ -2,7 +2,7 @@
 
 概括来讲，前端框架可以分为两大类：
 
-* 大而全的框架，包括创建现代 WEB 应用的所有功能特性，比如路由、数据获取、状态管理，典型项目有：{angular-1}、{angular-2}、{ember} 和 {aurelia}。
+* 大而全的框架，包括创建现代 WEB 应用的所有功能特性，比如路由、数据获取、状态管理，典型项目有：{angular-1}、{angular}、{ember} 和 {aurelia}。
 * 小而美、聚焦在 UI 层面的解决方案，典型项目有 {react}、{vuejs}、{inferno}...
 
 前文中我们已经探讨了排名第 1 的项目 {vuejs}，下面来看看其他竞争者：
@@ -15,13 +15,13 @@
 
 {inferno} 在类 React 项目中是最受欢迎的，它自己则标榜是所有竞争者中性能最快的。
 
-{preact} 也是一个非常不错的选择，它也有不错的生态，比如各种脚手架、路由，甚至还有一个 *compact* 模块让任何能在 React 环境运行的库在 Preact 中运行。
+{preact} 也是一个非常不错的选择，它也有不错的生态，比如各种脚手架、路由，甚至还有一个 _compact_ 模块让任何能在 React 环境运行的库在 Preact 中运行。
 
 #### Angular 1 和 Angular 2
 
 Angular 项目已经被拆分成两个仓库，因为 Angular 2 几乎是 Angular 1 的全面重写，虽然两者在部分概念上是相同的。
 
-{angular-2} 全部用 TypeScript 编写，这样它利用 ES6 语法特性提供了现代的、全面的 WEB 框架。
+{angular} 全部用 TypeScript 编写，这样它利用 ES6 语法特性提供了现代的、全面的 WEB 框架。
 
 {angular-1} (在 Github 上称作 "AngularJS") 目前仍然被大量的项目使用，目测会持续流行一段时间。
 

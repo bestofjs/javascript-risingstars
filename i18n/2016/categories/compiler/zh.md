@@ -4,7 +4,8 @@
 
 #### {typescript}
 
-最具潜力的编译工具可能是 {typescript} 了，它为 JS 带来了类似于 Java 和 C# 的静态类型，而 {angular-2} 完全使用 TypeScript 的事实让他看起来更诱人，当然关于在 JS 使用静态类型的讨论有很多，建议阅读下面这两篇文章来做出自己的决定：
+最具潜力的编译工具可能是 {typescript} 了，它为 JS 带来了类似于 Java 和 C# 的静态类型，而 {angular} 完全使用 TypeScript 的事实让他看起来更诱人，当然关于在 JS 使用静态类型的讨论有很多，建议阅读下面这两篇文章来做出自己的决定：
+
 * [你可能不需要 TypeScript](https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b#.1pn05vlis)
 * [TypeScript 入门手册](https://toddmotto.com/typescript-the-missing-introduction)
 

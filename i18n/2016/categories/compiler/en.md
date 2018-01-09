@@ -6,8 +6,9 @@ For example compilers let developers write code using the latest version of Java
 #### {typescript}
 
 The most trendy transpiler was {typescript}, it brings to web developers the static types used by Java and C# developers.
-The fact that {angular-2} uses TypeScript added even more traction.
+The fact that {angular} uses TypeScript added even more traction.
 There are pros and cons about using types in JavaScript, read these 2 article to make your own point of view:
+
 * [You Might Not Need TypeScript](https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b#.1pn05vlis)
 * [TypeScript: the missing introduction](https://toddmotto.com/typescript-the-missing-introduction)
 

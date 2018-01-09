@@ -2,9 +2,9 @@ The "front-end framework" category has been a battlefield for a while, but it se
 
 ### The Big-3: Vue, React and Angular
 
-Without surprise, the 3 most popular UI frameworks are {vuejs}, {react} and {angular-2}
+Without surprise, the 3 most popular UI frameworks are {vuejs}, {react} and {angular}
 
-It's common to call these _frameworks_ but, to be more accurate, the only framework is {angular-2}, and we should call {vuejs} and {react} _libraries_.
+It's common to call these _frameworks_ but, to be more accurate, the only framework is {angular}, and we should call {vuejs} and {react} _libraries_.
 
 We talked previously about the success of {vuejs} and its integrated approach.
 
@@ -15,9 +15,9 @@ By opposition, the {react} landscape is still fragmented, and developers have to
 * How to bind forms to data.
 * How store the state of the application.
 
-On the contrary, the {angular-2} ecosystem is more controlled, more stable. There is an _Angular Way_ to do things.
+On the contrary, the {angular} ecosystem is more controlled, more stable. There is an _Angular Way_ to do things.
 
-That's probably partly why {angular-2} has a more "corporate" image. And this image has been emphasized with the usage of static types using {typescript}, which resonates with backend developers familiar with types from languages like C# or Java.
+That's probably partly why {angular} has a more "corporate" image. And this image has been emphasized with the usage of static types using {typescript}, which resonates with backend developers familiar with types from languages like C# or Java.
 
 ## Less is more
 

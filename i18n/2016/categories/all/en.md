@@ -2,7 +2,7 @@
 
 By checking the 10 hottest projects of the year, you can get a good overview of what was the web development landscape in 2016, since you will find:
 
-* 3 UI frameworks: {vuejs}, {react} and {angular-2}
+* 3 UI frameworks: {vuejs}, {react} and {angular}
 * A new node.js package manager: {yarn}
 * The leading solution to build desktop applications: {electron}
 * A solution to quicky start a new React project {create-react-app}

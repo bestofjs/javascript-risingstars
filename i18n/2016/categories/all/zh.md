@@ -2,7 +2,7 @@
 
 仔细观察 2016 年排名前 10 的项目，你就能对 WEB 社区的演化方向有个直观的把握，概括如下：
 
-* 3 个 UI 框架：{vuejs}, {react} and {angular-2}
+* 3 个 UI 框架：{vuejs}, {react} and {angular}
 * 1 个新的 Node.js 包管理器：{yarn}
 * 创建桌面应用的首选：{electron}
 * 创建 react 新项目的首选：{create-react-app}
