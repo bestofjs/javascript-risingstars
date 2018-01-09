@@ -68,5 +68,5 @@ view_project:
     text: "In {year}, {name} added {delta} stars, making it the #{ranking} most popular {category} on GitHub"
     action: Tweet
   months: "J F M A M J J A S O N D"
-  created: "Créé"
-  homepage: "Site web"    
+  created: "Created"
+  homepage: "Homepage"    
