@@ -3,9 +3,20 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
   li{
     margin-bottom: $spacing;
+    width: calc((100% - #{$spacing})/2);
+    margin-right: $spacing;
+    &:first-child, &:last-child{
+      width: 100%;
+      margin-right: 0;
+    }
+    &:nth-child(2n+1){
+      margin-right: 0;
+    }
   }
   text-align: center;
 }
@@ -18,7 +29,7 @@
   margin-bottom: $spacing/2;
   border: 1px dashed $border-color;
   padding: $spacing;
-  span{
+  .toc-link-label{
     display: block;
     margin-bottom: $spacing/2;
   }

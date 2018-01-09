@@ -6,9 +6,15 @@ import TranslatedBlock from '../utils/TranslatedBlock'
 import Newsletter from './Newsletter'
 
 const Introduction = ({ entities, url, intl, translations, categories }) => (
-  <div className="container container-section small-container">
+  <div className="introduction-container container container-section">
+    <div className="main-image">
+      <img src="/img/risingstars.png"/>
+    </div>
     <div className="introduction small-card markdown-body card-introduction">
       <div className="introduction-inner">
+      <h1>
+        <FormattedMessage id="header.title" />
+      </h1>
       {false && <Markdown source={md[intl.locale].body} entities={entities} />}
       <TranslatedBlock
         translations={translations}
@@ -36,7 +42,6 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
         </p>
       </small>
       </div>
-      <Newsletter/>
 
     </div>
   </div>

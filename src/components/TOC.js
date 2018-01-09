@@ -2,6 +2,10 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import ProjectAvatar from './ProjectAvatar'
 
+const getMinCount = (count, index) => {
+  return index === 0 ? Math.min(count, 10) : Math.min(count, 5);
+}
+
 const TOC = ({ entities, url, intl, translations, categories, projects }) => (
   <div className="toc nav container container-section small-container">
     <h2 className="toc-header">
@@ -14,12 +18,12 @@ const TOC = ({ entities, url, intl, translations, categories, projects }) => (
         return (
           <li key={item.tag}>
             <a className="toc-link" href={`#section-${item.tag}`}>
-              <span>
+              <span className="toc-link-label">
                 <FormattedMessage id={`categories.${key}`} />
               </span>
               <div className="toc-projects">
                 {projects[item.tag]
-                  .slice(0, Math.min(item.count, 10))
+                  .slice(0, getMinCount(item.count, i))
                   .map(project => (
                     <ProjectAvatar
                       key={project.slug}
@@ -34,7 +38,7 @@ const TOC = ({ entities, url, intl, translations, categories, projects }) => (
         )
       })}
       <li>
-        <a className="toc-link" href={`#conclusion`}>
+        <a className="toc-link toc-link-conclusion" href={`#conclusion`}>
           Conclusion
         </a>
       </li>

@@ -47,9 +47,7 @@ a {
 
 h1 {
   margin: 0;
-  color: white;
-  font-size: 2rem;
-  text-shadow: 0 3px 3px rgba(143, 50, 0, 0.99);
+  font-size: 1.7rem;
 }
 
 @media (min-width: 600px) {
@@ -154,25 +152,14 @@ h1 {
   margin-top: 1.25rem;
 }
 
-// disable for now
-// .main{
-//   display: flex;
-//   margin: 0 $spacing*3;
-//   padding: $spacing 0;
-// }
-// .main-sidebar{
-//   margin-right: $spacing*5;
-//   max-width: 350px;
-// }
-// .main-sidebar-contents{
-//   position: sticky;
-//   top: 0px;
-//   padding: $spacing*2 0;
-// }
-// .main-contents{
-//   flex: 1;
-// }
-
+.main{
+  padding: 0 20px;
+}
+@media (min-width: 800px) {
+  .main{
+    padding: 0;
+  }
+}
 
 .logo{
   display: block;
@@ -181,15 +168,41 @@ h1 {
   margin-bottom: $spacing;
 }
 
-.introduction {
-  margin-top: 2rem;
-  border: 1px solid $border-color;
+
+.main-image{
+  margin: 0 0 $spacing*2 0;
+  img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
-.introduction-inner{
-  padding: 2rem;
+.introduction-container{
+  margin: $spacing*2 0;
 }
+
+@media (min-width: 800px) {
+  .main-image{
+    margin: 0 $spacing*4 0 0;
+    width: calc((100% - #{$spacing*4})/2);
+    img{
+      margin-right: $spacing*2;
+    }
+  }
+  
+  .introduction{
+    width: calc((100% - #{$spacing*4})/2);
+  }
+  
+  .introduction-container{
+    @include flex-center;
+    margin: $spacing*4 auto;
+  }
+}
+
 .conclusion {
   margin: 2rem 0;
   padding: 2rem;
   border: 1px solid $border-color;
 }
+

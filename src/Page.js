@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
+import Newsletter from './components/Newsletter'
 import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
 import Category from './components/Category'
@@ -56,13 +57,6 @@ class Page extends React.Component {
           year={year}
           availableLanguages={languages}
         />
-        <div id="picture-block">
-          <div className="container">
-            <h1>
-              <FormattedMessage id="header.title" />
-            </h1>
-          </div>
-        </div>
         {false && (
           <ProjectIconWall
             projects={projects.all}
@@ -79,6 +73,7 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
+            <Newsletter/>
             <TOC
               projects={projects}
               entities={entities}

@@ -2,7 +2,7 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
 const Newsletter = () => (
-  <div className="newsletter">
+  <div className="newsletter container container-section small-container markdown-body">
     <h3>
       <FormattedMessage
         id="newsletter.title"
