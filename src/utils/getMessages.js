@@ -7,7 +7,6 @@ export default function getMessages({ language, year }) {
   const yearMessages = allMessages[`year${year}`][language]
   const commonMessages = allMessages.common[language]
   const messages = Object.assign({}, yearMessages, { common: commonMessages })
-  console.info('All messages', messages)
   if (Object.keys(messages).length === 0) return {}
   return flatten(messages)
 }
