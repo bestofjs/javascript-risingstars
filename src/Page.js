@@ -26,7 +26,7 @@ class Page extends React.Component {
       year,
       currentYear,
       categories,
-      languages
+      languages,
     } = this.props
     const locale = intl.locale
     const title = intl.formatMessage({ id: 'page.title' })
@@ -40,13 +40,13 @@ class Page extends React.Component {
             { property: 'og:type', content: 'article' },
             {
               property: 'og:image',
-              content: `/img/${year}/${intl.locale}/rising-stars.png`
-            }
+              content: `/img/${year}/${intl.locale}/rising-stars.png`,
+            },
           ]}
           htmlAttributes={{ lang: intl.locale }}
           bodyAttributes={{ class: `year${year}` }}
         />
-        <link rel="shortcut icon" href="/img/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
           rel="stylesheet"
@@ -73,7 +73,7 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
-            <Newsletter/>
+            <Newsletter />
             <TOC
               projects={projects}
               entities={entities}
