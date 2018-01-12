@@ -1,27 +1,32 @@
-.toc{
-  ul, ol{
+.toc {
+  ul,
+  ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
   }
-  li{
+  li {
     margin-bottom: $spacing;
-    width: calc((100% - #{$spacing})/2);
-    margin-right: $spacing;
-    &:first-child, &:last-child{
-      width: 100%;
-      margin-right: 0;
+    width: 100%;
+    @media (min-width: 600px) {
+      width: calc((100% - #{$spacing})/2);
+      margin-right: $spacing;
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
     }
-    &:nth-child(2n+1){
+    &:first-child,
+    &:last-child {
+      width: 100%;
       margin-right: 0;
     }
   }
   text-align: center;
 }
 
-.toc-link{
+.toc-link {
   display: block;
   white-space: nowrap;
   font-size: $larger-font;
@@ -29,27 +34,27 @@
   margin-bottom: $spacing/2;
   border: 1px dashed $border-color;
   padding: $spacing;
-  .toc-link-label{
+  .toc-link-label {
     display: block;
     margin-bottom: $spacing/2;
   }
-  &:hover{
+  &:hover {
     background: rgba(255, 255, 255, 0.5);
-    img{
+    img {
       filter: none;
       opacity: 1;
     }
   }
 }
 
-.toc-projects{
+.toc-projects {
   @include flex-center;
-  img{
+  img {
     display: block;
     margin-right: 5px;
     filter: grayscale(100%);
     opacity: 0.7;
-    &:last-child{
+    &:last-child {
       margin: 0;
     }
   }
