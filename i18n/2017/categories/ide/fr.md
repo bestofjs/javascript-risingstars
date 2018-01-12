@@ -1,6 +1,6 @@
 Nous parlons ici des éditeurs de texte issues de projets open-source et utilisant des technologies web (désolé pour les utilisateurs de Sublime !).
 
-{vs-code}, créé par MicroSoft et {atom}, créé par GitHub, sont 2 applications construites à partir d'{electron} une plateforme très populaire pour le développement d'applications _desktop_ pour Windows aussi bien que pour MacOS.
+{vs-code}, créé par Microsoft et {atom}, créé par GitHub, sont 2 applications construites à partir d'{electron} une plateforme très populaire pour le développement d'applications _desktop_ pour Windows aussi bien que pour MacOS.
 
 Les 2 projets étaient au coude-à-coude en 2016 mais {vs-code} a pris un avantage déterminant en 2017.
 

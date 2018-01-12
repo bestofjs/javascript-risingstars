@@ -9,6 +9,6 @@ One of the hottest questions that divide developers is: types or not types?
 
 JavaScript has basic dynamic types but not static types. A lot of developers feel like they need types in their code, especially in big code base, to make it more robust and easier to read/understand.
 
-And then, if you think you need types, the 2 main contenders are: {typescript}, provided by MicroSoft and {flow}, provided by Facebook (and used on their main projects: {react}, {react-native}, {jest}...)
+And then, if you think you need types, the 2 main contenders are: {typescript}, provided by Microsoft and {flow}, provided by Facebook (and used on their main projects: {react}, {react-native}, {jest}...)
 
 Read this article from [James Kyle](https://github.com/thejameskyle) to understand the difference: [A Comparison Between Adopting Flow or TypeScript](https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51)
