@@ -18,4 +18,4 @@ From the [React blog](https://reactjs.org/blog/2017/12/15/improving-the-reposito
 
 > Rollup is a perfect fit for libraries like React that can be pre-built and then integrated into apps.
 
-{poi} has the same goal as {parcel}: a build tool for modern web applications, but its scope is limited to {react}, {preact} and {vuejs} projects.
+{poi} has the same goal as {parcel}: a build tool for modern web applications and libraries, it's zero-config by default but gives you the ability to extend via presets.
