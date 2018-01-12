@@ -41,7 +41,7 @@ const team = [
     ),
     role: 'translation',
     language: 'zh',
-    years: [2016]
+    years: [2016, 2017]
   },
   {
     name: 'Frank Xu',
