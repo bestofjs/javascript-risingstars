@@ -13,4 +13,4 @@ It has a strong community and [React official web site](https://reactjs.org) its
 {react-static} is the newcomer in this category.
 It aims to be a lighter alternative to {gatsby}, with a focus on performance and simplicity, inspired by {create-react-app} project.
 
-It's worth to mention that {nextjs} can also be used as Static Site Generator.
+It's worth to mention that both {nextjs} and {nuxt} projects can also be used as Static Site Generator.
