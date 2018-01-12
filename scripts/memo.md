@@ -132,4 +132,4 @@ The biggest difference lies in state management. Angular comes with data-binding
 
 ## Major
 
-Some other major companies also play a big role, including MicroSoft with both {typescript} and {vs-code} projects, 2 projects that led their category in 2017.
+Some other major companies also play a big role, including Microsoft with both {typescript} and {vs-code} projects, 2 projects that led their category in 2017.

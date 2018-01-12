@@ -7,7 +7,7 @@ On peut avoir besoin d'un tel compilateuur pour 2 raisons:
 
 Le langage JavaScript ne propose que des types "dynamiques", cette flexibilité peut poser problème, en particulier dans le cadre de gros projets.
 
-Dans le but d'offrir aux développeurs web le confort et la sécurité des "types statiques", 2 concurrents s'opposent farouchement: {typescript}, créé par MicroSoft et {flow}, créé par Facebook, et utilisé en interne par Facebook sur de nombreux projets.
+Dans le but d'offrir aux développeurs web le confort et la sécurité des "types statiques", 2 concurrents s'opposent farouchement: {typescript}, créé par Microsoft et {flow}, créé par Facebook, et utilisé en interne par Facebook sur de nombreux projets.
 
 {typescript}, largement en tête en 2016, conserve l'avantage sur son rival en 2017.
 De nombreux projets utilisent {typescript}, à commencer par {angular} et l'intégration facile avec l'éditeur de texte {vs-code} joue en sa faveur.
