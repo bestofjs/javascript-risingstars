@@ -9,7 +9,7 @@ const ProjectBlurb = ({ project, index, tagKey, year, intl }) => {
   const category = intl.formatMessage({ id: `categories-share.${tagKey}` })
   const values = {
     year: year,
-    name: `@${twitter}` || `#${slug}`,
+    name: `@${twitter || slug}`,
     ranking: index,
     delta: formatDelta(project.delta, 1),
     category
