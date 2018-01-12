@@ -14,6 +14,7 @@ Available in English, Japanese, Chinese and French.
 * [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 * [Frank Xu](https://github.com/frankyxhl)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
+* [王仕军](https://github.com/wangshijun)
 
 ## How to contribute?
 

@@ -6,10 +6,10 @@
 
 * 想为语言添加新的特性……比如“类型检查”。
 
-有一个很热门的问题可以用来区分程序员： 你是用类型的，还是不用类型的？
+有一个很热门的问题可以用来区分程序员：你是用类型的，还是不用类型的？
 
 JavaScript 本身带有基本的动态类型，但缺乏静态类型。而很多开发者喜欢在代码中使用类型，尤其在大型项目中，这样可以让代码变得更为健壮且易于阅读和理解。
 
-如果你需要类型，有两个主流可选项：微软的 {typescript} 和 Facebook 的 {flow} （Facebook 在自己的主要项目 {react} ,  {react-native} ,  {jest} ...中有使用)
+如果你需要类型，有两个主流可选项：微软的 {typescript} 和 Facebook 的 {flow}（Facebook 在自己的主要项目 {react}, {react-native}, {jest} 中都有使用)
 
-你可以从[ James Kyle ](https://github.com/thejameskyle)的文章来感受两者的区别: [ A Comparison Between Adopting Flow or TypeScript ](https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51)
+你可以从 [James Kyle](https://github.com/thejameskyle) 的文章来感受两者的区别: [A Comparison Between Adopting Flow or TypeScript](https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51)。
