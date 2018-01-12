@@ -1,6 +1,6 @@
-Les "compileurs" de cette catégorie sont des outils qui transforment du code écrit dans un langage donné en code JavaScript standard, capable de s'exécuter dans un navigateur Web.
+Les "compilateurs" de cette catégorie sont des outils qui transforment du code dans un langage donné en code JavaScript standard, capable de s'exécuter dans n'importe quel navigateur Web, ou tout environnement supportant JavaScript.
 
-On peut avoir besoin d'un tel compileur pour 2 raisons:
+On peut avoir besoin d'un tel compilateuur pour 2 raisons:
 
 * Pour profiter des dernières avancées du langage JavaScript (spécifications ES6 et ES7) tout en produisant du code compatible avec la majorité des navigateurs web. C'est ce qui fait le succès de {babel}, utilisé par un très grand nombre de projets Web.
 * Pour ajouter de nouvelles fonctionnalités au langage, en particulier les "types statiques" qui existent dans des langages institutionnels tels que Java ou C#.

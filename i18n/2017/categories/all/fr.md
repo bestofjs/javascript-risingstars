@@ -14,4 +14,4 @@ Mais quelles sont les raisons du succès de ce framework "côté client" ?
 * Inclus par défaut dans l'un des frameworks PHP les plus populaires [Laravel](https://laravel.com/)
 * Ce n'est pas le produit d'un géant de l'internet tel que Facebook ou Google, mais c'est un projet maintenu par [Evan You](https://github.com/yyx990803), avec une forte communauté "open source", en particulier du côté de la Chine.
 
-Vue est utilisé par la plus grande plateforme de commerce électronique en Chine (Alibaba) mais aussi par des sociétés telles que Adobe or GitLab.
+Vue est utilisé par la plus grande plateforme de commerce électronique en Chine (Alibaba) mais aussi par des sociétés telles que Adobe ou GitLab.

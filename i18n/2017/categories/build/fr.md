@@ -4,7 +4,7 @@ La plus grosse surprise de l'année est l'arrivée de {parcel} qui détrône {we
 
 Lancé en août 2017, {parcel} a connu un départ fulgurant avec 14 000 étoiles ajoutées sur GitHub en l'espace de quelques mois.
 
-Alors que {webpack} est basé sur tout un éco-système d'extensions appelées _loaders_, parcel promet un usage extrêmement simple, sans aucune configuration nécessaire.
+Alors que {webpack} est basé sur tout un éco-système d'extensions appelées _loaders_, {parcel} promet un usage extrêmement simple, sans aucune configuration nécessaire.
 
 Ne faisons pas dire à ces chiffres ce qu'ils ne disent pas, {webpack} reste extrêmement populaire et est inclus par de nombreux autres projets, en particulier {gatsby} et {create-react-app}.
 
