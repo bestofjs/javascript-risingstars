@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import svg from './bestofjs.svg'
+import octocat from './octocat.svg'
 
 const Header = ({ language, year, availableLanguages }) => {
   return (
@@ -23,6 +24,12 @@ const Header = ({ language, year, availableLanguages }) => {
           </div>
         </div>
       </div>
+      <a
+        href="https://github.com/bestofjs/javascript-risingstars"
+        id="github-corner"
+      >
+        <img src={octocat} width={60} height={60} />
+      </a>
     </div>
   )
 }
