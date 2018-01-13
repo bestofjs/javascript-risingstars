@@ -28,7 +28,7 @@
   flex-grow: 1;
   display: none;
   /* Make the logo smaller on small screens */
-  @media (min-width: 400px) {
+  @media (min-width: 500px) {
     display: block;
     width: 120px;
   }
@@ -44,12 +44,18 @@
   height: 100%;
   display: flex;
   align-items: center;
+  color: $linkColor;
+  &:hover {
+    color: $activeLinkColor;
+  }
   &.is-active {
-    background-color: #cc4700;
-    color: white;
+    color: $activeLinkColor;
+    border-bottom: 2px solid $activeLinkColor;
+    margin-bottom: -2px;
   }
 }
 
+// GitHub corner at the upper right corner, only on big screens
 #github-corner {
   display: none;
   position: absolute;

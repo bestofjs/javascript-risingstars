@@ -5,6 +5,7 @@ import __intlEN from 'react-intl/locale-data/en'
 import __intlZH from 'react-intl/locale-data/zh'
 import __intlJA from 'react-intl/locale-data/ja'
 import __intlFR from 'react-intl/locale-data/fr'
+import __intlES from 'react-intl/locale-data/es'
 
 import Page from './Page'
 import getMessages from './utils/getMessages'
@@ -19,6 +20,7 @@ addLocaleData(__intlEN)
 addLocaleData(__intlZH)
 addLocaleData(__intlJA)
 addLocaleData(__intlFR)
+addLocaleData(__intlES)
 
 const getSettings = year =>
   allSettings.find(pageSettings => pageSettings.year === year)
