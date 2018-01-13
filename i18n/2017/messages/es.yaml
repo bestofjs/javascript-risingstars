@@ -1,60 +1,60 @@
 # Meta data
 page:
-  title: "2017 JavaScript Rising Stars"
-  description: "A complete overview of the JavaScript landscape in 2017: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
+  title: "Los mejores proyectos JavaScript del 2017"
+  description: "Un completo análisis del universo JavaScript en 2017: tendencias en front-end y frameworks node.js, herramientas, IDE, Generadores de páginas estáticas..."
 
 # Page content
 header:
-  title: "2017 JavaScript Rising Stars"
+  title: "Los mejores proyectos JavaScript del 2017"
 introduction:
-  table_of_contents: "Table of Contents"
-  explanation: "The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform. Note that you can click on a project to get more info."
-conclusion: "Conclusion"
+  table_of_contents: "Categorías"
+  explanation: "Los siguientes gráficos comparan el número de estrellas añadidos en GitHub durante los últimos 12 meses. Hemos analizado los proyectos procedentes de {link}, una lista de los mejores proyectos relacionados con plataformas web cuidadosamente seleccionados. Si lo desea, puede hacer click en cualquier proyecto para conseguir más información."
+conclusion: "Conclusión"
 
 categories:
-  all: "Most Popular Projects Overall"
-  framework: 'Front-end Frameworks'
-  nodejsframework: 'Node.js Frameworks'
-  react: 'React Ecosystem'
-  vue: 'Vue Ecosystem'
-  mobile: 'Mobile'
-  compiler: 'Compilers'
-  build: 'Build Tools'
-  testframework: 'Testing Frameworks'
-  ide: 'IDEs & Editors'
-  ssg: 'Static Sites'
-  cssinjs: 'CSS in JavaScript'
+  all: "Proyectos más populares del 2017"
+  framework: 'Frameworks Front-end'
+  nodejsframework: 'Frameworks Node.js'
+  react: 'Ecosistema React'
+  vue: 'Ecosistema Vue'
+  mobile: 'Móvil'
+  compiler: 'Compiladores JavaScript'
+  build: 'Herramientas para Build'
+  testframework: 'Frameworks para Testing'
+  ide: 'Editores'
+  ssg: 'Generadores de páginas estáticas'
+  cssinjs: 'CSS en JavaScript'
   graphql: 'GraphQL'
 
 categories-short:
-  all: "Overall"
+  all: "General"
   framework: 'Front-end'
   nodejsframework: 'Node.js'
   react: 'React'
   vue: 'Vue'
-  mobile: 'Mobile'
-  compiler: 'Compilers'
-  build: 'Build Tools'
+  mobile: 'Móvil'
+  compiler: 'Compilador JS'
+  build: 'Build'
   testframework: 'Testing'
-  ide: 'Editors'
-  ssg: 'Static Sites'
-  cssinjs: 'CSS-in-JS'
+  ide: 'Editores'
+  ssg: 'SSG'
+  cssinjs: 'CSS-en-JS'
   graphql: 'GraphQL'
 
 categories-share:
-  all: "JavaScript project"
-  framework: 'front-end framework'
-  nodejsframework: 'Node project'
-  react: 'React library'
-  vue: 'Vue library'
-  mobile: 'mobile framework'
-  compiler: 'JavaScript compiler'
-  build: 'build tool'
-  testframework: 'JavaScript testing framework'
-  ide: 'IDE'
-  ssg: 'JavaScript static site generator'
-  cssinjs: 'CSS-in-JS library'
-  graphql: 'JavaScript GraphQL project'
+  all: "Proyecto JavaScript"
+  framework: 'Framework front-end'
+  nodejsframework: 'Proyecto Node'
+  react: 'Librería React'
+  vue: 'Librería Vue'
+  mobile: 'Framework móvil'
+  compiler: 'Compilador JavaScript'
+  build: 'Herramienta para Build'
+  testframework: 'Framework para Testing'
+  ide: 'Editor'
+  ssg: 'Generadores de páginas estáticas'
+  cssinjs: 'Librería CSS-en-JS'
+  graphql: 'Proyecto GraphQL JavaScript'
 
 social:
-  text: "Check the JavaScript landscape in 2017"
+  text: "Echa una vistazo al universo JavaScript del 2017"
