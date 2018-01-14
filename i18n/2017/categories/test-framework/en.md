@@ -14,4 +14,4 @@ Jest shines because of several points:
 
 It has been created by [Sindre Sorhus](https://github.com/sindresorhus) who uses it on all his projects... and that means a lot of great projects!
 
-Compared to Jest, it emphasizes on speed by running tests in parallel, it has a smaller footprint and is closer to testing standards, with a syntax close to test frameworks like {tape}.
+It emphasizes on speed by running tests in parallel, it has a smaller footprint and is closer to testing standards, with a syntax close to test frameworks like {tape}.

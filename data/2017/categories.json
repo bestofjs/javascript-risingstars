@@ -1,6 +1,6 @@
 [
   {
-    "tag": "all",
+    "key": "all",
     "excluded": [
       "awesome",
       "you-dont-know-js",
@@ -12,54 +12,55 @@
     "count": 25
   },
   {
-    "tag": "framework",
+    "key": "framework",
     "count": 10
   },
   {
-    "tag": "nodejs-framework",
+    "key": "nodejs-framework",
     "count": 10
   },
   {
-    "tag": "react",
-    "count": 10,
-    "excluded": ["react"]
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 15,
+    "excluded": ["react", "react-native"]
   },
   {
-    "tag": "vue",
+    "key": "vue",
     "count": 10,
     "excluded": ["vuejs", "storybook"]
   },
   {
-    "tag": "mobile",
+    "key": "mobile",
     "excluded": ["mint-ui", "nativebase"],
     "count": 5
   },
   {
-    "tag": "compiler",
+    "key": "compiler",
     "count": 7
   },
   {
-    "tag": "build",
+    "key": "build",
     "count": 7
   },
   {
-    "tag": "test-framework",
+    "key": "test-framework",
     "count": 5
   },
   {
-    "tag": "ide",
+    "key": "ide",
     "count": 5
   },
   {
-    "tag": "css-in-js",
+    "key": "css-in-js",
     "count": 10
   },
   {
-    "tag": "ssg",
+    "key": "ssg",
     "count": 5
   },
   {
-    "tag": "graphql",
+    "key": "graphql",
     "count": 10
   }
 ]

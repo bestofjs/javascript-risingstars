@@ -1,4 +1,4 @@
-The {react} library being only the view layer, it creates space for a whole ecosystem that is moving very fast.
+The {react} library being only the view layer, it creates space for a whole ecosystem that is moving very fast. In this category, we included projects built on top of {react} and {react-native} libraries.
 
 In 2016 {create-react-app} solved the problem of how to start coding a React application by providing a nice set of presets, very well packaged. Facebook keeps releasing new versions very often and it was by far the most popular project in 2017 among the React ecosystem.
 
@@ -8,4 +8,4 @@ But even if {create-react-app} is often considered as the default "starter kit" 
 
 {ant-design}, {ant-design-pro} and {material-ui} are sets of styled React components to help developers create web application with React components, without worrying about the styling.
 
-At position number 10, {recompose}'s popularity denotes one of the features seasoned developers love about React: its "functional" approach, everything is just a function and {recompose} provides a full set of helpers to go further in this direction.
+{recompose}'s popularity denotes one of the features seasoned developers love about React: its "functional" approach, everything is just a function and {recompose} provides a full set of helpers to go further in this direction.

@@ -1,4 +1,4 @@
-The "front-end framework" category has been a battlefield for a while, but it seems that things are finally calming down, with 3 big players dominating the game.
+The "front-end framework" category has been a battlefield for a while, but it seems that things are finally calming down, as we can see clearly 3 big players dominating the game.
 
 ### The Big-3: Vue, React and Angular
 

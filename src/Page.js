@@ -26,7 +26,7 @@ class Page extends React.Component {
       year,
       currentYear,
       categories,
-      languages,
+      languages
     } = this.props
     const locale = intl.locale
     const title = intl.formatMessage({ id: 'page.title' })
@@ -40,8 +40,8 @@ class Page extends React.Component {
             { property: 'og:type', content: 'article' },
             {
               property: 'og:image',
-              content: `/img/${year}/${intl.locale}/rising-stars.png`,
-            },
+              content: `/img/${year}/${intl.locale}/rising-stars.png`
+            }
           ]}
           htmlAttributes={{ lang: intl.locale }}
           bodyAttributes={{ class: `year${year}` }}
@@ -84,8 +84,8 @@ class Page extends React.Component {
             />
             {categories.map((item, i) => (
               <Category
-                key={item.tag}
-                tag={item.tag}
+                key={item.key}
+                tag={item.key}
                 number={i + 1}
                 title={item.title}
                 excluded={item.excluded}
