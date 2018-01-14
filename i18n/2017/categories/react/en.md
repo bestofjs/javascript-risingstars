@@ -6,6 +6,6 @@ As an example of its success, we could mention [StackBlitz](https://stackblitz.c
 
 But even if {create-react-app} is often considered as the default "starter kit" for React, developers may need more opinionated starter kits: {react-boilerplate} was the most popular project in this category, providing a lot of feature like the GraphQL integration.
 
-{ant-design}, {ant-design-pro} and {material-ui} are sets of styled React components to help developers create web application with React components, without worrying about the styling.
+{ant-design}, {ant-design-pro} and {material-ui} are sets of styled React components to help developers create a web application with React components, without worrying about the styling.
 
 {recompose}'s popularity denotes one of the features seasoned developers love about React: its "functional" approach, everything is just a function and {recompose} provides a full set of helpers to go further in this direction.
