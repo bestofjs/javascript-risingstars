@@ -37,7 +37,7 @@ Its success may be related to Vue.js too, because a lot of Vue.js tutorials use 
 ### Puppeteer
 
 {puppeteer} is one of the great stories of the year.
-Made by the Google Chrome team, it's a headless Chrome browser, that is to say a browser that runs in the background and that can be by piloted by code.
+Made by the Google Chrome team, it's a headless Chrome browser, that is to say a browser that runs in the background and that can be piloted by code.
 
 It can be used to do things like:
 
