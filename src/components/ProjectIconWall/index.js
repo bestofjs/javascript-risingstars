@@ -29,6 +29,11 @@ const Wall = ({ projects, lang = 'ja', year }) => {
       <span>
         2017年<br />JavaScript<br />明星项目
       </span>
+    ),
+    es: (
+      <span>
+        Lo mejor<br />de JavaScript<br />en 2017
+      </span>
     )
   }
   const title = titles[lang] || titles['en']

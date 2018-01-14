@@ -19,6 +19,9 @@
 [lang='fr'] #wall .text {
   font-size: 3rem;
 }
+[lang='es'] #wall .text {
+  font-size: 3rem;
+}
 .icon-wall-grid {
   display: flex;
   height: 280px;
