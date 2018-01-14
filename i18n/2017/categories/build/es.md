@@ -1,14 +1,14 @@
-Es probablemente una de las mayores sorpresas del año, la herramienta de building más popular es {parcel}, un nuevo proyecto que ha reunido 14,000 estrellas desde que fue lanzado en GitHub el pasado Agosto.
+Es probablemente una de las mayores sorpresas del año, la herramienta de building más popular es {parcel}, un nuevo proyecto que ha reunido 14.000 estrellas desde que fue lanzado en GitHub el pasado agosto.
 
 {parcel} ofrece todo tipo de herramientas para el desarrollo web actual y una característica clave: ¡configuración cero!
 
-Esta es la mayor diferencia con {webpack}, que depende todo un ecosistema de plugins llamados "loaders".
+Esta es la mayor diferencia con {webpack}, que depende de todo un ecosistema de plugins llamados "loaders".
 
-Pero no malinterpretemos los números, {webpack} continua siento el bundler más popular para aplicaciones modernas, con un total de 35,000 estrellas en GitHub y más de 500 colaboradores.   
+Pero no malinterpretemos los números, {webpack} continúa siento el bundler más popular para aplicaciones modernas, con un total de 35.000 estrellas en GitHub y más de 500 colaboradores.   
 
 Muchos proyectos lo usan por debajo, incluyendo {create-react-app} y {gatsby}, 2 de los proyectos más populares del año.
 
-{webpack} continua evolucionando, la versión 2 permite implementar fácilmente funcionalidades tales como "code splitting", mediante imports dinámicos.   
+{webpack} continúa evolucionando, la versión 2 permite implementar fácilmente funcionalidades tales como "code splitting", mediante imports dinámicos.   
 
 Mientras {webpack} y {parcel} se centran en el proceso de build de **aplicaciones** web, {rollup} lo hace en **librerías**, enfocándose en el rendimiento y aprovechándose de los módulos ES6.
 

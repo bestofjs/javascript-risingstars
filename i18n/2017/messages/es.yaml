@@ -8,7 +8,7 @@ header:
   title: "Los mejores proyectos JavaScript del 2017"
 introduction:
   table_of_contents: "Categorías"
-  explanation: "Los siguientes gráficos comparan el número de estrellas añadidas en GitHub durante los últimos 12 meses. Hemos analizado proyectos procedentes de {link}, una lista de los proyectos más destacados del mundo web cuidadosamente seleccionados. Si lo desea, puede hacer click en cualquier proyecto para conseguir más información."
+  explanation: "Los siguientes gráficos comparan el número de estrellas añadidas en GitHub durante los últimos 12 meses. Hemos analizado proyectos procedentes de {link}, una lista de los proyectos más destacados del mundo web cuidadosamente seleccionados. Si lo deseas, puedes hacer click en cualquier proyecto para conseguir más información."
 conclusion: "Conclusión"
 
 categories:

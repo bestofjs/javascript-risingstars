@@ -8,4 +8,4 @@ Pero aunque {create-react-app} es normalmente considerado el "starter kit" por e
 
 {ant-design}, {ant-design-pro} y {material-ui} proporcionan un conjunto de componentes React con estilo predeterminado, ayudando a crear aplicaciones web React sin centrarnos en el estilo.
 
-En el puesto número 10 encontramos a {recompose}, su popularidad es resultado de la pasión de muchos desarrolladores por el enfoque "funcional" de React, esta librería proporciona un conjunto de herramientas para ir en esta dirección, como dicen en su web: "Think of it like lodash for React" ("consideralo el lodash para React").
+En el puesto número 10 encontramos a {recompose}, su popularidad es resultado de la pasión de muchos desarrolladores por el enfoque "funcional" de React, esta librería proporciona un conjunto de herramientas para ir en esta dirección, como dicen en su web: *"Think of it like lodash for React"* ("consideralo el lodash para React").

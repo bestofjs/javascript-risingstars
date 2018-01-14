@@ -9,4 +9,4 @@ Es respaldado por una gran comunidad e incluso la propia [página oficial de Rea
 
 {react-static} es un recién llegado en esta categoría, que pretende ser una alternativa más ligera a {gatsby}, centrándose en rendimiento y simplicidad, inspirado por {create-react-app}.
 
-Merece la pena mencionar que tanto {nextjs} como {nuxt} también puede ser usados SSG.
+Merece la pena mencionar que tanto {nextjs} como {nuxt} también pueden ser usados como SSG.
