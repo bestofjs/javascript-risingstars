@@ -10,8 +10,6 @@ Jest destaca en los siguiente puntos:
 * No necesita de ninguna otra librería, contiene todo lo necesario para realizar tus tests.
 * Implementa un modo "snapshot" que registra automáticamente la respuesta esperada para futuros tests.
 
-{ava}, el número 1 del año pasado, continua siendo muy popular.
-
-Creado por [Sindre Sorhus](https://github.com/sindresorhus) y usado por el mismo en todos sus extraordinarios proyectos.
+{ava}, el número 1 del año pasado, continúa siendo muy popular. Creado por [Sindre Sorhus](https://github.com/sindresorhus) y usado por él mismo en todos sus extraordinarios proyectos.
 
 Comparándolo con Jest, este se centra en la velocidad con la que se ejecutan los tests (haciéndolo en paralelo). Es más ligero y cercano a los estándares, con una sintaxis semejante a la de frameworks como {tape}.

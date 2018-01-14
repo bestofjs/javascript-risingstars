@@ -6,4 +6,4 @@ Con la creciente popularidad de Vue, muchos de los proyectos que componen su eco
 
 {nuxt} es un framework construido sobre Vue que facilita la creación de aplicaciones con server-rendering. Además es muy versátil, permitiendo reusar el mismo código tanto para crear una SPA como para un sitio estático.
 
-{weex} es un framework que permite al usuario crear aplicaciones móviles nativas usando sintaxis y API similar a la de Vue. Ha sido desarrollado por Alibaba y usado en producción en algunas de las aplicaciones móviles con más tráfico a nivel mundial, poniendo mucha atención en el rendimiento.
+{weex} es un framework que permite al usuario crear aplicaciones móviles nativas, usando sintaxis y API similares a la de Vue. Ha sido desarrollado por Alibaba y usado en producción en algunas de las aplicaciones móviles con más tráfico a nivel mundial, poniendo mucha atención en el rendimiento.

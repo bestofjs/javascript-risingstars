@@ -1,14 +1,14 @@
-No hay consenso sobre cual es la mejor manera para dar estilo a nuestros componentes de React.
+No hay consenso sobre cuál es la mejor manera para dar estilo a nuestros componentes de React.
 
 Puedes disponer de componentes predefinidos usando {material-ui} o {ant-design} si no necesitas mucha personalización.
 
-Si quieres tener mayor flexibilidad, puedes hacerlo a la "vieja usanza", usando estilos CSS globales con {bootstrap} or {bulma} y asignando `className`s a tus componentes. Pero de este modo tus componentes no estarán completamente encapsulados, teniendo el estilo controlado externamente.
+Si quieres tener mayor flexibilidad, puedes hacerlo a la vieja usanza, usando estilos CSS globales con {bootstrap} or {bulma} y asignando `className` a tus componentes, pero de este modo no estarán completamente encapsulados, teniendo el estilo controlado externamente.
 
 Para abordar esta cuestión, ha aparecido el concepto "CSS dentro de JavaScript".
 
 La idea es sencilla: con React manejamos tanto la lógica como la plantilla del componente usando JavaScript. ¿Por qué no ir un poco más allá y encapsular los estilos dentro de nuestros componentes usando JavaScript?
 
-{styled-components} ha sido de lejos el proyecto más popular del año en esta categoría. Permite incluir CSS dentro de nuestros componentes React usando: *tagged template literals*, una funcionalidad añadida recientemente a JavaScript.
+{styled-components} ha sido de lejos el proyecto más popular del año en esta categoría. Permite incluir CSS dentro de nuestros componentes React usando *tagged template literals*, una funcionalidad añadida recientemente a JavaScript.
 
 {css-modules}, número 2 en esta categoría, adopta un enfoque híbrido. Permite a los desarrolladores escribir en una gama de lenguajes a su elección (CSS, Sass, {less}, {stylus}), usando ficheros ubicados junto a los componentes relacionados e importados en estos.
 

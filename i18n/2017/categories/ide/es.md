@@ -12,4 +12,4 @@ Por defecto, sin necesidad de instalar nada adicionalmente, contiene un gran rep
 * Funciones de autocompletado: Sintaxis JavaScript, rutas de ficheros al usar `require` o `import`, nombre de paquetes NPM...
 * Sintaxis de React
 
-Y si además añadimos {prettier} a la formula, invitando al editor a formatear nuestros ficheros cada vez que guardemos, tendremos la perfecta combinación para disfrutar del ¡máximo confort!
+Y si además añadimos {prettier} a la fórmula, invitando al editor a formatear nuestros ficheros cada vez que guardemos, tendremos la perfecta combinación para disfrutar del ¡máximo confort!
