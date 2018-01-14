@@ -29,13 +29,12 @@ h6 {
 }
 
 a {
-  color: #cc4700;
+  color: $linkColor;
   text-decoration: none;
+  &:hover {
+    color: $activeLinkColor;
+  }
 }
-// a[:not(.resp-sharing-button__link)]:hover {
-//   text-decoration: underline;
-//   color: #e65000;
-// }
 
 .container {
   margin: 0 auto;
@@ -98,7 +97,7 @@ h1 {
   align-items: center;
   @include secondary-font;
 }
-.resp-sharing-button{
+.resp-sharing-button {
   font-size: $medium-font;
 }
 .share-buttons > div {
@@ -152,49 +151,48 @@ h1 {
   margin-top: 1.25rem;
 }
 
-.main{
+.main {
   padding: 0 20px;
 }
 @media (min-width: 800px) {
-  .main{
+  .main {
     padding: 0;
   }
 }
 
-.logo{
+.logo {
   display: block;
   width: 100%;
   max-width: 10px;
   margin-bottom: $spacing;
 }
 
-
-.main-image{
+.main-image {
   margin: 0 0 $spacing*2 0;
-  img{
+  img {
     display: block;
     width: 100%;
     margin: 0 auto;
   }
 }
-.introduction-container{
+.introduction-container {
   margin: $spacing*2 0;
 }
 
 @media (min-width: 800px) {
-  .main-image{
+  .main-image {
     margin: 0 $spacing*4 0 0;
     width: calc((100% - #{$spacing*4})/2);
-    img{
+    img {
       margin-right: $spacing*2;
     }
   }
-  
-  .introduction{
+
+  .introduction {
     width: calc((100% - #{$spacing*4})/2);
   }
-  
-  .introduction-container{
+
+  .introduction-container {
     @include flex-center;
     margin: $spacing*4 auto;
   }
@@ -205,4 +203,3 @@ h1 {
   padding: 2rem;
   border: 1px solid $border-color;
 }
-

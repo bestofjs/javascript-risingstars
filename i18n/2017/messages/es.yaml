@@ -1,0 +1,60 @@
+# Meta data
+page:
+  title: "Los mejores proyectos JavaScript del 2017"
+  description: "Un completo análisis del universo JavaScript en 2017: tendencias en front-end y frameworks node.js, herramientas, IDE, Generadores de páginas estáticas..."
+
+# Page content
+header:
+  title: "Los mejores proyectos JavaScript del 2017"
+introduction:
+  table_of_contents: "Categorías"
+  explanation: "Los siguientes gráficos comparan el número de estrellas añadidas en GitHub durante los últimos 12 meses. Hemos analizado proyectos procedentes de {link}, una lista de los proyectos más destacados del mundo web cuidadosamente seleccionados. Si lo desea, puede hacer click en cualquier proyecto para conseguir más información."
+conclusion: "Conclusión"
+
+categories:
+  all: "Proyectos más populares del 2017"
+  framework: 'Frameworks Front-end'
+  nodejsframework: 'Frameworks Node.js'
+  react: 'Ecosistema React'
+  vue: 'Ecosistema Vue'
+  mobile: 'Móvil'
+  compiler: 'Compiladores JS'
+  build: 'Build'
+  testframework: 'Testing'
+  ide: 'Editores'
+  ssg: 'SSG'
+  cssinjs: 'CSS en JavaScript'
+  graphql: 'GraphQL'
+
+categories-short:
+  all: "General"
+  framework: 'Front-end'
+  nodejsframework: 'Node.js'
+  react: 'React'
+  vue: 'Vue'
+  mobile: 'Móvil'
+  compiler: 'Compilador JS'
+  build: 'Build'
+  testframework: 'Testing'
+  ide: 'Editores'
+  ssg: 'SSG'
+  cssinjs: 'CSS-en-JS'
+  graphql: 'GraphQL'
+
+categories-share:
+  all: "Proyecto JavaScript"
+  framework: 'Framework front-end'
+  nodejsframework: 'Proyecto Node'
+  react: 'Librería React'
+  vue: 'Librería Vue'
+  mobile: 'Framework móvil'
+  compiler: 'Compilador JavaScript'
+  build: 'Build'
+  testframework: 'Testing'
+  ide: 'Editor'
+  ssg: 'SSG'
+  cssinjs: 'Librería CSS-en-JS'
+  graphql: 'Proyecto GraphQL JavaScript'
+
+social:
+  text: "Echa una vistazo al universo JavaScript del 2017"

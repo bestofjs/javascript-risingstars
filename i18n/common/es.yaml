@@ -1,0 +1,10 @@
+newsletter:
+  title: "Recibe los últimos rankings de JavaScript en tu email cada semana"
+  signup: "Date de alta en la newsletter de {link} y recibirás estadísticas exclusivas sobre los proyectos más populares de JavaScript cada semana."
+view_project:
+  twitter:
+    text: "En {year}, {name} consiguió {delta} estrellas, llegando a alcanzar el puesto #{ranking} en {category} en GitHub"
+    action: Tweet
+  months: "E F M A M J J A S O N D"
+  created: "Creado"
+  homepage: "Home"

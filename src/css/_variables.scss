@@ -1,37 +1,41 @@
 $spacing: 20px;
 
-@mixin flex-center{
+$orange: #cc4700;
+$linkColor: $orange;
+$activeLinkColor: lighten($color: $orange, $amount: 10%);
+
+@mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@mixin border{
+@mixin border {
   border: 1px solid $border-color;
 }
 
-@mixin clearfix{
+@mixin clearfix {
   &:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
 }
 
-@function black($opacity){
+@function black($opacity) {
   @return rgba(0,0,0,$opacity);
 }
 
-@function white($opacity){
+@function white($opacity) {
   @return rgba(255,255,255,$opacity);
 }
 
 @mixin crosshatchBg() {
   position: relative;
   z-index: 5;
-  &:before{
+  &:before {
     z-index: 1;
-    content: " ";
+    content: ' ';
     display: block;
     position: absolute;
     top: 6px;
