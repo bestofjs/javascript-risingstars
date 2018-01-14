@@ -26,21 +26,6 @@ categories:
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
 
-categories-short:
-  all: "Overall"
-  framework: 'Front-end'
-  nodejsframework: 'Node.js'
-  react: 'React'
-  vue: 'Vue'
-  mobile: 'Mobile'
-  compiler: 'Compilers'
-  build: 'Build Tools'
-  testframework: 'Testing'
-  ide: 'Editors'
-  ssg: 'Static Sites'
-  cssinjs: 'CSS-in-JS'
-  graphql: 'GraphQL'
-
 categories-share:
   all: "JavaScript project"
   framework: 'front-end framework'

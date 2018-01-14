@@ -2,7 +2,6 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
 import formatDelta from '../../utils/formatDelta'
-import strings from '../../../i18n/2017/messages/en.yaml'
 
 const ProjectBlurb = ({ project, index, tagKey, year, intl }) => {
   const { slug, twitter, delta, name } = project

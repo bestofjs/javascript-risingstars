@@ -1,6 +1,8 @@
 newsletter:
   title: "Recibe los últimos rankings de JavaScript en tu email cada semana"
-  signup: "Date de alta en la newsletter de {link} y recibirás estadísticas exclusivas sobre los proyectos más populares de JavaScript cada semana."
+  text: "Date de alta en la newsletter de {link} y recibirás estadísticas exclusivas sobre los proyectos más populares de JavaScript cada semana."
+  button: "Sign Up"
+  placeholder: "Your email"  
 view_project:
   twitter:
     text: "En {year}, {name} consiguió {delta} estrellas, llegando a alcanzar el puesto #{ranking} en {category} en GitHub"

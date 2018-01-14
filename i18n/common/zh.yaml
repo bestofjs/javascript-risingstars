@@ -1,6 +1,8 @@
 newsletter:
   title: "每周收到最新的 JS 排名"
-  signup: "在下面注册 {link} 的订阅邮件列表，就能每周收到最新最流行的 JavaScript 项目趋势发展的独家报告哦！"
+  text: "在下面注册 {link} 的订阅邮件列表，就能每周收到最新最流行的 JavaScript 项目趋势发展的独家报告哦！"
+  button: "Sign Up"
+  placeholder: "Your email"  
 view_project:
   twitter:
     text: "在 {year} 年, {name} 增加了 {delta} 个 star, 在 GitHub {category} 分类中排名第 {ranking}。"

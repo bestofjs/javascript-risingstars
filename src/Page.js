@@ -74,7 +74,7 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
-            <Newsletter />
+            <Newsletter intl={intl} />
             <TOC
               projects={projects}
               entities={entities}

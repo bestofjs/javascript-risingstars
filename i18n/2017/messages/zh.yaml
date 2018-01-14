@@ -26,21 +26,6 @@ categories:
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
 
-categories-short:
-  all: "总体回顾"
-  framework: '前端'
-  nodejsframework: 'Node.js'
-  react: 'React'
-  vue: 'Vue'
-  mobile: '移动端'
-  compiler: '编译工具'
-  build: '构建工具'
-  testframework: '测试工具'
-  ide: '编辑器'
-  ssg: '静态网站生成器'
-  cssinjs: 'CSS-in-JS'
-  graphql: 'GraphQL'
-
 categories-share:
   all: "JavaScript 项目"
   framework: '前端框架'
