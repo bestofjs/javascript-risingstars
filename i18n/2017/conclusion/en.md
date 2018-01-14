@@ -4,7 +4,7 @@ We have seen by the numbers that {vuejs} is once again the winner of this year, 
 
 The {react} eco-system keeps growing up, after finally putting its license-related issues behind it.
 
-But if we had to pick one project among the _2017 Rising Stars_ it would be {prettier}. It's so nice to be able to write code without worriyng about formatting!
+But if we had to pick one project among the _2017 Rising Stars_ it would be {prettier}. It's so nice to be able to write code without worrying about formatting!
 
 And for another point view on the latest trends, be sure to also check out the [State of JavaScript 2017 survey](https://stateofjs.com/), where we collected and analyzed responses from more than 23,000 developers.
 

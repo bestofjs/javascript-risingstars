@@ -39,7 +39,7 @@ const TOC = ({ entities, url, intl, translations, categories, projects }) => (
       })}
       <li>
         <a className="toc-link toc-link-conclusion" href={`#conclusion`}>
-          Conclusion
+          <FormattedMessage id="conclusion" />
         </a>
       </li>
     </ol>
