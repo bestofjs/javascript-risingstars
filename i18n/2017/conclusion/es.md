@@ -6,7 +6,7 @@ El ecosistema {react} continúa creciendo después de haber solventado los probl
 
 Pero si tenemos que decantarnos por un proyecto entre los _2017 Rising Stars_ es {prettier}. Es una maravilla poder escribir código sin tener que preocuparnos por el formateo de éste.
 
-Si deseas tener un enfoque más cuantitativo sobre las últimas tendencias en el universo JavaScript, no dudes en visitar [State of JavaScript 2017 survey](https://stateofjs.com/), donde recopilamos y analizamos respuestas de más de 23.000 desarrolladores.
+Si deseas tener un enfoque más cualitativo sobre las últimas tendencias en el universo JavaScript, no dudes en visitar [State of JavaScript 2017 survey](https://stateofjs.com/), donde recopilamos y analizamos respuestas de más de 23.000 desarrolladores.
 
 Así que, mirando al futuro, ¿qué proyectos piensas que serán los próximos _JavaScript Rising Stars_ del 2018?
 
