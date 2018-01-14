@@ -10,4 +10,4 @@ Compared to last year, 3 newcomers joined the TOP 10 node.js frameworks:
 
 * {fastify} is built as a general-purpose web framework, inspired by {hapi}, but is well suited to building fast JSON-based HTTP APIs.
 * {serverjs} aims to be a ‘everything works out of the box’ experience.
-* {nest} feature an architecture familiar to Angular developers, made of modules and controller, written in TypeScript
+* {nest} features an architecture familiar to Angular developers, made of modules and controller, written in TypeScript.
