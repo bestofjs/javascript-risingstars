@@ -18,4 +18,4 @@ Desde el [blog de React](https://reactjs.org/blog/2017/12/15/improving-the-repos
 
 > Rollup is a perfect fit for libraries like React that can be pre-built and then integrated into apps.
 
-{poi} tiene la misma meta que {parcel}: una herramienta para el build de aplicaciones web modernas, pero su alcance está limitado a proyectos de {react}, {preact} y {vuejs}
+{poi} tiene la misma meta que {parcel}: una herramienta para el build de aplicaciones web modernas, pero su alcance está limitado a proyectos de {react}, {preact} y {vuejs}.

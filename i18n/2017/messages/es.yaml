@@ -8,7 +8,7 @@ header:
   title: "Los mejores proyectos JavaScript del 2017"
 introduction:
   table_of_contents: "Categorías"
-  explanation: "Los siguientes gráficos comparan el número de estrellas añadidos en GitHub durante los últimos 12 meses. Hemos analizado los proyectos procedentes de {link}, una lista de los mejores proyectos relacionados con plataformas web cuidadosamente seleccionados. Si lo desea, puede hacer click en cualquier proyecto para conseguir más información."
+  explanation: "Los siguientes gráficos comparan el número de estrellas añadidas en GitHub durante los últimos 12 meses. Hemos analizado proyectos procedentes de {link}, una lista de los proyectos más destacados del mundo web cuidadosamente seleccionados. Si lo desea, puede hacer click en cualquier proyecto para conseguir más información."
 conclusion: "Conclusión"
 
 categories:
@@ -18,11 +18,11 @@ categories:
   react: 'Ecosistema React'
   vue: 'Ecosistema Vue'
   mobile: 'Móvil'
-  compiler: 'Compiladores JavaScript'
-  build: 'Herramientas para Build'
-  testframework: 'Frameworks para Testing'
+  compiler: 'Compiladores JS'
+  build: 'Build'
+  testframework: 'Testing'
   ide: 'Editores'
-  ssg: 'Generadores de páginas estáticas'
+  ssg: 'SSG'
   cssinjs: 'CSS en JavaScript'
   graphql: 'GraphQL'
 
@@ -49,10 +49,10 @@ categories-share:
   vue: 'Librería Vue'
   mobile: 'Framework móvil'
   compiler: 'Compilador JavaScript'
-  build: 'Herramienta para Build'
-  testframework: 'Framework para Testing'
+  build: 'Build'
+  testframework: 'Testing'
   ide: 'Editor'
-  ssg: 'Generadores de páginas estáticas'
+  ssg: 'SSG'
   cssinjs: 'Librería CSS-en-JS'
   graphql: 'Proyecto GraphQL JavaScript'
 
