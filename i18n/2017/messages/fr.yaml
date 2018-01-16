@@ -25,6 +25,7 @@ categories:
   ssg: 'Générateurs de Site Statique'
   cssinjs: 'Feuilles de style en JavaScript'
   graphql: 'GraphQL'
+  misc: 'Divers'
 
 categories-share:
   all: "le projet JavaScript"

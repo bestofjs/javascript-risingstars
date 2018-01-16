@@ -13,8 +13,9 @@ const ProjectTable = ({
   year,
   intl,
   currentYear,
+  showBlurb,
 }) => {
-  const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b))
+  const maxDelta = projects.map(p => p.delta).reduce((a, b) => Math.max(a, b), [])
   return (
     <div className="project-table">
       {projects.map((project, i) => (
@@ -24,6 +25,7 @@ const ProjectTable = ({
           project={project}
           showStars={showStars}
           showDelta={showDelta}
+          showBlurb={showBlurb}
           deltaFilter={deltaFilter}
           index={i + 1}
           tagKey={tagKey}

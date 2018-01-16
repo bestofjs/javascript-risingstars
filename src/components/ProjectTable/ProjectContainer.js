@@ -30,6 +30,7 @@ const ProjectContainer = ({
   tagKey,
   year,
   currentYear,
+  showBlurb = true,
   intl
 }) => {
   const url = project.url || project.repository
@@ -65,6 +66,7 @@ const ProjectContainer = ({
         index={index}
         tagKey={tagKey}
         isOpen={showDetails}
+        showBlurb={showBlurb}
         year={year}
         currentYear={currentYear}
         intl={intl}
