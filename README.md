@@ -1,20 +1,29 @@
-# JavaScript Rising Stars
-
-A complete overview of the JavaScript landscape in 2017: trends about front-end and node.js frameworks, tooling...
-
-Available in English, Japanese, Chinese and French.
-
 ![image](https://user-images.githubusercontent.com/5546996/34452534-0c525f68-ed85-11e7-8d52-647fafffea15.png)
 
+# JavaScript Rising Stars
+
+A complete overview of the JavaScript landscape in 2017: trends about front-end and node.js frameworks, React and Vue ecosystems, tooling, testing, GraphQL...
+
+Available in English, Chinese, Spanish and French.
+
 ## Credits
+
+### Team members
 
 * [Yohei Ice](https://github.com/meltedice)
 * [Sacha Grief](http://sachagreif.com/)
 * [Michael Rambeau](https://michaelrambeau.com)
 * [Nobuhiro Uchiyama](https://github.com/azukiwasher)
+* [Javier Valencia](http://www.jvalen.com)
 * [Frank Xu](https://github.com/frankyxhl)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
 * [王仕军](https://github.com/wangshijun)
+
+### Stack
+
+* Built with [Gatsby](https://www.gatsbyjs.org/)
+* Hosted on [Netlify](https://www.netlify.com/)
+* Domain provided by [js.org](https://dns.js.org/)
 
 ## How to contribute?
 
