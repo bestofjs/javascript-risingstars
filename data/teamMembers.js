@@ -91,6 +91,15 @@ const team = [
     role: 'translation',
     language: 'es',
     years: [2017]
+  },
+  {
+    name: 'Lobot Hijau',
+    url: 'http://lobothijau.com/',
+    avatar: 'https://avatars1.githubusercontent.com/u/34962330?v=3&s=75',
+    bio1: '?',
+    role: 'translation',
+    language: 'id',
+    years: [2017]
   }
 ]
 
