@@ -25,6 +25,7 @@ categories:
   ssg: 'SSG'
   cssinjs: 'CSS en JavaScript'
   graphql: 'GraphQL'
+  misc: 'Miscelánea'
 
 categories-share:
   all: "Proyecto JavaScript"
