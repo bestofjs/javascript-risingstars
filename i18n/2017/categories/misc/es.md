@@ -1,1 +1,1 @@
-TODO: Need translation.
+Debido a que hay proyectos que no encajan a la perfección en las secciones anteriores, hemos creado este listado donde encontrarás los proyectos más populares del año, que a su vez, no pertenecen a ninguna de las otras categorías.
