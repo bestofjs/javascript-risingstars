@@ -25,6 +25,7 @@ categories:
   ssg: 'Static Sites'
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
+  misc: 'Miscellaneous'
 
 categories-share:
   all: "JavaScript project"

@@ -14,12 +14,13 @@ const ProjectDetails = ({
   isOpen,
   year,
   currentYear,
-  intl
+  intl,
+  showBlurb = true,
 }) => {
   return (
     <div className={`project-details ${isOpen ? 'is-open' : 'is-closed'}`}>
       <div className="project-details-inner">
-        {year === currentYear && (
+        {year === currentYear && showBlurb && (
           <ProjectBlurb
             project={project}
             index={index}

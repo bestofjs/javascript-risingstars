@@ -63,5 +63,9 @@
   {
     "key": "graphql",
     "count": 10
+  },
+  {
+    "key": "misc",
+    "count": 10
   }
 ]

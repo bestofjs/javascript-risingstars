@@ -51,12 +51,27 @@ function getProjectsBySlug(payload) {
   return projectsBySlug
 }
 
+function getTopProjects(projectsByTag, categories) {
+  return categories.reduce(
+    (acc, category) => {
+      const categoryTopProjects = projectsByTag[category.key].slice(0, category.count + 1)
+      return [...acc, ...categoryTopProjects]
+    }, []
+  )
+}
+
+function getMiscProjects(projectsByTag, categories) {
+   const topProjects = getTopProjects(projectsByTag, categories)
+   return projectsByTag.all.filter(p => !topProjects.includes(p))
+}
+
 function processProjectData(projectData, categories) {
   const entities = getProjectsBySlug(projectData)
   const sorted = getSortedProjects(entities)
   const projectsByTag = getProjectsByTag(sorted, entities, categories)
+  projectsByTag.misc = getMiscProjects(projectsByTag, categories)
   return {
-    projectsByTag: projectsByTag,
+    projectsByTag,
     entities
   }
 }

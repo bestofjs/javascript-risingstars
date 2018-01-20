@@ -25,6 +25,7 @@ categories:
   ssg: '静态网站生成器'
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
+  misc: '杂项'
 
 categories-share:
   all: "JavaScript 项目"
