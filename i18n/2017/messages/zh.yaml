@@ -21,7 +21,7 @@ categories:
   compiler: '编译工具'
   build: '构建工具'
   testframework: '测试框架'
-  ide: 'IDE和编辑器'
+  ide: 'IDE 和编辑器'
   ssg: '静态网站生成器'
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
