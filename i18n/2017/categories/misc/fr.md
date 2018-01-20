@@ -1,1 +1,1 @@
-Parce qu'on ne peut pas tout faire rentrer dans des cases, vous trouverez dans cette dernière catégorie les projets les plus populaires de l'année qui ne figuraient pas déjà dans les autres catégories.
+Parce qu'on ne peut pas tout faire rentrer dans des cases, et pour répondre à la demande générale, nous avons rajouté une catégorie où vous trouverez les projets les plus populaires de l'année qui ne figuraient pas déjà dans les autres catégories.
