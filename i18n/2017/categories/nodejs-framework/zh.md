@@ -1,7 +1,7 @@
 
-JavaScript 已不仅仅局限于前端 Web 应用方面，在后端上也被越来越多的人使用。Node.js 社区十分具有影响力的 [Mikeal Rogers](https://github.com/mikeal) 做出了 [Node.js 会在一年内超越 Java](https://thenewstack.io/open-source-profile-mikeal-rogers-node-js/)的预测。
+JavaScript 已不仅仅局限于 Web 前端应用，也被越来越多的人使用开发后端应用。Node.js 社区颇具有影响力的 [Mikeal Rogers](https://github.com/mikeal) 做出了 [Node.js 会在一年内超越 Java](https://thenewstack.io/open-source-profile-mikeal-rogers-node-js/)的预测。
 
-但和其他语言都有事实上的标准不同（如 Ruby 有 Ruby on Rails，Python 有 Django，PHP 有 Laravel），目前在 Node.js 上写服务端程序还没有一个大家都认可的标准框架。
+和其他语言都有事实上的标准框架不同的是（如 Ruby 有 Ruby on Rails，Python 有 Django，PHP 有 Laravel），目前基于 Node.js 写服务端程序还没有一个大家都认可的标准框架。
 
 {express} 并不是 2017 年度的 Node.js 框架分类排行冠军，毕竟这个项目已经成立多年，但它已转变为许多框架和 CMS 的基础组件，包括 {feathers}、{keystone} 和 {nest}。
 
