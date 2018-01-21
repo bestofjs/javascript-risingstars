@@ -4,7 +4,7 @@ It was first created by Facebook to run tests for React components, but its evol
 
 Jest shines because of several points:
 
-* No configuration needed, the defaults settings match the usually needs
+* No configuration needed, the default settings match the usually needs
 * Great developer experience (intelligent watch mode, very nice error reporting...)
 * Syntax close to {mocha}, a lot of developers are familiar with `describe` and `it` keywords
 * No extra library required to make assertions, it's "battery included".

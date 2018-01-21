@@ -3,7 +3,7 @@ La polyvalence de JavaScript est telle que l'on peut construire de réelles appl
 On retrouve dans cette catégorie le clivage entre les 3 acteurs dominants des frameworks côté client:
 
 * React avec {react-native}
-* Vue avev {weex} et {quasar}
+* Vue avec {weex} et {quasar}
 * Angular avec {ionic} et {nativescript}
 
 Comme en 2016, {react-native} s'impose comme la solution la plus populaire pour construire une application mobile pour toutes les plateformes (iOS, Android et Windows Mobile), à partir de JavaScript.

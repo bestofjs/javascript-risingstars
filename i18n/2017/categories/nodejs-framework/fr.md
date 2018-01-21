@@ -11,4 +11,4 @@ Remarquons l'arrivée de 3 nouveaux venus dans le classement cette année:
 
 * {fastify} inspiré by {hapi}, propose une approche complète et convient très bien au développment d'API au format JSON, API dont sont friandes les applications web modernes.
 * {serverjs} est une solution qui propose d'emblée toutes les fonctionnalités d'un serveur web
-* {nest} se différentie en proposant une architecture familière aux développeurs Angular, faites de "modules" et de "contrôleurs" écrits dans le langage TypeScript.
+* {nest} se différentie en proposant une architecture familière aux développeurs Angular, faite de "modules" et de "contrôleurs" écrits dans le langage TypeScript.

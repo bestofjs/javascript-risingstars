@@ -2,7 +2,7 @@ Here we talk about languages that compile to regular JavaScript code.
 
 You may need such a compiler in your building workflow for 2 reasons:
 
-* You want to enjoy all feature of the latest version of the JavaScript language (ES7) while making your code compatible with a maximum of Web browsers. This feature made the success of {babel}, which a lot of projects depend on.
+* You want to enjoy all the features of the latest version of the JavaScript language (ES7) while making your code compatible with a maximum of Web browsers. This feature made the success of {babel}, which a lot of projects depend on.
 * You want to add new features to the language... such as "type checking".
 
 One of the hottest questions that divide developers is: types or not types?

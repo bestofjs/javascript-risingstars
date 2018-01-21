@@ -1,4 +1,4 @@
-Nous parlons ici des éditeurs de texte issues de projets open-source et utilisant des technologies web (désolé pour les utilisateurs de Sublime !).
+Nous parlons ici des éditeurs de texte issus de projets open-source et utilisant des technologies web.
 
 {vs-code}, créé par Microsoft et {atom}, créé par GitHub, sont 2 applications construites à partir d'{electron} une plateforme très populaire pour le développement d'applications _desktop_ pour Windows aussi bien que pour MacOS.
 
@@ -13,4 +13,4 @@ Sans devoir installer aucune extension, les développeurs disposent de toutes le
 * Syntaxe React prise en compte
 * Ligne de commande intégrée
 
-Si l'on ajoute {prettier} à {vs-code} sans oublier d'activer l'option pour formatter automatiquement le code à chaque enregistrement, on obtient la combinaison parfaite pour écrire du code dans un confort absolu !
+Si l'on ajoute {prettier} à {vs-code} sans oublier d'activer l'option pour formater automatiquement le code à chaque enregistrement, on obtient la combinaison parfaite pour écrire du code dans un confort absolu !

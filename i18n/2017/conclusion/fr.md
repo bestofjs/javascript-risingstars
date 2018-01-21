@@ -1,8 +1,8 @@
-Nous avons donc vu que {vuejs} reste au sommet de la hiéararchie des projets JavaScript, son succès s'étant accéléré en 2017.
+Nous avons donc vu que {vuejs} reste au sommet de la hiérarchie des projets JavaScript, son succès s'étant accéléré en 2017.
 
 L'eco-système React reste extrêmement populaire malgré les doutes et les craintes engendrés par un problème autour de la licence utilisée par Facebook pour ses projets open-source.
 
-S'il fallait sélectionner un projet parmi les étoiles montantes de l'année, notre choix se porterait sur {prettier}, c'est tellement pratique d'écrire du code sans plus se soucier du formattage !
+S'il fallait sélectionner un projet parmi les étoiles montantes de l'année, notre choix se porterait sur {prettier}, c'est tellement pratique d'écrire du code sans plus se soucier du formatage !
 
 ---
 

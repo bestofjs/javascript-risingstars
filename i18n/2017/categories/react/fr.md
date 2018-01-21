@@ -8,4 +8,4 @@ Pour les développeurs qui recherchent plus de fonctionnalités, une solution te
 
 Parmi les autres projets du classement, on trouve des jeux de composants déjà stylés tels que {ant-design}, {ant-design-pro} ou {material-ui} qui permettent aux développeurs d'obtenir aisément une application web avec un joli rendu, qui donne une allure professionnelle (à défaut d'être originale sans doute !).
 
-En position numéro 10, le projet {recompose} nous montre l'importance des motifs de programmation fonctionnelle (_Functional Programming_), motifs qui font une partie du succès de React. Tout peut se traduire par une simple fonction et {recompose} propose un ensemble d'outils pour prolonger le voyage dans cette direction.
+Le projet {recompose} nous montre l'importance des motifs de programmation fonctionnelle (_Functional Programming_), motifs qui font une partie du succès de React. Tout peut se traduire par une simple fonction et {recompose} propose un ensemble d'outils pour prolonger le voyage dans cette direction.
