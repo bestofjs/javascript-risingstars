@@ -6,6 +6,7 @@ import __intlZH from 'react-intl/locale-data/zh'
 import __intlJA from 'react-intl/locale-data/ja'
 import __intlFR from 'react-intl/locale-data/fr'
 import __intlES from 'react-intl/locale-data/es'
+import __intlID from 'react-intl/locale-data/id'
 
 import Page from './Page'
 import getMessages from './utils/getMessages'
@@ -21,6 +22,7 @@ addLocaleData(__intlZH)
 addLocaleData(__intlJA)
 addLocaleData(__intlFR)
 addLocaleData(__intlES)
+addLocaleData(__intlID)
 
 const getSettings = year =>
   allSettings.find(pageSettings => pageSettings.year === year)
@@ -31,6 +33,8 @@ class PageContainer extends React.Component {
     const { language, year } = pathContext
     console.log('Render the page', language, year)
     const messages = getMessages({ language, year })
+    console.log({ messages })
+
     const translations = getAllTranslations({ edges: data.allFile.edges })[
       `year${year}`
     ]

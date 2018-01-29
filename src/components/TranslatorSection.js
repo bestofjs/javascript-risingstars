@@ -65,7 +65,8 @@ const AuthorBlock = ({ authors }) => (
 const translations = {
   ja: 'Japanese version',
   zh: 'Chinese (simplified) version',
-  es: 'Spanish version'
+  es: 'Spanish version',
+  id: 'Bahasa Indonesia'
 }
 
 const TranslatorBlock = ({ translators, language }) => (

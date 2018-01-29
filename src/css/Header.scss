@@ -1,3 +1,5 @@
+$languageBreakPoint: 700px;
+
 #header {
   width: 100%;
   padding: 0;
@@ -16,6 +18,7 @@
   align-items: center;
   height: 100%;
   padding-left: 1rem;
+  padding-right: 2rem;
   @media (min-width: 550px) {
     padding-left: 2rem;
   }
@@ -28,7 +31,7 @@
   flex-grow: 1;
   display: none;
   /* Make the logo smaller on small screens */
-  @media (min-width: 500px) {
+  @media (min-width: 600px) {
     display: block;
     width: 120px;
   }
@@ -53,6 +56,30 @@
     border-bottom: 2px solid $activeLinkColor;
     margin-bottom: -2px;
   }
+  @media (max-width: $languageBreakPoint - 1px) {
+    &:nth-child(n + 3) {
+      display: none; // show only the first 2 items on small screens
+    }
+  }
+}
+
+// on small screens, hide the first 3 languages from the dropdown menu
+// because they are visible in the main language menu
+.language-menu-mobile {
+  margin-left: 1rem;
+  option:nth-child(-n + 3) {
+    display: none;
+  }
+}
+
+// On big screens, show all languages from the main menu and hide the dropdown menu
+@media (min-width: $languageBreakPoint) {
+  .language-menu-item {
+    display: flex;
+  }
+  .language-menu-mobile {
+    display: none;
+  }
 }
 
 // GitHub corner at the upper right corner, only on big screens
@@ -61,7 +88,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  @media (min-width: 800px) {
+  @media (min-width: 900px) {
     display: block;
   }
 }

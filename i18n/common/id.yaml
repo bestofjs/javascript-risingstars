@@ -1,0 +1,12 @@
+newsletter:
+  title: "Dapatkan rangking JS paling baru di inbox setiap minggu"
+  text: "Daftar untuk newsletter {link} dan anda akan menerima statistik eksklusif tentang proyek JavaScript paling populer setiap minggunya."  
+  button: "Daftar"
+  placeholder: "Email Anda"
+view_project:
+  twitter:
+    text: "Tahun {year}, {name} menambahkan {delta} bintang, membuatnya berada di posisi #{ranking} paling populer pada kategori {category} di GitHub"
+    action: Tweet
+  months: "J F M A M J J A S O N D"
+  created: "Created"
+  homepage: "Homepage"    

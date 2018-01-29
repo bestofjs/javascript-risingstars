@@ -1,0 +1,100 @@
+/*
+CSS from Bulma dropdown menu, extracted from the following page:
+https://bulma.io/documentation/form/select/
+*/
+.select {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+  height: 2.25em;
+}
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  max-width: 100%;
+  outline: none;
+}
+.select:not(.is-multiple)::after {
+  border: 1px solid #e65100;
+  border-right: 0;
+  border-top: 0;
+  content: ' ';
+  display: block;
+  height: 0.5em;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  width: 0.5em;
+  margin-top: -0.375em;
+  right: 1.125em;
+  top: 50%;
+  z-index: 4;
+}
+.control {
+  font-size: 1rem;
+  position: relative;
+  text-align: left;
+}
+.control.has-icons-left .icon.is-left {
+  left: 0;
+}
+.control.has-icons-left .icon,
+.control.has-icons-right .icon {
+  color: #dbdbdb;
+  height: 2.25em;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 2.25em;
+  z-index: 4;
+}
+
+.icon {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.control.has-icons-left .input,
+.control.has-icons-left .select select {
+  padding-left: 2.25em;
+}
