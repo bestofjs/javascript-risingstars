@@ -1,4 +1,4 @@
-$languageBreakPoint: 700px;
+$languageBreakPoint: 750px;
 
 #header {
   width: 100%;
@@ -31,7 +31,7 @@ $languageBreakPoint: 700px;
   flex-grow: 1;
   display: none;
   /* Make the logo smaller on small screens */
-  @media (min-width: 600px) {
+  @media (min-width: 500px) {
     display: block;
     width: 120px;
   }
@@ -57,7 +57,7 @@ $languageBreakPoint: 700px;
     margin-bottom: -2px;
   }
   @media (max-width: $languageBreakPoint - 1px) {
-    &:nth-child(n + 3) {
+    &:nth-child(n + 4) {
       display: none; // show only the first 2 items on small screens
     }
   }
@@ -67,7 +67,7 @@ $languageBreakPoint: 700px;
 // because they are visible in the main language menu
 .language-menu-mobile {
   margin-left: 1rem;
-  option:nth-child(-n + 3) {
+  option:nth-child(-n + 4) {
     display: none;
   }
 }
