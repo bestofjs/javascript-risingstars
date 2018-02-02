@@ -1,8 +1,8 @@
 newsletter:
-  title: "最新の JS ランキングを毎週配信します"
-  text: "{link} からサインアップ。いまもっとも熱い JavaScript プロジェクトをウィークリーでお届けします。"  
-  button: "サインアップ"
-  placeholder: "メールアドレス"
+  title: "最新のJSランキングを毎週配信します。"
+  text: "{link} ニュースレターに登録すると、いまもっとも熱い JavaScript プロジェクトをウィークリーでお届けします。"  
+  button: "登録"
+  placeholder: "あなたのメールアドレス"
 view_project:
   twitter:
     text: "{year}, GitHub で {delta} スターを獲得した {name} は {category} 部門で {ranking} 位。"
