@@ -36,7 +36,7 @@ const Introduction = ({ entities, url, intl, translations, categories }) => (
             a curated list of the best projects related to the web platform.
             `}
             values={{
-              link: <a href="https://bestof.js.org/">bestof.js.org</a>
+              link: <a href="https://bestofjs.org/">bestof.js.org</a>
             }}
           />
         </p>

@@ -16,7 +16,7 @@ const Header = ({ language, year, availableLanguages }) => {
     <div id="header">
       <div className="container">
         <div className="header-layout">
-          <a id="logo" href="https://bestof.js.org">
+          <a id="logo" href="https://bestofjs.org">
             <img src={svg} width="160" alt="bestof.js.org logo" />
           </a>
           <FullSizeMenu

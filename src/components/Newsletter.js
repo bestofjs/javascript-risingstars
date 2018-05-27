@@ -14,13 +14,13 @@ const Newsletter = ({ intl }) => (
         id="common.newsletter.text"
         defaultMessage={`Sign up for {link}'s newsletter, and...`}
         values={{
-          link: <a href="https://bestof.js.org/">bestof.js.org</a>
+          link: <a href="https://bestofjs.org/">bestof.js.org</a>
         }}
       />
     </p>
     <div id="mc_embed_signup">
       <form
-        action="https://bestof.us17.list-manage.com/subscribe/post?u=3dac4d68c87b7450b93cadab8&amp;id=193206ef13"
+        action="https://api.elasticemail.com/contact/add?version=2"
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
@@ -51,6 +51,41 @@ const Newsletter = ({ intl }) => (
             defaultMessage={`Sign Up`}
           />
         </button>
+        <input
+          name="publiclistid"
+          id="CwyOqTgB"
+          value="72c3249d-ed56-484d-b586-71c80b84d469"
+          type="hidden"
+        />
+        <input
+          name="publicaccountid"
+          value="0941e3f0-7b53-413c-a17f-06bff65f0a13"
+          type="hidden"
+        />
+        <input
+          name="publicformid"
+          value="e362aac5-777d-4d8b-a537-c807041f37cb"
+          type="hidden"
+        />
+        <input
+          name="returnUrl"
+          value="https://weekly.bestofjs.org/check-email/"
+          type="hidden"
+        />
+        <input
+          name="activationReturnUrl"
+          value="https://weekly.bestofjs.org/email-confirmed/"
+          type="hidden"
+        />
+        <input name="alreadyactiveurl" value="" type="hidden" />
+        <input
+          name="activationTemplate"
+          value="subscriber-activation"
+          type="hidden"
+        />
+        <input name="source" value="WebForm" type="hidden" />
+        <input id="ewf_captcha" name="captcha" value="false" type="hidden" />
+        <input name="notifyEmail" value="" type="hidden" />
       </form>
     </div>
   </div>

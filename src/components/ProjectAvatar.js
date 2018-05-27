@@ -11,7 +11,7 @@ The SVG can be stored locally (inside `www/logos` folder) or in the cloud.
 const isUrl = input => input.startsWith('http')
 
 const formatIconUrl = input =>
-  isUrl(input) ? input : `https://bestof.js.org/logos/${input}`
+  isUrl(input) ? input : `https://bestofjs.org/logos/${input}`
 
 const formatOwnerAvatar = (owner_id, size) =>
   `https://avatars.githubusercontent.com/u/${owner_id}?v=3&s=${size}`

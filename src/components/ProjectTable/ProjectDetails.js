@@ -44,7 +44,7 @@ const ProjectDetails = ({
             <a href={project.repository}>GitHub</a>
           </li>
           <li>
-            <a href={`https://bestof.js.org/projects/${project.slug}`}>
+            <a href={`https://bestofjs.org/projects/${project.slug}`}>
               BestOfJS
             </a>
           </li>
