@@ -17,7 +17,7 @@ const Header = ({ language, year, availableLanguages }) => {
       <div className="container">
         <div className="header-layout">
           <a id="logo" href="https://bestofjs.org">
-            <img src={svg} width="160" alt="bestof.js.org logo" />
+            <img src={svg} width="160" alt="bestofjs.org logo" />
           </a>
           <FullSizeMenu
             currentLanguage={language}
