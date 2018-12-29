@@ -1,9 +1,9 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from "react";
+import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from '../utils/TranslatedBlock'
-import ProjectTable from './ProjectTable/ProjectTable'
-import Guest from './Guest'
+import TranslatedBlock from "../utils/TranslatedBlock";
+import ProjectTable from "./ProjectTable/ProjectTable";
+import Guest from "./Guest";
 
 const Category = ({
   projects,
@@ -18,9 +18,9 @@ const Category = ({
   currentYear,
   intl
 }) => {
-  if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
-  const graphProjects = projects[tag].slice(0, count)
-  const key = tag.replace(/-/gi, '')
+  if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`);
+  const graphProjects = projects[tag].slice(0, count);
+  const key = tag.replace(/-/gi, "");
   return (
     <section className="section">
       <div className="container">
@@ -37,7 +37,7 @@ const Category = ({
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
-                showBlurb={tag !== 'misc'}
+                showBlurb={tag !== "misc"}
                 currentYear={currentYear}
                 intl={intl}
               />
@@ -46,7 +46,7 @@ const Category = ({
           <div>
             <div className="column2">
               <div className="tag-card-comments markdown-body">
-                {key === 'vue' && (
+                {key === "vue" && year === 2017 && (
                   <Guest
                     guestId="evan"
                     translations={translations}
@@ -66,7 +66,7 @@ const Category = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Category
+export default Category;

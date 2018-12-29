@@ -1,0 +1,46 @@
+# Meta data
+page:
+  title: "2018 JavaScript Rising Stars"
+  description: "A complete overview of the JavaScript landscape in 2018: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
+
+# Page content
+header:
+  title: "2018 JavaScript Rising Stars"
+introduction:
+  table_of_contents: "Table of Contents"
+  explanation: "The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform. Note that you can click on a project to get more info."
+conclusion: "Conclusion"
+
+categories:
+  all: "Most Popular Projects Overall"
+  framework: "Front-end Frameworks"
+  nodejsframework: "Node.js Frameworks"
+  react: "React Ecosystem"
+  vue: "Vue Ecosystem"
+  mobile: "Mobile"
+  compiler: "Compilers"
+  build: "Build Tools"
+  testframework: "Testing Frameworks"
+  ide: "IDEs & Editors"
+  ssg: "Static Sites"
+  cssinjs: "CSS in JavaScript"
+  graphql: "GraphQL"
+  misc: "Miscellaneous"
+
+categories-share:
+  all: "JavaScript project"
+  framework: "front-end framework"
+  nodejsframework: "Node project"
+  react: "React library"
+  vue: "Vue library"
+  mobile: "mobile framework"
+  compiler: "JavaScript compiler"
+  build: "build tool"
+  testframework: "JavaScript testing framework"
+  ide: "IDE"
+  ssg: "JavaScript static site generator"
+  cssinjs: "CSS-in-JS library"
+  graphql: "JavaScript GraphQL project"
+
+social:
+  text: "Check the JavaScript landscape in 2017"

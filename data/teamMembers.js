@@ -65,7 +65,7 @@ const team = [
       </span>
     ),
     role: 'author',
-    years: [2016, 2017]
+    years: [2016, 2017, 2018]
   },
   {
     name: 'Michael Rambeau',
@@ -77,7 +77,7 @@ const team = [
       </span>
     ),
     role: 'author',
-    years: [2016, 2017]
+    years: [2016, 2017, 2018]
   },
   {
     name: 'Javier Valencia',
