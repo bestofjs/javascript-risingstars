@@ -73,7 +73,7 @@ const team = [
     avatar: 'https://avatars1.githubusercontent.com/u/5546996?v=3&s=75',
     bio1: (
       <span>
-        Creator of <a href="https://bestof.js.org">bestof.js.org</a>
+        Creator of <a href="https://bestofjs.org">bestofjs.org</a>
       </span>
     ),
     role: 'author',

@@ -4,18 +4,16 @@ import Link from 'gatsby-link'
 import team from '../../data/teamMembers'
 
 const Section = ({ language, year, availableLanguages }) => {
-  // if (language === 'fr') return null
   return (
     <section className="TranslatorSection">
       <div className="container small-container">
-        {language === 'en' || language === 'fr' ? (
+        <TeamMemberList language={language} year={year} />
+        {availableLanguages.length > 1 && (
           <OtherLanguages
             year={year}
             language={language}
             availableLanguages={availableLanguages}
           />
-        ) : (
-          <TeamMemberList language={language} year={year} />
         )}
       </div>
     </section>
@@ -23,13 +21,15 @@ const Section = ({ language, year, availableLanguages }) => {
 }
 
 const OtherLanguages = ({ year, language, availableLanguages }) => (
-  <div style={{ textAlign: 'center' }}>
-    <p>This article is also available in:</p>
-    {availableLanguages.filter(lang => lang.code !== language).map(lang => (
-      <p key={lang.code}>
-        <Link to={`/${year}/${lang.code}`}>{lang.text}</Link>
-      </p>
-    ))}
+  <div style={{ marginTop: '2rem' }}>
+    <p className="member-list-header">Available Translations</p>
+    {availableLanguages
+      .filter(lang => lang.code !== language)
+      .map(lang => (
+        <p key={lang.code}>
+          <Link to={`/${year}/${lang.code}`}>{lang.text}</Link>
+        </p>
+      ))}
   </div>
 )
 
@@ -43,17 +43,17 @@ const TeamMemberList = ({ language, year }) => {
   const authors = team.filter(member => member.role === 'author')
   return (
     <div>
-      <TranslatorBlock translators={translators} language={language} />
+      {translators.length > 0 && (
+        <TranslatorBlock translators={translators} language={language} />
+      )}
       <AuthorBlock authors={authors} />
     </div>
   )
 }
 
 const AuthorBlock = ({ authors }) => (
-  <div style={{ marginTop: '2rem' }}>
-    <p className="member-list-header" style={{ marginTop: '1rem' }}>
-      <a href="/">Original version</a>
-    </p>
+  <div>
+    <p className="member-list-header">Authors</p>
     <div className="translator-list">
       {authors.map((author, i) => (
         <TeamMember key={i} member={author} key={author.name} />
@@ -70,7 +70,7 @@ const translations = {
 }
 
 const TranslatorBlock = ({ translators, language }) => (
-  <div>
+  <div style={{ marginBottom: '2rem' }}>
     <p className="member-list-header">{translations[language]}</p>
     <div className="translator-list">
       {translators.map(translator => (

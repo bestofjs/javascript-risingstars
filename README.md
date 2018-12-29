@@ -2,7 +2,7 @@
 
 # JavaScript Rising Stars
 
-A complete overview of the JavaScript landscape in 2017: trends about front-end and node.js frameworks, React and Vue ecosystems, tooling, testing, GraphQL...
+A complete overview of the JavaScript landscape in 2018: trends about front-end and node.js frameworks, React and Vue ecosystems, tooling, testing, GraphQL...
 
 Available in English, Chinese, Spanish and French.
 
@@ -27,10 +27,12 @@ Available in English, Chinese, Spanish and French.
 
 ## How to contribute?
 
+Requirements: Node.js 8.4
+
 * Clone the repo
 * Install the dependencies: `npm install`
 * Start the development server: `npm start`
-* Check the following URL: `http://localhost:8000/2017/en`
+* Check the following URL: `http://localhost:8000/`
 * Update the comments in your language
 * Commit and push, the development version of site will be automatically rebuilt on Netlify.com
 
