@@ -1,0 +1,1 @@
+The bundler {parcel} confirms its success of 2017, developers love the ability of setting up a new web projects without any configuration.
