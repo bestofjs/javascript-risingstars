@@ -11,8 +11,8 @@ const withToggle = withState(
   props => props.tagKey === 'all' && props.index === 1
 )
 
-const ProjectContainer = ({ index, maxDelta, showDetails, ...props }) => {
-  const { project } = props
+const ProjectContainer = ({ maxDelta, showDetails, ...props }) => {
+  const { project, index } = props
   const widthPercent = (project.delta * 100) / maxDelta // use relative scale
   return (
     <div>
