@@ -88,9 +88,6 @@ class Page extends React.Component {
                 key={item.key}
                 tag={item.key}
                 number={i + 1}
-                title={item.title}
-                excluded={item.excluded}
-                count={item.count}
                 projects={projects}
                 entities={entities}
                 locale={locale}
@@ -98,6 +95,7 @@ class Page extends React.Component {
                 year={year}
                 currentYear={currentYear}
                 intl={intl}
+                {...item}
               />
             ))}
             <Conclusion

@@ -13,21 +13,22 @@
       "tech-interview-handbook",
       "30-seconds-of-css"
     ],
-    "count": 25
+    "limit": 10,
+    "count": 50
   },
   {
     "key": "framework",
-    "count": 10
+    "count": 20
   },
   {
     "key": "nodejs-framework",
     "tags": ["nodejs-framework"],
-    "count": 10
+    "count": 20
   },
   {
     "key": "react",
     "tags": ["react", "react-native"],
-    "count": 15,
+    "count": 20,
     "excluded": ["react", "react-native"]
   },
   {
@@ -47,11 +48,11 @@
   },
   {
     "key": "compiler",
-    "count": 8
+    "count": 5
   },
   {
     "key": "build",
-    "count": 7
+    "count": 5
   },
   {
     "key": "test-framework",
@@ -63,7 +64,7 @@
   },
   {
     "key": "css-in-js",
-    "count": 10,
+    "count": 5,
     "excluded": ["typographyjs"]
   },
   {
@@ -73,10 +74,5 @@
   {
     "key": "graphql",
     "count": 10
-  },
-  {
-    "key": "misc",
-    "count": 10,
-    "excluded": ["nodejs-best-practices"]
   }
 ]

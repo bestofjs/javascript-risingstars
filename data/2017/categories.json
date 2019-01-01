@@ -9,7 +9,8 @@
       "front-end-checklist",
       "30-seconds-of-code"
     ],
-    "count": 25
+    "count": 35,
+    "limit": 10
   },
   {
     "key": "framework",
@@ -28,6 +29,7 @@
   },
   {
     "key": "vue",
+    "limit": 10,
     "count": 10,
     "excluded": ["vuejs", "storybook"]
   },
@@ -62,10 +64,6 @@
   },
   {
     "key": "graphql",
-    "count": 10
-  },
-  {
-    "key": "misc",
     "count": 10
   }
 ]
