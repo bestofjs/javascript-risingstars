@@ -64,7 +64,7 @@
   },
   {
     "key": "css-in-js",
-    "count": 5,
+    "count": 10,
     "excluded": ["typographyjs"]
   },
   {
