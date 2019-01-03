@@ -83,21 +83,23 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
-            {categories.map((item, i) => (
-              <Category
-                key={item.key}
-                tag={item.key}
-                number={i + 1}
-                projects={projects}
-                entities={entities}
-                locale={locale}
-                translations={translations}
-                year={year}
-                currentYear={currentYear}
-                intl={intl}
-                {...item}
-              />
-            ))}
+            {categories
+              .filter(item => !item.disabled)
+              .map((item, i) => (
+                <Category
+                  key={item.key}
+                  tag={item.key}
+                  number={i + 1}
+                  projects={projects}
+                  entities={entities}
+                  locale={locale}
+                  translations={translations}
+                  year={year}
+                  currentYear={currentYear}
+                  intl={intl}
+                  {...item}
+                />
+              ))}
             <Conclusion
               entities={entities}
               url={url}
