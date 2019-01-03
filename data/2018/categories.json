@@ -29,7 +29,7 @@
     "key": "react",
     "tags": ["react", "react-native"],
     "count": 20,
-    "excluded": ["react", "react-native"]
+    "excluded": ["react", "react-native", "storybook"]
   },
   {
     "key": "vue",
