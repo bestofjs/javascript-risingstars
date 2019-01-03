@@ -1,4 +1,4 @@
-After [2016](/2016.en) and [2017](/2017.en), welcome to the third edition of the JavaScript Rising Stars!
+After [2016](/2016/en) and [2017](/2017/en), welcome to the third edition of the JavaScript Rising Stars!
 
 It's time to look back at the JavaScript landscape in 2018.
 
