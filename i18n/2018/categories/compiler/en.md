@@ -4,4 +4,4 @@ In 2018, it seems that {typescript}, from Microsoft took a big advantage over it
 
 The fact that the latest version of {babel} supports TypeScript was a game changer.
 
-TypeScript is almost a standard for development, wether it's back-end or front-end development, we see a types in a lot of new projects.
+TypeScript is almost a standard for development: whether it's back-end or front-end development, we see more and more libraries that include TypeScript definitions. And if types are not provided by the library itself, the project {definitelytyped} provides types for thousands of JavaScript projects.
