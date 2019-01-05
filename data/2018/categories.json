@@ -11,7 +11,9 @@
       "30-seconds-of-code",
       "nodejs-best-practices",
       "tech-interview-handbook",
-      "30-seconds-of-css"
+      "30-seconds-of-css",
+      "33-js-concepts",
+      "project-guidelines"
     ],
     "limit": 10,
     "count": 50
