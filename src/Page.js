@@ -3,9 +3,9 @@ import { FormattedMessage, injectIntl } from 'react-intl'
 import Helmet from 'react-helmet'
 
 import Header from './components/Header'
+import Top from './components/Top'
 import Footer from './components/Footer'
 import TranslatorSection from './components/TranslatorSection'
-import Introduction from './components/Introduction'
 import Newsletter from './components/Newsletter'
 import TOC from './components/TOC'
 import Conclusion from './components/Conclusion'
@@ -52,12 +52,20 @@ class Page extends React.Component {
             rel="stylesheet"
           />
         </Helmet>
-        {false && <BgPicture projects={projects.all} />}
         <Header
           language={intl.locale}
           year={year}
           availableLanguages={languages}
         />
+        <Top
+          entities={entities}
+          url={url}
+          intl={intl}
+          translations={translations}
+          categories={categories}
+          year={year}
+        />
+        {false && <BgPicture projects={projects.all} />}
         {false && (
           <ProjectIconWall
             projects={projects.all}
@@ -67,13 +75,6 @@ class Page extends React.Component {
         )}
         <div className="main">
           <div className="main-contents">
-            <Introduction
-              entities={entities}
-              url={url}
-              intl={intl}
-              translations={translations}
-              categories={categories}
-            />
             <Newsletter intl={intl} />
             <TOC
               projects={projects}

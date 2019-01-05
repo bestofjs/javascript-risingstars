@@ -7,8 +7,8 @@ $languageBreakPoint: 750px;
   z-index: 50;
   height: 60px;
   position: relative;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  // box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  //   0 1px 5px 0 rgba(0, 0, 0, 0.12);
   .container {
     height: 100%;
   }
@@ -53,7 +53,7 @@ $languageBreakPoint: 750px;
   }
   &.is-active {
     color: $activeLinkColor;
-    border-bottom: 2px solid $activeLinkColor;
+    border-bottom: 3px solid $activeLinkColor;
     margin-bottom: -2px;
   }
   @media (max-width: $languageBreakPoint - 1px) {
