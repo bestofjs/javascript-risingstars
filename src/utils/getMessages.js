@@ -6,8 +6,6 @@ import allMessages from '../../i18n/messages'
 export default function getMessages({ language, year }) {
   const yearMessages = allMessages[`year${year}`][language]
   const commonMessages = allMessages.common[language]
-  console.log({ yearMessages, commonMessages })
-
   const messages = Object.assign({}, yearMessages, { common: commonMessages })
   if (Object.keys(messages).length === 0) return {}
   return flatten(messages)

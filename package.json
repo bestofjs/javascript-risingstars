@@ -9,7 +9,7 @@
   "dependencies": {
     "flat": "^4.0.0",
     "gatsby": "1.9.172",
-    "gatsby-link": "^1.6.32",
+    "gatsby-link": "1.6.32",
     "gatsby-plugin-netlify": "^1.0.12",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sass": "1.0.15",

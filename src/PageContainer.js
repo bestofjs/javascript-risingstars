@@ -31,7 +31,6 @@ class PageContainer extends React.Component {
   render() {
     const { data, pathContext } = this.props
     const { language, year } = pathContext
-    console.log('Render the page', language, year)
     const messages = getMessages({ language, year })
     const translations = getAllTranslations({ edges: data.allFile.edges })[
       `year${year}`
