@@ -24,12 +24,14 @@ const Header = ({ language, year, availableLanguages }) => {
             languages={availableLanguages}
             year={year}
           />
-          <DropDownMenu
-            currentLanguage={language}
-            languages={availableLanguages}
-            year={year}
-            onChange={onChange}
-          />
+          {availableLanguages.length > 3 && (
+            <DropDownMenu
+              currentLanguage={language}
+              languages={availableLanguages}
+              year={year}
+              onChange={onChange}
+            />
+          )}
         </div>
       </div>
       <a

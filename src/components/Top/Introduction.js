@@ -27,20 +27,18 @@ const Introduction = ({ entities, url, intl, translations }) => (
       <Social url={url} text={intl.formatMessage({ id: 'social.text' })} />
     </div>
     <hr />
-    <small>
-      <p style={{ margin: '1rem 0 0' }}>
-        <FormattedMessage
-          id="introduction.explanation"
-          defaultMessage={`
+    <p style={{ margin: '1rem 0 0' }}>
+      <FormattedMessage
+        id="introduction.explanation"
+        defaultMessage={`
           We analyzed projects coming from {link},
         a curated list of the best projects related to the web platform.
         `}
-          values={{
-            link: <a href="https://bestofjs.org/">bestofjs.org</a>
-          }}
-        />
-      </p>
-    </small>
+        values={{
+          link: <a href="https://bestofjs.org/">Best of JavaScript</a>
+        }}
+      />
+    </p>
   </div>
 )
 

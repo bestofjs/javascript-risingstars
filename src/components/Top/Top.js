@@ -4,7 +4,7 @@ import TopWithPicture from './TopWithPicture'
 
 const Top = props => {
   const { year } = props
-  const Component = year === 2017 ? TopWithPicture : TopWithBanner
+  const Component = false ? TopWithPicture : TopWithBanner
   return <Component {...props} />
 }
 

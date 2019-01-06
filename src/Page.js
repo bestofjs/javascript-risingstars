@@ -24,6 +24,7 @@ class Page extends React.Component {
       intl,
       translations,
       year,
+      allYears,
       currentYear,
       categories,
       languages
@@ -64,6 +65,8 @@ class Page extends React.Component {
           translations={translations}
           categories={categories}
           year={year}
+          allYears={allYears}
+          currentYear={currentYear}
         />
         {false && <BgPicture projects={projects.all} />}
         {false && (

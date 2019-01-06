@@ -3,6 +3,7 @@ import React from 'react'
 
 import Banner from './Banner'
 import Introduction from './Introduction'
+import YearNavigator from './YearNavigator';
 
 // const Container = styled.div`
 //   margin: 2rem 0;
@@ -16,6 +17,7 @@ Layout used in 2016 and 2018, showing a banner made of projects logos
 const TopWithBanner = props => {
   return (
     <div>
+      <YearNavigator {...props} />
       <Banner />
       <div className="container small-container">
         <div className="top-with-banner-introduction">

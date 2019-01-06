@@ -33,12 +33,11 @@ class PageContainer extends React.Component {
     const { language, year } = pathContext
     console.log('Render the page', language, year)
     const messages = getMessages({ language, year })
-    console.log({ messages })
-
     const translations = getAllTranslations({ edges: data.allFile.edges })[
       `year${year}`
     ]
     const { projects, categories } = appData[`year${year}`]
+    const allYears = Object.keys(appData).map(key => parseInt(key.slice('year'.length)))
     const settings = getSettings(year)
     const availableLanguageCodes = settings.languages || ['en']
     const isAvailable = lang => availableLanguageCodes.includes(lang.code)
@@ -54,6 +53,7 @@ class PageContainer extends React.Component {
           url={fullUrl}
           translations={translations}
           year={year}
+          allYears={allYears}
           currentYear={currentYear}
           categories={categories}
           languages={languages}
