@@ -1,7 +1,7 @@
 [
   {
     "year": 2016,
-    "languages": ["en", "ja", "zh"]
+    "languages": ["en", "zh", "ja"]
   },
   {
     "year": 2017,
@@ -9,6 +9,6 @@
   },
   {
     "year": 2018,
-    "languages": ["en"]
+    "languages": ["en", "zh", "ja"]
   }
 ]
