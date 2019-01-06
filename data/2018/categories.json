@@ -75,7 +75,7 @@
   },
   {
     "key": "graphql",
-    "count": 10,
-    "disabled": true
+    "count": 15,
+    "disabled": false
   }
 ]
