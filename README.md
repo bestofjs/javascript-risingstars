@@ -1,8 +1,8 @@
-![image](https://user-images.githubusercontent.com/5546996/34452534-0c525f68-ed85-11e7-8d52-647fafffea15.png)
+![image](https://user-images.githubusercontent.com/5546996/50797441-1db42980-1318-11e9-82f1-5874b32437e3.png)
 
 # JavaScript Rising Stars
 
-A complete overview of the JavaScript landscape in 2018: trends about front-end and node.js frameworks, React and Vue ecosystems, tooling, testing, GraphQL...
+A complete overview of the JavaScript landscape in 2018: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
 
 Available in English, Chinese, Spanish and French.
 
