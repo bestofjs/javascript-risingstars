@@ -2,4 +2,4 @@ Like in 2017, {gatsby} was the most popular Static Site Generator (a tool to gen
 
 Gatsby shines with its versatility (you get the best of Single Page Applications and static web sites) and the focus on performance.
 
-If you want to use Vue.js instead of React, {vuepress}, at position number 2, may be the right choice.
+If you want to use Vue.js instead of React, {vuepress} or {nuxt}, at position number 2 and 3, may be the right choice.
