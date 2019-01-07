@@ -1,11 +1,11 @@
 # Meta data
 page:
-  title: "2017年 JavaScript 明星项目"
-  description: "对2017年 JavaScript 领域，在前端框架、Node.js 框架、编译工具、构建工具、测试框架、IDE、静态网站生成器...等各方面进行完整的回顾"
+  title: "2018年 JavaScript 明星项目"
+  description: "对2018年 JavaScript 领域，在前端框架、Node.js 框架、编译工具、构建工具、测试框架、IDE、静态网站生成器...等各方面进行完整的回顾"
 
 # Page content
 header:
-  title: "2017年 JavaScript 明星项目"
+  title: "2018年 JavaScript 明星项目"
 introduction:
   table_of_contents: "目录"
   explanation: "下列图表对比了各个项目在 Github 上于过去 12 个月新增的 star 数量。分析的数据来源为 {link} 网站 ，一个 WEB 领域优秀项目的精选网站。通过点击项目，可以查看更多信息。"
@@ -17,6 +17,7 @@ categories:
   nodejsframework: 'Node.js 框架'
   react: 'React 生态圈'
   vue: 'Vue 生态圈'
+  angular: "Angular 生态圈"
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'
@@ -33,6 +34,7 @@ categories-share:
   nodejsframework: 'Node.js 框架'
   react: 'React 生态圈'
   vue: 'Vue 生态圈'
+  angular: "Angular 生态圈"
   mobile: '移动开发'
   compiler: '编译工具'
   build: '构建工具'
@@ -43,4 +45,4 @@ categories-share:
   graphql: 'Javascript GraphQL 项目'
 
 social:
-  text: "2017年 JavaScript 领域回顾"
+  text: "2018年 JavaScript 领域回顾"
