@@ -24,15 +24,15 @@ const Wall = ({ projects, lang = 'ja', year }) => {
         JavaScript<br /> ベスト・オブ・ザ・イヤー{year}
       </span>
     ),
-    fr: `Le Meilleur du JavaScript en 2017`,
+    fr: `Le Meilleur du JavaScript en ${year}`,
     zh: (
       <span>
-        2017年<br />JavaScript<br />明星项目
+        {year}年<br />JavaScript<br />明星项目
       </span>
     ),
     es: (
       <span>
-        Lo mejor<br />de JavaScript<br />en 2017
+        Lo mejor<br />de JavaScript<br />en {year}
       </span>
     )
   }
