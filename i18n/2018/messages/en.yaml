@@ -27,7 +27,7 @@ categories:
   cssinjs: "CSS in JavaScript"
   graphql: "GraphQL"
   misc: "Miscellaneous"
-
+  learning: "Learning Resource"
 categories-share:
   all: "JavaScript project"
   framework: "front-end framework"
@@ -43,6 +43,6 @@ categories-share:
   ssg: "JavaScript static site generator"
   cssinjs: "CSS-in-JS library"
   graphql: "JavaScript GraphQL project"
-
+  learning: "Learning Resource"
 social:
   text: "Check the JavaScript landscape in 2018"
