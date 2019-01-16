@@ -56,6 +56,14 @@ const Category = ({
                     entities={entities}
                   />
                 )}
+                {key === 'learning' && year === 2018 && (
+                  <Guest
+                    guestId="angelos"
+                    translations={translations}
+                    language={locale}
+                    entities={entities}
+                  />
+                )}
                 <TranslatedBlock
                   translations={translations}
                   language={locale}
