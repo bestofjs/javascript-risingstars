@@ -8,4 +8,4 @@ En la posición número 4, {deno} es el único proyecto nuevo dentro de los 10 p
 
 Citando la descripción en su web, Deno es "a program for executing JavaScript and TypeScript outside of the web browser."
 
-Según su autor Ryan Dahl (el padre de Node.js), este TypeScript runtime es un intento de abordar varios problemas de Node.js. Echa un vistazo a [a su presentación](https://www.youtube.com/watch?v=M3BM9TB-8yA).
+Según su autor Ryan Dahl (el padre de Node.js), este TypeScript runtime es un intento de abordar varios problemas de Node.js. Echa un vistazo [a su presentación](https://www.youtube.com/watch?v=M3BM9TB-8yA).
