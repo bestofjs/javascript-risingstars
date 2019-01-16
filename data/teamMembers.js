@@ -94,7 +94,7 @@ const team = [
     ),
     role: 'translation',
     language: 'es',
-    years: [2017]
+    years: [2017, 2018]
   },
   {
     name: 'Lobot Hijau',
