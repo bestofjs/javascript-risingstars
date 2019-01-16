@@ -80,6 +80,7 @@
   },
   {
     "key": "learning",
-    "count": 10
+    "count": 10,
+    "availableComments": ["en"]
   }  
 ]

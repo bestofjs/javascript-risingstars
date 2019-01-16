@@ -26,7 +26,7 @@ categories:
   cssinjs: 'Feuilles de style en JavaScript'
   graphql: 'GraphQL'
   misc: 'Divers'
-
+  learning: "Learning Resource"
 categories-share:
   all: "le projet JavaScript"
   framework: 'le framework JavaScript côté client'
@@ -41,6 +41,6 @@ categories-share:
   ssg: "le générateur de site statique JavaScript"
   cssinjs: "l'outil CSS-dans-JavaScript"
   graphql: "le projet GraphQL JavaScript"
-
+  learning: "Learning Resource"
 social:
   text: "Retour sur les tendances de l'année 2017 sur la planète JavaScript"

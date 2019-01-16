@@ -27,7 +27,7 @@ categories:
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'
   misc: '杂项'
-
+  learning: "Learning Resource"
 categories-share:
   all: "JavaScript 项目"
   framework: '前端框架'
@@ -43,6 +43,6 @@ categories-share:
   ssg: '静态网站'
   cssinjs: 'CSS in JavaScript'
   graphql: 'Javascript GraphQL 项目'
-
+  learning: "Learning Resource"
 social:
   text: "2018年 JavaScript 领域回顾"

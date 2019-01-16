@@ -101,6 +101,10 @@ class Page extends React.Component {
                   year={year}
                   currentYear={currentYear}
                   intl={intl}
+                  hasComment={
+                    !item.availableComments ||
+                    item.availableComments.includes(locale)
+                  }
                   {...item}
                 />
               ))}
