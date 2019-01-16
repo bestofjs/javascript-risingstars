@@ -27,7 +27,7 @@ categories:
   cssinjs: 'CSS en JavaScript'
   graphql: 'GraphQL'
   misc: 'Miscelánea'
-  learning: "Learning Resource"
+  learning: "Recursos de aprendizaje"
 categories-share:
   all: "Proyecto JavaScript"
   framework: 'Framework front-end'
@@ -43,6 +43,6 @@ categories-share:
   ssg: 'SSG'
   cssinjs: 'Librería CSS-en-JS'
   graphql: 'Proyecto GraphQL JavaScript'
-  learning: "Learning Resource"
+  learning: "Recurso de aprendizaje"
 social:
   text: "Echa una vistazo al universo JavaScript del 2018"
