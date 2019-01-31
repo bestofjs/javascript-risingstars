@@ -58,6 +58,15 @@ const team = [
     years: [2017]
   },
   {
+    name: 'seognil LC',
+    url: 'https://github.com/seognil',
+    avatar: getAvatarURL('5526096'),
+    bio1: '略懂点JS',
+    role: 'translation',
+    language: 'zh',
+    years: [2018]
+  },
+  {
     name: 'Sacha Grief',
     url: 'http://sachagreif.com',
     avatar: getAvatarURL('358832'),
