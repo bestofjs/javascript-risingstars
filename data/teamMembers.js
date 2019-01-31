@@ -104,6 +104,15 @@ const team = [
     role: 'translation',
     language: 'id',
     years: [2017]
+  },
+  {
+    name: 'Seognil LC',
+    url: 'https://github.com/seognil',
+    avatar: getAvatarURL('5526096'),
+    role: 'translation',
+    bio1: '略懂点JS',
+    language: 'zh',
+    years: [2018]
   }
 ]
 
