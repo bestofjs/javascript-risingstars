@@ -1,6 +1,6 @@
 我们过去曾讨论在 JavaScript 中引入静态类型的最佳方案。
 
-到了 2018 年，看起来微软的 {typescript} 大幅领先了其灵感来源 —— Facebook 的 {flow}。
+到了 2018 年，看起来微软的 {typescript} 大幅领先了其主要竞争对手 —— Facebook 的 {flow}。
 
 实际上，支持 TypeScript 的最新版 {babel} 是一个搅局者。
 在 {create-react-app 2.1} 及后续版本中，TypeScript 能够在 React 应用里开箱即用。
