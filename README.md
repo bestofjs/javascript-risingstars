@@ -10,15 +10,15 @@ Available in English, Chinese, Spanish and French.
 
 ### Team members
 
-* [Yohei Ice](https://github.com/meltedice)
 * [Sacha Grief](http://sachagreif.com/)
 * [Michael Rambeau](https://michaelrambeau.com)
 * [Nobuhiro Uchiyama](https://github.com/azukiwasher)
-* [Javier Valencia](http://www.jvalen.com)
-* [Frank Xu](https://github.com/frankyxhl)
+* [Yohei Ice](https://github.com/meltedice)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
 * [王仕军](https://github.com/wangshijun)
+* [Frank Xu](https://github.com/frankyxhl)
 * [Seognil LC](https://github.com/seognil)
+* [Javier Valencia](http://www.jvalen.com)
 
 ### Stack
 

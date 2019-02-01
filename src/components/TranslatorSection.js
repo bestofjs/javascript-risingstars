@@ -34,13 +34,13 @@ const OtherLanguages = ({ year, language, availableLanguages }) => (
 )
 
 const TeamMemberList = ({ language, year }) => {
-  const translators = team.filter(
-    member =>
-      member.role === 'translation' &&
-      member.language === language &&
-      member.years.includes(year)
+  const transWorks = team.translationWorks[year]
+  const translators = ((transWorks && transWorks[language]) || []).map(
+    name => team.translators[name]
   )
-  const authors = team.filter(member => member.role === 'author')
+
+  const authors = Object.keys(team.authorWorks).map(name => team.authors[name])
+
   return (
     <div>
       {translators.length > 0 && (
