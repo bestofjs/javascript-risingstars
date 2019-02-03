@@ -10,32 +10,32 @@ Available in English, Chinese, Spanish and French.
 
 ### Team members
 
-* [Sacha Grief](http://sachagreif.com/)
-* [Michael Rambeau](https://michaelrambeau.com)
-* [Nobuhiro Uchiyama](https://github.com/azukiwasher)
-* [Yohei Ice](https://github.com/meltedice)
-* [Shigeto Yatani](https://www.facebook.com/vanxx2)
-* [王仕军](https://github.com/wangshijun)
-* [Frank Xu](https://github.com/frankyxhl)
-* [Seognil LC](https://github.com/seognil)
-* [Javier Valencia](http://www.jvalen.com)
+- [Frank Xu](https://github.com/frankyxhl)
+- [Javier Valencia](http://www.jvalen.com)
+- [Michael Rambeau](https://michaelrambeau.com)
+- [Nobuhiro Uchiyama](https://github.com/azukiwasher)
+- [Sacha Grief](http://sachagreif.com/)
+- [Seognil LC](https://github.com/seognil)
+- [Shigeto Yatani](https://www.facebook.com/vanxx2)
+- [王仕军](https://github.com/wangshijun)
+- [Yohei Ice](https://github.com/meltedice)
 
 ### Stack
 
-* Built with [Gatsby](https://www.gatsbyjs.org/)
-* Hosted on [Netlify](https://www.netlify.com/)
-* Domain provided by [js.org](https://dns.js.org/)
+- Built with [Gatsby](https://www.gatsbyjs.org/)
+- Hosted on [Netlify](https://www.netlify.com/)
+- Domain provided by [js.org](https://dns.js.org/)
 
 ## How to contribute?
 
 Requirements: Node.js 8.4
 
-* Clone the repo
-* Install the dependencies: `npm install`
-* Start the development server: `npm start`
-* Check the following URL: `http://localhost:8000/`
-* Update the comments in your language
-* Commit and push, the development version of site will be automatically rebuilt on Netlify.com
+- Clone the repo
+- Install the dependencies: `npm install`
+- Start the development server: `npm start`
+- Check the following URL: `http://localhost:8000/`
+- Update the comments in your language
+- Commit and push, the development version of site will be automatically rebuilt on Netlify.com
 
 ---
 
