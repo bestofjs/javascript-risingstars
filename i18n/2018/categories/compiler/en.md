@@ -1,6 +1,6 @@
 There were discussions in the past about the best way to introduce static typing to JavaScript.
 
-In 2018, it seems that {typescript}, from Microsoft took a big advantage over its archival {flow}, from Facebook.
+In 2018, it seems that {typescript}, from Microsoft took a big advantage over its arch-rival {flow}, from Facebook.
 
 The fact that the latest version of {babel} supports TypeScript was a game changer.
 As of {create-react-app 2.1} and later, TypeScript works out of the box in a React application.

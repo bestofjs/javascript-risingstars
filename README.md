@@ -10,14 +10,15 @@ Available in English, Chinese, Spanish and French.
 
 ### Team members
 
-* [Yohei Ice](https://github.com/meltedice)
 * [Sacha Grief](http://sachagreif.com/)
 * [Michael Rambeau](https://michaelrambeau.com)
 * [Nobuhiro Uchiyama](https://github.com/azukiwasher)
-* [Javier Valencia](http://www.jvalen.com)
-* [Frank Xu](https://github.com/frankyxhl)
+* [Yohei Ice](https://github.com/meltedice)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
 * [王仕军](https://github.com/wangshijun)
+* [Frank Xu](https://github.com/frankyxhl)
+* [Seognil LC](https://github.com/seognil)
+* [Javier Valencia](http://www.jvalen.com)
 
 ### Stack
 
@@ -35,6 +36,17 @@ Requirements: Node.js 8.4
 * Check the following URL: `http://localhost:8000/`
 * Update the comments in your language
 * Commit and push, the development version of site will be automatically rebuilt on Netlify.com
+
+---
+
+**troubleshooting**
+
+If you catch up a build failure while using `yarn` on local development,  
+Try this:  
+`yarn add gatsby@~1.9` then `yarn start`  
+But **DO NOT** commit the change of `package.json` or other config files, because this project is using Netlify auto building, and dependencies were frozen on purpose.
+
+---
 
 Files to translate are located files are located in the `i18n` folder.
 
