@@ -25,7 +25,7 @@ const Category = ({
   const key = tag.replace(/-/gi, '')
   return (
     <section className="section">
-      <div className={`container${hasComment? '' : ' small-container'}`}>
+      <div className={`container${hasComment ? '' : ' small-container'}`}>
         <a name={`section-${tag}`} />
         <h2 className="project-category-header">
           <span className="project-category-header-inner">
@@ -47,32 +47,35 @@ const Category = ({
             </div>
           </div>
           <div>
-            {hasComment && <div className="column2">
-              <div className="tag-card-comments markdown-body">
-                {key === 'vue' && year === 2017 && (
-                  <Guest
-                    guestId="evan"
+            {hasComment && (
+              <div className="column2">
+                <div className="tag-card-comments markdown-body">
+                  {key === 'vue' && year === 2017 && (
+                    <Guest
+                      guestId="evan"
+                      translations={translations}
+                      language={locale}
+                      entities={entities}
+                    />
+                  )}
+                  {/* TODO the guest section of categories should be handled in a smarter way! */}
+                  {key === 'learning' && [2018, 2019].includes(year) && (
+                    <Guest
+                      guestId="angelos"
+                      translations={translations}
+                      language={locale}
+                      entities={entities}
+                    />
+                  )}
+                  <TranslatedBlock
                     translations={translations}
                     language={locale}
+                    path={`categories.${tag}`}
                     entities={entities}
                   />
-                )}
-                {key === 'learning' && year === 2018 && (
-                  <Guest
-                    guestId="angelos"
-                    translations={translations}
-                    language={locale}
-                    entities={entities}
-                  />
-                )}
-                <TranslatedBlock
-                  translations={translations}
-                  language={locale}
-                  path={`categories.${tag}`}
-                  entities={entities}
-                />
+                </div>
               </div>
-            </div>}
+            )}
           </div>
         </div>
       </div>
