@@ -1,6 +1,6 @@
 {
-  "date": "2019-12-22T01:04:34.100Z",
-  "count": 166,
+  "date": "2019-12-22T02:24:29.326Z",
+  "count": 193,
   "projects": [
     {
       "name": "Vue.js",
@@ -1036,6 +1036,79 @@
       "url": "http://clarity.design"
     },
     {
+      "name": "NG Bootstrap",
+      "full_name": "ng-bootstrap/ng-bootstrap",
+      "description": "Angular powered Bootstrap",
+      "stars": 7282,
+      "delta": 880,
+      "monthly": [38, 41, 33, 33, 53, 91, 92, 121, 109, 74, 90, 100],
+      "tags": ["angular", "component", "bootstrap"],
+      "owner_id": 14283866,
+      "created_at": "2015-09-14T22:55:53.000Z",
+      "url": "https://ng-bootstrap.github.io"
+    },
+    {
+      "name": "PrimeNG",
+      "full_name": "primefaces/primeng",
+      "description": "The Most Complete UI Component Library for Angular",
+      "stars": 5696,
+      "delta": 853,
+      "monthly": [63, 60, 57, 57, 59, 69, 65, 74, 115, 60, 93, 92],
+      "tags": ["angular", "component"],
+      "owner_id": 3494069,
+      "created_at": "2016-01-16T09:23:28.000Z",
+      "url": "https://www.primefaces.org/primeng"
+    },
+    {
+      "name": "NGXS",
+      "full_name": "ngxs/store",
+      "description": "NGXS - State Management for Angular",
+      "stars": 2572,
+      "delta": 843,
+      "monthly": [42, 71, 39, 54, 45, 57, 79, 90, 106, 90, 98, 79],
+      "tags": ["state", "angular"],
+      "owner_id": 37132593,
+      "created_at": "2018-02-13T18:55:44.000Z",
+      "url": "http://ngxs.io"
+    },
+    {
+      "name": "OnsenUI",
+      "full_name": "OnsenUI/OnsenUI",
+      "description": "Mobile app development framework and SDK using HTML5 and JavaScript. Create beautiful and performant cross-platform mobile apps. Based on Web Components, and provides bindings for Angular 1, 2, React and Vue.js.",
+      "stars": 7768,
+      "delta": 793,
+      "monthly": [41, 60, 47, 65, 53, 32, 68, 49, 59, 55, 228, 73],
+      "tags": ["mobile", "react", "vue", "angular", "webcomponent"],
+      "owner_id": 5972822,
+      "created_at": "2013-09-11T11:52:41.000Z",
+      "url": "https://onsen.io/"
+    },
+    {
+      "name": "ngx-datatable",
+      "full_name": "swimlane/ngx-datatable",
+      "description": "A feature-rich yet lightweight data-table crafted for Angular",
+      "stars": 3749,
+      "delta": 519,
+      "monthly": [29, 38, 34, 35, 47, 46, 47, 42, 54, 37, 48, 54],
+      "tags": ["angular", "table"],
+      "owner_id": 10552812,
+      "created_at": "2016-05-31T19:25:47.000Z",
+      "url": "http://swimlane.github.io/ngx-datatable/"
+    },
+    {
+      "name": "Protractor",
+      "full_name": "angular/protractor",
+      "description": "E2E test framework for Angular apps",
+      "stars": 8456,
+      "delta": 501,
+      "monthly": [46, 40, 29, 46, 43, 23, 47, 44, 43, 33, 63, 37],
+      "tags": ["test", "angular"],
+      "owner_id": 139426,
+      "created_at": "2013-01-16T04:30:53.000Z",
+      "url": "http://www.protractortest.org",
+      "icon": "protractor.svg"
+    },
+    {
       "name": "Webpack",
       "full_name": "webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
@@ -1084,6 +1157,45 @@
       "tags": ["module", "build"],
       "owner_id": 105127,
       "created_at": "2017-12-11T21:51:02.000Z"
+    },
+    {
+      "name": "Gulp",
+      "full_name": "gulpjs/gulp",
+      "description": "The streaming build system",
+      "stars": 31583,
+      "delta": 869,
+      "monthly": [43, 52, 66, 59, 47, 53, 115, 77, 75, 85, 106, 138],
+      "tags": ["build"],
+      "owner_id": 6200624,
+      "created_at": "2013-07-04T05:26:06.000Z",
+      "url": "http://gulpjs.com",
+      "icon": "gulp.svg"
+    },
+    {
+      "name": "Browserify",
+      "full_name": "browserify/browserify",
+      "description": "browser-side require() the node.js way",
+      "stars": 13009,
+      "delta": 628,
+      "monthly": [31, 55, 48, 49, 37, 42, 53, 63, 80, 43, 62, 54],
+      "tags": ["build", "module"],
+      "owner_id": 6320506,
+      "created_at": "2010-09-22T16:11:32.000Z",
+      "url": "http://browserify.org/",
+      "icon": "browserify.svg"
+    },
+    {
+      "name": "Poi",
+      "full_name": "egoist/poi",
+      "description": "A zero-config bundler for JavaScript applications.",
+      "stars": 4832,
+      "delta": 561,
+      "monthly": [39, 25, 32, 16, 24, 51, 47, 43, 54, 83, 85, 120],
+      "tags": ["vue", "build"],
+      "owner_id": 8784712,
+      "created_at": "2016-04-21T16:21:09.000Z",
+      "url": "https://poi.js.org",
+      "icon": "poi.png"
     },
     {
       "name": "Babel",
@@ -1135,6 +1247,31 @@
       "owner_id": 211605,
       "created_at": "2017-10-03T16:54:00.000Z",
       "url": "https://sucrase.io"
+    },
+    {
+      "name": "PureScript",
+      "full_name": "purescript/purescript",
+      "description": "A strongly-typed language that compiles to JavaScript",
+      "stars": 6170,
+      "delta": 804,
+      "monthly": [51, 63, 39, 59, 74, 88, 70, 54, 76, 60, 75, 55],
+      "tags": ["compiler", "types"],
+      "owner_id": 6556677,
+      "created_at": "2013-09-30T05:29:23.000Z",
+      "url": "http://www.purescript.org"
+    },
+    {
+      "name": "Elm",
+      "full_name": "elm/compiler",
+      "description": "Compiler for Elm, a functional language for reliable webapps.",
+      "stars": 5662,
+      "delta": 725,
+      "monthly": [80, 108, 40, 38, 61, 46, 55, 60, 59, 53, 49, 57],
+      "tags": ["compiler", "fp"],
+      "owner_id": 20698192,
+      "created_at": "2012-04-19T06:24:43.000Z",
+      "url": "https://elm-lang.org/",
+      "icon": "elm.svg"
     },
     {
       "name": "Styled Components",
@@ -1217,6 +1354,30 @@
       "tags": ["css-in-js"],
       "owner_id": 14985020,
       "created_at": "2016-12-05T13:58:02.000Z"
+    },
+    {
+      "name": "JSS",
+      "full_name": "cssinjs/jss",
+      "description": "JSS is an authoring tool for CSS which uses JavaScript as a host language.",
+      "stars": 5370,
+      "delta": 971,
+      "monthly": [68, 58, 71, 65, 89, 61, 96, 81, 91, 101, 81, 126],
+      "tags": ["css-in-js"],
+      "owner_id": 9503099,
+      "created_at": "2014-10-12T20:33:53.000Z",
+      "url": "https://cssinjs.org"
+    },
+    {
+      "name": "Typography.js",
+      "full_name": "KyleAMathews/typography.js",
+      "description": "A powerful toolkit for building websites with beautiful design",
+      "stars": 3005,
+      "delta": 743,
+      "monthly": [43, 46, 56, 61, 50, 53, 52, 83, 78, 63, 77, 126],
+      "tags": ["css-in-js", "typo"],
+      "owner_id": 71047,
+      "created_at": "2015-03-05T23:25:48.000Z",
+      "url": "http://kyleamathews.github.io/typography.js/"
     },
     {
       "name": "Omi",
@@ -1359,6 +1520,70 @@
       "icon": "amp.svg"
     },
     {
+      "name": "Ember",
+      "full_name": "emberjs/ember.js",
+      "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
+      "stars": 21297,
+      "delta": 1000,
+      "monthly": [20, 34, 52, 31, 62, 63, 59, 91, 181, 94, 225, 92],
+      "tags": ["framework"],
+      "owner_id": 1253363,
+      "created_at": "2011-05-25T23:39:40.000Z",
+      "url": "https://emberjs.com",
+      "icon": "ember.svg"
+    },
+    {
+      "name": "Rax",
+      "full_name": "alibaba/rax",
+      "description": "The fastest way to build universal application",
+      "stars": 5798,
+      "delta": 956,
+      "monthly": [82, 91, 55, 49, 68, 38, 58, 78, 112, 58, 67, 64],
+      "tags": ["vdom", "framework"],
+      "owner_id": 1961952,
+      "created_at": "2016-10-14T07:53:50.000Z",
+      "icon": "rax.svg"
+    },
+    {
+      "name": "Hybrids",
+      "full_name": "hybridsjs/hybrids",
+      "description": "Web Components with a strong declarative and functional approach based on plain objects and pure functions",
+      "stars": 1654,
+      "delta": 806,
+      "monthly": [85, 32, 45, 36, 71, 58, 220, 45, 52, 34, 58, 51],
+      "tags": ["webcomponent", "framework"],
+      "owner_id": 22907385,
+      "created_at": "2016-12-06T20:19:43.000Z",
+      "url": "https://hybrids.js.org",
+      "icon": "hybrids.svg"
+    },
+    {
+      "name": "Polymer",
+      "full_name": "Polymer/polymer",
+      "description": "Our original Web Component library.",
+      "stars": 21318,
+      "delta": 794,
+      "monthly": [24, 32, 52, 36, 45, 57, 75, 135, 105, 74, 79, 63],
+      "tags": ["framework"],
+      "owner_id": 2159051,
+      "created_at": "2012-08-23T20:56:30.000Z",
+      "url": "https://polymer-library.polymer-project.org/",
+      "icon": "polymer.svg"
+    },
+    {
+      "name": "Inferno",
+      "full_name": "infernojs/inferno",
+      "description": "An extremely fast, React-like JavaScript library for building modern user interfaces",
+      "stars": 14106,
+      "delta": 781,
+      "monthly": [67, 43, 73, 65, 57, 41, 79, 88, 72, 72, 61, 70],
+      "tags": ["vdom", "framework"],
+      "owner_id": 14214240,
+      "created_at": "2015-02-01T22:07:38.000Z",
+      "url": "https://infernojs.org",
+      "icon": "inferno.svg"
+    },
+    {
       "name": "Prisma",
       "full_name": "prisma/prisma",
       "description": "Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)",
@@ -1493,6 +1718,29 @@
       "url": "https://reactstarter.com"
     },
     {
+      "name": "graphql-request",
+      "full_name": "prisma-labs/graphql-request",
+      "description": "Minimal GraphQL client supporting Node and browsers for scripts or simple apps",
+      "stars": 2075,
+      "delta": 783,
+      "monthly": [68, 68, 54, 53, 62, 70, 72, 74, 53, 71, 81, 58],
+      "tags": ["graphql"],
+      "owner_id": 55085183,
+      "created_at": "2017-05-10T20:05:07.000Z"
+    },
+    {
+      "name": "Vulcan",
+      "full_name": "VulcanJS/Vulcan",
+      "description": "A toolkit to quickly build apps with React, GraphQL & Meteor",
+      "stars": 7755,
+      "delta": 515,
+      "monthly": [44, 37, 28, 25, 21, 41, 38, 40, 56, 37, 52, 92],
+      "tags": ["realtime", "meteor", "graphql", "nodejs-framework"],
+      "owner_id": 6634779,
+      "created_at": "2012-09-07T01:13:24.000Z",
+      "url": "http://vulcanjs.org"
+    },
+    {
       "name": "Theia",
       "full_name": "eclipse-theia/theia",
       "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
@@ -1541,6 +1789,17 @@
       "created_at": "2011-12-07T21:14:40.000Z",
       "url": "http://brackets.io",
       "icon": "brackets.svg"
+    },
+    {
+      "name": "Lightable",
+      "full_name": "LightTable/LightTable",
+      "description": "The Light Table IDE",
+      "stars": 10902,
+      "delta": 525,
+      "monthly": [34, 52, 57, 28, 35, 43, 34, 52, 67, 44, 26, 37],
+      "tags": ["ide"],
+      "owner_id": 5877010,
+      "created_at": "2012-06-27T22:32:43.000Z"
     },
     {
       "name": "Front-end Job Interview Questions",
@@ -1940,6 +2199,30 @@
       "url": "https://facebook.github.io/react-360"
     },
     {
+      "name": "Metro",
+      "full_name": "facebook/metro",
+      "description": "The JavaScript bundler for React Native.",
+      "stars": 3396,
+      "delta": 753,
+      "monthly": [92, 47, 38, 42, 51, 52, 64, 71, 74, 77, 61, 78],
+      "tags": ["react-native", "module"],
+      "owner_id": 69631,
+      "created_at": "2016-12-14T23:02:54.000Z",
+      "url": "https://facebook.github.io/metro"
+    },
+    {
+      "name": "ReactXP",
+      "full_name": "microsoft/reactxp",
+      "description": "Library for cross-platform app development.",
+      "stars": 8008,
+      "delta": 617,
+      "monthly": [40, 45, 44, 41, 44, 31, 46, 73, 111, 43, 49, 60],
+      "tags": ["react-native"],
+      "owner_id": 6154722,
+      "created_at": "2017-03-22T19:15:24.000Z",
+      "url": "https://microsoft.github.io/reactxp/"
+    },
+    {
       "name": "Quasar",
       "full_name": "quasarframework/quasar",
       "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps, Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same codebase.",
@@ -2199,6 +2482,43 @@
       "created_at": "2017-03-13T21:16:09.000Z"
     },
     {
+      "name": "Meteor",
+      "full_name": "meteor/meteor",
+      "description": "Meteor, the JavaScript App Platform",
+      "stars": 41490,
+      "delta": 861,
+      "monthly": [60, 42, 50, 64, 71, 63, 77, 84, 96, 87, 67, 109],
+      "tags": ["fullstack", "meteor", "nodejs-framework"],
+      "owner_id": 789528,
+      "created_at": "2012-01-19T01:58:17.000Z",
+      "url": "https://www.meteor.com",
+      "icon": "meteor.svg"
+    },
+    {
+      "name": "Loopback",
+      "full_name": "strongloop/loopback",
+      "description": "LoopBack makes it easy to build modern applications that require complex integrations.",
+      "stars": 12974,
+      "delta": 846,
+      "monthly": [31, 43, 33, 28, 46, 25, 73, 105, 126, 105, 120, 130],
+      "tags": ["nodejs-framework"],
+      "owner_id": 3020012,
+      "created_at": "2013-04-09T16:02:18.000Z",
+      "url": "http://loopback.io",
+      "icon": "loopback.svg"
+    },
+    {
+      "name": "Polka",
+      "full_name": "lukeed/polka",
+      "description": "A micro web server so fast, it'll make you dance!",
+      "stars": 3505,
+      "delta": 770,
+      "monthly": [48, 42, 71, 59, 90, 88, 97, 47, 35, 49, 86, 71],
+      "tags": ["nodejs-framework"],
+      "owner_id": 5855893,
+      "created_at": "2017-12-22T05:55:41.000Z"
+    },
+    {
       "name": "VuePress",
       "full_name": "vuejs/vuepress",
       "description": "Minimalistic Vue-powered static site generator",
@@ -2272,6 +2592,19 @@
       "owner_id": 8527916,
       "created_at": "2014-11-18T17:20:26.000Z",
       "icon": "ava.svg"
+    },
+    {
+      "name": "Jasmine",
+      "full_name": "jasmine/jasmine",
+      "description": "Simple JavaScript testing framework for browsers and node.js",
+      "stars": 14642,
+      "delta": 585,
+      "monthly": [41, 30, 39, 60, 19, 36, 68, 71, 49, 72, 46, 43],
+      "tags": ["test-framework", "test"],
+      "owner_id": 4624349,
+      "created_at": "2008-12-02T23:46:37.000Z",
+      "url": "http://jasmine.github.io/",
+      "icon": "jasmine.svg"
     },
     {
       "name": "vue-cli",
