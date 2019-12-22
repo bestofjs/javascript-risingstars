@@ -1,0 +1,86 @@
+[
+  {
+    "key": "all",
+    "excluded": [
+      "js-algorithms-and-data-structures",
+      "awesome",
+      "you-dont-know-js",
+      "airbnb-style-guide",
+      "front-end-job-interview-questions",
+      "front-end-checklist",
+      "30-seconds-of-code",
+      "nodejs-best-practices",
+      "tech-interview-handbook",
+      "30-seconds-of-css",
+      "33-js-concepts",
+      "project-guidelines"
+    ],
+    "limit": 10,
+    "count": 50
+  },
+  {
+    "key": "framework",
+    "count": 20
+  },
+  {
+    "key": "nodejs-framework",
+    "tags": ["nodejs-framework"],
+    "count": 20
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"]
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "storybook"]
+  },
+  {
+    "key": "angular",
+    "count": 10,
+    "excluded": ["angular", "angular-1", "storybook"]
+  },
+  {
+    "key": "mobile",
+    "excluded": ["mint-ui", "nativebase"],
+    "count": 5
+  },
+  {
+    "key": "compiler",
+    "count": 5
+  },
+  {
+    "key": "build",
+    "count": 5
+  },
+  {
+    "key": "test-framework",
+    "count": 5
+  },
+  {
+    "key": "ide",
+    "count": 5
+  },
+  {
+    "key": "css-in-js",
+    "count": 10,
+    "excluded": ["typographyjs"]
+  },
+  {
+    "key": "ssg",
+    "count": 10
+  },
+  {
+    "key": "graphql",
+    "count": 15,
+    "disabled": false
+  },
+  {
+    "key": "learning",
+    "count": 10,
+    "availableComments": ["en", "es", "zh"]
+  }  
+]

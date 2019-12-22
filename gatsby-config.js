@@ -7,7 +7,7 @@ module.exports = {
     title: `JavaScript Rising Stars`,
     url: 'https://risingstars.js.org',
     GA: 'UA-44563970-4',
-    currentYear: 2018 // used to show Twitter blurb only if we are on the page for the current year
+    currentYear: 2019 // used to show Twitter blurb only if we are on the page for the current year
   },
   plugins: [
     {
