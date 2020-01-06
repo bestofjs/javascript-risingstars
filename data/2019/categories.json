@@ -62,7 +62,8 @@
   },
   {
     "key": "ide",
-    "count": 5
+    "count": 5,
+    "disabled": true
   },
   {
     "key": "css-in-js",
@@ -71,7 +72,8 @@
   },
   {
     "key": "ssg",
-    "count": 10
+    "count": 10,
+    "disabled": true
   },
   {
     "key": "graphql",
@@ -82,5 +84,5 @@
     "key": "learning",
     "count": 10,
     "availableComments": ["en", "es", "zh"]
-  }  
+  }
 ]
