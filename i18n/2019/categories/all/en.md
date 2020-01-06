@@ -8,4 +8,4 @@ The biggest jump in the rankings is {vue-element-admin}, a solution to build nic
 
 {typescript} enters the TOP 10, its success has been one of the main changes in JavaScript landscape over the last years.
 
-{deno}, the JavaScript run-time built by the creator of Node.js was one of the newcomers in 2018. It's still trendy, at the 11th position.
+{deno}, the JavaScript run-time built by the creator of Node.js was one of the newcomers in 2018. It's still trendy, at the 13th position.
