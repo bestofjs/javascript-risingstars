@@ -1,6 +1,6 @@
 At positions 1 and 5, {ant-design} and {material-ui} projects were the most popular sets of components and widgets for React.
 
-At the postion 2 {create-react-app} is still the de-facto standard to create a new React application. A major update this year: {typescript} is now supported.
+At the position 2 {create-react-app} is still the de-facto standard to create a new React application. A major update this year: {typescript} is now supported.
 
 The biggest change in the React world was the introduction of the [hooks](https://reactjs.org/docs/hooks-intro.html) pattern.
 
@@ -18,4 +18,4 @@ This year we have seen a lot of libraries that leverage the power offered by the
 - routing: {react-router} provides hooks to access the browser history
 - form validation: [React Hook Form](https://react-hook-form.com/) has a unique way of handling form validation using "uncontrolled" form controls
 
-Are hooks the final step of the evolutions?
+Are hooks the final step of the evolution?
