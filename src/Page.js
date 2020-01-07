@@ -78,7 +78,6 @@ class Page extends React.Component {
         )}
         <div className="main">
           <div className="main-contents">
-            <Newsletter intl={intl} />
             <TOC
               projects={projects}
               entities={entities}
@@ -116,6 +115,7 @@ class Page extends React.Component {
             />
           </div>
         </div>
+        <Newsletter intl={intl} />
         <TranslatorSection
           language={intl.locale}
           year={year}
