@@ -34,31 +34,36 @@
     "excluded": ["react", "react-native", "storybook"]
   },
   {
-    "key": "vue",
-    "count": 10,
-    "excluded": ["vuejs", "storybook"]
-  },
-  {
     "key": "angular",
     "count": 10,
     "excluded": ["angular", "angular-1", "storybook", "nativescript"]
   },
   {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "storybook"],
+    "availableComments": []
+  },
+  {
     "key": "mobile",
-    "excluded": ["mint-ui", "nativebase"],
-    "count": 5
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
   },
   {
     "key": "compiler",
-    "count": 5
+    "count": 5,
+    "availableComments": []
   },
   {
     "key": "build",
-    "count": 5
+    "count": 5,
+    "availableComments": []
   },
   {
     "key": "test-framework",
-    "count": 5
+    "count": 5,
+    "availableComments": []
   },
   {
     "key": "ide",
@@ -68,7 +73,8 @@
   {
     "key": "css-in-js",
     "count": 10,
-    "excluded": ["typographyjs"]
+    "excluded": ["typographyjs"],
+    "availableComments": []
   },
   {
     "key": "ssg",
@@ -77,12 +83,14 @@
   },
   {
     "key": "graphql",
-    "count": 15,
-    "disabled": false
+    "count": 10,
+    "disabled": false,
+    "availableComments": []
   },
   {
     "key": "learning",
     "count": 10,
-    "availableComments": ["en", "es", "zh"]
+    "availableComments": [],
+    "disabled": false
   }
 ]
