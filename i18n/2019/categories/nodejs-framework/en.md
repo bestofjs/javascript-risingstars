@@ -8,4 +8,6 @@ At position number 3, {strapi} is a completely open source headless CMS that all
 “Get started in just four commands”.
 API Endpoints can be consumed using REST or GraphQL!
 
+Following is {nuxt}, a full-stack framework to build web applications with Vue.js, supporting differents strategies, server-side rendering, client-side only or static generated.
+
 {express} is almost as old as Node.js but it's still in the top 5. Of course it has a huge eco-system and it's familiar to a lot of Node.js developers but it's worth mentioning that the last commit was made 7 months ago. Times are changing?
