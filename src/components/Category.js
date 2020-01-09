@@ -13,6 +13,7 @@ const Category = ({
   tag,
   number,
   excluded = [],
+  guest,
   year,
   currentYear,
   intl,
@@ -23,6 +24,7 @@ const Category = ({
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
   const graphProjects = projects[tag].slice(0, count)
   const key = tag.replace(/-/gi, '')
+
   return (
     <section className="section">
       <div className={`container${hasComment ? '' : ' small-container'}`}>
@@ -50,18 +52,9 @@ const Category = ({
             {hasComment && (
               <div className="column2">
                 <div className="tag-card-comments markdown-body">
-                  {key === 'vue' && year === 2017 && (
+                  {guest && (
                     <Guest
-                      guestId="evan"
-                      translations={translations}
-                      language={locale}
-                      entities={entities}
-                    />
-                  )}
-                  {/* TODO the guest section of categories should be handled in a smarter way! */}
-                  {key === 'learning' && [2018, 2019].includes(year) && (
-                    <Guest
-                      guestId="angelos"
+                      guestId={guest}
                       translations={translations}
                       language={locale}
                       entities={entities}

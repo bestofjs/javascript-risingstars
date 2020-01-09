@@ -31,7 +31,8 @@
     "key": "vue",
     "limit": 10,
     "count": 10,
-    "excluded": ["vuejs", "storybook"]
+    "excluded": ["vuejs", "storybook"],
+    "guest": "evan"
   },
   {
     "key": "mobile",

@@ -34,15 +34,15 @@
     "excluded": ["react", "react-native", "storybook"]
   },
   {
-    "key": "angular",
-    "count": 10,
-    "excluded": ["angular", "angular-1", "storybook", "nativescript"]
-  },
-  {
     "key": "vue",
     "count": 10,
     "excluded": ["vuejs", "storybook"],
-    "availableComments": []
+    "guest": "atinux"
+  },
+  {
+    "key": "angular",
+    "count": 10,
+    "excluded": ["angular", "angular-1", "storybook", "nativescript"]
   },
   {
     "key": "mobile",

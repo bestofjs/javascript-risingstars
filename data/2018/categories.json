@@ -81,6 +81,7 @@
   {
     "key": "learning",
     "count": 10,
-    "availableComments": ["en", "es", "zh"]
-  }  
+    "availableComments": ["en", "es", "zh"],
+    "guest": "angelos"
+  }
 ]
