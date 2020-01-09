@@ -1,4 +1,4 @@
-### Guest Writer: [Sébastien Chopin](seb@nuxtjs.com)
+### Guest Writer: [Sébastien Chopin](https://twitter.com/Atinux)
 
 This year we asked our friend Sébastien Chopin to talk about the Vue.js landscape.
 
