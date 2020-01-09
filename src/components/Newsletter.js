@@ -14,7 +14,7 @@ const Newsletter = ({ intl }) => (
         id="common.newsletter.text"
         defaultMessage={`Sign up for {link}'s newsletter, and...`}
         values={{
-          link: <a href="https://bestofjs.org/">bestofjs.org</a>
+          link: <a href="https://bestofjs.org/">Best of JavaScript</a>
         }}
       />
     </p>

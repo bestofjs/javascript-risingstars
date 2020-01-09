@@ -13,6 +13,7 @@ const Category = ({
   tag,
   number,
   excluded = [],
+  guest,
   year,
   currentYear,
   intl,
@@ -23,9 +24,10 @@ const Category = ({
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
   const graphProjects = projects[tag].slice(0, count)
   const key = tag.replace(/-/gi, '')
+
   return (
     <section className="section">
-      <div className={`container${hasComment? '' : ' small-container'}`}>
+      <div className={`container${hasComment ? '' : ' small-container'}`}>
         <a name={`section-${tag}`} />
         <h2 className="project-category-header">
           <span className="project-category-header-inner">
@@ -47,32 +49,26 @@ const Category = ({
             </div>
           </div>
           <div>
-            {hasComment && <div className="column2">
-              <div className="tag-card-comments markdown-body">
-                {key === 'vue' && year === 2017 && (
-                  <Guest
-                    guestId="evan"
+            {hasComment && (
+              <div className="column2">
+                <div className="tag-card-comments markdown-body">
+                  {guest && (
+                    <Guest
+                      guestId={guest}
+                      translations={translations}
+                      language={locale}
+                      entities={entities}
+                    />
+                  )}
+                  <TranslatedBlock
                     translations={translations}
                     language={locale}
+                    path={`categories.${tag}`}
                     entities={entities}
                   />
-                )}
-                {key === 'learning' && year === 2018 && (
-                  <Guest
-                    guestId="angelos"
-                    translations={translations}
-                    language={locale}
-                    entities={entities}
-                  />
-                )}
-                <TranslatedBlock
-                  translations={translations}
-                  language={locale}
-                  path={`categories.${tag}`}
-                  entities={entities}
-                />
+                </div>
               </div>
-            </div>}
+            )}
           </div>
         </div>
       </div>

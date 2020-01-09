@@ -18,6 +18,9 @@
 .year2018 #picture-block {
   background: #e65100 url('2018/logos-bg.png');
 }
+.year2019 #picture-block {
+  background: #e65100 url('2019/logos-bg.png');
+}
 @media (min-width: 800px) {
   #picture-block {
     height: 300px;
@@ -28,14 +31,8 @@
   font-size: 18px;
 }
 
-@media (min-width: 650px) {
-  .card-introduction {
-    // margin-top: -2rem;
-  }
-}
 @media (min-width: 800px) {
   .card-introduction {
-    // margin-top: -3rem;
     margin-bottom: 2rem;
     font-size: 1.25rem;
   }

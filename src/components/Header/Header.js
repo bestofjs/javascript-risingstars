@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import { navigateTo } from 'gatsby-link'
 
-import svg from '../bestofjs.svg'
 import octocat from './octocat.svg'
 import FullSizeMenu from './FullSizeMenu'
 import DropDownMenu from './DropDownMenu'
@@ -17,7 +15,7 @@ const Header = ({ language, year, availableLanguages }) => {
       <div className="container">
         <div className="header-layout">
           <a id="logo" href="https://bestofjs.org">
-            <img src={svg} width="160" alt="bestofjs.org logo" />
+            <img src={'/bestofjs.svg'} width="160" alt="bestofjs.org logo" />
           </a>
           <FullSizeMenu
             currentLanguage={language}

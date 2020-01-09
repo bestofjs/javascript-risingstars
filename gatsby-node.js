@@ -51,12 +51,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     )
   )
   allYearLanguageCombinations.map(createSinglePage)
+
+  const years = settings.map(item => item.year)
+  const defaultYear = years[years.length - 1]
   createRedirect({
     fromPath: `/`,
-    toPath: `/2018/en`,
+    toPath: `/${defaultYear}/en`,
     redirectInBrowser: true
   })
-  const years = settings.map(item => item.year)
+
   years.forEach(year => {
     createRedirect({
       fromPath: `/${year}`,
