@@ -1,6 +1,6 @@
 newsletter:
-  title: "每周收到最新的 JS 排名"
-  text: "在下面订阅 {link} 的通讯周刊，就能每周收到最新最流行的 JavaScript 项目趋势发展的独家报告"
+  title: "订阅每周最新 JS 排名"
+  text: "在下面订阅 {link} 周刊，就能每周收到最新最流行的 JavaScript 项目发展趋势独家报告"
   button: "订   阅"
   placeholder: "您的邮箱"  
 view_project:

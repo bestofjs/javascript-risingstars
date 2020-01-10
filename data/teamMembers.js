@@ -57,6 +57,9 @@ const translationWorks = {
   2018: {
     zh: ['Seognil LC'],
     es: ['Javier Valencia']
+  },
+  2019: {
+    zh: ['Seognil LC']
   }
 }
 
@@ -103,7 +106,12 @@ const translators = {
     name: 'Seognil LC',
     url: 'https://github.com/seognil',
     avatar: getAvatarURL('5526096'),
-    bio1: '略懂点JS'
+    bio1: '略懂点 JavaScript，做过点翻译工作',
+    bio2: (
+      <span>
+        写了 <a href="https://fe.rualc.com/note/fe-development-cookbook.html">前端开发入门指南</a> 和 <a href="https://fe.rualc.com/note/js-foundation.html">JavaScript 学习指南</a>
+      </span>
+    )
   },
 
   'Javier Valencia': {
