@@ -42,7 +42,8 @@
   {
     "key": "angular",
     "count": 10,
-    "excluded": ["angular", "angular-1", "storybook", "nativescript"]
+    "excluded": ["angular", "angular-1", "storybook", "nativescript"],
+    "guest": "bblackwo"
   },
   {
     "key": "mobile",
