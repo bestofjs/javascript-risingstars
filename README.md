@@ -2,9 +2,9 @@
 
 # JavaScript Rising Stars
 
-A complete overview of the JavaScript landscape in 2018: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
+An overview of the JavaScript landscape in 2019: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
 
-Available in English, Chinese, Spanish and French.
+Available in English, Chinese, Spanish.
 
 ## Credits
 
