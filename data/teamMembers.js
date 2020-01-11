@@ -59,7 +59,8 @@ const translationWorks = {
     es: ['Javier Valencia']
   },
   2019: {
-    zh: ['Seognil LC']
+    zh: ['Seognil LC'],
+    es: ['Javier Valencia']
   }
 }
 
