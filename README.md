@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/5546996/50797441-1db42980-1318-11e9-82f1-5874b32437e3.png)
+![image](https://user-images.githubusercontent.com/5546996/72196611-d39ae200-345c-11ea-9359-538c36db90b8.png)
 
 # JavaScript Rising Stars
 
