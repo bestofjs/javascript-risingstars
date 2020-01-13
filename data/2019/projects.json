@@ -717,7 +717,7 @@
       "icon": "strapi.svg"
     },
     {
-      "name": "Material UI",
+      "name": "Material-UI",
       "full_name": "mui-org/material-ui",
       "description": "React components for faster and easier web development. Build your own design system, or start with Material Design.",
       "stars": 53318,
