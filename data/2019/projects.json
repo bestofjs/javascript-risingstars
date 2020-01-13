@@ -1060,7 +1060,7 @@
         537,
         380
       ],
-      "tags": ["test", "auto"],
+      "tags": ["test-framework", "test", "auto"],
       "owner_id": 8908513,
       "created_at": "2015-03-04T00:46:28.000Z",
       "url": "https://www.cypress.io",
