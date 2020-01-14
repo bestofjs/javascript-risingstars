@@ -2060,7 +2060,7 @@
       "created_at": "2017-06-12T06:12:28.000Z"
     },
     {
-      "name": "react-testing-library",
+      "name": "React Testing Library",
       "full_name": "testing-library/react-testing-library",
       "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
       "stars": 10285,
