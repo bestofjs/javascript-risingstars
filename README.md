@@ -10,6 +10,7 @@ Available in English, Chinese, Spanish.
 
 ### Team members
 
+- [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
 - [Javier Valencia](http://www.jvalen.com)
 - [Michael Rambeau](https://michaelrambeau.com)
