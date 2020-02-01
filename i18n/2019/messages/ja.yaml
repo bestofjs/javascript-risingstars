@@ -1,31 +1,48 @@
 # Meta data
 page:
-  title: "JavaScript ベスト・オブ・ザ・イヤー 2017"
-  description: "2017年 JavaScript 白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2017年のJavaScriptの動向を完全網羅"
+  title: "JavaScript ベスト・オブ・ザ・イヤー 2019"
+  description: "2019年 JavaScript 白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2019年のJavaScriptの動向を完全網羅"
 
 # Page content
 header:
-  title: "JavaScript ベスト・オブ・ザ・イヤー 2017"
+  title: "JavaScript ベスト・オブ・ザ・イヤー 2019"
 introduction:
   table_of_contents: "目次"
-  explanation: "本サイトに掲載したチャートは、2017年の12か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webテクノロジに関連するベストプロジェクトをまとめています。"
+  explanation: "以下のチャートは、2019年の一年間にGitHubで増加したスターの数を比較したものです。Webプラットフォームに関するベストプロジェクトを集めたリストである{link}からの分析となります。各プロジェクトをクリックすると、プロジェクトの詳細を閲覧することができます。"
 conclusion: "おわりに"
 
 categories:
-  all: "2017年人気プロジェクトランキング"
+  all: '総合ランキング'
   framework: 'フロントエンドフレームワーク'
   nodejsframework: 'Node.jsフレームワーク'
-  react: 'Reactボイラープレート'
-  vue: 'Vue Ecosystem'
+  react: 'React エコシステム'
+  vue: 'Vue エコシステム'
+  angular: 'Angular エコシステム'
   mobile: 'モバイル'
   compiler: 'コンパイラ'
   build: 'ビルドツール'
-  testframework: 'テスティングフレームワーク'
+  testframework: 'テスト'
   ide: '統合開発環境（IDE）'
   ssg: '静的サイトジェネレータ'
   cssinjs: 'CSS in JavaScript'
   graphql: 'GraphQL'  
-  misc: '番外編'
-  learning: "Learning Resource"
+  misc: 'その他'
+  learning: '学習リソース'
+categories-share:
+  all: 'JavaScriptプロジェクト'
+  framework: 'フロントエンドフレームワーク'
+  nodejsframework: 'Node.jsフレームワーク'
+  react: 'React ライブラリ'
+  vue: 'Vue ライブラリ'
+  angular: 'Angular ライブラリ'
+  mobile: 'モバイルフレームワーク'
+  compiler: 'JavaScript コンパイラ'
+  build: 'ビルドツール'
+  testframework: 'JavaScript テスト'
+  ide: 'IDE'
+  ssg: 'JavaScript 静的サイトジェネレータ'
+  cssinjs: 'CSS in JavaScript'
+  graphql: 'JavaScript GraphQL'
+  learning: '学習リソース'
 social:
-  text: "「2017年 JavaScript 白書」をチェックする"
+  text: '2019年のJavaScript展望ををチェックしよう'
