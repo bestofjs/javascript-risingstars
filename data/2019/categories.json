@@ -50,7 +50,7 @@
     "tags": ["test", "test-framework", "auto"],
     "excluded": ["storybook", "json-server"],
     "count": 10,
-    "availableComments": ["en"]
+    "availableComments": ["en", "ja"]
   },
   {
     "key": "mobile",
