@@ -48,7 +48,7 @@
   {
     "key": "test-framework",
     "tags": ["test", "test-framework", "auto"],
-    "excluded": ["storybook", "json-server"],
+    "excluded": ["json-server"],
     "count": 10,
     "availableComments": ["en", "ja"]
   },
