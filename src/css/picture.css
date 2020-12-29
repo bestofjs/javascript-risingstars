@@ -25,6 +25,10 @@
   background: #e65100 url("2019/logos-bg.png");
 }
 
+.year2020 #picture-block {
+  background: #e65100 url("2020/logos-bg.png");
+}
+
 @media (min-width: 800px) {
   #picture-block {
     height: 300px;
