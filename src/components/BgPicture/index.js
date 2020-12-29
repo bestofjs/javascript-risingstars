@@ -4,11 +4,11 @@ import styles from "./style.module.css";
 
 const excluded = [
   "axios",
-  "create-react-app",
   "animatecss",
   "react-boilerplate",
   "airbnb-style-guide",
   "front-end-checklist",
+  "freecodecamp",
   "awesome",
   "json-server",
   "threejs",
@@ -25,7 +25,7 @@ const Wall = ({ projects }) => {
   );
   // .slice(0, 50)
   return (
-    <div classnName={styles.bgpicture}>
+    <div className={styles.bgPicture}>
       <div className={styles.grid}>
         {niceProjects.map((project, i) => {
           const rowNumber = Math.floor(i / 7);
@@ -42,7 +42,7 @@ const Wall = ({ projects }) => {
 };
 
 const Cell = ({ project }) => {
-  if (!project) return <div className="empty-cell" />;
+  if (!project) return <div className={styles.emptyCell} />;
   return (
     <div>
       <ProjectAvatar project={project} size={75} />

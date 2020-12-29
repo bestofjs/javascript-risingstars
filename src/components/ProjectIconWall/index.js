@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectAvatar from "../ProjectAvatar";
-import "./style.module.css";
+import styles from "./style.module.css";
 
 const excluded = [
   "axios",
@@ -9,7 +9,6 @@ const excluded = [
   "angularjs",
   "airbnb-style-guide",
   "awesome",
-  "create-react-app",
   "standard",
   "skeleton",
   "webtorrent",
@@ -49,9 +48,9 @@ const Wall = ({ projects, lang = "ja", year }) => {
     .filter((project) => !excluded.includes(project.slug))
     .slice(0, 25);
   return (
-    <div id="wall">
-      <div className="text">{title}</div>
-      <div className="icon-wall-grid">
+    <div className={styles.wall}>
+      <div className={styles.text}>{title}</div>
+      <div className={styles.icon}>
         {niceProjects.map((project) => (
           <div key={project.slug}>
             <ProjectAvatar project={project} size={75} />
