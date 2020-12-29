@@ -1,9 +1,9 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from "react";
+import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from '../utils/TranslatedBlock'
-import ProjectTable from './ProjectTable/ProjectTable'
-import Guest from './Guest'
+import TranslatedBlock from "../utils/TranslatedBlock";
+import ProjectTable from "./ProjectTable/ProjectTable";
+import Guest from "./Guest";
 
 const Category = ({
   projects,
@@ -20,29 +20,29 @@ const Category = ({
   hasComment,
   ...props
 }) => {
-  const { count } = props
-  if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`)
-  const graphProjects = projects[tag].slice(0, count)
-  const key = tag.replace(/-/gi, '')
+  const { count } = props;
+  if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`);
+  const graphProjects = projects[tag].slice(0, count);
+  const key = tag.replace(/-/gi, "");
 
   return (
     <section className="section">
-      <div className={`container${hasComment ? '' : ' small-container'}`}>
+      <div className={`container${hasComment ? "" : " small-container"}`}>
         <a name={`section-${tag}`} />
         <h2 className="project-category-header">
           <span className="project-category-header-inner">
             <FormattedMessage id={`categories.${key}`} />
           </span>
         </h2>
-        <div className={`${hasComment ? 'project-category-grid' : ''}`}>
+        <div className={`${hasComment ? "project-category-grid" : ""}`}>
           <div>
-            <div className={`${hasComment ? 'column1' : ''}`}>
+            <div className={`${hasComment ? "column1" : ""}`}>
               <ProjectTable
                 {...props}
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
-                showBlurb={tag !== 'misc'}
+                showBlurb={tag !== "misc"}
                 currentYear={currentYear}
                 intl={intl}
               />
@@ -62,8 +62,7 @@ const Category = ({
                   )}
                   <TranslatedBlock
                     translations={translations}
-                    language={locale}
-                    path={`categories.${tag}`}
+                    path={tag}
                     entities={entities}
                   />
                 </div>
@@ -73,7 +72,7 @@ const Category = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Category
+export default Category;

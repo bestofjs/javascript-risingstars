@@ -1,0 +1,117 @@
+.project-category-grid {
+  display: flex;
+  flex-direction: column;
+}
+.project-category-grid .column2 {
+  padding: 1rem;
+}
+@media (min-width: 800px) {
+  .project-category-grid {
+    flex-direction: row;
+  }
+  .project-category-grid > div {
+    width: 50%;
+  }
+  .project-category-grid .column1 {
+    padding-right: var(--spacing);
+  }
+  .project-category-grid .column2 {
+    padding: 0;
+    padding-left: var(--spacing);
+  }
+}
+
+.project-category-header {
+  font-size: var(--larger-font);
+  border: 1px solid var(--border-color);
+  margin-bottom: calc(var(--spacing) * 2);
+  text-align: center;
+  background: var(--bg-color);
+}
+
+.project-category-header-inner {
+  display: block;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing);
+  background: var(--bg-color);
+}
+
+.project-table-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.project-table-row:first-child {
+  border-top: 1px dashed var(--light-border-color);
+}
+.project-table-row .ranking {
+  position: absolute;
+  left: -50px;
+  width: 40px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--lightest-text-color);
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  flex: 0 0 40px;
+}
+.project-table-row .inner {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  position: relative;
+  flex-grow: 1;
+  padding: 0 0 0 calc(var(--spacing) / 2);
+}
+.project-table-row .icon {
+  padding-right: 10px;
+}
+.project-table-row .main-column {
+  flex-grow: 1;
+  min-width: 0;
+  padding: 0.7rem 0rem;
+}
+.project-table-row .project-name {
+  margin: 0;
+}
+.project-table-row .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 0.2rem;
+  color: var(--lighter-text-color);
+  font-size: var(--smallish-font);
+}
+.project-table-row .stars {
+  white-space: nowrap;
+  padding-right: 5px;
+}
+.project-table-row:hover {
+  background-color: white;
+}
+.project-table-row:hover .project-table-bar {
+  opacity: 0;
+}
+.project-table-row.is-open {
+  background: white;
+}
+
+.project-table-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(212, 212, 212, 0.4);
+  opacity: 1;
+  z-index: -1;
+}

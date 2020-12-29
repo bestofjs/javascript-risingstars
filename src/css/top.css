@@ -1,0 +1,14 @@
+.year-menu {
+  display: flex;
+  width: 100%;
+}
+.year-menu > * {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+}
+.year-menu > .active {
+  background-color: #e65000;
+  color: white;
+}

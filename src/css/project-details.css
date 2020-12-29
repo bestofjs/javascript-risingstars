@@ -1,0 +1,125 @@
+.project-details {
+  background: white;
+  z-index: 100;
+  overflow: hidden;
+  display: none;
+}
+.project-details.is-open {
+  opacity: 1;
+  z-index: 20;
+  display: block;
+}
+
+.project-details-inner {
+  padding: 10px 20px 20px 20px;
+}
+
+.project-blurb {
+  font-size: var(--medium-font);
+  margin-bottom: 10px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.project-links li {
+  display: block;
+  margin-right: 10px;
+  flex: 1;
+}
+.project-links li:last-child {
+  margin-right: 0;
+}
+.project-links li a,
+.project-links li > span {
+  font-size: var(--small-font);
+  display: block;
+  border: 1px solid var(--light-border-color);
+  text-align: center;
+  border-radius: 3px;
+  padding: 6px 8px;
+}
+.project-links .project-created-at {
+  font-size: var(--smaller-font);
+}
+
+.project-chart {
+  width: 100%;
+  margin: 40px 0 15px 0;
+}
+
+.project-chart-columns {
+  min-height: 150px;
+  display: flex;
+}
+
+.project-chart-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 3px;
+}
+.project-chart-column:last-child {
+  margin-right: 0;
+}
+
+.project-chart-bar {
+  background: rgba(0, 0, 0, 0.1);
+  background: rgba(228, 91, 18, 0.15);
+  position: relative;
+}
+
+.project-chart-stars {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  color: var(--lighter-text-color);
+  font-size: var(--small-font);
+  position: absolute;
+  top: -22px;
+  width: 100%;
+}
+.project-chart-stars span {
+  margin-left: -100%;
+  margin-right: -100%;
+}
+
+.project-chart-months {
+  display: flex;
+  margin-right: 3px;
+}
+.project-chart-months:last-child {
+  margin-right: 0;
+}
+
+.project-chart-month {
+  flex: 1;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.guest {
+  display: flex;
+  margin-bottom: var(--spacing);
+  padding: var(--spacing);
+  border: 1px dashed var(--border-color);
+  background: white;
+}
+
+.guest-portrait {
+  margin-left: var(--spacing);
+}
+.guest-portrait img {
+  max-width: 120px;
+}

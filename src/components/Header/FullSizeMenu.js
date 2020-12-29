@@ -1,9 +1,9 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "next/link";
 
 const FullSizeMenu = ({ year, languages, currentLanguage }) => (
   <div className="language-menu">
-    {languages.map(item => (
+    {languages.map((item) => (
       <LanguageLink
         item={item}
         key={item.code}
@@ -12,16 +12,23 @@ const FullSizeMenu = ({ year, languages, currentLanguage }) => (
       />
     ))}
   </div>
-)
+);
 
 const LanguageLink = ({ item, active, year }) => {
-  if (active)
-    return <span className="language-menu-item is-active">{item.text}</span>
+  if (active) {
+    return <span className="language-menu-item is-active">{item.text}</span>;
+  }
+  // Using `Link` raises warning in the console??
+  // return (
+  //   <Link href={`/${year}/${item.code}`}>
+  //     <a className="language-menu-item">{item.text}</a>
+  //   </Link>
+  // );
   return (
-    <Link to={`/${year}/${item.code}`} className="language-menu-item">
+    <a className="language-menu-item" href={`/${year}/${item.code}`}>
       {item.text}
-    </Link>
-  )
-}
+    </a>
+  );
+};
 
-export default FullSizeMenu
+export default FullSizeMenu;

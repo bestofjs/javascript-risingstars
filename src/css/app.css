@@ -1,0 +1,256 @@
+:root {
+  --spacing: 20px;
+
+  --orange: #cc4700;
+  --linkColor: var(--orange);
+  --activeLinkColor: #e65000;
+
+  --red: #e60932;
+
+  --white: white;
+  --grey: #e8e8e8;
+  --grey2: #dadada;
+  --grey3: #cecece;
+  --mediumgrey: #788080;
+  --darkgrey: #344c4c;
+  --beige: #fffef0;
+
+  --active-color: #cc4700;
+  --secondary-color: #cc4700;
+  --hover-color: var(--white);
+
+  --text-color: var(--darkgrey);
+  --lighter-text-color: var(--mediumgrey);
+  --lightest-text-color: var(--grey3);
+  --light-border-color: var(--grey3);
+  --border-color: var(--mediumgrey);
+  --bg-color: #edefed;
+
+  --root-size-mobile: 15px;
+  --root-size: 19px;
+
+  --smaller-font: 0.7rem;
+  --small-font: 0.8rem;
+  --smallish-font: 0.9rem;
+  --medium-font: 1rem;
+  --large-font: 1.1rem;
+  --larger-font: 1.3rem;
+  --largest-font: 1.5rem;
+
+  --light: 100;
+  --medium: normal;
+  --bold: bold;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  background-color: var(--bg-color);
+  color: #541600;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  margin: 0 0 var(--spacing) 0;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  &:hover {
+    color: var(--activeLinkColor);
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+.container-section {
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 850px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #header .container {
+    padding-left: 0;
+  }
+  .container {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1050px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 1250px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.small-container {
+  max-width: 650px;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* @include secondary-font; */
+}
+.resp-sharing-button {
+  /* font-size: $medium-font; */
+}
+.share-buttons > div {
+  padding: 1rem 0;
+}
+@media (min-width: 480px) {
+  .share-buttons {
+    flex-direction: row;
+  }
+  .share-buttons > div {
+    padding: 0;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#app {
+  width: 100%;
+}
+.intro {
+  font-size: 1.25rem;
+}
+.markdown-body :first-child {
+  margin-top: 0;
+}
+.markdown-body :last-child {
+  margin-bottom: 0;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.star {
+  transform: translateY(2px);
+  margin-left: 2px;
+}
+.conclusion-share-buttons {
+  margin-top: 1.25rem;
+}
+
+.main {
+  padding: 0 20px;
+}
+@media (min-width: 800px) {
+  .main {
+    padding: 0;
+  }
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 10px;
+  margin-bottom: var(--spacing);
+}
+
+.main-image {
+  margin: 0 0 40px 2 0;
+}
+.main-image img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.introduction-container {
+  margin: 40px 0;
+}
+
+@media (min-width: 800px) {
+  .main-image {
+    margin: 80px 0 0;
+    /* FIX ME width: calc((100% - #{$spacing * 4}) / 2); */
+  }
+  .main-image img {
+    margin-right: 40px;
+  }
+
+  .year2017 .introduction {
+    /* width: calc((100% - #{$spacing * 4}) / 2); */
+  }
+
+  .introduction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+  }
+}
+
+.introduction-text {
+  font-size: 20px;
+}
+.introduction-text p {
+  margin-top: 0;
+}
+
+/* block used in 2016 and 2018 layout to display the introduction under the banner */
+.top-with-banner-introduction {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid #788080;
+}
+
+.conclusion {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid var(--border-color);
+}

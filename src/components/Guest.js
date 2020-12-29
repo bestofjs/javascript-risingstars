@@ -1,15 +1,14 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from "react";
+import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from '../utils/TranslatedBlock'
+import TranslatedBlock from "../utils/TranslatedBlock";
 
 const Guest = ({ guestId, translations, language, entities }) => (
   <div className="guest">
     <div className="guest-blurb">
       <TranslatedBlock
         translations={translations}
-        language={language}
-        path={`guests.${guestId}`}
+        path={guestId}
         entities={entities}
       />
     </div>
@@ -17,6 +16,6 @@ const Guest = ({ guestId, translations, language, entities }) => (
       <img src={`/img/guests/${guestId}.jpg`} />
     </div>
   </div>
-)
+);
 
-export default Guest
+export default Guest;

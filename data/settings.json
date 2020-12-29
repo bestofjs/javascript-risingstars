@@ -13,6 +13,7 @@
   },
   {
     "year": 2019,
-    "languages": ["en", "zh", "es", "ja"]
+    "languages": ["en", "zh", "es", "ja"],
+    "current": true
   }
 ]

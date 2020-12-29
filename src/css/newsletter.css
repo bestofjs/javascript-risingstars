@@ -1,0 +1,60 @@
+.newsletter {
+  margin-bottom: calc(var(--spacing) * 2);
+  font-size: var(--medium-font);
+  background: rgba(255, 255, 255, 0.5);
+  padding: calc(var(--spacing) * 1.5);
+}
+.newsletter h3 {
+  font-size: var(--large-font);
+  text-align: center;
+}
+.newsletter form {
+  margin: 0;
+}
+@media screen and (min-width: var(--small-break)) {
+  .newsletter form {
+    display: flex;
+  }
+}
+.newsletter .email {
+  font-size: var(--medium-font);
+  display: block;
+  border-radius: 3px;
+  padding: 10px 10px;
+  border: 1px solid var(--active-color);
+  margin-right: 10px;
+  flex-grow: 1;
+  width: 100%;
+}
+.newsletter .email:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+.newsletter .button {
+  min-width: 140px;
+  display: block;
+}
+
+.button {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  color: var(--active-color);
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+.button:hover {
+  background: var(--hover-color);
+  color: var(--active-color);
+}
+.button.large-button {
+  padding: 20px 10px;
+  font-size: var(--large-font);
+}
