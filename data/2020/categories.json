@@ -1,0 +1,100 @@
+[
+  {
+    "key": "all",
+    "excluded": [
+      "js-algorithms-and-data-structures",
+      "awesome",
+      "you-dont-know-js",
+      "airbnb-style-guide",
+      "front-end-job-interview-questions",
+      "front-end-checklist",
+      "30-seconds-of-code",
+      "nodejs-best-practices",
+      "tech-interview-handbook",
+      "30-seconds-of-css",
+      "33-js-concepts",
+      "project-guidelines",
+      "clean-code"
+    ],
+    "limit": 10,
+    "count": 50
+  },
+  {
+    "key": "framework",
+    "count": 20
+  },
+  {
+    "key": "nodejs-framework",
+    "tags": ["nodejs-framework"],
+    "count": 20
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"]
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "storybook"],
+    "guest": "atinux"
+  },
+  {
+    "key": "angular",
+    "count": 10,
+    "excluded": ["angular", "angular-1", "storybook", "nativescript"],
+    "guest": "bblackwo"
+  },
+  {
+    "key": "test-framework",
+    "tags": ["test", "test-framework", "auto"],
+    "excluded": ["json-server"],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "mobile",
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "compiler",
+    "count": 5,
+    "availableComments": []
+  },
+  {
+    "key": "build",
+    "count": 5,
+    "availableComments": []
+  },
+  {
+    "key": "ide",
+    "count": 5,
+    "disabled": true
+  },
+  {
+    "key": "css-in-js",
+    "count": 10,
+    "excluded": ["typographyjs"],
+    "availableComments": []
+  },
+  {
+    "key": "ssg",
+    "count": 10,
+    "disabled": true
+  },
+  {
+    "key": "graphql",
+    "count": 10,
+    "disabled": false,
+    "availableComments": []
+  },
+  {
+    "key": "learning",
+    "count": 10,
+    "availableComments": [],
+    "disabled": false
+  }
+]

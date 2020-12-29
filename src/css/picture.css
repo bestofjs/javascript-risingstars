@@ -2,7 +2,6 @@
   width: 100%;
   height: 12rem;
   background-color: #e65100;
-  background: var(--bg-color);
   display: flex;
   align-items: center;
   text-align: center;
