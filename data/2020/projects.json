@@ -1,5 +1,5 @@
 {
-  "date": "2020-12-30T06:16:06.578Z",
+  "date": "2020-12-30T08:20:17.016Z",
   "count": 221,
   "projects": [
     {
@@ -637,8 +637,9 @@
       "monthly": [279, 265, 275, 600, 3317],
       "tags": ["icon"],
       "owner_id": 67109815,
-      "created_at": "2020-02-24T14:16:00.000Z",
-      "url": "https://heroicons.com"
+      "created_at": "2020-02-24T00:00:00.000Z",
+      "url": "https://heroicons.com",
+      "icon": "heroicons.svg"
     },
     {
       "name": "Tech Interview Handbook",
@@ -1531,8 +1532,9 @@
       "monthly": [186, 186, 116, 107, 149, 146, 227, 130, 142, 130, 119, 198],
       "tags": ["css-in-js"],
       "owner_id": 42239399,
-      "created_at": "2017-05-23T00:52:34.000Z",
-      "url": "https://linaria.dev"
+      "created_at": "2017-05-23T00:00:00.000Z",
+      "url": "https://linaria.dev",
+      "icon": "linaria.svg"
     },
     {
       "name": "Theme UI",
@@ -1555,8 +1557,9 @@
       "monthly": [91, 56, 104],
       "tags": ["css-in-js"],
       "owner_id": 28682402,
-      "created_at": "2020-04-14T07:07:35.000Z",
-      "url": "https://stitches.dev"
+      "created_at": "2020-04-14T00:00:00.000Z",
+      "url": "https://stitches.dev",
+      "icon": "stitches.svg"
     },
     {
       "name": "CSS Modules",
@@ -1572,13 +1575,13 @@
     {
       "name": "styled-system",
       "full_name": "styled-system/styled-system",
-      "description": "⬢ Style props for rapid UI development",
+      "description": "Style props for rapid UI development",
       "stars": 6406,
       "delta": 1146,
       "monthly": [60, 78, 71, 84, 81, 100, 116, 139, 113, 104, 96, 116],
       "tags": ["css-in-js"],
       "owner_id": 47362392,
-      "created_at": "2017-06-14T23:21:17.000Z",
+      "created_at": "2017-06-15T00:00:00.000Z",
       "url": "https://styled-system.com"
     },
     {
@@ -1698,8 +1701,9 @@
       "monthly": [653, 81, 73, 76, 154, 305, 104, 122, 91, 96, 104, 70],
       "tags": ["framework"],
       "owner_id": 75388917,
-      "created_at": "2016-12-17T00:19:29.000Z",
-      "url": "https://stimulus.hotwire.dev/"
+      "created_at": "2016-12-17T00:00:00.000Z",
+      "url": "https://stimulus.hotwire.dev/",
+      "icon": "stimulus.svg"
     },
     {
       "name": "Stencil",

@@ -1,7 +1,6 @@
 import React from "react";
 // import { navigateTo } from 'gatsby-link'
 
-// import octocat from "./octocat.svg";
 import FullSizeMenu from "./FullSizeMenu";
 import DropDownMenu from "./DropDownMenu";
 
