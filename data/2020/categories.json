@@ -1,21 +1,6 @@
 [
   {
     "key": "all",
-    "excluded": [
-      "js-algorithms-and-data-structures",
-      "awesome",
-      "you-dont-know-js",
-      "airbnb-style-guide",
-      "front-end-job-interview-questions",
-      "front-end-checklist",
-      "30-seconds-of-code",
-      "nodejs-best-practices",
-      "tech-interview-handbook",
-      "30-seconds-of-css",
-      "33-js-concepts",
-      "project-guidelines",
-      "clean-code"
-    ],
     "limit": 10,
     "count": 50
   },
@@ -77,7 +62,6 @@
   {
     "key": "css-in-js",
     "count": 10,
-    "excluded": ["typographyjs"],
     "availableComments": []
   },
   {
