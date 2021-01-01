@@ -51,7 +51,8 @@
   },
   {
     "key": "build",
-    "count": 5,
+    "limit": 5,
+    "count": 10,
     "availableComments": []
   },
   {

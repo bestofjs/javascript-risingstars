@@ -24,7 +24,7 @@ function filterByTag(sortedProjects, entities, category) {
   const { key, excluded, count } = category;
   const isMatching = (project) => {
     if (key === "all") {
-      return !project.tags.includes("learning");
+      return !["learning", "meta"].some((tag) => project.tags.includes(tag));
     }
     return isMatchingTag(category, project);
   };
