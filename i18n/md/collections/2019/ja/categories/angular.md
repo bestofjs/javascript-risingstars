@@ -5,7 +5,7 @@ language: ja
 
 Angularプロジェクトで最も人気である{ngx-admin}は、管理ダッシュボードを構築するためのテンプレートを提供します。
 
-2位の{official-components-for-angular}はAngular CDKと似たような、マテリアルデザインのAngular公式コンポーネントです。
+2位の{material-design-for-angular}はAngular CDKと似たような、マテリアルデザインのAngular公式コンポーネントです。
 
 ReactやVueと同様に、デザインコンポーネントである{ng-zorro}が4位に入りました。
 

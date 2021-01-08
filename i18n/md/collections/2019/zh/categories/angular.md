@@ -5,7 +5,7 @@ language: zh
 
 {ngx-admin} 是最受欢迎的 Angular 项目，它提供了创建管理员仪表盘的模板。
 
-第 2 名是 {official-components-for-angular}，包含 Material Design 组件以及 Angular CDK。
+第 2 名是 {material-design-for-angular}，包含 Material Design 组件以及 Angular CDK。
 
 类似于 React 和 Vue 的情况，Ant Design 组件库 {ng-zorro} 位于第 4 名。
 
