@@ -22,5 +22,5 @@ The [ecosystem around Deno](https://deno.land/x/) is quite young but expect thin
 
 The success of Deno confirms 2 heavy trends:
 
-- The raise of TypeScript language, in both frontend and client sides
-- The raise of ES6 modules imported on the fly by solutions like [Snowpack](https://www.snowpack.dev/)
+- The rise of TypeScript language, in both frontend and client sides
+- The rise of ES6 modules imported on the fly by solutions like [Snowpack](https://www.snowpack.dev/)

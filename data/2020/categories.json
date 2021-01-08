@@ -29,7 +29,7 @@
   {
     "key": "angular",
     "count": 10,
-    "excluded": ["angular", "angular-1", "storybook", "nativescript"],
+    "excluded": ["angular", "angular-1", "storybook", "nativescript", "ionic", "tsparticles", "carbon-design-system"],
     "guest": "bblackwo"
   },
   {
@@ -74,6 +74,7 @@
   {
     "key": "graphql",
     "count": 10,
+    "excluded": ["react-query"],
     "disabled": false,
     "availableComments": []
   },
