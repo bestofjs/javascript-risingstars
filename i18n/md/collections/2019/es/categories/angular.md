@@ -5,7 +5,7 @@ language: es
 
 {ngx-admin}, el proyecto Angular más popular de este año, nos facilita la tarea de crear paneles de administración.
 
-En el número 2 tenemos {official-components-for-angular}, que incluye tanto componentes Material Design como el Angular CDK (Component Dev Kit).  
+En el número 2 tenemos {material-design-for-angular}, que incluye tanto componentes Material Design como el Angular CDK (Component Dev Kit).  
 
 De forma similar a React y Vue, la librería de componentes Ant Design {ng-zorro} está en el puesto número 4.
 

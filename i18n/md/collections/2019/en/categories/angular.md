@@ -5,7 +5,7 @@ language: en
 
 {ngx-admin}, the most popular Angular project, provides templates to create admin dashboards.
 
-At number 2 is {official-components-for-angular} which includes Material Design components as well as the Angular CDK.
+At number 2 is {material-design-for-angular} which includes Material Design components as well as the Angular CDK.
 
 Similarly to React and Vue, the Ant Design component library {ng-zorro} is at number 4.
 
