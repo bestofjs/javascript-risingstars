@@ -1,9 +1,11 @@
 ---
-id: all  
+id: all
 language: en
 ---
 
 2020 is a very special year for many reasons. The most important one: for the first time in 5 years the overall winner of the _Rising Stars_ is not called {vuejs} but {deno}... what a surprise!
+
+#### The Year of the Deno
 
 Deno is a JavaScript run-time from the creator of Node.js, Ryan Dahl.
 
@@ -23,4 +25,14 @@ The [ecosystem around Deno](https://deno.land/x/) is quite young but expect thin
 The success of Deno confirms 2 heavy trends:
 
 - The rise of TypeScript language, in both frontend and client sides
-- The rise of ES6 modules imported on the fly by solutions like [Snowpack](https://www.snowpack.dev/)
+- The rise of ES6 modules imported on the fly by solutions like [Snowpack](https://www.snowpack.dev/), check the new faces of the "Building Tools" section
+
+#### Utility classes won the game?
+
+The success of {tailwind-css} and its "utility first" approach is really interesting.
+
+Compared to more traditional frameworks like {bootstrap}, it provides naming conventions to let developers style pages and components by composing class names.
+
+According to the [State of CSS](https://2020.stateofcss.com/en-US/report/) beautiful report, it's the CSS framework that has the highest ratio of satisfaction.
+
+The [version 2](https://blog.tailwindcss.com/tailwindcss-v2) was released recently and it brings a lot of new features including the support of the beloved "dark mode".
