@@ -23,8 +23,7 @@
   {
     "key": "vue",
     "count": 10,
-    "excluded": ["vuejs", "storybook"],
-    "guest": "atinux"
+    "excluded": ["vuejs", "storybook"]
   },
   {
     "key": "angular",

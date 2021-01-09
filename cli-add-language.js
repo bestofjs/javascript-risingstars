@@ -1,8 +1,12 @@
+/*
+Node.js script to add a language for a given year
+2 parameters: the year and the language
+Example:
+`node cli-add-language 2020 es`
+*/
 const fs = require("fs-extra");
 const path = require("path");
-const settings = require("./data/settings.json");
 const fetch = require("node-fetch");
-// const data = require("./data/index");
 
 async function main() {
   const params = process.argv.slice(2);
@@ -92,11 +96,12 @@ ${content}
 `;
 }
 
+// Used for the migration from Gatsby to Next.js
+// TODO remove when the migration is done
 async function fetchMdContent({ year, language, relativePath, key }) {
   const root = `https://raw.githubusercontent.com/bestofjs/javascript-risingstars/master`;
   const url = `${root}/i18n/${year}${relativePath}${key}/${language}.md`;
   const content = await fetch(url).then((r) => r.text());
-  // console.log(content);
   return content;
 }
 
