@@ -11,7 +11,7 @@
 .newsletter form {
   margin: 0;
 }
-@media screen and (min-width: var(--small-break)) {
+@media screen and (min-width: 600px) {
   .newsletter form {
     display: flex;
   }
@@ -33,6 +33,12 @@
 .newsletter .button {
   min-width: 140px;
   display: block;
+}
+@media screen and (max-width: 599px) {
+  .newsletter .button {
+    margin-top: 1rem;
+    width: 100%;
+  }
 }
 
 .button {
