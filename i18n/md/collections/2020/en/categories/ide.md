@@ -1,4 +1,0 @@
----
-id: ide  
-language: en
----

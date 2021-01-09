@@ -1,4 +1,0 @@
----
-id: mobile  
-language: en
----

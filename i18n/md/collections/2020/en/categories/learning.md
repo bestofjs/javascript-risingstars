@@ -1,4 +1,0 @@
----
-id: learning  
-language: en
----

@@ -1,4 +1,0 @@
----
-id: ssg  
-language: en
----
