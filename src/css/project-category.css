@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 .project-category-grid .column2 {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 @media (min-width: 800px) {
   .project-category-grid {

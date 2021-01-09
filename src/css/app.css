@@ -187,9 +187,9 @@ h1 {
 }
 
 .main {
-  padding: 0 20px;
+  padding: 0 40px;
 }
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   .main {
     padding: 0;
   }
