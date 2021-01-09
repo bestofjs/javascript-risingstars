@@ -7,7 +7,7 @@ language: en
 
 #### The Year of the Deno
 
-Deno is a JavaScript run-time from the creator of Node.js, Ryan Dahl.
+Deno is a JavaScript runtime from the creator of Node.js, Ryan Dahl.
 
 It’s often considered as the sequel of Node.js as it fixes or improves a lot of points, taking advantage of 10 years of experience and iterations with Node.js.
 
