@@ -9,7 +9,7 @@ Backend developers can have fun with {deno} and start hacking with TypeScript ri
 
 Frontend developers now have faster and simpler build tools with solutions such as {esbuild}, {snowpack} and {vite}.
 
-Speaking of tooling, the [version 7](https://blog.npmjs.org/post/631877012766785536/release-v700) of NPM provides [workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) to handle several packages in a single repository, it was one of the big benefits provided by its rival [Yarn](https://yarnpkg.com/).
+Speaking of tooling, [version 7](https://blog.npmjs.org/post/631877012766785536/release-v700) of NPM provides [workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) to handle several packages in a single repository, it was one of the big benefits provided by its rival [Yarn](https://yarnpkg.com/).
 
 For styling, a solution like {tailwind-css} also comes from the same direction, providing more simplicity and it's building an ecosystem around a simple concept.
 

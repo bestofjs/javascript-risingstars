@@ -9,4 +9,4 @@ Compared to more traditional CSS frameworks like {bootstrap} or {bulma}, it prov
 
 According to the [State of CSS](https://2020.stateofcss.com/en-US/report/) beautiful report, it's the CSS framework that has the highest ratio of satisfaction.
 
-The [version 2](https://blog.tailwindcss.com/tailwindcss-v2) was released recently and it brings a lot of new features including the support of the beloved "dark mode".
+[Version 2](https://blog.tailwindcss.com/tailwindcss-v2) was released recently and it brings a lot of new features including the support of the beloved "dark mode".
