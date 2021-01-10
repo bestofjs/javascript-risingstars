@@ -84,7 +84,7 @@ async function createFile({ year, language, relativePath, key }) {
     console.log(`The file already exists`, filepath);
     return;
   }
-  const mdContent = await fetchMdContent({ year, language, relativePath, key });
+  const mdContent = "TODO";
   const fileContent = generateFileContent(language, key, mdContent);
   await fs.outputFile(filepath, fileContent);
   console.log(`MD File created`, filepath);
