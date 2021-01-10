@@ -8,8 +8,8 @@ const getAvatarURL = (userId) =>
 // * ---------------- authors
 
 const authorWorks = {
-  "Sacha Grief": [2016, 2017, 2018],
-  "Michael Rambeau": [2016, 2017, 2018],
+  "Sacha Grief": [2016, 2017, 2018, 2019],
+  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
 };
 
 const authors = {

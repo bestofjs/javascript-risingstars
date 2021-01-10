@@ -41,9 +41,9 @@ const TeamMemberList = ({ language, year }) => {
     (name) => team.translators[name]
   );
 
-  const authors = Object.keys(team.authorWorks).map(
-    (name) => team.authors[name]
-  );
+  const authors = Object.entries(team.authorWorks)
+    .filter(([authorName, years]) => years.includes(year))
+    .map(([authorName, years]) => team.authors[authorName]);
 
   return (
     <div>
