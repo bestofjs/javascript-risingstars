@@ -63,26 +63,10 @@
     "availableComments": []
   },
   {
-    "key": "compiler",
-    "count": 5,
-    "availableComments": [],
-    "disabled": true
-  },
-  {
     "key": "build",
     "limit": 5,
     "count": 10,
     "availableComments": []
-  },
-  {
-    "key": "ide",
-    "count": 5,
-    "disabled": true
-  },
-  {
-    "key": "ssg",
-    "count": 10,
-    "disabled": true
   },
   {
     "key": "graphql",

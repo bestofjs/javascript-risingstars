@@ -37,6 +37,10 @@ async function createAllMdFiles({ year, language }) {
   const categories = await fs.readJson(
     path.resolve(process.cwd(), `./data/${year}/categories.json`)
   );
+  const categoriesWithComments = categories.filter(({ availableComments }) => {
+    if (!availableComments) return true;
+    return availableComments.includes(language);
+  });
 
   await createFile({
     year,
@@ -52,7 +56,7 @@ async function createAllMdFiles({ year, language }) {
     key: `conclusion`,
   });
 
-  for (const item of categories) {
+  for (const item of categoriesWithComments) {
     await createFile({
       year,
       language,
