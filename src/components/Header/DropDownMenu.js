@@ -1,22 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-// import svg from "./globe.svg";
-
 /*
 Dropdown language menu used on small screens
 */
-
 const DropDownMenu = ({ year, languages, currentLanguage, onChange }) => (
   <div className="language-menu-mobile">
     <div className="control has-icons-left">
       <div className="select">
-        <select
-          className="language-dropdown"
-          onChange={onChange}
-          style={{ width: 64 }}
-        >
-          <option />
+        <select className="language-dropdown" onChange={onChange}>
           {languages.map((item) => (
             <LanguageLink
               item={item}
@@ -35,7 +27,7 @@ const DropDownMenu = ({ year, languages, currentLanguage, onChange }) => (
 );
 
 const LanguageLink = ({ item, active, year }) => {
-  if (active) return <option disabled>{item.text}</option>;
+  if (active) return <option selected>{item.text}</option>;
   return <option value={`/${year}/${item.code}`}>{item.text}</option>;
 };
 

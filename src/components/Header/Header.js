@@ -1,13 +1,14 @@
 import React from "react";
-// import { navigateTo } from 'gatsby-link'
+import { useRouter } from "next/router";
 
 import FullSizeMenu from "./FullSizeMenu";
 import DropDownMenu from "./DropDownMenu";
 
 const Header = ({ language, year, availableLanguages }) => {
+  const router = useRouter();
   const onChange = (e) => {
     const path = e.target.value;
-    // navigateTo(path) TODO fix me!
+    router.push(path);
   };
   return (
     <div id="header">
@@ -20,19 +21,21 @@ const Header = ({ language, year, availableLanguages }) => {
               alt="Best of JS logo"
             />
           </a>
-          <FullSizeMenu
-            currentLanguage={language}
-            languages={availableLanguages}
-            year={year}
-          />
-          {availableLanguages.length > 3 && (
-            <DropDownMenu
+          <div className="language-column">
+            <FullSizeMenu
               currentLanguage={language}
               languages={availableLanguages}
               year={year}
-              onChange={onChange}
             />
-          )}
+            {availableLanguages.length > 1 && (
+              <DropDownMenu
+                currentLanguage={language}
+                languages={availableLanguages}
+                year={year}
+                onChange={onChange}
+              />
+            )}
+          </div>
         </div>
       </div>
       <a
