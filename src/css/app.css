@@ -223,10 +223,6 @@ h1 {
     margin-right: 40px;
   }
 
-  .year2017 .introduction {
-    /* width: calc((100% - #{$spacing * 4}) / 2); */
-  }
-
   .introduction-container {
     display: flex;
     justify-content: center;
@@ -253,4 +249,8 @@ h1 {
   margin: 2rem 0;
   padding: 2rem;
   border: 1px solid var(--border-color);
+}
+
+hr {
+  border-top-width: 0;
 }

@@ -18,9 +18,6 @@ const Conclusion = ({ entities, url, intl, translations }) => (
           path="conclusion"
           entities={entities}
         />
-        <div className="conclusion-share-buttons">
-          <Social url={url} text={intl.formatMessage({ id: "social.text" })} />
-        </div>
       </div>
     </div>
   </div>

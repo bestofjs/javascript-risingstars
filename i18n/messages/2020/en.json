@@ -30,24 +30,7 @@
     "misc": "Miscellaneous",
     "learning": "Learning Resource"
   },
-  "categories-share": {
-    "all": "JavaScript project",
-    "framework": "front-end framework",
-    "nodejsframework": "Node project",
-    "react": "React library",
-    "vue": "Vue library",
-    "angular": "Angular library",
-    "mobile": "mobile framework",
-    "compiler": "JavaScript compiler",
-    "build": "build tool",
-    "testframework": "JavaScript testing",
-    "ide": "IDE",
-    "ssg": "JavaScript static site generator",
-    "cssinjs": "CSS-in-JS library",
-    "graphql": "JavaScript GraphQL project",
-    "learning": "Learning Resource"
-  },
   "social": {
-    "text": "Check the JavaScript landscape in 2019"
+    "text": "Check the JavaScript landscape in 2020"
   }
 }

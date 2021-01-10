@@ -6,7 +6,6 @@ import "../css/app.css";
 import "../css/dropdown.css";
 import "../css/footer.css";
 import "../css/picture.css";
-import "../css/social.css";
 import "../css/header.css";
 import "../css/newsletter.css";
 import "../css/project-category.css";
