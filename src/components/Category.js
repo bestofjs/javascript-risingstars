@@ -1,9 +1,9 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from "../utils/TranslatedBlock";
-import ProjectTable from "./ProjectTable/ProjectTable";
 import Guest from "./Guest";
+import ProjectTable from "./ProjectTable/ProjectTable";
+import TranslatedBlock from "./TranslatedBlock";
 
 const Category = ({
   projects,

@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from "../utils/TranslatedBlock";
+import TranslatedBlock from "./TranslatedBlock";
 
 const Guest = ({ guestId, translations, language, entities }) => (
   <div className="guest">

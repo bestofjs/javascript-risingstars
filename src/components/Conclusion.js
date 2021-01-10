@@ -1,8 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import Social from "./Social";
-import TranslatedBlock from "../utils/TranslatedBlock";
+import TranslatedBlock from "./TranslatedBlock";
 
 const Conclusion = ({ entities, url, intl, translations }) => (
   <div className="container small-container" id="conclusion">

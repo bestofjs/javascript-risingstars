@@ -8,7 +8,11 @@ const DropDownMenu = ({ year, languages, currentLanguage, onChange }) => (
   <div className="language-menu-mobile">
     <div className="control has-icons-left">
       <div className="select">
-        <select className="language-dropdown" onChange={onChange}>
+        <select
+          className="language-dropdown"
+          onChange={onChange}
+          value={currentLanguage}
+        >
           {languages.map((item) => (
             <LanguageLink
               item={item}
@@ -27,7 +31,6 @@ const DropDownMenu = ({ year, languages, currentLanguage, onChange }) => (
 );
 
 const LanguageLink = ({ item, active, year }) => {
-  if (active) return <option selected>{item.text}</option>;
   return <option value={`/${year}/${item.code}`}>{item.text}</option>;
 };
 

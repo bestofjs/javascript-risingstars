@@ -4,6 +4,9 @@ import flattenJSON from "flat";
 import flatten from "lodash.flatten";
 import { IntlProvider } from "react-intl";
 import path from "path";
+import dynamic from "next/dynamic";
+
+import "@formatjs/intl-numberformat/polyfill";
 
 import settings from "../../../data/settings.json";
 import allLanguages from "../../../data/allLanguages.json";
@@ -47,6 +50,8 @@ const Root = ({
   categories,
 }: Props) => {
   const fullUrl = `${siteMetadata.url}/${year}/${language}`;
+
+  dynamic(() => import(`../../react-intl-locale-data/${language}`));
 
   return (
     <IntlProvider locale={language} messages={messages}>
