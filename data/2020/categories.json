@@ -28,8 +28,26 @@
   {
     "key": "angular",
     "count": 10,
-    "excluded": ["angular", "angular-1", "storybook", "nativescript", "ionic", "tsparticles", "carbon-design-system"],
+    "excluded": [
+      "angular",
+      "angular-1",
+      "storybook",
+      "nativescript",
+      "ionic",
+      "tsparticles",
+      "carbon-design-system"
+    ],
     "guest": "bblackwo"
+  },
+  {
+    "key": "cssframework",
+    "tags": ["css-lib"],
+    "count": 5
+  },
+  {
+    "key": "css-in-js",
+    "count": 10,
+    "availableComments": []
   },
   {
     "key": "test-framework",
@@ -47,7 +65,8 @@
   {
     "key": "compiler",
     "count": 5,
-    "availableComments": []
+    "availableComments": [],
+    "disabled": true
   },
   {
     "key": "build",
@@ -59,11 +78,6 @@
     "key": "ide",
     "count": 5,
     "disabled": true
-  },
-  {
-    "key": "css-in-js",
-    "count": 10,
-    "availableComments": []
   },
   {
     "key": "ssg",
