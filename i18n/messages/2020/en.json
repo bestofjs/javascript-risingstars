@@ -1,7 +1,7 @@
 {
   "page": {
     "title": "2020 JavaScript Rising Stars",
-    "description": "A complete overview of the JavaScript landscape in 2020: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
+    "description": "A complete overview of the JavaScript landscape in 2020: trends about front-end and Node.js frameworks, tooling, state management..."
   },
   "header": {
     "title": "2020 JavaScript Rising Stars"
@@ -26,6 +26,7 @@
     "ssg": "Static Sites",
     "cssinjs": "CSS in JavaScript",
     "cssframework": "CSS Frameworks",
+    "statemanagement": "State Management",
     "graphql": "GraphQL",
     "misc": "Miscellaneous",
     "learning": "Learning Resource"

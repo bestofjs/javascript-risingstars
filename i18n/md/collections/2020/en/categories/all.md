@@ -5,8 +5,6 @@ language: en
 
 2020 is a very special year for many reasons. The most important one: for the first time in 5 years the overall winner of the _Rising Stars_ is not called {vuejs} but {deno}... what a surprise!
 
-#### The Year of Deno
-
 Deno is a JavaScript runtime from the creator of Node.js, Ryan Dahl.
 
 It’s often considered as the sequel of Node.js as it fixes or improves a lot of points, taking advantage of 10 years of experience and iterations with Node.js.

@@ -42,7 +42,7 @@
   {
     "key": "cssframework",
     "tags": ["css-lib"],
-    "count": 5
+    "count": 10
   },
   {
     "key": "css-in-js",
@@ -63,7 +63,20 @@
     "availableComments": []
   },
   {
+    "key": "compiler",
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
     "key": "build",
+    "limit": 5,
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "statemanagement",
+    "tags": ["state"],
     "limit": 5,
     "count": 10,
     "availableComments": []
