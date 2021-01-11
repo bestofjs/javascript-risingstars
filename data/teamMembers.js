@@ -8,9 +8,9 @@ const getAvatarURL = (userId) =>
 // * ---------------- authors
 
 const authorWorks = {
+  "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
   "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
-  "Benjamin Blackwood": [2020],
 };
 
 const authors = {
