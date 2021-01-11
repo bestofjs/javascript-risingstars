@@ -27,8 +27,13 @@ const OtherLanguages = ({ year, language, availableLanguages }) => (
       .filter((lang) => lang.code !== language)
       .map((lang) => (
         <p key={lang.code}>
-          <Link href={`/${year}/${lang.code}`}>
-            <span>{lang.text}</span>
+          <Link
+            href={{
+              pathname: "/[year]/[language]",
+              query: { language: lang.code, year },
+            }}
+          >
+            <a>{lang.text}</a>
           </Link>
         </p>
       ))}
