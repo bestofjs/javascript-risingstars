@@ -28,12 +28,12 @@ const authors = {
   },
   "Benjamin Blackwood": {
     name: "Benjamin Blackwood",
+    url: "https://bblackwo.github.io",
     avatar: getAvatarURL("7598058"),
     bio1: (
       <span>
         Frontend Developer at{" "}
-        <a href="https://auspost.com.au/">Australia Post</a>, more than 5 years
-        of experience with Angular
+        <a href="https://auspost.com.au/jobs">Australia Post</a>
       </span>
     ),
   },
