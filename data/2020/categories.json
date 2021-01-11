@@ -71,7 +71,8 @@
     "key": "build",
     "limit": 5,
     "count": 10,
-    "availableComments": []
+    "availableComments": ["en"],
+    "guest": "slorber"
   },
   {
     "key": "statemanagement",
