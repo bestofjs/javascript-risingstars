@@ -10,6 +10,7 @@ const getAvatarURL = (userId) =>
 const authorWorks = {
   "Sacha Grief": [2016, 2017, 2018, 2019],
   "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
+  "Benjamin Blackwood": [2020],
 };
 
 const authors = {
@@ -22,6 +23,17 @@ const authors = {
         Author of <a href="http://discovermeteor.com/">Discover Meteor</a> and
         creator of <a href="http://vulcanjs.org/">Vulcan</a>, a React+GraphQL
         open-source framework.
+      </span>
+    ),
+  },
+  "Benjamin Blackwood": {
+    name: "Benjamin Blackwood",
+    avatar: getAvatarURL("7598058"),
+    bio1: (
+      <span>
+        Frontend Developer at{" "}
+        <a href="https://auspost.com.au/">Australia Post</a>, more than 5 years
+        of experience with Angular
       </span>
     ),
   },
