@@ -1,0 +1,96 @@
+[
+  {
+    "key": "all",
+    "limit": 10,
+    "count": 50
+  },
+  {
+    "key": "framework",
+    "count": 20
+  },
+  {
+    "key": "nodejs-framework",
+    "tags": ["nodejs-framework"],
+    "count": 20
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"],
+    "guest": "leerob"
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "storybook"]
+  },
+  {
+    "key": "angular",
+    "count": 10,
+    "excluded": [
+      "angular",
+      "angular-1",
+      "storybook",
+      "nativescript",
+      "ionic",
+      "tsparticles",
+      "carbon-design-system"
+    ]
+  },
+  {
+    "key": "cssframework",
+    "tags": ["css-lib"],
+    "count": 10
+  },
+  {
+    "key": "css-in-js",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "test-framework",
+    "tags": ["test", "test-framework", "auto"],
+    "excluded": ["json-server"],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "mobile",
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "compiler",
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "build",
+    "limit": 5,
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "statemanagement",
+    "tags": ["state"],
+    "limit": 5,
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "graphql",
+    "count": 10,
+    "excluded": ["react-query"],
+    "disabled": false,
+    "availableComments": []
+  },
+  {
+    "key": "learning",
+    "count": 10,
+    "availableComments": [],
+    "disabled": false
+  }
+]

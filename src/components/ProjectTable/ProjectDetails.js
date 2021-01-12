@@ -1,11 +1,10 @@
-import React from 'react'
-import tinytime from 'tinytime'
+import React from "react";
+import tinytime from "tinytime";
 
-import ProjectChart from './ProjectChart'
-import ProjectBlurb from './ProjectBlurb'
+import ProjectChart from "./ProjectChart";
 
-const templateMonthYear = tinytime('{Mo}/{YYYY}')
-import { FormattedMessage } from 'react-intl'
+const templateMonthYear = tinytime("{Mo}/{YYYY}");
+import { FormattedMessage } from "react-intl";
 
 const ProjectDetails = ({
   project,
@@ -15,20 +14,10 @@ const ProjectDetails = ({
   year,
   currentYear,
   intl,
-  showBlurb = true,
 }) => {
   return (
-    <div className={`project-details ${isOpen ? 'is-open' : 'is-closed'}`}>
+    <div className={`project-details ${isOpen ? "is-open" : "is-closed"}`}>
       <div className="project-details-inner">
-        {year === currentYear && showBlurb && (
-          <ProjectBlurb
-            project={project}
-            index={index}
-            tagKey={tagKey}
-            year={year}
-            intl={intl}
-          />
-        )}
         <ProjectChart project={project} intl={intl} />
         <ul className="project-links">
           <li>
@@ -36,7 +25,7 @@ const ProjectDetails = ({
               <FormattedMessage
                 id="common.view_project.created"
                 defaultMessage={`Created`}
-              />{' '}
+              />{" "}
               {templateMonthYear.render(new Date(project.created_at))}
             </span>
           </li>
@@ -48,18 +37,20 @@ const ProjectDetails = ({
               BestOfJS
             </a>
           </li>
-          <li>
-            <a href={project.url}>
-              <FormattedMessage
-                id="common.view_project.homepage"
-                defaultMessage={`Homepage`}
-              />
-            </a>
-          </li>
+          {project.url && (
+            <li>
+              <a href={project.url}>
+                <FormattedMessage
+                  id="common.view_project.homepage"
+                  defaultMessage={`Homepage`}
+                />
+              </a>
+            </li>
+          )}
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectDetails
+export default ProjectDetails;

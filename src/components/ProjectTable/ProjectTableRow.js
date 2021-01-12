@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 
-import Description from './Description'
-import ProjectAvatar from '../ProjectAvatar'
-import Stars from '../Stars'
+import Description from "./Description";
+import ProjectAvatar from "../ProjectAvatar";
+import Stars from "../Stars";
 
 const ProjectTableRow = ({
   project,
   showDescription = true,
   index,
-  showDetails,
-  toggleDetails,
-  widthPercent
+  isOpen,
+  setIsOpen,
+  widthPercent,
 }) => {
   return (
     <div
-      className={`project-table-row ${showDetails ? 'is-open' : 'is-closed'}`}
+      className={`project-table-row ${isOpen ? "is-open" : "is-closed"}`}
       id={project.slug}
       onClick={() => {
-        toggleDetails(!showDetails)
+        setIsOpen(!isOpen);
       }}
     >
       <div className="ranking">
@@ -44,7 +44,7 @@ const ProjectTableRow = ({
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectTableRow
+export default ProjectTableRow;

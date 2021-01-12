@@ -1,23 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
-node_modules
+/node_modules
+/.pnp
+.pnp.js
 
 # testing
-coverage
+/coverage
+
+# next.js
+/.next/
+/out/
 
 # production
-/public
+/build
 
 # misc
 .DS_Store
-.env
-npm-debug.log
+*.pem
 
-# Gatsby
-.gatsby-context.js
-.cache
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-.vscode
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Temporary hiding private files
-memo.node_modules
-/test
+# vercel
+.vercel

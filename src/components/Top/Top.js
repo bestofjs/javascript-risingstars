@@ -1,11 +1,21 @@
-import React from 'react'
-import TopWithBanner from './TopWithBanner'
-import TopWithPicture from './TopWithPicture'
+import React from "react";
 
-const Top = props => {
-  const { year } = props
-  const Component = false ? TopWithPicture : TopWithBanner
-  return <Component {...props} />
-}
+import Banner from "./Banner";
+import Introduction from "./Introduction";
+import YearNavigator from "./YearNavigator";
 
-export default Top
+const Top = (props) => {
+  return (
+    <div>
+      <YearNavigator {...props} />
+      <Banner />
+      <div className="container small-container">
+        <div className="top-with-banner-introduction">
+          <Introduction {...props} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Top;

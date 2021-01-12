@@ -1,5 +1,5 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from "react";
+import { FormattedMessage } from "react-intl";
 
 const Newsletter = ({ intl }) => (
   <div className="newsletter container container-section small-container markdown-body">
@@ -14,7 +14,7 @@ const Newsletter = ({ intl }) => (
         id="common.newsletter.text"
         defaultMessage={`Sign up for {link}'s newsletter, and...`}
         values={{
-          link: <a href="https://bestofjs.org/">Best of JavaScript</a>
+          link: <a href="https://bestofjs.org/">Best of JS</a>,
         }}
       />
     </p>
@@ -31,8 +31,8 @@ const Newsletter = ({ intl }) => (
         <input
           type="email"
           placeholder={intl.formatMessage({
-            id: 'common.newsletter.placeholder',
-            defaultMessage: 'Your Email'
+            id: "common.newsletter.placeholder",
+            defaultMessage: "Your Email",
           })}
           name="EMAIL"
           className="required email"
@@ -89,6 +89,6 @@ const Newsletter = ({ intl }) => (
       </form>
     </div>
   </div>
-)
+);
 
-export default Newsletter
+export default Newsletter;

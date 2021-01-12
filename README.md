@@ -1,10 +1,10 @@
-![image](https://user-images.githubusercontent.com/5546996/72196611-d39ae200-345c-11ea-9359-538c36db90b8.png)
+[![image](https://user-images.githubusercontent.com/5546996/104084816-f63d2200-528d-11eb-96ca-50296b643f6e.png)](https://javascript-risingstars.vercel.app/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2019: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
+An overview of the JavaScript landscape in 2020: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
 
-Available in English, Chinese, Spanish.
+Available in English, Chinese and Spanish (soon!)
 
 ## Credits
 
@@ -23,63 +23,52 @@ Available in English, Chinese, Spanish.
 
 ### Stack
 
-- Built with [Gatsby](https://www.gatsbyjs.org/)
-- Hosted on [Netlify](https://www.netlify.com/)
+- Built with [Next.js](https://nextjs.org/)
+- Hosted on [Vercel](https://vercel.com/)
 - Domain provided by [js.org](https://dns.js.org/)
 
 ## How to contribute?
 
-Requirements: Node.js 8.4
+Requirements: Node.js 14+
 
 - Clone the repo
 - Install the dependencies: `npm install`
-- Start the development server: `npm start`
-- Check the following URL: `http://localhost:8000/`
+- Start the development server: `npm run dev`
+- Check the following URL: `http://localhost:3000/`
 - Update the comments in your language
-- Commit and push, the development version of site will be automatically rebuilt on Netlify.com
 
----
+## Translations
 
-**troubleshooting**
+The content to translate are located in the `i18n` folder.
 
-If you catch up a build failure while using `yarn` on local development,  
-Try this:  
-`yarn add gatsby@~1.9` then `yarn start`  
-But **DO NOT** commit the change of `package.json` or other config files, because this project is using Netlify auto building, and dependencies were frozen on purpose.
+There are 2 types of file to translate:
 
----
-
-Files to translate are located files are located in the `i18n` folder.
+- markdown content inside the `md` folder
+- key/values messages stored as JSON in the `messages` folder
 
 ```
-i18n
-├── 2016
-├── 2017
-│   ├── categories
-│   │   ├── all
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── build
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── compiler
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   ├── conclusion
-│   │   ├── en.md
-│   │   ├── ja.md
-│   │   └── zh.md
-│   ├── introduction
-│   │   ├── en.md
-│   │   ├── ja.md
-│   │   └── zh.md
-│   └── messages
-│       ├── en.yaml
-│       ├── index.js
-│       ├── ja.yaml
-│       └── zh.yaml
-└── messages.js
+./i18n
+├── md
+│   └── collections
+│       └── 2020
+│           └── en
+│               ├── categories
+│               │   ├── all.md
+│               │   ├── angular.md
+│               │   ├── build.md
+│               │   ├── framework.md
+│               │   ├── nodejs-framework.md
+│               │   ├── react.md
+│               │   └── vue.md
+│               ├── conclusion.md
+│               ├── guests
+│               │   ├── atinux.md
+│               │   ├── bblackwo.md
+│               │   └── leerob.md
+│               └── introduction.md
+└── messages
+    ├── 2020
+    │   └── en.json
+    └── common
+        ├── en.json
 ```

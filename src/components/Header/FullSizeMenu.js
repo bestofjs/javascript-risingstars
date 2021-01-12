@@ -1,27 +1,33 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "next/link";
 
 const FullSizeMenu = ({ year, languages, currentLanguage }) => (
   <div className="language-menu">
-    {languages.map(item => (
+    {languages.map((lang) => (
       <LanguageLink
-        item={item}
-        key={item.code}
-        active={currentLanguage === item.code}
+        lang={lang}
+        key={lang.code}
+        active={currentLanguage === lang.code}
         year={year}
       />
     ))}
   </div>
-)
+);
 
-const LanguageLink = ({ item, active, year }) => {
-  if (active)
-    return <span className="language-menu-item is-active">{item.text}</span>
+const LanguageLink = ({ lang, active, year }) => {
+  if (active) {
+    return <span className="language-menu-item is-active">{lang.text}</span>;
+  }
   return (
-    <Link to={`/${year}/${item.code}`} className="language-menu-item">
-      {item.text}
+    <Link
+      href={{
+        pathname: "/[year]/[language]",
+        query: { language: lang.code, year },
+      }}
+    >
+      <a className="language-menu-item">{lang.text}</a>
     </Link>
-  )
-}
+  );
+};
 
-export default FullSizeMenu
+export default FullSizeMenu;

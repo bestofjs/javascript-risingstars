@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "next/link";
 
-import team from '../../data/teamMembers'
+import team from "../../data/teamMembers";
 
 const Section = ({ language, year, availableLanguages }) => {
   return (
@@ -17,29 +17,38 @@ const Section = ({ language, year, availableLanguages }) => {
         )}
       </div>
     </section>
-  )
-}
+  );
+};
 
 const OtherLanguages = ({ year, language, availableLanguages }) => (
-  <div style={{ marginTop: '2rem' }}>
+  <div style={{ marginTop: "2rem" }}>
     <p className="member-list-header">Available Translations</p>
     {availableLanguages
-      .filter(lang => lang.code !== language)
-      .map(lang => (
+      .filter((lang) => lang.code !== language)
+      .map((lang) => (
         <p key={lang.code}>
-          <Link to={`/${year}/${lang.code}`}>{lang.text}</Link>
+          <Link
+            href={{
+              pathname: "/[year]/[language]",
+              query: { language: lang.code, year },
+            }}
+          >
+            <a>{lang.text}</a>
+          </Link>
         </p>
       ))}
   </div>
-)
+);
 
 const TeamMemberList = ({ language, year }) => {
-  const transWorks = team.translationWorks[year]
+  const transWorks = team.translationWorks[year];
   const translators = ((transWorks && transWorks[language]) || []).map(
-    name => team.translators[name]
-  )
+    (name) => team.translators[name]
+  );
 
-  const authors = Object.keys(team.authorWorks).map(name => team.authors[name])
+  const authors = Object.entries(team.authorWorks)
+    .filter(([authorName, years]) => years.includes(year))
+    .map(([authorName, years]) => team.authors[authorName]);
 
   return (
     <div>
@@ -48,8 +57,8 @@ const TeamMemberList = ({ language, year }) => {
       )}
       <AuthorBlock authors={authors} />
     </div>
-  )
-}
+  );
+};
 
 const AuthorBlock = ({ authors }) => (
   <div>
@@ -60,25 +69,25 @@ const AuthorBlock = ({ authors }) => (
       ))}
     </div>
   </div>
-)
+);
 
 const translations = {
-  ja: 'Japanese version',
-  zh: 'Chinese (simplified) version',
-  es: 'Spanish version',
-  id: 'Bahasa Indonesia'
-}
+  ja: "Japanese version",
+  zh: "Chinese (simplified) version",
+  es: "Spanish version",
+  id: "Bahasa Indonesia",
+};
 
 const TranslatorBlock = ({ translators, language }) => (
-  <div style={{ marginBottom: '2rem' }}>
+  <div style={{ marginBottom: "2rem" }}>
     <p className="member-list-header">{translations[language]}</p>
     <div className="translator-list">
-      {translators.map(translator => (
+      {translators.map((translator) => (
         <TeamMember member={translator} key={translator.name} />
       ))}
     </div>
   </div>
-)
+);
 
 const TeamMember = ({ member }) => (
   <div className="translator-list-item">
@@ -95,6 +104,6 @@ const TeamMember = ({ member }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Section
+export default Section;

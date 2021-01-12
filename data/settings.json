@@ -14,5 +14,10 @@
   {
     "year": 2019,
     "languages": ["en", "zh", "es", "ja"]
+  },
+  {
+    "year": 2020,
+    "languages": ["en"],
+    "current": true
   }
 ]

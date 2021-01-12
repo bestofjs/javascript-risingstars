@@ -1,0 +1,48 @@
+{
+  "page": {
+    "title": "Les Meilleurs Projets JavaScript en 2017",
+    "description": "Un panorama complet du paysage du language JavaScript en 2017, côté client, serveur, mobile..."
+  },
+  "header": {
+    "title": "Les Meilleurs Projets JavaScript en 2017"
+  },
+  "introduction": {
+    "table_of_contents": "Sommaire",
+    "explanation": "Les chiffres présentés sont les nombres d'étoiles ajoutées sur GitHub au cours de l'année 2017. Les projets présentés proviennent de {link}, une application web qui rassemble toutes les tendances liées au développement web."
+  },
+  "conclusion": "Conclusion",
+  "categories": {
+    "all": "Projets les plus populaires en 2017",
+    "framework": "Frameworks côté client",
+    "nodejsframework": "Frameworks node.js",
+    "react": "Eco-système React",
+    "vue": "Eco-système Vue",
+    "mobile": "Mobile",
+    "compiler": "Compilateurs JavaScript",
+    "build": "Outils de construction",
+    "testframework": "Frameworks de test",
+    "ide": "Editeurs de texte",
+    "ssg": "Générateurs de Site Statique",
+    "cssinjs": "Feuilles de style en JavaScript",
+    "graphql": "GraphQL",
+    "misc": "Divers"
+  },
+  "categories-share": {
+    "all": "le projet JavaScript",
+    "framework": "le framework JavaScript côté client",
+    "nodejsframework": "le framework Node.js",
+    "react": "le projet React",
+    "vue": "le project Vue.js",
+    "mobile": "le framework JavaScript pour mobiles",
+    "compiler": "le compilateur JavaScript",
+    "build": "l'outil de construction JavaScript",
+    "testframework": "le framework de test JavaScript",
+    "ide": "l'éditeur de texte",
+    "ssg": "le générateur de site statique JavaScript",
+    "cssinjs": "l'outil CSS-dans-JavaScript",
+    "graphql": "le projet GraphQL JavaScript"
+  },
+  "social": {
+    "text": "Retour sur les tendances de l'année 2017 sur la planète JavaScript"
+  }
+}

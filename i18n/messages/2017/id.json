@@ -1,0 +1,47 @@
+{
+  "page": {
+    "title": "JavaScript Rising Stars 2017",
+    "description": "Sebuah pandangan lengkap tentang dunia JavaScript di tahun 2017: tren seputar frameworks front-end dan node.js, tooling, IDE, Static site generators..."
+  },
+  "header": {
+    "title": "JavaScript Rising Stars 2017"
+  },
+  "introduction": {
+    "table_of_contents": "Daftar Isi",
+    "explanation": "Grafik berikut membandingkan jumlah bintang yang diterima di GitHub selama 12 terakhir. Kami menganalisa proyek-proyek dari {link}, sebuah daftar proyek-proyek terbaik di dunia web. Ingat bahwa anda bisa mengklik salah satu proyek untuk mendapatkan informasi lebih lengkap."
+  },
+  "conclusion": "Kesimpulan",
+  "categories": {
+    "all": "Proyek Paling Populer Secara Keseluruhan",
+    "framework": "Front-end Frameworks",
+    "nodejsframework": "Node.js Frameworks",
+    "react": "React Ecosystem",
+    "vue": "Vue Ecosystem",
+    "mobile": "Mobile",
+    "compiler": "Compilers",
+    "build": "Build Tools",
+    "testframework": "Testing Frameworks",
+    "ide": "IDEs & Editors",
+    "ssg": "Static Sites",
+    "cssinjs": "CSS in JavaScript",
+    "graphql": "GraphQL"
+  },
+  "categories-share": {
+    "all": "JavaScript project",
+    "framework": "front-end framework",
+    "nodejsframework": "Node project",
+    "react": "React library",
+    "vue": "Vue library",
+    "mobile": "mobile framework",
+    "compiler": "JavaScript compiler",
+    "build": "build tool",
+    "testframework": "JavaScript testing framework",
+    "ide": "IDE",
+    "ssg": "JavaScript static site generator",
+    "cssinjs": "CSS-in-JS library",
+    "graphql": "JavaScript GraphQL project"
+  },
+  "social": {
+    "text": "Cari tahu proyek JavaScript paling populer tahun 2017"
+  }
+}
