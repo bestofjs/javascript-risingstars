@@ -17,7 +17,7 @@ What to expect for 2021?
 
 It will be interesting to see what comes of the React Server Components.
 
-How far {rome} project will go, in its attempt to unify the JavaScript tooling: could it be the single dependency to handle compiling, testing, linting... everything?
+Now that Sebastian McKenzie is [working full-time on Rome](https://rome.tools/funding/), how far will it go in its attempt to unify JavaScript tooling. Could it be the single dependency to handle compiling, testing, linting... everything?
 
 We'd keep an eye on the fullstack framework {redwood} project too, that plays well with GraphQL and has a unique way to handle data fetching using what they call "cells".
 
