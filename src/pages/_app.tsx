@@ -1,9 +1,8 @@
-// import { ChakraProvider } from "@chakra-ui/react";
 import { AppProps } from "next/app";
 
+// TODO move to CSS Modules natively supported by Next.js?
 import "../css/app.css";
 import "../css/dropdown.css";
-import "../css/footer.css";
 import "../css/picture.css";
 import "../css/header.css";
 import "../css/newsletter.css";
