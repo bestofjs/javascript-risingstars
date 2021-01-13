@@ -2,6 +2,6 @@
 id: slorber
 language: en
 ---
-### Guest Writer: [Sebastien Lorber](https://sebastienlorber.com/)
+Guest Writer - [Sébastien Lorber](http://sebastienlorber.com)
 
-Sebastien Lorber is a freelance developer living near Paris, specialized in React and React Native.
+Sébastien is a React early adopter, working with Facebook Open-Source on {docusaurus}
