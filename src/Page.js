@@ -42,7 +42,7 @@ const Page = ({
         <meta property="og:type" content="article" />
         <meta property="og:url" content={pageURL} />
         <meta property="og:image" content={imageURL} />
-        <meta name="twitter:image:src" content={imageURL}>
+        <meta name="twitter:image:src" content={imageURL} />
         <meta name="twitter:card" content="summary" />
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
