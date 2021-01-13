@@ -25,26 +25,25 @@ const Page = ({
   categories,
   languages,
 }) => {
-  const locale = intl.locale;
+  const language = intl.locale;
   const title = intl.formatMessage({ id: "page.title" });
   const description = intl.formatMessage({ id: "page.description" });
+  const rootURL = process.env.ROOT_URL || "";
+  const pageURL = `${rootURL}/${year}/${language}`;
+  const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
 
   return (
     <div>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta
-          property="og:image"
-          content={`/img/${year}/${intl.locale}/rising-stars.png`}
-        />
+        <meta property="og:image" content={imageURL} />
         <meta property="og:type" content="article" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={pageURL} />
       </Head>
-      <Header
-        language={intl.locale}
-        year={year}
-        availableLanguages={languages}
-      />
+      <Header language={language} year={year} availableLanguages={languages} />
       <Top
         entities={entities}
         url={url}
@@ -57,11 +56,7 @@ const Page = ({
       />
       {false && <BgPicture projects={projects.all} />}
       {false && (
-        <ProjectIconWall
-          projects={projects.all}
-          lang={intl.locale}
-          year={year}
-        />
+        <ProjectIconWall projects={projects.all} lang={language} year={year} />
       )}
       <div className="main">
         <div className="main-contents">
@@ -82,14 +77,14 @@ const Page = ({
                 number={i + 1}
                 projects={projects}
                 entities={entities}
-                locale={locale}
+                locale={language}
                 translations={translations}
                 year={year}
                 currentYear={currentYear}
                 intl={intl}
                 hasComment={
                   !item.availableComments ||
-                  item.availableComments.includes(locale)
+                  item.availableComments.includes(language)
                 }
                 {...item}
               />
@@ -104,11 +99,11 @@ const Page = ({
       </div>
       <Newsletter intl={intl} />
       <TranslatorSection
-        language={intl.locale}
+        language={language}
         year={year}
         availableLanguages={languages}
       />
-      <Footer language={intl.locale} />
+      <Footer language={language} />
     </div>
   );
 };
