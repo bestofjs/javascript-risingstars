@@ -3,7 +3,7 @@ id: cssframework
 language: en
 ---
 
-Compared to last year, we added this section to put emphasize on the success of Tailwind CSS and its "utility first" approach.
+Compared to last year, we added this section to put emphasize on the success of {tailwind-css} and its "utility first" approach.
 
 Compared to more traditional CSS frameworks like {bootstrap} or {bulma}, it provides naming conventions to let developers style pages and components by composing class names.
 
