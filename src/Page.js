@@ -36,12 +36,13 @@ const Page = ({
     <div>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:image" content={imageURL} />
-        <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
+        <meta name="description" content={description} />
         <meta property="og:description" content={description} />
+        <meta property="og:type" content="article" />
         <meta property="og:url" content={pageURL} />
+        <meta property="og:image" content={imageURL} />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
       <Top
