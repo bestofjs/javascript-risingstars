@@ -42,7 +42,6 @@
     "key": "build",
     "limit": 5,
     "count": 10,
-    "availableComments": ["en"],
     "guest": "slorber"
   },
   {

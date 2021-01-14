@@ -45,7 +45,6 @@ const TeamMemberList = ({ language, year }) => {
   const translators = ((transWorks && transWorks[language]) || []).map(
     (name) => team.translators[name]
   );
-  console.log({ translators, language, transWorks });
 
   const authors = Object.entries(team.authorWorks)
     .filter(([authorName, years]) => years.includes(year))
