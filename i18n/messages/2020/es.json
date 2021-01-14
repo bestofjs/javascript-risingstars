@@ -24,10 +24,14 @@
     "testframework": "Testing",
     "ide": "Editores",
     "ssg": "SSG",
-    "cssframework": "Frameworks CSS",
     "cssinjs": "CSS en JavaScript",
+    "cssframework": "Frameworks CSS",
+    "statemanagement": "Estado de la aplicación",
     "graphql": "GraphQL",
     "misc": "Miscelánea",
     "learning": "Recursos de aprendizaje"
+  },
+  "social": {
+    "text": "Check the JavaScript landscape in 2020"
   }
 }
