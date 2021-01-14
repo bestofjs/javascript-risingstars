@@ -21,7 +21,7 @@ Jadi apa yang membuat Vue.js spesial?
 * Dipakai oleh salah satu framework PHP paling populer, [Laravel](https://laravel.com/), sebagai view engine bawaannya.
 * Tidak didekengi oleh perusahaan besar di Internet seperti Facebook atau Google tapi dimaintain oleh [Evan You](https://github.com/yyx990803) sebagai proyek open-source yang disponsori oleh crowd-sourcing.
 
-Poin ini mungkin mirip dengan point terakhir di atas, tapi Vue.js sangat populer diantara developer Tiongkok. Ia dipakai oleh platform e-commerce paling besar di Tiongkok (Alibaba), juga dipakai oleh perusahan lain seperti Gitlab atau Adobe.
+Poin ini mungkin mirip dengan point terakhir di atas, tapi Vue.js sangat populer diantara developer Tiongkok. Ia dipakai oleh platform e-commerce paling besar di Tiongkok (Alibaba), juga dipakai oleh perusahan lain seperti GitLab atau Adobe.
 
 ### React, nomor 2, lagi!
 

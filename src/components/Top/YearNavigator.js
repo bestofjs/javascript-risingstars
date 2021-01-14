@@ -7,11 +7,7 @@ const YearNavigator = ({ allYears, year: activeYear }) => {
       <div className="container small-container">
         <div className="year-menu">
           {allYears.map((year) => (
-            <YearNavigator.Item
-              key={year}
-              year={year}
-              isActive={activeYear === year}
-            />
+            <YearLink key={year} year={year} isActive={activeYear === year} />
           ))}
         </div>
       </div>
@@ -19,14 +15,18 @@ const YearNavigator = ({ allYears, year: activeYear }) => {
   );
 };
 
-YearNavigator.Item = ({ year, isActive }) => {
-  const url = `/${year}`;
+const YearLink = ({ year, isActive }) => {
   return isActive ? (
     <div className="active">{year}</div>
   ) : (
-    <a href={url}>
-      <span>{year}</span>
-    </a>
+    <Link
+      href={{
+        pathname: "/[year]/en",
+        query: { year },
+      }}
+    >
+      <a>{year}</a>
+    </Link>
   );
 };
 

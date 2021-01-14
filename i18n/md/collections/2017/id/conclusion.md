@@ -18,7 +18,7 @@ Jadi, proyek manakah yang menurut pembaca akan menjadi the next _JavaScript Risi
 * Sebuah framework baru berbasis {graphql}?
 * Sebuah pustaka yang memanfaatkan standar WebAssembly untuk membuat pengalaman unik di peramban web?
 
-Beri tahu kami apa pendapat pembaca! Untuk sementara ini, terimakasih atas perhatiannya dan jangan sungkan untuk membagikan artikel ini atau hubungi kami di [Github](https://github.com/bestofjs/javascript-risingstars) jika ada kritik atau saran... terakhir sampai jumpa tahun depan!
+Beri tahu kami apa pendapat pembaca! Untuk sementara ini, terimakasih atas perhatiannya dan jangan sungkan untuk membagikan artikel ini atau hubungi kami di [GitHub](https://github.com/bestofjs/javascript-risingstars) jika ada kritik atau saran... terakhir sampai jumpa tahun depan!
 
 ---
 

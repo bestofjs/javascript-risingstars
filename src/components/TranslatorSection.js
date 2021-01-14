@@ -27,8 +27,13 @@ const OtherLanguages = ({ year, language, availableLanguages }) => (
       .filter((lang) => lang.code !== language)
       .map((lang) => (
         <p key={lang.code}>
-          <Link href={`/${year}/${lang.code}`}>
-            <span>{lang.text}</span>
+          <Link
+            href={{
+              pathname: "/[year]/[language]",
+              query: { language: lang.code, year },
+            }}
+          >
+            <a>{lang.text}</a>
           </Link>
         </p>
       ))}
@@ -71,6 +76,7 @@ const translations = {
   zh: "Chinese (simplified) version",
   es: "Spanish version",
   id: "Bahasa Indonesia",
+  ru: "Russian version",
 };
 
 const TranslatorBlock = ({ translators, language }) => (

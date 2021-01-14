@@ -1,0 +1,28 @@
+.footer {
+  padding: 3rem 0;
+  background-color: #8f3200;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.footer .container {
+  padding: 0 2rem;
+}
+.footer a {
+  color: #fbf3ef;
+}
+.footer p:first-child {
+  margin-top: 0;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
+.poweredBy {
+  display: flex;
+  justify-content: center;
+}
+.poweredByLogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-left: 4px;
+}

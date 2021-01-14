@@ -8,6 +8,7 @@ const getAvatarURL = (userId) =>
 // * ---------------- authors
 
 const authorWorks = {
+  "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
   "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
 };
@@ -22,6 +23,17 @@ const authors = {
         Author of <a href="http://discovermeteor.com/">Discover Meteor</a> and
         creator of <a href="http://vulcanjs.org/">Vulcan</a>, a React+GraphQL
         open-source framework.
+      </span>
+    ),
+  },
+  "Benjamin Blackwood": {
+    name: "Benjamin Blackwood",
+    url: "https://bblackwo.github.io",
+    avatar: getAvatarURL("7598058"),
+    bio1: (
+      <span>
+        Frontend Developer at{" "}
+        <a href="https://auspost.com.au/jobs">Australia Post</a>
       </span>
     ),
   },
@@ -58,6 +70,9 @@ const translationWorks = {
   2019: {
     zh: ["Seognil LC"],
     es: ["Javier Valencia"],
+  },
+  2020: {
+    ru: ["Alexey Pyltsyn"],
   },
 };
 
@@ -134,6 +149,11 @@ const translators = {
     url: "http://lobothijau.com/",
     avatar: getAvatarURL("34962330"),
     bio1: "?",
+  },
+  "Alexey Pyltsyn": {
+    name: "Alexey Pyltsyn",
+    avatar: getAvatarURL("4408379"),
+    bio1: "Maintainer of Russian docs on PHP, React, Kubernetes and much more",
   },
 };
 

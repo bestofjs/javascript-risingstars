@@ -64,3 +64,10 @@
 .toc-projects img:last-child {
   margin: 0;
 }
+
+/* Show only the 5 first projects on small screens */
+@media (max-width: 499px) {
+  .toc-projects img:nth-child(n + 6) {
+    display: none;
+  }
+}

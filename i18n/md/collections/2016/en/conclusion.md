@@ -5,7 +5,7 @@ language: en
 
 Despite the JavaScript fatigue™ and the dramas (remember the ["leftpad gate"](http://developer.telerik.com/featured/left-pad-indicative-fragile-javascript-ecosystem/)), 2016 was a great year for the community, with the rise of projects like {vuejs} and {react-native}, and new projects like {yarn} or {create-react-app}.
 
-We have been talking about projects that got traction on Github in 2016 but what really matters is developer's satisfaction.
+We have been talking about projects that got traction on GitHub in 2016 but what really matters is developer's satisfaction.
 So if you want a more qualitative approach, check the results from Sacha Greif’s [State of JavaScript](http://stateofjs.com/) survey. More than 9,000 responses were collected!
 
 ---
@@ -27,5 +27,5 @@ Here are my 10 picks of the year, the projects and the ideas I liked in 2016 and
 
 ---
 
-Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/michaelrambeau/risingstars2016)!
+Thank you for your attention, feel free to share this article or to reach us on [GitHub](https://github.com/michaelrambeau/risingstars2016)!
 
