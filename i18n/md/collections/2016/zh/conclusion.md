@@ -5,7 +5,7 @@ language: zh
 
 虽然 2016 年出现了“JS 疲劳”，也发生了戏剧性的事件(如 ["leftpad 门"](http://developer.telerik.com/featured/left-pad-indicative-fragile-javascript-ecosystem/))，但总体来讲 2016 年对 JS 社区来说是非常重要的一年，部分项目在 2016 年崛起，如 {vuejs} 和 {react-native}，还有些黑马项目 2016 年诞生，如 {yarn} 和 {create-react-app}。
 
-我们谈论了 2016 年 Github 上最受瞩目的开源项目，但是真正重要的是开发者的满意度，如果你想就这个话题有更量化的认识，建议去看看 Sacha Greif 的调查 [State of JavaScript](http://stateofjs.com/)，该调查收集了超过 9000 份问卷。
+我们谈论了 2016 年 GitHub 上最受瞩目的开源项目，但是真正重要的是开发者的满意度，如果你想就这个话题有更量化的认识，建议去看看 Sacha Greif 的调查 [State of JavaScript](http://stateofjs.com/)，该调查收集了超过 9000 份问卷。
 
 ---
 
@@ -24,5 +24,5 @@ language: zh
 
 ---
 
-感谢你花时间阅读本文，可以尽情把本文分享出去，有疑问可以到 [Github](https://github.com/michaelrambeau/risingstars2016) 上发起 Issue 或直接联系我们。
+感谢你花时间阅读本文，可以尽情把本文分享出去，有疑问可以到 [GitHub](https://github.com/michaelrambeau/risingstars2016) 上发起 Issue 或直接联系我们。
 

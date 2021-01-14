@@ -30,7 +30,7 @@ Angular project has been split into 2 repositories because Angular 2 is a full r
 
 {angular} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework.
 
-{angular-1} (called "AngularJS" on Github) is still used in many projects and will remain popular for a while.
+{angular-1} (called "AngularJS" on GitHub) is still used in many projects and will remain popular for a while.
 
 It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
 

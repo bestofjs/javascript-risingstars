@@ -13,5 +13,5 @@ Over the last months, Microsoft did a lot of moves to become one of the major ac
 
 So it may not be so surprising to see a giant like Microsoft taking control of our beloved GitHub… but what a turnaround in the history of Open Source!
 
-Thank you for your attention, and feel free to share this article or reach us on [Github](https://github.com/bestofjs/javascript-risingstars) if you have any feedback… and see you next year!
+Thank you for your attention, and feel free to share this article or reach us on [GitHub](https://github.com/bestofjs/javascript-risingstars) if you have any feedback… and see you next year!
 

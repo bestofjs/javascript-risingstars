@@ -20,7 +20,7 @@ It tells a lot about JavaScript ubiquity and versatility in 2016.
 
 ### And the 2016 winner is... 🏆
 
-{vuejs} project got more than 25,000 stars on Github last year, it means 72 stars per day, it's more than what any other framework got, including React and Angular.
+{vuejs} project got more than 25,000 stars on GitHub last year, it means 72 stars per day, it's more than what any other framework got, including React and Angular.
 
 The [version 2](https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8#.lekly4sa8), that takes advantage of the Virtual DOM for performance, was released in October.
 

@@ -16,5 +16,5 @@ Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron
 
 #### {atom}
 
-{atom}, pushed by Github and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {vs-code}. An interesting fact about Atom: its main language is CoffeeScript!
+{atom}, pushed by GitHub and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {vs-code}. An interesting fact about Atom: its main language is CoffeeScript!
 
