@@ -1,0 +1,37 @@
+{
+  "page": {
+    "title": "JavaScript Rising Stars в 2020 году",
+    "description": "Полный обзор JavaScript в 2020 году: тенденции фронтенда, фреймворков и Node.js, инструментария, библиотек для управления состоянием..."
+  },
+  "header": {
+    "title": "2020 JavaScript Rising Stars"
+  },
+  "introduction": {
+    "table_of_contents": "Содержание",
+    "explanation": "В представленных ниже графиках сравнивается количество звёзд на Github за последние 12 месяцев. Мы проанализировали проекты, участвующие в {link}, отобранного списка лучших веб-проектов. Нажмите на проект, чтобы узнать подробнее про него."
+  },
+  "conclusion": "Заключение",
+  "categories": {
+    "all": "Самые популярные проекты",
+    "framework": "Фронтенд-фреймворки",
+    "nodejsframework": "Фреймворки Node.js",
+    "react": "Экосистема React",
+    "vue": "Экосистема Vue",
+    "angular": "Экосистема Angular",
+    "mobile": "Мобильная разработка",
+    "compiler": "Разновидности/компиляторы JS",
+    "build": "Инструменты сборки",
+    "testframework": "Тестирование",
+    "ide": "IDE и редакторы",
+    "ssg": "Статические сайты",
+    "cssinjs": "CSS в JavaScript",
+    "cssframework": "CSS-фреймворки",
+    "statemanagement": "Управление состоянием",
+    "graphql": "GraphQL",
+    "misc": "Разное",
+    "learning": "Обучающие ресурсы"
+  },
+  "social": {
+    "text": "Посмотрите текущие тренды JavaScript за 2020 год"
+  }
+}
