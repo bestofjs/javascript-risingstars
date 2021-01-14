@@ -8,7 +8,7 @@
   },
   "introduction": {
     "table_of_contents": "Table of Contents",
-    "explanation": "The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform. Note that you can click on a project to get more info."
+    "explanation": "The following graphs compare the number of stars added on GitHub over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform. Note that you can click on a project to get more info."
   },
   "conclusion": "Conclusion",
   "categories": {

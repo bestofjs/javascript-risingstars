@@ -22,5 +22,5 @@ Projetons-nous dans le futur, quels seront les grands projets de l'année 2018 ?
 
 ---
 
-Merci pour votre attention, rejoignez-nous sur [Github](https://github.com/bestofjs/javascript-risingstars)... et rendez-vous dans un an !
+Merci pour votre attention, rejoignez-nous sur [GitHub](https://github.com/bestofjs/javascript-risingstars)... et rendez-vous dans un an !
 

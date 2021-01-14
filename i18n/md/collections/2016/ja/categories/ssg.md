@@ -11,7 +11,7 @@ language: ja
 
 SSGが人気なのは、静的なWebサイトを無料でホスティングできるサービスが多いことも要因でしょう。
 
-* [Github pages](https://pages.github.com/)
+* [GitHub pages](https://pages.github.com/)
 * [Gitlab pages](http://pages.gitlab.io/)
 * [Netlify](https://www.netlify.com/)
 * [Surge](https://surge.sh/)

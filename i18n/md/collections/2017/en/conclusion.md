@@ -18,7 +18,7 @@ So going forward, which projects do you think will be the next _JavaScript Risin
 * A new framework based on {graphql}?
 * A library that takes advantage of the new WebAssembly standard to create a unique experience in the browser?
 
-Let us know what you think! In the meantime, thank you for your attention, and feel free to share this article or reach us on [Github](https://github.com/bestofjs/javascript-risingstars) if you have any feedback… and see you next year!
+Let us know what you think! In the meantime, thank you for your attention, and feel free to share this article or reach us on [GitHub](https://github.com/bestofjs/javascript-risingstars) if you have any feedback… and see you next year!
 
 ---
 

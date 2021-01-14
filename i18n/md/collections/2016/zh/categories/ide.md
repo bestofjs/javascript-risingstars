@@ -11,5 +11,5 @@ language: zh
 
 #### {atom}
 
-{atom} 由 Github 开源，使用 {electron} 构建，在受欢迎程度上并没有落后 {vs-code} 太多，关于 Atom 的一个有趣事实是，他所使用的主要语言是 CoffeeScript。
+{atom} 由 GitHub 开源，使用 {electron} 构建，在受欢迎程度上并没有落后 {vs-code} 太多，关于 Atom 的一个有趣事实是，他所使用的主要语言是 CoffeeScript。
 

@@ -28,7 +28,7 @@ Angular 项目已经被拆分成两个仓库，因为 Angular 2 几乎是 Angula
 
 {angular} 全部用 TypeScript 编写，这样它利用 ES6 语法特性提供了现代的、全面的 WEB 框架。
 
-{angular-1} (在 Github 上称作 "AngularJS") 目前仍然被大量的项目使用，目测会持续流行一段时间。
+{angular-1} (在 GitHub 上称作 "AngularJS") 目前仍然被大量的项目使用，目测会持续流行一段时间。
 
 此外，不得不提的 {ember}, 虽然社区和生态都很大，但是没有排到前 10 名。
 

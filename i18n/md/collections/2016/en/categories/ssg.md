@@ -12,7 +12,7 @@ Static web sites are fast, robust and easy to maintain.
 
 SSG are very popular because there are a lot of very good solutions to host static web site for free:
 
-* [Github pages](https://pages.github.com/)
+* [GitHub pages](https://pages.github.com/)
 * [Gitlab pages](http://pages.gitlab.io/)
 * [Netlify](https://www.netlify.com/)
 * [Surge](https://surge.sh/)
