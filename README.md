@@ -4,18 +4,19 @@
 
 An overview of the JavaScript landscape in 2020: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
 
-Available in English, Chinese and Spanish (soon!)
-
+Available in English and Russian.
 ## Credits
 
 ### Team members
 
+- [Alexey Pyltsyn](https://lex111.ru/)
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
 - [Javier Valencia](http://www.jvalen.com)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 - [Sacha Grief](http://sachagreif.com/)
+- [Sebastien Lorber](https://sebastienlorber.com/)
 - [Seognil LC](https://github.com/seognil)
 - [Shigeto Yatani](https://www.facebook.com/vanxx2)
 - [王仕军](https://github.com/wangshijun)
