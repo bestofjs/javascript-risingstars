@@ -12,7 +12,7 @@ language: zh
 静态网站如此流行的重要原因是市面上有很多非常好用并且免费的静态网站托管解决方案，比如：
 
 * [GitHub pages](https://pages.github.com/)
-* [Gitlab pages](http://pages.gitlab.io/)
+* [GitLab pages](http://pages.gitlab.io/)
 * [Netlify](https://www.netlify.com/)
 * [Surge](https://surge.sh/)
 * [Now static](https://zeit.co/blog/now-static)
