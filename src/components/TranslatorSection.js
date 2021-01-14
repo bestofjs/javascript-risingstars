@@ -45,6 +45,7 @@ const TeamMemberList = ({ language, year }) => {
   const translators = ((transWorks && transWorks[language]) || []).map(
     (name) => team.translators[name]
   );
+  console.log({ translators, language, transWorks });
 
   const authors = Object.entries(team.authorWorks)
     .filter(([authorName, years]) => years.includes(year))
@@ -76,6 +77,7 @@ const translations = {
   zh: "Chinese (simplified) version",
   es: "Spanish version",
   id: "Bahasa Indonesia",
+  ru: "Russian version",
 };
 
 const TranslatorBlock = ({ translators, language }) => (
