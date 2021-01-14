@@ -14,7 +14,7 @@ Among the main features:
 - TypeScript compiler is included by default (but you can write code in regular JavaScript)
 - No centralized package manager, any JavaScript dependency can be loaded from any URL
 - The “standard library” provides solutions for common needs that usually require the installation of packages in Node.js
-- Deno uses as much as possible standards from the web (Example: the fetch API)
+- Deno uses as much as possible standards from the web (Example: the Fetch API)
 - Files imported using the ECMAScript modules
 - Built-in test runner and debugger
 

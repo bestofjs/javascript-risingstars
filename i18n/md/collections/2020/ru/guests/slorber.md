@@ -3,6 +3,6 @@ id: slorber
 language: ru
 ---
 
-### Приглашённый автор: [Себастьян Лорбер (Sébastien Lorber)](http://sebastienlorber.com)
+### Приглашённый автор: [Себастьян Лорбер (Sébastien Lorber)](https://sebastienlorber.com)
 
-Себастьян один из первых, кто начал использовать React, который сейчас работает над опенсорс-проектом {docusaurus} от Facebook.
+Себастьян один из первых, кто начал использовать React, сейчас он работает над опенсорс-проектом {docusaurus} от Facebook.
