@@ -71,6 +71,9 @@ const translationWorks = {
     zh: ["Seognil LC"],
     es: ["Javier Valencia"],
   },
+  2020: {
+    ru: ["Alexey Pyltsyn"],
+  },
 };
 
 const translators = {
@@ -146,6 +149,11 @@ const translators = {
     url: "http://lobothijau.com/",
     avatar: getAvatarURL("34962330"),
     bio1: "?",
+  },
+  "Alexey Pyltsyn": {
+    name: "Alexey Pyltsyn",
+    avatar: getAvatarURL("4408379"),
+    bio1: "Maintainer of Russian docs on PHP, React, Kubernetes and much more",
   },
 };
 
