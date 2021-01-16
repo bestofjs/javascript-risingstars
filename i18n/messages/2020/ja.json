@@ -1,0 +1,37 @@
+{
+  "page": {
+    "title": "JavaScript ベスト・オブ・ザ・イヤー 2020",
+    "description": "2020年のJavaScript白書。フロントエンド、Node.jsフレームワーク、ツール、状態管理などのトレンドを徹底調査。"
+  },
+  "header": {
+    "title": "JavaScript ベスト・オブ・ザ・イヤー 2020"
+  },
+  "introduction": {
+    "table_of_contents": "目次",
+    "explanation": "以下のチャートは、2019年の一年間にGitHubで増加したスターの数を比較したものです。Webプラットフォームに関するベストプロジェクトを集めたリストである{link}を分析したものです。各プロジェクトをクリックすると、プロジェクトの詳細を閲覧することができます。"
+  },
+  "conclusion": "おわりに",
+  "categories": {
+    "all": "総合ランキング",
+    "framework": "フロントエンドフレームワーク",
+    "nodejsframework": "Node.js フレームワーク",
+    "react": "React エコシステム",
+    "vue": "Vue エコシステム",
+    "angular": "Angular エコシステム",
+    "mobile": "モバイル",
+    "compiler": "JS コンパイラ",
+    "build": "ビルドツール",
+    "testframework": "テストツール",
+    "ide": "IDEとエディタ",
+    "ssg": "静的サイトジェネレータ",
+    "cssinjs": "CSS in JavaScript",
+    "cssframework": "CSS フレームワーク",
+    "statemanagement": "状態管理",
+    "graphql": "GraphQL",
+    "misc": "その他",
+    "learning": "学習リソース"
+  },
+  "social": {
+    "text": "2020年のJavaScript展望ををチェックしよう"
+  }
+}
