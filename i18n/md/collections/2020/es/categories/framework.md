@@ -5,7 +5,7 @@ language: es
 
 {vuejs} y {react} continúan luchando por la primera posición de la categoría _Front-end Frameworks_.
 
-Detrás tenemos a {angular} que vuelve al tercer lugar, cambiando posiciones con {svelte}.
+Detrás tenemos a {angular} que vuelve al tercer lugar, intercambiando posiciones con {svelte} respecto al año pasado.
 
 La nueva cara de este año en el top 5 es {alpinejs}, un framework reactivo minimalista, del creador de [Laravel LiveWire](https://laravel-livewire.com/).
 

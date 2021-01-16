@@ -3,9 +3,9 @@ id: build
 language: es
 ---
 
-2020 fue un gran año para las herramientas de build y nos hemos encontrado con nuevas tendencias.
+2020 ha sido un gran año para las herramientas de build y nos hemos encontrado con nuevas tendencias.
 
-{snowpack} y {vite} apuestan por un enfoque priorizando *ES modules*: estas herramientas no hacen bundle de tu código en *dev*, se centran en tener un extremadamente rápido feedback, y solo hacen bundle para producción (hasta que el soporte en navegadores mejores).
+{snowpack} y {vite} apuestan por un enfoque priorizando *ES modules*. Estas herramientas no hacen bundle de tu código en *dev*, se centran en conseguir un extremadamente rápido feedback y solo hacen bundle para producción (hasta que el soporte en navegadores mejore).
 
 {swc} y {esbuild} aprovechan Rust y Go para ofrecer un gran rendimiento, ambos usando TypeScript.
 

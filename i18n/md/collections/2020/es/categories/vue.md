@@ -9,7 +9,7 @@ Viene con el nuevo [Composition API](https://v3.vuejs.org/api/composition-api.ht
 
 - Era difícil organizar el código por *logical concerns* dentro de los componentes.
 - Hace más fácil reutilizar código en diferentes components (con Vue 2, *mixins*, *mixing factory* y *scoped slots* no eran óptimos).
-- Tiene mejor soporte para TypeScript
+- Tiene mejor soporte para TypeScript.
 
 Echa un vistazo a la [guía de migración](https://v3.vuejs.org/guide/migration/introduction.html) para más detalles sobre que cambios ha introducido la versión 3.
 

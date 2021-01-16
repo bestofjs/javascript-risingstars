@@ -12,17 +12,17 @@ Frecuentemente es considerado como la secuela de Node.js, ya que arregla o mejor
 Entre sus principales características, destacan:
 
 - El compilador de TypeScript viene incluido por defecto (aunque puedas trabajar con vanilla JavaScript).
-- No usa un package manager centralizado, las dependencias puede ser cargada desde cualquier URL.
-- La "standard library" trae consigo soluciones que normalmente requieren paquetes externos en Node.js
+- No usa un *package manager* centralizado, las dependencias puede ser cargadas desde cualquier URL.
+- La "standard library" trae incorporadas soluciones que normalmente requieren paquetes externos en Node.js.
 - Deno usa siempre que puede los standards de la web, como por ejemplo Fetch API.
-- Permite importar ficheros usando ECMAScript modules.
+- Permite importar ficheros usando *ECMAScript modules*.
 - Viene con sistema de tests y debugger incluidos.
 
 El [ecosistema entorno a Deno](https://deno.land/x/) es todavía joven pero se espera que evolucione rápido debido a su gran *hype* y popularidad.
 
-El éxito de Deno confirma dos fuerte tendencias:
+El éxito de Deno confirma dos fuertes tendencias:
 
 - El crecimiento de TypeScript, en ambos, frontend y backend.
-- El uso de ES6 modules al vuelo por soluciones como [Snowpack](https://www.snowpack.dev/), echa un vistazo a las nuevas caras aparecidas este año en la sección "Build".
+- El uso de *ES6 modules* al vuelo por soluciones como [Snowpack](https://www.snowpack.dev/), echa un vistazo a las nuevas caras aparecidas este año en la sección "Build".
 
 
