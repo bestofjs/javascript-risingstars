@@ -1,10 +1,10 @@
 ---
 id: bblackwo
-language: en
+language: ja
 ---
 
-### Guest Writer: [Benjamin Blackwood](https://twitter.com/B_Blackwo)
+### ゲストライター: [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 
-This year we asked our friend Benjamin Blackwood to talk about the Angular landscape.
+友人のBenjamin Blackwoodに、Angularの展望について語ってもらいました。
 
-Benjamin is a Frontend Developer at [Australia Post](https://auspost.com.au) and has been working with Angular for over 4 years.
+Sébastien Chopinは、[Australia Post](https://auspost.com.au)のフロントエンドエンジニアで、Angularを4年以上使っている開発者です。

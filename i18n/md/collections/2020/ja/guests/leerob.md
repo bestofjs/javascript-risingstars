@@ -1,7 +1,7 @@
 ---
 id: leerob
-language: en
+language: ja
 ---
-### Guest Writer: [Lee Robinson](https://leerob.io/)
+### ゲストライター: [Lee Robinson](https://leerob.io/)
 
-Lee Robinson is a developer, writer, and creator who works at Vercel as a Solutions Architect.
+Lee Robinsonは、Vercelでソリューションアーキテクトとして働いている開発者・ライター・クリエイターです。

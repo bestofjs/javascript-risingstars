@@ -1,8 +1,8 @@
 ---
 id: slorber
-language: en
+language: ja
 ---
 
-### Guest Writer: [Sébastien Lorber](https://sebastienlorber.com)
+### ゲストライター: [Sébastien Lorber](https://sebastienlorber.com)
 
-Sébastien is a React early adopter, working with Facebook Open-Source on {docusaurus}.
+SébastienはReactのアーリーアダプターであり、Facebookのオープンソースである{docusaurus}で働いています。
