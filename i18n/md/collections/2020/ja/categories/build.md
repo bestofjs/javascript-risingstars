@@ -16,4 +16,4 @@ language: ja
 Monorepoがメインストリームになりつつあります。
 YarnとLernaが広く使われ、そしてnpm 7も参加してきました。
 
-個人的に2021年の去就を注目しているのは{rome}、Toast](https://toast.dev/)、[Turborepo](https://turborepo.com/)です。
+個人的に2021年の去就を注目しているのは{rome}、[Toast](https://toast.dev/)、[Turborepo](https://turborepo.com/)です。
