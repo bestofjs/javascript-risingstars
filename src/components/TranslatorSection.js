@@ -1,7 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
-import team from "../../data/teamMembers";
+import {
+  authors,
+  authorWorks,
+  translators,
+  translationWorks,
+} from "../../data/teamMembers";
 
 const Section = ({ language, year, availableLanguages }) => {
   return (
@@ -41,21 +46,24 @@ const OtherLanguages = ({ year, language, availableLanguages }) => (
 );
 
 const TeamMemberList = ({ language, year }) => {
-  const transWorks = team.translationWorks[year];
-  const translators = ((transWorks && transWorks[language]) || []).map(
-    (name) => team.translators[name]
+  const transWorks = translationWorks[year];
+  const thisYearTranslators = ((transWorks && transWorks[language]) || []).map(
+    (name) => translators[name]
   );
 
-  const authors = Object.entries(team.authorWorks)
+  const thisYearAuthors = Object.entries(authorWorks)
     .filter(([authorName, years]) => years.includes(year))
-    .map(([authorName, years]) => team.authors[authorName]);
+    .map(([authorName, years]) => authors[authorName]);
 
   return (
     <div>
-      {translators.length > 0 && (
-        <TranslatorBlock translators={translators} language={language} />
+      {thisYearTranslators.length > 0 && (
+        <TranslatorBlock
+          translators={thisYearTranslators}
+          language={language}
+        />
       )}
-      <AuthorBlock authors={authors} />
+      <AuthorBlock authors={thisYearAuthors} />
     </div>
   );
 };

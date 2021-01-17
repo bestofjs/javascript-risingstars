@@ -15,6 +15,7 @@ Available in English and Russian.
 - [Javier Valencia](http://www.jvalen.com)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
+- [Rana Kualu](https://github.com/NurseAngel)
 - [Sacha Grief](http://sachagreif.com/)
 - [Sebastien Lorber](https://sebastienlorber.com/)
 - [Seognil LC](https://github.com/seognil)

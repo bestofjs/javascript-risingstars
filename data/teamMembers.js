@@ -1,19 +1,12 @@
 import React from "react";
 
-const size = 75;
-
-const getAvatarURL = (userId) =>
-  `https://avatars0.githubusercontent.com/u/${userId}?v=3&s=${size}`;
-
-// * ---------------- authors
-
-const authorWorks = {
+export const authorWorks = {
   "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
   "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
 };
 
-const authors = {
+export const authors = {
   "Sacha Grief": {
     name: "Sacha Grief",
     url: "http://sachagreif.com",
@@ -49,9 +42,7 @@ const authors = {
   },
 };
 
-// * ---------------- translators
-
-const translationWorks = {
+export const translationWorks = {
   2016: {
     zh: ["Wang Shijun"],
     ja: ["Nobuhiro Uchiyama", "Yohei Ice", "Shigeto Yatani"],
@@ -73,10 +64,11 @@ const translationWorks = {
   },
   2020: {
     ru: ["Alexey Pyltsyn"],
+    ja: ["NurseAngel"],
   },
 };
 
-const translators = {
+export const translators = {
   "Nobuhiro Uchiyama": {
     name: "Nobuhiro Uchiyama",
     url: "https://github.com/azukiwasher",
@@ -133,7 +125,6 @@ const translators = {
       </span>
     ),
   },
-
   "Javier Valencia": {
     name: "Javier Valencia",
     url: "http://www.jvalen.com",
@@ -155,13 +146,14 @@ const translators = {
     avatar: getAvatarURL("4408379"),
     bio1: "Maintainer of Russian docs on PHP, React, Kubernetes and much more",
   },
+  NurseAngel: {
+    name: "Rana Kualu",
+    avatar: getAvatarURL("3815718"),
+    bio1: "Houkago Atelier Toiro ha iizo",
+  },
 };
 
-// * ---------------- export
-
-export default {
-  authorWorks,
-  authors,
-  translationWorks,
-  translators,
-};
+function getAvatarURL(userId) {
+  const size = 75;
+  return `https://avatars0.githubusercontent.com/u/${userId}?v=3&s=${size}`;
+}
