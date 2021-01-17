@@ -65,6 +65,7 @@ export const translationWorks = {
   2020: {
     ru: ["Alexey Pyltsyn"],
     ja: ["NurseAngel"],
+    es: ["Javier Valencia"],
   },
 };
 
