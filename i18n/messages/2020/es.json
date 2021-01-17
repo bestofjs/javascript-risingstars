@@ -1,0 +1,37 @@
+{
+  "page": {
+    "title": "Los mejores proyectos JavaScript del 2020",
+    "description": "Un completo análisis del universo JavaScript en 2020: tendencias en front-end y frameworks node.js, herramientas, IDE, Generadores de páginas estáticas..."
+  },
+  "header": {
+    "title": "Los mejores proyectos JavaScript del 2020"
+  },
+  "introduction": {
+    "table_of_contents": "Categorías",
+    "explanation": "Los siguientes gráficos comparan el número de estrellas añadidas en GitHub durante los últimos 12 meses. Hemos analizado proyectos procedentes de {link}, una lista de los proyectos más destacados del mundo web cuidadosamente seleccionados. Si lo deseas, puedes hacer click en cualquier proyecto para conseguir más información."
+  },
+  "conclusion": "Conclusión",
+  "categories": {
+    "all": "Proyectos más populares del 2020",
+    "framework": "Frameworks Front-end",
+    "nodejsframework": "Frameworks Node.js",
+    "react": "Ecosistema React",
+    "vue": "Ecosistema Vue",
+    "angular": "Ecosistema Angular",
+    "mobile": "Móvil",
+    "compiler": "Compiladores JS",
+    "build": "Build",
+    "testframework": "Testing",
+    "ide": "Editores",
+    "ssg": "SSG",
+    "cssinjs": "CSS en JavaScript",
+    "cssframework": "Frameworks CSS",
+    "statemanagement": "Estado de la aplicación",
+    "graphql": "GraphQL",
+    "misc": "Miscelánea",
+    "learning": "Recursos de aprendizaje"
+  },
+  "social": {
+    "text": "Check the JavaScript landscape in 2020"
+  }
+}
