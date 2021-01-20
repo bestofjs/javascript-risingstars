@@ -17,7 +17,7 @@
   },
   {
     "year": 2020,
-    "languages": ["en", "ru", "ja", "es"],
+    "languages": ["en", "ru", "ja", "es", "zh"],
     "current": true
   }
 ]
