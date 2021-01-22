@@ -66,6 +66,7 @@ export const translationWorks = {
     ru: ["Alexey Pyltsyn"],
     ja: ["NurseAngel"],
     es: ["Javier Valencia"],
+    zh: ["AngeloZuo"],
   },
 };
 
@@ -151,6 +152,11 @@ export const translators = {
     name: "Rana Kualu",
     avatar: getAvatarURL("3815718"),
     bio1: "Houkago Atelier Toiro ha iizo",
+  },
+  AngeloZuo: {
+    name: "Angelo Zuo",
+    avatar: getAvatarURL("6873884"),
+    bio1: "",
   },
 };
 
