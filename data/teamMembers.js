@@ -156,7 +156,7 @@ export const translators = {
   AngeloZuo: {
     name: "Angelo Zuo",
     avatar: getAvatarURL("6873884"),
-    bio1: "",
+    bio1: "Front-end Developer",
   },
 };
 
