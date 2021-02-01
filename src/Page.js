@@ -6,7 +6,6 @@ import Header from "./components/Header";
 import Top from "./components/Top";
 import Footer from "./components/Footer";
 import TranslatorSection from "./components/TranslatorSection";
-import Newsletter from "./components/Newsletter";
 import TOC from "./components/TOC";
 import Conclusion from "./components/Conclusion";
 import Category from "./components/Category";
@@ -100,7 +99,6 @@ const Page = ({
           />
         </div>
       </div>
-      <Newsletter intl={intl} />
       <TranslatorSection
         language={language}
         year={year}
