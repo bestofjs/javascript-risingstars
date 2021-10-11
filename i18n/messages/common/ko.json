@@ -1,0 +1,17 @@
+{
+  "newsletter": {
+    "title": "매주 최신 JS 랭킹 정보를 메일로 받아보세요.",
+    "text": "{link}의 뉴스레터에 회원가입을 하면, 매주 가장 인기 있는 자바스크립트 프로젝트들에 관한 놀라운 현황을 받아볼 수 있습니다.",
+    "button": "회원가입",
+    "placeholder": "이메일 주소"
+  },
+  "view_project": {
+    "twitter": {
+      "text": "In {year}, {name} added {delta} stars, making it the #{ranking} most popular {category} on GitHub",
+      "action": "Tweet"
+    },
+    "months": "1 2 3 4 5 6 7 8 9 10 11 12",
+    "created": "Created",
+    "homepage": "Homepage"
+  }
+}
