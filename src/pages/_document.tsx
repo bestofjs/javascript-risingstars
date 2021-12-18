@@ -14,7 +14,7 @@ export default class Document extends NextDocument {
   }
 
   render() {
-    const { year, language } = this.props as any;
+    const { language } = this.props as any;
 
     return (
       <Html lang={language}>
@@ -25,7 +25,7 @@ export default class Document extends NextDocument {
             rel="stylesheet"
           />
         </Head>
-        <body className={`year${year}`}>
+        <body>
           <Main />
           <NextScript />
         </body>
