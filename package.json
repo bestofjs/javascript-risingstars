@@ -16,7 +16,7 @@
     "jdown": "^1.0.4",
     "lodash.flatten": "^4.4.0",
     "lodash.get": "^4.4.2",
-    "next": "^10.0.5",
+    "next": "^12.0.7",
     "numeral": "^2.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -28,7 +28,7 @@
     "@types/node": "^14.6.0",
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
-    "typescript": "4.0.5"
+    "typescript": "^4.4.4"
   },
   "license": "MIT"
 }
