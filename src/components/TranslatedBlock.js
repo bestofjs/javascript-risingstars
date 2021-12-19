@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import get from "lodash.get";
+import get from "lodash/get";
 
 const TranslatedBlock = ({ translations, path, entities }) => {
   const markdown =

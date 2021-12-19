@@ -15,7 +15,6 @@ const ProjectTableRow = ({
   return (
     <div
       className={`project-table-row ${isOpen ? "is-open" : "is-closed"}`}
-      id={project.slug}
       onClick={() => {
         setIsOpen(!isOpen);
       }}

@@ -1,7 +1,7 @@
 import jdown from "jdown";
 import fs from "fs-extra";
 import flattenJSON from "flat";
-import flatten from "lodash.flatten";
+import flatten from "lodash/flatten";
 import { IntlProvider } from "react-intl";
 import path from "path";
 
