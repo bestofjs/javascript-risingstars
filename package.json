@@ -7,15 +7,10 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@types/flat": "^5.0.1",
-    "@types/fs-extra": "^9.0.6",
-    "@types/lodash": "^4.14.166",
-    "@types/lodash.flatten": "^4.4.6",
     "flat": "^5.0.2",
     "fs-extra": "^9.0.1",
     "jdown": "^1.0.4",
-    "lodash.flatten": "^4.4.0",
-    "lodash.get": "^4.4.2",
+    "lodash": "^4.17.21",
     "next": "^12.0.7",
     "numeral": "^2.0.6",
     "react": "^17.0.1",
@@ -25,6 +20,9 @@
     "tinytime": "^0.2.6"
   },
   "devDependencies": {
+    "@types/flat": "^5.0.2",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.178",
     "@types/node": "^14.6.0",
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
