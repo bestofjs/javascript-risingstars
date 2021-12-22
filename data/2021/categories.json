@@ -46,11 +46,6 @@
     "guest": "slorber"
   },
   {
-    "key": "cssframework",
-    "tags": ["css-lib"],
-    "count": 10
-  },
-  {
     "key": "css-in-js",
     "count": 10,
     "availableComments": []
@@ -64,12 +59,6 @@
   },
   {
     "key": "mobile",
-    "excluded": [],
-    "count": 10,
-    "availableComments": []
-  },
-  {
-    "key": "compiler",
     "excluded": [],
     "count": 10,
     "availableComments": []

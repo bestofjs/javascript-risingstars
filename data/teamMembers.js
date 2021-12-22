@@ -3,7 +3,7 @@ import React from "react";
 export const authorWorks = {
   "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
-  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
+  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021],
 };
 
 export const authors = {
@@ -88,8 +88,7 @@ export const translators = {
     name: "Shigeto Yatani",
     url: "https://www.facebook.com/vanxx2",
     avatar: getAvatarURL("572205"),
-    bio1:
-      "Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山",
+    bio1: "Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山",
   },
 
   "Wang Shijun": {
