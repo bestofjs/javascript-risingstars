@@ -25,7 +25,7 @@ type Props = {
   messages: RisingStars.IntlContent;
   translations: RisingStars.IntlContent;
   allYears: number[];
-  currentYear: number;
+  // currentYear: number;
   languages: RisingStars.Language[];
   categories: RisingStars.Category[];
 };
@@ -37,7 +37,7 @@ const Root = ({
   messages,
   translations,
   allYears,
-  currentYear,
+  // currentYear,
   languages,
   categories,
 }: Props) => {
@@ -47,14 +47,11 @@ const Root = ({
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
       <AppDataContainer.Provider
-        initialState={{ allYears, year, entities, translations }}
+        initialState={{ allYears, year, entities, translations, projectsByTag }}
       >
         <PageRoot
           projects={projectsByTag}
-          entities={entities}
-          translations={translations}
           year={year}
-          currentYear={currentYear}
           categories={categories}
           languages={languages}
         />
@@ -106,7 +103,7 @@ export async function getStaticProps({ params }: Params) {
   const languageCodes =
     (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
     [];
-  const currentYear = settings.find(({ current }) => !!current).year;
+  // const currentYear = settings.find(({ current }) => !!current).year;
 
   const languages = languageCodes.map((code) =>
     allLanguages.find((item) => item.code === code)
@@ -120,7 +117,6 @@ export async function getStaticProps({ params }: Params) {
       projectsByTag,
       messages,
       translations,
-      currentYear,
       allYears,
       languages,
       categories,

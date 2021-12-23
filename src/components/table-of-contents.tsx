@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 
-import ProjectAvatar from "./ProjectAvatar";
+import { ProjectAvatar } from "./project-avatar";
 
 type Props = {
   categories: RisingStars.Category[];

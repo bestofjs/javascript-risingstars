@@ -10,21 +10,17 @@ import { TranslatorSection } from "components/translator-section";
 import { Footer } from "components/footer";
 
 type Props = {
-  entities: RisingStars.Entities;
   categories: RisingStars.Category[];
   projects: RisingStars.ProjectsByCategory;
-  translations: RisingStars.IntlContent;
   year: number;
-  currentYear: number;
+  // currentYear: number;
   languages: RisingStars.Language[];
 };
 
 export const PageRoot = ({
-  entities,
   projects,
-  translations,
   year,
-  currentYear,
+  // currentYear,
   categories,
   languages,
 }: Props) => {
@@ -56,25 +52,13 @@ export const PageRoot = ({
         <div className="main-contents">
           <TableOfContents projects={projects} categories={categories} />
           {categories
-            .filter((item) => !item.disabled)
-            .map((item, i) => (
+            .filter((category) => !category.disabled)
+            .map((category) => (
               <Category
-                key={item.key}
-                tag={item.key}
-                number={i + 1}
-                projects={projects}
-                entities={entities}
-                locale={language}
-                translations={translations}
+                key={category.key}
                 year={year}
-                currentYear={currentYear}
-                intl={intl}
-                hasComment={
-                  !item.availableComments ||
-                  item.availableComments.includes(language)
-                }
-                guest={item.guest}
-                count={item.count}
+                category={category}
+                language={language}
               />
             ))}
           <Conclusion />

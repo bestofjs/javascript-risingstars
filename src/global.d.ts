@@ -1,6 +1,6 @@
 declare namespace RisingStars {
   type Project = {
-    createdAt: string;
+    created_at: string;
     delta: number;
     description: string;
     full_name: string;
@@ -24,6 +24,7 @@ declare namespace RisingStars {
   type Category = {
     key: string;
     count: number;
+    limit?: number;
     tags?: string[];
     excluded?: Project["slug"][];
     guest?: string;

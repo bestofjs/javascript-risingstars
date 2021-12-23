@@ -1,25 +1,31 @@
-import React from 'react'
+import { useIntl } from "react-intl";
 
-import formatDelta from '../../utils/formatDelta'
+import formatDelta from "utils/formatDelta";
 
-const ProjectChart = ({ project, intl }) => {
+type Props = {
+  project: RisingStars.Project;
+};
+export const ProjectChart = ({ project }: Props) => {
+  const intl = useIntl();
   if (!project.monthly || project.monthly.length === 0)
     return (
-      <div style={{ fontStyle: 'italic', marginBottom: '.5rem' }}>
+      <div style={{ fontStyle: "italic", marginBottom: ".5rem" }}>
         No data available
       </div>
-    )
+    );
+
   const months = intl
     .formatMessage({
       id: `common.view_project.months`,
-      defaultMessage: 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'
+      defaultMessage: "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
     })
-    .split(' ')
+    .split(" ");
   const monthlyDeltas = (project.monthly || [])
     .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
     .slice(0, 12)
-    .reverse() // sort by date ascending (from January to December)
-  const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0)
+    .reverse(); // sort by date ascending (from January to December)
+  const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
+
   return (
     <div>
       <div className="project-chart">
@@ -29,7 +35,7 @@ const ProjectChart = ({ project, intl }) => {
               <div
                 className="project-chart-bar"
                 style={{
-                  height: `${Math.round(d * 100 / monthlyDeltaMax)}%`
+                  height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
                 }}
               >
                 <div className="project-chart-stars">
@@ -48,7 +54,5 @@ const ProjectChart = ({ project, intl }) => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default ProjectChart
+  );
+};

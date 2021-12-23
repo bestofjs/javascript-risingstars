@@ -2,27 +2,25 @@ import React from "react";
 import { FormattedMessage } from "react-intl";
 
 import { Guest } from "components/guest";
-import ProjectTable from "./ProjectTable/ProjectTable";
+import { ProjectList } from "components/project-list/project-list";
 import { TranslatedBlock } from "components/translated-block";
+import { useAppData } from "app-data";
 
-export const Category = ({
-  projects,
-  locale,
-  translations,
-  tag,
-  number,
-  excluded = [],
-  guest,
-  year,
-  currentYear,
-  intl,
-  hasComment,
-  count,
-  ...props
-}) => {
-  if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`);
-  const graphProjects = projects[tag].slice(0, count);
+type Props = {
+  category: RisingStars.Category;
+  language: string;
+  year: number;
+};
+export const Category = ({ category, language, year }: Props) => {
+  const { projectsByTag } = useAppData();
+  const { availableComments, key: tag, limit, count, guest } = category;
+
+  const projects = projectsByTag[tag];
+  if (!projects) throw new Error(`No projects with the tag "${tag}"`);
+  const graphProjects = projects.slice(0, count);
   const key = tag.replace(/-/gi, "");
+
+  const hasComment = !availableComments || availableComments.includes(language);
 
   return (
     <section className="section">
@@ -36,15 +34,12 @@ export const Category = ({
         <div className={`${hasComment ? "project-category-grid" : ""}`}>
           <div>
             <div className={`${hasComment ? "column1" : ""}`}>
-              <ProjectTable
-                {...props}
+              <ProjectList
                 count={count}
+                limit={limit || 5}
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
-                showBlurb={tag !== "misc"}
-                currentYear={currentYear}
-                intl={intl}
               />
             </div>
           </div>
