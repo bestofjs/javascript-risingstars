@@ -1,14 +1,13 @@
-import React from "react";
 import { useIntl } from "react-intl";
 import Head from "next/head";
 
-import Header from "components/Header";
+import { Header } from "components/header";
 import { Top } from "components/top/top";
-import Footer from "components/Footer";
-import TranslatorSection from "components/TranslatorSection";
-import TOC from "components/TOC";
-import { Conclusion } from "components/conclusion";
+import { TableOfContents } from "components/table-of-contents";
 import { Category } from "components/category";
+import { Conclusion } from "components/conclusion";
+import { TranslatorSection } from "components/translator-section";
+import { Footer } from "components/footer";
 
 type Props = {
   entities: RisingStars.Entities;
@@ -55,7 +54,7 @@ export const PageRoot = ({
       <Top />
       <div className="main">
         <div className="main-contents">
-          <TOC projects={projects} categories={categories} />
+          <TableOfContents projects={projects} categories={categories} />
           {categories
             .filter((item) => !item.disabled)
             .map((item, i) => (
@@ -86,7 +85,7 @@ export const PageRoot = ({
         year={year}
         availableLanguages={languages}
       />
-      <Footer language={language} />
+      <Footer />
     </>
   );
 };

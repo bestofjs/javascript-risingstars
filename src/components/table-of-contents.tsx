@@ -1,12 +1,12 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
-import ProjectAvatar from './ProjectAvatar'
+import { FormattedMessage } from "react-intl";
 
-const getMinCount = (count, index) => {
-  return index === 0 ? Math.min(count, 10) : Math.min(count, 5)
-}
+import ProjectAvatar from "./ProjectAvatar";
 
-const TOC = ({ categories, projects }) => (
+type Props = {
+  categories: RisingStars.Category[];
+  projects: RisingStars.ProjectsByCategory;
+};
+export const TableOfContents = ({ categories, projects }: Props) => (
   <div className="toc nav container container-section small-container">
     <h2 className="toc-header">
       <FormattedMessage id="introduction.table_of_contents" />
@@ -14,9 +14,9 @@ const TOC = ({ categories, projects }) => (
 
     <ol>
       {categories
-        .filter(item => !item.disabled)
+        .filter((item) => !item.disabled)
         .map((item, i) => {
-          const key = item.key.replace(/-/gi, '')
+          const key = item.key.replace(/-/gi, "");
           return (
             <li key={key}>
               <a className="toc-link" href={`#section-${item.key}`}>
@@ -26,7 +26,7 @@ const TOC = ({ categories, projects }) => (
                 <div className="toc-projects">
                   {projects[item.key]
                     .slice(0, getMinCount(item.count, i))
-                    .map(project => (
+                    .map((project) => (
                       <ProjectAvatar
                         key={project.slug}
                         project={project}
@@ -37,7 +37,7 @@ const TOC = ({ categories, projects }) => (
                 </div>
               </a>
             </li>
-          )
+          );
         })}
       <li>
         <a className="toc-link toc-link-conclusion" href={`#conclusion`}>
@@ -46,6 +46,8 @@ const TOC = ({ categories, projects }) => (
       </li>
     </ol>
   </div>
-)
+);
 
-export default TOC
+const getMinCount = (count, index) => {
+  return index === 0 ? Math.min(count, 10) : Math.min(count, 5);
+};

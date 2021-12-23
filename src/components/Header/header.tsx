@@ -4,7 +4,12 @@ import { useRouter } from "next/router";
 import FullSizeMenu from "./FullSizeMenu";
 import DropDownMenu from "./DropDownMenu";
 
-const Header = ({ language, year, availableLanguages }) => {
+type Props = {
+  language: string;
+  year: number;
+  availableLanguages: RisingStars.Language[];
+};
+export const Header = ({ language, year, availableLanguages }: Props) => {
   const router = useRouter();
   const onChange = (e) => {
     const path = e.target.value;
@@ -47,5 +52,3 @@ const Header = ({ language, year, availableLanguages }) => {
     </div>
   );
 };
-
-export default Header;

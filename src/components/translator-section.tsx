@@ -8,7 +8,16 @@ import {
   translationWorks,
 } from "../../data/teamMembers";
 
-const Section = ({ language, year, availableLanguages }) => {
+type Props = {
+  language: string;
+  year: number;
+  availableLanguages: RisingStars.Language[];
+};
+export const TranslatorSection = ({
+  language,
+  year,
+  availableLanguages,
+}: Props) => {
   return (
     <section className="TranslatorSection">
       <div className="container small-container">
@@ -52,8 +61,8 @@ const TeamMemberList = ({ language, year }) => {
   );
 
   const thisYearAuthors = Object.entries(authorWorks)
-    .filter(([authorName, years]) => years.includes(year))
-    .map(([authorName, years]) => authors[authorName]);
+    .filter(([_, years]) => years.includes(year))
+    .map(([authorName, _]) => authors[authorName]);
 
   return (
     <div>
@@ -72,8 +81,8 @@ const AuthorBlock = ({ authors }) => (
   <div>
     <p className="member-list-header">Authors</p>
     <div className="translator-list">
-      {authors.map((author, i) => (
-        <TeamMember key={i} member={author} key={author.name} />
+      {authors.map((author) => (
+        <TeamMember key={author.name} member={author} />
       ))}
     </div>
   </div>
@@ -114,5 +123,3 @@ const TeamMember = ({ member }) => (
     </div>
   </div>
 );
-
-export default Section;

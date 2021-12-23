@@ -1,4 +1,3 @@
-import React from "react";
 import { TranslatedBlock } from "components/translated-block";
 
 export const Guest = ({ guestId }) => (
