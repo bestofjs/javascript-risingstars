@@ -3,32 +3,28 @@ import { useIntl } from "react-intl";
 import Head from "next/head";
 
 import Header from "components/Header";
-import Top from "components/Top";
+import { Top } from "components/top/top";
 import Footer from "components/Footer";
 import TranslatorSection from "components/TranslatorSection";
 import TOC from "components/TOC";
-import Conclusion from "components/Conclusion";
-import Category from "components/Category";
+import { Conclusion } from "components/conclusion";
+import { Category } from "components/category";
 
 type Props = {
   entities: RisingStars.Entities;
   categories: RisingStars.Category[];
-  url: string;
   projects: RisingStars.ProjectsByCategory;
   translations: RisingStars.IntlContent;
   year: number;
-  allYears: number[];
   currentYear: number;
   languages: RisingStars.Language[];
 };
 
 export const PageRoot = ({
   entities,
-  url,
   projects,
   translations,
   year,
-  allYears,
   currentYear,
   categories,
   languages,
@@ -42,7 +38,7 @@ export const PageRoot = ({
   const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
 
   return (
-    <div>
+    <>
       <Head>
         <title>{title}</title>
         <meta property="og:title" content={title} />
@@ -56,16 +52,7 @@ export const PageRoot = ({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
-      <Top
-        entities={entities as any}
-        url={url}
-        intl={intl}
-        translations={translations}
-        categories={categories}
-        year={year}
-        allYears={allYears}
-        currentYear={currentYear}
-      />
+      <Top />
       <div className="main">
         <div className="main-contents">
           <TOC projects={projects} categories={categories} />
@@ -91,12 +78,7 @@ export const PageRoot = ({
                 count={item.count}
               />
             ))}
-          <Conclusion
-            entities={entities}
-            url={url}
-            intl={intl}
-            translations={translations}
-          />
+          <Conclusion />
         </div>
       </div>
       <TranslatorSection
@@ -105,6 +87,6 @@ export const PageRoot = ({
         availableLanguages={languages}
       />
       <Footer language={language} />
-    </div>
+    </>
   );
 };

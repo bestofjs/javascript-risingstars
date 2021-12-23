@@ -1,13 +1,12 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import Guest from "./Guest";
+import { Guest } from "components/guest";
 import ProjectTable from "./ProjectTable/ProjectTable";
-import TranslatedBlock from "./TranslatedBlock";
+import { TranslatedBlock } from "components/translated-block";
 
-const Category = ({
+export const Category = ({
   projects,
-  entities,
   locale,
   translations,
   tag,
@@ -28,7 +27,7 @@ const Category = ({
   return (
     <section className="section">
       <div className={`container${hasComment ? "" : " small-container"}`}>
-        <a name={`section-${tag}`} />
+        <a id={`section-${tag}`} />
         <h2 className="project-category-header">
           <span className="project-category-header-inner">
             <FormattedMessage id={`categories.${key}`} />
@@ -39,6 +38,7 @@ const Category = ({
             <div className={`${hasComment ? "column1" : ""}`}>
               <ProjectTable
                 {...props}
+                count={count}
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
@@ -52,19 +52,8 @@ const Category = ({
             {hasComment && (
               <div className="column2">
                 <div className="tag-card-comments markdown-body">
-                  {guest && (
-                    <Guest
-                      guestId={guest}
-                      translations={translations}
-                      language={locale}
-                      entities={entities}
-                    />
-                  )}
-                  <TranslatedBlock
-                    translations={translations}
-                    path={tag}
-                    entities={entities}
-                  />
+                  {guest && <Guest guestId={guest} />}
+                  <TranslatedBlock path={tag} />
                 </div>
               </div>
             )}
@@ -74,5 +63,3 @@ const Category = ({
     </section>
   );
 };
-
-export default Category;

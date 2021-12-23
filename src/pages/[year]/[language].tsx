@@ -9,6 +9,7 @@ import settings from "../../../data/settings.json";
 import allLanguages from "../../../data/allLanguages.json";
 import processProjectData from "utils/processProjectData";
 import { PageRoot } from "components/page-root";
+import { AppDataContainer } from "app-data";
 
 const siteMetadata = {
   title: `JavaScript Rising Stars`,
@@ -41,20 +42,23 @@ const Root = ({
   categories,
 }: Props) => {
   const fullUrl = `${siteMetadata.url}/${year}/${language}`;
+  console.log({ fullUrl });
 
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
-      <PageRoot
-        projects={projectsByTag}
-        entities={entities}
-        url={fullUrl}
-        translations={translations}
-        year={year}
-        allYears={allYears}
-        currentYear={currentYear}
-        categories={categories}
-        languages={languages}
-      />
+      <AppDataContainer.Provider
+        initialState={{ allYears, year, entities, translations }}
+      >
+        <PageRoot
+          projects={projectsByTag}
+          entities={entities}
+          translations={translations}
+          year={year}
+          currentYear={currentYear}
+          categories={categories}
+          languages={languages}
+        />
+      </AppDataContainer.Provider>
     </IntlProvider>
   );
 };
