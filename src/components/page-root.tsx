@@ -1,29 +1,39 @@
 import React from "react";
-import { FormattedMessage, injectIntl } from "react-intl";
+import { useIntl } from "react-intl";
 import Head from "next/head";
 
-import Header from "./components/Header";
-import Top from "./components/Top";
-import Footer from "./components/Footer";
-import TranslatorSection from "./components/TranslatorSection";
-import TOC from "./components/TOC";
-import Conclusion from "./components/Conclusion";
-import Category from "./components/Category";
-import ProjectIconWall from "./components/ProjectIconWall"; // Used to generate the icon
-import BgPicture from "./components/BgPicture";
+import Header from "components/Header";
+import Top from "components/Top";
+import Footer from "components/Footer";
+import TranslatorSection from "components/TranslatorSection";
+import TOC from "components/TOC";
+import Conclusion from "components/Conclusion";
+import Category from "components/Category";
 
-const Page = ({
+type Props = {
+  entities: RisingStars.Entities;
+  categories: RisingStars.Category[];
+  url: string;
+  projects: RisingStars.ProjectsByCategory;
+  translations: RisingStars.IntlContent;
+  year: number;
+  allYears: number[];
+  currentYear: number;
+  languages: RisingStars.Language[];
+};
+
+export const PageRoot = ({
   entities,
   url,
   projects,
-  intl,
   translations,
   year,
   allYears,
   currentYear,
   categories,
   languages,
-}) => {
+}: Props) => {
+  const intl = useIntl();
   const language = intl.locale;
   const title = intl.formatMessage({ id: "page.title" });
   const description = intl.formatMessage({ id: "page.description" });
@@ -47,7 +57,7 @@ const Page = ({
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
       <Top
-        entities={entities}
+        entities={entities as any}
         url={url}
         intl={intl}
         translations={translations}
@@ -56,20 +66,9 @@ const Page = ({
         allYears={allYears}
         currentYear={currentYear}
       />
-      {false && <BgPicture projects={projects.all} />}
-      {false && (
-        <ProjectIconWall projects={projects.all} lang={language} year={year} />
-      )}
       <div className="main">
         <div className="main-contents">
-          <TOC
-            projects={projects}
-            entities={entities}
-            url={url}
-            intl={intl}
-            translations={translations}
-            categories={categories}
-          />
+          <TOC projects={projects} categories={categories} />
           {categories
             .filter((item) => !item.disabled)
             .map((item, i) => (
@@ -88,7 +87,8 @@ const Page = ({
                   !item.availableComments ||
                   item.availableComments.includes(language)
                 }
-                {...item}
+                guest={item.guest}
+                count={item.count}
               />
             ))}
           <Conclusion
@@ -108,5 +108,3 @@ const Page = ({
     </div>
   );
 };
-
-export default injectIntl(Page);

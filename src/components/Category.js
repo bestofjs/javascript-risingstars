@@ -18,9 +18,9 @@ const Category = ({
   currentYear,
   intl,
   hasComment,
+  count,
   ...props
 }) => {
-  const { count } = props;
   if (!projects[tag]) throw new Error(`No projects with the tag "${tag}"`);
   const graphProjects = projects[tag].slice(0, count);
   const key = tag.replace(/-/gi, "");

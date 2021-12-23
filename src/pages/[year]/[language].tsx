@@ -7,8 +7,8 @@ import path from "path";
 
 import settings from "../../../data/settings.json";
 import allLanguages from "../../../data/allLanguages.json";
-import processProjectData from "../../utils/processProjectData";
-import Page from "../../Page";
+import processProjectData from "utils/processProjectData";
+import { PageRoot } from "components/page-root";
 
 const siteMetadata = {
   title: `JavaScript Rising Stars`,
@@ -16,23 +16,17 @@ const siteMetadata = {
   GA: "UA-44563970-4",
 };
 
-type CategorySetting = {
-  key: string;
-  count?: number;
-  disabled?: boolean;
-};
-
 type Props = {
   year: number;
   language: string;
-  entities: any;
-  projectsByTag: any;
-  messages: any;
-  translations: any;
+  entities: RisingStars.Entities;
+  projectsByTag: RisingStars.ProjectsByCategory;
+  messages: RisingStars.IntlContent;
+  translations: RisingStars.IntlContent;
   allYears: number[];
   currentYear: number;
-  languages: { code: string; text: string }[];
-  categories: CategorySetting[];
+  languages: RisingStars.Language[];
+  categories: RisingStars.Category[];
 };
 const Root = ({
   year,
@@ -50,7 +44,7 @@ const Root = ({
 
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
-      <Page
+      <PageRoot
         projects={projectsByTag}
         entities={entities}
         url={fullUrl}

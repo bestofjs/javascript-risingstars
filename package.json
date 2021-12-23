@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next dev"
+    "start": "next dev",
+    "typecheck": "tsc --watch"
   },
   "dependencies": {
     "flat": "^5.0.2",
