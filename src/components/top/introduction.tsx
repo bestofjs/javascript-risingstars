@@ -1,16 +1,11 @@
-import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from "../TranslatedBlock";
+import { TranslatedBlock } from "components/translated-block";
 
-const Introduction = ({ entities, url, intl, translations }) => (
+export const Introduction = () => (
   <div>
     <div className="introduction-text">
-      <TranslatedBlock
-        translations={translations}
-        path="introduction"
-        entities={entities}
-      />
+      <TranslatedBlock path="introduction" />
     </div>
     <hr />
     <p style={{ margin: "1rem 0 0" }}>
@@ -27,5 +22,3 @@ const Introduction = ({ entities, url, intl, translations }) => (
     </p>
   </div>
 );
-
-export default Introduction;

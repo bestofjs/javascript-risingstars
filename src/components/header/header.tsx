@@ -1,15 +1,12 @@
-import React from "react";
-import { useRouter } from "next/router";
+import { LanguageMenuFullSize } from "./language-menu-fullsize";
+import { LanguageMenuCompact } from "./language-menu-compact";
 
-import FullSizeMenu from "./FullSizeMenu";
-import DropDownMenu from "./DropDownMenu";
-
-const Header = ({ language, year, availableLanguages }) => {
-  const router = useRouter();
-  const onChange = (e) => {
-    const path = e.target.value;
-    router.push(path);
-  };
+type Props = {
+  language: string;
+  year: number;
+  availableLanguages: RisingStars.Language[];
+};
+export const Header = ({ language, year, availableLanguages }: Props) => {
   return (
     <div id="header">
       <div className="container">
@@ -22,17 +19,16 @@ const Header = ({ language, year, availableLanguages }) => {
             />
           </a>
           <div className="language-column">
-            <FullSizeMenu
+            <LanguageMenuFullSize
               currentLanguage={language}
               languages={availableLanguages}
               year={year}
             />
             {availableLanguages.length > 1 && (
-              <DropDownMenu
+              <LanguageMenuCompact
                 currentLanguage={language}
                 languages={availableLanguages}
                 year={year}
-                onChange={onChange}
               />
             )}
           </div>
@@ -47,5 +43,3 @@ const Header = ({ language, year, availableLanguages }) => {
     </div>
   );
 };
-
-export default Header;

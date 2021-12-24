@@ -1,8 +1,10 @@
-import React from "react";
 import ReactMarkdown from "react-markdown";
 import get from "lodash/get";
 
-const TranslatedBlock = ({ translations, path, entities }) => {
+import { useAppData } from "app-data";
+
+export const TranslatedBlock = ({ path }: { path: string }) => {
+  const { entities, translations } = useAppData();
   const markdown =
     get(translations, path) || `No translation for this path: "${path}"`;
 
@@ -11,8 +13,8 @@ const TranslatedBlock = ({ translations, path, entities }) => {
   return <ReactMarkdown source={source} />;
 };
 
-function processMarkdown(entities, md) {
-  const processed = md.replace(/{(.+?)}/gi, (match, slug) => {
+function processMarkdown(entities: RisingStars.Entities, md: string) {
+  const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
     const project = entities[slug];
     if (!project) {
       return slug;
@@ -22,5 +24,3 @@ function processMarkdown(entities, md) {
   });
   return processed;
 }
-
-export default TranslatedBlock;

@@ -1,9 +1,8 @@
-import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import TranslatedBlock from "./TranslatedBlock";
+import { TranslatedBlock } from "components/translated-block";
 
-const Conclusion = ({ entities, url, intl, translations }) => (
+export const Conclusion = () => (
   <div className="container small-container" id="conclusion">
     <div className="small-card conclusion">
       <div className="small-card-header">
@@ -12,11 +11,7 @@ const Conclusion = ({ entities, url, intl, translations }) => (
         </h2>
       </div>
       <div className="markdown-body">
-        <TranslatedBlock
-          translations={translations}
-          path="conclusion"
-          entities={entities}
-        />
+        <TranslatedBlock path="conclusion" />
       </div>
     </div>
   </div>
