@@ -21,7 +21,8 @@ export const PageRoot = ({ projects, year, categories, languages }: Props) => {
   const language = intl.locale;
   const title = intl.formatMessage({ id: "page.title" });
   const description = intl.formatMessage({ id: "page.description" });
-  const rootURL = process.env.NEXT_PUBLIC_ROOT_URL || "";
+  const rootURL = process.env.NEXT_PUBLIC_ROOT_URL || ""; // env. variable setup from Vercel dashboard
+
   const pageURL = `${rootURL}/${year}/${language}`;
   const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
 

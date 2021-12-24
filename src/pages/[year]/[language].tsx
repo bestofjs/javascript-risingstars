@@ -11,12 +11,6 @@ import processProjectData from "utils/processProjectData";
 import { PageRoot } from "components/page-root";
 import { AppDataContainer } from "app-data";
 
-const siteMetadata = {
-  title: `JavaScript Rising Stars`,
-  url: "https://risingstars.js.org",
-  GA: "UA-44563970-4",
-};
-
 type Props = {
   year: number;
   language: string;
@@ -25,7 +19,6 @@ type Props = {
   messages: RisingStars.IntlContent;
   translations: RisingStars.IntlContent;
   allYears: number[];
-  // currentYear: number;
   languages: RisingStars.Language[];
   categories: RisingStars.Category[];
 };
@@ -37,13 +30,9 @@ const Root = ({
   messages,
   translations,
   allYears,
-  // currentYear,
   languages,
   categories,
 }: Props) => {
-  const fullUrl = `${siteMetadata.url}/${year}/${language}`;
-  console.log({ fullUrl });
-
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
       <AppDataContainer.Provider
