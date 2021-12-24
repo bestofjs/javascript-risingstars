@@ -1,6 +1,9 @@
-import React from "react";
-import ProjectAvatar from "../ProjectAvatar";
-import styles from "./style.module.css";
+/*
+Component only used to generate the header background image
+saved in `/public/img/:year/banner.png`
+*/
+import { ProjectAvatar } from "components/project-avatar";
+import styles from "./project-avatar-grid.module.css";
 
 const excluded = [
   "axios",
@@ -19,7 +22,10 @@ const excluded = [
   "30-seconds-of-code",
 ];
 
-const Wall = ({ projects }) => {
+type Props = {
+  projects: RisingStars.Project[];
+};
+export const ProjectAvatarGrid = ({ projects }: Props) => {
   const niceProjects = projects.filter(
     (project) => !excluded.includes(project.slug)
   );
@@ -41,7 +47,7 @@ const Wall = ({ projects }) => {
   );
 };
 
-const Cell = ({ project }) => {
+const Cell = ({ project }: { project?: RisingStars.Project }) => {
   if (!project) return <div className={styles.emptyCell} />;
   return (
     <div>
@@ -49,5 +55,3 @@ const Cell = ({ project }) => {
     </div>
   );
 };
-
-export default Wall;

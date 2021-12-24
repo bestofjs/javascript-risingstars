@@ -1,7 +1,15 @@
-import React from "react";
 import Link from "next/link";
 
-const FullSizeMenu = ({ year, languages, currentLanguage }) => (
+type Props = {
+  year: number;
+  languages: RisingStars.Language[];
+  currentLanguage: string;
+};
+export const LanguageMenuFullSize = ({
+  year,
+  languages,
+  currentLanguage,
+}: Props) => (
   <div className="language-menu">
     {languages.map((lang) => (
       <LanguageLink
@@ -29,5 +37,3 @@ const LanguageLink = ({ lang, active, year }) => {
     </Link>
   );
 };
-
-export default FullSizeMenu;

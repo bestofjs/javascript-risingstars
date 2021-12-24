@@ -1,24 +1,19 @@
-import React from "react";
 import tinytime from "tinytime";
-
-import ProjectChart from "./ProjectChart";
-
-const templateMonthYear = tinytime("{Mo}/{YYYY}");
 import { FormattedMessage } from "react-intl";
 
-const ProjectDetails = ({
-  project,
-  index,
-  tagKey,
-  isOpen,
-  year,
-  currentYear,
-  intl,
-}) => {
+import { ProjectChart } from "./project-chart";
+
+const templateMonthYear = tinytime("{Mo}/{YYYY}");
+
+type Props = {
+  project: RisingStars.Project;
+  isOpen: boolean;
+};
+export const ProjectDetails = ({ project, isOpen }: Props) => {
   return (
     <div className={`project-details ${isOpen ? "is-open" : "is-closed"}`}>
       <div className="project-details-inner">
-        <ProjectChart project={project} intl={intl} />
+        <ProjectChart project={project} />
         <ul className="project-links">
           <li>
             <span className="project-created-at">
@@ -52,5 +47,3 @@ const ProjectDetails = ({
     </div>
   );
 };
-
-export default ProjectDetails;

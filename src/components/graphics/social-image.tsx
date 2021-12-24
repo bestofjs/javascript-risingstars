@@ -1,6 +1,5 @@
-import React from "react";
-import ProjectAvatar from "../ProjectAvatar";
-import styles from "./style.module.css";
+import { ProjectAvatar } from "components/project-avatar";
+import styles from "./social-image.module.css";
 
 const excluded = [
   "axios",
@@ -15,7 +14,7 @@ const excluded = [
   "handlebarsjs",
 ];
 
-const Wall = ({ projects, lang = "ja", year }) => {
+export const SocialImage = ({ projects, lang = "ja", year }) => {
   const titles = {
     en: `${year} JavaScript Rising Stars`,
     ja: (
@@ -60,5 +59,3 @@ const Wall = ({ projects, lang = "ja", year }) => {
     </div>
   );
 };
-
-export default Wall;

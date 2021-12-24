@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
-import React from "react";
 import { FormattedMessage } from "react-intl";
 
-const Banner = () => {
+export const Banner = () => {
   const router = useRouter();
   const {
     query: { year },
@@ -39,5 +38,3 @@ const Banner = () => {
     </div>
   );
 };
-
-export default Banner;

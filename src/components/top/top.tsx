@@ -1,7 +1,25 @@
-import React from "react";
 import Link from "next/link";
 
-const YearNavigator = ({ allYears, year: activeYear }) => {
+import { useAppData } from "app-data";
+import { Banner } from "./banner";
+import { Introduction } from "./introduction";
+
+export const Top = () => {
+  return (
+    <>
+      <YearNavigator />
+      <Banner />
+      <div className="container small-container">
+        <div className="top-with-banner-introduction">
+          <Introduction />
+        </div>
+      </div>
+    </>
+  );
+};
+
+const YearNavigator = () => {
+  const { allYears, year: activeYear } = useAppData();
   return (
     <div className="year-menu-container">
       <div className="container small-container">
@@ -29,5 +47,3 @@ const YearLink = ({ year, isActive }) => {
     </Link>
   );
 };
-
-export default YearNavigator;

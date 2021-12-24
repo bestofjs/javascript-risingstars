@@ -7,32 +7,20 @@ import path from "path";
 
 import settings from "../../../data/settings.json";
 import allLanguages from "../../../data/allLanguages.json";
-import processProjectData from "../../utils/processProjectData";
-import Page from "../../Page";
-
-const siteMetadata = {
-  title: `JavaScript Rising Stars`,
-  url: "https://risingstars.js.org",
-  GA: "UA-44563970-4",
-};
-
-type CategorySetting = {
-  key: string;
-  count?: number;
-  disabled?: boolean;
-};
+import processProjectData from "utils/processProjectData";
+import { PageRoot } from "components/page-root";
+import { AppDataContainer } from "app-data";
 
 type Props = {
   year: number;
   language: string;
-  entities: any;
-  projectsByTag: any;
-  messages: any;
-  translations: any;
+  entities: RisingStars.Entities;
+  projectsByTag: RisingStars.ProjectsByCategory;
+  messages: RisingStars.IntlContent;
+  translations: RisingStars.IntlContent;
   allYears: number[];
-  currentYear: number;
-  languages: { code: string; text: string }[];
-  categories: CategorySetting[];
+  languages: RisingStars.Language[];
+  categories: RisingStars.Category[];
 };
 const Root = ({
   year,
@@ -42,25 +30,21 @@ const Root = ({
   messages,
   translations,
   allYears,
-  currentYear,
   languages,
   categories,
 }: Props) => {
-  const fullUrl = `${siteMetadata.url}/${year}/${language}`;
-
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
-      <Page
-        projects={projectsByTag}
-        entities={entities}
-        url={fullUrl}
-        translations={translations}
-        year={year}
-        allYears={allYears}
-        currentYear={currentYear}
-        categories={categories}
-        languages={languages}
-      />
+      <AppDataContainer.Provider
+        initialState={{ allYears, year, entities, translations, projectsByTag }}
+      >
+        <PageRoot
+          projects={projectsByTag}
+          year={year}
+          categories={categories}
+          languages={languages}
+        />
+      </AppDataContainer.Provider>
     </IntlProvider>
   );
 };
@@ -108,7 +92,7 @@ export async function getStaticProps({ params }: Params) {
   const languageCodes =
     (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
     [];
-  const currentYear = settings.find(({ current }) => !!current).year;
+  // const currentYear = settings.find(({ current }) => !!current).year;
 
   const languages = languageCodes.map((code) =>
     allLanguages.find((item) => item.code === code)
@@ -122,7 +106,6 @@ export async function getStaticProps({ params }: Params) {
       projectsByTag,
       messages,
       translations,
-      currentYear,
       allYears,
       languages,
       categories,
