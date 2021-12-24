@@ -13,17 +13,10 @@ type Props = {
   categories: RisingStars.Category[];
   projects: RisingStars.ProjectsByCategory;
   year: number;
-  // currentYear: number;
   languages: RisingStars.Language[];
 };
 
-export const PageRoot = ({
-  projects,
-  year,
-  // currentYear,
-  categories,
-  languages,
-}: Props) => {
+export const PageRoot = ({ projects, year, categories, languages }: Props) => {
   const intl = useIntl();
   const language = intl.locale;
   const title = intl.formatMessage({ id: "page.title" });
@@ -48,6 +41,7 @@ export const PageRoot = ({
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
       <Top />
+
       <div className="main">
         <div className="main-contents">
           <TableOfContents projects={projects} categories={categories} />
