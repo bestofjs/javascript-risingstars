@@ -16,37 +16,45 @@
 
 .project-links {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 0;
   margin: 0;
   list-style-type: none;
+  margin-bottom: 0.5rem;
 }
 .project-links li {
   display: block;
   margin-right: 10px;
-  flex: 1;
+  /* flex: 1; */
 }
 .project-links li:last-child {
   margin-right: 0;
 }
 .project-links li a,
 .project-links li > span {
-  font-size: var(--small-font);
-  display: block;
+  font-size: var(--smallish-font);
+  display: inline-flex;
+  align-items: center;
   border: 1px solid var(--light-border-color);
   text-align: center;
   border-radius: 3px;
   padding: 6px 8px;
+  color: inherit;
 }
 .project-links .project-created-at {
   font-size: var(--smaller-font);
 }
+.project-links svg {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 4px;
+}
 
 .project-chart {
   width: 100%;
-  margin: 40px 0 15px 0;
+  margin: 25px 0 15px 0;
 }
 
 .project-chart-columns {
@@ -66,8 +74,7 @@
 }
 
 .project-chart-bar {
-  background: rgba(0, 0, 0, 0.1);
-  background: rgba(228, 91, 18, 0.15);
+  background: var(--chart-bar-bg-color);
   position: relative;
 }
 

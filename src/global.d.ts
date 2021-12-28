@@ -19,6 +19,11 @@ declare namespace RisingStars {
     [key: string]: Project;
   };
 
+  type Tag = {
+    name: string;
+    code: string;
+  };
+
   type ProjectsByCategory = { [category: string]: RisingStars.Project[] };
 
   type Category = {

@@ -10,7 +10,13 @@ type Props = {
   limit: number;
   count: number;
 };
-export const ProjectList = ({ projects, limit = 5, count, tagKey }: Props) => {
+export const ProjectList = ({
+  projects,
+  limit = 5,
+  count,
+  tagKey,
+  year,
+}: Props) => {
   const [showFullList, toggleFullList] = useState(false);
   const maxDelta = Math.max(...projects.map((project) => project.delta));
 
@@ -25,6 +31,7 @@ export const ProjectList = ({ projects, limit = 5, count, tagKey }: Props) => {
             tagKey={tagKey}
             maxDelta={maxDelta}
             project={project}
+            year={year}
             index={i + 1}
           />
         ))}
@@ -43,7 +50,7 @@ export const ProjectList = ({ projects, limit = 5, count, tagKey }: Props) => {
   );
 };
 
-const ProjectListItem = ({ maxDelta, project, tagKey, index }) => {
+const ProjectListItem = ({ maxDelta, project, tagKey, year, index }) => {
   // only first project of "all" category should start expanded
   const defaultIsOpen = tagKey === "all" && index === 1;
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
@@ -57,7 +64,7 @@ const ProjectListItem = ({ maxDelta, project, tagKey, index }) => {
         project={project}
         index={index}
       />
-      <ProjectDetails isOpen={isOpen} project={project} />
+      <ProjectDetails isOpen={isOpen} project={project} year={year} />
     </div>
   );
 };
