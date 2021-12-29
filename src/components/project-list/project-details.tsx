@@ -1,9 +1,9 @@
 import tinytime from "tinytime";
-// import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from "react-intl";
 
+import { useAppData } from "app-data";
 import { ProjectChart } from "./project-chart";
 import { formatStarNumber } from "./project-shared";
-import { useAppData } from "app-data";
 
 const templateMonthYear = tinytime("{YYYY}/{Mo}");
 
@@ -17,20 +17,46 @@ export const ProjectDetails = ({ project, isOpen, year }: Props) => {
   return (
     <div className={`project-details ${isOpen ? "is-open" : "is-closed"}`}>
       <div className="project-details-inner">
-        <Separator>Trends in {year}</Separator>
+        <Heading>
+          <FormattedMessage
+            id="common.view_project.trends"
+            defaultMessage={"Trends in XXX"}
+            values={{ year }}
+          />
+        </Heading>
         <ProjectChart project={project} />
-        <Separator>GitHub Data</Separator>
+        <Heading>
+          <FormattedMessage
+            id="common.view_project.data"
+            defaultMessage={"GitHub data"}
+          />
+        </Heading>
         <DataList>
           <DataListItem
-            label={<>Created:</>}
+            label={
+              <FormattedMessage
+                id="common.view_project.created"
+                defaultMessage={`Created`}
+              />
+            }
             data={templateMonthYear.render(new Date(project.created_at))}
           />
           <DataListItem
-            label={<>Total stars:</>}
+            label={
+              <FormattedMessage
+                id="common.view_project.stars_total"
+                defaultMessage={"Total stars"}
+              />
+            }
             data={<>{formatStarNumber(stars, 1)}☆</>}
           />
         </DataList>
-        <Separator>Links</Separator>
+        <Heading>
+          <FormattedMessage
+            id="common.view_project.links"
+            defaultMessage={"Links"}
+          />
+        </Heading>
         <DataList>
           <DataListItem
             label={<>GitHub</>}
@@ -38,7 +64,12 @@ export const ProjectDetails = ({ project, isOpen, year }: Props) => {
           />
           {url && (
             <DataListItem
-              label={<>Homepage</>}
+              label={
+                <FormattedMessage
+                  id="common.view_project.homepage"
+                  defaultMessage={`Homepage`}
+                />
+              }
               data={<a href={url}>{formatURL(url)}</a>}
             />
           )}
@@ -92,10 +123,10 @@ const TagList = ({ project }: { project: RisingStars.Project }) => {
             background-color: rgba(228, 91, 18, 0.04);
           }
           .tag {
-            background-color: #eee;
+            background-color: var(--bg-color);
           }
           .tag:hover {
-            background-color: #ddd;
+            background-color: var(--grey);
           }
         `}
       </style>
@@ -103,22 +134,24 @@ const TagList = ({ project }: { project: RisingStars.Project }) => {
   );
 };
 
-const Separator = ({ children }) => {
+const Heading = ({ children }) => {
   return (
-    <div
-      style={{
-        width: "100%",
-        border: "1px dashed var(--grey3)",
-        textAlign: "center",
-        marginBottom: 10,
-        fontSize: "var(--smallish-font)",
-        // textTransform: "uppercase",
-        color: "var(--mediumgrey)",
-        padding: "2px 0",
-      }}
-    >
+    <h4>
       {children}
-    </div>
+      <style jsx>
+        {`
+          h4 {
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px dashed var(--grey3);
+            text-align: center;
+            font-size: var(--smallish-font);
+            color: var(--mediumgrey);
+            padding: 2px 0;
+          }
+        `}
+      </style>
+    </h4>
   );
 };
 
