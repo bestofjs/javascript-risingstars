@@ -5,7 +5,7 @@ language: en
 
 For the fist time since we run the _JavaScript Rising Stars_, {react} is the UI framework number one but if we take into account the fact that Vue.js is split into two repositories (for the versions 2 and 3), Vue.js is still the virtual leader.
 
-The big change is the rise of {Svelte} that takes the spot number 3, before {angularjs}.
+The big change is the rise of {svelte} that takes the spot number 3, before {angular}.
 
 More and more tools or components include Svelte among the target frameworks (we mentioned {vite} for example).
 
