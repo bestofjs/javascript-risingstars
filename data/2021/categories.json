@@ -14,17 +14,24 @@
     "count": 20
   },
   {
-    "key": "react",
-    "tags": ["react", "react-native"],
-    "count": 20,
-    "excluded": ["react", "react-native", "storybook"],
-    "guest": "leerob"
+    "key": "build",
+    "limit": 5,
+    "count": 10,
+    "guest": "slorber"
   },
   {
     "key": "vue",
     "count": 10,
     "excluded": ["vuejs", "storybook", "vite"],
     "guest": "antfu"
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"],
+    "guest": "leerob",
+    "availableComments": []
   },
   {
     "key": "angular",
@@ -35,15 +42,9 @@
       "storybook",
       "nativescript",
       "ionic",
-      "tsparticles",
-      "carbon-design-system"
-    ]
-  },
-  {
-    "key": "build",
-    "limit": 5,
-    "count": 10,
-    "guest": "slorber"
+      "tsparticles"
+    ],
+    "availableComments": []
   },
   {
     "key": "css-in-js",
@@ -60,6 +61,16 @@
   {
     "key": "mobile",
     "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "desktop",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "ssg",
     "count": 10,
     "availableComments": []
   },

@@ -19,6 +19,7 @@
     "vue": "Vue Ecosystem",
     "angular": "Angular Ecosystem",
     "mobile": "Mobile",
+    "desktop": "Desktop",
     "compiler": "JS Flavors/Compilers",
     "build": "Build Tools",
     "testframework": "Testing",
