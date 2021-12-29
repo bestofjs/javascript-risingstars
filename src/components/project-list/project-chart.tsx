@@ -1,6 +1,6 @@
 import { useIntl } from "react-intl";
 
-import formatDelta from "utils/formatDelta";
+import { formatStarNumber } from "./project-shared";
 
 type Props = {
   project: RisingStars.Project;
@@ -32,16 +32,20 @@ export const ProjectChart = ({ project }: Props) => {
         <div className="project-chart-columns">
           {monthlyDeltas.map((d, i) => (
             <div key={i} className="project-chart-column">
-              <div
-                className="project-chart-bar"
-                style={{
-                  height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
-                }}
-              >
-                <div className="project-chart-stars">
-                  {d > 0 && <span>{formatDelta(d, 1)}</span>}
+              {d > 0 ? (
+                <div
+                  className="project-chart-bar"
+                  style={{
+                    height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
+                  }}
+                >
+                  <div className="project-chart-stars">
+                    {d > 0 && <span>{formatStarNumber(d, 1)}</span>}
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <NotAvailable key={i} />
+              )}
             </div>
           ))}
         </div>
@@ -56,3 +60,20 @@ export const ProjectChart = ({ project }: Props) => {
     </div>
   );
 };
+
+const NotAvailable = () => (
+  <div>
+    N/A
+    <style jsx>
+      {`
+        div {
+          font-size: var(--smaller-font);
+          color: var(--light-text-color);
+          text-align: center;
+          border-bottom: 2px dashed var(--chart-bar-bg-color);
+          padding-bottom: 5px;
+        }
+      `}
+    </style>
+  </div>
+);

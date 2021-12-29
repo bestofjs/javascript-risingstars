@@ -14,39 +14,9 @@
   padding: 10px 20px 20px 20px;
 }
 
-.project-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-.project-links li {
-  display: block;
-  margin-right: 10px;
-  flex: 1;
-}
-.project-links li:last-child {
-  margin-right: 0;
-}
-.project-links li a,
-.project-links li > span {
-  font-size: var(--small-font);
-  display: block;
-  border: 1px solid var(--light-border-color);
-  text-align: center;
-  border-radius: 3px;
-  padding: 6px 8px;
-}
-.project-links .project-created-at {
-  font-size: var(--smaller-font);
-}
-
 .project-chart {
   width: 100%;
-  margin: 40px 0 15px 0;
+  margin: 30px 0 15px 0;
 }
 
 .project-chart-columns {
@@ -66,8 +36,7 @@
 }
 
 .project-chart-bar {
-  background: rgba(0, 0, 0, 0.1);
-  background: rgba(228, 91, 18, 0.15);
+  background: var(--chart-bar-bg-color);
   position: relative;
 }
 

@@ -16,6 +16,7 @@ type Props = {
   language: string;
   entities: RisingStars.Entities;
   projectsByTag: RisingStars.ProjectsByCategory;
+  tags: RisingStars.Tag[];
   messages: RisingStars.IntlContent;
   translations: RisingStars.IntlContent;
   allYears: number[];
@@ -27,6 +28,7 @@ const Root = ({
   language,
   entities,
   projectsByTag,
+  tags,
   messages,
   translations,
   allYears,
@@ -36,7 +38,14 @@ const Root = ({
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en">
       <AppDataContainer.Provider
-        initialState={{ allYears, year, entities, translations, projectsByTag }}
+        initialState={{
+          allYears,
+          year,
+          entities,
+          translations,
+          projectsByTag,
+          tags,
+        }}
       >
         <PageRoot
           projects={projectsByTag}
@@ -98,11 +107,16 @@ export async function getStaticProps({ params }: Params) {
     allLanguages.find((item) => item.code === code)
   );
 
+  const { tags } = await fetch(
+    "https://bestofjs-static-api.vercel.app/projects.json"
+  ).then((r) => r.json());
+
   return {
     props: {
       year,
       language,
       entities,
+      tags,
       projectsByTag,
       messages,
       translations,

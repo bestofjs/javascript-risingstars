@@ -1,5 +1,5 @@
 import { ProjectAvatar } from "components/project-avatar";
-import { Stars } from "./project-shared";
+import { formatStarNumber } from "./project-shared";
 
 type Props = {
   project: RisingStars.Project;
@@ -39,9 +39,7 @@ export const ProjectSummary = ({
             <Description text={project.description} showEmojis={false} />
           </div>
         </div>
-        <div className="stars">
-          <Stars value={project.delta} decimals={1} />
-        </div>
+        <div className="stars">+{formatStarNumber(project.delta, 1)}☆</div>
       </div>
     </div>
   );
