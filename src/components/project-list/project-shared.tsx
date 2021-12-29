@@ -1,9 +1,8 @@
-import formatDelta from "utils/formatDelta";
+import numeral from "numeral";
 
-type Props = {
-  value: number;
-  decimals: number;
-};
-export const Stars = ({ value, decimals }: Props) => {
-  return <span className="stars">+{formatDelta(value, decimals)}☆</span>;
-};
+export function formatStarNumber(value: number, decimals: number = 0) {
+  const numberFormat =
+    decimals === 0 || value < 1000 ? "0" : `0.${"0".repeat(decimals)}`;
+  const formattedNumber = numeral(value).format(`${numberFormat}a`);
+  return formattedNumber;
+}

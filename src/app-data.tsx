@@ -6,6 +6,7 @@ type AppData = {
   entities: RisingStars.Entities;
   translations: RisingStars.IntlContent;
   projectsByTag: RisingStars.ProjectsByCategory;
+  tags: RisingStars.Tag[];
 };
 
 function useAppContext(initialState: AppData) {
