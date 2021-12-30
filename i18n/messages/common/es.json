@@ -12,6 +12,10 @@
     },
     "months": "E F M A M J J A S O N D",
     "created": "Creado",
-    "homepage": "Home"
+    "homepage": "Home",
+    "trends": "Trends in {year}",
+    "data": "GitHub data",
+    "stars_total": "Total stars",
+    "links": "Links"
   }
 }

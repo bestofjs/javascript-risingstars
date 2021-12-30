@@ -20,7 +20,7 @@ export const ProjectDetails = ({ project, isOpen, year }: Props) => {
         <Heading>
           <FormattedMessage
             id="common.view_project.trends"
-            defaultMessage={"Trends in XXX"}
+            defaultMessage={"Trends in {year}"}
             values={{ year }}
           />
         </Heading>
