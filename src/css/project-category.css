@@ -94,7 +94,7 @@
 }
 .project-table-row .stars {
   white-space: nowrap;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .project-table-row:hover {
   background-color: white;

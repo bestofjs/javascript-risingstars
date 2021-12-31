@@ -16,7 +16,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "target": "esnext"
+    "target": "esnext",
+    "incremental": true,
+    "baseUrl": "src"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
