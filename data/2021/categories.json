@@ -34,19 +34,6 @@
     "availableComments": []
   },
   {
-    "key": "angular",
-    "count": 10,
-    "excluded": [
-      "angular",
-      "angular-1",
-      "storybook",
-      "nativescript",
-      "ionic",
-      "tsparticles"
-    ],
-    "availableComments": []
-  },
-  {
     "key": "css-in-js",
     "count": 10,
     "availableComments": []
@@ -87,11 +74,5 @@
     "excluded": ["react-query"],
     "disabled": false,
     "availableComments": []
-  },
-  {
-    "key": "learning",
-    "count": 10,
-    "availableComments": [],
-    "disabled": false
   }
 ]
