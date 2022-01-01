@@ -11,7 +11,7 @@ To build resilient and performant applications, the main UI frameworks have thei
 
 {remix}, a full stack framework to build React applications, is the newcomer of the category. It's one of the biggest stories of the year. It was created by the authors of [React Router](https://reactrouter.com/) and it was only available to paying supporters until October.
 
-The project got a lot of traction (and $3M in seed funding too) since it was made public. Its motto is clear: "Web Fundamentals, Modern UX" as its APIs follow as much as possible the web standards (HTTP responses, form submissions...). It handles nested routes in a very smart way, being able to load data needed by all the components on a give page in an efficient way, instead of generating a waterfall of HTTP calls that often leads to a lot of spinner indicators on the screen.
+The project got a lot of traction (and $3M in seed funding too) since it was made public. Its motto is clear: "Web Fundamentals, Modern UX" as its APIs follow as much as possible the web standards (HTTP responses, form submissions...). It handles nested routes in a very smart way, being able to load data needed by all the components on a given page in an efficient way, instead of generating a waterfall of HTTP calls that often leads to a lot of spinner indicators on the screen.
 
 Besides these meta frameworks, at the position number 2, {nest} is the leader of the more conventional server-side Node.js frameworks, not tight to any UI library.
 

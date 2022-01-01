@@ -5,7 +5,7 @@ language: en
 
 ### The TOP 3
 
-The trendiest project of the year is {zx} a brand new tool by Google to write simple Command Line scripts in JavaScript or TypeScript.
+The trendiest project of the year is {zx}, a brand new tool by Google to write simple Command Line scripts in JavaScript or TypeScript.
 
 Basically it lets you embed any bash expression (`ls`, `cat`, `git`... anything!) in your code and `await` for the result using [JavaScript template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
 
