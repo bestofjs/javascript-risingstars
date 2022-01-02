@@ -43,7 +43,11 @@ const YearLink = ({ year, isActive }) => {
         query: { year },
       }}
     >
-      <a>{year}</a>
+      <a>{abbreviateYear(year)}</a>
     </Link>
   );
 };
+
+function abbreviateYear(year: number) {
+  return "’" + year.toString().slice(2);
+}

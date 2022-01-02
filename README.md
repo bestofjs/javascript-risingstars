@@ -1,10 +1,9 @@
-[![image](https://user-images.githubusercontent.com/5546996/104084816-f63d2200-528d-11eb-96ca-50296b643f6e.png)](https://javascript-risingstars.vercel.app/)
+[![image](https://risingstars.js.org/img/2021/en/rising-stars.png)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2020: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
+An overview of the JavaScript landscape in 2021: trends about front-end and Node.js frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
-Available in English and Russian.
 ## Credits
 
 ### Team members
