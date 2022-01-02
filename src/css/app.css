@@ -255,3 +255,11 @@ h1 {
 hr {
   border-top-width: 0;
 }
+
+code {
+  font-weight: 600;
+}
+code:before,
+code:after {
+  content: "`";
+}

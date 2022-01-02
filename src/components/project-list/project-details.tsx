@@ -117,16 +117,18 @@ const TagList = ({ project }: { project: RisingStars.Project }) => {
           }
           .details {
             color: var(--linkColor);
-            border: 1px solid var(--light-border-color);
+            border: 1px solid var(--activeLinkColor);
           }
           .details:hover {
             background-color: rgba(228, 91, 18, 0.04);
           }
           .tag {
-            background-color: var(--bg-color);
+            color: var(--darkgrey);
+            border: 1px solid var(--light-border-color);
           }
           .tag:hover {
-            background-color: var(--grey);
+            background-color: var(--bg-color);
+            color: inherit;
           }
         `}
       </style>
