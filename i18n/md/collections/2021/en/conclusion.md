@@ -18,7 +18,7 @@ Lee Robinson made a strong statement: [Rust Is The Future of JavaScript Infrastr
 - The project {rome} made a strong move [from JavaScript to Rust](https://rome.tools/blog/2021/09/21/rome-will-be-rewritten-in-rust)
 - Next.js latest version (12) includes {swc} compiler, written in Rust
 
-SWC is also used by {deno}, the server-side runtime that was the winner in 2020. And we can tell that Deno is still a thing in 2020! It keeps receiving enhancements and [Deno Deploy](https://deno.com/deploy/docs) was made public: it's a solution to build and deploy serverless functions that run at the "edge", close to the users.
+SWC is also used by {deno}, the server-side runtime that was the winner in 2020. And we can tell that [Deno is still a thing](https://blog.bitsrc.io/is-deno-still-a-thing-a-look-at-the-status-of-the-node-killer-884d47981d09)! It keeps receiving enhancements and [Deno Deploy](https://deno.com/deploy/docs) was made public: it's a solution to build and deploy serverless functions that run at the "edge", close to the users.
 
 Speaking of serverless functions, edge computing was also an important theme in 2021. We have solutions like [Vercel Edge Functions](https://vercel.com/docs/concepts/functions/edge-functions), [CloudFlare Workers](https://workers.cloudflare.com/) or [Netlify Edge](https://www.netlify.com/products/edge/edge-handlers/) to run backend code close to the users. Meta frameworks like Next.js or Remix take advantage of edge computing, making the integration of backend code in React applications a breeze.
 
