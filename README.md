@@ -4,14 +4,13 @@
 
 An overview of the JavaScript landscape in 2021: trends about front-end and Node.js frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
-## Credits
-
-### Team members
+## Team members
 
 - [Alexey Pyltsyn](https://lex111.ru/)
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
 - [Javier Valencia](http://www.jvalen.com)
+- [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 - [Rana Kualu](https://github.com/NurseAngel)
@@ -22,7 +21,7 @@ An overview of the JavaScript landscape in 2021: trends about front-end and Node
 - [王仕军](https://github.com/wangshijun)
 - [Yohei Ice](https://github.com/meltedice)
 
-### Stack
+## Stack
 
 - Built with [Next.js](https://nextjs.org/)
 - Hosted on [Vercel](https://vercel.com/)
