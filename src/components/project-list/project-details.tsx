@@ -96,7 +96,7 @@ const TagList = ({ project }: { project: RisingStars.Project }) => {
         <a
           key={tag.name}
           className="tag"
-          href={`https:/bestofjs.org/tags/${tag.code}`}
+          href={`https://bestofjs.org/tags/${tag.code}`}
         >
           {tag.name}
         </a>
