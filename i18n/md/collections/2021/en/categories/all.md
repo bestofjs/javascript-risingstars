@@ -15,26 +15,26 @@ It includes utilities provided by several popular packages:
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) to handle file system operations
 - [globby](https://github.com/sindresorhus/globby) to match file names given user-friendly patterns
 
-At position number 2, {vite} is a building tool that uses {esbuild} compiler to provide great performance. At the beginning it was linked to the Vue.js community but now it has setups for the main UI frameworks: {react}, {svelte}, {lit}.
+In second, {vite} is a building tool that uses {esbuild} compiler to provide great performance. At the beginning it was linked to the Vue.js community but now it has setups for the main UI frameworks: {react}, {svelte}, {lit}.
 
-At position number 3, {nextjs} keeps its position of leading "meta framework" for the React world.
+Coming in third, {nextjs} keeps its position of leading "meta framework" for the React world.
 
 ### Tauri
 
-At position 5, {tauri} is a solution to build desktop applications using web technologies.
+For fifth place, {tauri} is a solution to build desktop applications using web technologies.
 
-Compared to {electron} it's written in Rust and it does not ship Node.js runtime with every application. The version 1.0 was [released in beta in May](https://dev.to/tauri/announcing-tauri-beta-more-efficient-crossplatform-apps-with-better-features-1nbd).
+Compared to {electron} it's written in Rust and it doesn't ship the Node.js runtime with every application. Version 1.0 was [released in beta in May](https://dev.to/tauri/announcing-tauri-beta-more-efficient-crossplatform-apps-with-better-features-1nbd).
 
 ### Special pick
 
-It's not in the TOP 10 but {astro} is one of the projects of the year. Astro is a tool to build web sites that load faster because they ship less JavaScript.
+It's not in the TOP 10 but {astro} is one of the most notable projects of the year. Astro is a tool to build web sites that load faster because they ship less JavaScript.
 
-The concept is close to static site generation (SSG) but the big difference is that Astro lets you include dynamic pieces of interactivity in your pages called "islands".
+The concept is close to static site generation (SSG) but the key difference is that Astro lets you include dynamic pieces of interactivity in your pages called "islands".
 
-Different strategies can be applied to render dynamic components in the client-side:
+Different strategies can be applied to render dynamic components on the client-side:
 
 - when the page loads
 - when the page is idle if it's a low priority component (think tracking.)
 - when the component is visible using the browser [Intersection Observer API](https://devdocs.io/dom/intersection_observer_api)
 
-The best is that Astro pages can be built with a combination of HTML and components written with any framework: React, Vue.js or Svelte...
+One of best parts is that Astro pages can be built with a combination of HTML and components written with any framework: React, Vue.js or Svelte...

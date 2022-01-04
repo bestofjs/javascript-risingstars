@@ -7,7 +7,7 @@ To build modern sites and applications, it seems we have entered the era of the 
 
 Famous members of the JavaScript community joined tech companies to work on these solutions:
 
-- Kent C. Dodds joined the Remix team and he speaks highly about how it enables him to "build amazing user experiences and still be happy with the code".
+- Kent C. Dodds joined the Remix team and speaks highly about how it enables him to "build amazing user experiences and still be happy with the code".
 - It seems Vercel hired everyone else: Rich Harris, the creator of {svelte}, Sebastian Markbåge from the React core team and Jared Palmer and its now open source solution to manage monorepos ({turborepo})... it looks like a Dream Team!
 
 About the tooling, the need for speed led to a shift towards languages like Rust and Go instead of JavaScript.
