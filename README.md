@@ -21,6 +21,12 @@ An overview of the JavaScript landscape in 2021: trends about front-end and Node
 - [王仕军](https://github.com/wangshijun)
 - [Yohei Ice](https://github.com/meltedice)
 
+Special thanks:
+
+- The 2021 edition of the Rising Stars was double checked by [L1lith](https://github.com/L1lith).
+- [Benjamin Blackwood](https://twitter.com/B_Blackwo) was the co-author of the 2020 edition.
+- [Sacha Grief](http://sachagreif.com/) did a lot of work about the design and the content of the first editions (2016, 2017, 2018, 2019)
+
 ## Stack
 
 - Built with [Next.js](https://nextjs.org/)
