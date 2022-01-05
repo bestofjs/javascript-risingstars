@@ -1,7 +1,11 @@
-import { ProjectAvatar } from "components/project-avatar";
 import { ProjectAvatarGrid } from "./project-avatar-grid";
 
-export const SocialImage = ({ projectsByTag, year, language }) => {
+type Props = {
+  projects: RisingStars.Project[];
+  year: number;
+  language: string;
+};
+export const SocialImage = ({ projects, year, language }: Props) => {
   return (
     <div
       style={{
@@ -22,11 +26,7 @@ export const SocialImage = ({ projectsByTag, year, language }) => {
           overflow: "hidden",
         }}
       >
-        <ProjectAvatarGrid
-          projects={projectsByTag.all}
-          columns={10}
-          size={100}
-        />
+        <ProjectAvatarGrid projects={projects} columns={10} size={100} />
       </div>
       <div
         style={{
@@ -38,43 +38,49 @@ export const SocialImage = ({ projectsByTag, year, language }) => {
           fontWeight: "bold",
         }}
       >
-        {year} JavaScript
-        <br />
-        Rising Stars
+        <Message year={year} language={language} />
       </div>
     </div>
   );
 };
 
-// export const SocialImage0 = ({ projects, language = "ja", year }) => {
-//   const titles = {
-//     en: `${year} JavaScript Rising Stars`,
-//     ja: (
-//       <span>
-//         JavaScript
-//         <br /> ベスト・オブ・ザ・イヤー{year}
-//       </span>
-//     ),
-//     fr: `Le Meilleur du JavaScript en ${year}`,
-//     zh: (
-//       <span>
-//         {year}年<br />
-//         JavaScript
-//         <br />
-//         明星项目
-//       </span>
-//     ),
-//     es: (
-//       <span>
-//         Lo mejor
-//         <br />
-//         de JavaScript
-//         <br />
-//         en {year}
-//       </span>
-//     ),
-//   };
-//   const title = titles[language] || titles["en"];
+const Message = ({ year, language }: Pick<Props, "year" | "language">) => {
+  const titles = {
+    en: (
+      <>
+        {year} JavaScript
+        <br />
+        Rising Stars
+      </>
+    ),
+    ja: (
+      <span>
+        JavaScript
+        <br /> ベスト・オブ・ザ・イヤー{year}
+      </span>
+    ),
+    fr: `Le Meilleur du JavaScript en ${year}`,
+    zh: (
+      <span>
+        {year}年<br />
+        JavaScript
+        <br />
+        明星项目
+      </span>
+    ),
+    es: (
+      <span>
+        Lo mejor
+        <br />
+        de JavaScript
+        <br />
+        en {year}
+      </span>
+    ),
+  };
+  return titles[language] || titles["en"];
+};
+
 //   const niceProjects = projects
 //     .filter((project) => !excluded.includes(project.slug))
 //     .slice(0, 25);

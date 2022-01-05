@@ -14,11 +14,7 @@ export default function DesignPage({
         Design components - {year} - {language}
       </h1>
       <h2>Social Image (1280x640)</h2>
-      <SocialImage
-        year={year}
-        language={language}
-        projectsByTag={projectsByTag}
-      />
+      <SocialImage year={year} language={language} projects={projects} />
       <hr />
       <h2>Background banner</h2>
       <BackgroundImage projects={projects} />

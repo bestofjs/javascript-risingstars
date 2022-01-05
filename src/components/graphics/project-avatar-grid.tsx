@@ -42,9 +42,15 @@ export const ProjectAvatarGrid = ({
         const rowNumber = Math.floor(i / (columns / 2));
         const evenRow = rowNumber % 2 === 0;
         if (evenRow) {
-          return [<Cell size={size} />, <Cell project={project} size={size} />];
+          return [
+            <Cell key={i} size={size} />,
+            <Cell key={project.slug} project={project} size={size} />,
+          ];
         } else {
-          return [<Cell project={project} size={size} />, <Cell size={size} />];
+          return [
+            <Cell key={project.slug} project={project} size={size} />,
+            <Cell key={i} size={size} />,
+          ];
         }
       })}
     </div>
@@ -61,7 +67,7 @@ const Cell = ({
   if (!project)
     return <div style={{ width: size }} className={styles.emptyCell} />;
   return (
-    <div style={{ width: size }}>
+    <div style={{ width: size }} key={project.slug}>
       <ProjectAvatar project={project} size={size} />
     </div>
   );
