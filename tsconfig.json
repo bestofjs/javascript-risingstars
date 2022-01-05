@@ -18,7 +18,10 @@
     "strict": false,
     "target": "esnext",
     "incremental": true,
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["../*"]
+    }
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]

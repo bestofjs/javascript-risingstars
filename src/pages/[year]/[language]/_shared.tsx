@@ -1,17 +1,15 @@
 import jdown from "jdown";
 import fs from "fs-extra";
 import flattenJSON from "flat";
-import flatten from "lodash/flatten";
-import { IntlProvider } from "react-intl";
+// import flatten from "lodash/flatten";
+// import { IntlProvider } from "react-intl";
 import path from "path";
 
-import settings from "../../../data/settings.json";
-import allLanguages from "../../../data/allLanguages.json";
+import settings from "~/data/settings.json";
+import allLanguages from "~/data/allLanguages.json";
 import processProjectData from "utils/processProjectData";
-import { PageRoot } from "components/page-root";
-import { AppDataContainer } from "app-data";
 
-type Props = {
+export type PageProps = {
   year: number;
   language: string;
   entities: RisingStars.Entities;
@@ -23,73 +21,13 @@ type Props = {
   languages: RisingStars.Language[];
   categories: RisingStars.Category[];
 };
-const Root = ({
-  year,
-  language,
-  entities,
-  projectsByTag,
-  tags,
-  messages,
-  translations,
-  allYears,
-  languages,
-  categories,
-}: Props) => {
-  return (
-    <IntlProvider locale={language} messages={messages} defaultLocale="en">
-      <AppDataContainer.Provider
-        initialState={{
-          allYears,
-          year,
-          entities,
-          translations,
-          projectsByTag,
-          tags,
-        }}
-      >
-        <PageRoot
-          projects={projectsByTag}
-          year={year}
-          categories={categories}
-          languages={languages}
-        />
-      </AppDataContainer.Provider>
-    </IntlProvider>
-  );
-};
-
-export default Root;
-
-export function getStaticPaths() {
-  const paths = flatten(
-    settings.map(({ year, languages }) =>
-      languages.map((language) => ({ year: year.toString(), language }))
-    )
-  ).map(({ year, language }) => ({ params: { year, language } }));
-
-  return {
-    paths,
-    // paths: [
-    //   { params: { year: "2019", language: "en" } },
-    //   { params: { year: "2019", language: "ja" } },
-    // ],
-    fallback: false,
-  };
-}
-type Params = {
-  params: {
-    year: string;
-    language: string;
-    data: any;
-  };
-};
 
 type YearSetting = { year: number; languages: string[] };
 
-export async function getStaticProps({ params }: Params) {
-  const { year: yearParam, language } = params;
-  const year = parseInt(yearParam, 0);
-
+export async function getPageProps(
+  year: number,
+  language: string
+): Promise<PageProps> {
   const projects = await getProjectData(year);
   const categories = await getCategories(year);
   const { entities, projectsByTag } = processProjectData(projects, categories);
@@ -112,18 +50,16 @@ export async function getStaticProps({ params }: Params) {
   ).then((r) => r.json());
 
   return {
-    props: {
-      year,
-      language,
-      entities,
-      tags,
-      projectsByTag,
-      messages,
-      translations,
-      allYears,
-      languages,
-      categories,
-    },
+    year,
+    language,
+    entities,
+    tags,
+    projectsByTag,
+    messages,
+    translations,
+    allYears,
+    languages,
+    categories,
   };
 }
 
@@ -164,7 +100,7 @@ async function getMessages(year: number, language: string) {
 
   const messageTree = { ...specificMessages, common: commonMessages };
   const messages = flattenJSON(messageTree);
-  return messages;
+  return messages as RisingStars.IntlContent;
 }
 
 function readJSON(filepath) {
