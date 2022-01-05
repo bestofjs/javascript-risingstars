@@ -24,34 +24,51 @@ const excluded = [
 
 type Props = {
   projects: RisingStars.Project[];
+  columns?: number;
+  size?: number;
 };
-export const ProjectAvatarGrid = ({ projects }: Props) => {
+export const ProjectAvatarGrid = ({
+  projects,
+  columns = 14,
+  size = 75,
+}: Props) => {
   const niceProjects = projects.filter(
     (project) => !excluded.includes(project.slug)
   );
   // .slice(0, 50)
   return (
-    <div className={styles.bgPicture}>
-      <div className={styles.grid}>
-        {niceProjects.map((project, i) => {
-          const rowNumber = Math.floor(i / 7);
-          const evenRow = rowNumber % 2 === 0;
-          if (evenRow) {
-            return [<Cell project={project} />, <Cell />];
-          } else {
-            return [<Cell />, <Cell project={project} />];
-          }
-        })}
-      </div>
+    <div className={styles.grid}>
+      {niceProjects.map((project, i) => {
+        const rowNumber = Math.floor(i / (columns / 2));
+        const evenRow = rowNumber % 2 === 0;
+        if (evenRow) {
+          return [
+            <Cell key={i} size={size} />,
+            <Cell key={project.slug} project={project} size={size} />,
+          ];
+        } else {
+          return [
+            <Cell key={project.slug} project={project} size={size} />,
+            <Cell key={i} size={size} />,
+          ];
+        }
+      })}
     </div>
   );
 };
 
-const Cell = ({ project }: { project?: RisingStars.Project }) => {
-  if (!project) return <div className={styles.emptyCell} />;
+const Cell = ({
+  project,
+  size,
+}: {
+  project?: RisingStars.Project;
+  size: number;
+}) => {
+  if (!project)
+    return <div style={{ width: size }} className={styles.emptyCell} />;
   return (
-    <div>
-      <ProjectAvatar project={project} size={75} />
+    <div style={{ width: size }} key={project.slug}>
+      <ProjectAvatar project={project} size={size} />
     </div>
   );
 };
