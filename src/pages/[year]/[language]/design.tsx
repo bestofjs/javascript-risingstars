@@ -1,4 +1,4 @@
-import { getPageProps, PageProps } from "./_shared";
+import { getPageProps, PageProps } from "page-helpers";
 import { SocialImage } from "components/graphics/social-image";
 import { BackgroundImage } from "components/graphics/background-image";
 

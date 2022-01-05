@@ -3,8 +3,8 @@ import { IntlProvider } from "react-intl";
 
 import settings from "~/data/settings.json";
 import { PageRoot } from "components/page-root";
+import { getPageProps, PageProps } from "page-helpers";
 import { AppDataContainer } from "app-data";
-import { getPageProps, PageProps } from "./_shared";
 
 const Root = ({
   year,

@@ -1,13 +1,16 @@
-import jdown from "jdown";
-import fs from "fs-extra";
 import flattenJSON from "flat";
-// import flatten from "lodash/flatten";
-// import { IntlProvider } from "react-intl";
+import fs from "fs-extra";
+import jdown from "jdown";
 import path from "path";
 
 import settings from "~/data/settings.json";
 import allLanguages from "~/data/allLanguages.json";
 import processProjectData from "utils/processProjectData";
+
+/*
+Shared logic between pages /:year/:language/index and /:year/:language/design pages
+used to feed either `getStaticProps` or `getServerSideProps`
+*/
 
 export type PageProps = {
   year: number;
