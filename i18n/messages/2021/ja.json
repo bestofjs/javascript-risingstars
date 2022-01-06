@@ -1,14 +1,14 @@
 {
   "page": {
-    "title": "JavaScript ベスト・オブ・ザ・イヤー 2020",
-    "description": "2020年のJavaScript白書。フロントエンド、Node.jsフレームワーク、ツール、状態管理などのトレンドを徹底調査。"
+    "title": "JavaScript ライジングスター 2021",
+    "description": "2021年のJavaScript白書。フロントエンド、Node.jsフレームワーク、React/Vueエコシステム、ビルドツール、状態管理などのトレンドを徹底調査。"
   },
   "header": {
-    "title": "JavaScript ベスト・オブ・ザ・イヤー 2020"
+    "title": "JavaScript ライジングスター 2021"
   },
   "introduction": {
     "table_of_contents": "目次",
-    "explanation": "以下のチャートは、2020年の一年間にGitHubで増加したスターの数を比較したものです。Webプラットフォームに関するベストプロジェクトを集めたリストである{link}を分析したものです。各プロジェクトをクリックすると、プロジェクトの詳細を閲覧することができます。"
+    "explanation": "以下は、2021年の1年間で増加したGitHubのスター数によるランキングです。Webプラットフォームに関するベストプロジェクトを集めたリストである{link}からの一年間の分析です。各プロジェクトをクリックすると、より詳細な情報を閲覧することができます。"
   },
   "conclusion": "おわりに",
   "categories": {
@@ -19,6 +19,7 @@
     "vue": "Vue エコシステム",
     "angular": "Angular エコシステム",
     "mobile": "モバイル",
+    "desktop": "デスクトップ",
     "compiler": "JS コンパイラ",
     "build": "ビルドツール",
     "testframework": "テストツール",
@@ -32,6 +33,6 @@
     "learning": "学習リソース"
   },
   "social": {
-    "text": "2020年のJavaScript展望ををチェックしよう"
+    "text": "2021年のJavaScript展望ををチェックしよう"
   }
 }
