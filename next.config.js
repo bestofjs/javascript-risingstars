@@ -18,4 +18,17 @@ module.exports = {
 
     return [rootRedirect, ...yearRedirects];
   },
+  // Hack to avoid errors like `Module not found: Can't resolve 'fs'`
+  // when using helper functions that include backend code from pages
+  // see https://github.com/vercel/next.js/issues/16153#issuecomment-976216790
+  // and https://github.com/vercel/next.js/issues/27741#issuecomment-919827714
+  webpack: (config, { webpack, isServer }) => {
+    config.externals = config.externals.concat([
+      "flat",
+      "fs-extra",
+      "jdown",
+      "path",
+    ]);
+    return config;
+  },
 };
