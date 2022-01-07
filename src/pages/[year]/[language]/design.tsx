@@ -9,7 +9,7 @@ export default function DesignPage({
 }: PageProps) {
   const projects = projectsByTag["all"];
   return (
-    <div className="container">
+    <div style={{ maxWidth: 1280, margin: "0 auto" }}>
       <h1>
         Design components - {year} - {language}
       </h1>

@@ -68,6 +68,12 @@ export const translationWorks = {
     es: ["Javier Valencia"],
     zh: ["AngeloZuo"],
   },
+  2021: {
+    // ru: ["Alexey Pyltsyn"], coming soon?
+    ja: ["NurseAngel"],
+    // es: ["Javier Valencia"], coming soon, yes!
+    // zh: ["AngeloZuo"], coming soon?
+  },
 };
 
 export const translators = {
