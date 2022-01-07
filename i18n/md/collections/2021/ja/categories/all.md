@@ -28,7 +28,7 @@ JavaScriptやTypeScriptでシンプルなコマンドラインスクリプトを
 5位に入った{tauri}は、Web技術を用いてデスクトップアプリケーションを構築するソリューションです。
 
 {electron}と比べると、Rustで書かれており、実行環境にNode.jsが必要ないのが特徴です。
-5月にバージョン1.0のベータ版が[リリースされました](https://dev.to/tauri/announcing-tauri-beta-more-efficient-crossplatform-apps-with-better-features-1nbd)。
+5月にバージョン1.0の[ベータ版がリリースされました](https://dev.to/tauri/announcing-tauri-beta-more-efficient-crossplatform-apps-with-better-features-1nbd)。
 
 ### ピックアップ
 
