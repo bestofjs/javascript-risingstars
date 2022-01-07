@@ -57,7 +57,7 @@ const Message = ({ year, language }: Pick<Props, "year" | "language">) => {
       <span>
         JavaScript
         <br />
-        <span style={{ fontSize: 80 }}>ベスト・オブ・ザ・イヤー{year}</span>
+        <span style={{ fontSize: 80 }}>ライジングスター{year}</span>
       </span>
     ),
     fr: `Le Meilleur du JavaScript en ${year}`,
