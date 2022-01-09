@@ -13,9 +13,9 @@
     "months": "E F M A M J J A S O N D",
     "created": "Creado",
     "homepage": "Home",
-    "trends": "Trends in {year}",
-    "data": "GitHub data",
-    "stars_total": "Total stars",
+    "trends": "Tendencias en {year}",
+    "data": "Datos de GitHub",
+    "stars_total": "Total estrellas",
     "links": "Links"
   }
 }
