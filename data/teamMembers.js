@@ -71,7 +71,7 @@ export const translationWorks = {
   2021: {
     // ru: ["Alexey Pyltsyn"], coming soon?
     ja: ["NurseAngel"],
-    // es: ["Javier Valencia"], coming soon, yes!
+    es: ["Javier Valencia"],
     // zh: ["AngeloZuo"], coming soon?
   },
 };
