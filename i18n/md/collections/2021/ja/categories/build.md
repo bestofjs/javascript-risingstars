@@ -20,7 +20,7 @@ Rustの興味深い点は、その素晴らしいパフォーマンスと、Java
 
 Rustは非JS言語の代表格ですが、決して唯一ではありません。
 素晴らしいパフォーマンスを発揮する言語は他にもあり、[Bun](http://bun.sh/)はZigで書かれており、{turborepo}や{esbuild}はGo製です。
-そういえば[Evan WallaceがFigmaを去った](https://twitter.com/buildsghost/status/1471523960479121408)のは、esbuildの開発に時間を割けるようになったからかもしれません。
+そういえば[Evan WallaceがFigmaを去った](https://twitter.com/evanwallace/status/1475685056454836229)のは、esbuildの開発に時間を割けるようになったからかもしれません。
 
 monorepo分野では[Lerna](https://github.com/lerna/lerna)が最も使われていますが、既にあまり保守されていません。
 次を狙って、ビルド時間を大幅に短縮できるモノレポツール [Nx](https://nx.dev/)が[急成長しています](https://twitter.com/victorsavkin/status/1476618225551036427)。
