@@ -1,0 +1,38 @@
+{
+  "page": {
+    "title": "JavaScript 라이징 스타 2021",
+    "description": "2021년 JavaScript 백서. 프론트엔드, Node.js 프레임워크, React/Vue 에코시스템, 빌드 도구, 상태관리 등의 경향"
+  },
+  "header": {
+    "title": "JavaScript 라이징스타 2021"
+  },
+  "introduction": {
+    "table_of_contents": "목차",
+    "explanation": "2021년 1년간 증가한 Github 별 숫자에 의한 순위입니다. Web 플랫폼에 관한 베스트 프로젝트를 모은 목록인 {link}에서 1년간 분석했습니다. 각 프로젝트를 클릭하시면, 더 상세한 정보를 확인하실 수 있습니다."
+  },
+  "conclusion": "결론",
+  "categories": {
+    "all": "종합 순위",
+    "framework": "프론트엔드 프레임워크",
+    "nodejsframework": "Node.js 프레임워크",
+    "react": "React 에코시스템",
+    "vue": "Vue 에코시스템",
+    "angular": "Angular 에코시스템",
+    "mobile": "모바일",
+    "desktop": "데스크탑",
+    "compiler": "JS 컴파일러",
+    "build": "빌드 도구",
+    "testframework": "테스트 도구",
+    "ide": "IDE와 에디터",
+    "ssg": "정적 사이트 생성기",
+    "cssinjs": "CSS in JavaScript",
+    "cssframework": "CSS 프레임워크",
+    "statemanagement": "상태관리",
+    "graphql": "GraphQL",
+    "misc": "그 외",
+    "learning": "학습 자료"
+  },
+  "social": {
+    "text": "2021년 JavaScript 전망을 확인해봅시다."
+  }
+}
