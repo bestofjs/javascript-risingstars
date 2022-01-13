@@ -13,6 +13,7 @@ An overview of the JavaScript landscape in 2021: trends about front-end and Node
 - [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
+- [Oh TanJun](https://github.com/rewrite0w0)
 - [Rana Kualu](https://github.com/NurseAngel)
 - [Sacha Grief](http://sachagreif.com/)
 - [Sebastien Lorber](https://sebastienlorber.com/)
@@ -25,7 +26,7 @@ Special thanks:
 
 - The 2021 edition of the Rising Stars was double checked by [L1lith](https://github.com/L1lith).
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo) was the co-author of the 2020 edition.
-- [Sacha Grief](http://sachagreif.com/) did a lot of work about the design and the content of the first editions (2016, 2017, 2018, 2019)
+- [Sacha Grief](http://sachagreif.com/) did a lot of work about the design and the content of the first editions (2016, 2017, 2018, 2019).
 
 ## Stack
 

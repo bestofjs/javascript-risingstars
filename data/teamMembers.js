@@ -72,6 +72,7 @@ export const translationWorks = {
     // ru: ["Alexey Pyltsyn"], coming soon?
     ja: ["NurseAngel"],
     es: ["Javier Valencia"],
+    ko: ["rewrite0w0"],
     // zh: ["AngeloZuo"], coming soon?
   },
 };
@@ -162,6 +163,11 @@ export const translators = {
     name: "Angelo Zuo",
     avatar: getAvatarURL("6873884"),
     bio1: "Front-end Developer",
+  },
+  rewrite0w0: {
+    name: "Oh TaeJun (rewrite0w0)",
+    avatar: getAvatarURL("55968557"),
+    bio1: "Hello :)",
   },
 };
 
