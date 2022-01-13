@@ -78,6 +78,13 @@ const Message = ({ year, language }: Pick<Props, "year" | "language">) => {
         en {year}
       </span>
     ),
+    ko: (
+      <span>
+        JavaScript
+        <br />
+        라이징스타 {year}
+      </span>
+    ),
   };
   return titles[language] || titles["en"];
 };
