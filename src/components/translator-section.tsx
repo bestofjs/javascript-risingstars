@@ -93,6 +93,7 @@ const translations = {
   es: "Spanish version",
   id: "Bahasa Indonesia",
   ru: "Russian version",
+  ko: "Korean version",
 };
 
 const TranslatorBlock = ({ translators, language }) => (
