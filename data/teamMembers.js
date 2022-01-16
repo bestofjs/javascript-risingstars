@@ -173,11 +173,7 @@ export const translators = {
     name: "KimYang",
     avatar: getAvatarURL("32960305"),
     bio1: "Web Developer",
-    bio2: (
-      <span>
-        more info, please follow <a href="https://github.com/KimYangOfCat">my github</a>!
-      </span>
-    ),
+    url: "https://github.com/KimYangOfCat",
   },
 };
 
