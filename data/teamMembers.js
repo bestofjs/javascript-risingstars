@@ -73,7 +73,7 @@ export const translationWorks = {
     ja: ["NurseAngel"],
     es: ["Javier Valencia"],
     ko: ["rewrite0w0"],
-    // zh: ["AngeloZuo"], coming soon?
+    zh: ["KimYang"],
   },
 };
 
@@ -168,6 +168,12 @@ export const translators = {
     name: "Oh TaeJun (rewrite0w0)",
     avatar: getAvatarURL("55968557"),
     bio1: "Hello :)",
+  },
+  KimYang: {
+    name: "KimYang",
+    avatar: getAvatarURL("32960305"),
+    bio1: "Web Developer",
+    url: "https://github.com/KimYangOfCat",
   },
 };
 

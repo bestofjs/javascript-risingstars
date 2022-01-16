@@ -21,7 +21,7 @@
   },
   {
     "year": 2021,
-    "languages": ["en", "ja", "es", "ko"],
+    "languages": ["en", "ja", "es", "ko","zh"],
     "current": true
   }
 ]
