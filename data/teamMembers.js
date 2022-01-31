@@ -3,7 +3,7 @@ import React from "react";
 export const authorWorks = {
   "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
-  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020],
+  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021],
 };
 
 export const authors = {
@@ -68,6 +68,13 @@ export const translationWorks = {
     es: ["Javier Valencia"],
     zh: ["AngeloZuo"],
   },
+  2021: {
+    // ru: ["Alexey Pyltsyn"], coming soon?
+    ja: ["NurseAngel"],
+    es: ["Javier Valencia"],
+    ko: ["rewrite0w0"],
+    zh: ["KimYang"],
+  },
 };
 
 export const translators = {
@@ -88,8 +95,7 @@ export const translators = {
     name: "Shigeto Yatani",
     url: "https://www.facebook.com/vanxx2",
     avatar: getAvatarURL("572205"),
-    bio1:
-      "Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山",
+    bio1: "Node.js, 美味しいご飯, 酒, 料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山",
   },
 
   "Wang Shijun": {
@@ -157,6 +163,17 @@ export const translators = {
     name: "Angelo Zuo",
     avatar: getAvatarURL("6873884"),
     bio1: "Front-end Developer",
+  },
+  rewrite0w0: {
+    name: "Oh TaeJun (rewrite0w0)",
+    avatar: getAvatarURL("55968557"),
+    bio1: "Hello :)",
+  },
+  KimYang: {
+    name: "KimYang",
+    avatar: getAvatarURL("32960305"),
+    bio1: "Web Developer",
+    url: "https://github.com/KimYangOfCat",
   },
 };
 

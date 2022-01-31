@@ -12,6 +12,10 @@
     },
     "months": "1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月",
     "created": "作成日",
-    "homepage": "WEB サイト"
+    "homepage": "WEB サイト",
+    "trends": "{year}年の推移",
+    "data": "GitHub情報",
+    "stars_total": "累計スター数",
+    "links": "リンク"
   }
 }

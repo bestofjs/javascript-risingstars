@@ -1,20 +1,19 @@
-[![image](https://user-images.githubusercontent.com/5546996/104084816-f63d2200-528d-11eb-96ca-50296b643f6e.png)](https://javascript-risingstars.vercel.app/)
+[![image](https://risingstars.js.org/img/2021/en/rising-stars.png)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2020: trends about front-end and Node.js frameworks, React, Vue and Angular ecosystems, tooling, testing, GraphQL...
+An overview of the JavaScript landscape in 2021: trends about front-end and Node.js frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
-Available in English and Russian.
-## Credits
-
-### Team members
+## Team members
 
 - [Alexey Pyltsyn](https://lex111.ru/)
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
 - [Javier Valencia](http://www.jvalen.com)
+- [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
+- [Oh TanJun](https://github.com/rewrite0w0)
 - [Rana Kualu](https://github.com/NurseAngel)
 - [Sacha Grief](http://sachagreif.com/)
 - [Sebastien Lorber](https://sebastienlorber.com/)
@@ -23,7 +22,13 @@ Available in English and Russian.
 - [王仕军](https://github.com/wangshijun)
 - [Yohei Ice](https://github.com/meltedice)
 
-### Stack
+Special thanks:
+
+- The 2021 edition of the Rising Stars was double checked by [L1lith](https://github.com/L1lith).
+- [Benjamin Blackwood](https://twitter.com/B_Blackwo) was the co-author of the 2020 edition.
+- [Sacha Grief](http://sachagreif.com/) did a lot of work about the design and the content of the first editions (2016, 2017, 2018, 2019).
+
+## Stack
 
 - Built with [Next.js](https://nextjs.org/)
 - Hosted on [Vercel](https://vercel.com/)

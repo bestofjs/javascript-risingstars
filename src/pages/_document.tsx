@@ -14,7 +14,7 @@ export default class Document extends NextDocument {
   }
 
   render() {
-    const { year, language } = this.props as any;
+    const { language } = this.props as any;
 
     return (
       <Html lang={language}>
@@ -24,8 +24,13 @@ export default class Document extends NextDocument {
             href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
             rel="stylesheet"
           />
+          <script
+            data-goatcounter="https://risingstars.goatcounter.com/count"
+            async
+            src="//gc.zgo.at/count.js"
+          ></script>
         </Head>
-        <body className={`year${year}`}>
+        <body>
           <Main />
           <NextScript />
         </body>

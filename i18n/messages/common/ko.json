@@ -1,17 +1,21 @@
 {
   "newsletter": {
-    "title": "매주 최신 JS 랭킹 정보를 메일로 받아보세요.",
-    "text": "{link}의 뉴스레터에 회원가입을 하면, 매주 가장 인기 있는 자바스크립트 프로젝트들에 관한 놀라운 현황을 받아볼 수 있습니다.",
-    "button": "회원가입",
-    "placeholder": "이메일 주소"
+    "title": "매주 최신 JS 랭킹을 보내드립니다.",
+    "text": "{link} 뉴스레터를 등록하시면, 매주 더 관심 가질만한 JavaScript 프로젝트를 보내드립니다.",
+    "button": "등록",
+    "placeholder": "당신의 메일을 적어주세요."
   },
   "view_project": {
     "twitter": {
-      "text": "In {year}, {name} added {delta} stars, making it the #{ranking} most popular {category} on GitHub",
+      "text": "{year}년, {name}은 GitHub에 {delta} 별을 얻었으며, {category} 범주에서 {ranking}위가 되었습니다.",
       "action": "Tweet"
     },
-    "months": "1 2 3 4 5 6 7 8 9 10 11 12",
-    "created": "Created",
-    "homepage": "Homepage"
+    "months": "1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월",
+    "created": "작성 날짜",
+    "homepage": "WEB 사이트",
+    "trends": "{year}년 경향",
+    "data": "GitHub 정보",
+    "stars_total": "누적 별",
+    "links": "링크"
   }
 }

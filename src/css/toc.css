@@ -34,7 +34,6 @@
   font-size: var(--larger-font);
   font-family: "Space Mono", monospace;
   font-weight: 400;
-  margin-bottom: 10px;
   border: 1px dashed var(--border-color);
   padding: var(--spacing);
 }
