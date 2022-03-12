@@ -165,7 +165,7 @@ export const translators = {
     bio1: "Front-end Developer",
   },
   rewrite0w0: {
-    name: "Oh TanJun (rewrite0w0)",
+    name: "Oh TaeJun (rewrite0w0)",
     avatar: getAvatarURL("55968557"),
     bio1: "Hello :)",
   },
