@@ -13,7 +13,7 @@ An overview of the JavaScript landscape in 2021: trends about front-end and Node
 - [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
-- [Oh TanJun](https://github.com/rewrite0w0)
+- [Oh TaeJun](https://github.com/rewrite0w0)
 - [Rana Kualu](https://github.com/NurseAngel)
 - [Sacha Grief](http://sachagreif.com/)
 - [Sebastien Lorber](https://sebastienlorber.com/)
