@@ -67,6 +67,7 @@ export const translationWorks = {
     ja: ["NurseAngel"],
     es: ["Javier Valencia"],
     zh: ["AngeloZuo"],
+    ko: ["melancholy14"],
   },
   2021: {
     // ru: ["Alexey Pyltsyn"], coming soon?
@@ -174,6 +175,12 @@ export const translators = {
     avatar: getAvatarURL("32960305"),
     bio1: "Web Developer",
     url: "https://github.com/KimYangOfCat",
+  },
+  melancholy14: {
+    name: "Misol Goh",
+    avatar: getAvatarURL("24793148"),
+    bio1: "Fullstack Software Engineer",
+    url: "https://github.com/melancholy14",
   },
 };
 
