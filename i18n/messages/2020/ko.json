@@ -1,0 +1,37 @@
+{
+  "page": {
+    "title": "2020 JavaScript Rising Stars",
+    "description": "2020년 자바스크립트 트렌드 완전 요약: 프론트엔드, Node.js 프레임워크, 툴링, 상태 관리 등..."
+  },
+  "header": {
+    "title": "2020 JavaScript Rising Stars"
+  },
+  "introduction": {
+    "table_of_contents": "목차",
+    "explanation": "아래 그래프는 지난 12개월 동안 Github에서 받은 star의 수를 비교/분석한 것이며, {link}에서는 웹 플랫폼과 관련하여 선정된 여러 프로젝트들을 볼 수 있습니다. 자세한 사항은 각 프로젝트를 클릭해주세요."
+  },
+  "conclusion": "결론",
+  "categories": {
+    "all": "가장 인기 있는 프로젝트",
+    "framework": "프론트엔드 프레임워크",
+    "nodejsframework": "Node.js 프레임워크",
+    "react": "리액트 생태계",
+    "vue": "뷰 생태계",
+    "angular": "앵귤러 생태계",
+    "mobile": "모바일",
+    "compiler": "JS 취향/컴파일러",
+    "build": "빌드 도구",
+    "testframework": "테스팅",
+    "ide": "IDEs & 에디터",
+    "ssg": "정적 사이트",
+    "cssinjs": "CSS-in-JS",
+    "cssframework": "CSS 프레임워크",
+    "statemanagement": "상태 관리",
+    "graphql": "GraphQL",
+    "misc": "기타",
+    "learning": "학습 리소스"
+  },
+  "social": {
+    "text": "Check the JavaScript landscape in 2020"
+  }
+}
