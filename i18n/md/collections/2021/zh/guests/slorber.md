@@ -7,4 +7,4 @@ language: zh
 
 Sébastien 是 React 的早期布道者，在 {docusaurus} 上与 Facebook 开源合作。
 
-他运营着一份关于 React 和 React Native 的周报。[This Week in React](https://www.getrevue.co/profile/thisweekinreact)
+他运营着一份关于 React 和 React Native 的周报。[This Week in React](https://thisweekinreact.com)
