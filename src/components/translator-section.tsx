@@ -46,7 +46,7 @@ const OtherLanguages = ({ year, language, availableLanguages }) => (
               query: { language: lang.code, year },
             }}
           >
-            <a>{lang.text}</a>
+            {lang.text}
           </Link>
         </p>
       ))}
