@@ -11,8 +11,8 @@ const processProject = (item) => {
 const sortBy = (fn) => (a, b) => fn(b) - fn(a);
 const sortByYearlyDelta = sortBy((project) => project.delta);
 
-function getSortedProjects(entities) {
-  return Object.values(entities).slice().sort(sortByYearlyDelta);
+function getSortedProjects(projectsBySlug) {
+  return Object.values(projectsBySlug).slice().sort(sortByYearlyDelta);
 }
 
 function isMatchingTag(category, project) {
@@ -20,7 +20,7 @@ function isMatchingTag(category, project) {
   return tags.some((tag) => project.tags.includes(tag));
 }
 
-function filterByTag(sortedProjects, entities, category) {
+function filterByTag(sortedProjects, projectsBySlug, category) {
   const { key, excluded, count } = category;
   const isMatching = (project) => {
     if (key === "all") {
@@ -34,11 +34,11 @@ function filterByTag(sortedProjects, entities, category) {
   );
 }
 
-function getProjectsByTag(sortedProjects, entities, categories) {
+function getProjectsByTag(sortedProjects, projectsBySlug, categories) {
   return categories.reduce(
     (result, category) =>
       Object.assign({}, result, {
-        [category.key]: filterByTag(sortedProjects, entities, category),
+        [category.key]: filterByTag(sortedProjects, projectsBySlug, category),
       }),
     {}
   );
@@ -69,13 +69,13 @@ function getMiscProjects(projectsByTag, categories) {
 }
 
 function processProjectData(projectData, categories) {
-  const entities = getProjectsBySlug(projectData);
-  const sorted = getSortedProjects(entities);
-  const projectsByTag = getProjectsByTag(sorted, entities, categories);
+  const projectsBySlug = getProjectsBySlug(projectData);
+  const sorted = getSortedProjects(projectsBySlug);
+  const projectsByTag = getProjectsByTag(sorted, projectsBySlug, categories);
   projectsByTag.misc = getMiscProjects(projectsByTag, categories);
   return {
     projectsByTag,
-    entities,
+    projectsBySlug,
   };
 }
 

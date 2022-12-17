@@ -13,16 +13,16 @@ used to feed either `getStaticProps` or `getServerSideProps`
 */
 
 export type PageProps = {
-  year: number;
+  allYears: number[];
+  categories: RisingStars.Category[];
+  projectsBySlug: RisingStars.Entities;
   language: string;
-  entities: RisingStars.Entities;
+  languages: RisingStars.Language[];
+  messages: RisingStars.IntlContent;
   projectsByTag: RisingStars.ProjectsByCategory;
   tags: RisingStars.Tag[];
-  messages: RisingStars.IntlContent;
   translations: RisingStars.IntlContent;
-  allYears: number[];
-  languages: RisingStars.Language[];
-  categories: RisingStars.Category[];
+  year: number;
 };
 
 type YearSetting = { year: number; languages: string[] };
@@ -33,7 +33,7 @@ export async function getPageProps(
 ): Promise<PageProps> {
   const projects = await getProjectData(year);
   const categories = await getCategories(year);
-  const { entities, projectsByTag } = processProjectData(projects, categories);
+  const { projectsBySlug, projectsByTag } = processProjectData(projects, categories);
 
   const translations = await getTranslations(year, language);
   const messages = await getMessages(year, language);
@@ -55,7 +55,7 @@ export async function getPageProps(
   return {
     year,
     language,
-    entities,
+    projectsBySlug,
     tags,
     projectsByTag,
     messages,

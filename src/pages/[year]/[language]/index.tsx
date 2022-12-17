@@ -9,7 +9,7 @@ import { AppDataContainer } from "app-data";
 const Root = ({
   year,
   language,
-  entities,
+  projectsBySlug,
   projectsByTag,
   tags,
   messages,
@@ -24,17 +24,19 @@ const Root = ({
         initialState={{
           allYears,
           year,
-          entities,
+          projectsBySlug,
           translations,
           projectsByTag,
           tags,
         }}
       >
         <PageRoot
-          projects={projectsByTag}
+          projectsByTag={projectsByTag}
           year={year}
+          allYears={allYears}
           categories={categories}
           languages={languages}
+          tags={tags}
         />
       </AppDataContainer.Provider>
     </IntlProvider>

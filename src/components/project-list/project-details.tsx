@@ -1,7 +1,6 @@
 import tinytime from "tinytime";
 import { FormattedMessage } from "react-intl";
 
-import { useAppData } from "app-data";
 import { ProjectChart } from "./project-chart";
 import { formatStarNumber } from "./project-shared";
 
@@ -9,10 +8,11 @@ const templateMonthYear = tinytime("{YYYY}/{Mo}");
 
 type Props = {
   project: RisingStars.Project;
+  tags: RisingStars.Tag[];
   year: number;
   isOpen: boolean;
 };
-export const ProjectDetails = ({ project, isOpen, year }: Props) => {
+export const ProjectDetails = ({ project, isOpen, tags, year }: Props) => {
   const { url, full_name, repository, stars } = project;
   return (
     <div className={`project-details ${isOpen ? "is-open" : "is-closed"}`}>
@@ -74,14 +74,16 @@ export const ProjectDetails = ({ project, isOpen, year }: Props) => {
             />
           )}
         </DataList>
-        <TagList project={project} />
+        <TagList project={project} tags={tags} />
       </div>
     </div>
   );
 };
 
-const TagList = ({ project }: { project: RisingStars.Project }) => {
-  const { tags: allTags } = useAppData();
+const TagList = ({
+  project,
+  tags: allTags,
+}: Pick<Props, "project" | "tags">) => {
   const tags = allTags.filter(({ code }) => project.tags.includes(code));
 
   return (

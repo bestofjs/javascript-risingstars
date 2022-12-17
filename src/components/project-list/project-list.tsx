@@ -6,6 +6,7 @@ import { ProjectDetails } from "./project-details";
 type Props = {
   year: number;
   tagKey: string;
+  tags: RisingStars.Tag[];
   projects: RisingStars.Project[];
   limit: number;
   count: number;
@@ -15,6 +16,7 @@ export const ProjectList = ({
   limit = 5,
   count,
   tagKey,
+  tags,
   year,
 }: Props) => {
   const [showFullList, toggleFullList] = useState(false);
@@ -28,6 +30,7 @@ export const ProjectList = ({
         {visibleProjects.map((project, i) => (
           <ProjectListItem
             key={project.slug}
+            tags={tags}
             tagKey={tagKey}
             maxDelta={maxDelta}
             project={project}
@@ -50,7 +53,7 @@ export const ProjectList = ({
   );
 };
 
-const ProjectListItem = ({ maxDelta, project, tagKey, year, index }) => {
+const ProjectListItem = ({ maxDelta, project, tags, tagKey, year, index }) => {
   // only first project of "all" category should start expanded
   const defaultIsOpen = tagKey === "all" && index === 1;
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
@@ -64,7 +67,7 @@ const ProjectListItem = ({ maxDelta, project, tagKey, year, index }) => {
         project={project}
         index={index}
       />
-      <ProjectDetails isOpen={isOpen} project={project} year={year} />
+      <ProjectDetails isOpen={isOpen} project={project} tags={tags} year={year} />
     </div>
   );
 };
