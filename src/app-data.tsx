@@ -1,12 +1,12 @@
 import { createContainer } from "unstated-next";
 
-type AppData = {
+export type AppData = {
   allYears: number[];
-  year: number;
-  entities: RisingStars.Entities;
-  translations: RisingStars.IntlContent;
+  projectsBySlug: RisingStars.Entities;
   projectsByTag: RisingStars.ProjectsByCategory;
   tags: RisingStars.Tag[];
+  translations: RisingStars.IntlContent;
+  year: number;
 };
 
 function useAppContext(initialState: AppData) {

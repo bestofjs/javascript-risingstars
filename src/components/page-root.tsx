@@ -8,15 +8,21 @@ import { Category } from "components/category";
 import { Conclusion } from "components/conclusion";
 import { TranslatorSection } from "components/translator-section";
 import { Footer } from "components/footer";
+import { PageProps } from "page-helpers";
 
-type Props = {
-  categories: RisingStars.Category[];
-  projects: RisingStars.ProjectsByCategory;
-  year: number;
-  languages: RisingStars.Language[];
-};
+type Props = Pick<
+  PageProps,
+  "categories" | "projectsByTag" | "allYears" | "year" | "languages" | "tags"
+>;
 
-export const PageRoot = ({ projects, year, categories, languages }: Props) => {
+export const PageRoot = ({
+  projectsByTag,
+  year,
+  allYears,
+  categories,
+  languages,
+  tags,
+}: Props) => {
   const intl = useIntl();
   const language = intl.locale;
   const title = intl.formatMessage({ id: "page.title" });
@@ -41,11 +47,11 @@ export const PageRoot = ({ projects, year, categories, languages }: Props) => {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header language={language} year={year} availableLanguages={languages} />
-      <Top />
+      <Top allYears={allYears} year={year} />
 
       <div className="main">
         <div className="main-contents">
-          <TableOfContents projects={projects} categories={categories} />
+          <TableOfContents projects={projectsByTag} categories={categories} />
           {categories
             .filter((category) => !category.disabled)
             .map((category) => (
@@ -54,6 +60,8 @@ export const PageRoot = ({ projects, year, categories, languages }: Props) => {
                 year={year}
                 category={category}
                 language={language}
+                projectsByTag={projectsByTag}
+                tags={tags}
               />
             ))}
           <Conclusion />
