@@ -1,13 +1,14 @@
 import Link from "next/link";
 
-import { useAppData } from "app-data";
+import { AppData } from "app-data";
 import { Banner } from "./banner";
 import { Introduction } from "./introduction";
 
-export const Top = () => {
+type Props = Pick<AppData, "allYears" | "year">;
+export const Top = ({ allYears, year }: Props) => {
   return (
     <>
-      <YearNavigator />
+      <YearNavigator allYears={allYears} year={year} />
       <Banner />
       <div className="container small-container">
         <div className="top-with-banner-introduction">
@@ -18,8 +19,7 @@ export const Top = () => {
   );
 };
 
-const YearNavigator = () => {
-  const { allYears, year: activeYear } = useAppData();
+const YearNavigator = ({ allYears, year: activeYear }: Props) => {
   return (
     <div className="year-menu-container">
       <div className="container small-container">
@@ -43,7 +43,7 @@ const YearLink = ({ year, isActive }) => {
         query: { year },
       }}
     >
-      <a>{abbreviateYear(year)}</a>
+      {abbreviateYear(year)}
     </Link>
   );
 };

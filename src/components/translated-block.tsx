@@ -4,18 +4,18 @@ import get from "lodash/get";
 import { useAppData } from "app-data";
 
 export const TranslatedBlock = ({ path }: { path: string }) => {
-  const { entities, translations } = useAppData();
+  const { projectsBySlug, translations } = useAppData();
   const markdown =
     get(translations, path) || `No translation for this path: "${path}"`;
 
-  const source = processMarkdown(entities, markdown);
+  const source = processMarkdown(projectsBySlug, markdown);
 
   return <ReactMarkdown source={source} />;
 };
 
-function processMarkdown(entities: RisingStars.Entities, md: string) {
+function processMarkdown(projectsBySlug: RisingStars.Entities, md: string) {
   const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
-    const project = entities[slug];
+    const project = projectsBySlug[slug];
     if (!project) {
       return slug;
     }

@@ -32,8 +32,9 @@ const LanguageLink = ({ lang, active, year }) => {
         pathname: "/[year]/[language]",
         query: { language: lang.code, year },
       }}
+      className="language-menu-item"
     >
-      <a className="language-menu-item">{lang.text}</a>
+      {lang.text}
     </Link>
   );
 };

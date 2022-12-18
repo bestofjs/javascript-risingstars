@@ -3,15 +3,18 @@ import { FormattedMessage } from "react-intl";
 import { Guest } from "components/guest";
 import { ProjectList } from "components/project-list/project-list";
 import { TranslatedBlock } from "components/translated-block";
-import { useAppData } from "app-data";
+import { PageProps } from "page-helpers";
 
-type Props = {
+type Props = Pick<PageProps, "language" | "projectsByTag" | "tags" | "year"> & {
   category: RisingStars.Category;
-  language: string;
-  year: number;
 };
-export const Category = ({ category, language, year }: Props) => {
-  const { projectsByTag } = useAppData();
+export const Category = ({
+  category,
+  language,
+  projectsByTag,
+  tags,
+  year,
+}: Props) => {
   const { availableComments, key: tag, limit, count, guest } = category;
 
   const projects = projectsByTag[tag];
@@ -37,6 +40,7 @@ export const Category = ({ category, language, year }: Props) => {
                 count={count}
                 limit={limit || 5}
                 tagKey={key}
+                tags={tags}
                 projects={graphProjects}
                 year={year}
               />
