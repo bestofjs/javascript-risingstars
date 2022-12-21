@@ -9,6 +9,19 @@
     "count": 20
   },
   {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"],
+    "guest": "leerob"
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs-2", "vuejs-3", "storybook", "vite"],
+    "guest": "antfu"
+  },
+  {
     "key": "nodejs-framework",
     "tags": ["nodejs-framework"],
     "count": 20
@@ -18,18 +31,6 @@
     "limit": 5,
     "count": 10,
     "guest": "slorber"
-  },
-  {
-    "key": "vue",
-    "count": 10,
-    "excluded": ["vuejs-2", "vuejs-3", "storybook", "vite"],
-    "guest": "antfu"
-  },
-  {
-    "key": "react",
-    "tags": ["react", "react-native"],
-    "count": 20,
-    "excluded": ["react", "react-native", "storybook"]
   },
   {
     "key": "css-in-js",
