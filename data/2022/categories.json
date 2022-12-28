@@ -6,25 +6,25 @@
   },
   {
     "key": "framework",
-    "count": 20
+    "count": 15
   },
   {
     "key": "react",
     "tags": ["react", "react-native"],
-    "count": 20,
+    "count": 15,
     "excluded": ["react", "react-native", "storybook"],
     "guest": "leerob"
   },
   {
     "key": "vue",
     "count": 10,
-    "excluded": ["vuejs-2", "vuejs-3", "storybook", "vite"],
+    "excluded": ["vuejs-2", "vuejs-3", "storybook", "vite", "tanstack-query"],
     "guest": "antfu"
   },
   {
     "key": "nodejs-framework",
     "tags": ["nodejs-framework"],
-    "count": 20
+    "count": 15
   },
   {
     "key": "build",
