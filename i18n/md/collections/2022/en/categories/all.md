@@ -3,7 +3,7 @@ id: all
 language: en
 ---
 
-The trendiest project of the year is {bun} a new JavaScript run time that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month, we have never seen such an explosion since we track projects in _Best of JS_!
+The trendiest project of the year is {bun} a new JavaScript run time that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month, we have never seen such an explosion since we track projects in _Best of JS_.
 
 So what makes Bun special? Like {deno}, the overall winner 2 years ago, it provides first class support for TypeScript.
 

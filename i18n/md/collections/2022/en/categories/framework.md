@@ -11,4 +11,4 @@ It's part of the trend of "Zero baseline JavaScript" frameworks. Sites and appli
 
 Instead of relying on [hydration](https://www.builder.io/blog/hydration-is-pure-overhead) to bring interactivity to pages generated on the server, Qwik uses a technique called resumability to deliver HTML that is instantly interactive. It works by serializing in the HTML itself the state of the application.
 
-The project is led by [Miško Hevery](https://twitter.com/mhevery), the creator of AngularJS whose slogan was "HTML enhanced for web apps" while Qwik is "the HTML-first framework"... the same intention of building apps on top of the good old HTML.
+The project is led by [Miško Hevery](https://twitter.com/mhevery), the creator of AngularJS whose slogan was "HTML enhanced for web apps" while Qwik is "the HTML-first framework"... somehow the same intention of building apps on top of the good old HTML.

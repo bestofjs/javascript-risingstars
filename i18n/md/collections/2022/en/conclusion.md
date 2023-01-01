@@ -31,7 +31,7 @@ For the performance in the browser, different patterns compete:
 - Zero baseline JavaScript frameworks to deliver nearly no JS to the browser ({qwik} is leading the charge)
 - [Partial hydration](https://ajcwebdev.com/2021/11/22/what-is-partial-hydration-and-why-is-everyone-talking-about-it/) to provide islands of interactivity to static pages ({astro})
 - React Server Components (implemented by Next.js 13) to delegate more work on the server side.
-- The [Progressively Enhanced Single Page Apps](https://www.epicweb.dev/the-webs-next-transition) architecture implemented by {Remix} provides both great DX and performance in the browser without compromising any dynamic behavior
+- The [Progressively Enhanced Single Page Apps](https://www.epicweb.dev/the-webs-next-transition) architecture implemented by {remix} provides both great DX and performance in the browser without compromising any dynamic behavior
 
 There is no silver bullet to solve these issue as the spectrum from static "pages" to fully dynamic "apps" is large. We can't wait to see what 2023 will bring!
 
