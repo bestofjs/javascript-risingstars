@@ -37,13 +37,13 @@ Special thanks:
 
 ## How to contribute?
 
-Requirements: Node.js 14+
+Requirements: [PNPM](https://pnpm.io/), Node.js 16+
 
 - Clone the repo
-- Install the dependencies: `npm install`
-- Start the development server: `npm run dev`
+- Install the dependencies: `pnpm install`
+- Start the development server: `pnpm run dev`
 - Check the following URL: `http://localhost:3000/`
-- Update the comments in your language
+- Update the comments in your language (see below)
 
 ## Translations
 
