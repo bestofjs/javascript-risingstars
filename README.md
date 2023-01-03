@@ -2,7 +2,7 @@
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2021: trends about front-end and Node.js frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
+An overview of the JavaScript landscape in 2022: trends about front-end, back0end and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
 ## Team members
 
