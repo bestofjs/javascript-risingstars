@@ -11,7 +11,7 @@ JavaScript is eating the world, you may have heard of this prophecy from 2009:
 
 > Any application that can be written in JavaScript, will eventually be written in JavaScript
 
-..._or in TypeScript_ we could add 13 years later as TypeScript is becoming the de-facto standard to write JavaScript (first class support by Deno, Bun, default setup of Next.js, out of the box support by Vite...)
+..._or in TypeScript_ we could add 13 years later as TypeScript is becoming the de-facto standard to write JavaScript (first class support by {deno} and {bun}, default setup of Next.js, out of the box support by Vite...)
 
 The place taken by JavaScript in the code base and the tooling comes with some issues, for both developers and end-users:
 
@@ -30,7 +30,7 @@ For the performance in the browser, different patterns compete:
 
 - Zero baseline JavaScript frameworks to deliver nearly no JS to the browser ({qwik} is leading the charge)
 - [Partial hydration](https://ajcwebdev.com/2021/11/22/what-is-partial-hydration-and-why-is-everyone-talking-about-it/) to provide islands of interactivity to static pages ({astro})
-- React Server Components (implemented by Next.js 13) to delegate more work on the server side.
+- React Server Components (implemented by Next.js 13 and Gatsby) to delegate more work on the server side.
 - The [Progressively Enhanced Single Page Apps](https://www.epicweb.dev/the-webs-next-transition) architecture implemented by {remix} provides both great DX and performance in the browser without compromising any dynamic behavior
 
 There is no silver bullet to solve these issue as the spectrum from static "pages" to fully dynamic "apps" is large. We can't wait to see what 2023 will bring!
