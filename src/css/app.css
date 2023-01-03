@@ -263,3 +263,10 @@ code:before,
 code:after {
   content: "`";
 }
+
+blockquote {
+  margin-left: 0;
+  padding-left: var(--spacing);
+  border-left: 3px solid var(--light-border-color);
+  font-style: italic;
+}

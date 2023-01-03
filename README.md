@@ -2,7 +2,7 @@
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2021: trends about front-end and Node.js frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
+An overview of the JavaScript landscape in 2022: trends about front-end, back0end and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
 ## Team members
 
@@ -37,13 +37,13 @@ Special thanks:
 
 ## How to contribute?
 
-Requirements: Node.js 14+
+Requirements: [PNPM](https://pnpm.io/), Node.js 16+
 
 - Clone the repo
-- Install the dependencies: `npm install`
-- Start the development server: `npm run dev`
+- Install the dependencies: `pnpm install`
+- Start the development server: `pnpm run dev`
 - Check the following URL: `http://localhost:3000/`
-- Update the comments in your language
+- Update the comments in your language (see below)
 
 ## Translations
 

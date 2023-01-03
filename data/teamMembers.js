@@ -3,7 +3,7 @@ import React from "react";
 export const authorWorks = {
   "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
-  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021],
+  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
 };
 
 export const authors = {
@@ -70,7 +70,6 @@ export const translationWorks = {
     ko: ["melancholy14"],
   },
   2021: {
-    // ru: ["Alexey Pyltsyn"], coming soon?
     ja: ["NurseAngel"],
     es: ["Javier Valencia"],
     ko: ["rewrite0w0"],
