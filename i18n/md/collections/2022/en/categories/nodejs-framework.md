@@ -3,7 +3,7 @@ id: nodejs-framework
 language: en
 ---
 
-The boundary between front-end and backend framewors is a bit blurry as there is a strong trend to do more things on the server (including rendering and routing) comparing to the SPA approach, where the backend is only responsible for the API. So this section includes full-stack frameworks meta frameworks and backend frameworks.
+The boundary between front-end and backend frameworks is a bit blurry as there is a strong trend to do more things on the server (including rendering and routing) compared to the SPA approach, where the backend is only responsible for the API. So this section includes full-stack frameworks, meta frameworks and backend frameworks.
 
 #### Next.js
 
@@ -15,7 +15,7 @@ The biggest change is the rise of {trpc}, in second.
 Forget about REST versus GraphQL: there is also the [JSON RPC 2.0 protocol](https://en.wikipedia.org/wiki/JSON-RPC) that powers {trpc}.
 It really shines with its feature to import the types defined in the server from the client, to provide "end-to-end type safety".
 
-It's worths mentioning the project {t3-stack} that combines tRPC, Next.js and {tailwind-css} in a popular boilerplate (number 16 in the overall rankings).
+It's worth mentioning the project {t3-stack} that combines tRPC, Next.js and {tailwind-css} in a popular boilerplate (number 16 in the overall rankings).
 
 #### Astro
 

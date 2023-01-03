@@ -3,7 +3,7 @@ id: all
 language: en
 ---
 
-The trendiest project of the year is {bun} a new JavaScript run time that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month, we have never seen such an explosion since we track projects in _Best of JS_.
+The trendiest project of the year is {bun} a new JavaScript run time that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month, we have never seen such an explosion since we started tracking projects at Best of JS.
 
 So what makes Bun special? Like {deno}, the overall winner 2 years ago, it provides first class support for TypeScript.
 
@@ -20,7 +20,7 @@ Bun is a fresh take on many aspects of the JavaScript eco-system with a focus of
 
 The most incredible thing about Bun is that its creator [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch, using a low level language called [Zig](https:://ziglang.org).
 
-It prioritizes standard Web APIs like Fetch. It supports many of the Node.js API which makes it compatible with most of the NPM packages.
+It prioritizes standard Web APIs like Fetch. It supports many of the Node.js APIs which makes it compatible with most of the NPM packages.
 
 It may be not "production-ready" (lack of Windows support) yet but it's a very promising tool.
 
