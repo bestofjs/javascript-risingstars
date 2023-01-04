@@ -18,7 +18,6 @@ specifiers:
   react-dom: ^18.2.0
   react-intl: 6.2.5
   react-markdown: ^5.0.3
-  tinytime: ^0.2.6
   typescript: 4.9.4
   unstated-next: ^1.1.0
 
@@ -33,7 +32,6 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-intl: 6.2.5_o77wnou4wwnegu5woljtklrzru
   react-markdown: 5.0.3_kzbn2opkn2327fwg5yzwzya5o4
-  tinytime: 0.2.6
   unstated-next: 1.1.0
 
 devDependencies:
@@ -3595,10 +3593,6 @@ packages:
   /timed-out/4.0.1:
     resolution: {integrity: sha512-G7r3AhovYtr5YKOWQkta8RKAPb+J9IsO4uVmzjl8AZwfhs8UcUwTiD6gcJYSgOtzyjvQKrKYn41syHbUWMkafA==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /tinytime/0.2.6:
-    resolution: {integrity: sha512-FdiVbzssIGxpi9tuDWcMnDb4dUeoYIA4rpsdx1wVzvCaGMk5pt4WyFg2G+MFZ08HGyWB/CM/ajQfLKp6CYiD3w==}
     dev: false
 
   /to-buffer/1.1.1:
