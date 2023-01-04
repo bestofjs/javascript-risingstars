@@ -25,7 +25,7 @@
   },
   {
     "year": 2022,
-    "languages": ["en"],
+    "languages": ["en", "es"],
     "current": true
   }
 ]
