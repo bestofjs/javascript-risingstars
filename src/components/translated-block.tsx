@@ -8,5 +8,5 @@ export const TranslatedBlock = ({ path }: { path: string }) => {
   const markdown =
     get(translations, path) || `No translation for this path: "${path}"`;
 
-  return <ReactMarkdown source={markdown} />;
+  return <ReactMarkdown>{markdown}</ReactMarkdown>;
 };
