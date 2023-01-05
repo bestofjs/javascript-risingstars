@@ -29,9 +29,9 @@ function filterByTag(sortedProjects, projectsBySlug, category) {
     return isMatchingTag(category, project);
   };
   const isExcluded = (project) => excluded && excluded.includes(project.slug);
-  return sortedProjects.filter(
-    (project) => isMatching(project) && !isExcluded(project)
-  );
+  return sortedProjects
+    .filter((project) => isMatching(project) && !isExcluded(project))
+    .slice(0, count);
 }
 
 function getProjectsByTag(sortedProjects, projectsBySlug, categories) {

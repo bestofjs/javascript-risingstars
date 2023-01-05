@@ -5,19 +5,19 @@ import { ProjectList } from "components/project-list/project-list";
 import { TranslatedBlock } from "components/translated-block";
 import { PageProps } from "page-helpers";
 
-type Props = Pick<PageProps, "language" | "projectsByTag" | "tags" | "year"> & {
+type Props = Pick<PageProps, "language" | "tags" | "year"> & {
+  projects: RisingStars.Project[];
   category: RisingStars.Category;
 };
 export const Category = ({
   category,
   language,
-  projectsByTag,
+  projects,
   tags,
   year,
 }: Props) => {
   const { availableComments, key: tag, limit, count, guest } = category;
 
-  const projects = projectsByTag[tag];
   if (!projects) throw new Error(`No projects with the tag "${tag}"`);
   const graphProjects = projects.slice(0, count);
   const key = tag.replace(/-/gi, "");

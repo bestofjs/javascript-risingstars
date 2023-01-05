@@ -60,7 +60,7 @@ export const PageRoot = ({
                 year={year}
                 category={category}
                 language={language}
-                projectsByTag={projectsByTag}
+                projects={projectsByTag[category.key]}
                 tags={tags}
               />
             ))}
