@@ -1,4 +1,4 @@
-[![image](https://risingstars.js.org/img/2021/en/rising-stars.png)](https://risingstars.js.org/)
+[![image](https://risingstars.js.org/img/2022/en/rising-stars.png)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
@@ -25,7 +25,7 @@ An overview of the JavaScript landscape in 2022: trends about front-end, back0en
 
 Special thanks:
 
-- The 2021 edition of the Rising Stars was double checked by [L1lith](https://github.com/L1lith).
+- The content of 2021 and 2022 editions of the Rising Stars was double checked by [L1lith](https://github.com/L1lith).
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo) was the co-author of the 2020 edition.
 - [Sacha Grief](http://sachagreif.com/) did a lot of work about the design and the content of the first editions (2016, 2017, 2018, 2019).
 

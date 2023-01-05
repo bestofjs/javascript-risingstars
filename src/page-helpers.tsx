@@ -15,7 +15,6 @@ used to feed either `getStaticProps` or `getServerSideProps`
 export type PageProps = {
   allYears: number[];
   categories: RisingStars.Category[];
-  // projectsBySlug: RisingStars.Entities;
   language: string;
   languages: RisingStars.Language[];
   messages: RisingStars.IntlContent;
@@ -45,7 +44,6 @@ export async function getPageProps(
   const languageCodes =
     (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
     [];
-  // const currentYear = settings.find(({ current }) => !!current).year;
 
   const languages = languageCodes.map((code) =>
     allLanguages.find((item) => item.code === code)
