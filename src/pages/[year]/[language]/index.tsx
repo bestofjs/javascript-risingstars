@@ -9,7 +9,6 @@ import { AppDataContainer } from "app-data";
 const Root = ({
   year,
   language,
-  projectsBySlug,
   projectsByTag,
   tags,
   messages,
@@ -24,7 +23,6 @@ const Root = ({
         initialState={{
           allYears,
           year,
-          projectsBySlug,
           translations,
           projectsByTag,
           tags,

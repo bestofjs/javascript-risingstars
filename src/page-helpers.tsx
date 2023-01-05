@@ -15,7 +15,6 @@ used to feed either `getStaticProps` or `getServerSideProps`
 export type PageProps = {
   allYears: number[];
   categories: RisingStars.Category[];
-  projectsBySlug: RisingStars.Entities;
   language: string;
   languages: RisingStars.Language[];
   messages: RisingStars.IntlContent;
@@ -33,16 +32,18 @@ export async function getPageProps(
 ): Promise<PageProps> {
   const projects = await getProjectData(year);
   const categories = await getCategories(year);
-  const { projectsBySlug, projectsByTag } = processProjectData(projects, categories);
+  const { projectsBySlug, projectsByTag } = processProjectData(
+    projects,
+    categories
+  );
 
-  const translations = await getTranslations(year, language);
+  const translations = await getTranslations(year, language, projectsBySlug);
   const messages = await getMessages(year, language);
 
   const allYears = settings.map(({ year: y }) => y);
   const languageCodes =
     (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
     [];
-  // const currentYear = settings.find(({ current }) => !!current).year;
 
   const languages = languageCodes.map((code) =>
     allLanguages.find((item) => item.code === code)
@@ -55,7 +56,6 @@ export async function getPageProps(
   return {
     year,
     language,
-    projectsBySlug,
     tags,
     projectsByTag,
     messages,
@@ -76,7 +76,7 @@ async function getCategories(year) {
   return fs.readJSON(filepath);
 }
 
-async function getTranslations(year: number, language: string) {
+async function getTranslations(year: number, language: string, projectsBySlug) {
   const i18nFolderPath = path.resolve(process.cwd(), "i18n/md");
   const i18nData = await jdown(i18nFolderPath, { parseMd: false });
 
@@ -87,10 +87,28 @@ async function getTranslations(year: number, language: string) {
   const translations = i18nData[year]
     .filter((item) => item.language === language)
     .reduce((acc, val) => {
-      acc[val.id] = val.contents;
+      const originalMarkdown = val.contents;
+      const processedMarkdown = processMarkdown(
+        projectsBySlug,
+        originalMarkdown
+      );
+      acc[val.id] = processedMarkdown;
       return acc;
     }, {});
   return translations;
+}
+
+// Replace `{slug}` placeholders with a link to the project URL
+function processMarkdown(projectsBySlug: RisingStars.Entities, md: string) {
+  const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
+    const project = projectsBySlug[slug];
+    if (!project) {
+      return slug;
+    }
+    const url = project.url || project.repository;
+    return `[${project.name}](${url})`;
+  });
+  return processed;
 }
 
 async function getMessages(year: number, language: string) {
