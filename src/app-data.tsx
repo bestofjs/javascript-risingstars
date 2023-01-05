@@ -2,7 +2,6 @@ import { createContainer } from "unstated-next";
 
 export type AppData = {
   allYears: number[];
-  projectsBySlug: RisingStars.Entities;
   projectsByTag: RisingStars.ProjectsByCategory;
   tags: RisingStars.Tag[];
   translations: RisingStars.IntlContent;
