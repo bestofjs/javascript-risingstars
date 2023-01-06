@@ -20,7 +20,7 @@ So Bun can install your dependencies reading your package.json. Bun can also run
 
 Bun is a fresh take on many aspects of the JavaScript eco-system with a focus of performance.
 
-The most incredible thing about Bun is that its creator [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch, using a low level language called [Zig](https:://ziglang.org).
+The most incredible thing about Bun is that its creator [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch, using a low level language called [Zig](https://ziglang.org).
 
 It prioritizes standard Web APIs like Fetch. It supports many of the Node.js APIs which makes it compatible with most of the NPM packages.
 
