@@ -39,8 +39,8 @@ const YearLink = ({ year, isActive }) => {
   ) : (
     <Link
       href={{
-        pathname: "/[year]/en",
-        query: { year },
+        pathname: "/[year]/[language]",
+        query: { year, language: "en" },
       }}
     >
       {abbreviateYear(year)}
