@@ -256,7 +256,8 @@
       "tags": ["module", "build"],
       "owner_id": 406394,
       "created_at": "2016-06-14T16:08:50.000Z",
-      "url": "https://esbuild.github.io/"
+      "url": "https://esbuild.github.io/",
+      "icon": "esbuild.svg"
     },
     {
       "name": "Vue Element Admin",
@@ -665,7 +666,8 @@
       ],
       "tags": ["framework"],
       "owner_id": 59030169,
-      "created_at": "2019-11-28T13:51:55.000Z"
+      "created_at": "2019-11-28T13:51:55.000Z",
+      "icon": "alpine.svg"
     },
     {
       "name": "Recoil",
@@ -677,7 +679,8 @@
       "tags": ["state", "react"],
       "owner_id": 12853545,
       "created_at": "2020-05-04T19:44:15.000Z",
-      "url": "http://recoiljs.org/"
+      "url": "http://recoiljs.org/",
+      "icon": "recoil.svg"
     },
     {
       "name": "Ant Design",

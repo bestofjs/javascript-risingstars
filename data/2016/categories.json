@@ -31,7 +31,9 @@
     "count": 10
   },
   {
-    "key": "build"
+    "key": "build",
+    "limit": 5,
+    "count": 10    
   },
   {
     "key": "test-framework",
