@@ -39,7 +39,7 @@ The JavaScript landscape was once very fragmented: multiple browsers on one side
 
 With the rise of the edge computing, there is now a strong trend to use everywhere the same subset of standardized APIs (fetch, HTTP Request and Response...).
 
-Our guest writer Lee Robinson wrote a great summary of this trend in the article [Why I'm optimistic about JavaScripts](https://leerob.substack.com/p/why-im-optimistic-about-javascripts).
+Our guest writer Lee Robinson wrote a great summary of this trend in the article [Why I'm Optimistic About JavaScript's Future](https://leerob.substack.com/p/why-im-optimistic-about-javascripts).
 
 And we share the optimism of his conclusion!
 
