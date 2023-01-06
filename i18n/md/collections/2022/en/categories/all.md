@@ -5,11 +5,11 @@ language: en
 
 #### Overall winner: Bun 🏆
 
-The trendiest project of the year is {bun}: a new JavaScript run time that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month, we have never seen such an explosion since we started tracking projects at Best of JS.
+The trendiest project of the year is {bun}: a new JavaScript runtime that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month. We have never seen such an explosion since we started tracking projects at Best of JS.
 
-So what makes Bun special? Like {deno}, the overall winner 2 years ago, it provides first class support for TypeScript.
+So what makes Bun special? Like {deno}, the overall winner two years ago, it provides first-class support for TypeScript.
 
-But Bun is not just a run time, it's also:
+But Bun is not just a runtime. It's also:
 
 - a package manager (think Yarn, NPM, PNPM)
 - a building tool (think Webpack, ESBuild, Parcel)
@@ -18,19 +18,17 @@ But Bun is not just a run time, it's also:
 
 So Bun can install your dependencies reading your package.json. Bun can also run your scripts. It does everything faster than anything else.
 
-Bun is a fresh take on many aspects of the JavaScript eco-system with a focus of performance.
+Bun is a fresh take on many aspects of the JavaScript ecosystem, focusing on performance.
 
-The most incredible thing about Bun is that its creator [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch, using a low level language called [Zig](https://ziglang.org).
+It prioritizes standard Web APIs like Fetch. It supports many of the Node.js APIs, making it compatible with most NPM packages.
+It may not be "production-ready" (lack of Windows support) yet, but it's a very promising tool. Compared to Deno, the ecosystem is pretty new, but it already has a web framework called [Elysia](https://elysiajs.com/)  that claims to be the fastest HTTP framework.
 
-It prioritizes standard Web APIs like Fetch. It supports many of the Node.js APIs which makes it compatible with most of the NPM packages.
-
-It may be not "production-ready" (lack of Windows support) yet but it's a very promising tool. Compared to {deno} the eco-system is pretty new but it has already a web framework called [Elysia](https://elysiajs.com/) that claims to be the fastest HTTP framework.
+The most incredible thing about Bun is that its creator, [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch using a low-level language called [Zig](https://ziglang.org).
 
 Check [A Complete Overhaul of the JavaScript Ecosystem](https://www.lunasec.io/docs/blog/bun-first-look/) to get more details.
-
 #### Tauri
 
-Fifth in 2021, {tauri} was even more popular in 2022 with 30,000 new stargazers.
+In fifth in 2021, {tauri} was even more popular in 2022 with 30,000 new stargazers.
 It's a project written in Rust to create cross-platform desktop applications using web technologies.
 
 The [version 1.0](https://tauri.app/blog/2022/06/19/tauri-1-0) was released in June.
@@ -39,7 +37,7 @@ It's built with security and performance in mind. Compared to {electron}, it has
 
 #### React and Next.js
 
-At forth and fifth {react} and {nextjs} got similar numbers, with almost 20,000 new stargazers.
+In third and forth {react} and {nextjs} got similar numbers, with almost 20,000 new stargazers.
 
 [Next.js 13](https://nextjs.org/blog/next-13), released in October, leverages the [React Server Components](https://www.plasmic.app/blog/how-react-server-components-work#what-are-react-server-components) introduced by React 17 in 2020.
 
@@ -49,10 +47,8 @@ Andrew Clark, one of the maintainers of React made a bold statement about their 
 
 #### Vite
 
-At fifth {vite} is the trendiest tool to build applications based on web technologies while providing an amazing developer experience.
+In fifth {vite} is the trendiest tool to build applications based on web technologies while providing an amazing developer experience.
 
 It had two major releases this year ([v3 in July](https://vitejs.dev/blog/announcing-vite3.html) and [v4 in December](https://vitejs.dev/blog/announcing-vite4.html)).
 
 It powers more and more projects including the frameworks {sveltekit} and {qwik} and the test runner {vitest}.
-
-
