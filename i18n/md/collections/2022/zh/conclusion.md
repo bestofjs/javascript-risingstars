@@ -3,22 +3,22 @@ id: conclusion
 language: zh
 ---
 
-2022年以混乱开局，两个非常受欢迎的软件包被其创建者故意破坏：[Faker.js 和 colors.js 被破坏](https://www.theregister.com/2022/01/10/npm_fakerjs_colorsjs/)。
+2022年以混乱开局，两个非常受欢迎的软件包被其创建者故意破坏：[Faker.js 和 colors.js](https://www.theregister.com/2022/01/10/npm_fakerjs_colorsjs/)。
 
-当 {lerna} 这个流行的 mono-repos 工具被宣布为无人维护，巨大生态系统的脆弱性再次被证明... 直到 {nx} 背后的公司 Nrwl 宣布接管 Lerna 的管理权。
+当 {lerna} 这个流行的 mono-repos 工具被宣布为无人维护，巨大生态系统的脆弱性再次被证明... 直到 {nx} 背后的公司 Nrwl 宣布接手 Lerna 的管理权。
 
 JavaScript 正在吞噬世界，你可能听说过 2009 年的这个预言：
 
 > 任何可以用 JavaScript 编写的应用程序，最终都会用 JavaScript 编写。
 
-...在 13年后的今天，我们可以添加上 **“或用 TypeScript 编写”** 这样一句话，因为 TypeScript 正在成为编写 JavaScript 的事实标准（{deno} 和 {bun} 的一流支持，Next.js 的默认设置，Vite 的开箱支持...）。
+...在 13年后的今天，我们可以添加上 _“或用 TypeScript 编写”_ 这样一句话，因为 TypeScript 正在成为编写 JavaScript 的事实标准（{deno} 和 {bun} 的一流支持，Next.js 的默认设置，Vite 的开箱支持...）。
 
 JavaScript 在代码库和工具中的地位伴始终随着一些问题，对开发者和终端用户来说都是如此：
 
 - 在大型代码库中，构建时间失去控制
 - JavaScript 的平均大小不断增加，导致性能下降
 
-在2022年，我们看到了在堆栈的不同层次解决这两类问题的巨大创新。
+在 2022 年，我们看到了在堆栈的不同层次解决这两类问题的巨大创新。
 
 工具的改进与这些解决方案有关：
 
