@@ -2,7 +2,7 @@
   --spacing: 20px;
 
   --orange: #cc4700;
-  --linkColor: var(--orange);
+  --linkColor: #c2410c;
   --activeLinkColor: #e65000;
 
   --red: #e60932;
@@ -24,7 +24,7 @@
   --lightest-text-color: var(--grey3);
   --light-border-color: var(--grey3);
   --border-color: var(--mediumgrey);
-  --bg-color: #edefed;
+  --bg-color: #f2f2f0;
   --chart-bar-bg-color: rgba(228, 91, 18, 0.15);
 
   --root-size-mobile: 15px;
@@ -254,6 +254,7 @@ h1 {
 
 hr {
   border-top-width: 0;
+  border-color: var(--border-color);
 }
 
 code {

@@ -34,28 +34,24 @@ export const Category = ({
           </span>
         </h2>
         <div className={`${hasComment ? "project-category-grid" : ""}`}>
-          <div>
-            <div className={`${hasComment ? "column1" : ""}`}>
-              <ProjectList
-                count={count}
-                limit={limit || 5}
-                tagKey={key}
-                tags={tags}
-                projects={graphProjects}
-                year={year}
-              />
-            </div>
+          <div className={`${hasComment ? "column1" : ""}`}>
+            <ProjectList
+              count={count}
+              limit={limit || 5}
+              tagKey={key}
+              tags={tags}
+              projects={graphProjects}
+              year={year}
+            />
           </div>
-          <div>
-            {hasComment && (
-              <div className="column2">
-                <div className="tag-card-comments markdown-body">
-                  {guest && <Guest guestId={guest} />}
-                  <TranslatedBlock path={tag} />
-                </div>
+          {hasComment && (
+            <div className="column2">
+              <div className="tag-card-comments markdown-body">
+                {guest && <Guest guestId={guest} />}
+                <TranslatedBlock path={tag} />
               </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
