@@ -76,6 +76,7 @@ export const translationWorks = {
     zh: ["KimYang"],
   },
   2022: {
+    es: ["Javier Valencia"],
     zh: ["KimYang"],
   },
 };
