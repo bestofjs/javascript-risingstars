@@ -34,7 +34,7 @@ export const LanguageMenuCompact = ({
           </select>
         </div>
         <div className="icon is-left">
-          <img src="/globe.svg" width="24" height="24" />
+          <img src="/globe.svg" width="24" height="24" alt="language" />
         </div>
       </div>
     </div>

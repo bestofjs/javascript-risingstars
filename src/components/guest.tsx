@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { TranslatedBlock } from "components/translated-block";
 
 export const Guest = ({ guestId }: {guestId: string}) => (
@@ -6,7 +8,7 @@ export const Guest = ({ guestId }: {guestId: string}) => (
       <TranslatedBlock path={guestId} />
     </div>
     <div className="guest-portrait">
-      <img
+      <Image
         src={`/img/guests/${guestId}.jpg`}
         width="120"
         height="120"
