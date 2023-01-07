@@ -46,13 +46,14 @@
   },
   {
     "key": "mobile",
+    "tags": ["mobile", "react-native"],
     "excluded": [],
     "count": 10,
     "availableComments": []
   },
   {
     "key": "desktop",
-    "count": 10,
+    "count": 5,
     "availableComments": []
   },
   {
