@@ -15,6 +15,7 @@ export const Header = ({ language, year, availableLanguages }: Props) => {
             <img
               src={"https://bestofjs.org/svg/bestofjs.svg"}
               width="130"
+              height="37.14"
               alt="Best of JS logo"
             />
           </a>

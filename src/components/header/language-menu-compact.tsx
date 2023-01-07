@@ -14,8 +14,8 @@ export const LanguageMenuCompact = ({
   languages,
 }: Props) => {
   const router = useRouter();
-  const onChange = (e) => {
-    const path = e.target.value;
+  const onChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const path = event.target.value;
     router.push(path);
   };
 
@@ -26,21 +26,31 @@ export const LanguageMenuCompact = ({
           <select
             className="language-dropdown"
             onChange={onChange}
-            value={currentLanguage}
+            value={getPath(year, currentLanguage)}
           >
             {languages.map((item) => (
-              <LanguageLink item={item} key={item.code} year={year} />
+              <LanguageOption item={item} key={item.code} year={year} />
             ))}
           </select>
         </div>
         <div className="icon is-left">
-          <img src="/globe.svg" width="24" height="24" />
+          <img src="/globe.svg" width="24" height="24" alt="language" />
         </div>
       </div>
     </div>
   );
 };
 
-const LanguageLink = ({ item, year }) => {
-  return <option value={`/${year}/${item.code}`}>{item.text}</option>;
+const LanguageOption = ({
+  item,
+  year,
+}: {
+  item: RisingStars.Language;
+  year: number;
+}) => {
+  return <option value={getPath(year, item.code)}>{item.text}</option>;
 };
+
+function getPath(year: number, language: string) {
+  return `/${year}/${language}`;
+}

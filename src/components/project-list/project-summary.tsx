@@ -22,9 +22,7 @@ export const ProjectSummary = ({
         setIsOpen(!isOpen);
       }}
     >
-      <div className="ranking">
-        <span>{index}</span>
-      </div>
+      <div className="ranking">{index}</div>
       <div className="inner">
         <div className="icon">
           <ProjectAvatar project={project} size={50} />
@@ -35,27 +33,10 @@ export const ProjectSummary = ({
             style={{ width: `${widthPercent}%` }}
           />
           <h4 className="project-name">{project.name}</h4>
-          <div className="description">
-            <Description text={project.description} showEmojis={false} />
-          </div>
+          <div className="description">{project.description}</div>
         </div>
         <div className="stars">+{formatStarNumber(project.delta, 1)}☆</div>
       </div>
     </div>
   );
-};
-
-// Component used to display repository `description`,
-// removing emojis except if `showEmojis` option is set to true
-// See node.js repository: `Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:`
-const Description = ({ text, showEmojis }) => {
-  const replacedBy = showEmojis ? emoji() : "";
-  const result = text.replace(/(:([a-z_\d]+):)/g, replacedBy).trim();
-  if (showEmojis) return <span dangerouslySetInnerHTML={{ __html: result }} />;
-  return <span>{result}</span>;
-};
-
-const emoji = () => {
-  const size = 20;
-  return `<img align="absmiddle" width="${size}" height=${size} src="https://assets-cdn.github.com/images/icons/emoji/$2.png">`;
 };
