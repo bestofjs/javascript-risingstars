@@ -109,7 +109,7 @@ const TranslatorBlock = ({ translators, language }) => (
 
 const TeamMember = ({ member }) => (
   <div className="translator-list-item">
-    <a href={member.url}>
+    <a href={member.url} aria-label={member.name}>
       <img className="avatar" src={member.avatar} width="75" height="75" />
     </a>
     <div className="translator-item-body">
