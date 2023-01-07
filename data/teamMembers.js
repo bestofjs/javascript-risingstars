@@ -75,6 +75,9 @@ export const translationWorks = {
     ko: ["rewrite0w0"],
     zh: ["KimYang"],
   },
+  2022: {
+    zh: ["KimYang"],
+  },
 };
 
 export const translators = {
