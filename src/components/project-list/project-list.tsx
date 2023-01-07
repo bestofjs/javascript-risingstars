@@ -57,7 +57,7 @@ const ProjectListItem = ({ maxDelta, project, tags, tagKey, year, index }) => {
   // only first project of "all" category should start expanded
   const defaultIsOpen = tagKey === "all" && index === 1;
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
-  const widthPercent = (project.delta * 100) / maxDelta; // use relative scale
+  const widthPercent = Math.ceil((project.delta * 100) / maxDelta); // use relative scale
   return (
     <div>
       <ProjectSummary
@@ -67,7 +67,12 @@ const ProjectListItem = ({ maxDelta, project, tags, tagKey, year, index }) => {
         project={project}
         index={index}
       />
-      <ProjectDetails isOpen={isOpen} project={project} tags={tags} year={year} />
+      <ProjectDetails
+        isOpen={isOpen}
+        project={project}
+        tags={tags}
+        year={year}
+      />
     </div>
   );
 };
