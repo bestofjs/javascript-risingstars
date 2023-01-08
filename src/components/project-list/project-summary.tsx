@@ -32,7 +32,7 @@ export const ProjectSummary = ({
             className="project-table-bar"
             style={{ width: `${widthPercent}%` }}
           />
-          <h4 className="project-name">{project.name}</h4>
+          <h3 className="project-name">{project.name}</h3>
           <div className="description">{project.description}</div>
         </div>
         <div className="stars">+{formatStarNumber(project.delta, 1)}☆</div>

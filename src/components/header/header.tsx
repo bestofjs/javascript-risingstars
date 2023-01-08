@@ -38,8 +38,9 @@ export const Header = ({ language, year, availableLanguages }: Props) => {
       <a
         href="https://github.com/bestofjs/javascript-risingstars"
         id="github-corner"
+        aria-label="GitHub repo"
       >
-        <img src="/octocat.svg" width={60} height={60} />
+        <img src="/octocat.svg" width={60} height={60} alt="GitHub" />
       </a>
     </div>
   );
