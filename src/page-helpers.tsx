@@ -30,7 +30,8 @@ export async function getPageProps(
   year: number,
   language: string
 ): Promise<PageProps> {
-  const projects = await getProjectData(year);
+  const { projects, tags } = await getProjectData(year);
+
   const categories = await getCategories(year);
   const { projectsBySlug, projectsByTag } = processProjectData(
     projects,
@@ -49,10 +50,6 @@ export async function getPageProps(
     allLanguages.find((item) => item.code === code)
   );
 
-  const { tags } = await fetch(
-    "https://bestofjs-static-api.vercel.app/projects.json"
-  ).then((r) => r.json());
-
   return {
     year,
     language,
@@ -66,14 +63,14 @@ export async function getPageProps(
   };
 }
 
-async function getProjectData(year) {
+async function getProjectData(year: number) {
   const filepath = path.resolve(process.cwd(), `data/${year}/projects.json`);
-  return fs.readJSON(filepath);
+  return await fs.readJSON(filepath);
 }
 
-async function getCategories(year) {
+async function getCategories(year: number) {
   const filepath = path.resolve(process.cwd(), `data/${year}/categories.json`);
-  return fs.readJSON(filepath);
+  return await fs.readJSON(filepath);
 }
 
 async function getTranslations(year: number, language: string, projectsBySlug) {

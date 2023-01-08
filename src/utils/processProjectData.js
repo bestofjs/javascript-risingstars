@@ -44,12 +44,10 @@ function getProjectsByTag(sortedProjects, projectsBySlug, categories) {
   );
 }
 
-function getProjectsBySlug(payload) {
-  const projectsBySlug = payload.projects
-    .map(processProject)
-    .reduce((acc, project) => {
-      return { ...acc, [project.slug]: project };
-    }, {});
+function getProjectsBySlug(projects) {
+  const projectsBySlug = projects.map(processProject).reduce((acc, project) => {
+    return { ...acc, [project.slug]: project };
+  }, {});
   return projectsBySlug;
 }
 
