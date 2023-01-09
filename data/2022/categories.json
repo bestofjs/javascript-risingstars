@@ -33,6 +33,14 @@
     "guest": "slorber"
   },
   {
+    "key": "mobile",
+    "tags": ["mobile", "react-native"],
+    "excluded": [],
+    "count": 10,
+    "guest": "evanbacon",
+    "availableComments": ["en"]
+  },
+  {
     "key": "css-in-js",
     "count": 10,
     "availableComments": []
@@ -41,13 +49,6 @@
     "key": "test-framework",
     "tags": ["test", "test-framework", "auto"],
     "excluded": ["json-server"],
-    "count": 10,
-    "availableComments": []
-  },
-  {
-    "key": "mobile",
-    "tags": ["mobile", "react-native"],
-    "excluded": [],
     "count": 10,
     "availableComments": []
   },
