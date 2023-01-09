@@ -37,7 +37,8 @@
     "tags": ["mobile", "react-native"],
     "excluded": [],
     "count": 10,
-    "guest": "evanbacon"
+    "guest": "evanbacon",
+    "availableComments": ["en"]
   },
   {
     "key": "css-in-js",
