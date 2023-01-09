@@ -19,7 +19,7 @@ export const Category = ({
   const { availableComments, key: tag, limit, count, guest } = category;
 
   if (!projects) throw new Error(`No projects with the tag "${tag}"`);
-  const graphProjects = projects.slice(0, count);
+  const visibleProjects = projects.slice(0, count);
   const key = tag.replace(/-/gi, "");
 
   const hasComment = !availableComments || availableComments.includes(language);
@@ -37,10 +37,10 @@ export const Category = ({
           <div className={`${hasComment ? "column1" : ""}`}>
             <ProjectList
               count={count}
+              isFirstItemOpenByDefault={key === "all"}
               limit={limit || 5}
-              tagKey={key}
+              projects={visibleProjects}
               tags={tags}
-              projects={graphProjects}
               year={year}
             />
           </div>

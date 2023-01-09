@@ -2,12 +2,6 @@
   background: white;
   z-index: 100;
   overflow: hidden;
-  display: none;
-}
-.project-details.is-open {
-  opacity: 1;
-  z-index: 20;
-  display: block;
 }
 
 .project-details-inner {

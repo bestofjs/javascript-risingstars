@@ -7,12 +7,11 @@ type Props = {
   project: RisingStars.Project;
   tags: RisingStars.Tag[];
   year: number;
-  isOpen: boolean;
 };
-export const ProjectDetails = ({ project, isOpen, tags, year }: Props) => {
+export const ProjectDetails = ({ project, tags, year }: Props) => {
   const { url, full_name, repository, stars } = project;
   return (
-    <div className={`project-details ${isOpen ? "is-open" : "is-closed"}`}>
+    <div className="project-details">
       <div className="project-details-inner">
         <Heading>
           <FormattedMessage
