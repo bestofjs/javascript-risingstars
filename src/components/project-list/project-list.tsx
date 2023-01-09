@@ -67,12 +67,7 @@ const ProjectListItem = ({ maxDelta, project, tags, tagKey, year, index }) => {
         project={project}
         index={index}
       />
-      <ProjectDetails
-        isOpen={isOpen}
-        project={project}
-        tags={tags}
-        year={year}
-      />
+      {isOpen && <ProjectDetails project={project} tags={tags} year={year} />}
     </div>
   );
 };

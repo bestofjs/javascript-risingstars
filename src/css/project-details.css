@@ -2,7 +2,7 @@
   background: white;
   z-index: 100;
   overflow: hidden;
-  display: none;
+  /* display: none; */
 }
 .project-details.is-open {
   opacity: 1;
