@@ -4,18 +4,19 @@ import { ProjectSummary } from "./project-summary";
 import { ProjectDetails } from "./project-details";
 
 type Props = {
-  year: number;
-  tagKey: string;
-  tags: RisingStars.Tag[];
-  projects: RisingStars.Project[];
-  limit: number;
   count: number;
+  isFirstItemOpenByDefault: boolean;
+  limit: number;
+  projects: RisingStars.Project[];
+  tags: RisingStars.Tag[];
+  year: number;
 };
+
 export const ProjectList = ({
-  projects,
-  limit = 5,
   count,
-  tagKey,
+  limit = 5,
+  projects,
+  isFirstItemOpenByDefault,
   tags,
   year,
 }: Props) => {
@@ -30,10 +31,10 @@ export const ProjectList = ({
         {visibleProjects.map((project, i) => (
           <ProjectListItem
             key={project.slug}
-            tags={tags}
-            tagKey={tagKey}
-            maxDelta={maxDelta}
             project={project}
+            tags={tags}
+            defaultIsOpen={i === 0 && isFirstItemOpenByDefault}
+            maxDelta={maxDelta}
             year={year}
             index={i + 1}
           />
@@ -53,19 +54,31 @@ export const ProjectList = ({
   );
 };
 
-const ProjectListItem = ({ maxDelta, project, tags, tagKey, year, index }) => {
-  // only first project of "all" category should start expanded
-  const defaultIsOpen = tagKey === "all" && index === 1;
+type ListItemProps = {
+  index: number;
+  defaultIsOpen: boolean;
+  maxDelta: number;
+  project: RisingStars.Project;
+} & Pick<Props, "tags" | "year">;
+
+const ProjectListItem = ({
+  index,
+  defaultIsOpen,
+  maxDelta,
+  project,
+  tags,
+  year,
+}: ListItemProps) => {
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
   const widthPercent = Math.ceil((project.delta * 100) / maxDelta); // use relative scale
   return (
     <div>
       <ProjectSummary
-        widthPercent={widthPercent}
-        setIsOpen={setIsOpen}
+        index={index}
         isOpen={isOpen}
         project={project}
-        index={index}
+        setIsOpen={setIsOpen}
+        widthPercent={widthPercent}
       />
       {isOpen && <ProjectDetails project={project} tags={tags} year={year} />}
     </div>
