@@ -1,10 +1,11 @@
 {
+  "date": "2023-01-09T03:36:29.796Z",
   "projects": [
     {
       "name": "Bun",
       "full_name": "oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one.",
-      "stars": 37310,
+      "stars": 37388,
       "delta": 36645,
       "monthly": [
         716, 697, 1157, 1291, 3674, 21741, 6940, 99, 104, 116, 40, 80
@@ -19,7 +20,7 @@
       "name": "Tauri",
       "full_name": "tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
-      "stars": 56585,
+      "stars": 56643,
       "delta": 30457,
       "monthly": [
         1554, 1180, 1901, 2127, 1785, 2215, 3797, 4483, 1483, 2682, 3125, 4164
@@ -34,7 +35,7 @@
       "name": "React",
       "full_name": "facebook/react",
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-      "stars": 200127,
+      "stars": 200171,
       "delta": 19812,
       "monthly": [
         1311, 1417, 1586, 1379, 1674, 1737, 1841, 1628, 1709, 2409, 1440, 1694
@@ -49,7 +50,7 @@
       "name": "Next.js",
       "full_name": "vercel/next.js",
       "description": "The React Framework",
-      "stars": 98732,
+      "stars": 98772,
       "delta": 19400,
       "monthly": [
         1205, 1734, 2108, 1391, 1469, 1541, 1455, 1390, 2053, 1838, 1536, 1704
@@ -71,7 +72,7 @@
       "name": "Vite",
       "full_name": "vitejs/vite",
       "description": "Next generation frontend tooling. It's fast!",
-      "stars": 51232,
+      "stars": 51266,
       "delta": 15493,
       "monthly": [
         1073, 954, 1025, 1089, 1417, 1868, 1125, 1315, 1328, 1409, 1486, 1429
@@ -86,7 +87,7 @@
       "name": "tRPC",
       "full_name": "trpc/trpc",
       "description": "Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
-      "stars": 18335,
+      "stars": 18408,
       "delta": 15206,
       "monthly": [
         1636, 1525, 1161, 1545, 1568, 3051, 1320, 681, 669, 1324, 355, 412
@@ -108,7 +109,7 @@
       "name": "Astro",
       "full_name": "withastro/astro",
       "description": "A website build tool for the modern web — powerful developer experience meets lightweight output.",
-      "stars": 24206,
+      "stars": 24251,
       "delta": 15040,
       "monthly": [
         814, 1206, 1136, 2109, 5339, 549, 522, 591, 540, 348, 480, 1420
@@ -123,7 +124,7 @@
       "name": "VS Code",
       "full_name": "microsoft/vscode",
       "description": "Visual Studio Code",
-      "stars": 141087,
+      "stars": 141104,
       "delta": 14957,
       "monthly": [
         1183, 1051, 1441, 1172, 1206, 1296, 1188, 1546, 1138, 1366, 1260, 1135
@@ -138,7 +139,7 @@
       "name": "Tabby",
       "full_name": "Eugeny/tabby",
       "description": "A terminal for a more modern age",
-      "stars": 42116,
+      "stars": 42143,
       "delta": 14423,
       "monthly": [
         801, 1289, 1610, 714, 1822, 1712, 669, 852, 1445, 922, 804, 1790
@@ -153,7 +154,7 @@
       "name": "Playwright",
       "full_name": "microsoft/playwright",
       "description": "A framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
-      "stars": 46299,
+      "stars": 46323,
       "delta": 14278,
       "monthly": [
         1060, 1048, 1140, 1215, 1066, 923, 997, 1555, 959, 1327, 1116, 1887
@@ -168,7 +169,7 @@
       "name": "Turborepo",
       "full_name": "vercel/turbo",
       "description": "Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.",
-      "stars": 18558,
+      "stars": 18569,
       "delta": 13901,
       "monthly": [
         579, 2001, 6174, 594, 535, 325, 430, 546, 678, 472, 538, 1036
@@ -183,7 +184,7 @@
       "name": "Mermaid",
       "full_name": "mermaid-js/mermaid",
       "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
-      "stars": 52790,
+      "stars": 52808,
       "delta": 13352,
       "monthly": [
         793, 879, 754, 577, 654, 792, 652, 787, 879, 1399, 4196, 1002
@@ -197,7 +198,7 @@
       "name": "Mantine",
       "full_name": "mantinedev/mantine",
       "description": "React components library with native dark theme support",
-      "stars": 16598,
+      "stars": 16626,
       "delta": 12835,
       "monthly": [
         470, 527, 595, 928, 906, 879, 776, 890, 1308, 2785, 1334, 1454
@@ -212,7 +213,7 @@
       "name": "Qwik",
       "full_name": "BuilderIO/qwik",
       "description": "The HTML-first framework. Instant apps of any size with ~ 1kb JS",
-      "stars": 14289,
+      "stars": 14316,
       "delta": 12807,
       "monthly": [475, 995, 2754, 4103, 548, 820, 909, 305, 593, 419, 620, 271],
       "tags": ["framework", "universal", "vite"],
@@ -225,7 +226,7 @@
       "name": "Excalidraw",
       "full_name": "excalidraw/excalidraw",
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-      "stars": 38959,
+      "stars": 39048,
       "delta": 12785,
       "monthly": [
         2263, 1577, 1080, 1049, 1243, 906, 712, 758, 979, 938, 670, 703
@@ -239,7 +240,7 @@
       "name": "Zustand",
       "full_name": "pmndrs/zustand",
       "description": "Bear necessities for state management in React",
-      "stars": 25422,
+      "stars": 25466,
       "delta": 12523,
       "monthly": [
         879, 981, 1007, 1080, 1127, 1241, 1423, 821, 868, 1146, 946, 1028
@@ -253,7 +254,7 @@
       "name": "create-t3-app",
       "full_name": "t3-oss/create-t3-app",
       "description": "The best way to start a full-stack, typesafe Next.js app",
-      "stars": 12710,
+      "stars": 12737,
       "delta": 12417,
       "monthly": [
         1404,
@@ -269,7 +270,14 @@
         null,
         null
       ],
-      "tags": ["rpc", "nextjs", "boilerplate", "tailwind", "react"],
+      "tags": [
+        "rpc",
+        "nextjs",
+        "boilerplate",
+        "tailwind",
+        "react",
+        "fullstack"
+      ],
       "owner_id": 108266839,
       "created_at": "2022-05-24T13:31:01.000Z",
       "url": "https://create.t3.gg"
@@ -278,7 +286,7 @@
       "name": "NocoDB",
       "full_name": "nocodb/nocodb",
       "description": "Open Source Airtable Alternative",
-      "stars": 33417,
+      "stars": 33429,
       "delta": 12366,
       "monthly": [
         616, 580, 1829, 585, 615, 493, 628, 980, 1747, 2811, 542, 956
@@ -292,7 +300,7 @@
       "name": "Mark Text",
       "full_name": "marktext/marktext",
       "description": "A simple and elegant markdown editor, available for Linux, macOS and Windows.",
-      "stars": 37810,
+      "stars": 37826,
       "delta": 12212,
       "monthly": [
         406, 509, 576, 705, 1148, 1235, 878, 805, 783, 1059, 879, 3235
@@ -306,7 +314,7 @@
       "name": "Tailwind CSS",
       "full_name": "tailwindlabs/tailwindcss",
       "description": "A utility-first CSS framework for rapid UI development.",
-      "stars": 63844,
+      "stars": 63868,
       "delta": 11903,
       "monthly": [
         775, 847, 895, 756, 971, 926, 983, 1232, 1072, 994, 959, 1507
@@ -321,7 +329,7 @@
       "name": "Docusaurus",
       "full_name": "facebook/docusaurus",
       "description": "Easy to maintain open source documentation websites.",
-      "stars": 40945,
+      "stars": 40960,
       "delta": 11433,
       "monthly": [688, 813, 899, 894, 2203, 802, 840, 814, 867, 938, 747, 949],
       "tags": ["doc", "react", "ssg"],
@@ -334,7 +342,7 @@
       "name": "Remix",
       "full_name": "remix-run/remix",
       "description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
-      "stars": 21489,
+      "stars": 21505,
       "delta": 11354,
       "monthly": [
         373, 953, 617, 442, 575, 808, 732, 902, 1117, 1245, 1321, 2273
@@ -349,7 +357,7 @@
       "name": "zx",
       "full_name": "google/zx",
       "description": "A tool for writing better scripts",
-      "stars": 35716,
+      "stars": 35724,
       "delta": 11289,
       "monthly": [
         343, 414, 538, 425, 405, 793, 1226, 645, 541, 1160, 1781, 3041
@@ -362,7 +370,7 @@
       "name": "Solid",
       "full_name": "solidjs/solid",
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-      "stars": 24553,
+      "stars": 24572,
       "delta": 11101,
       "monthly": [
         622, 696, 616, 722, 984, 1035, 1134, 1762, 571, 1481, 837, 656
@@ -377,7 +385,7 @@
       "name": "Zod",
       "full_name": "colinhacks/zod",
       "description": "TypeScript-first schema validation with static type inference",
-      "stars": 16589,
+      "stars": 16620,
       "delta": 10671,
       "monthly": [
         1796, 1406, 1093, 1104, 1062, 1086, 880, 522, 398, 456, 476, 418
@@ -392,7 +400,7 @@
       "name": "Three.js",
       "full_name": "mrdoob/three.js",
       "description": "JavaScript 3D Library.",
-      "stars": 88029,
+      "stars": 88042,
       "delta": 10510,
       "monthly": [664, 750, 711, 883, 844, 808, 846, 853, 905, 1077, 931, 1247],
       "tags": ["3d"],
@@ -405,7 +413,7 @@
       "name": "Medusa",
       "full_name": "medusajs/medusa",
       "description": "The open-source Shopify alternative",
-      "stars": 16092,
+      "stars": 16117,
       "delta": 10261,
       "monthly": [634, 650, 559, 456, 430, 552, 802, 475, 1506, 864, 2656, 686],
       "tags": ["ecommerce"],
@@ -417,7 +425,7 @@
       "name": "TypeScript",
       "full_name": "microsoft/TypeScript",
       "description": "A superset of JavaScript that compiles to clean JavaScript output.",
-      "stars": 87374,
+      "stars": 87388,
       "delta": 10229,
       "monthly": [689, 1024, 875, 793, 981, 966, 842, 863, 861, 901, 798, 655],
       "tags": ["compiler", "types"],
@@ -430,7 +438,7 @@
       "name": "Svelte",
       "full_name": "sveltejs/svelte",
       "description": "Cybernetically enhanced web apps",
-      "stars": 64547,
+      "stars": 64568,
       "delta": 10020,
       "monthly": [
         882, 492, 560, 612, 683, 1200, 1421, 746, 669, 763, 939, 1067
@@ -445,7 +453,7 @@
       "name": "Nest",
       "full_name": "nestjs/nest",
       "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8)",
-      "stars": 53376,
+      "stars": 53395,
       "delta": 9933,
       "monthly": [682, 706, 744, 1090, 914, 887, 889, 727, 784, 826, 822, 883],
       "tags": ["nodejs-framework", "microservice"],
@@ -458,7 +466,7 @@
       "name": "Vue.js 2",
       "full_name": "vuejs/vue",
       "description": "A progressive, incrementally-adoptable framework for building UI on the web",
-      "stars": 201647,
+      "stars": 201655,
       "delta": 9699,
       "monthly": [528, 592, 664, 721, 733, 1004, 926, 952, 786, 1186, 705, 906],
       "tags": ["framework", "vdom", "vue"],
@@ -471,7 +479,7 @@
       "name": "MUI",
       "full_name": "mui/material-ui",
       "description": " A robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster",
-      "stars": 83747,
+      "stars": 83770,
       "delta": 9633,
       "monthly": [737, 597, 679, 802, 666, 756, 659, 939, 725, 1055, 1191, 840],
       "tags": ["material", "react", "component", "design-system"],
@@ -484,7 +492,7 @@
       "name": "DaisyUI",
       "full_name": "saadeghi/daisyui",
       "description": "Component classes to Tailwind CSS",
-      "stars": 16787,
+      "stars": 16817,
       "delta": 9588,
       "monthly": [739, 617, 628, 598, 827, 780, 1283, 624, 634, 776, 1621, 478],
       "tags": ["css-lib", "tailwind"],
@@ -496,7 +504,7 @@
       "name": "nvm",
       "full_name": "nvm-sh/nvm",
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
-      "stars": 63800,
+      "stars": 63817,
       "delta": 9356,
       "monthly": [697, 866, 838, 652, 718, 867, 785, 774, 874, 809, 696, 790],
       "tags": ["nvm"],
@@ -507,7 +515,7 @@
       "name": "Fresh",
       "full_name": "denoland/fresh",
       "description": "The next-gen web framework.",
-      "stars": 9724,
+      "stars": 9735,
       "delta": 9350,
       "monthly": [169, 176, 270, 391, 619, 3482, 3988, 92, 47, 80, 26, 15],
       "tags": ["fullstack", "deno"],
@@ -520,7 +528,7 @@
       "name": "Strapi",
       "full_name": "strapi/strapi",
       "description": "The leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.",
-      "stars": 51034,
+      "stars": 51053,
       "delta": 8798,
       "monthly": [717, 978, 796, 936, 860, 604, 682, 677, 570, 636, 646, 733],
       "tags": ["nodejs-framework", "cms"],
@@ -533,7 +541,7 @@
       "name": "Prisma",
       "full_name": "prisma/prisma",
       "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-      "stars": 28147,
+      "stars": 28169,
       "delta": 8791,
       "monthly": [720, 695, 613, 729, 687, 724, 705, 783, 756, 626, 713, 1058],
       "tags": ["orm", "sql", "mongodb"],
@@ -546,7 +554,7 @@
       "name": "Node.js",
       "full_name": "nodejs/node",
       "description": "Node.js JavaScript runtime",
-      "stars": 92522,
+      "stars": 92534,
       "delta": 8388,
       "monthly": [532, 557, 621, 780, 709, 670, 549, 697, 661, 736, 949, 939],
       "tags": ["runtime"],
@@ -559,7 +567,7 @@
       "name": "Faker",
       "full_name": "faker-js/faker",
       "description": "Generate massive amounts of fake data in the browser and node.js",
-      "stars": 8410,
+      "stars": 8415,
       "delta": 8357,
       "monthly": [220, 245, 358, 362, 366, 356, 354, 691, 622, 421, null, null],
       "tags": ["random"],
@@ -571,7 +579,7 @@
       "name": "Storybook",
       "full_name": "storybookjs/storybook",
       "description": "A frontend workshop for building UI components and pages in isolation. Made for UI development, testing, and documentation.",
-      "stars": 75865,
+      "stars": 75877,
       "delta": 7971,
       "monthly": [439, 453, 638, 548, 579, 881, 922, 640, 973, 598, 590, 723],
       "tags": ["playground", "test", "react", "vue", "angular"],
@@ -584,7 +592,7 @@
       "name": "Vue.js 3",
       "full_name": "vuejs/core",
       "description": "A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-      "stars": 34610,
+      "stars": 34621,
       "delta": 7910,
       "monthly": [499, 548, 562, 561, 621, 705, 692, 747, 766, 927, 685, 606],
       "tags": ["vue", "framework"],
@@ -597,7 +605,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
-      "stars": 27417,
+      "stars": 27443,
       "delta": 7859,
       "monthly": [514, 519, 524, 1352, 701, 507, 507, 483, 470, 505, 1209, 573],
       "tags": ["workflow"],
@@ -609,7 +617,7 @@
       "name": "Tabler",
       "full_name": "tabler/tabler",
       "description": "Free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
-      "stars": 32544,
+      "stars": 32556,
       "delta": 7771,
       "monthly": [278, 297, 268, 382, 2620, 2453, 236, 267, 238, 250, 276, 209],
       "tags": ["html", "dashboard", "bootstrap"],
@@ -621,7 +629,7 @@
       "name": "Axios",
       "full_name": "axios/axios",
       "description": "Promise based HTTP client for the browser and node.js",
-      "stars": 98067,
+      "stars": 98079,
       "delta": 7768,
       "monthly": [414, 491, 1040, 529, 601, 603, 588, 667, 906, 722, 581, 632],
       "tags": ["http"],
@@ -634,7 +642,7 @@
       "name": "react-use",
       "full_name": "streamich/react-use",
       "description": "Collection of essential React Hooks",
-      "stars": 34932,
+      "stars": 34940,
       "delta": 7760,
       "monthly": [556, 377, 1696, 565, 827, 537, 598, 489, 457, 446, 459, 761],
       "tags": ["react", "hook"],
@@ -646,7 +654,7 @@
       "name": "Partytown",
       "full_name": "BuilderIO/partytown",
       "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker.",
-      "stars": 10530,
+      "stars": 10535,
       "delta": 7584,
       "monthly": [464, 219, 241, 327, 344, 295, 440, 403, 934, 2835, 769, 316],
       "tags": ["webworker"],
@@ -657,7 +665,7 @@
       "name": "Deno",
       "full_name": "denoland/deno",
       "description": "A modern runtime for JavaScript and TypeScript.",
-      "stars": 87119,
+      "stars": 87133,
       "delta": 7557,
       "monthly": [432, 509, 595, 470, 708, 871, 755, 683, 687, 756, 489, 608],
       "tags": ["runtime", "types", "deno"],
@@ -670,7 +678,7 @@
       "name": "Chakra UI",
       "full_name": "chakra-ui/chakra-ui",
       "description": "Simple, Modular & Accessible UI Components for your React Applications",
-      "stars": 30546,
+      "stars": 30558,
       "delta": 7452,
       "monthly": [485, 545, 550, 410, 491, 593, 868, 911, 695, 537, 636, 746],
       "tags": ["component", "react", "access", "atomic-css"],
@@ -683,7 +691,7 @@
       "name": "React Hook Form",
       "full_name": "react-hook-form/react-hook-form",
       "description": "React Hooks for form state management and validation (Web + React Native)",
-      "stars": 32563,
+      "stars": 32568,
       "delta": 7379,
       "monthly": [485, 500, 617, 537, 610, 625, 581, 587, 947, 551, 638, 710],
       "tags": ["form", "react"],
@@ -696,7 +704,7 @@
       "name": "TanStack Query",
       "full_name": "TanStack/query",
       "description": "Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
-      "stars": 32088,
+      "stars": 32100,
       "delta": 7330,
       "monthly": [624, 621, 713, 493, 576, 811, 591, 499, 585, 772, 522, 534],
       "tags": ["data", "graphql", "caching", "react", "vue", "solid", "svelte"],
@@ -708,7 +716,7 @@
       "name": "Slidev",
       "full_name": "slidevjs/slidev",
       "description": "Presentation Slides for Developers",
-      "stars": 24242,
+      "stars": 24250,
       "delta": 7218,
       "monthly": [485, 518, 426, 356, 408, 526, 750, 436, 626, 781, 645, 1277],
       "tags": ["presentation", "vue"],
@@ -721,7 +729,7 @@
       "name": "Angular",
       "full_name": "angular/angular",
       "description": "The modern web developer’s platform",
-      "stars": 85761,
+      "stars": 85771,
       "delta": 7071,
       "monthly": [433, 642, 485, 536, 580, 569, 758, 553, 579, 662, 562, 729],
       "tags": ["framework", "angular"],
@@ -734,7 +742,7 @@
       "name": "Nuxt 3",
       "full_name": "nuxt/framework",
       "description": "The Intuitive Web Framework, based on Vue 3.",
-      "stars": 11112,
+      "stars": 11118,
       "delta": 7019,
       "monthly": [284, 919, 537, 592, 453, 470, 516, 683, 1404, 384, 409, 373],
       "tags": ["vue", "nodejs-framework", "universal", "ssg"],
@@ -747,7 +755,7 @@
       "name": "Ant Design",
       "full_name": "ant-design/ant-design",
       "description": "An enterprise-class UI design language and React UI library",
-      "stars": 83685,
+      "stars": 83691,
       "delta": 6856,
       "monthly": [513, 632, 397, 368, 404, 394, 383, 709, 704, 698, 894, 768],
       "tags": ["component", "react", "design-system"],
@@ -760,7 +768,7 @@
       "name": "Cypress",
       "full_name": "cypress-io/cypress",
       "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-      "stars": 42242,
+      "stars": 42249,
       "delta": 6838,
       "monthly": [313, 495, 500, 592, 583, 404, 629, 496, 457, 929, 476, 965],
       "tags": ["test", "auto"],
@@ -773,7 +781,7 @@
       "name": "Vue Element Admin",
       "full_name": "PanJiaChen/vue-element-admin",
       "description": "A magical vue admin",
-      "stars": 80197,
+      "stars": 80204,
       "delta": 6836,
       "monthly": [393, 551, 466, 479, 642, 637, 550, 630, 665, 758, 481, 591],
       "tags": ["vue", "dashboard"],
@@ -785,7 +793,7 @@
       "name": "React Native",
       "full_name": "facebook/react-native",
       "description": "A framework for building native applications using React",
-      "stars": 106868,
+      "stars": 106880,
       "delta": 6542,
       "monthly": [483, 639, 518, 518, 550, 483, 513, 649, 465, 543, 622, 569],
       "tags": ["mobile", "react-native"],
@@ -798,7 +806,7 @@
       "name": "Serverless Stack",
       "full_name": "serverless-stack/sst",
       "description": "A framework that makes it easy to build serverless apps",
-      "stars": 10749,
+      "stars": 10761,
       "delta": 6536,
       "monthly": [680, 497, 400, 702, 568, 647, 386, 521, 374, 506, 700, 601],
       "tags": ["serverless", "react", "nextjs"],
@@ -810,7 +818,7 @@
       "name": "swc",
       "full_name": "swc-project/swc",
       "description": "A super-fast compiler written in rust",
-      "stars": 25459,
+      "stars": 25472,
       "delta": 6415,
       "monthly": [418, 418, 520, 364, 489, 453, 448, 465, 483, 604, 707, 1052],
       "tags": ["compiler", "build"],
@@ -823,7 +831,7 @@
       "name": "AutoAnimate",
       "full_name": "formkit/auto-animate",
       "description": "A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.",
-      "stars": 6477,
+      "stars": 6495,
       "delta": 6382,
       "monthly": [
         157,
@@ -848,7 +856,7 @@
       "name": "SvelteKit",
       "full_name": "sveltejs/kit",
       "description": "web development, streamlined",
-      "stars": 12475,
+      "stars": 12488,
       "delta": 6041,
       "monthly": [952, 399, 387, 435, 656, 541, 383, 409, 512, 404, 469, 508],
       "tags": ["svelte", "fullstack", "nodejs-framework", "vite"],
@@ -860,7 +868,7 @@
       "name": "Puppeteer",
       "full_name": "puppeteer/puppeteer",
       "description": "Headless Chrome Node.js API",
-      "stars": 81438,
+      "stars": 81443,
       "delta": 5968,
       "monthly": [324, 528, 366, 484, 450, 459, 552, 555, 595, 533, 544, 587],
       "tags": ["auto"],
@@ -873,7 +881,7 @@
       "name": "Nx",
       "full_name": "nrwl/nx",
       "description": "Smart, Fast and Extensible Build System",
-      "stars": 15970,
+      "stars": 15979,
       "delta": 5953,
       "monthly": [369, 394, 402, 389, 499, 562, 498, 533, 576, 583, 602, 549],
       "tags": ["monorepo", "build", "scaffolding", "react", "angular"],
@@ -886,7 +894,7 @@
       "name": "Headless UI",
       "full_name": "tailwindlabs/headlessui",
       "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
-      "stars": 18418,
+      "stars": 18434,
       "delta": 5941,
       "monthly": [403, 528, 510, 404, 513, 431, 439, 617, 390, 593, 506, 609],
       "tags": ["react", "vue", "component", "headless", "tailwind"],
@@ -899,7 +907,7 @@
       "name": "Directus",
       "full_name": "directus/directus",
       "description": "A real-time API and App dashboard for managing SQL database content.",
-      "stars": 19285,
+      "stars": 19305,
       "delta": 5850,
       "monthly": [509, 528, 317, 391, 325, 457, 541, 919, 445, 622, 421, 384],
       "tags": ["nodejs-framework", "cms", "graphql", "vue", "sql"],
@@ -911,7 +919,7 @@
       "name": "VueUse",
       "full_name": "vueuse/vueuse",
       "description": "Collection of essential Vue Composition Utilities for Vue 2 and 3",
-      "stars": 13258,
+      "stars": 13267,
       "delta": 5705,
       "monthly": [408, 351, 412, 377, 566, 591, 430, 480, 556, 637, 469, 439],
       "tags": ["vue", "util"],
@@ -923,7 +931,7 @@
       "name": "Electron",
       "full_name": "electron/electron",
       "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-      "stars": 105305,
+      "stars": 105316,
       "delta": 5621,
       "monthly": [456, 408, 430, 456, 571, 535, 433, 435, 383, 558, 447, 516],
       "tags": ["desktop"],
@@ -936,7 +944,7 @@
       "name": "Vitest",
       "full_name": "vitest-dev/vitest",
       "description": "A Vite-native test framework. It's fast!",
-      "stars": 7446,
+      "stars": 7457,
       "delta": 5404,
       "monthly": [268, 267, 351, 383, 424, 412, 614, 476, 430, 590, 471, 726],
       "tags": ["test-framework", "test", "vue", "react", "vite"],
@@ -949,7 +957,7 @@
       "name": "UnoCSS",
       "full_name": "unocss/unocss",
       "description": "The instant on-demand atomic CSS engine.",
-      "stars": 8250,
+      "stars": 8268,
       "delta": 5329,
       "monthly": [374, 348, 451, 428, 460, 431, 587, 648, 461, 608, 330, 264],
       "tags": ["css-in-js", "atomic-css"],
@@ -962,7 +970,7 @@
       "name": "Rome",
       "full_name": "rome/tools",
       "description": "Unified developer tools for JavaScript, TypeScript, and the web",
-      "stars": 22089,
+      "stars": 22097,
       "delta": 5097,
       "monthly": [428, 2019, 189, 147, 170, 173, 129, 149, 1283, 115, 134, 172],
       "tags": ["build", "lint"],
@@ -975,7 +983,7 @@
       "name": "Redwood",
       "full_name": "redwoodjs/redwood",
       "description": "The App Framework for Startups",
-      "stars": 15522,
+      "stars": 15525,
       "delta": 5045,
       "monthly": [319, 114, 145, 188, 309, 338, 1085, 505, 1074, 344, 278, 348],
       "tags": ["fullstack", "graphql", "nodejs-framework"],
@@ -988,7 +996,7 @@
       "name": "Pinia",
       "full_name": "vuejs/pinia",
       "description": "Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
-      "stars": 9553,
+      "stars": 9558,
       "delta": 4981,
       "monthly": [169, 206, 290, 288, 331, 374, 350, 464, 510, 715, 579, 708],
       "tags": ["state", "vue"],
@@ -1001,7 +1009,7 @@
       "name": "Element Plus",
       "full_name": "element-plus/element-plus",
       "description": "A Vue.js 3 UI Library made by Element team",
-      "stars": 18274,
+      "stars": 18282,
       "delta": 4905,
       "monthly": [256, 355, 340, 355, 393, 392, 372, 456, 426, 462, 690, 408],
       "tags": ["component", "vue"],
@@ -1013,7 +1021,7 @@
       "name": "Jotai",
       "full_name": "pmndrs/jotai",
       "description": "Primitive and flexible state management for React",
-      "stars": 11525,
+      "stars": 11534,
       "delta": 4789,
       "monthly": [342, 452, 419, 391, 547, 394, 350, 458, 368, 331, 348, 401],
       "tags": ["state", "react"],
@@ -1025,7 +1033,7 @@
       "name": "htmx",
       "full_name": "bigskysoftware/htmx",
       "description": "</> htmx - high power tools for HTML",
-      "stars": 10237,
+      "stars": 10247,
       "delta": 4766,
       "monthly": [391, 502, 1318, 234, 207, 467, 214, 329, 250, 206, 335, 320],
       "tags": ["framework"],
@@ -1037,7 +1045,7 @@
       "name": "esbuild",
       "full_name": "evanw/esbuild",
       "description": "An extremely fast JavaScript and CSS bundler and minifier",
-      "stars": 34263,
+      "stars": 34264,
       "delta": 4607,
       "monthly": [214, 246, 339, 416, 356, 382, 347, 370, 382, 413, 549, 600],
       "tags": ["module", "build"],
@@ -1050,7 +1058,7 @@
       "name": "Fastify",
       "full_name": "fastify/fastify",
       "description": "Fast and low overhead web framework, for Node.js",
-      "stars": 26043,
+      "stars": 26055,
       "delta": 4344,
       "monthly": [263, 293, 365, 307, 306, 384, 766, 405, 301, 293, 335, 333],
       "tags": ["nodejs-framework"],
@@ -1063,7 +1071,7 @@
       "name": "Hasura GraphQL Engine",
       "full_name": "hasura/graphql-engine",
       "description": "Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.",
-      "stars": 28987,
+      "stars": 28989,
       "delta": 3961,
       "monthly": [154, 232, 438, 250, 323, 225, 406, 305, 287, 317, 649, 379],
       "tags": ["graphql"],
@@ -1076,7 +1084,7 @@
       "name": "Express",
       "full_name": "expressjs/express",
       "description": "Fast, unopinionated, minimalist web framework for node.",
-      "stars": 59504,
+      "stars": 59514,
       "delta": 3948,
       "monthly": [360, 311, 288, 323, 342, 321, 311, 377, 306, 373, 340, 307],
       "tags": ["nodejs-framework", "express"],
@@ -1089,7 +1097,7 @@
       "name": "XState",
       "full_name": "statelyai/xstate",
       "description": "State machines and statecharts for the modern web.",
-      "stars": 22247,
+      "stars": 22251,
       "delta": 3770,
       "monthly": [336, 218, 234, 243, 264, 287, 424, 415, 353, 337, 326, 334],
       "tags": ["state-machine", "state"],
@@ -1102,7 +1110,7 @@
       "name": "MemLab",
       "full_name": "facebook/memlab",
       "description": "A framework for finding JavaScript memory leaks and analyzing heap snapshots",
-      "stars": 3628,
+      "stars": 3629,
       "delta": 3610,
       "monthly": [
         75,
@@ -1127,7 +1135,7 @@
       "name": "Lit",
       "full_name": "lit/lit",
       "description": "A simple library for building fast, lightweight web components",
-      "stars": 13467,
+      "stars": 13477,
       "delta": 3515,
       "monthly": [189, 242, 343, 291, 251, 238, 279, 437, 302, 296, 319, 327],
       "tags": ["webcomponent", "framework"],
@@ -1140,7 +1148,7 @@
       "name": "Jest",
       "full_name": "facebook/jest",
       "description": "Delightful JavaScript Testing.",
-      "stars": 41062,
+      "stars": 41065,
       "delta": 3496,
       "monthly": [193, 219, 256, 344, 302, 229, 326, 356, 318, 331, 346, 290],
       "tags": ["test-framework", "test"],
@@ -1153,7 +1161,7 @@
       "name": "Mock Service Worker",
       "full_name": "mswjs/msw",
       "description": "Seamless REST/GraphQL API mocking library for browser and Node.js.",
-      "stars": 11324,
+      "stars": 11326,
       "delta": 3387,
       "monthly": [191, 278, 301, 209, 216, 205, 220, 602, 303, 267, 226, 373],
       "tags": ["test", "serviceworker"],
@@ -1165,7 +1173,7 @@
       "name": "Alpine.js",
       "full_name": "alpinejs/alpine",
       "description": "A rugged, minimal framework for composing JavaScript behavior in your markup.",
-      "stars": 22597,
+      "stars": 22608,
       "delta": 3066,
       "monthly": [230, 268, 255, 235, 266, 232, 198, 332, 241, 279, 262, 274],
       "tags": ["framework"],
@@ -1178,7 +1186,7 @@
       "name": "Nativefier",
       "full_name": "nativefier/nativefier",
       "description": "Make any web page a desktop application",
-      "stars": 32582,
+      "stars": 32593,
       "delta": 3030,
       "monthly": [228, 319, 211, 272, 460, 199, 196, 232, 224, 212, 237, 252],
       "tags": ["desktop"],
@@ -1189,7 +1197,7 @@
       "name": "Preact",
       "full_name": "preactjs/preact",
       "description": "Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
-      "stars": 33554,
+      "stars": 33558,
       "delta": 2933,
       "monthly": [133, 189, 171, 372, 217, 423, 284, 150, 187, 216, 303, 288],
       "tags": ["framework", "vdom"],
@@ -1202,7 +1210,7 @@
       "name": "Lerna",
       "full_name": "lerna/lerna",
       "description": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.",
-      "stars": 34108,
+      "stars": 34109,
       "delta": 2888,
       "monthly": [133, 140, 185, 171, 232, 231, 228, 322, 297, 322, 282, 349],
       "tags": ["monorepo", "build"],
@@ -1214,7 +1222,7 @@
       "name": "Expo",
       "full_name": "expo/expo",
       "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-      "stars": 18592,
+      "stars": 18609,
       "delta": 2870,
       "monthly": [278, 321, 287, 331, 271, 244, 194, 175, 199, 164, 195, 218],
       "tags": ["mobile", "react-native"],
@@ -1227,7 +1235,7 @@
       "name": "Recoil",
       "full_name": "facebookexperimental/Recoil",
       "description": "An experimental state management library for React apps",
-      "stars": 18198,
+      "stars": 18205,
       "delta": 2861,
       "monthly": [130, 152, 159, 175, 221, 251, 252, 261, 276, 321, 391, 275],
       "tags": ["state", "react"],
@@ -1240,7 +1248,7 @@
       "name": "Nextra",
       "full_name": "shuding/nextra",
       "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
-      "stars": 5472,
+      "stars": 5493,
       "delta": 2820,
       "monthly": [1017, 135, 133, 125, 171, 132, 148, 139, 185, 165, 195, 290],
       "tags": ["nextjs", "ssg", "doc"],
@@ -1253,7 +1261,7 @@
       "name": "React Native Skia",
       "full_name": "Shopify/react-native-skia",
       "description": "High-performance React Native Graphics using Skia",
-      "stars": 4648,
+      "stars": 4656,
       "delta": 2798,
       "monthly": [85, 123, 123, 120, 688, 194, 233, 283, 272, 325, 137, 219],
       "tags": ["react-native", "animation"],
@@ -1265,7 +1273,7 @@
       "name": "vanilla-extract",
       "full_name": "vanilla-extract-css/vanilla-extract",
       "description": "Zero-runtime Stylesheets-in-TypeScript",
-      "stars": 7122,
+      "stars": 7131,
       "delta": 2693,
       "monthly": [223, 273, 247, 217, 201, 263, 250, 139, 119, 106, 152, 504],
       "tags": ["css-in-js"],
@@ -1278,7 +1286,7 @@
       "name": "Nuxt",
       "full_name": "nuxt/nuxt.js",
       "description": "The Intuitive Vue(2) Framework",
-      "stars": 41768,
+      "stars": 41772,
       "delta": 2669,
       "monthly": [85, 139, 169, 161, 149, 279, 150, 289, 610, 218, 218, 205],
       "tags": ["vue", "universal", "nodejs-framework", "ssg"],
@@ -1291,7 +1299,7 @@
       "name": "Selenium",
       "full_name": "SeleniumHQ/selenium",
       "description": "A browser automation framework and ecosystem.",
-      "stars": 25505,
+      "stars": 25515,
       "delta": 2653,
       "monthly": [217, 233, 266, 268, 253, 195, 249, 486, 191, 201, 102, null],
       "tags": ["test", "auto"],
@@ -1303,7 +1311,7 @@
       "name": "Valtio",
       "full_name": "pmndrs/valtio",
       "description": "Valtio makes proxy-state simple  for React and Vanilla",
-      "stars": 6061,
+      "stars": 6067,
       "delta": 2559,
       "monthly": [150, 226, 235, 238, 207, 294, 136, 185, 166, 203, 209, 314],
       "tags": ["state", "react"],
@@ -1315,7 +1323,7 @@
       "name": "Ionic",
       "full_name": "ionic-team/ionic-framework",
       "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
-      "stars": 48466,
+      "stars": 48467,
       "delta": 2552,
       "monthly": [99, 155, 149, 135, 155, 149, 271, 337, 316, 209, 179, 402],
       "tags": ["webcomponent", "mobile", "angular", "react", "vue"],
@@ -1328,7 +1336,7 @@
       "name": "Quasar",
       "full_name": "quasarframework/quasar",
       "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps, Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same codebase.",
-      "stars": 22649,
+      "stars": 22652,
       "delta": 2456,
       "monthly": [169, 191, 197, 182, 167, 192, 204, 226, 261, 256, 207, 211],
       "tags": ["mobile", "vue"],
@@ -1341,7 +1349,7 @@
       "name": "Eleventy",
       "full_name": "11ty/eleventy",
       "description": "A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.",
-      "stars": 13440,
+      "stars": 13445,
       "delta": 2445,
       "monthly": [135, 177, 192, 152, 266, 157, 156, 266, 198, 200, 209, 340],
       "tags": ["ssg"],
@@ -1353,7 +1361,7 @@
       "name": "Styled Components",
       "full_name": "styled-components/styled-components",
       "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
-      "stars": 38015,
+      "stars": 38020,
       "delta": 2409,
       "monthly": [158, 192, 166, 194, 217, 186, 218, 169, 233, 188, 236, 257],
       "tags": ["css-in-js"],
@@ -1365,7 +1373,7 @@
       "name": "Stitches",
       "full_name": "stitchesjs/stitches",
       "description": "CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.",
-      "stars": 6806,
+      "stars": 6811,
       "delta": 2304,
       "monthly": [117, 162, 185, 156, 163, 187, 202, 263, 180, 175, 289, 229],
       "tags": ["css-in-js"],
@@ -1378,7 +1386,7 @@
       "name": "Webpack",
       "full_name": "webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
-      "stars": 62305,
+      "stars": 62313,
       "delta": 2117,
       "monthly": [117, 126, 160, 154, 209, 188, 173, 177, 194, 198, 235, 193],
       "tags": ["build", "module"],
@@ -1391,7 +1399,7 @@
       "name": "Histoire",
       "full_name": "histoire-dev/histoire",
       "description": "Fast and beautiful interactive component playgrounds, powered by Vite",
-      "stars": 2080,
+      "stars": 2079,
       "delta": 2053,
       "monthly": [
         172,
@@ -1416,7 +1424,7 @@
       "name": "Parcel",
       "full_name": "parcel-bundler/parcel",
       "description": "The zero configuration build tool for the web.",
-      "stars": 41818,
+      "stars": 41822,
       "delta": 2044,
       "monthly": [102, 176, 132, 134, 142, 158, 143, 153, 175, 154, 206, 378],
       "tags": ["module", "build"],
@@ -1426,35 +1434,10 @@
       "icon": "parcel.svg"
     },
     {
-      "name": "Solid Start",
-      "full_name": "solidjs/solid-start",
-      "description": "SolidStart, the Solid app framework",
-      "stars": 2760,
-      "delta": 2028,
-      "monthly": [
-        224,
-        1062,
-        170,
-        137,
-        440,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "tags": ["solid", "fullstack"],
-      "owner_id": 79226042,
-      "created_at": "2021-03-30T03:42:11.000Z",
-      "url": "https://start.solidjs.com"
-    },
-    {
       "name": "NativeBase",
       "full_name": "GeekyAnts/NativeBase",
       "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
-      "stars": 18825,
+      "stars": 18834,
       "delta": 1969,
       "monthly": [133, 173, 128, 155, 136, 202, 169, 164, 172, 161, 169, 210],
       "tags": ["react-native", "component"],
@@ -1467,7 +1450,7 @@
       "name": "Hexo",
       "full_name": "hexojs/hexo",
       "description": "A fast, simple & powerful blog framework, powered by Node.js.",
-      "stars": 35954,
+      "stars": 35957,
       "delta": 1961,
       "monthly": [130, 159, 162, 159, 153, 143, 164, 209, 175, 229, 129, 150],
       "tags": ["ssg", "blog"],
@@ -1480,7 +1463,7 @@
       "name": "Gatsby",
       "full_name": "gatsbyjs/gatsby",
       "description": "The fastest frontend for the headless web. Build modern websites with React.",
-      "stars": 53993,
+      "stars": 53999,
       "delta": 1926,
       "monthly": [90, 148, 126, 137, 159, 132, 218, 166, 153, 203, 161, 234],
       "tags": ["ssg", "react", "graphql", "prefetch"],
@@ -1505,7 +1488,7 @@
       "name": "Capacitor",
       "full_name": "ionic-team/capacitor",
       "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web",
-      "stars": 8560,
+      "stars": 8564,
       "delta": 1838,
       "monthly": [163, 139, 151, 126, 154, 116, 135, 165, 206, 150, 192, 147],
       "tags": ["mobile"],
@@ -1517,7 +1500,7 @@
       "name": "Redux",
       "full_name": "reduxjs/redux",
       "description": "Predictable state container for JavaScript apps",
-      "stars": 59077,
+      "stars": 59082,
       "delta": 1785,
       "monthly": [112, 112, 122, 134, 149, 139, 174, 155, 184, 204, 149, 154],
       "tags": ["state", "flux", "redux"],
@@ -1530,7 +1513,7 @@
       "name": "petite-vue",
       "full_name": "vuejs/petite-vue",
       "description": "6kb subset of Vue optimized for progressive enhancement",
-      "stars": 7280,
+      "stars": 7282,
       "delta": 1763,
       "monthly": [98, 125, 158, 177, 140, 106, 162, 149, 137, 166, 183, 162],
       "tags": ["vue", "framework"],
@@ -1541,7 +1524,7 @@
       "name": "Nhost",
       "full_name": "nhost/nhost",
       "description": "The Open Source Firebase Alternative with GraphQL.",
-      "stars": 5517,
+      "stars": 5525,
       "delta": 1728,
       "monthly": [
         256,
@@ -1566,7 +1549,7 @@
       "name": "FlashList",
       "full_name": "Shopify/flash-list",
       "description": "Fast & Performant React Native List",
-      "stars": 3205,
+      "stars": 3209,
       "delta": 1727,
       "monthly": [
         103,
@@ -1591,7 +1574,7 @@
       "name": "Rollup",
       "full_name": "rollup/rollup",
       "description": "Next-generation ES module bundler",
-      "stars": 22771,
+      "stars": 22775,
       "delta": 1699,
       "monthly": [160, 142, 183, 150, 136, 170, 124, 106, 139, 149, 115, 126],
       "tags": ["module", "build"],
@@ -1604,7 +1587,7 @@
       "name": "Emotion",
       "full_name": "emotion-js/emotion",
       "description": "CSS-in-JS library designed for high performance style composition",
-      "stars": 15890,
+      "stars": 15892,
       "delta": 1632,
       "monthly": [105, 149, 110, 132, 135, 136, 115, 132, 157, 142, 148, 172],
       "tags": ["css-in-js"],
@@ -1616,7 +1599,7 @@
       "name": "Twin",
       "full_name": "ben-rogerson/twin.macro",
       "description": "Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, stitches and goober) at build time.",
-      "stars": 6753,
+      "stars": 6757,
       "delta": 1562,
       "monthly": [122, 169, 160, 103, 150, 105, 128, 92, 136, 132, 116, 150],
       "tags": ["css-in-js", "react", "tailwind"],
@@ -1627,7 +1610,7 @@
       "name": "NativeWind",
       "full_name": "marklawlor/nativewind",
       "description": "React Native utility-first universal design system - powered by Tailwind CSS",
-      "stars": 1562,
+      "stars": 1571,
       "delta": 1526,
       "monthly": [
         175,
@@ -1652,7 +1635,7 @@
       "name": "GraphQL Code Generator",
       "full_name": "dotansimha/graphql-code-generator",
       "description": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.",
-      "stars": 9607,
+      "stars": 9609,
       "delta": 1513,
       "monthly": [88, 95, 122, 111, 141, 153, 122, 109, 112, 151, 179, 133],
       "tags": ["graphql", "scaffolding"],
@@ -1665,7 +1648,7 @@
       "name": "Neutralino",
       "full_name": "neutralinojs/neutralinojs",
       "description": "Portable and lightweight cross-platform desktop application development framework",
-      "stars": 6307,
+      "stars": 6311,
       "delta": 1510,
       "monthly": [98, 87, 66, 85, 84, 128, 124, 102, 115, 110, 311, 202],
       "tags": ["desktop"],
@@ -1677,7 +1660,7 @@
       "name": "Linaria",
       "full_name": "callstack/linaria",
       "description": "Zero-runtime CSS in JS library",
-      "stars": 9997,
+      "stars": 9999,
       "delta": 1503,
       "monthly": [72, 119, 214, 99, 127, 145, 269, 83, 74, 76, 146, 82],
       "tags": ["css-in-js"],
@@ -1690,7 +1673,7 @@
       "name": "Signals",
       "full_name": "preactjs/signals",
       "description": "Manage state with style in every framework",
-      "stars": 1531,
+      "stars": 1533,
       "delta": 1502,
       "monthly": [
         44,
@@ -1715,7 +1698,7 @@
       "name": "GraphiQL",
       "full_name": "graphql/graphiql",
       "description": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
-      "stars": 14508,
+      "stars": 14511,
       "delta": 1466,
       "monthly": [116, 116, 99, 134, 188, 94, 98, 100, 95, 106, 119, 204],
       "tags": ["graphql"],
@@ -1726,7 +1709,7 @@
       "name": "Outstatic",
       "full_name": "avitorio/outstatic",
       "description": "A static CMS for Next.js ",
-      "stars": 1431,
+      "stars": 1433,
       "delta": 1422,
       "monthly": [
         45,
@@ -1751,7 +1734,7 @@
       "name": "Stencil",
       "full_name": "ionic-team/stencil",
       "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, and traditional web developers from a single, framework-agnostic codebase.",
-      "stars": 11312,
+      "stars": 11313,
       "delta": 1365,
       "monthly": [66, 89, 72, 89, 94, 65, 88, 99, 119, 403, 99, 84],
       "tags": ["framework", "webcomponent"],
@@ -1764,7 +1747,7 @@
       "name": "Webiny",
       "full_name": "webiny/webiny-js",
       "description": "Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.",
-      "stars": 6308,
+      "stars": 6312,
       "delta": 1348,
       "monthly": [67, 71, 96, 195, 108, 53, 93, 59, 99, 315, 143, 52],
       "tags": ["graphql", "cms"],
@@ -1776,7 +1759,7 @@
       "name": "MobX",
       "full_name": "mobxjs/mobx",
       "description": "Simple, scalable state management.",
-      "stars": 26026,
+      "stars": 26030,
       "delta": 1328,
       "monthly": [93, 79, 102, 104, 108, 116, 120, 117, 135, 131, 123, 98],
       "tags": ["state"],
@@ -1789,7 +1772,7 @@
       "name": "Apollo client",
       "full_name": "apollographql/apollo-client",
       "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
-      "stars": 18353,
+      "stars": 18356,
       "delta": 1220,
       "monthly": [70, 77, 84, 70, 92, 90, 107, 149, 131, 104, 127, 122],
       "tags": ["graphql", "caching", "data"],
@@ -1802,7 +1785,7 @@
       "name": "Marko",
       "full_name": "marko-js/marko",
       "description": "A declarative, HTML-based language that makes building web apps fun",
-      "stars": 12058,
+      "stars": 12061,
       "delta": 1217,
       "monthly": [85, 132, 95, 107, 100, 84, 93, 105, 117, 119, 67, 115],
       "tags": ["framework"],
@@ -1815,7 +1798,7 @@
       "name": "Twind",
       "full_name": "tw-in-js/twind",
       "description": "The smallest, fastest, most feature complete Tailwind-in-JS solution in existence.",
-      "stars": 3074,
+      "stars": 3081,
       "delta": 1176,
       "monthly": [58, 52, 84, 113, 160, 267, 113, 69, 69, 42, 70, 81],
       "tags": ["css-in-js", "tailwind"],
@@ -1827,7 +1810,7 @@
       "name": "Nano stores",
       "full_name": "nanostores/nanostores",
       "description": "A tiny (258 bytes) state manager for React/RN/Preact/Vue/Svelte with many atomic tree-shakable stores",
-      "stars": 2280,
+      "stars": 2287,
       "delta": 1087,
       "monthly": [92, 148, 163, 171, 220, 101, 23, 23, 23, 33, 37, 53],
       "tags": ["state"],
@@ -1838,7 +1821,7 @@
       "name": "Relay",
       "full_name": "facebook/relay",
       "description": "Relay is a JavaScript framework for building data-driven React applications.",
-      "stars": 17518,
+      "stars": 17521,
       "delta": 1045,
       "monthly": [49, 54, 75, 76, 76, 70, 116, 78, 93, 72, 80, 206],
       "tags": ["framework", "graphql", "data"],
@@ -1851,7 +1834,7 @@
       "name": "CSS Modules",
       "full_name": "css-modules/css-modules",
       "description": "Documentation about css-modules",
-      "stars": 16533,
+      "stars": 16534,
       "delta": 900,
       "monthly": [65, 59, 75, 76, 82, 70, 76, 85, 70, 79, 98, 66],
       "tags": ["css-in-js"],
@@ -1862,7 +1845,7 @@
       "name": "electron-builder",
       "full_name": "electron-userland/electron-builder",
       "description": "A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box",
-      "stars": 12529,
+      "stars": 12528,
       "delta": 834,
       "monthly": [70, 64, 53, 71, 48, 71, 76, 75, 73, 92, 79, 63],
       "tags": ["desktop"],
@@ -1872,385 +1855,100 @@
     }
   ],
   "tags": [
-    {
-      "name": "3D",
-      "code": "3d"
-    },
-    {
-      "name": "Accessibility",
-      "code": "access"
-    },
-    {
-      "name": "Angular",
-      "code": "angular"
-    },
-    {
-      "name": "Animation",
-      "code": "animation"
-    },
-    {
-      "name": "Astro",
-      "code": "astro"
-    },
-    {
-      "name": "Atomic CSS",
-      "code": "atomic-css"
-    },
-    {
-      "name": "Authentication / Authorization",
-      "code": "auth"
-    },
-    {
-      "name": "Blog",
-      "code": "blog"
-    },
-    {
-      "name": "Boilerplate",
-      "code": "boilerplate"
-    },
-    {
-      "name": "Bootstrap",
-      "code": "bootstrap"
-    },
-    {
-      "name": "Browser automation",
-      "code": "auto"
-    },
-    {
-      "name": "Building tool",
-      "code": "build"
-    },
-    {
-      "name": "Bun",
-      "code": "bun"
-    },
-    {
-      "name": "CLI",
-      "code": "cli"
-    },
-    {
-      "name": "CMS",
-      "code": "cms"
-    },
-    {
-      "name": "CSS Toolkit",
-      "code": "css-lib"
-    },
-    {
-      "name": "CSS in JS",
-      "code": "css-in-js"
-    },
-    {
-      "name": "Caching",
-      "code": "caching"
-    },
-    {
-      "name": "Canvas",
-      "code": "canvas"
-    },
-    {
-      "name": "Charting",
-      "code": "chart"
-    },
-    {
-      "name": "Compiler",
-      "code": "compiler"
-    },
-    {
-      "name": "Component Toolkit",
-      "code": "component"
-    },
-    {
-      "name": "D3",
-      "code": "d3"
-    },
-    {
-      "name": "Dashboard",
-      "code": "dashboard"
-    },
-    {
-      "name": "Data fetching",
-      "code": "data"
-    },
-    {
-      "name": "Deno",
-      "code": "deno"
-    },
-    {
-      "name": "Design System",
-      "code": "design-system"
-    },
-    {
-      "name": "Desktop app",
-      "code": "desktop"
-    },
-    {
-      "name": "Dev tool",
-      "code": "devtool"
-    },
-    {
-      "name": "Diagram / Flow chart",
-      "code": "diagram"
-    },
-    {
-      "name": "Documentation",
-      "code": "doc"
-    },
-    {
-      "name": "Drawing",
-      "code": "drawing"
-    },
-    {
-      "name": "E-commerce",
-      "code": "ecommerce"
-    },
-    {
-      "name": "Express",
-      "code": "express"
-    },
-    {
-      "name": "Flux",
-      "code": "flux"
-    },
-    {
-      "name": "Form",
-      "code": "form"
-    },
-    {
-      "name": "Full-stack framework",
-      "code": "fullstack"
-    },
-    {
-      "name": "GraphQL",
-      "code": "graphql"
-    },
-    {
-      "name": "HTML template",
-      "code": "html"
-    },
-    {
-      "name": "HTTP client • Fetch • AJAX",
-      "code": "http"
-    },
-    {
-      "name": "Headless components",
-      "code": "headless"
-    },
-    {
-      "name": "Hook",
-      "code": "hook"
-    },
-    {
-      "name": "IDE",
-      "code": "ide"
-    },
-    {
-      "name": "Linter",
-      "code": "lint"
-    },
-    {
-      "name": "Markdown",
-      "code": "md"
-    },
-    {
-      "name": "Markdown Editor App",
-      "code": "md-editor-app"
-    },
-    {
-      "name": "Material design",
-      "code": "material"
-    },
-    {
-      "name": "Microservices",
-      "code": "microservice"
-    },
-    {
-      "name": "Mobile",
-      "code": "mobile"
-    },
-    {
-      "name": "Module - bundler",
-      "code": "module"
-    },
-    {
-      "name": "MongoDB",
-      "code": "mongodb"
-    },
-    {
-      "name": "Monorepo",
-      "code": "monorepo"
-    },
-    {
-      "name": "Next.js",
-      "code": "nextjs"
-    },
-    {
-      "name": "Node.js framework",
-      "code": "nodejs-framework"
-    },
-    {
-      "name": "Node.js version management",
-      "code": "nvm"
-    },
-    {
-      "name": "ORM",
-      "code": "orm"
-    },
-    {
-      "name": "Performance",
-      "code": "performance"
-    },
-    {
-      "name": "Playground",
-      "code": "playground"
-    },
-    {
-      "name": "Prefetch",
-      "code": "prefetch"
-    },
-    {
-      "name": "Presentation",
-      "code": "presentation"
-    },
-    {
-      "name": "RPC",
-      "code": "rpc"
-    },
-    {
-      "name": "Random",
-      "code": "random"
-    },
-    {
-      "name": "React",
-      "code": "react"
-    },
-    {
-      "name": "React Native",
-      "code": "react-native"
-    },
-    {
-      "name": "Reactive programming",
-      "code": "reactive"
-    },
-    {
-      "name": "Real-time",
-      "code": "realtime"
-    },
-    {
-      "name": "Redux",
-      "code": "redux"
-    },
-    {
-      "name": "Runtime",
-      "code": "runtime"
-    },
-    {
-      "name": "SQL",
-      "code": "sql"
-    },
-    {
-      "name": "Scaffolding - generator",
-      "code": "scaffolding"
-    },
-    {
-      "name": "Schema",
-      "code": "schema"
-    },
-    {
-      "name": "Serverless",
-      "code": "serverless"
-    },
-    {
-      "name": "Service Worker",
-      "code": "serviceworker"
-    },
-    {
-      "name": "Solid",
-      "code": "solid"
-    },
-    {
-      "name": "Spreadsheet",
-      "code": "spreadsheet"
-    },
-    {
-      "name": "State machine",
-      "code": "state-machine"
-    },
-    {
-      "name": "State management",
-      "code": "state"
-    },
-    {
-      "name": "Static site generator",
-      "code": "ssg"
-    },
-    {
-      "name": "Svelte",
-      "code": "svelte"
-    },
-    {
-      "name": "TailwindCSS",
-      "code": "tailwind"
-    },
-    {
-      "name": "Testing",
-      "code": "test"
-    },
-    {
-      "name": "Testing framework",
-      "code": "test-framework"
-    },
-    {
-      "name": "Types",
-      "code": "types"
-    },
-    {
-      "name": "UI Framework",
-      "code": "framework"
-    },
-    {
-      "name": "Universal",
-      "code": "universal"
-    },
-    {
-      "name": "Utils",
-      "code": "util"
-    },
-    {
-      "name": "Validation",
-      "code": "validation"
-    },
-    {
-      "name": "Virtual DOM",
-      "code": "vdom"
-    },
-    {
-      "name": "Virtual list",
-      "code": "virtual-list"
-    },
-    {
-      "name": "Vite",
-      "code": "vite"
-    },
-    {
-      "name": "Vue",
-      "code": "vue"
-    },
-    {
-      "name": "Web Components",
-      "code": "webcomponent"
-    },
-    {
-      "name": "Web workers",
-      "code": "webworker"
-    },
-    {
-      "name": "Websocket",
-      "code": "websocket"
-    },
-    {
-      "name": "Workflow automation",
-      "code": "workflow"
-    }
+    { "name": "3D", "code": "3d" },
+    { "name": "Accessibility", "code": "access" },
+    { "name": "Angular", "code": "angular" },
+    { "name": "Animation", "code": "animation" },
+    { "name": "Astro", "code": "astro" },
+    { "name": "Atomic CSS", "code": "atomic-css" },
+    { "name": "Authentication / Authorization", "code": "auth" },
+    { "name": "Blog", "code": "blog" },
+    { "name": "Boilerplate", "code": "boilerplate" },
+    { "name": "Bootstrap", "code": "bootstrap" },
+    { "name": "Browser automation", "code": "auto" },
+    { "name": "Building tool", "code": "build" },
+    { "name": "Bun", "code": "bun" },
+    { "name": "CLI", "code": "cli" },
+    { "name": "CMS", "code": "cms" },
+    { "name": "CSS Toolkit", "code": "css-lib" },
+    { "name": "CSS in JS", "code": "css-in-js" },
+    { "name": "Caching", "code": "caching" },
+    { "name": "Canvas", "code": "canvas" },
+    { "name": "Charting", "code": "chart" },
+    { "name": "Compiler", "code": "compiler" },
+    { "name": "Component Toolkit", "code": "component" },
+    { "name": "D3", "code": "d3" },
+    { "name": "Dashboard", "code": "dashboard" },
+    { "name": "Data fetching", "code": "data" },
+    { "name": "Deno", "code": "deno" },
+    { "name": "Design System", "code": "design-system" },
+    { "name": "Desktop app", "code": "desktop" },
+    { "name": "Dev tool", "code": "devtool" },
+    { "name": "Diagram / Flow chart", "code": "diagram" },
+    { "name": "Documentation", "code": "doc" },
+    { "name": "Drawing", "code": "drawing" },
+    { "name": "E-commerce", "code": "ecommerce" },
+    { "name": "Express", "code": "express" },
+    { "name": "Flux", "code": "flux" },
+    { "name": "Form", "code": "form" },
+    { "name": "Full-stack framework", "code": "fullstack" },
+    { "name": "GraphQL", "code": "graphql" },
+    { "name": "HTML template", "code": "html" },
+    { "name": "HTTP client • Fetch • AJAX", "code": "http" },
+    { "name": "Headless components", "code": "headless" },
+    { "name": "Hook", "code": "hook" },
+    { "name": "IDE", "code": "ide" },
+    { "name": "Linter", "code": "lint" },
+    { "name": "Markdown", "code": "md" },
+    { "name": "Markdown Editor App", "code": "md-editor-app" },
+    { "name": "Material design", "code": "material" },
+    { "name": "Microservices", "code": "microservice" },
+    { "name": "Mobile", "code": "mobile" },
+    { "name": "Module - bundler", "code": "module" },
+    { "name": "MongoDB", "code": "mongodb" },
+    { "name": "Monorepo", "code": "monorepo" },
+    { "name": "Next.js", "code": "nextjs" },
+    { "name": "Node.js framework", "code": "nodejs-framework" },
+    { "name": "Node.js version management", "code": "nvm" },
+    { "name": "ORM", "code": "orm" },
+    { "name": "Performance", "code": "performance" },
+    { "name": "Playground", "code": "playground" },
+    { "name": "Prefetch", "code": "prefetch" },
+    { "name": "Presentation", "code": "presentation" },
+    { "name": "RPC", "code": "rpc" },
+    { "name": "Random", "code": "random" },
+    { "name": "React", "code": "react" },
+    { "name": "React Native", "code": "react-native" },
+    { "name": "Reactive programming", "code": "reactive" },
+    { "name": "Real-time", "code": "realtime" },
+    { "name": "Redux", "code": "redux" },
+    { "name": "Runtime", "code": "runtime" },
+    { "name": "SQL", "code": "sql" },
+    { "name": "Scaffolding - generator", "code": "scaffolding" },
+    { "name": "Schema", "code": "schema" },
+    { "name": "Serverless", "code": "serverless" },
+    { "name": "Service Worker", "code": "serviceworker" },
+    { "name": "Solid", "code": "solid" },
+    { "name": "Spreadsheet", "code": "spreadsheet" },
+    { "name": "State machine", "code": "state-machine" },
+    { "name": "State management", "code": "state" },
+    { "name": "Static site generator", "code": "ssg" },
+    { "name": "Svelte", "code": "svelte" },
+    { "name": "TailwindCSS", "code": "tailwind" },
+    { "name": "Testing", "code": "test" },
+    { "name": "Testing framework", "code": "test-framework" },
+    { "name": "Types", "code": "types" },
+    { "name": "UI Framework", "code": "framework" },
+    { "name": "Universal", "code": "universal" },
+    { "name": "Utils", "code": "util" },
+    { "name": "Validation", "code": "validation" },
+    { "name": "Virtual DOM", "code": "vdom" },
+    { "name": "Virtual list", "code": "virtual-list" },
+    { "name": "Vite", "code": "vite" },
+    { "name": "Vue", "code": "vue" },
+    { "name": "Web Components", "code": "webcomponent" },
+    { "name": "Web workers", "code": "webworker" },
+    { "name": "Websocket", "code": "websocket" },
+    { "name": "Workflow automation", "code": "workflow" }
   ]
 }
