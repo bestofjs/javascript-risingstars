@@ -1,14 +1,21 @@
 ---
 id: framework
-language: en
+language: ja
 ---
 
-React is still the King in 2022 but Vue.js is close in terms of popularity if you consider that Vue.js stars are split between v2 and v3 repositories.
+2022年はReactが頂点に立ちました。
+なお、Vue.jsはv2とv3のリポジトリに分かれているため、合算すれば近いくらいの力関係となります。
 
-The main change is the raise of {qwik} at the position 2. Qwik is similar to React, it also uses components written in JSX for templates but the main difference is the focus on shipping the least amount of JavaScript in the browser.
 
-It's part of the trend of "Zero baseline JavaScript" frameworks. Sites and applications are often bloated with heavy JavaScript assets that affect the performance in the browser: even if the page is rendered on the server, users have to wait until JavaScript is loaded, parsed and executed to be able to interact with the page.
+目新しいところとしては、{qwik}が2位に上昇しました。
+QwikはReactに比較的似ており、テンプレートをJSXで書きますが、主な違いは、ブラウザに送られるJavaScriptの量を最小限にすることにフォーカスしているところです。
 
-Instead of relying on [hydration](https://www.builder.io/blog/hydration-is-pure-overhead) to bring interactivity to pages generated on the server, Qwik uses a technique called resumability to deliver HTML that is instantly interactive. It works by serializing the state of the application in the HTML itself.
+これは"ゼロベースJavaScript"と呼ばれるトレンドのひとつです。
+最近のWebサイトやWebアプリケーションは、ブラウザのパフォーマンスに影響を与えるほどJavaScriptの重さが肥大化することがよくあります。
+たとえサーバサイドレンダリングを使ったとしても、JavaScriptをロードし、解析し、実行するまでユーザは待たされます。
 
-The project is led by [Miško Hevery](https://twitter.com/mhevery), the creator of AngularJS whose slogan was "HTML enhanced for web apps" while Qwik is "the HTML-first framework"... somehow the same intention of building apps on top of the good old HTML.
+SSRでレンダリングされたページにインタラクティブ性を与える方法として、Qwikは[hydration](https://www.builder.io/blog/hydration-is-pure-overhead)ではなく、Resumabilityという技術を用いています。
+状態をHTML内にシリアライズすることで、極めて高速な初動を実現します。
+
+このプロジェクトはAngularJSの開発者である[Miško Hevery](https://twitter.com/mhevery)によって進められています。
+AngularJSのスローガンが『HTMLをWebアプリのために強化する』であるのに対して、Qwikは『HTMLファーストのフレームワーク』であり、即ち古き良きHTMLの上にアプリを構築するという意図を持っています。

@@ -1,10 +1,16 @@
 ---
-id: mobile  
-language: en
+id: mobile
+language: ja
 ---
 
-In 2022, the use of JavaScript for building native apps saw significant progress, as exemplified by the breakthrough success of projects like the [new Replit mobile app](https://twitter.com/amasad/status/1582754714575257600) and the [integration of React Native into the Shopify app](https://shopify.engineering/migrating-our-largest-mobile-app-to-react-native). In fact, React Native-based repositories made up 7 out of the top 10 rising stars in the mobile category this year. This comes as React Native earns its 7th consecutive year as the #1 most starred mobile repo.
 
-In addition to the success of React Native, there was also an exciting trend towards the adoption of popular web patterns, such as the growing use of {tailwind-css} with {nativewind} (#10) and advancements in universal [Skia rendering](https://shopify.github.io/react-native-skia/) (#3). The integration of classic web features, like File System-based routing in {expo} (#2), further demonstrated that native app development is becoming increasingly more accessible to web developers. 
+2022年は、ネイティブアプリをJavaScriptで構築する世界が大きな進展を見せました。
+[Replitモバイルアプリ](https://twitter.com/amasad/status/1582754714575257600)の登場や、[ShopifyアプリをReact Nativeにする](https://shopify.engineering/migrating-our-largest-mobile-app-to-react-native)といった成功に代表されます。
+実際React Nativeに関連するリポジトリがモバイルカテゴリのトップ10のうち7個を占めており、そしてReact Nativeは7年連続でモバイルカテゴリの1位に輝き続けています。
 
-It’s difficult to predict what the future holds for mobile development, but if the past year is any indication, the divide between web and native app development should continue to decrease drastically in 2023.
+またReact Nativeの成功に加え、人気のあるWebパターンをモバイルに持ち込む傾向もみられました。
+[Tailwind CSS](https://tailwindcss.com/)をモバイルアプリに広げる[NativeWind](https://nativewind.dev/)、レンダリングの[Skia](https://shopify.github.io/react-native-skia/)などです。
+
+[Expo](https://docs.expo.dev/)がファイルシステムベースのルーティングという、古典的なWeb機能を採用したことからも、ネイティブアプリの開発がウェブ開発のますます身近になりつつあることを示しています。
+
+モバイルアプリの将来を予測することは困難ですが、この1年のことを考えると、2023年はウェブアプリとモバイルアプリの垣根がますます低くなっていくことでしょう。

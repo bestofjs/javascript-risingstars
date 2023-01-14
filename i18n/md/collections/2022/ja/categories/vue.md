@@ -1,13 +1,23 @@
 ---
 id: vue
-language: en
+language: ja
 comment: This year too, thank you Anthony, you were so fast to reply!
 ---
 
-This year we got many major updates of Vue. [Vue 2.7](https://blog.vuejs.org/posts/vue-2-7-naruto.html) brings the native Composition API support and `<script setup>` syntax back to Vue 2.
+2022年はVueのメジャーアップデートが多数ありました。
+[Vue2.7](https://blog.vuejs.org/posts/vue-2-7-naruto.html)ではComposition APIがネイティブサポートされ、`<script setup>`構文がVue2にバックポートされました。
 
-Making the transition to Vue 3 much smoother. [`<script setup>`](https://vuejs.org/api/sfc-script-setup.html) became stable and generally available, and the new experimental ["Reactivity Transform"](https://vuejs.org/guide/extras/reactivity-transform.html) is right around the corner to enhance the DX even further. The team is also working on a new rendering strategy called "Vapor mode", inspired by Solid.js, which could make Vue even more performant on critical parts.
+これによって、Vue3への移行がよりスムーズになります。
+[`<script setup>`](https://vuejs.org/api/sfc-script-setup.html)はStableとなり、さらにDXを強化するための[Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html)がExperimentalとして利用可能です。
+Vueチームはまた、Solid.jsに触発された新しいレンダリング戦略、"Vapor mode"に取り込んでいます。
+これによってVueはさらに高いパフォーマンスを発揮できるようになるはずです。
 
-The stable releases of [Nuxt 3](https://nuxt.com) and [Vuetify 3](https://next.vuetifyjs.com/en/getting-started/installation/) indicate that Vue's ecosystem is mature enough. [Vite](https://vitejs.dev/) multiplies during the year, and we see a lot of adoption from Vue users, from [create-vue](https://github.com/vuejs/create-vue), Nuxt, [Quasar](https://github.com/quasarframework/quasar), [Astro](https://astro.build/) and many new frameworks. With the power of Vite, Vue users also got a much better testing/developing experience with [Vitest](https://vitest.dev/) and [Histoire](https://histoire.dev/). We also see creative usage of Vue, like rendering a command line interface with [vue-termui](https://vue-termui.dev/).
+Vueのエコシステムが十分に成熟しつつあることは、[Nuxt 3](https://nuxt.com/)と[Vuetify 3](https://next.vuetifyjs.com/en/getting-started/installation/)のStableがリリースされたことからもわかるでしょう。
+{vite}はこの一年で倍に成長し、そして[create-vue](https://github.com/vuejs/create-vue)、Nuxt、{quasar}、{astro}といった数々の新しいフレームワークが多くのユーザに採用されつつあります。
 
-What a year for the improvements of DX! Hope the community can find those tools boosting their workflows, and looking forward to seeing what's coming next!
+Viteのおかげで、Vueユーザは{vitest}や{histoire}といった良い開発体験を得ることができました。
+さらに[vue-termui](https://vue-termui.dev/)のような、独創的すぎるVueの使い方も現れています。
+
+今年はDXにとって、なんとも素晴らしい年です。
+これらのツールでワークフローをこれまで以上に向上できることを願っています。
+そして、次に何が来るかを楽しみにしています。

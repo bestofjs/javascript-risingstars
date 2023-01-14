@@ -1,54 +1,65 @@
 ---
 id: all
-language: en
+language: ja
 ---
 
-#### Overall winner: Bun 🏆
+#### 優勝: Bun 🏆
 
-The trendiest project of the year is {bun}: a new JavaScript runtime that is all about performance and great DX. Its popularity exploded this summer with the first Beta release: +20,000 stars on GitHub in one month. We have never seen such an explosion since we started tracking projects at Best of JS.
+今年の総合優勝は、{bun}です！
 
-So what makes Bun special? Like {deno}, the overall winner two years ago, it provides first-class support for TypeScript.
+パフォーマンスとDXにこだわった新しいJavaScriptランタイムである{bun}は、2022年夏のベータ版リリース直後から人気沸騰しました。
+一か月で20000以上のスターを獲得しましたが、Best of JSがプロジェクトのトラッキングを始めて以来、これほどの爆発は見たことがありません。
 
-But Bun is not just a runtime. It's also:
+しかしいったい、何がBunをこれほど特別に押し上げたのでしょうか？
+Bunは、2年前の総合優勝である{deno}と同じくTypeScriptをナチュラルにサポートしています。
 
-- a package manager (think Yarn, NPM, PNPM)
-- a building tool (think Webpack, ESBuild, Parcel)
-- a test runner
-- ... and many other things!
+さらにBunはただのランタイムではなく、以下のような機能も持っています。
 
-So Bun can install your dependencies reading your package.json. Bun can also run your scripts. It does everything faster than anything else.
+- パッケージマネージャ(Yarn、npm、pnpmのような)
+- ビルドツール(Webpack、ESBuild、Parcelのような)
+- テストランナー
+- その他諸々
 
-Bun is a fresh take on many aspects of the JavaScript ecosystem, focusing on performance.
+Bunはpackage.jsonから依存関係をインストールすることができます。
+Bunはスクリプトを実行することができます。
+そして、他のランタイムよりも高速に、それらを行うことができます。
 
-It prioritizes standard Web APIs like Fetch. It supports many of the Node.js APIs, making it compatible with most NPM packages.
-It may not be "production-ready" (lack of Windows support) yet, but it's a very promising tool. Compared to Deno, the ecosystem is pretty new, but it already has a web framework called [Elysia](https://elysiajs.com/)  that claims to be the fastest HTTP framework.
+Bunは、JavaScriptエコシステムにおいて、パフォーマンスに焦点を合わせた新たな試みです。
 
-The most incredible thing about Bun is that its creator, [Jarred Sumner](https://twitter.com/jarredsumner) implemented all those features from scratch using a low-level language called [Zig](https://ziglang.org).
+Fetchなどの標準的Web API、およびNode.js APIの多くをサポートしており、またほとんどのnpmパッケージとも互換しています。
+まだプロダクションレベルにまでは達していないかもしれません(特にWindowsのサポートがない)が、非常に将来有望なツールです。
+Denoに比べると歴史は浅いですが、早々とフレームワーク[Elysia](https://elysiajs.com/)が登場しており、最速のHTTPフレームワークであると主張しています。
 
-Check [A Complete Overhaul of the JavaScript Ecosystem](https://www.lunasec.io/docs/blog/bun-first-look/) to get more details.
+Bunの最も驚くべきところは、作者の[Jarred Sumner](https://twitter.com/jarredsumner)が、全ての機能を[Zig](https://ziglang.org/)という低水準言語でゼロから実装したというところです。
+
+これ以上詳しく知りたければ、[A Complete Overhaul of the JavaScript Ecosystem](https://www.lunasec.io/docs/blog/bun-first-look/)を読むとよいでしょう。
+
 #### Tauri
 
-In fifth in 2021, {tauri} was even more popular in 2022 with 30,000 new stargazers.
-It's a project written in Rust to create cross-platform desktop applications using web technologies.
+2021年は5位だった{tauri}は、2022年には新たに3万人の星をみるひとを獲得し、人気を広げつつあります。
+これはRust製のデスクトップアプリケーション作成ツールであり、Web技術を使って製作できることが特徴です。
 
-The [version 1.0](https://tauri.app/blog/2022/06/19/tauri-1-0) was released in June.
+2022年6月にはついに[バージョン1.0](https://tauri.app/blog/2022/06/19/tauri-1-0)に到達しました。
 
-It's built with security and performance in mind. Compared to {electron}, it has a small footprint as the developer has to specify the API and capabilities required by the application.
+セキュリティとパフォーマンスに重点を置いて作られています。
+競合の{electron}と比べると、使用するAPIや機能などを開発者が指定する必要があるかわりに、フットプリントが小さくて済みます。
 
 #### React and Next.js
 
-In third and forth {react} and {nextjs} got similar numbers, with almost 20,000 new stargazers.
 
-[Next.js 13](https://nextjs.org/blog/next-13), released in October, leverages the [React Server Components](https://www.plasmic.app/blog/how-react-server-components-work#what-are-react-server-components) introduced by React 17 in 2020.
+3位の{react}と4位の{nextjs}は同じくらいの数値であり、共に2万人を獲得しました。
 
-Andrew Clark, one of the maintainers of React made a bold statement about their adoption in the future in [this thread](https://twitter.com/acdlite/status/1585029529361612801):
+2022年10月にリリースされた[Next.js 13.0](https://nextjs.org/blog/next-13)においては、React 17で導入された[React Server Components](https://www.plasmic.app/blog/how-react-server-components-work#what-are-react-server-components)がフル活用されています。
 
-> Server Components is the future of React and our goal is to spread this architecture to the entire React ecosystem, regardless of framework
+ReactのメンテナのひとりAndrew Clarkは、Server Componentsの将来について[こちら](https://twitter.com/acdlite/status/1585029529361612801)で大胆に語っています。
+
+> Server ComponentsはReactの未来であり、我々の目標はこのアーキテクチャをReact全体に広げることである。
+
 
 #### Vite
 
-In fifth {vite} is the trendiest tool to build applications based on web technologies while providing an amazing developer experience.
 
-It had two major releases this year ([v3 in July](https://vitejs.dev/blog/announcing-vite3.html) and [v4 in December](https://vitejs.dev/blog/announcing-vite4.html)).
+5位の{vite}は、最もトレンドなアプリケーションビルドツールであり、素晴らしい開発者体験を提供します。
+2022年は[6月のv3](https://vitejs.dev/blog/announcing-vite3.html)、[12月のv4](https://vitejs.dev/blog/announcing-vite4.html)と2回のメジャーアップデートが行われました。
 
-It powers more and more projects including the frameworks {sveltekit} and {qwik} and the test runner {vitest}.
+{sveltekit}や{qwik}といったフレームワーク、はたまたテストツール{vitest}など多くのプロジェクトと力を合わせています。
