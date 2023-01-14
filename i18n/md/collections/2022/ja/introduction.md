@@ -1,10 +1,11 @@
 ---
 id: introduction
-language: en
+language: ja
 ---
 
-Welcome to the 7th edition of the JavaScript Risings Stars!
+7回目のJavaScript ライジングスターにようこそ！
 
-Like every year we try to provide an overview of the trending projects in the JavaScript eco-system over the last 12 months.
+毎年恒例、2022年の12か月におけるJavaScriptエコシステムのトレンドプロジェクトを紹介していこうと思います。
 
-The champion this year is a delicious bread with a smiling logo, it's good to start the year with a smile!
+今年の覇者は、笑顔の入ったおいしいパンです！
+一年を笑顔で始められるのは、とてもよいことですね！
