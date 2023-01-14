@@ -1,8 +1,8 @@
 ---
 id: antfu
-language: en
+language: ja
 ---
 
-### Guest Writer: [Anthony Fu](https://twitter.com/antfu7)
+### ゲストライター: [Anthony Fu](https://twitter.com/antfu7)
 
-Core team member of {vuejs}, {vite} and {nuxt}. Creator of [VueUse](https://vueuse.org/) and {slidev}.
+{vuejs}・{vite}・{nuxt}のコア開発者。[VueUse](https://vueuse.org/)と{slidev}の作者。

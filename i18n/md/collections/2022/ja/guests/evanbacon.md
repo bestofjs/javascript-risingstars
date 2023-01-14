@@ -1,7 +1,7 @@
 ---
 id: evanbacon
-language: en
+language: ja
 ---
-### Guest Writer: [Evan Bacon](https://twitter.com/Baconbrix)
+### ゲストライター: [Evan Bacon](https://twitter.com/Baconbrix)
 
-Lead of Developer Tools at Expo. Native iOS and Android developer. Author of Config Plugins and Expo CLI.
+Expoの開発者ツールのテックリード。iOSとAndroid開発者。Config PluginsとExpo CLI.の作者。

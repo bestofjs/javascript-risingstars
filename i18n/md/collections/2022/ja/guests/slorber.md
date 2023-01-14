@@ -1,10 +1,10 @@
 ---
 id: slorber
-language: en
+language: ja
 ---
 
-### Guest Writer: [Sébastien Lorber](https://sebastienlorber.com)
+### ゲストライター: [Sébastien Lorber](https://sebastienlorber.com)
 
-Sébastien is a React early adopter, working with Facebook Open-Source on {docusaurus}.
+Reactのアーリーアダプタ。FacebookのOSS、{docusaurus}に従事。
 
-He runs a weekly newsletter about React and React Native: [This Week in React](https://thisweekinreact.com)
+ReactとReact Nativeに関するニュースレター、[This Week in React](https://thisweekinreact.com)を発行している。
