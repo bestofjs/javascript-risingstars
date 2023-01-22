@@ -102,7 +102,7 @@
 .project-table-row:hover .project-table-bar {
   opacity: 0;
 }
-.project-table-row.is-open {
+.project-is-open .project-table-row {
   background: white;
 }
 

@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.grid > div {
+  opacity: 0.3;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.emptyCell {
+  background-color: #b94100;
+}
