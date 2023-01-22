@@ -6,6 +6,9 @@ import { Header } from "~/components/header";
 import { Top } from "~/components/top/top";
 import { TableOfContents } from "~/components/table-of-contents";
 import { Category } from "~/components/category";
+import { Footer } from "~/components/footer/footer";
+import Conclusion from "~/components/conclusion";
+import { TranslatorSection } from "~/components/translator-section";
 
 type PageProps = {
   params: {
@@ -51,6 +54,13 @@ export default async function MainPage({ params }: PageProps) {
             );
           })}
       </div>
+
+
+      {/* @ts-expect-error Server Component */}
+      <Conclusion language={language} year={year} />
+      
+      <TranslatorSection language={language} year={year} availableLanguages={languages} />
+      <Footer />
     </>
   );
 }

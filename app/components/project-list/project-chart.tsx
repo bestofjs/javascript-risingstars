@@ -40,7 +40,7 @@ export async function ProjectChart({ project, language, year }: Props) {
                   }}
                 >
                   <div className="project-chart-stars">
-                    {d > 0 && <span>{formatStarNumber(d, 1)}</span>}
+                    {d > 0 && <>{formatStarNumber(d, 1)}</>}
                   </div>
                 </div>
               ) : (
