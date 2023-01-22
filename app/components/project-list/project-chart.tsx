@@ -16,10 +16,6 @@ export async function ProjectChart({ project, language, year }: Props) {
     );
 
   const months = t("common.view_project.months").split(" ")
-  // .formatMessage({
-  //   id: `common.view_project.months`,
-  //   defaultMessage: "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
-  // })
   const monthlyDeltas = (project.monthly || [])
     .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
     .slice(0, 12)

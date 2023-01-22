@@ -11,7 +11,6 @@ export function ProjectRankings({
   renderExtraProjects,
 }: Props) {
   const [showFullList, toggleFullList] = useState(false);
-  // const maxDelta = Math.max(...projects.map((project) => project.delta));
 
   return (
     <>

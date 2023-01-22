@@ -1,5 +1,5 @@
 import { LanguageMenuFullSize } from "./language-menu-fullsize";
-import { LanguageMenuCompact } from "./language-menu-compact";
+import { LanguageMenuCompact } from "./language-menu-compact.client";
 
 type Props = {
   language: string;

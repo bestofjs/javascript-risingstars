@@ -1,9 +1,9 @@
 import { MainPageProps } from "~/fetch-page-props";
 import { useTranslation } from "~/i18n";
-import { ProjectList } from "./project-list/project-list";
 import { TranslatedBlock } from "~/translated-block";
+import { ProjectList } from "./project-list/project-list";
+import { ProjectRankings } from "./project-list/project-rankings.client";
 import { Guest } from "./guest";
-import { ProjectRankings } from "./project-list/project-rankings";
 
 type Props = Pick<
   MainPageProps,
@@ -69,15 +69,6 @@ export async function Category({
                   />
                 }
               />
-              {/* <ProjectList
-                count={count}
-                isFirstItemOpenByDefault={key === "all"}
-                language={language}
-                limit={limit || 5}
-                projects={graphProjects}
-                tags={tags}
-                year={year}
-              /> */}
             </div>
           </div>
           <div>

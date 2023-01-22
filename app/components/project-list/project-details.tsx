@@ -1,8 +1,9 @@
 import { Trans } from "react-i18next/TransWithoutContext";
+
+import { useTranslation } from "~/i18n";
 import { ProjectChart } from "./project-chart";
 import { formatStarNumber } from "./project-shared";
 import styles from "./project-list.module.css";
-import { useTranslation } from "~/i18n";
 
 type Props = {
   language: string;
@@ -13,7 +14,6 @@ type Props = {
 export async function ProjectDetails({ language, project, tags, year }: Props) {
   const { url, full_name, repository, stars } = project;
   const { t } = await useTranslation(language, year);
-
 
   return (
     <div className="project-details">

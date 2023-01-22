@@ -3,10 +3,8 @@ import { ProjectDetails } from "./project-details";
 import { ProjectSingleItem } from "./project-single-item.client";
 
 type Props = {
-  // count: number;
   isFirstItemOpenByDefault: boolean;
   language: string;
-  // limit: number;
   projects: RisingStars.Project[];
   tags: RisingStars.Tag[];
   year: number;
@@ -21,8 +19,6 @@ export function ProjectList({
   tags,
   isFirstItemOpenByDefault,
 }: Props) {
-  
-  // return <>List!</>
   return (
     <>
       {projects.map((project, index) => (
@@ -57,7 +53,7 @@ const ProjectListItem = ({
   year,
 }: ListItemProps) => {
   const widthPercent = Math.ceil((project.delta * 100) / maxDelta); // use relative scale
-  
+
   return (
     <ProjectSingleItem
       defaultIsOpen={defaultIsOpen}

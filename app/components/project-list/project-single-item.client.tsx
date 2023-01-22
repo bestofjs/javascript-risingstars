@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 type Props = {
-  // index: number;
   defaultIsOpen?: boolean;
   maxDelta?: number;
   renderProjectSummary: React.ReactNode;
