@@ -40,7 +40,7 @@ const OtherLanguages = ({ language, year, availableLanguages }: Props) => (
       .filter((lang) => lang.code !== language)
       .map((lang) => (
         <p key={lang.code}>
-          <Link href={`/${year}/${lang.code}`}>{lang.text}</Link>
+          <Link href={`/${year}/${lang.code}`} prefetch={false}>{lang.text}</Link>
         </p>
       ))}
   </div>

@@ -68,7 +68,7 @@ const YearLink = ({
   className?: string;
 }) => {
   return (
-    <Link href={`/${year}/en`} className={className}>
+    <Link href={`/${year}/en`} prefetch={false} className={className}>
       {children}
     </Link>
   );

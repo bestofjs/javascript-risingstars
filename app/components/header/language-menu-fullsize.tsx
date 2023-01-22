@@ -27,19 +27,8 @@ const LanguageLink = ({ lang, active, year }) => {
     return <span className="language-menu-item is-active">{lang.text}</span>;
   }
   return (
-    <Link href={`/${year}/${lang.code}`} className="language-menu-item">
+    <Link href={`/${year}/${lang.code}`} prefetch={false} className="language-menu-item">
       {lang.text}
     </Link>
   );
-  // return (
-  //   <Link
-  //     href={{
-  //       pathname: "/[year]/[language]",
-  //       query: { language: lang.code, year },
-  //     }}
-  //     className="language-menu-item"
-  //   >
-  //     {lang.text}
-  //   </Link>
-  // );
 };
