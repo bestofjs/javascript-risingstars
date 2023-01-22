@@ -8,26 +8,31 @@
     "typecheck": "tsc --watch"
   },
   "dependencies": {
+    "eslint": "8.30.0",
     "flat": "^5.0.2",
     "fs-extra": "^9.0.1",
-    "jdown": "^1.0.4",
+    "gray-matter": "^4.0.3",
+    "i18next": "^22.4.9",
+    "i18next-resources-to-backend": "^1.1.1",
     "lodash": "^4.17.21",
-    "next": "^13.1.1",
+    "next": "13.1.4",
     "numeral": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-intl": "6.2.5",
-    "react-markdown": "^5.0.3",
-    "unstated-next": "^1.1.0"
+    "react-i18next": "^12.1.4",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "tinytime": "^0.2.6"
   },
   "devDependencies": {
     "@types/flat": "^5.0.2",
     "@types/fs-extra": "^9.0.13",
     "@types/lodash": "^4.14.178",
-    "@types/node": "^14.6.0",
+    "@types/node": "^18.11.18",
     "@types/numeral": "^2.0.2",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
+    "eslint-config-next": "^13.1.2",
     "typescript": "4.9.4"
   },
   "license": "MIT"

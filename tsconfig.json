@@ -18,11 +18,15 @@
     "strict": false,
     "target": "esnext",
     "incremental": true,
-    "baseUrl": "src",
     "paths": {
-      "~/*": ["../*"]
-    }
+      "~/*": ["./app/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }
