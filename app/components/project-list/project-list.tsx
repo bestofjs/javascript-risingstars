@@ -1,5 +1,5 @@
 import { ProjectSummary } from "./project-summary";
-import { ProjectDetails } from "./project-details";
+// import { ProjectDetails } from "./project-details";
 import { ProjectSingleItem } from "./project-single-item.client";
 
 type Props = {
@@ -48,9 +48,9 @@ const ProjectListItem = ({
   defaultIsOpen,
   maxDelta,
   project,
-  tags,
-  language,
-  year,
+  // tags,
+  // language,
+  // year,
 }: ListItemProps) => {
   const widthPercent = Math.ceil((project.delta * 100) / maxDelta); // use relative scale
 
@@ -64,15 +64,7 @@ const ProjectListItem = ({
           widthPercent={widthPercent}
         />
       }
-      renderProjectDetails={
-        /* @ts-expect-error Server Component */
-        <ProjectDetails
-          project={project}
-          tags={tags}
-          language={language}
-          year={year}
-        />
-      }
+      renderProjectDetails={null}
     />
   );
 };

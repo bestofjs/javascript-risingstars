@@ -2,7 +2,7 @@ import { MainPageProps } from "~/fetch-page-props";
 import { useTranslation } from "~/i18n";
 import { TranslatedBlock } from "~/translated-block";
 import { ProjectList } from "./project-list/project-list";
-import { ProjectRankings } from "./project-list/project-rankings.client";
+// import { ProjectRankings } from "./project-list/project-rankings.client";
 import { Guest } from "./guest";
 
 type Props = Pick<
@@ -24,14 +24,14 @@ export async function Category({
     availableComments,
     key: tag,
     limit = defaultLimit,
-    count,
+    // count,
     guest,
   } = category;
 
   const projects = projectsByTag[tag];
   if (!projects) throw new Error(`No projects with the tag "${tag}"`);
   const topProjects = projects.slice(0, limit);
-  const extraProjects = projects.slice(limit, count);
+  // const extraProjects = projects.slice(limit, count);
   const key = tag.replace(/-/gi, "");
 
   const hasComment = !availableComments || availableComments.includes(language);
@@ -48,26 +48,12 @@ export async function Category({
         <div className={`${hasComment ? "project-category-grid" : ""}`}>
           <div>
             <div className={`${hasComment ? "column1" : ""}`}>
-              <ProjectRankings
-                renderTopProjects={
-                  <ProjectList
-                    projects={topProjects}
-                    isFirstItemOpenByDefault={tag === "all"}
-                    language={language}
-                    tags={tags}
-                    year={year}
-                  />
-                }
-                renderExtraProjects={
-                  /* @ts-expect-error Server Component */
-                  <ProjectList
-                    projects={extraProjects}
-                    language={language}
-                    tags={tags}
-                    year={year}
-                    offset={limit}
-                  />
-                }
+              <ProjectList
+                projects={topProjects}
+                isFirstItemOpenByDefault={tag === "all"}
+                language={language}
+                tags={tags}
+                year={year}
               />
             </div>
           </div>
