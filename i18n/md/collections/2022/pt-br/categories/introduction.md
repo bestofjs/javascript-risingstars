@@ -1,10 +1,10 @@
 ---
 id: introduction
-language: en
+language: pt-br
 ---
 
-Welcome to the 7th edition of the JavaScript Risings Stars!
+Bem-vindo à 7ª edição do JavaScript Rising Stars!
 
-Like every year we try to provide an overview of the trending projects in the JavaScript eco-system over the last 12 months.
+Como todos os anos, tentamos fornecer uma visão geral dos projetos de tendência no ecossistema JavaScript nos últimos 12 meses.
 
-The champion this year is a delicious bread with a smiling logo, it's good to start the year with a smile!
+O campeão deste ano é um pão delicioso com logo sorridente, é bom começar o ano com um sorriso!
