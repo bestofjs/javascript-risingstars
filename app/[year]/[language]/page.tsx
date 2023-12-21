@@ -27,10 +27,8 @@ export default async function MainPage({ params }: PageProps) {
   return (
     <>
       <Header language={language} year={year} availableLanguages={languages} />
-      {/* @ts-expect-error Server Component */}
       <Top year={year} language={language} allYears={allYears} />
       <div className="main">
-        {/* @ts-expect-error Server Component */}
         <TableOfContents
           projects={projectsByTag}
           categories={categories}
@@ -42,7 +40,6 @@ export default async function MainPage({ params }: PageProps) {
           .filter((category) => !category.disabled)
           .map((category) => {
             return (
-              /* @ts-expect-error Server Component */
               <Category
                 key={category.key}
                 year={year}
@@ -55,11 +52,13 @@ export default async function MainPage({ params }: PageProps) {
           })}
       </div>
 
-
-      {/* @ts-expect-error Server Component */}
       <Conclusion language={language} year={year} />
-      
-      <TranslatorSection language={language} year={year} availableLanguages={languages} />
+
+      <TranslatorSection
+        language={language}
+        year={year}
+        availableLanguages={languages}
+      />
       <Footer />
     </>
   );

@@ -15,7 +15,6 @@ export async function Conclusion({ language, year }: Props) {
           <h2 className="tag-card-header-text">{t("conclusion")}</h2>
         </div>
         <div className="markdown-body">
-          {/* @ts-expect-error Server Component */}
           <TranslatedBlock id="conclusion" year={year} language={language} />
         </div>
       </div>

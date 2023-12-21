@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --watch"
+    "typecheck:watch": "tsc --noEmit --incremental --watch"
   },
   "dependencies": {
     "eslint": "8.30.0",
@@ -30,8 +30,8 @@
     "@types/lodash": "^4.14.178",
     "@types/node": "^18.11.18",
     "@types/numeral": "^2.0.2",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
     "eslint-config-next": "14.0.4",
     "typescript": "5.2.2"
   },

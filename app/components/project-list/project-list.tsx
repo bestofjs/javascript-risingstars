@@ -65,7 +65,6 @@ const ProjectListItem = ({
         />
       }
       renderProjectDetails={
-        /* @ts-expect-error Server Component */
         <ProjectDetails
           project={project}
           tags={tags}

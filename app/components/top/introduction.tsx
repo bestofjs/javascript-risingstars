@@ -7,7 +7,6 @@ export async function Introduction({ language, year }) {
   return (
     <div>
       <div className="introduction-text">
-        {/* @ts-expect-error Server Component */}
         <TranslatedBlock id="introduction" language={language} year={year} />
       </div>
       <hr />
@@ -16,7 +15,9 @@ export async function Introduction({ language, year }) {
           i18nKey="introduction.explanation"
           t={t}
           defaults="We analyzed projects coming from <appLink>Best of JS</appLink>, a curated list of the best projects related to the web platform."
-          components={{appLink: <a href="https://bestofjs.org">Best of JS!</a>}}
+          components={{
+            appLink: <a href="https://bestofjs.org">Best of JS!</a>,
+          }}
         />
       </p>
     </div>

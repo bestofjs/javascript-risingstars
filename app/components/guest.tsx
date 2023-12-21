@@ -10,7 +10,6 @@ export function Guest({ guestId, year, language }: Props) {
   return (
     <div className="guest">
       <div className="guest-blurb">
-        {/* @ts-expect-error Server Component */}
         <TranslatedBlock
           id={`guests/${guestId}`}
           language={language}

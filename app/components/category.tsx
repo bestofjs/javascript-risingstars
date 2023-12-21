@@ -59,9 +59,9 @@ export async function Category({
                   />
                 }
                 renderExtraProjects={
-                  /* @ts-expect-error Server Component */
                   <ProjectList
                     projects={extraProjects}
+                    isFirstItemOpenByDefault={false}
                     language={language}
                     tags={tags}
                     year={year}
@@ -78,7 +78,6 @@ export async function Category({
                   {guest && (
                     <Guest guestId={guest} year={year} language={language} />
                   )}
-                  {/* @ts-expect-error */}
                   <TranslatedBlock
                     id={"categories/" + tag}
                     year={year}

@@ -23,7 +23,6 @@ export async function ProjectDetails({ language, project, tags, year }: Props) {
             Trends in {{ year }}
           </Trans>
         </Heading>
-        {/* @ts-expect-error Server Component */}
         <ProjectChart project={project} language={language} year={year} />
         <Heading>
           <Trans i18nKey="common.view_project.data" t={t}>

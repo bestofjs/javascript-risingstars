@@ -9,11 +9,9 @@ export async function Top({ allYears, language, year }: Props) {
   return (
     <>
       <YearNavigator allYears={allYears} year={year} language={language} />
-      {/* @ts-expect-error Server Component */}
       <Banner year={year} language={language} />
       <div className="container small-container">
         <div className="top-with-banner-introduction">
-          {/* @ts-expect-error Server Component */}
           <Introduction year={year} language={language} />
         </div>
       </div>

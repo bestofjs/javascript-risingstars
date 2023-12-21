@@ -6,6 +6,5 @@ export default function TestPage() {
     { title: "Section 1", content: "Content 1" },
     { title: "Section 2", content: "Content 2" },
   ];
-  // @ts-expect-error Server Component
   return <Accordion sections={sections} serverSlot={<MyServerComponent />} />;
 }
