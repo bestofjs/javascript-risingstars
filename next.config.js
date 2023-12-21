@@ -2,9 +2,6 @@
 const settings = require("./app/settings/years-setup.json");
 
 module.exports = {
-  experimental: {
-    appDir: true,
-  },
   async redirects() {
     const yearRedirects = settings.map(({ year }) => ({
       source: `/${year}`,
