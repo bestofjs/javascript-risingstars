@@ -12,20 +12,29 @@
     "key": "react",
     "tags": ["react", "react-native"],
     "count": 15,
-    "excluded": ["react", "react-native", "storybook"],
+    "excluded": ["draw-a-ui", "react", "react-native", "storybook", "trpc"],
     "guest": "leerob"
   },
   {
     "key": "vue",
     "count": 10,
     "excluded": [
+      "autoanimate",
+      "headless-ui",
+      "ionic",
+      "directus",
+      "mitosis",
       "storybook",
+      "swiper",
       "tanstack-query",
+      "tanstack-table",
+      "tiptap",
       "vercel-ai-sdk",
       "vuejs",
       "vuejs-2",
       "vite",
-      "vitest"
+      "vitest",
+      "wikijs"
     ],
     "guest": "antfu"
   },
