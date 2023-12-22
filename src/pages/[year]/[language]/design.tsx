@@ -2,12 +2,16 @@ import { getPageProps, PageProps } from "page-helpers";
 import { SocialImage } from "components/graphics/social-image";
 import { BackgroundImage } from "components/graphics/background-image";
 
+const excludedProjects = ["draw-a-ui"];
+
 export default function DesignPage({
   year,
   language,
   projectsByTag,
 }: PageProps) {
-  const projects = projectsByTag["all"];
+  const projects = projectsByTag["all"].filter(
+    (project) => !excludedProjects.includes(project.slug)
+  );
   return (
     <div style={{ maxWidth: 1280, margin: "0 auto" }}>
       <h1>
@@ -16,7 +20,7 @@ export default function DesignPage({
       <h2>Social Image (1280x640)</h2>
       <SocialImage year={year} language={language} projects={projects} />
       <hr />
-      <h2>Background banner</h2>
+      <h2>Background banner (1200x300)</h2>
       <BackgroundImage projects={projects} />
     </div>
   );
