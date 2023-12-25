@@ -3,8 +3,6 @@ id: lihbr
 language: en
 ---
 
-### Guest Writer: [Lucie](https://twitter.com/li_hbr)
+### Guest Writer: [Lucie Haberer](https://lihbr.com/)
 
-Internet citizen currently working as a DevExp Engineer at Prismicio.
-
-{nuxt} contributor and team member.
+Core team member of {nuxt}, speaker, open-source enjoyer, and Developer Experience Engineer at [Prismic](https://prismic.io/).
