@@ -37,7 +37,6 @@ export async function TableOfContents({
                           key={project.slug}
                           project={project}
                           size={30}
-                          link={false}
                         />
                       ))}
                   </div>
