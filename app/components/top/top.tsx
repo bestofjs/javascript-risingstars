@@ -4,22 +4,27 @@ import { MainPageProps } from "~/fetch-page-props";
 import { Banner } from "./banner";
 import { Introduction } from "./introduction";
 
-type Props = Pick<MainPageProps, "allYears" | "year" | "language">;
-export async function Top({ allYears, language, year }: Props) {
+type Props = Pick<MainPageProps, "allYears" | "year" | "language"> & {
+  content: React.ReactNode;
+};
+export async function Top({ allYears, content, language, year }: Props) {
   return (
     <>
       <YearNavigator allYears={allYears} year={year} language={language} />
       <Banner year={year} language={language} />
       <div className="container small-container">
         <div className="top-with-banner-introduction">
-          <Introduction year={year} language={language} />
+          <Introduction year={year} language={language} content={content} />
         </div>
       </div>
     </>
   );
 }
 
-const YearNavigator = ({ allYears, year: activeYear }: Props) => {
+const YearNavigator = ({
+  allYears,
+  year: activeYear,
+}: Omit<Props, "content">) => {
   const hasPreviousYear = activeYear !== allYears[0];
   const hasNextYear = activeYear !== allYears[allYears.length - 1];
 

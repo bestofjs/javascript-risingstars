@@ -1,14 +1,18 @@
 import { Trans } from "react-i18next/TransWithoutContext";
-import { useTranslation } from "~/i18n";
-import { TranslatedBlock } from "~/translated-block";
 
-export async function Introduction({ language, year }) {
+import { useTranslation } from "~/i18n";
+
+type Props = {
+  language: string;
+  year: number;
+  content: React.ReactNode;
+};
+
+export async function Introduction({ language, year, content }: Props) {
   const { t } = await useTranslation(language, year);
   return (
     <div>
-      <div className="introduction-text">
-        <TranslatedBlock id="introduction" language={language} year={year} />
-      </div>
+      <div className="introduction-text">{content}</div>
       <hr />
       <p style={{ margin: "1rem 0 0" }}>
         <Trans

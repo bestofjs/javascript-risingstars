@@ -1,11 +1,11 @@
 import { useTranslation } from "~/i18n";
-import { TranslatedBlock } from "~/translated-block";
 
 type Props = {
   language: string;
   year: number;
+  content: React.ReactNode;
 };
-export async function Conclusion({ language, year }: Props) {
+export async function Conclusion({ language, year, content }: Props) {
   const { t } = await useTranslation(language, year);
 
   return (
@@ -14,12 +14,8 @@ export async function Conclusion({ language, year }: Props) {
         <div className="small-card-header">
           <h2 className="tag-card-header-text">{t("conclusion")}</h2>
         </div>
-        <div className="markdown-body">
-          <TranslatedBlock id="conclusion" year={year} language={language} />
-        </div>
+        <div className="markdown-body">{content}</div>
       </div>
     </div>
   );
 }
-
-export default Conclusion;

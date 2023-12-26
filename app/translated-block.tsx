@@ -4,18 +4,27 @@ import path from "path";
 import { remark } from "remark";
 import html from "remark-html";
 
+type Props = {
+  id: string;
+  year: number;
+  language: string;
+  projectsBySlug: Map<string, RisingStars.Project>;
+};
+
 export async function TranslatedBlock({
   id,
   year,
   language,
-}: {
-  id: string;
-  year: number;
-  language: string;
-}) {
-  const content = await fetchMarkdown(id, year, language);
-  const html = await markdownToHtml(content);
-  
+  projectsBySlug,
+}: Props) {
+  const rawContent = await fetchMarkdown(id, year, language);
+  const processedContent = replaceProjectSlugsWithLinks(
+    projectsBySlug,
+    rawContent
+  );
+
+  const html = await markdownToHtml(processedContent);
+
   return <div dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
@@ -34,24 +43,17 @@ export default async function markdownToHtml(markdown: string) {
   return result.toString();
 }
 
-// export const TranslatedBlock = ({ path }: { path: string }) => {
-//   const { projectsBySlug, translations } = useAppData();
-//   const markdown =
-//     get(translations, path) || `No translation for this path: "${path}"`;
-
-//   const source = processMarkdown(projectsBySlug, markdown);
-
-//   return <ReactMarkdown source={source} />;
-// };
-
-// function processMarkdown(projectsBySlug: RisingStars.Entities, md: string) {
-//   const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
-//     const project = projectsBySlug[slug];
-//     if (!project) {
-//       return slug;
-//     }
-//     const url = project.url || project.repository;
-//     return `[${project.name}](${url})`;
-//   });
-//   return processed;
-// }
+function replaceProjectSlugsWithLinks(
+  projectsBySlug: Map<string, RisingStars.Project>,
+  md: string
+) {
+  const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
+    const project = projectsBySlug.get(slug);
+    if (!project) {
+      return slug;
+    }
+    const url = project.url || project.repository;
+    return `[${project.name}](${url})`;
+  });
+  return processed;
+}

@@ -1,6 +1,8 @@
 import { slugify } from "./slugify";
 
-const processProject = (item) => {
+// TODO cleanup and add types
+
+export const processProject = (item) => {
   return {
     ...item,
     repository: `https://github.com/${item.full_name}`,
@@ -11,8 +13,8 @@ const processProject = (item) => {
 const sortBy = (fn) => (a, b) => fn(b) - fn(a);
 const sortByYearlyDelta = sortBy((project) => project.delta);
 
-function getSortedProjects(projectsBySlug) {
-  return Object.values(projectsBySlug).slice().sort(sortByYearlyDelta);
+function getSortedProjects(projectsBySlug: Map<string, RisingStars.Project>) {
+  return Array.from(projectsBySlug.values()).slice().sort(sortByYearlyDelta);
 }
 
 function isMatchingTag(category, project) {
@@ -44,11 +46,12 @@ function getProjectsByTag(sortedProjects, categories) {
   );
 }
 
-function getProjectsBySlug(projects) {
-  const projectsBySlug = projects.map(processProject).reduce((acc, project) => {
-    return { ...acc, [project.slug]: project };
-  }, {});
-  return projectsBySlug;
+function getProjectsBySlug(projects: RisingStars.Project[]) {
+  const map = new Map<string, RisingStars.Project>();
+  projects.map(processProject).forEach((project) => {
+    map.set(project.slug, project);
+  });
+  return map;
 }
 
 function getTopProjects(projectsByTag, categories) {
@@ -70,6 +73,7 @@ export function processProjectData(projectData, categories) {
   const projectsBySlug = getProjectsBySlug(projectData);
   const sorted = getSortedProjects(projectsBySlug);
   const projectsByTag = getProjectsByTag(sorted, categories);
+
   projectsByTag.misc = getMiscProjects(projectsByTag, categories);
   return {
     projectsByTag,

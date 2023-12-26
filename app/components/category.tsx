@@ -1,20 +1,22 @@
 import { MainPageProps } from "~/fetch-page-props";
 import { useTranslation } from "~/i18n";
-import { TranslatedBlock } from "~/translated-block";
 import { ProjectList } from "./project-list/project-list";
 import { ProjectRankings } from "./project-list/project-rankings.client";
 import { Guest } from "./guest";
 
-type Props = Pick<
-  MainPageProps,
-  "language" | "projectsByTag" | "tags" | "year"
-> & {
+type Props = Pick<MainPageProps, "language" | "tags" | "year"> & {
   category: RisingStars.Category;
+  content: React.ReactNode;
+  guestContent: React.ReactNode;
+  projects: RisingStars.Project[];
 };
+
 export async function Category({
   category,
+  content,
+  guestContent,
   language,
-  projectsByTag,
+  projects,
   tags,
   year,
 }: Props) {
@@ -28,7 +30,6 @@ export async function Category({
     guest,
   } = category;
 
-  const projects = projectsByTag[tag];
   if (!projects) throw new Error(`No projects with the tag "${tag}"`);
   const topProjects = projects.slice(0, limit);
   const extraProjects = projects.slice(limit, count);
@@ -75,14 +76,8 @@ export async function Category({
             {hasComment && (
               <div className="column2">
                 <div className="tag-card-comments markdown-body">
-                  {guest && (
-                    <Guest guestId={guest} year={year} language={language} />
-                  )}
-                  <TranslatedBlock
-                    id={"categories/" + tag}
-                    year={year}
-                    language={language}
-                  />
+                  {guest && <Guest guestId={guest} content={guestContent} />}
+                  {content}
                 </div>
               </div>
             )}

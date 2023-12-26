@@ -1,21 +1,13 @@
 import Image from "next/image";
-import { TranslatedBlock } from "~/translated-block";
 
 type Props = {
   guestId: string;
-  year: number;
-  language: string;
+  content: React.ReactNode;
 };
-export function Guest({ guestId, year, language }: Props) {
+export function Guest({ guestId, content }: Props) {
   return (
     <div className="guest">
-      <div className="guest-blurb">
-        <TranslatedBlock
-          id={`guests/${guestId}`}
-          language={language}
-          year={year}
-        />
-      </div>
+      <div className="guest-blurb">{content}</div>
       <div className="guest-portrait">
         <Image
           src={`/img/guests/${guestId}.jpg`}
