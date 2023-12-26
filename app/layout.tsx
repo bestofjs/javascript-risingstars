@@ -1,4 +1,5 @@
 import "../src/css/app.css";
+import "../src/css/banner.css";
 import "../src/css/dropdown.css";
 import "../src/css/header.css";
 import "../src/css/newsletter.css";

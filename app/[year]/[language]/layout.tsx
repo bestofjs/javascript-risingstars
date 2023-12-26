@@ -11,12 +11,16 @@ export default function PageLayout({
   children: React.ReactNode;
   params: MainPageProps;
 }) {
-  const { language } = params;
+  const { language, year } = params;
 
   return (
     <html lang={language}>
       <head />
-      <body className={fontMono.variable + " " + fontSerif.variable}>
+      <body
+        className={["year" + year, fontMono.variable, fontSerif.variable].join(
+          " "
+        )}
+      >
         {children}
       </body>
     </html>
