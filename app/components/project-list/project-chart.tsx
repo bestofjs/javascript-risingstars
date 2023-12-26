@@ -9,13 +9,9 @@ type Props = {
 export async function ProjectChart({ project, language, year }: Props) {
   const { t } = await useTranslation(language, year);
   if (!project.monthly || project.monthly.length === 0)
-    return (
-      <div style={{ fontStyle: "italic", marginBottom: ".5rem" }}>
-        No data available
-      </div>
-    );
+    return <div className="project-chart-no-data">No data available</div>;
 
-  const months = t("common.view_project.months").split(" ")
+  const months = t("common.view_project.months").split(" ");
   const monthlyDeltas = (project.monthly || [])
     .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
     .slice(0, 12)

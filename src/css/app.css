@@ -237,6 +237,9 @@ h1 {
 .introduction-text p {
   margin-top: 0;
 }
+.explanation {
+  margin-top: 1rem;
+}
 
 /* block used in 2016 and 2018 layout to display the introduction under the banner */
 .top-with-banner-introduction {

@@ -14,7 +14,7 @@ export async function Introduction({ language, year, content }: Props) {
     <div>
       <div className="introduction-text">{content}</div>
       <hr />
-      <p style={{ margin: "1rem 0 0" }}>
+      <p className="explanation">
         <Trans
           i18nKey="introduction.explanation"
           t={t}

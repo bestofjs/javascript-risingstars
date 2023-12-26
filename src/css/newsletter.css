@@ -64,3 +64,8 @@
   padding: 20px 10px;
   font-size: var(--large-font);
 }
+.show-more-button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}

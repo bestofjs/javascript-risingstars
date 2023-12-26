@@ -20,7 +20,8 @@ export const TranslatorSection = ({
   return (
     <section className="TranslatorSection">
       <div className="container small-container">
-        <TeamMemberList language={language} year={year} />
+        <TranslatorBlock language={language} year={year} />
+        <AuthorBlock year={year} />
         {availableLanguages.length > 1 && (
           <OtherLanguages
             year={year}
@@ -34,19 +35,21 @@ export const TranslatorSection = ({
 };
 
 const OtherLanguages = ({ language, year, availableLanguages }: Props) => (
-  <div style={{ marginTop: "2rem" }}>
+  <div className="available-languages">
     <p className="member-list-header">Available Translations</p>
     {availableLanguages
       .filter((lang) => lang.code !== language)
       .map((lang) => (
         <p key={lang.code}>
-          <Link href={`/${year}/${lang.code}`} prefetch={false}>{lang.text}</Link>
+          <Link href={`/${year}/${lang.code}`} prefetch={false}>
+            {lang.text}
+          </Link>
         </p>
       ))}
   </div>
 );
 
-const TeamMemberList = ({
+const TranslatorBlock = ({
   language,
   year,
 }: Pick<Props, "language" | "year">) => {
@@ -55,33 +58,42 @@ const TeamMemberList = ({
     (name) => translators[name]
   );
 
+  return (
+    <div>
+      {thisYearTranslators.length > 0 && (
+        <div>
+          <p className="member-list-header">{translations[language]}</p>
+          <div className="translator-list">
+            {thisYearTranslators.map((translator) => (
+              <TeamMember member={translator} key={translator.name} />
+            ))}
+          </div>
+        </div>
+        // <TranslatorBlock
+        //   translators={thisYearTranslators}
+        //   language={language}
+        // />
+      )}
+    </div>
+  );
+};
+
+const AuthorBlock = ({ year }: Pick<Props, "year">) => {
   const thisYearAuthors = Object.entries(authorWorks)
     .filter(([_, years]) => years.includes(year))
     .map(([authorName, _]) => authors[authorName]);
 
   return (
     <div>
-      {thisYearTranslators.length > 0 && (
-        <TranslatorBlock
-          translators={thisYearTranslators}
-          language={language}
-        />
-      )}
-      <AuthorBlock authors={thisYearAuthors} />
+      <p className="member-list-header">Authors</p>
+      <div className="translator-list">
+        {thisYearAuthors.map((author) => (
+          <TeamMember key={author.name} member={author} />
+        ))}
+      </div>
     </div>
   );
 };
-
-const AuthorBlock = ({ authors }) => (
-  <div>
-    <p className="member-list-header">Authors</p>
-    <div className="translator-list">
-      {authors.map((author) => (
-        <TeamMember key={author.name} member={author} />
-      ))}
-    </div>
-  </div>
-);
 
 const translations = {
   ja: "Japanese version",
@@ -92,16 +104,16 @@ const translations = {
   ko: "Korean version",
 };
 
-const TranslatorBlock = ({ translators, language }) => (
-  <div style={{ marginBottom: "2rem" }}>
-    <p className="member-list-header">{translations[language]}</p>
-    <div className="translator-list">
-      {translators.map((translator) => (
-        <TeamMember member={translator} key={translator.name} />
-      ))}
-    </div>
-  </div>
-);
+// const TranslatorBlock = ({ translators, language }) => (
+//   <div>
+//     <p className="member-list-header">{translations[language]}</p>
+//     <div className="translator-list">
+//       {translators.map((translator) => (
+//         <TeamMember member={translator} key={translator.name} />
+//       ))}
+//     </div>
+//   </div>
+// );
 
 const TeamMember = ({ member }) => (
   <div className="translator-list-item">

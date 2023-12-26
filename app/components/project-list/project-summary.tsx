@@ -6,11 +6,7 @@ type Props = {
   index: number;
   widthPercent: number;
 };
-export const ProjectSummary = ({
-  project,
-  index,
-  widthPercent,
-}: Props) => {
+export const ProjectSummary = ({ project, index, widthPercent }: Props) => {
   return (
     <div className={`project-table-row`}>
       <div className="ranking">{index}</div>
@@ -19,10 +15,6 @@ export const ProjectSummary = ({
           <ProjectAvatar project={project} size={50} />
         </div>
         <div className="main-column">
-          <div
-            className="project-table-bar"
-            style={{ width: `${widthPercent}%` }}
-          />
           <h3 className="project-name">{project.name}</h3>
           <div className="description">{project.description}</div>
         </div>

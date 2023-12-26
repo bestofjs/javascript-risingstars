@@ -75,6 +75,11 @@ export const translationWorks = {
     ko: ["rewrite0w0"],
     zh: ["KimYang"],
   },
+  2022: {
+    es: ["Javier Valencia"],
+    zh: ["KimYang"],
+    ja: ["NurseAngel"],
+  },
 };
 
 export const translators = {
@@ -158,6 +163,7 @@ export const translators = {
     name: "Rana Kualu",
     avatar: getAvatarURL("3815718"),
     bio1: "Houkago Atelier Toiro ha iizo",
+    url: "https://twitter.com/rana_kualu",
   },
   AngeloZuo: {
     name: "Angelo Zuo",

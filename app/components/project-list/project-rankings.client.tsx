@@ -19,10 +19,9 @@ export function ProjectRankings({
         renderExtraProjects
       ) : (
         <button
-          className="button"
+          className="button show-more-button"
           type="button"
           onClick={() => toggleFullList(true)}
-          style={{ display: "block", width: "100%", marginTop: "1rem" }}
         >
           SHOW MORE
         </button>
