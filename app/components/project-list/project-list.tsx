@@ -46,24 +46,15 @@ type ListItemProps = {
 const ProjectListItem = ({
   index,
   defaultIsOpen,
-  maxDelta,
   project,
   tags,
   language,
   year,
 }: ListItemProps) => {
-  const widthPercent = Math.ceil((project.delta * 100) / maxDelta); // use relative scale
-
   return (
     <ProjectSingleItem
       defaultIsOpen={defaultIsOpen}
-      renderProjectSummary={
-        <ProjectSummary
-          index={index}
-          project={project}
-          widthPercent={widthPercent}
-        />
-      }
+      renderProjectSummary={<ProjectSummary index={index} project={project} />}
       renderProjectDetails={
         <ProjectDetails
           project={project}

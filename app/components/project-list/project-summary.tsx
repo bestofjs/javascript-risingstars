@@ -4,9 +4,8 @@ import { formatStarNumber } from "./project-shared";
 type Props = {
   project: RisingStars.Project;
   index: number;
-  widthPercent: number;
 };
-export const ProjectSummary = ({ project, index, widthPercent }: Props) => {
+export const ProjectSummary = ({ project, index }: Props) => {
   return (
     <div className={`project-table-row`}>
       <div className="ranking">{index}</div>
