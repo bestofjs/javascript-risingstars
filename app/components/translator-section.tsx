@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import {
@@ -69,10 +70,6 @@ const TranslatorBlock = ({
             ))}
           </div>
         </div>
-        // <TranslatorBlock
-        //   translators={thisYearTranslators}
-        //   language={language}
-        // />
       )}
     </div>
   );
@@ -104,21 +101,10 @@ const translations = {
   ko: "Korean version",
 };
 
-// const TranslatorBlock = ({ translators, language }) => (
-//   <div>
-//     <p className="member-list-header">{translations[language]}</p>
-//     <div className="translator-list">
-//       {translators.map((translator) => (
-//         <TeamMember member={translator} key={translator.name} />
-//       ))}
-//     </div>
-//   </div>
-// );
-
 const TeamMember = ({ member }) => (
   <div className="translator-list-item">
     <a href={member.url} aria-label={member.name}>
-      <img
+      <Image
         className="avatar"
         src={member.avatar}
         width="75"

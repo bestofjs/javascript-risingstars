@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./footer.module.css";
 
 export const Footer = () => (
@@ -14,7 +15,7 @@ export const Footer = () => (
           href="https://vercel.com?utm_source=bestofjs"
           className={styles.poweredByLogo}
         >
-          <img width="80" height="19" src="/vercel.svg" alt="Vercel" />
+          <Image width="80" height="19" src="/vercel.svg" alt="Vercel" />
         </a>
       </p>
     </div>
