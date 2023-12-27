@@ -191,5 +191,5 @@ export const translators = {
 
 function getAvatarURL(userId) {
   const size = 75;
-  return `https://avatars0.githubusercontent.com/u/${userId}?v=3&s=${size}`;
+  return `https://avatars.githubusercontent.com/u/${userId}?v=3&s=${size}`;
 }

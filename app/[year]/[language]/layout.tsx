@@ -38,11 +38,13 @@ export async function generateMetadata({ params }) {
 
   const title = t("page.title");
   const description = t("page.description");
-  const rootURL = process.env.NEXT_PUBLIC_ROOT_URL || ""; // env. variable setup from Vercel dashboard
+  const rootURL =
+    process.env.NEXT_PUBLIC_ROOT_URL || "https://risingstarts.js.org"; // env. variable setup from Vercel dashboard
   const pageURL = `${rootURL}/${year}/${language}`;
   const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
 
   const metaData: Metadata = {
+    metadataBase: new URL(rootURL),
     title,
     description,
     icons: {
