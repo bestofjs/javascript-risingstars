@@ -22,6 +22,7 @@
     "react-i18next": "^12.1.4",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
+    "sharp": "0.32.6",
     "tinytime": "^0.2.6"
   },
   "devDependencies": {
