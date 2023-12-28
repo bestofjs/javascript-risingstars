@@ -11,6 +11,7 @@ import { TranslatorSection } from "~/components/translator-section";
 import { TranslatedBlock } from "~/translated-block";
 import { CategoryLoader } from "~/components/category-loader";
 import { Suspense } from "react";
+import { Dummy } from "~/components/dummy";
 
 type PageProps = {
   params: {
