@@ -5,22 +5,19 @@ import { fetchPageProps } from "~/fetch-page-props";
 import { Header } from "~/components/header";
 import { Top } from "~/components/top/top";
 import { TableOfContents } from "~/components/table-of-contents";
+import { Category } from "~/components/category";
 import { Footer } from "~/components/footer/footer";
 import { Conclusion } from "~/components/conclusion";
 import { TranslatorSection } from "~/components/translator-section";
 import { TranslatedBlock } from "~/translated-block";
-import { CategoryLoader } from "~/components/category-loader";
-import { Suspense } from "react";
-import { Dummy } from "~/components/dummy";
 
 type PageProps = {
   params: {
     year: string;
     language: string;
   };
-  searchParams: any;
 };
-export default async function MainPage({ params, searchParams }: PageProps) {
+export default async function MainPage({ params }: PageProps) {
   const year = parseInt(params.year, 0);
   const language = params.language;
 
@@ -60,41 +57,33 @@ export default async function MainPage({ params, searchParams }: PageProps) {
         {categories
           .filter((category) => !category.disabled)
           .map((category) => {
-            const categoryYear = searchParams[category.key]
-              ? parseInt(searchParams[category.key], 0)
-              : year;
             return (
-              <Suspense
+              <Category
                 key={category.key}
-                fallback={<div>Loading `{category.key}`...</div>}
-              >
-                <CategoryLoader
-                  key={category.key}
-                  year={categoryYear}
-                  category={category}
-                  language={language}
-                  tags={tags}
-                  allYears={allYears}
-                  content={
+                year={year}
+                category={category}
+                language={language}
+                projects={projectsByTag[category.key]}
+                tags={tags}
+                content={
+                  <TranslatedBlock
+                    id={"categories/" + category.key}
+                    year={year}
+                    language={language}
+                    projectsBySlug={projectsBySlug}
+                  />
+                }
+                guestContent={
+                  category.guest ? (
                     <TranslatedBlock
-                      id={"categories/" + category.key}
-                      year={categoryYear}
+                      id={`guests/${category.guest}`}
                       language={language}
+                      year={year}
                       projectsBySlug={projectsBySlug}
                     />
-                  }
-                  guestContent={
-                    category.guest ? (
-                      <TranslatedBlock
-                        id={`guests/${category.guest}`}
-                        language={language}
-                        year={year}
-                        projectsBySlug={projectsBySlug}
-                      />
-                    ) : null
-                  }
-                />
-              </Suspense>
+                  ) : null
+                }
+              />
             );
           })}
       </div>
