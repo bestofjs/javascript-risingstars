@@ -3,8 +3,9 @@ import { useTranslation } from "~/i18n";
 import { ProjectList } from "./project-list/project-list";
 import { ProjectRankings } from "./project-list/project-rankings.client";
 import { Guest } from "./guest";
+import { CategoryYearNav } from "./category-year-nav";
 
-type Props = Pick<MainPageProps, "language" | "tags" | "year"> & {
+type Props = Pick<MainPageProps, "allYears" | "language" | "tags" | "year"> & {
   category: RisingStars.Category;
   content: React.ReactNode;
   guestContent: React.ReactNode;
@@ -19,6 +20,7 @@ export async function Category({
   projects,
   tags,
   year,
+  allYears,
 }: Props) {
   const { t } = await useTranslation(language, year);
   const defaultLimit = 5;
@@ -34,6 +36,7 @@ export async function Category({
   const topProjects = projects.slice(0, limit);
   const extraProjects = projects.slice(limit, count);
   const key = tag.replace(/-/gi, "");
+  const label = t(`categories.${key}`);
 
   const hasComment = !availableComments || availableComments.includes(language);
 
@@ -41,11 +44,12 @@ export async function Category({
     <section className="section">
       <div className={`container${hasComment ? "" : " small-container"}`}>
         <a id={`section-${tag}`} />
-        <h2 className="project-category-header">
-          <span className="project-category-header-inner">
-            {t(`categories.${key}`)}
-          </span>
-        </h2>
+        <CategoryYearNav
+          year={year}
+          label={label}
+          category={category}
+          allYears={allYears}
+        />
         <div className={`${hasComment ? "project-category-grid" : ""}`}>
           <div>
             <div className={`${hasComment ? "column1" : ""}`}>
