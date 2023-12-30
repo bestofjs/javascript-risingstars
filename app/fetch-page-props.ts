@@ -57,11 +57,21 @@ export async function fetchPageProps(
 }
 
 export async function getProjectData(year: number) {
-  const filepath = path.resolve(process.cwd(), `data/${year}/projects.json`);
-  return fs.readJSON(filepath);
+  return await getJsonDataFromFileSystem(`data/${year}/projects.json`);
 }
 
 async function getCategories(year: number) {
-  const filepath = path.resolve(process.cwd(), `data/${year}/categories.json`);
-  return fs.readJSON(filepath);
+  return await getJsonDataFromFileSystem(`data/${year}/categories.json`);
+}
+
+const fileCache = new Map<string, any>();
+
+async function getJsonDataFromFileSystem(filename: string) {
+  if (!fileCache.has(filename)) {
+    const filepath = path.resolve(process.cwd(), filename);
+    console.log("Reading file", filepath);
+    const data = await fs.readJSON(filepath);
+    fileCache.set(filename, data);
+  }
+  return fileCache.get(filename);
 }
