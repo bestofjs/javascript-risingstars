@@ -66,9 +66,11 @@ async function getCategories(year: number) {
 
 const fileCache = new Map<string, any>();
 
+const root = process.cwd();
+
 async function getJsonDataFromFileSystem(filename: string) {
   if (!fileCache.has(filename)) {
-    const filepath = path.join(process.cwd(), "public", filename);
+    const filepath = path.join(root, "public", filename);
     console.log("Reading file", filepath);
     const data = await fs.readJSON(filepath);
     fileCache.set(filename, data);
