@@ -60,7 +60,7 @@ export async function useTranslation(language: string, year: number) {
 }
 
 async function loadAllMessages(language: string, year: number) {
-  const root = path.join(projectRoot, "i18n", "messages");
+  const root = path.join(projectRoot, "public", "i18n", "messages");
 
   const specificMessages = await fs.readJSON(
     path.join(root, year.toString(), `${language}.json`)

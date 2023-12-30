@@ -31,7 +31,9 @@ export async function TranslatedBlock({
 
 async function fetchMarkdown(id: string, year: number, language: string) {
   const relativeFilePath = path.join(
-    ["i18n", "md", "collections", year, language, id + ".md"].join("/")
+    ["public", "i18n", "md", "collections", year, language, id + ".md"].join(
+      "/"
+    )
   );
   const filepath = path.resolve(projectRoot, relativeFilePath);
   const fileContents = await fs.readFile(filepath, "utf8");
