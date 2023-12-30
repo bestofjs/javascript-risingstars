@@ -68,7 +68,7 @@ const fileCache = new Map<string, any>();
 
 async function getJsonDataFromFileSystem(filename: string) {
   if (!fileCache.has(filename)) {
-    const filepath = path.join(process.cwd(), filename);
+    const filepath = path.join(process.cwd(), "public", filename);
     console.log("Reading file", filepath);
     const data = await fs.readJSON(filepath);
     fileCache.set(filename, data);
