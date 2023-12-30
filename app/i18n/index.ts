@@ -3,6 +3,7 @@ import flattenJSON from "flat";
 import { createInstance } from "i18next";
 import path from "path";
 import { initReactI18next } from "react-i18next/initReactI18next";
+import { projectRoot } from "~/fetch-page-props";
 
 // const initI18next = async (lng, year) => {
 //   const i18nInstance = createInstance();
@@ -59,7 +60,7 @@ export async function useTranslation(language: string, year: number) {
 }
 
 async function loadAllMessages(language: string, year: number) {
-  const root = path.join(process.cwd(), "i18n", "messages");
+  const root = path.join(projectRoot, "i18n", "messages");
 
   const specificMessages = await fs.readJSON(
     path.join(root, year.toString(), `${language}.json`)

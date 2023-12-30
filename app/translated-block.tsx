@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import { remark } from "remark";
 import html from "remark-html";
+import { projectRoot } from "./fetch-page-props";
 
 type Props = {
   id: string;
@@ -32,7 +33,7 @@ async function fetchMarkdown(id: string, year: number, language: string) {
   const relativeFilePath = path.join(
     ["i18n", "md", "collections", year, language, id + ".md"].join("/")
   );
-  const filepath = path.resolve(process.cwd(), relativeFilePath);
+  const filepath = path.resolve(projectRoot, relativeFilePath);
   const fileContents = await fs.readFile(filepath, "utf8");
   const { content } = matter(fileContents);
   return content;
