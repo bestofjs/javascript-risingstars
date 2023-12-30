@@ -2,6 +2,9 @@
 const settings = require("./app/settings/years-setup.json");
 
 module.exports = {
+  experimental: {
+    ppr: true,
+  },
   images: {
     remotePatterns: [
       {
