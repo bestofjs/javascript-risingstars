@@ -214,6 +214,9 @@ h1 {
 .introduction-container {
   margin: 40px 0;
 }
+.explanation {
+  margin: 1rem 0 0;
+}
 
 @media (min-width: 800px) {
   .main-image {
