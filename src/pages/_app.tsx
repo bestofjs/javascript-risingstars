@@ -2,6 +2,7 @@ import { AppProps } from "next/app";
 
 // TODO move to CSS Modules natively supported by Next.js?
 import "../css/app.css";
+import "../css/banner.css";
 import "../css/dropdown.css";
 import "../css/header.css";
 import "../css/newsletter.css";

@@ -31,7 +31,6 @@ export const TableOfContents = ({ categories, projects }: Props) => (
                         key={project.slug}
                         project={project}
                         size={30}
-                        link={false}
                       />
                     ))}
                 </div>

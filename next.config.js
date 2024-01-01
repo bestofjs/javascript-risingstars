@@ -1,6 +1,18 @@
 const settings = require("./data/settings.json");
 
 module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "bestofjs.org",
+      },
+    ],
+  },
   async redirects() {
     const yearRedirects = settings.map(({ year }) => ({
       source: `/${year}`,
