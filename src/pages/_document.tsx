@@ -14,12 +14,13 @@ export default class Document extends NextDocument {
   }
 
   render() {
-    const { language } = this.props as any;
+    const { language, year } = this.props as any;
 
     return (
       <Html lang={language}>
         <Head>
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="preload" as="image" href={`/img/${year}/banner.png`} />
           <link
             href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
             rel="stylesheet"
@@ -30,7 +31,7 @@ export default class Document extends NextDocument {
             src="//gc.zgo.at/count.js"
           ></script>
         </Head>
-        <body>
+        <body className={`year${year}`}>
           <Main />
           <NextScript />
         </body>

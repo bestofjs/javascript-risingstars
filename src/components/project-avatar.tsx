@@ -1,3 +1,5 @@
+import { HTMLAttributes } from "react";
+
 /*
 Render the image to be displayed inside the project card
 Can be either :
@@ -7,9 +9,8 @@ Can be either :
 type Props = {
   project: RisingStars.Project;
   size?: number;
-  link?: boolean;
 };
-export const ProjectAvatar = ({ project, size = 100, link = false }: Props) => {
+export const ProjectAvatar = ({ project, size = 100 }: Props) => {
   // Performance optimization:
   // to avoid fetching 2 times the same avatar in 2 different sizes, we fetch only once the biggest one
   const maxSize = Math.max(size, 50);
@@ -23,15 +24,14 @@ export const ProjectAvatar = ({ project, size = 100, link = false }: Props) => {
     width: size,
     height: size,
     alt: project.name,
-  };
+    loading: "lazy",
+  } as HTMLAttributes<HTMLImageElement>;
 
-  const img = project.icon ? (
+  return project.icon ? (
     <img {...sharedAttributes} />
   ) : (
     <img {...sharedAttributes} srcSet={`${urls.retina} 2x`} />
   );
-
-  return link ? <a href={`#${project.slug}`}>{img}</a> : img;
 };
 
 const isUrl = (input) => input.startsWith("http");

@@ -8,7 +8,7 @@ export const Introduction = () => (
       <TranslatedBlock path="introduction" />
     </div>
     <hr />
-    <p style={{ margin: "1rem 0 0" }}>
+    <p className="explanation">
       <FormattedMessage
         id="introduction.explanation"
         defaultMessage={`

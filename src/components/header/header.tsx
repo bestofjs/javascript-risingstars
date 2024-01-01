@@ -1,5 +1,6 @@
 import { LanguageMenuFullSize } from "./language-menu-fullsize";
 import { LanguageMenuCompact } from "./language-menu-compact";
+import { BestOfJSLogo } from "components/svg-logos";
 
 type Props = {
   language: string;
@@ -11,13 +12,8 @@ export const Header = ({ language, year, availableLanguages }: Props) => {
     <div id="header">
       <div className="container">
         <div className="header-layout">
-          <a id="logo" href="https://bestofjs.org">
-            <img
-              src="/bestofjs.svg"
-              width="130"
-              height="37.14"
-              alt="Best of JS logo"
-            />
+          <a id="logo" href="https://bestofjs.org" aria-label="Best of JS">
+            <BestOfJSLogo width={130} height={37.15} />
           </a>
           <div className="language-column">
             <LanguageMenuFullSize
