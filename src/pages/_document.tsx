@@ -20,6 +20,7 @@ export default class Document extends NextDocument {
       <Html lang={language}>
         <Head>
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="preload" as="image" href={`/img/${year}/banner.png`} />
           <link
             href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
             rel="stylesheet"
