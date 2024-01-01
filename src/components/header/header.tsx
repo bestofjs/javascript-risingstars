@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { LanguageMenuFullSize } from "./language-menu-fullsize";
 import { LanguageMenuCompact } from "./language-menu-compact";
 
@@ -12,7 +14,7 @@ export const Header = ({ language, year, availableLanguages }: Props) => {
       <div className="container">
         <div className="header-layout">
           <a id="logo" href="https://bestofjs.org">
-            <img
+            <Image
               src="/bestofjs.svg"
               width="130"
               height="37.14"
