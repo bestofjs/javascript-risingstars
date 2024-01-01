@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { HTMLAttributes } from "react";
 
 /*
 Render the image to be displayed inside the project card
@@ -11,8 +11,27 @@ type Props = {
   size?: number;
 };
 export const ProjectAvatar = ({ project, size = 100 }: Props) => {
-  const url = getProjectAvatarUrl(project, size);
-  return <Image src={url} width={size} height={size} alt={project.name} />;
+  // Performance optimization:
+  // to avoid fetching 2 times the same avatar in 2 different sizes, we fetch only once the biggest one
+  const maxSize = Math.max(size, 50);
+  const urls = {
+    standard: getProjectAvatarUrl(project, maxSize),
+    retina: getProjectAvatarUrl(project, maxSize * 2),
+  };
+
+  const sharedAttributes = {
+    src: urls.standard,
+    width: size,
+    height: size,
+    alt: project.name,
+    loading: "lazy",
+  } as HTMLAttributes<HTMLImageElement>;
+
+  return project.icon ? (
+    <img {...sharedAttributes} />
+  ) : (
+    <img {...sharedAttributes} srcSet={`${urls.retina} 2x`} />
+  );
 };
 
 const isUrl = (input) => input.startsWith("http");
