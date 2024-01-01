@@ -14,7 +14,7 @@ export default class Document extends NextDocument {
   }
 
   render() {
-    const { language } = this.props as any;
+    const { language, year } = this.props as any;
 
     return (
       <Html lang={language}>
@@ -30,7 +30,7 @@ export default class Document extends NextDocument {
             src="//gc.zgo.at/count.js"
           ></script>
         </Head>
-        <body>
+        <body className={`year${year}`}>
           <Main />
           <NextScript />
         </body>
