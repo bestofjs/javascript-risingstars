@@ -25,7 +25,7 @@
     "testframework": "Testing",
     "ide": "IDEs & Editors",
     "ssg": "Static Sites",
-    "cssinjs": "CSS in JavaScript",
+    "cssinjs": "Styling / CSS in JS",
     "cssframework": "CSS Frameworks",
     "statemanagement": "State Management",
     "graphql": "GraphQL",
