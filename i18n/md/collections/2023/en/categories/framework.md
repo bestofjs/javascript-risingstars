@@ -11,13 +11,13 @@ However, React is not without its skeptics. Some view it as a relic of the past,
 
 One point of contention revolves around the absence of "signals", a reactivity handling mechanism employed by libraries such as {solid} or {preact}, while React enthusiasts appreciate the predictability offered by React's data flow.
 
-From [a tweet](https://twitter.com/devongovett/status/1629540226589663233) by Devon Govett, the creator of {parcel}, about signals: 
+From [a tweet](https://twitter.com/devongovett/status/1629540226589663233) by Devon Govett, the creator of Parcel, about signals: 
 
 > The simplicity of UI as a function of state is lost when updates flow unpredictably.
 
 To know more about signals, read [The Evolution of Signals](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob), a comprehensive exploration of one of the year's buzzwords.
 
-At two HTMX is a library that takes a different approach to provide interactivity to HTML page: rather than writing several lines of JavaScript code, developers enhance HTML with specific attributes to enable real-time interactivity and dynamic updates.
+At two {htmx} is a library that takes a different approach to provide interactivity to HTML page: rather than writing several lines of JavaScript code, developers enhance HTML with specific attributes to enable real-time interactivity and dynamic updates.
 
 It was lauded for its small file size and seamless integration with existing server-side frameworks, as it's part of the trend "send HTML over the wire": ask the server to send partial blocks of HTML instead of handling JSON in the client.
 

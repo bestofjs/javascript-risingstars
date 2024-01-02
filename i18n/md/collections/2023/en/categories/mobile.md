@@ -3,4 +3,4 @@ id: mobile
 language: en
 ---
 
-TODO
+Coming soon

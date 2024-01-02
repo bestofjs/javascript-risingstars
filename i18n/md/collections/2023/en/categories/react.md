@@ -3,4 +3,4 @@ id: react
 language: en
 ---
 
-TODO
+Coming soon

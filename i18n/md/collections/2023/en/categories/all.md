@@ -7,10 +7,10 @@ language: en
 
 The hottest project of the year is shadcn/ui, a collection of UI components written in React, allowing customizable styling through TailwindCSS.
 
-Built on top of Radix, a set of headless components providing primitives for concerns like accessibility and keyboard interactions, shadcn/ui distinguishes itself from other popular libraries (such as MUI, ChakraUI, React Spectrum) by not being a downloadable npm package. Instead, you integrate a specific shadcn/ui component by running a Command Line that installs the underlying dependencies (including Radix and other robust headless solutions) and copies the source code directly into your codebase.
+Built on top of {radix}, a set of headless components providing primitives for concerns like accessibility and keyboard interactions, shadcn/ui distinguishes itself from other popular libraries (such as MUI, ChakraUI, React Spectrum) by not being a downloadable NPM package. Instead, you integrate a specific shadcn/ui component by running a Command Line that installs the underlying dependencies and copies the source code directly into your codebase.
 
 
-The project's success is closely tied to the widespread popularity of TailwindCSS, its compatibility with React Server Components, and the presence of excellent documentation.
+The project's success is closely tied to the widespread popularity of {tailwind-css} (number 20 overall), its compatibility with React Server Components, and the presence of excellent documentation.
 
 It seems all new shiny React projects have adopted shadcn/ui. It was even chosen by Kent C. Dodds for his cutting-edge [Epic Stack](https://www.epicweb.dev/epic-stack).
 
@@ -23,11 +23,13 @@ For an in-depth analysis, refer to the article [The anatomy of shadcn/ui](https:
 
 #### Number two: Bun
 
-At position two, Bun, the alternative JavaScript runtime that was the winner in 2022, was very popular in 2023.
+Bun, the champion of 2022, keeps its tremendous momentum.
 
 Bun aims to be a fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript applications.
 
-The [version 1](https://bun.sh/blog/bun-v1.0) was officially released in September (check the amazing peak in the graph).
+The [version 1](https://bun.sh/blog/bun-v1.0) was officially released in September (check the peak in the graph!) and Bun claims to be "production-ready".
+
+The docs provide great recipes to help get started as fast as possible with Bun APIs and common tasks such as reading and writing files, working with databases...
 
 A [strong statement](https://twitter.com/bunjavascript/status/1732945030007099510) was made at the end of the year:
 

@@ -13,7 +13,7 @@
     "tags": ["react", "react-native"],
     "count": 15,
     "excluded": ["draw-a-ui", "react", "react-native", "storybook", "trpc"],
-    "guest": "leerob"
+    "guest": "slorber"
   },
   {
     "key": "vue",
@@ -46,8 +46,7 @@
   {
     "key": "build",
     "limit": 5,
-    "count": 10,
-    "guest": "slorber"
+    "count": 10
   },
   {
     "key": "mobile",
