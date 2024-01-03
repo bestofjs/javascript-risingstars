@@ -23,7 +23,7 @@ It was lauded for its small file size and seamless integration with existing ser
 
 In the same space of "tagging libraries", {alpinejs} is a popular solution (number 13 this year).
 
-At three, Svelte popularity keeps growing. It's often seen as a modern alternative ot React.
+At three, Svelte popularity keeps growing. It's often seen as a modern alternative to React.
 A big change is coming soon with Svelte 5, "the most anticipated release in the project's history", that introduces [runes](https://svelte.dev/blog/runes) to address some of the "pain points" when handling state reactivity. [This short video](https://www.youtube.com/watch?v=RVnxF3j3N8U) from Rich Harris does a great job of explaining the problems fixed by the runes.
 
 One of the stories of the year is related to Svelte and caused a lot debates (E.g. [Hacker News](https://news.ycombinator.com/item?id=35892250)): the Svelte team has chosen to use JavaScript with JSDoc annotations instead of TypeScript, to avoid the additional complexity and drawbacks associated with TypeScript, while still providing the benefits of type safety.

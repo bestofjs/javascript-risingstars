@@ -7,8 +7,7 @@ language: en
 
 The hottest project of the year is shadcn/ui, a collection of UI components written in React, allowing customizable styling through TailwindCSS.
 
-Built on top of {radix}, a set of headless components providing primitives for concerns like accessibility and keyboard interactions, shadcn/ui distinguishes itself from other popular libraries (such as MUI, ChakraUI, React Spectrum) by not being a downloadable NPM package. Instead, you integrate a specific shadcn/ui component by running a Command Line that installs the underlying dependencies and copies the source code directly into your codebase.
-
+Built on top of {radix}, a set of headless components providing primitives for concerns like accessibility and keyboard interactions, shadcn/ui distinguishes itself from other popular libraries (such as MUI, ChakraUI, React Spectrum) by not being a downloadable NPM package. Instead, you integrate the shadcn/ui components through a terminal command that installs the underlying dependencies and copies the component source code directly into your codebase for further modification.
 
 The project's success is closely tied to the widespread popularity of {tailwind-css} (number 20 overall), its compatibility with React Server Components, and the presence of excellent documentation.
 
@@ -29,7 +28,7 @@ Bun aims to be a fast, all-in-one toolkit for running, building, testing, and de
 
 The [version 1](https://bun.sh/blog/bun-v1.0) was officially released in September (check the peak in the graph!) and Bun claims to be "production-ready".
 
-The docs provide great recipes to help get started as fast as possible with Bun APIs and common tasks such as reading and writing files, working with databases...
+The docs provide great recipes to help get started as fast as possible with Bun APIs and common tasks such as file manipulation and handling database interactions.
 
 A [strong statement](https://twitter.com/bunjavascript/status/1732945030007099510) was made at the end of the year:
 
