@@ -5,22 +5,7 @@ saved in `/public/img/:year/banner.png`
 import { ProjectAvatar } from "components/project-avatar";
 import styles from "./project-avatar-grid.module.css";
 
-const excluded = [
-  "axios",
-  "animatecss",
-  "react-boilerplate",
-  "airbnb-style-guide",
-  "front-end-checklist",
-  "freecodecamp",
-  "awesome",
-  "json-server",
-  "threejs",
-  "express",
-  "reveal",
-  "immutable",
-  "material-design-icons",
-  "30-seconds-of-code",
-];
+const excluded = [];
 
 type Props = {
   projects: RisingStars.Project[];

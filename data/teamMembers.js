@@ -3,7 +3,7 @@ import React from "react";
 export const authorWorks = {
   "Benjamin Blackwood": [2020],
   "Sacha Grief": [2016, 2017, 2018, 2019],
-  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
+  "Michael Rambeau": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
 };
 
 export const authors = {
