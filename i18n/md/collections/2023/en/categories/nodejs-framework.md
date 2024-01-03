@@ -15,4 +15,4 @@ At two, {astro} keeps climbing the rankings. Besides the original concept (gener
 
 I was impressed by the simplicity the templating system of `.astro` files (very close to JSX) and by the great DX (the CLI is a beauty!).
 
-The [version 4](https://astro.build/blog/astro-4/) introduces a new toolbar for development, better i18n features and a new View Transition API to improve the UX.
+The [version 4](https://astro.build/blog/astro-4/) introduces a new toolbar for development, automatic i18n routing and a new View Transition API to improve the UX.

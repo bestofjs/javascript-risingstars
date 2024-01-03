@@ -13,7 +13,11 @@ The project's success is closely tied to the widespread popularity of {tailwind-
 
 It seems all new shiny React projects have adopted shadcn/ui. It was even chosen by Kent C. Dodds for his cutting-edge [Epic Stack](https://www.epicweb.dev/epic-stack).
 
-It has already inspired other projects:
+Another example involving AI: from a user prompt describing the features and the look-and-feel of a piece of UI, the application [v0.dev](https://v0.dev) generates the JSX code made of shadcn/ui components. Mesmerizing!
+
+Last but not least, [Best of JS](https://bestofjs.org) uses them too, after the rewrite I did to transition from a SPA to a Next.js app.
+
+Its approach has already inspired other projects:
 
 - [shad-cn/svelte](https://shadcn-svelte.com/) is the port for Svelte framework.
 - [Draft UI](https://github.com/IHIutch/draft-ui) is built on top of [React Aria](https://react-spectrum.adobe.com/react-aria/) instead of Radix.
@@ -36,4 +40,3 @@ A [strong statement](https://twitter.com/bunjavascript/status/173294503000709951
 > Flip the default backend JavaScript runtime from Node.js to Bun
 
 The compatibility with most of the Node.js eco-system (including the support of good old CommonJS imports via `require`) and the support of the main full-stack frameworks (Next.js, Nuxt, Astro...) can make it possible!
-
