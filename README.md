@@ -1,17 +1,19 @@
-[![image](https://risingstars.js.org/img/2022/en/rising-stars.png)](https://risingstars.js.org/)
+[![image](https://github.com/bestofjs/javascript-risingstars/blob/develop/public/img/2023/en/rising-stars.png?raw=true)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2022: trends about front-end, back0end and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
+An overview of the JavaScript landscape in 2023: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
 
 ## Team members
 
 - [Alexey Pyltsyn](https://lex111.ru/)
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
+- [Evan Trujillo](https://github.com/Evomatic)
 - [Javier Valencia](http://www.jvalen.com)
 - [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
+- [Mihai Badescu](https://github.com/zawarudo)
 - [Misol Goh](https://github.com/melancholy14)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 - [Oh TaeJun](https://github.com/rewrite0w0)
@@ -37,7 +39,7 @@ Special thanks:
 
 ## How to contribute?
 
-Requirements: [PNPM](https://pnpm.io/), Node.js 16+
+Requirements: [PNPM](https://pnpm.io/), Node.js 18+
 
 - Clone the repo
 - Install the dependencies: `pnpm install`
