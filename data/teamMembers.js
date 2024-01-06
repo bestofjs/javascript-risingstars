@@ -80,6 +80,9 @@ export const translationWorks = {
     zh: ["KimYang"],
     ja: ["NurseAngel"],
   },
+  2023: {
+    es: ["Javier Valencia"],
+  },
 };
 
 export const translators = {
