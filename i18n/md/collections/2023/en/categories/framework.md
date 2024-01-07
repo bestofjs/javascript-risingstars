@@ -38,4 +38,4 @@ One of the stories of the year is related to Svelte and caused a lot debates (E.
 
 - [Million v3](https://million.dev/blog/million-3) is a lightweight library that enables "React components to run at the speed of raw JavaScript."
 - [Angular 17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b) introduced significant improvements in performance, refreshed documentation, and a new branding (including nice colors for the logo)
-- [Quik reached v1](https://www.builder.io/blog/qwik-v1) in April. The framework for building "resumable" apps that ship zero JS (initially) while delivering HTML that becomes instantly interactive.
+- [Qwik reached v1](https://www.builder.io/blog/qwik-v1) in April. The framework for building "resumable" apps that ship zero JS (initially) while delivering HTML that becomes instantly interactive.
