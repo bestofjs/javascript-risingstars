@@ -27,6 +27,9 @@
   margin-bottom: calc(var(--spacing) * 2);
   text-align: center;
   background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-category-header-inner {
