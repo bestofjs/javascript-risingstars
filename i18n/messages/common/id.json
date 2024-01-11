@@ -7,13 +7,13 @@
   },
   "view_project": {
     "twitter": {
-      "text": "Tahun {year}, {name} menambahkan {delta} bintang, membuatnya berada di posisi #{ranking} paling populer pada kategori {category} di GitHub",
+      "text": "Tahun {{year}}, {name} menambahkan {delta} bintang, membuatnya berada di posisi #{ranking} paling populer pada kategori {category} di GitHub",
       "action": "Tweet"
     },
     "months": "J F M A M J J A S O N D",
     "created": "Created",
     "homepage": "Homepage",
-    "trends": "Trends in {year}",
+    "trends": "Trends in {{year}}",
     "data": "GitHub data",
     "stars_total": "Total stars",
     "links": "Links"

@@ -10,7 +10,7 @@ export interface Props {
 }
 
 const { project, language, year } = Astro.props;
-const { url, full_name, repository, stars, slug } = project;
+const { url, full_name, stars, slug } = project;
 
 const bestOfJsURL = `https://bestofjs.org/projects/${slug}`;
 

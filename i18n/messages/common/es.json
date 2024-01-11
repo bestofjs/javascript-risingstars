@@ -7,13 +7,13 @@
   },
   "view_project": {
     "twitter": {
-      "text": "En {year}, {name} consiguió {delta} estrellas, llegando a alcanzar el puesto #{ranking} en {category} en GitHub",
+      "text": "En {{year}}, {name} consiguió {delta} estrellas, llegando a alcanzar el puesto #{ranking} en {category} en GitHub",
       "action": "Tweet"
     },
     "months": "E F M A M J J A S O N D",
     "created": "Creado",
     "homepage": "Home",
-    "trends": "Tendencias en {year}",
+    "trends": "Tendencias en {{year}}",
     "data": "Datos de GitHub",
     "stars_total": "Total estrellas",
     "links": "Links"

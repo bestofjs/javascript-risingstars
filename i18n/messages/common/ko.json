@@ -7,13 +7,13 @@
   },
   "view_project": {
     "twitter": {
-      "text": "{year}년, {name}은 GitHub에 {delta} 별을 얻었으며, {category} 범주에서 {ranking}위가 되었습니다.",
+      "text": "{{year}}년, {name}은 GitHub에 {delta} 별을 얻었으며, {category} 범주에서 {ranking}위가 되었습니다.",
       "action": "Tweet"
     },
     "months": "1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월",
     "created": "작성 날짜",
     "homepage": "WEB 사이트",
-    "trends": "{year}년 경향",
+    "trends": "{{year}}년 경향",
     "data": "GitHub 정보",
     "stars_total": "누적 별",
     "links": "링크"
