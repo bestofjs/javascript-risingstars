@@ -19,7 +19,14 @@ const { Content } = await member.render();
 
 <div class="translator-list-item">
   <a href={url} aria-label={name}>
-    <img class="avatar" src={avatarURL} width="75" height="75" alt={name} />
+    <img
+      class="avatar"
+      src={avatarURL}
+      width="75"
+      height="75"
+      alt={name}
+      loading="lazy"
+    />
   </a>
   <div class="translator-item-body">
     <a href={url} class="translator-name">

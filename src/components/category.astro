@@ -1,9 +1,11 @@
 ---
 import { useTranslations } from "~/i18n/utils";
+import years from "~/settings/years-setup.json";
+
 import ProjectList from "./project-list.astro";
 import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
-import years from "~/settings/years-setup.json";
+import LoadingIndicator from "./loading-indicator.astro";
 
 export interface Props {
   language: string;
@@ -22,8 +24,8 @@ const extraProjects = projects.slice(limit, count);
 
 const hasComment = !availableComments || availableComments.includes(language);
 
-const firstYear = years.at(0).year;
-const lastYear = years.at(-1).year;
+const firstYear = years.at(0)!.year;
+const lastYear = years.at(-1)!.year;
 const isFirstYear = year === firstYear;
 const isLastYear = year === lastYear;
 ---
@@ -43,13 +45,7 @@ const isLastYear = year === lastYear;
             hx-swap="outerHTML"
           >
             ← {year - 1}
-            <img
-              class="htmx-indicator"
-              width="19"
-              height="19"
-              src="/loading.svg"
-              alt="Loading"
-            />
+            <LoadingIndicator />
           </button>
         ) : (
           <span />
@@ -68,13 +64,7 @@ const isLastYear = year === lastYear;
             hx-target="closest section"
             hx-swap="outerHTML"
           >
-            <img
-              class="htmx-indicator"
-              width="19"
-              height="19"
-              src="/loading.svg"
-              alt="Loading"
-            />
+            <LoadingIndicator />
             {year + 1} →
           </button>
         ) : (
@@ -101,13 +91,7 @@ const isLastYear = year === lastYear;
             hx-swap="innerHTML"
           >
             SHOW MORE
-            <img
-              class="htmx-indicator"
-              width="19"
-              height="19"
-              src="/loading.svg"
-              alt="Loading"
-            />
+            <LoadingIndicator />
           </button>
         </div>
       </div>
@@ -140,10 +124,11 @@ const isLastYear = year === lastYear;
     gap: 5px;
     height: 32px;
     border-width: 0;
-    color: inherit;
+    color: var(--mediumgrey);
   }
   .nav-button:hover {
     background-color: transparent;
+    color: var(--linkColor);
   }
   .htmx-indicator {
     opacity: 0;
