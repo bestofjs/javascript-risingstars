@@ -1,0 +1,38 @@
+{
+  "page": {
+    "title": "2023 JavaScript Rising Stars",
+    "description": "2023 年 JavaScript 全景概述：关于前端、全栈和 Node.js 框架、React 和 Vue.js 生态系统、构建工具、状态管理等的趋势"
+  },
+  "header": {
+    "title": "2023 JavaScript Rising Stars"
+  },
+  "introduction": {
+    "table_of_contents": "目录",
+    "explanation": "以下图表比较了过去 12 个月在 GitHub 上添加的星数。我们分析了来自{link}的项目，这是一个与 Web 平台相关的最佳项目的精选列表。请注意，你可以单击一个项目以获取更多信息。"
+  },
+  "conclusion": "结论",
+  "categories": {
+    "all": "最受欢迎的项目",
+    "framework": "前端框架",
+    "nodejsframework": "后端/全栈",
+    "react": "React 生态系统",
+    "vue": "Vue 生态系统",
+    "angular": "Angular 生态系统",
+    "mobile": "移动端",
+    "desktop": "桌面端",
+    "compiler": "编译器",
+    "build": "构建工具",
+    "testframework": "测试工具",
+    "ide": "IDE 和编辑器",
+    "ssg": "静态站点",
+    "cssinjs": "样式 / CSS in JS",
+    "cssframework": "CSS 框架",
+    "statemanagement": "状态管理",
+    "graphql": "GraphQL",
+    "misc": "其他",
+    "learning": "学习资源"
+  },
+  "social": {
+    "text": "Check the JavaScript landscape in 2023"
+  }
+}
