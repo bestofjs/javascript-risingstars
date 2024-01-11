@@ -57,5 +57,11 @@
       "ja": ["NurseAngel"],
       "zh": ["KimYangOfCat"]
     }
+  },
+  "2023": {
+    "authors": ["michaelrambeau"],
+    "translators": {
+      "es": ["jvalen"]
+    }
   }
 }
