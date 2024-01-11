@@ -1,0 +1,62 @@
+---
+import "@fontsource-variable/roboto-slab";
+import "@fontsource/space-mono";
+
+import "~/css/app.css";
+import "~/css/banner.css";
+import "~/css/dropdown.css";
+import "~/css/header.css";
+import "~/css/newsletter.css";
+import "~/css/project-category.css";
+import "~/css/project-details.css";
+import "~/css/toc.css";
+import "~/css/top.css";
+import "~/css/translator-section.css";
+import { useTranslations } from "~/i18n/utils";
+
+export interface Props {
+  year: number;
+  language: string;
+}
+
+const { year, language } = Astro.props;
+
+const { t } = await useTranslations(language, year);
+
+const title = t("page.title");
+const description = t("page.description");
+const rootURL =
+  process.env.NEXT_PUBLIC_ROOT_URL || "https://risingstars.js.org"; // env. variable setup from Vercel dashboard
+const pageURL = `${rootURL}/${year}/${language}`;
+const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
+---
+
+<!DOCTYPE html>
+<html lang={language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta property="og:title" content={title} />
+    <meta name="twitter:title" content={title} />
+    <meta name="description" content={description} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={pageURL} />
+    <meta property="og:image" content={imageURL} />
+    <meta name="twitter:image:src" content={imageURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preload" as="image" href={`/img/${year}/banner.png`} />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.6"
+      integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class={`year${year}`}>
+    <slot />
+  </body>
+</html>
+<style is:global></style>

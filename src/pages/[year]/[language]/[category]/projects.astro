@@ -1,0 +1,16 @@
+---
+import ProjectList from "~/components/project-list.astro";
+import { fetchPageProps } from "~/fetch-page-props";
+
+export const partial = true;
+export const prerender = false;
+
+const { year: yearParam, language, category } = Astro.params;
+const year = parseInt(yearParam!, 0);
+
+const { projectsByTag } = await fetchPageProps(year, language!);
+
+const projects = projectsByTag[category!];
+---
+
+<ProjectList projects={projects} year={year} language={language!} />

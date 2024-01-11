@@ -1,0 +1,18 @@
+---
+import { useTranslations } from "~/i18n/utils";
+
+export interface Props {
+  language: string;
+  year: number;
+}
+
+const { language, year } = Astro.props;
+
+const { t } = await useTranslations(language, year);
+---
+
+<div class="banner">
+  <div class="container">
+    <h1>{t("header.title")}</h1>
+  </div>
+</div>

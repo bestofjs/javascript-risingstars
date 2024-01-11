@@ -1,0 +1,82 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import ProjectList from "./project-list.astro";
+import TranslatedBlock from "./translated-block.astro";
+import Guest from "./guest.astro";
+
+export interface Props {
+  language: string;
+  year: number;
+  projects: RisingStars.Project[];
+  category: RisingStars.Category;
+}
+const { language, year, projects, category } = Astro.props;
+const { availableComments, key: tag, limit = 5, count, guest } = category;
+
+const key = tag.replace(/-/gi, "");
+const { t } = await useTranslations(language, year);
+
+const topProjects = projects.slice(0, limit);
+const extraProjects = projects.slice(limit, count);
+
+const hasComment = !availableComments || availableComments.includes(language);
+---
+
+<section class="section" id={`category-${tag}`}>
+  <div class={`container${hasComment ? "" : " small-container"}`}>
+    <a id={`section-${tag}`}></a>
+    <h2 class="project-category-header">
+      <span class="project-category-header-inner">
+        {t(`categories.${key}`)}
+      </span>
+    </h2>
+    <div class={`${hasComment ? "project-category-grid" : ""}`}>
+      <div>
+        <div class={`rankings${hasComment ? " column1" : ""}`}>
+          <ProjectList
+            projects={topProjects}
+            language={language}
+            year={year}
+            openFirstProject={tag === "all"}
+          />
+
+          <button
+            type="button"
+            class="button show-more-button"
+            hx-post=`/${year}/${language}/${tag}/projects`
+            hx-trigger="click"
+            hx-target={`#category-${tag} .rankings`}
+            hx-swap="innerHTML"
+          >
+            SHOW MORE
+            <img
+              class="htmx-indicator"
+              width="19"
+              height="19"
+              src="/loading.svg"
+              alt="Loading"
+            />
+          </button>
+        </div>
+      </div>
+      <div>
+        {
+          hasComment && (
+            <div class="column2">
+              {guest && (
+                <Guest guestId={guest} language={language} year={year} />
+              )}
+              <div class="tag-card-comments markdown-body">
+                <TranslatedBlock
+                  id={`categories/${tag}`}
+                  language={language}
+                  year={year}
+                />
+              </div>
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</section>

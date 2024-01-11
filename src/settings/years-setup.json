@@ -1,0 +1,31 @@
+[
+  {
+    "year": 2016,
+    "languages": ["en", "zh", "ja"]
+  },
+  {
+    "year": 2017,
+    "languages": ["en", "zh", "ja", "fr", "es", "id"]
+  },
+  {
+    "year": 2018,
+    "languages": ["en", "zh", "es"]
+  },
+  {
+    "year": 2019,
+    "languages": ["en", "zh", "es", "ja"]
+  },
+  {
+    "year": 2020,
+    "languages": ["en", "ru", "ja", "es", "zh", "ko"]
+  },
+  {
+    "year": 2021,
+    "languages": ["en", "ja", "es", "ko", "zh"]
+  },
+  {
+    "year": 2022,
+    "languages": ["en", "es", "zh", "ja"],
+    "current": true
+  }
+]

@@ -1,0 +1,42 @@
+---
+export type Props = {
+  currentLanguage: string;
+  year: number;
+  languages: RisingStars.Language[];
+};
+
+const { currentLanguage, year, languages } = Astro.props;
+
+function getPath(year: number, language: string) {
+  return `/${year}/${language}`;
+}
+---
+
+<script>
+  document
+    .getElementById("language-dropdown")!
+    .addEventListener("change", (event) => {
+      const path = event!.target.value;
+      window.location.push(path);
+    });
+</script>
+<div class="language-menu-mobile">
+  <div class="control has-icons-left">
+    <div class="select">
+      <select
+        id="language-dropdown"
+        class="language-dropdown"
+        value={getPath(year, currentLanguage)}
+      >
+        {
+          languages.map((item) => (
+            <option value={getPath(year, item.code)}>{item.text}</option>
+          ))
+        }
+      </select>
+    </div>
+    <div class="icon is-left">
+      <img src="/globe.svg" width="24" height="24" alt="language" />
+    </div>
+  </div>
+</div>

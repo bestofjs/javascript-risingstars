@@ -1,0 +1,49 @@
+---
+import ProjectAvatar from "./project-avatar.astro";
+import { formatStarNumber } from "./project-shared.ts";
+import ProjectInteractive from "./project-interactive.tsx";
+import ProjectDetails from "./project-details.astro";
+
+interface Props {
+  projects: RisingStars.Project[];
+  openFirstProject: boolean;
+  language: string;
+  year: number;
+  widthPercent: number;
+}
+
+const { projects, openFirstProject, language, year } = Astro.props;
+---
+
+{
+  projects.map((project, index) => {
+    const widthPercent = ((project.delta / projects[0].delta) * 100).toFixed();
+    return (
+      <ProjectInteractive
+        client:visible
+        defaultIsOpen={openFirstProject && index === 0}
+      >
+        <div slot="summary" class={`project-table-row`}>
+          <div class="ranking">{index + 1}</div>
+          <div class="inner">
+            <div class="icon">
+              <ProjectAvatar project={project} size={50} />
+            </div>
+            <div class="main-column">
+              <div
+                class="project-table-bar"
+                style={`width: ${widthPercent}%;`}
+              />
+              <h3 class="project-name">{project.name}</h3>
+              <div class="description">{project.description}</div>
+            </div>
+            <div class="stars">+{formatStarNumber(project.delta, 1)}☆</div>
+          </div>
+        </div>
+        <div slot="details">
+          <ProjectDetails project={project} language={language} year={year} />
+        </div>
+      </ProjectInteractive>
+    );
+  })
+}

@@ -1,0 +1,51 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import ProjectAvatar from "./project-avatar.astro";
+
+export interface Props {
+  categories: RisingStars.Category[];
+  projects: RisingStars.ProjectsByCategory;
+  language: string;
+  year: number;
+}
+const { language, year, projects, categories } = Astro.props;
+
+const { t } = await useTranslations(language, year);
+
+function getMinCount(count: number, index: number) {
+  return index === 0 ? Math.min(count, 10) : Math.min(count, 5);
+}
+---
+
+<div class="toc nav container container-section small-container">
+  <h2 class="toc-header">{t("introduction.table_of_contents")}</h2>
+
+  <ol>
+    {
+      categories
+        .filter((item) => !item.disabled)
+        .map((item, i) => {
+          const key = item.key.replace(/-/gi, "");
+          return (
+            <li>
+              <a class="toc-link" href={`#section-${item.key}`}>
+                <span class="toc-link-label">{t(`categories.${key}`)}</span>
+                <div class="toc-projects">
+                  {projects[item.key]
+                    .slice(0, getMinCount(item.count, i))
+                    .map((project) => (
+                      <ProjectAvatar project={project} size={30} />
+                    ))}
+                </div>
+              </a>
+            </li>
+          );
+        })
+    }
+    <li>
+      <a class="toc-link toc-link-conclusion" href={`#conclusion`}>
+        {t("conclusion")}
+      </a>
+    </li>
+  </ol>
+</div>

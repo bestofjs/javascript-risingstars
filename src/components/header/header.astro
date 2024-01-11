@@ -1,0 +1,49 @@
+---
+import LanguageMenuCompact from "./language-menu-compact.astro";
+import LanguageMenuFullSize from "./language-menu-fullsize.astro";
+
+export interface Props {
+  language: string;
+  year: number;
+  availableLanguages: RisingStars.Language[];
+}
+
+const { language, year, availableLanguages } = Astro.props;
+---
+
+<div id="header">
+  <div class="container">
+    <div class="header-layout">
+      <a id="logo" href="https://bestofjs.org">
+        <img
+          src="/bestofjs.svg"
+          width="130"
+          height="37.14"
+          alt="Best of JS logo"
+        />
+      </a>
+      <div class="language-column">
+        <LanguageMenuFullSize
+          currentLanguage={language}
+          languages={availableLanguages}
+          year={year}
+        />
+        {
+          availableLanguages.length > 1 && (
+            <LanguageMenuCompact
+              currentLanguage={language}
+              languages={availableLanguages}
+              year={year}
+            />
+          )
+        }
+      </div>
+    </div>
+  </div>
+  <a
+    href="https://github.com/bestofjs/javascript-risingstars"
+    id="github-corner"
+  >
+    <img src="/octocat.svg" width={60} height={60} />
+  </a>
+</div>

@@ -1,0 +1,25 @@
+---
+export interface Props {
+  project: RisingStars.Project;
+  size: number;
+}
+const { project, size } = Astro.props;
+
+const formatOwnerAvatar = (owner_id: number, size: number) =>
+  `https://avatars.githubusercontent.com/u/${owner_id}?v=3&s=${size}`;
+
+const getProjectAvatarUrl = (project: RisingStars.Project, size: number) =>
+  project.icon
+    ? `https://bestofjs.org/logos/${project.icon}`
+    : formatOwnerAvatar(project.owner_id, size);
+
+const projectAvatarURL = getProjectAvatarUrl(project, size);
+---
+
+<img
+  width={size}
+  height={size}
+  src={projectAvatarURL}
+  alt={project.name}
+  loading="lazy"
+/>

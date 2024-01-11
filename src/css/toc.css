@@ -70,3 +70,16 @@
     display: none;
   }
 }
+/* Don't show all years on small screens */
+@media (max-width: 599px) {
+  .year-menu > .desktop-link {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .year-menu > .mobile-link {
+    display: none;
+  }
+}
+
