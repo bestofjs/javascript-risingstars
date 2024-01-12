@@ -82,6 +82,7 @@ export const translationWorks = {
   },
   2023: {
     es: ["Javier Valencia"],
+    zh: ["poozhu"],
   },
 };
 
@@ -189,6 +190,12 @@ export const translators = {
     avatar: getAvatarURL("24793148"),
     bio1: "Fullstack Software Engineer",
     url: "https://github.com/melancholy14",
+  },
+  poozhu: {
+    name: "poozhu",
+    avatar: getAvatarURL("36725045"),
+    bio1: "略懂前端",
+    url: "https://github.com/poozhu",
   },
 };
 
