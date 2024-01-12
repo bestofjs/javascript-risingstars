@@ -47,14 +47,14 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
     <meta name="twitter:image:src" content={imageURL} />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preload" as="image" href={`/img/${year}/banner.png`} />
+  </head>
+  <body class={`year${year}`}>
+    <slot />
     <script
       src="https://unpkg.com/htmx.org@1.9.6"
       integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <body class={`year${year}`}>
-    <slot />
   </body>
 </html>
 <style is:global>
