@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
-import react from "@astrojs/react";
+import preact from "@astrojs/preact";
 import vercel from "@astrojs/vercel/serverless";
 import { globbySync } from "globby";
 
@@ -18,7 +18,7 @@ export default defineConfig({
   redirects: {
     "/": `/${currentYear}/en`,
   },
-  integrations: [react()],
+  integrations: [preact()],
   output: "hybrid",
   adapter: vercel({ includeFiles }),
 });

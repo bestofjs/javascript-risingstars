@@ -1,9 +1,10 @@
-import { useState, type ReactNode } from "react";
+import { h } from "preact";
+import { useState } from "preact/hooks";
 
 export type Props = {
   defaultIsOpen: boolean;
-  summary: ReactNode;
-  details: ReactNode;
+  summary: h.JSX.Element;
+  details: h.JSX.Element;
 };
 
 export default function ProjectInteractive({
