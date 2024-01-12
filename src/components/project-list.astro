@@ -40,9 +40,12 @@ const { projects, openFirstProject, language, year } = Astro.props;
             <div class="stars">+{formatStarNumber(project.delta, 1)}☆</div>
           </div>
         </div>
-        <div slot="details">
-          <ProjectDetails project={project} language={language} year={year} />
-        </div>
+        <ProjectDetails
+          slot="details"
+          project={project}
+          language={language}
+          year={year}
+        />
       </ProjectInteractive>
     );
   })

@@ -1,6 +1,6 @@
-import { useState, type PropsWithChildren, type ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 
-type Props = {
+export type Props = {
   defaultIsOpen: boolean;
   summary: ReactNode;
   details: ReactNode;
