@@ -105,9 +105,6 @@
 .project-table-row:hover .project-table-bar {
   opacity: 0;
 }
-.project-is-open .project-table-row {
-  background: white;
-}
 
 .project-table-bar {
   position: absolute;
