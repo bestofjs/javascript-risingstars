@@ -8,7 +8,7 @@
   },
   "introduction": {
     "table_of_contents": "Daftar Isi",
-    "explanation": "Grafik berikut membandingkan jumlah bintang yang diterima di GitHub selama 12 terakhir. Kami menganalisa proyek-proyek dari {link}, sebuah daftar proyek-proyek terbaik di dunia web. Ingat bahwa anda bisa mengklik salah satu proyek untuk mendapatkan informasi lebih lengkap."
+    "explanation": "Grafik berikut membandingkan jumlah bintang yang diterima di GitHub selama 12 terakhir. Kami menganalisa proyek-proyek dari {{link}}, sebuah daftar proyek-proyek terbaik di dunia web. Ingat bahwa anda bisa mengklik salah satu proyek untuk mendapatkan informasi lebih lengkap."
   },
   "conclusion": "Kesimpulan",
   "categories": {

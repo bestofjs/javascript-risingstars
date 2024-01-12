@@ -20,7 +20,7 @@ const { t } = await useTranslations(language, year);
     <hr />
     <div
       set:html={t("introduction.explanation", {
-        appLink: `<a href="https://bestofjs.org">Best of JS</a>`,
+        link: `<a href="https://bestofjs.org">Best of JS</a>`,
         interpolation: { escapeValue: false },
       })}
       class="explanation"

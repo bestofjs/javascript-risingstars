@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "title": "Dapatkan rangking JS paling baru di inbox setiap minggu",
-    "text": "Daftar untuk newsletter {link} dan anda akan menerima statistik eksklusif tentang proyek JavaScript paling populer setiap minggunya.",
+    "text": "Daftar untuk newsletter {{link}} dan anda akan menerima statistik eksklusif tentang proyek JavaScript paling populer setiap minggunya.",
     "button": "Daftar",
     "placeholder": "Email Anda"
   },

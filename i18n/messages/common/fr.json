@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "title": "Les chiffres de la semaine dans votre boite à lettres",
-    "text": "Abonnez-vous à la newsletter {link}, et vous recevrez toutes les semaines un récapitulatif des dernières tendances de l'univers JavaScript!",
+    "text": "Abonnez-vous à la newsletter {{link}}, et vous recevrez toutes les semaines un récapitulatif des dernières tendances de l'univers JavaScript!",
     "button": "S'abonner",
     "placeholder": "Votre email"
   },

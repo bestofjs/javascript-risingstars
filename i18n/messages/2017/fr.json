@@ -8,7 +8,7 @@
   },
   "introduction": {
     "table_of_contents": "Sommaire",
-    "explanation": "Les chiffres présentés sont les nombres d'étoiles ajoutées sur GitHub au cours de l'année 2017. Les projets présentés proviennent de {link}, une application web qui rassemble toutes les tendances liées au développement web."
+    "explanation": "Les chiffres présentés sont les nombres d'étoiles ajoutées sur GitHub au cours de l'année 2017. Les projets présentés proviennent de {{link}}, une application web qui rassemble toutes les tendances liées au développement web."
   },
   "conclusion": "Conclusion",
   "categories": {

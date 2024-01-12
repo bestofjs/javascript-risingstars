@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "title": "Recibe los últimos rankings de JavaScript en tu email cada semana",
-    "text": "Date de alta en la newsletter de {link} y recibirás estadísticas exclusivas sobre los proyectos más populares de JavaScript cada semana.",
+    "text": "Date de alta en la newsletter de {{link}} y recibirás estadísticas exclusivas sobre los proyectos más populares de JavaScript cada semana.",
     "button": "Suscríbete",
     "placeholder": "Tu email"
   },

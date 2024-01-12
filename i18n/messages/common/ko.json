@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "title": "매주 최신 JS 랭킹을 보내드립니다.",
-    "text": "{link} 뉴스레터를 등록하시면, 매주 더 관심 가질만한 JavaScript 프로젝트를 보내드립니다.",
+    "text": "{{link}} 뉴스레터를 등록하시면, 매주 더 관심 가질만한 JavaScript 프로젝트를 보내드립니다.",
     "button": "등록",
     "placeholder": "당신의 메일을 적어주세요."
   },
