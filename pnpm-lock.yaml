@@ -41,6 +41,9 @@ dependencies:
   astro:
     specifier: 4.1.1
     version: 4.1.1(@types/node@18.19.4)(typescript@5.2.2)
+  astro-font:
+    specifier: ^0.0.72
+    version: 0.0.72
   flat:
     specifier: ^6.0.1
     version: 6.0.1
@@ -1401,6 +1404,10 @@ packages:
 
   /array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+    dev: false
+
+  /astro-font@0.0.72:
+    resolution: {integrity: sha512-FUjIerovSg2lsfJfvvqY23hgvc++gHi69ikFkxm0mqO3MPFykK5ppeUuROUjhNbE6vwdD8MpiJOy1CR5S0g/lQ==}
     dev: false
 
   /astro@4.1.1(@types/node@18.19.4)(typescript@5.2.2):
