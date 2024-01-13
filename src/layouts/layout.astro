@@ -52,9 +52,19 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
       config={[
         {
           src: [],
-          name: "Poppins",
+          name: "Roboto Slab",
           googleFontsURL:
-            "https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700",
+            "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700",
+          preload: true,
+          display: "swap",
+          selector: "body",
+          fallback: "sans-serif",
+        },
+        {
+          src: [],
+          name: "Space Mono",
+          googleFontsURL:
+            "https://fonts.googleapis.com/css?family=Space+Mono:400,400i",
           preload: true,
           display: "swap",
           selector: "body",
