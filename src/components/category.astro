@@ -73,27 +73,25 @@ const isLastYear = year === lastYear;
       }
     </h2>
     <div class={`${hasComment ? "project-category-grid" : ""}`}>
-      <div>
-        <div class={`rankings${hasComment ? " column1" : ""}`}>
-          <ProjectList
-            projects={topProjects}
-            language={language}
-            year={year}
-            openFirstProject={tag === "all"}
-          />
+      <div class={`rankings${hasComment ? " column1" : ""}`}>
+        <ProjectList
+          projects={topProjects}
+          language={language}
+          year={year}
+          openFirstProject={tag === "all"}
+        />
 
-          <button
-            type="button"
-            class="button show-more-button"
-            hx-post=`/${year}/${language}/${tag}/projects`
-            hx-trigger="click"
-            hx-target={`#category-${tag} .rankings`}
-            hx-swap="innerHTML"
-          >
-            SHOW MORE
-            <LoadingIndicator />
-          </button>
-        </div>
+        <button
+          type="button"
+          class="button show-more-button"
+          hx-post=`/${year}/${language}/${tag}/projects`
+          hx-trigger="click"
+          hx-target={`#category-${tag} .rankings`}
+          hx-swap="innerHTML"
+        >
+          SHOW MORE
+          <LoadingIndicator />
+        </button>
       </div>
       <div>
         {
@@ -102,13 +100,11 @@ const isLastYear = year === lastYear;
               {guest && (
                 <Guest guestId={guest} language={language} year={year} />
               )}
-              <div class="tag-card-comments markdown-body">
-                <TranslatedBlock
-                  id={`categories/${tag}`}
-                  language={language}
-                  year={year}
-                />
-              </div>
+              <TranslatedBlock
+                id={`categories/${tag}`}
+                language={language}
+                year={year}
+              />
             </div>
           )
         }
