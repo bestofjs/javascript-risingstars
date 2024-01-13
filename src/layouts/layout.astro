@@ -50,11 +50,7 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
   </head>
   <body class={`year${year}`}>
     <slot />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.6"
-      integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni"
-      crossorigin="anonymous"
-    ></script>
+    <script is:inline src="/htmx.min.js"></script>
   </body>
 </html>
 <style is:global>
