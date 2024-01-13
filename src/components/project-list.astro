@@ -22,7 +22,7 @@ const { projects, openFirstProject, language, year } = Astro.props;
         client:visible
         defaultIsOpen={openFirstProject && index === 0}
       >
-        <div slot="summary" class={`project-table-row`}>
+        <Fragment slot="summary">
           <div class="ranking">{index + 1}</div>
           <div class="inner">
             <div class="icon">
@@ -38,7 +38,7 @@ const { projects, openFirstProject, language, year } = Astro.props;
             </div>
             <div class="stars">+{formatStarNumber(project.delta, 1)}☆</div>
           </div>
-        </div>
+        </Fragment>
         <ProjectDetails
           slot="details"
           project={project}

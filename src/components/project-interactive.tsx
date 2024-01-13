@@ -15,7 +15,12 @@ export default function ProjectInteractive({
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
   return (
     <div className={isOpen ? "project-is-open" : "project-is-closed"}>
-      <div onClick={() => setIsOpen((current) => !current)}>{summary}</div>
+      <div
+        className="project-table-row"
+        onClick={() => setIsOpen((current) => !current)}
+      >
+        {summary}
+      </div>
       {isOpen && <>{details}</>}
     </div>
   );
