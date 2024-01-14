@@ -27,6 +27,7 @@ function getPath(year: number, language: string) {
         id="language-dropdown"
         class="language-dropdown"
         value={getPath(year, currentLanguage)}
+        aria-label="Language"
       >
         {
           languages.map((item) => (
@@ -36,7 +37,9 @@ function getPath(year: number, language: string) {
       </select>
     </div>
     <div class="icon is-left">
-      <img src="/globe.svg" width="24" height="24" alt="language" />
+      <svg width="24" height="24">
+        <use href={`/sprite.svg#globe-icon`}></use>
+      </svg>
     </div>
   </div>
 </div>

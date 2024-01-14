@@ -1,11 +1,11 @@
 ---
 import { useTranslations } from "~/i18n/utils";
-import years from "~/settings/years-setup.json";
 
 import ProjectList from "./project-list.astro";
 import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
 import LoadingIndicator from "./loading-indicator.astro";
+import CategoryNav from "./category-nav.astro";
 
 export interface Props {
   language: string;
@@ -20,58 +20,50 @@ const key = tag.replace(/-/gi, "");
 const { t } = await useTranslations(language, year);
 
 const topProjects = projects.slice(0, limit);
-const extraProjects = projects.slice(limit, count);
 
 const hasComment = !availableComments || availableComments.includes(language);
 
-const firstYear = years.at(0)!.year;
-const lastYear = years.at(-1)!.year;
-const isFirstYear = year === firstYear;
-const isLastYear = year === lastYear;
+const showNav = [
+  "all",
+  "framework",
+  "nodejs-framework",
+  "react",
+  "mobile",
+  "build",
+  "test-framework",
+  "ssg",
+].includes(tag);
 ---
 
 <section class="section" id={`category-${tag}`}>
   <div class={`container${hasComment ? "" : " small-container"}`}>
-    <a id={`section-${tag}`}></a>
-    <h2 class="project-category-header">
-      {
-        !isFirstYear ? (
-          <button
-            type="button"
-            class="button nav-button"
-            hx-post={`/${year - 1}/${language}/${tag}`}
-            hx-trigger="click"
-            hx-target="closest section"
-            hx-swap="outerHTML"
-          >
-            ← {year - 1}
-            <LoadingIndicator />
-          </button>
-        ) : (
-          <span />
-        )
-      }
-      <div class="project-category-header-inner">
-        {t(`categories.${key}`)}
+    <a id={`section-${tag}`} aria-hidden="true"></a>
+    <div class="header">
+      <div class="header-inner">
+        <h2>
+          {t(`categories.${key}`)}
+          <img
+            class="htmx-indicator"
+            width="38"
+            height="38"
+            src="/loading.svg"
+            alt="Loading"
+            style={{
+              position: "absolute",
+              right: "50px",
+              top: "50%",
+              transform: "translateY(-50%)",
+            }}
+          />
+        </h2>
+        {
+          showNav && (
+            <CategoryNav language={language} year={year} category={tag} />
+          )
+        }
       </div>
-      {
-        !isLastYear ? (
-          <button
-            type="button"
-            class="button nav-button"
-            hx-post={`/${year + 1}/${language}/${tag}`}
-            hx-trigger="click"
-            hx-target="closest section"
-            hx-swap="outerHTML"
-          >
-            <LoadingIndicator />
-            {year + 1} →
-          </button>
-        ) : (
-          <span />
-        )
-      }
-    </h2>
+    </div>
+
     <div class={`${hasComment ? "project-category-grid" : ""}`}>
       <div class={`rankings${hasComment ? " column1" : ""}`}>
         <ProjectList
@@ -114,19 +106,33 @@ const isLastYear = year === lastYear;
 </section>
 
 <style>
-  .nav-button {
-    display: inline-flex;
+  .header {
+    font-size: var(--larger-font);
+    border: 1px solid var(--border-color);
+    margin-bottom: calc(var(--spacing) * 2);
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
-    height: 32px;
-    border-width: 0;
-    color: var(--mediumgrey);
+    padding: 20px;
+    position: relative;
   }
-  .nav-button:hover {
-    background-color: transparent;
-    color: var(--linkColor);
+
+  .header-inner {
+    display: flex;
+    gap: 2rem;
   }
-  .htmx-indicator {
-    opacity: 0;
+  h2 {
+    font-size: var(--larger-font);
+    margin: 0;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
   }
 </style>
