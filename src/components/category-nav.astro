@@ -37,6 +37,7 @@ function getRequestURL(year?: number) {
       hx-trigger="click"
       hx-target="closest section"
       hx-swap="outerHTML"
+      hx-indicator="closest .header"
     >
       <svg width="20" height="20">
         <use href={`/sprite.svg#arrow-left-icon`}></use>
@@ -83,6 +84,7 @@ function getRequestURL(year?: number) {
           hx-trigger="click"
           hx-target="closest section"
           hx-swap="outerHTML"
+          hx-indicator="closest .header"
         >
           <svg width="20" height="20">
             <use href={`/sprite.svg#arrow-right-icon`} />
