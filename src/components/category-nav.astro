@@ -14,7 +14,7 @@ const hasPreviousYear = year > years.at(0);
 const hasNextYear = year < years.at(-1);
 
 function getRequestURL(year?: number) {
-  const endPoint = `/partials/category`;
+  const endPoint = `/partials/get-category`;
   const searchParams = new URLSearchParams({
     category,
     language,
