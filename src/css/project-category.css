@@ -21,29 +21,6 @@
   }
 }
 
-.project-category-header {
-  font-size: var(--larger-font);
-  border: 1px solid var(--border-color);
-  margin-bottom: calc(var(--spacing) * 2);
-  text-align: center;
-  background: var(--bg-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project-category-header-inner {
-  display: block;
-  text-align: center;
-  z-index: 10;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--spacing);
-  background: var(--bg-color);
-}
-
 .project-table-row {
   position: relative;
   display: flex;

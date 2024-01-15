@@ -1,0 +1,137 @@
+---
+import { getCollection } from "astro:content";
+
+export interface Props {
+  year: number;
+  language: string;
+  category: string;
+}
+
+const { language, year, category } = Astro.props;
+
+const years = await getAvailableYears();
+const hasPreviousYear = year > years.at(0);
+const hasNextYear = year < years.at(-1);
+
+async function getAvailableYears() {
+  const items = await getCollection("categories");
+  return items
+    .filter((item) => item.data.find((cat) => cat.key === category))
+    .map((item) => parseInt(item.id, 10));
+}
+
+function getRequestURL(year?: number) {
+  const endPoint = `/partials/get-category`;
+  const searchParams = new URLSearchParams({
+    category,
+    language,
+  });
+  if (year) {
+    searchParams.set("year", year.toString()); // when using `<select>`, `year` is added automatically by htmx
+  }
+  return `${endPoint}/?${searchParams.toString()}`;
+}
+---
+
+<nav>
+  <img
+    class="loading-indicator"
+    width="36"
+    height="36"
+    src="/loading.svg"
+    alt="Loading"
+  />
+  <div class="control has-icons-right">
+    <div class="select">
+      <select
+        name="year"
+        aria-label="Year"
+        hx-get={getRequestURL()}
+        hx-trigger="change"
+        hx-target="closest section"
+        hx-swap="outerHTML"
+        hx-indicator="closest section"
+      >
+        {
+          years.map((y) => {
+            return y === year ? (
+              <option selected>{year}</option>
+            ) : (
+              <option value={y}>{y}</option>
+            );
+          })
+        }
+      </select>
+      <div class="icon is-right">
+        <svg width="24" height="24">
+          <use href={`/sprite.svg#chevron-down-icon`}></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button
+      type="button"
+      class="button"
+      disabled={!hasPreviousYear}
+      aria-label="Previous year"
+      title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
+      hx-get={getRequestURL(year - 1)}
+      hx-trigger="click"
+      hx-target="closest section"
+      hx-swap="outerHTML"
+      hx-indicator="closest section"
+    >
+      <svg width="20" height="20">
+        <use href={`/sprite.svg#arrow-left-icon`}></use>
+      </svg>
+    </button>
+
+    <button
+      type="button"
+      class="button"
+      disabled={!hasNextYear}
+      aria-label="Next year"
+      title={hasNextYear ? `Go to ${year + 1}` : undefined}
+      hx-get={getRequestURL(year + 1)}
+      hx-trigger="click"
+      hx-target="closest section"
+      hx-swap="outerHTML"
+      hx-indicator="closest section"
+    >
+      <svg width="20" height="20">
+        <use href={`/sprite.svg#arrow-right-icon`}></use>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-color: var(--grey3);
+    height: 36px;
+    width: 36px;
+    color: inherit;
+  }
+  button[disabled] {
+    color: var(--grey3);
+  }
+  .select select {
+    background-color: transparent;
+  }
+  .select:hover select {
+    background-color: white;
+  }
+  .select:hover .icon {
+    color: var(--orange);
+  }
+</style>

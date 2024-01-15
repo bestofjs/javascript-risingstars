@@ -48,13 +48,13 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
   <YearNavigator year={year} allYears={allYears} />
   <Banner year={year} language={language} />
   <Introduction year={year!} language={language!} />
-  <TableOfContent
-    projects={projectsByTag}
-    categories={categories}
-    year={year}
-    language={language}
-  />
   <div class="main">
+    <TableOfContent
+      projects={projectsByTag}
+      categories={categories}
+      year={year}
+      language={language}
+    />
     {
       categories
         .filter((category) => !category.disabled)
