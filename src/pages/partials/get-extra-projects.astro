@@ -1,8 +1,8 @@
 ---
-// GET request made when navigating between years, inside a category
-// /partials/category/?category=framework&language=en&year=2022
+// GET request made when pushing the "Show more" button
+// /partials/get-extra-projects/?category=framework&language=en&year=2022
 import { z } from "astro:content";
-import Category from "~/components/category.astro";
+import ProjectList from "~/components/project-list.astro";
 import { fetchPageProps } from "~/fetch-page-props";
 
 export const partial = true;
@@ -12,6 +12,7 @@ const searchSchema = z.object({
   year: z.coerce.number().int().min(2016).max(2023),
   category: z.string(),
   language: z.string(),
+  offset: z.coerce.number().int().default(5),
 });
 
 const url = new URL(Astro.request.url);
@@ -21,21 +22,28 @@ const {
   year,
   category: categorySlug,
   language,
+  offset,
 } = searchSchema.parse({
   year: searchParams.get("year"),
   category: searchParams.get("category"),
   language: searchParams.get("language"),
+  offset: searchParams.get("offset"),
 });
 
-const { projectsByTag, categories } = await fetchPageProps(year, language!);
+const { projectsByTag } = await fetchPageProps(year, language);
 
-const projects = projectsByTag[categorySlug];
-const category = categories.find((cat) => cat.key === categorySlug);
+const allProjects = projectsByTag[categorySlug];
+const extraProjects = allProjects.slice(offset);
+console.log(
+  offset,
+  extraProjects.map((p) => p.name)
+);
 ---
 
-<Category
-  projects={projects}
+<ProjectList
+  projects={extraProjects}
   year={year}
   language={language}
-  category={category}
+  offset={offset}
+  starDeltaReference={allProjects[0].delta}
 />

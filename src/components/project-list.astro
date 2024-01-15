@@ -6,24 +6,33 @@ import ProjectDetails from "./project-details.astro";
 
 interface Props {
   projects: RisingStars.Project[];
-  openFirstProject: boolean;
   language: string;
   year: number;
+  openFirstProject?: boolean;
+  offset?: number;
+  starDeltaReference: number;
 }
 
-const { projects, openFirstProject, language, year } = Astro.props;
+const {
+  projects,
+  openFirstProject = false,
+  offset = 0,
+  language,
+  year,
+  starDeltaReference,
+} = Astro.props;
 ---
 
 {
   projects.map((project, index) => {
-    const widthPercent = ((project.delta / projects[0].delta) * 100).toFixed();
+    const widthPercent = ((project.delta / starDeltaReference) * 100).toFixed();
     return (
       <ProjectInteractive
         client:visible
         defaultIsOpen={openFirstProject && index === 0}
       >
         <Fragment slot="summary">
-          <div class="ranking">{index + 1}</div>
+          <div class="ranking">{offset + index + 1}</div>
           <div class="inner">
             <div class="icon">
               <ProjectAvatar project={project} size={50} />

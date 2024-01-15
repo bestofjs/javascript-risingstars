@@ -22,6 +22,17 @@ const { t } = await useTranslations(language, year);
 const topProjects = projects.slice(0, limit);
 
 const hasComment = !availableComments || availableComments.includes(language);
+
+function getExtraProjectsURL() {
+  const endPoint = `/partials/get-extra-projects`;
+  const searchParams = new URLSearchParams({
+    category: tag,
+    language,
+    year: year.toString(),
+    offset: limit.toString(),
+  });
+  return `${endPoint}/?${searchParams.toString()}`;
+}
 ---
 
 <section class="section" id={`category-${tag}`}>
@@ -41,15 +52,16 @@ const hasComment = !availableComments || availableComments.includes(language);
           language={language}
           year={year}
           openFirstProject={tag === "all"}
+          starDeltaReference={projects[0].delta}
         />
 
         <button
           type="button"
           class="button show-more-button"
-          hx-get=`/${year}/${language}/${tag}/get-projects`
+          hx-get={getExtraProjectsURL()}
           hx-trigger="click"
-          hx-target={`#category-${tag} .rankings`}
-          hx-swap="innerHTML"
+          hx-target="this"
+          hx-swap="outerHTML"
         >
           SHOW MORE
           <LoadingIndicator />
