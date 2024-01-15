@@ -61,7 +61,8 @@
   "2023": {
     "authors": ["michaelrambeau"],
     "translators": {
-      "es": ["jvalen"]
+      "es": ["jvalen"],
+      "zh": ["poozhu"]
     }
   }
 }

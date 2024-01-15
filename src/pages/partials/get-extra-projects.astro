@@ -34,10 +34,6 @@ const { projectsByTag } = await fetchPageProps(year, language);
 
 const allProjects = projectsByTag[categorySlug];
 const extraProjects = allProjects.slice(offset);
-console.log(
-  offset,
-  extraProjects.map((p) => p.name)
-);
 ---
 
 <ProjectList
