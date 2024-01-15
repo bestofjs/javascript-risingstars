@@ -1,3 +1,4 @@
+import { getEntry } from "astro:content";
 import fs from "fs-extra";
 import path from "path";
 
@@ -67,11 +68,7 @@ export async function getProjectData(year: number) {
 }
 
 async function getCategories(year: number) {
-  const filepath = path.join(
-    process.cwd(),
-    "data",
-    year.toString(),
-    "categories.json"
-  );
-  return fs.readJSON(filepath);
+  const item = await getEntry("categories", year.toString());
+  if (!item) throw new Error(`No categories found for year ${year}`);
+  return item.data;
 }

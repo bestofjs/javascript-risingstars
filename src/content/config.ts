@@ -33,6 +33,7 @@ const categoryCollection = defineCollection({
       count: z.number().optional(),
       tags: z.array(z.string()).optional(),
       excluded: z.array(z.string()).optional(),
+      availableComments: z.array(z.string()).optional(),
     })
   ),
 });
