@@ -19,6 +19,12 @@
   color: #fbf3ef;
 }
 
+.TranslatorSection .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .translator-list-item {
   display: flex;
   align-items: center;

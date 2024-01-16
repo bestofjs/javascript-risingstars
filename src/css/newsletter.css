@@ -46,7 +46,6 @@
   border: 1px solid var(--border-color);
   border-radius: 3px;
   padding: 10px 20px;
-  cursor: pointer;
   display: block;
   color: var(--active-color);
   text-align: center;
@@ -56,11 +55,22 @@
   white-space: nowrap;
   font-size: 1rem;
 }
-.button:hover {
+.button:not([disabled]) {
+  cursor: pointer;
+}
+.button:not([disabled]):hover {
   background: var(--hover-color);
   color: var(--active-color);
 }
 .button.large-button {
   padding: 20px 10px;
   font-size: var(--large-font);
+}
+.show-more-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 1rem;
 }

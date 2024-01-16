@@ -8,7 +8,7 @@
   },
   "introduction": {
     "table_of_contents": "목차",
-    "explanation": "아래 그래프는 지난 12개월 동안 Github에서 받은 star의 수를 비교/분석한 것이며, {link}에서는 웹 플랫폼과 관련하여 선정된 여러 프로젝트들을 볼 수 있습니다. 자세한 사항은 각 프로젝트를 클릭해주세요."
+    "explanation": "아래 그래프는 지난 12개월 동안 Github에서 받은 star의 수를 비교/분석한 것이며, {{link}}에서는 웹 플랫폼과 관련하여 선정된 여러 프로젝트들을 볼 수 있습니다. 자세한 사항은 각 프로젝트를 클릭해주세요."
   },
   "conclusion": "결론",
   "categories": {

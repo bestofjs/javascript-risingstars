@@ -1,0 +1,72 @@
+---
+import flatten from "lodash/flatten";
+
+import Layout from "~/layouts/layout.astro";
+import Header from "~/components/header/header.astro";
+import Banner from "~/components/top-banner.astro";
+import Introduction from "~/components/introduction.astro";
+import TableOfContent from "~/components/table-of-content.astro";
+import YearNavigator from "~/components/year-navigator.astro";
+import Category from "~/components/category.astro";
+import Conclusion from "~/components/conclusion.astro";
+import TeamSection from "~/components/team-section.astro";
+import Footer from "~/components/footer.astro";
+
+import settings from "~/settings/years-setup.json";
+import allLanguages from "~/settings/languages.json";
+import { fetchPageProps } from "~/fetch-page-props";
+
+type YearSetting = { year: number; languages: string[] };
+
+export function getStaticPaths() {
+  const paths = flatten(
+    settings.map(({ year, languages }) =>
+      languages.map((language) => ({ year: year.toString(), language }))
+    )
+  ).map(({ year, language }) => ({ params: { year, language } }));
+  return paths;
+}
+
+const { year: yearParam, language } = Astro.params;
+const year = parseInt(yearParam!, 0);
+
+const allYears = (settings as YearSetting[]).map((item) => item.year);
+
+const languageCodes =
+  (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
+  [];
+
+const languages = languageCodes.map((code) =>
+  allLanguages.find((item) => item.code === code)
+) as RisingStars.Language[];
+
+const { categories, projectsByTag } = await fetchPageProps(year, language);
+---
+
+<Layout year={year} language={language}>
+  <Header year={year} language={language!} availableLanguages={languages} />
+  <YearNavigator year={year} allYears={allYears} />
+  <Banner year={year} language={language} />
+  <Introduction year={year!} language={language!} />
+  <div class="main">
+    <TableOfContent
+      projects={projectsByTag}
+      categories={categories}
+      year={year}
+      language={language}
+    />
+    {
+      categories.map((category) => (
+        <Category
+          category={category}
+          projects={projectsByTag[category.key]}
+          language={language}
+          year={year}
+        />
+      ))
+    }
+  </div>
+  <Conclusion year={year} language={language} />
+  <TeamSection year={year} language={language} availableLanguages={languages} />
+  <Footer />
+</Layout>

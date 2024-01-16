@@ -1,0 +1,72 @@
+---
+import contributorsByYear from "~/settings/contributors.json";
+import TeamMember from "~/components/team-member.astro";
+import { getCollection } from "astro:content";
+
+export interface Props {
+  year: number;
+  language: string;
+  availableLanguages: RisingStars.Language[];
+}
+const { year, language, availableLanguages } = Astro.props;
+
+const contributors = await getCollection("contributors");
+
+function getContributorByUserName(userName: string) {
+  return contributors.find((member) => member.data.userName === userName);
+}
+
+const translations = {
+  ja: "Japanese version",
+  zh: "Chinese (simplified) version",
+  es: "Spanish version",
+  id: "Bahasa Indonesia",
+  ru: "Russian version",
+  ko: "Korean version",
+};
+
+const thisYearTranslators = (
+  contributorsByYear[year.toString()]?.translators?.[language] || []
+).map(getContributorByUserName);
+
+const thisYearAuthors = contributorsByYear[year.toString()]?.authors.map(
+  getContributorByUserName
+);
+---
+
+<section class="TranslatorSection">
+  <div class="container small-container">
+    {
+      thisYearTranslators.length > 0 && (
+        <div>
+          <p class="member-list-header">{translations[language]}</p>
+          <div class="translator-list">
+            {thisYearTranslators.map((translator) => (
+              <TeamMember member={translator} />
+            ))}
+          </div>
+        </div>
+      )
+    }
+    <div>
+      <p class="member-list-header">Authors</p>
+      <div class="translator-list">
+        {thisYearAuthors.map((author) => <TeamMember member={author} />)}
+      </div>
+    </div>
+    {
+      availableLanguages.length > 1 && (
+        <div class="available-languages">
+          <p class="member-list-header">Available Translations</p>
+          {availableLanguages
+            .filter((lang) => lang.code !== language)
+            .map((lang) => (
+              <p>
+                <a href={`/${year}/${lang.code}`}>{lang.text}</a>
+              </p>
+            ))}
+        </div>
+      )
+    }
+  </div>
+</section>

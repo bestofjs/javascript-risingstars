@@ -1,0 +1,76 @@
+[
+  {
+    "key": "all",
+    "limit": 10,
+    "count": 50
+  },
+  {
+    "key": "framework",
+    "count": 20
+  },
+  {
+    "key": "nodejs-framework",
+    "tags": ["nodejs-framework"],
+    "count": 20
+  },
+  {
+    "key": "build",
+    "limit": 5,
+    "count": 10,
+    "guest": "slorber"
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "storybook", "vite"],
+    "guest": "antfu"
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook"],
+    "guest": "mvila"
+  },
+  {
+    "key": "css-in-js",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "test-framework",
+    "tags": ["test", "test-framework", "auto"],
+    "excluded": ["json-server"],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "mobile",
+    "excluded": [],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "desktop",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "ssg",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "statemanagement",
+    "tags": ["state"],
+    "limit": 5,
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "graphql",
+    "count": 10,
+    "excluded": ["react-query"],
+    "availableComments": []
+  }
+]

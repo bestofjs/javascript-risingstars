@@ -66,6 +66,10 @@
   margin-top: 5px;
   text-align: center;
 }
+.project-chart-no-data {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
 
 .guest {
   display: flex;

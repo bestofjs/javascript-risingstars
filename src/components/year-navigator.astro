@@ -1,0 +1,81 @@
+---
+export interface Props {
+  allYears: number[];
+  year: number;
+}
+
+const { allYears, year: activeYear } = Astro.props;
+
+const hasPreviousYear = activeYear !== allYears[0];
+const hasNextYear = activeYear !== allYears[allYears.length - 1];
+
+function abbreviateYear(year: number) {
+  return "’" + year.toString().slice(2);
+}
+---
+
+<div class="year-menu-container">
+  <div class="container small-container">
+    <div class="year-menu">
+      {
+        hasPreviousYear && (
+          <a href={`/${activeYear - 1}/en`} class="mobile-link">
+            ← {activeYear - 1}
+          </a>
+        )
+      }
+      {
+        allYears.map((year) =>
+          activeYear === year ? (
+            <div class="active">{year}</div>
+          ) : (
+            <a href={`/${year}/en`} class="desktop-link">
+              {abbreviateYear(year)}
+            </a>
+          )
+        )
+      }
+      {
+        hasNextYear && (
+          <a href={`/${activeYear + 1}/en`} class="mobile-link">
+            {activeYear + 1}  →
+          </a>
+        )
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  .year-menu {
+    display: flex;
+    width: 100%;
+    height: 38px;
+  }
+  .year-menu > * {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Space Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .year-menu > .active {
+    background-color: #e65000;
+    color: white;
+  }
+
+  /* Don't show all years on small screens */
+  @media (max-width: 599px) {
+    .year-menu > .desktop-link {
+      display: none;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .year-menu > .mobile-link {
+      display: none;
+    }
+  }
+</style>
