@@ -1,7 +1,7 @@
 ---
-// GET request made when navigating between years, inside a category
-// /partials/category/?category=framework&language=en&year=2022
-import { getEntry, z } from "astro:content";
+// GET request made to lazy load categories
+import flatten from "lodash/flatten";
+import { getCollection, z } from "astro:content";
 import settings from "~/settings/years-setup.json";
 
 import Category from "~/components/category.astro";
@@ -11,13 +11,31 @@ export const partial = true;
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const currentYear = settings.find((year) => year.current)!.year;
-  const collectionItem = await getEntry("categories", currentYear.toString());
-  const categorySlugs = collectionItem!.data.map((item) => item.key);
-  const paths = categorySlugs.map((category) => ({
-    params: { category, year: currentYear, language: "en" },
+  const collectionItems = await getCollection("categories");
+  const paths = flatten(
+    flatten(
+      settings.map(({ year, languages }) =>
+        languages.map((language) => {
+          const collectionItem = collectionItems.find(
+            (item) => item.id === year.toString()
+          );
+          const categorySlugs = collectionItem!.data.map((item) => item.key);
+          return categorySlugs.map((category) => ({
+            year: year.toString(),
+            language,
+            category,
+          }));
+        })
+      )
+    )
+  );
+  return paths.map(({ year, language, category }) => ({
+    params: {
+      year,
+      language,
+      category,
+    },
   }));
-  return paths;
 }
 
 const searchSchema = z.object({
