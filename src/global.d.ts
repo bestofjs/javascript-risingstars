@@ -34,7 +34,6 @@ declare namespace RisingStars {
     excluded?: Project["slug"][];
     guest?: string;
     availableComments?: string[];
-    disabled?: boolean;
   };
 
   type Language = {

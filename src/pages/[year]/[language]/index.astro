@@ -56,16 +56,14 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
       language={language}
     />
     {
-      categories
-        .filter((category) => !category.disabled)
-        .map((category) => (
-          <Category
-            category={category}
-            projects={projectsByTag[category.key]}
-            language={language}
-            year={year}
-          />
-        ))
+      categories.map((category) => (
+        <Category
+          category={category}
+          projects={projectsByTag[category.key]}
+          language={language}
+          year={year}
+        />
+      ))
     }
   </div>
   <Conclusion year={year} language={language} />

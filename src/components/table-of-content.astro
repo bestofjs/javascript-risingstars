@@ -22,25 +22,23 @@ function getMinCount(count: number, index: number) {
 
   <ol>
     {
-      categories
-        .filter((item) => !item.disabled)
-        .map((item, i) => {
-          const key = item.key.replace(/-/gi, "");
-          return (
-            <li>
-              <a class="toc-link" href={`#section-${item.key}`}>
-                <span class="toc-link-label">{t(`categories.${key}`)}</span>
-                <div class="toc-projects">
-                  {projects[item.key]
-                    .slice(0, getMinCount(item.count, i))
-                    .map((project) => (
-                      <ProjectAvatar project={project} size={30} />
-                    ))}
-                </div>
-              </a>
-            </li>
-          );
-        })
+      categories.map((item, i) => {
+        const key = item.key.replace(/-/gi, "");
+        return (
+          <li>
+            <a class="toc-link" href={`#section-${item.key}`}>
+              <span class="toc-link-label">{t(`categories.${key}`)}</span>
+              <div class="toc-projects">
+                {projects[item.key]
+                  .slice(0, getMinCount(item.count, i))
+                  .map((project) => (
+                    <ProjectAvatar project={project} size={30} />
+                  ))}
+              </div>
+            </a>
+          </li>
+        );
+      })
     }
     <li>
       <a class="toc-link toc-link-conclusion" href={`#conclusion`}>
