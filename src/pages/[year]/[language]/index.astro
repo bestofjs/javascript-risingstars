@@ -16,6 +16,7 @@ import HtmxStyles from "~/components/htmx-styles.astro";
 import settings from "~/settings/years-setup.json";
 import allLanguages from "~/settings/languages.json";
 import { fetchPageProps } from "~/fetch-page-props";
+import LoadingIndicator from "~/components/loading-indicator.astro";
 
 type YearSetting = { year: number; languages: string[] };
 
@@ -42,6 +43,21 @@ const languages = languageCodes.map((code) =>
 ) as RisingStars.Language[];
 
 const { categories, projectsByTag } = await fetchPageProps(year, language);
+
+const topCategoryCount = 7; // categories loaded eagerly
+
+function getRequestURL(category: string) {
+  const endPoint = `/partials/get-category`;
+  const searchParams = new URLSearchParams({
+    category,
+    language,
+    year: year.toString(),
+  });
+  if (year) {
+    searchParams.set("year", year.toString()); // when using `<select>`, `year` is added automatically by htmx
+  }
+  return `${endPoint}/?${searchParams.toString()}`;
+}
 ---
 
 <Layout year={year} language={language}>
@@ -57,13 +73,29 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
       language={language}
     />
     {
-      categories.map((category) => (
-        <Category
-          category={category}
-          projects={projectsByTag[category.key]}
-          language={language}
-          year={year}
-        />
+      categories
+        .slice(0, topCategoryCount)
+        .map((category) => (
+          <Category
+            category={category}
+            projects={projectsByTag[category.key]}
+            language={language}
+            year={year}
+          />
+        ))
+    }
+    {
+      categories.slice(topCategoryCount).map((category) => (
+        <div hx-get={getRequestURL(category.key)} hx-trigger="revealed">
+          <section class="section" id={`category-${category.key}`}>
+            <div class={`container small-container`}>
+              <a id={`section-${category.key}`} aria-hidden="true" />
+              <div class="skeleton">
+                <LoadingIndicator width={76} height={76} />
+              </div>
+            </div>
+          </section>
+        </div>
       ))
     }
   </div>
@@ -77,3 +109,14 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
 </Layout>
 
 <HtmxStyles />
+
+<style>
+  .skeleton {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+  }
+</style>
