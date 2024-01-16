@@ -33,7 +33,7 @@ Special thanks:
 
 ## Stack
 
-- Built with [Next.js](https://nextjs.org/)
+- Built with [Astro](https://astro.build/)
 - Hosted on [Vercel](https://vercel.com/)
 - Domain provided by [js.org](https://dns.js.org/)
 
@@ -44,41 +44,42 @@ Requirements: [PNPM](https://pnpm.io/), Node.js 18+
 - Clone the repo
 - Install the dependencies: `pnpm install`
 - Start the development server: `pnpm run dev`
-- Check the following URL: `http://localhost:3000/`
+- Check the following URL: `http://localhost:4321/`
 - Update the comments in your language (see below)
 
 ## Translations
 
-The content to translate are located in the `i18n` folder.
-
 There are 2 types of file to translate:
 
-- markdown content inside the `md` folder
-- key/values messages stored as JSON in the `messages` folder
+- markdown content inside the `src/content/comments` folder (handled using Astro [content collection](https://docs.astro.build/en/guides/content-collections/)) feature)
+- key/values messages stored as JSON in the `i18n/messages` folder
 
 ```
 ./i18n
-├── md
-│   └── collections
-│       └── 2020
-│           └── en
-│               ├── categories
-│               │   ├── all.md
-│               │   ├── angular.md
-│               │   ├── build.md
-│               │   ├── framework.md
-│               │   ├── nodejs-framework.md
-│               │   ├── react.md
-│               │   └── vue.md
-│               ├── conclusion.md
-│               ├── guests
-│               │   ├── atinux.md
-│               │   ├── bblackwo.md
-│               │   └── leerob.md
-│               └── introduction.md
 └── messages
-    ├── 2020
+    ├── 2024
     │   └── en.json
     └── common
         ├── en.json
+```
+
+```
+./src
+└── content
+   └── comments
+       └── 2024
+           └── en
+               ├── categories
+               │   ├── all.md
+               │   ├── build.md
+               │   ├── framework.md
+               │   ├── nodejs-framework.md
+               │   ├── react.md
+               │   └── vue.md
+               ├── conclusion.md
+               ├── guests
+               │   ├── atinux.md
+               │   ├── bblackwo.md
+               │   └── leerob.md
+               └── introduction.md
 ```

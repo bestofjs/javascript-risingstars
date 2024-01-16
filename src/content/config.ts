@@ -1,3 +1,4 @@
+import { string } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
 // type Category = {
@@ -34,6 +35,7 @@ const categoryCollection = defineCollection({
       tags: z.array(z.string()).optional(),
       excluded: z.array(z.string()).optional(),
       availableComments: z.array(z.string()).optional(),
+      guest: z.string().optional(),
     })
   ),
 });
