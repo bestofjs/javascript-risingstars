@@ -72,15 +72,15 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
         },
       ]}
     />
+  </head>
+  <body class={`year${year}`}>
+    <slot />
+    <script is:inline src="/htmx.min.js"></script>
     <script
       data-goatcounter="https://risingstars.goatcounter.com/count"
       async
       src="//gc.zgo.at/count.js"
     ></script>
-  </head>
-  <body class={`year${year}`}>
-    <slot />
-    <script is:inline src="/htmx.min.js"></script>
     <style is:global>
       :root {
         --spacing: 20px;
