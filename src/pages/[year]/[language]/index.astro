@@ -11,6 +11,7 @@ import Category from "~/components/category.astro";
 import Conclusion from "~/components/conclusion.astro";
 import TeamSection from "~/components/team-section.astro";
 import Footer from "~/components/footer.astro";
+import HtmxStyles from "~/components/htmx-styles.astro";
 
 import settings from "~/settings/years-setup.json";
 import allLanguages from "~/settings/languages.json";
@@ -70,3 +71,5 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
   <TeamSection year={year} language={language} availableLanguages={languages} />
   <Footer />
 </Layout>
+
+<HtmxStyles />

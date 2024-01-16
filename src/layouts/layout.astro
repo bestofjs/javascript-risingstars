@@ -357,21 +357,6 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
         border-left: 3px solid var(--light-border-color);
         font-style: italic;
       }
-
-      .loading-indicator {
-        display: none;
-      }
-
-      .htmx-request .loading-indicator {
-        display: block;
-      }
-      /* Hide nav controls on mobile during loading to avoid layout shift */
-      @media screen and (max-width: 768px) {
-        .htmx-request .button,
-        .htmx-request .select {
-          display: none;
-        }
-      }
     </style>
   </body>
 </html>
