@@ -21,7 +21,7 @@
 }
 
 #logo {
-  color: #f76b15;
+  display: flex;
 }
 
 .language-column {

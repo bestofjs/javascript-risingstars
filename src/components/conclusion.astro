@@ -1,0 +1,22 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import TranslatedBlock from "./translated-block.astro";
+
+export interface Props {
+  year: number;
+  language: string;
+}
+const { year, language } = Astro.props;
+const { t } = await useTranslations(language, year);
+---
+
+<div class="container small-container" id="conclusion">
+  <div class="small-card conclusion">
+    <div class="small-card-header">
+      <h2 class="tag-card-header-text">{t("conclusion")}</h2>
+    </div>
+    <div class="markdown-body">
+      <TranslatedBlock id="conclusion" year={year} language={language} />
+    </div>
+  </div>
+</div>

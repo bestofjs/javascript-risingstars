@@ -1,0 +1,29 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import TranslatedBlock from "./translated-block.astro";
+
+export interface Props {
+  language: string;
+  year: number;
+}
+
+const { language, year } = Astro.props;
+
+const { t } = await useTranslations(language, year);
+---
+
+<div class="container small-container">
+  <div class="top-with-banner-introduction">
+    <div class="introduction-text">
+      <TranslatedBlock id="introduction" language={language} year={year} />
+    </div>
+    <hr />
+    <div
+      set:html={t("introduction.explanation", {
+        link: `<a href="https://bestofjs.org">Best of JS</a>`,
+        interpolation: { escapeValue: false },
+      })}
+      class="explanation"
+    />
+  </div>
+</div>

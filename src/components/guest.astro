@@ -1,0 +1,25 @@
+---
+import TranslatedBlock from "./translated-block.astro";
+
+export interface Props {
+  guestId: string;
+  year: number;
+  language: string;
+}
+const { year, language, guestId } = Astro.props;
+---
+
+<div class="guest">
+  <div class="guest-blurb">
+    <TranslatedBlock id={`guests/${guestId}`} year={year} language={language} />
+  </div>
+  <div class="guest-portrait">
+    <img
+      src={`/img/guests/${guestId}.jpg`}
+      width="120"
+      height="120"
+      alt={`Guest Writer ${guestId}`}
+      loading="lazy"
+    />
+  </div>
+</div>

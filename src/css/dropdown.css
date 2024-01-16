@@ -23,6 +23,7 @@ https://bulma.io/documentation/form/select/
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 1rem;
+  font-family: "Space Mono", monospace;
   height: 2.25em;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
@@ -51,9 +52,12 @@ https://bulma.io/documentation/form/select/
 .control.has-icons-left .icon.is-left {
   left: 0;
 }
+.control.has-icons-right .icon.is-right {
+  right: 0;
+}
 .control.has-icons-left .icon,
 .control.has-icons-right .icon {
-  color: #dbdbdb;
+  /* color: #dbdbdb; */
   height: 2.25em;
   pointer-events: none;
   position: absolute;
@@ -79,4 +83,9 @@ https://bulma.io/documentation/form/select/
 .control.has-icons-left .input,
 .control.has-icons-left .select select {
   padding-left: 2.25em;
+}
+
+.control.has-icons-right .input,
+.control.has-icons-right .select select {
+  padding-right: 2.25em;
 }

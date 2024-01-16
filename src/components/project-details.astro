@@ -1,0 +1,125 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import { formatStarNumber } from "./project-shared";
+import ProjectChart from "./project-chart.astro";
+
+export interface Props {
+  project: RisingStars.Project;
+  language: string;
+  year: number;
+}
+
+const { project, language, year } = Astro.props;
+const { url, full_name, stars, slug } = project;
+
+const bestOfJsURL = `https://bestofjs.org/projects/${slug}`;
+
+function formatProjectCreationDate(project: RisingStars.Project) {
+  const date = project.created_at;
+  const yearAndMonth = date.slice(0, 7); // TODO format using i18n
+  return yearAndMonth;
+}
+
+function formatURL(url: string) {
+  const result = url.replace(/\/$/, "").toLowerCase();
+  return result.replace(/^https?:\/\/(.*)$/, "$1");
+}
+
+const { t } = await useTranslations(language, year);
+---
+
+<div class="project-details">
+  <div class="project-details-inner">
+    <h4>
+      {t("common.view_project.trends", { year })}
+    </h4>
+    <ProjectChart project={project} language={language} year={year} />
+    <h4>
+      {t("common.view_project.data", { defaultValue: "GitHub data" })}
+    </h4>
+    <ul class="data-list">
+      <li>
+        <div class="data-list-item-label">
+          {t("common.view_project.created", { defaultValue: "Created" })}
+        </div>
+        <div class="data-list-item-data">
+          {formatProjectCreationDate(project)}
+        </div>
+      </li>
+      <li>
+        <div class="data-list-item-label">
+          {
+            t("common.view_project.stars_total", {
+              defaultValue: "Total stars",
+            })
+          }
+        </div>
+        <div class="data-list-item-data">
+          {formatStarNumber(stars, 1)}☆
+        </div>
+      </li>
+    </ul>
+    <h4>
+      {t("common.view_project.links", { defaultValue: "Links" })}
+    </h4>
+    <ul>
+      <li>
+        <div class="data-list-item-label">GitHub</div>
+        <a href={`https://github.com/${full_name}`}>{full_name}</a>
+      </li>
+      {
+        url && (
+          <li>
+            <div class="data-list-item-label">
+              {t("common.view_project.homepage", { defaultValue: "Homepage" })}
+            </div>
+            <div class="data-list-item-data">
+              <a href={url}>{formatURL(url)}</a>
+            </div>
+          </li>
+        )
+      }
+      <li>
+        <div class="data-list-item-label">Best of JS</div>
+        <div class="data-list-item-data">
+          <a href={bestOfJsURL}>{formatURL(bestOfJsURL)}</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  h4 {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px dashed var(--grey3);
+    text-align: center;
+    font-size: var(--smallish-font);
+    color: var(--mediumgrey);
+    padding: 2px 0;
+  }
+
+  ul {
+    margin: 0 0 5px;
+    padding-left: 0px;
+    font-size: var(--smallish-font);
+  }
+
+  li {
+    list-style: none;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .data-list-item-data {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .data-list-item-label {
+    flex-basis: 100px;
+    flex-shrink: 0;
+  }
+</style>

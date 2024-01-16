@@ -1,0 +1,24 @@
+---
+export type Props = {
+  year: number;
+  languages: RisingStars.Language[];
+  currentLanguage: string;
+};
+
+const { year, languages, currentLanguage } = Astro.props;
+---
+
+<div class="language-menu">
+  {
+    languages.map((lang) => {
+      if (currentLanguage === lang.code) {
+        return <span class="language-menu-item is-active">{lang.text}</span>;
+      }
+      return (
+        <a href={`/${year}/${lang.code}`} class="language-menu-item">
+          {lang.text}
+        </a>
+      );
+    })
+  }
+</div>
