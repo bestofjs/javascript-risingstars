@@ -45,19 +45,6 @@ const languages = languageCodes.map((code) =>
 const { categories, projectsByTag } = await fetchPageProps(year, language);
 
 const topCategoryCount = 7; // categories loaded eagerly
-
-function getRequestURL(category: string) {
-  const endPoint = `/partials/get-category`;
-  const searchParams = new URLSearchParams({
-    category,
-    language,
-    year: year.toString(),
-  });
-  if (year) {
-    searchParams.set("year", year.toString()); // when using `<select>`, `year` is added automatically by htmx
-  }
-  return `${endPoint}/?${searchParams.toString()}`;
-}
 ---
 
 <Layout year={year} language={language}>
@@ -86,7 +73,10 @@ function getRequestURL(category: string) {
     }
     {
       categories.slice(topCategoryCount).map((category) => (
-        <div hx-get={getRequestURL(category.key)} hx-trigger="revealed">
+        <div
+          hx-get={`/${year}/${language}/${category.key}`}
+          hx-trigger="revealed"
+        >
           <section class="section" id={`category-${category.key}`}>
             <div class={`container small-container`}>
               <a id={`section-${category.key}`} aria-hidden="true" />
@@ -112,7 +102,7 @@ function getRequestURL(category: string) {
 
 <style>
   .skeleton {
-    height: 400px;
+    height: 500px;
     width: 100%;
     display: flex;
     align-items: center;
