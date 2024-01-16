@@ -84,13 +84,11 @@
     "key": "graphql",
     "count": 10,
     "excluded": ["react-query"],
-    "disabled": false,
     "availableComments": []
   },
   {
     "key": "learning",
     "count": 10,
-    "availableComments": [],
-    "disabled": false
+    "availableComments": []
   }
 ]

@@ -71,7 +71,6 @@
     "key": "graphql",
     "count": 10,
     "excluded": ["react-query"],
-    "disabled": false,
     "availableComments": []
   }
 ]

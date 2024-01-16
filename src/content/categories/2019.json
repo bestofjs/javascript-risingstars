@@ -69,31 +69,19 @@
     "availableComments": []
   },
   {
-    "key": "ide",
-    "count": 5,
-    "disabled": true
-  },
-  {
     "key": "css-in-js",
     "count": 10,
     "excluded": ["typographyjs"],
     "availableComments": []
   },
   {
-    "key": "ssg",
-    "count": 10,
-    "disabled": true
-  },
-  {
     "key": "graphql",
     "count": 10,
-    "disabled": false,
     "availableComments": []
   },
   {
     "key": "learning",
     "count": 10,
-    "availableComments": [],
-    "disabled": false
+    "availableComments": []
   }
 ]
