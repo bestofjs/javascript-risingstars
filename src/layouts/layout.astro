@@ -83,6 +83,7 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
     <style is:global>
       :root {
         --spacing: 20px;
+        --main-block-spacing: 40px;
 
         --orange: #cc4700;
         --linkColor: #c2410c;
@@ -270,7 +271,7 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
       }
 
       .main {
-        padding: 0 40px;
+        padding: 0 var(--main-block-spacing);
       }
       @media (min-width: 1200px) {
         .main {
