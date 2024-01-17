@@ -29,77 +29,76 @@ function getRequestURL(year?: number) {
 }
 ---
 
-<nav>
-  <LoadingIndicator height={38} width={38} />
-  <div class="control has-icons-right">
-    <div class="select">
-      <select
-        name="year"
-        aria-label="Year"
-        hx-ext="path-params"
-        hx-get={getRequestURL()}
+{
+  years.length > 1 && (
+    <nav>
+      <LoadingIndicator height={38} width={38} />
+      <div class="control has-icons-right">
+        <div class="select">
+          <select
+            name="year"
+            aria-label="Year"
+            hx-ext="path-params"
+            hx-get={getRequestURL()}
+            hx-select="section"
+            hx-trigger="change"
+            hx-target="closest section"
+            hx-swap="outerHTML"
+            hx-indicator="closest section"
+          >
+            {years.map((y) => {
+              return y === year ? (
+                <option selected>{year}</option>
+              ) : (
+                <option value={y}>{y}</option>
+              );
+            })}
+          </select>
+          <div class="icon is-right">
+            <svg width="24" height="24">
+              <use href={`/sprite.svg#chevron-down-icon`} />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="button"
+        disabled={!hasPreviousYear}
+        aria-label="Previous year"
+        title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
+        hx-get={getRequestURL(year - 1)}
         hx-select="section"
-        hx-trigger="change"
+        hx-trigger="click"
         hx-target="closest section"
         hx-swap="outerHTML"
         hx-indicator="closest section"
       >
-        {
-          years.map((y) => {
-            return y === year ? (
-              <option selected>{year}</option>
-            ) : (
-              <option value={y}>{y}</option>
-            );
-          })
-        }
-      </select>
-      <div class="icon is-right">
-        <svg width="24" height="24">
-          <use href={`/sprite.svg#chevron-down-icon`}></use>
+        <svg width="20" height="20">
+          <use href={`/sprite.svg#arrow-left-icon`} />
         </svg>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <button
-      type="button"
-      class="button"
-      disabled={!hasPreviousYear}
-      aria-label="Previous year"
-      title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
-      hx-get={getRequestURL(year - 1)}
-      hx-select="section"
-      hx-trigger="click"
-      hx-target="closest section"
-      hx-swap="outerHTML"
-      hx-indicator="closest section"
-    >
-      <svg width="20" height="20">
-        <use href={`/sprite.svg#arrow-left-icon`}></use>
-      </svg>
-    </button>
-
-    <button
-      type="button"
-      class="button"
-      disabled={!hasNextYear}
-      aria-label="Next year"
-      title={hasNextYear ? `Go to ${year + 1}` : undefined}
-      hx-get={getRequestURL(year + 1)}
-      hx-select="section"
-      hx-trigger="click"
-      hx-target="closest section"
-      hx-swap="outerHTML"
-      hx-indicator="closest section"
-    >
-      <svg width="20" height="20">
-        <use href={`/sprite.svg#arrow-right-icon`}></use>
-      </svg>
-    </button>
-  </div>
-</nav>
+      </button>
+      <button
+        type="button"
+        class="button"
+        disabled={!hasNextYear}
+        aria-label="Next year"
+        title={hasNextYear ? `Go to ${year + 1}` : undefined}
+        hx-get={getRequestURL(year + 1)}
+        hx-select="section"
+        hx-trigger="click"
+        hx-target="closest section"
+        hx-swap="outerHTML"
+        hx-indicator="closest section"
+      >
+        <svg width="20" height="20">
+          <use href={`/sprite.svg#arrow-right-icon`} />
+        </svg>
+      </button>
+    </nav>
+  )
+}
 
 <style>
   nav {
