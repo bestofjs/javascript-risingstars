@@ -6,6 +6,7 @@ import { getCollection, z } from "astro:content";
 import settings from "~/settings/years-setup.json";
 
 import Category from "~/components/category.astro";
+import ProjectList from "~/components/project-list.astro";
 import { fetchPageProps } from "~/fetch-page-props";
 
 export const partial = true;
@@ -52,6 +53,8 @@ const { projectsByTag, categories } = await fetchPageProps(year, language!);
 
 const projects = projectsByTag[categorySlug];
 const category = categories.find((cat) => cat.key === categorySlug);
+const offset = category?.limit || 5;
+const extraProjects = projects.slice(offset);
 ---
 
 <Category
@@ -60,3 +63,13 @@ const category = categories.find((cat) => cat.key === categorySlug);
   language={language}
   category={category}
 />
+
+<div class="extra-projects">
+  <ProjectList
+    projects={extraProjects}
+    year={year}
+    language={language}
+    offset={offset}
+    starDeltaReference={projects[0].delta}
+  />
+</div>

@@ -38,6 +38,7 @@ function getRequestURL(year?: number) {
         aria-label="Year"
         hx-ext="path-params"
         hx-get={getRequestURL()}
+        hx-select="section"
         hx-trigger="change"
         hx-target="closest section"
         hx-swap="outerHTML"
@@ -69,6 +70,7 @@ function getRequestURL(year?: number) {
       aria-label="Previous year"
       title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
       hx-get={getRequestURL(year - 1)}
+      hx-select="section"
       hx-trigger="click"
       hx-target="closest section"
       hx-swap="outerHTML"
@@ -86,6 +88,7 @@ function getRequestURL(year?: number) {
       aria-label="Next year"
       title={hasNextYear ? `Go to ${year + 1}` : undefined}
       hx-get={getRequestURL(year + 1)}
+      hx-select="section"
       hx-trigger="click"
       hx-target="closest section"
       hx-swap="outerHTML"
