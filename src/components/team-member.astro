@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 
 export interface Props {
-  member: CollectionEntry<"members">;
+  member: CollectionEntry<"contributors">;
 }
 const { member } = Astro.props;
 
@@ -11,13 +11,13 @@ function getAvatarURL(userId: number) {
   return `https://avatars0.githubusercontent.com/u/${userId}?v=3&s=${size}`;
 }
 
-const { url, name, userId } = member.data;
+const { name, isOpenToWork, url, userId } = member.data;
 
 const avatarURL = getAvatarURL(userId);
 const { Content } = await member.render();
 ---
 
-<div class="translator-list-item">
+<div class="contributor">
   <a href={url} aria-label={name}>
     <img
       class="avatar"
@@ -28,11 +28,14 @@ const { Content } = await member.render();
       loading="lazy"
     />
   </a>
-  <div class="translator-item-body">
-    <a href={url} class="translator-name">
-      {name}
-    </a>
-    <div class="translator-bio">
+  <div class="contributor-body">
+    <div class="header">
+      <a href={url} class="name">
+        {name}
+      </a>
+      {isOpenToWork && <div class="badge">Open to work</div>}
+    </div>
+    <div class="bio">
       <Content />
     </div>
   </div>
@@ -40,46 +43,60 @@ const { Content } = await member.render();
 
 <style>
   a,
-  .translator-bio :global(a) {
+  .bio :global(a) {
     color: #fbf3ef;
   }
   a:hover,
-  .translator-bio :global(a:hover) {
+  .bio :global(a:hover) {
     color: #fbf3ef;
     text-decoration: underline;
   }
 
-  .translator-list-item {
+  .contributor {
     display: flex;
     align-items: center;
     padding: 1rem 0;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
   }
-  .translator-list-item:first-child {
+  .contributor:first-child {
     padding-top: 0;
   }
-  .translator-list-item:last-child {
+  .contributor:last-child {
     border-bottom-width: 0;
     padding-bottom: 0;
   }
 
-  .translator-list-item:hover .translator-name {
+  .contributor:hover .name {
     color: white;
   }
-  .translator-item-body {
+  .contributor-body {
     padding-left: 1rem;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  .translator-name {
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  .name {
     color: rgba(255, 255, 255, 0.95);
     display: block;
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
   }
   .avatar {
     background-color: white;
     display: block;
     border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  .badge {
+    background-color: #01754f;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 8px;
+    font-size: var(--smallish-font);
+    font-family: "Space Mono", monospace;
   }
 </style>

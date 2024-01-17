@@ -22,6 +22,7 @@ const contributorCollection = defineCollection({
     userId: z.number(),
     name: z.string(),
     url: z.string().optional(),
+    isOpenToWork: z.boolean().optional(),
   }),
 });
 
