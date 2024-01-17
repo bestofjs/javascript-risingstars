@@ -1,4 +1,3 @@
-import get from "lodash/get";
 import fs from "fs-extra";
 import { flatten } from "flat";
 import { createInstance } from "i18next";

@@ -1,6 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 
+import LoadingIndicator from "./loading-indicator.astro";
+
 export interface Props {
   year: number;
   language: string;
@@ -10,8 +12,8 @@ export interface Props {
 const { language, year, category } = Astro.props;
 
 const years = await getAvailableYears();
-const hasPreviousYear = year > years.at(0);
-const hasNextYear = year < years.at(-1);
+const hasPreviousYear = years.includes(year - 1);
+const hasNextYear = years.includes(year + 1);
 
 async function getAvailableYears() {
   const items = await getCollection("categories");
@@ -21,32 +23,22 @@ async function getAvailableYears() {
 }
 
 function getRequestURL(year?: number) {
-  const endPoint = `/partials/get-category`;
-  const searchParams = new URLSearchParams({
-    category,
-    language,
-  });
-  if (year) {
-    searchParams.set("year", year.toString()); // when using `<select>`, `year` is added automatically by htmx
-  }
-  return `${endPoint}/?${searchParams.toString()}`;
+  // Use a place holder when no year is provided, will be replace by htmx `path-params` extension
+  const yearPath = year || `{{year}}`;
+  return `/${yearPath}/${language}/${category}`;
 }
 ---
 
 <nav>
-  <img
-    class="loading-indicator"
-    width="36"
-    height="36"
-    src="/loading.svg"
-    alt="Loading"
-  />
+  <LoadingIndicator height={38} width={38} />
   <div class="control has-icons-right">
     <div class="select">
       <select
         name="year"
         aria-label="Year"
+        hx-ext="path-params"
         hx-get={getRequestURL()}
+        hx-select="section"
         hx-trigger="change"
         hx-target="closest section"
         hx-swap="outerHTML"
@@ -78,6 +70,7 @@ function getRequestURL(year?: number) {
       aria-label="Previous year"
       title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
       hx-get={getRequestURL(year - 1)}
+      hx-select="section"
       hx-trigger="click"
       hx-target="closest section"
       hx-swap="outerHTML"
@@ -95,6 +88,7 @@ function getRequestURL(year?: number) {
       aria-label="Next year"
       title={hasNextYear ? `Go to ${year + 1}` : undefined}
       hx-get={getRequestURL(year + 1)}
+      hx-select="section"
       hx-trigger="click"
       hx-target="closest section"
       hx-swap="outerHTML"

@@ -1,7 +1,16 @@
+---
+export interface Props {
+  width?: number;
+  height?: number;
+}
+
+const { width = 19, height = 19 } = Astro.props;
+---
+
 <img
   class="htmx-indicator"
-  width="19"
-  height="19"
+  width={width}
+  height={height}
   src="/loading.svg"
   alt="Loading"
 />

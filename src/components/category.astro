@@ -22,17 +22,6 @@ const { t } = await useTranslations(language, year);
 const topProjects = projects.slice(0, limit);
 
 const hasComment = !availableComments || availableComments.includes(language);
-
-function getExtraProjectsURL() {
-  const endPoint = `/partials/get-extra-projects`;
-  const searchParams = new URLSearchParams({
-    category: tag,
-    language,
-    year: year.toString(),
-    offset: limit.toString(),
-  });
-  return `${endPoint}/?${searchParams.toString()}`;
-}
 ---
 
 <section class="section" id={`category-${tag}`}>
@@ -58,7 +47,8 @@ function getExtraProjectsURL() {
         <button
           type="button"
           class="button show-more-button"
-          hx-get={getExtraProjectsURL()}
+          hx-get={`/${year}/${language}/${tag}`}
+          hx-select=".extra-projects"
           hx-trigger="click"
           hx-target="this"
           hx-swap="outerHTML"

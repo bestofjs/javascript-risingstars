@@ -34,7 +34,7 @@ const thisYearAuthors = contributorsByYear[year.toString()]?.authors.map(
 );
 ---
 
-<section class="TranslatorSection">
+<section>
   <div class="container small-container">
     {
       thisYearTranslators.length > 0 && (
@@ -70,3 +70,40 @@ const thisYearAuthors = contributorsByYear[year.toString()]?.authors.map(
     }
   </div>
 </section>
+
+<style>
+  section {
+    padding: 2rem 0;
+    background-color: #b94100;
+    background: linear-gradient(135deg, #ed8518, #e75f16, #b94100);
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 750px) {
+    .container {
+      padding: 0rem;
+    }
+  }
+  a {
+    color: #fbf3ef;
+  }
+  a:hover {
+    color: #fbf3ef;
+    text-decoration: underline;
+  }
+  .member-list-header {
+    color: rgba(255, 255, 255, 0.95);
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+</style>
