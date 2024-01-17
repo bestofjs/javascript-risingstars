@@ -260,7 +260,7 @@
       "created_at": "2010-01-06T00:34:37.000Z",
       "twitter": "",
       "monthly": [532, 575, 533, 746, 717, 707, 708, 714, 653, 843, 829, 973],
-      "icon": "angular.svg"
+      "icon": "angularjs.svg"
     },
     {
       "name": "Express",

@@ -1,0 +1,25 @@
+<style is:global>
+  .loading-indicator {
+    display: none;
+  }
+
+  .htmx-request .loading-indicator {
+    display: block;
+  }
+
+  .project-category-grid {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  section.htmx-request .project-category-grid {
+    opacity: 0.5;
+  }
+
+  /* Hide nav controls on mobile during loading to avoid layout shift */
+  @media screen and (max-width: 768px) {
+    .htmx-request .button,
+    .htmx-request .select {
+      display: none;
+    }
+  }
+</style>

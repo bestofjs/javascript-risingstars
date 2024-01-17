@@ -1,6 +1,4 @@
 ---
-import flatten from "lodash/flatten";
-
 import Layout from "~/layouts/layout.astro";
 import Header from "~/components/header/header.astro";
 import Banner from "~/components/top-banner.astro";
@@ -9,22 +7,24 @@ import TableOfContent from "~/components/table-of-content.astro";
 import YearNavigator from "~/components/year-navigator.astro";
 import Category from "~/components/category.astro";
 import Conclusion from "~/components/conclusion.astro";
-import TeamSection from "~/components/team-section.astro";
+import ContributorsSection from "~/components/contributors-section.astro";
 import Footer from "~/components/footer.astro";
+import HtmxStyles from "~/components/htmx-styles.astro";
 
 import settings from "~/settings/years-setup.json";
 import allLanguages from "~/settings/languages.json";
 import { fetchPageProps } from "~/fetch-page-props";
+import LoadingIndicator from "~/components/loading-indicator.astro";
+import HtmxExtension from "~/components/htmx-extension.astro";
 
 type YearSetting = { year: number; languages: string[] };
 
 export function getStaticPaths() {
-  const paths = flatten(
-    settings.map(({ year, languages }) =>
+  return settings
+    .flatMap(({ year, languages }) =>
       languages.map((language) => ({ year: year.toString(), language }))
     )
-  ).map(({ year, language }) => ({ params: { year, language } }));
-  return paths;
+    .map(({ year, language }) => ({ params: { year, language } }));
 }
 
 const { year: yearParam, language } = Astro.params;
@@ -41,6 +41,8 @@ const languages = languageCodes.map((code) =>
 ) as RisingStars.Language[];
 
 const { categories, projectsByTag } = await fetchPageProps(year, language);
+
+const topCategoryCount = 7; // categories loaded eagerly
 ---
 
 <Layout year={year} language={language}>
@@ -56,17 +58,55 @@ const { categories, projectsByTag } = await fetchPageProps(year, language);
       language={language}
     />
     {
-      categories.map((category) => (
-        <Category
-          category={category}
-          projects={projectsByTag[category.key]}
-          language={language}
-          year={year}
-        />
+      categories
+        .slice(0, topCategoryCount)
+        .map((category) => (
+          <Category
+            category={category}
+            projects={projectsByTag[category.key]}
+            language={language}
+            year={year}
+          />
+        ))
+    }
+    {
+      categories.slice(topCategoryCount).map((category) => (
+        <div
+          hx-get={`/${year}/${language}/${category.key}`}
+          hx-select="section"
+          hx-trigger="revealed"
+        >
+          <section class="section" id={`category-${category.key}`}>
+            <div class={`container small-container`}>
+              <a id={`section-${category.key}`} aria-hidden="true" />
+              <div class="skeleton">
+                <LoadingIndicator width={76} height={76} />
+              </div>
+            </div>
+          </section>
+        </div>
       ))
     }
   </div>
   <Conclusion year={year} language={language} />
-  <TeamSection year={year} language={language} availableLanguages={languages} />
+  <ContributorsSection
+    year={year}
+    language={language}
+    availableLanguages={languages}
+  />
   <Footer />
 </Layout>
+
+<HtmxStyles />
+<HtmxExtension />
+
+<style>
+  .skeleton {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+  }
+</style>

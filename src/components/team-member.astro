@@ -37,3 +37,49 @@ const { Content } = await member.render();
     </div>
   </div>
 </div>
+
+<style>
+  a,
+  .translator-bio :global(a) {
+    color: #fbf3ef;
+  }
+  a:hover,
+  .translator-bio :global(a:hover) {
+    color: #fbf3ef;
+    text-decoration: underline;
+  }
+
+  .translator-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  }
+  .translator-list-item:first-child {
+    padding-top: 0;
+  }
+  .translator-list-item:last-child {
+    border-bottom-width: 0;
+    padding-bottom: 0;
+  }
+
+  .translator-list-item:hover .translator-name {
+    color: white;
+  }
+  .translator-item-body {
+    padding-left: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .translator-name {
+    color: rgba(255, 255, 255, 0.95);
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .avatar {
+    background-color: white;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+</style>
