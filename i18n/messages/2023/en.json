@@ -30,7 +30,11 @@
     "statemanagement": "State Management",
     "graphql": "GraphQL",
     "misc": "Miscellaneous",
-    "learning": "Learning Resource"
+    "learning": "Learning Resource",
+    "ml": "AI",
+    "csslib": "CSS libraries",
+    "chart": "Charting libraries",
+    "component": "UI Component Sets"
   },
   "social": {
     "text": "Check the JavaScript landscape in 2023"

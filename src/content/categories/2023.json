@@ -58,8 +58,16 @@
   },
   {
     "key": "css-in-js",
+    "tags": ["css-in-js", "atomic-css"],
     "count": 10,
-    "availableComments": []
+    "availableComments": [],
+    "excluded": ["chakra-ui"]
+  },
+  {
+    "key": "css-lib",
+    "count": 10,
+    "availableComments": [],
+    "excluded": ["tailwind-css"]
   },
   {
     "key": "test-framework",
@@ -86,9 +94,14 @@
     "availableComments": []
   },
   {
-    "key": "graphql",
+    "key": "chart",
     "count": 10,
-    "excluded": ["react-query"],
+    "availableComments": []
+  },
+  {
+    "key": "ml",
+    "count": 10,
+    "excluded": ["draw-a-ui"],
     "availableComments": []
   }
 ]
