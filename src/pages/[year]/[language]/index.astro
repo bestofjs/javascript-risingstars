@@ -73,6 +73,7 @@ const topCategoryCount = 7; // categories loaded eagerly
       categories.slice(topCategoryCount).map((category) => (
         <div
           hx-get={`/${year}/${language}/${category.key}`}
+          hx-select="section"
           hx-trigger="revealed"
         >
           <section class="section" id={`category-${category.key}`}>
