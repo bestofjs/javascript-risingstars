@@ -21,15 +21,9 @@ async function getAvailableYears() {
 }
 
 function getRequestURL(year?: number) {
-  const endPoint = `/partials/get-category`;
-  const searchParams = new URLSearchParams({
-    category,
-    language,
-  });
-  if (year) {
-    searchParams.set("year", year.toString()); // when using `<select>`, `year` is added automatically by htmx
-  }
-  return `${endPoint}/?${searchParams.toString()}`;
+  // Use a place holder when no year is provided, will be replace by htmx `path-params` extension
+  const yearPath = year || `{{year}}`;
+  return `/${yearPath}/${language}/${category}`;
 }
 ---
 
@@ -46,6 +40,7 @@ function getRequestURL(year?: number) {
       <select
         name="year"
         aria-label="Year"
+        hx-ext="path-params"
         hx-get={getRequestURL()}
         hx-trigger="change"
         hx-target="closest section"

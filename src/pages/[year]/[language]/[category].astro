@@ -1,5 +1,7 @@
 ---
-// GET request made to lazy load categories
+// GET request made to load categories when:
+// - navigating between years inside a category
+// - lazy loading an extra category at the bottom of the page
 import flatten from "lodash/flatten";
 import { getCollection, z } from "astro:content";
 import settings from "~/settings/years-setup.json";
