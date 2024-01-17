@@ -1,6 +1,4 @@
 ---
-import flatten from "lodash/flatten";
-
 import Layout from "~/layouts/layout.astro";
 import Header from "~/components/header/header.astro";
 import Banner from "~/components/top-banner.astro";
@@ -22,12 +20,11 @@ import HtmxExtension from "~/components/htmx-extension.astro";
 type YearSetting = { year: number; languages: string[] };
 
 export function getStaticPaths() {
-  const paths = flatten(
-    settings.map(({ year, languages }) =>
+  return settings
+    .flatMap(({ year, languages }) =>
       languages.map((language) => ({ year: year.toString(), language }))
     )
-  ).map(({ year, language }) => ({ params: { year, language } }));
-  return paths;
+    .map(({ year, language }) => ({ params: { year, language } }));
 }
 
 const { year: yearParam, language } = Astro.params;

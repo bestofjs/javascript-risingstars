@@ -1,6 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 
+import LoadingIndicator from "./loading-indicator.astro";
+
 export interface Props {
   year: number;
   language: string;
@@ -28,13 +30,7 @@ function getRequestURL(year?: number) {
 ---
 
 <nav>
-  <img
-    class="loading-indicator"
-    width="36"
-    height="36"
-    src="/loading.svg"
-    alt="Loading"
-  />
+  <LoadingIndicator height={38} width={38} />
   <div class="control has-icons-right">
     <div class="select">
       <select

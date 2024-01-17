@@ -2,7 +2,6 @@
 // GET request made to load categories when:
 // - navigating between years inside a category
 // - lazy loading an extra category at the bottom of the page
-import flatten from "lodash/flatten";
 import { getCollection, z } from "astro:content";
 import settings from "~/settings/years-setup.json";
 
@@ -14,30 +13,27 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const collectionItems = await getCollection("categories");
-  const paths = flatten(
-    flatten(
-      settings.map(({ year, languages }) =>
-        languages.map((language) => {
-          const collectionItem = collectionItems.find(
-            (item) => item.id === year.toString()
-          );
-          const categorySlugs = collectionItem!.data.map((item) => item.key);
-          return categorySlugs.map((category) => ({
-            year: year.toString(),
-            language,
-            category,
-          }));
-        })
-      )
+  return settings
+    .flatMap(({ year, languages }) =>
+      languages.flatMap((language) => {
+        const collectionItem = collectionItems.find(
+          (item) => item.id === year.toString()
+        );
+        const categorySlugs = collectionItem!.data.map((item) => item.key);
+        return categorySlugs.map((category) => ({
+          year: year.toString(),
+          language,
+          category,
+        }));
+      })
     )
-  );
-  return paths.map(({ year, language, category }) => ({
-    params: {
-      year,
-      language,
-      category,
-    },
-  }));
+    .map(({ year, language, category }) => ({
+      params: {
+        year,
+        language,
+        category,
+      },
+    }));
 }
 
 const searchSchema = z.object({
