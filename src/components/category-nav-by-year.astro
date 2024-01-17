@@ -10,8 +10,8 @@ export interface Props {
 const { language, year, category } = Astro.props;
 
 const years = await getAvailableYears();
-const hasPreviousYear = year > years.at(0);
-const hasNextYear = year < years.at(-1);
+const hasPreviousYear = years.includes(year - 1);
+const hasNextYear = years.includes(year + 1);
 
 async function getAvailableYears() {
   const items = await getCollection("categories");
