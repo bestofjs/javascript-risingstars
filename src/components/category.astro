@@ -24,9 +24,8 @@ const topProjects = projects.slice(0, limit);
 const hasComment = !availableComments || availableComments.includes(language);
 ---
 
-<section class="section" id={`category-${tag}`}>
-  <div class={`container${hasComment ? "" : " small-container"}`}>
-    <a id={`section-${tag}`} aria-hidden="true"></a>
+<section class="section" id={`section-${tag}`}>
+  <div class:list={["container", !hasComment && "small-container"]}>
     <div class="header">
       <h2>
         {t(`categories.${key}`)}
@@ -57,22 +56,18 @@ const hasComment = !availableComments || availableComments.includes(language);
           <LoadingIndicator />
         </button>
       </div>
-      <div>
-        {
-          hasComment && (
-            <div class="column2">
-              {guest && (
-                <Guest guestId={guest} language={language} year={year} />
-              )}
-              <TranslatedBlock
-                id={`categories/${tag}`}
-                language={language}
-                year={year}
-              />
-            </div>
-          )
-        }
-      </div>
+      {
+        hasComment && (
+          <div class="column2">
+            {guest && <Guest guestId={guest} language={language} year={year} />}
+            <TranslatedBlock
+              id={`categories/${tag}`}
+              language={language}
+              year={year}
+            />
+          </div>
+        )
+      }
     </div>
   </div>
 </section>
