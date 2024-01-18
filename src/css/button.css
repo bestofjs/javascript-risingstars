@@ -23,11 +23,3 @@
   padding: 20px 10px;
   font-size: var(--large-font);
 }
-.show-more-button {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  margin-top: 1rem;
-}
