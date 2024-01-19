@@ -22,3 +22,42 @@ const { year, languages, currentLanguage } = Astro.props;
     })
   }
 </div>
+
+<style>
+  .language-menu {
+    display: none;
+  }
+
+  @media (min-width: 750px) {
+    .language-menu {
+      height: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .language-menu-item {
+    padding: 0 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--linkColor);
+  }
+
+  .language-menu-item:hover {
+    color: var(--activeLinkColor);
+  }
+
+  .language-menu-item.is-active {
+    display: none;
+    color: var(--activeLinkColor);
+    margin-bottom: -2px;
+  }
+
+  @media (min-width: 750px) {
+    .language-menu-item {
+      display: flex;
+    }
+  }
+</style>

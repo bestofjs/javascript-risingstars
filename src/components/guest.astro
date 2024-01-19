@@ -10,16 +10,26 @@ const { year, language, guestId } = Astro.props;
 ---
 
 <div class="guest">
-  <div class="guest-blurb">
-    <TranslatedBlock id={`guests/${guestId}`} year={year} language={language} />
-  </div>
-  <div class="guest-portrait">
-    <img
-      src={`/img/guests/${guestId}.jpg`}
-      width="120"
-      height="120"
-      alt={`Guest Writer ${guestId}`}
-      loading="lazy"
-    />
-  </div>
+  <TranslatedBlock id={`guests/${guestId}`} year={year} language={language} />
+  <img
+    src={`/img/guests/${guestId}.jpg`}
+    width="120"
+    height="120"
+    alt={`Guest Writer ${guestId}`}
+    loading="lazy"
+  />
 </div>
+
+<style>
+  .guest {
+    display: flex;
+    gap: var(--spacing);
+    margin-bottom: var(--spacing);
+    padding: var(--spacing);
+    border: 1px dashed var(--border-color);
+    background: white;
+  }
+  img {
+    max-width: 120px;
+  }
+</style>

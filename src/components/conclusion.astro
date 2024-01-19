@@ -11,12 +11,16 @@ const { t } = await useTranslations(language, year);
 ---
 
 <div class="container small-container" id="conclusion">
-  <div class="small-card conclusion">
-    <div class="small-card-header">
-      <h2 class="tag-card-header-text">{t("conclusion")}</h2>
-    </div>
-    <div class="markdown-body">
-      <TranslatedBlock id="conclusion" year={year} language={language} />
-    </div>
+  <div class="conclusion">
+    <h2 class="tag-card-header-text">{t("conclusion")}</h2>
+    <TranslatedBlock id="conclusion" year={year} language={language} />
   </div>
 </div>
+
+<style>
+  .conclusion {
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+  }
+</style>
