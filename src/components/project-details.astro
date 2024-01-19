@@ -29,63 +29,57 @@ const { t } = await useTranslations(language, year);
 ---
 
 <div class="project-details">
-  <div class="project-details-inner">
+  <div>
     <h4>
       {t("common.view_project.trends", { year })}
     </h4>
     <ProjectChart project={project} language={language} year={year} />
+  </div>
+
+  <div>
     <h4>
       {t("common.view_project.data", { defaultValue: "GitHub data" })}
     </h4>
-    <ul class="data-list">
-      <li>
-        <div class="data-list-item-label">
-          {t("common.view_project.created", { defaultValue: "Created" })}
-        </div>
-        <div class="data-list-item-data">
-          {formatProjectCreationDate(project)}
-        </div>
-      </li>
-      <li>
-        <div class="data-list-item-label">
-          {
-            t("common.view_project.stars_total", {
-              defaultValue: "Total stars",
-            })
-          }
-        </div>
-        <div class="data-list-item-data">
-          {formatStarNumber(stars, 1)}☆
-        </div>
-      </li>
-    </ul>
+    <div class="data-list">
+      <div>
+        {t("common.view_project.created", { defaultValue: "Created" })}
+      </div>
+      <div>
+        {formatProjectCreationDate(project)}
+      </div>
+      <div>
+        {
+          t("common.view_project.stars_total", {
+            defaultValue: "Total stars",
+          })
+        }
+      </div>
+      <div>
+        {formatStarNumber(stars, 1)}☆
+      </div>
+    </div>
+  </div>
+
+  <div>
     <h4>
       {t("common.view_project.links", { defaultValue: "Links" })}
     </h4>
-    <ul>
-      <li>
-        <div class="data-list-item-label">GitHub</div>
-        <a href={`https://github.com/${full_name}`}>{full_name}</a>
-      </li>
+    <div class="data-list">
+      <div>GitHub</div>
+      <a href={`https://github.com/${full_name}`}>{full_name}</a>
       {
         url && (
-          <li>
-            <div class="data-list-item-label">
+          <>
+            <div>
               {t("common.view_project.homepage", { defaultValue: "Homepage" })}
             </div>
-            <div class="data-list-item-data">
-              <a href={url}>{formatURL(url)}</a>
-            </div>
-          </li>
+            <a href={url}>{formatURL(url)}</a>
+          </>
         )
       }
-      <li>
-        <div class="data-list-item-label">Best of JS</div>
-        <div class="data-list-item-data">
-          <a href={bestOfJsURL}>{formatURL(bestOfJsURL)}</a>
-        </div>
-      </li>
-    </ul>
+      <div>Best of JS</div>
+      <a href={bestOfJsURL}>{formatURL(bestOfJsURL)}</a>
+    </div>
   </div>
 </div>
 
@@ -94,10 +88,10 @@ const { t } = await useTranslations(language, year);
     background: white;
     z-index: 100;
     overflow: hidden;
-  }
-
-  .project-details-inner {
-    padding: 10px 20px 20px 20px;
+    padding: 10px var(--spacing) var(--spacing);
+    display: flex;
+    gap: calc(var(--spacing) / 2);
+    flex-direction: column;
   }
 
   h4 {
@@ -109,27 +103,10 @@ const { t } = await useTranslations(language, year);
     color: var(--mediumgrey);
     padding: 2px 0;
   }
-
-  ul {
-    margin: 0 0 5px;
-    padding-left: 0px;
+  .data-list {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 5px;
     font-size: var(--smallish-font);
-  }
-
-  li {
-    list-style: none;
-    padding-bottom: 4px;
-    display: flex;
-    align-items: center;
-  }
-  .data-list-item-data {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .data-list-item-label {
-    flex-basis: 100px;
-    flex-shrink: 0;
   }
 </style>
