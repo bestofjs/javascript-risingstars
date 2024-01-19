@@ -20,32 +20,85 @@ const monthlyDeltas = (project.monthly || [])
 const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
 ---
 
-<div>
-  <div class="project-chart">
-    <div class="project-chart-columns">
-      {
-        monthlyDeltas.map((d, i) => (
-          <div class="project-chart-column">
-            {d > 0 ? (
-              <div
-                class="project-chart-bar"
-                style={{
-                  height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
-                }}
-              >
-                <div class="project-chart-stars">
-                  {d > 0 && <>{formatStarNumber(d, 1)}</>}
-                </div>
+<div class="project-chart">
+  <div class="project-chart-columns">
+    {
+      monthlyDeltas.map((d, i) => (
+        <div class="project-chart-column">
+          {d > 0 ? (
+            <div
+              class="project-chart-bar"
+              style={{
+                height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
+              }}
+            >
+              <div class="project-chart-stars">
+                {d > 0 && <>{formatStarNumber(d, 1)}</>}
               </div>
-            ) : (
-              <div class="non-available">N/A</div>
-            )}
-          </div>
-        ))
-      }
-    </div>
-    <div class="project-chart-months">
-      {months.map((m, i) => <div class="project-chart-month">{m}</div>)}
-    </div>
+            </div>
+          ) : (
+            <div class="non-available">N/A</div>
+          )}
+        </div>
+      ))
+    }
+  </div>
+  <div class="project-chart-months">
+    {months.map((m, i) => <div class="project-chart-month">{m}</div>)}
   </div>
 </div>
+
+<style>
+  .project-chart {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .project-chart-columns {
+    min-height: 150px;
+    display: flex;
+    gap: 3px;
+  }
+
+  .project-chart-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .project-chart-bar {
+    background: var(--chart-bar-bg-color);
+    position: relative;
+  }
+
+  .project-chart-stars {
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: var(--lighter-text-color);
+    font-size: var(--small-font);
+    position: absolute;
+    top: -22px;
+    width: 100%;
+  }
+  .project-chart-stars span {
+    margin-left: -100%;
+    margin-right: -100%;
+  }
+
+  .project-chart-months {
+    display: flex;
+    gap: 3px;
+  }
+
+  .project-chart-month {
+    flex: 1;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .project-chart-no-data {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+</style>

@@ -13,8 +13,8 @@ const { t } = await useTranslations(language, year);
 ---
 
 <div class="container small-container">
-  <div class="top-with-banner-introduction">
-    <div class="introduction-text">
+  <div class="card">
+    <div class="text">
       <TranslatedBlock id="introduction" language={language} year={year} />
     </div>
     <hr />
@@ -27,3 +27,18 @@ const { t } = await useTranslations(language, year);
     />
   </div>
 </div>
+
+<style>
+  .card {
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+  }
+  .text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .explanation {
+    margin-top: 20px;
+  }
+</style>

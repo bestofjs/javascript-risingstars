@@ -24,9 +24,8 @@ const topProjects = projects.slice(0, limit);
 const hasComment = !availableComments || availableComments.includes(language);
 ---
 
-<section class="section" id={`category-${tag}`}>
-  <div class={`container${hasComment ? "" : " small-container"}`}>
-    <a id={`section-${tag}`} aria-hidden="true"></a>
+<section class="section" id={`section-${tag}`}>
+  <div class:list={["container", !hasComment && "small-container"]}>
     <div class="header">
       <h2>
         {t(`categories.${key}`)}
@@ -34,8 +33,8 @@ const hasComment = !availableComments || availableComments.includes(language);
       <CategoryNavByYear language={language} year={year} category={tag} />
     </div>
 
-    <div class={`${hasComment ? "project-category-grid" : ""}`}>
-      <div class={`rankings${hasComment ? " column1" : ""}`}>
+    <div class:list={hasComment ? "two-columns-layout" : "one-column-layout"}>
+      <div class="rankings">
         <ProjectList
           projects={topProjects}
           language={language}
@@ -57,22 +56,18 @@ const hasComment = !availableComments || availableComments.includes(language);
           <LoadingIndicator />
         </button>
       </div>
-      <div>
-        {
-          hasComment && (
-            <div class="column2">
-              {guest && (
-                <Guest guestId={guest} language={language} year={year} />
-              )}
-              <TranslatedBlock
-                id={`categories/${tag}`}
-                language={language}
-                year={year}
-              />
-            </div>
-          )
-        }
-      </div>
+      {
+        hasComment && (
+          <div class="comments">
+            {guest && <Guest guestId={guest} language={language} year={year} />}
+            <TranslatedBlock
+              id={`categories/${tag}`}
+              language={language}
+              year={year}
+            />
+          </div>
+        )
+      }
     </div>
   </div>
 </section>
@@ -85,28 +80,43 @@ const hasComment = !availableComments || availableComments.includes(language);
     align-items: center;
     border-top: 1px solid var(--border-color);
   }
-
-  @media screen and (max-width: 767px) {
-    .header {
-      margin: 0 calc(var(--main-block-spacing) * -1);
-    }
-  }
-
   h2 {
     font-size: 1.4rem;
     margin: 0;
   }
 
-  @media screen and (max-width: 768px) {
-    h2 {
-      font-size: 1.3rem;
-      text-align: center;
-    }
+  .two-columns-layout {
+    display: flex;
+    gap: var(--main-block-spacing);
+  }
+  .two-columns-layout > * {
+    width: 50%;
+  }
+  @media screen and (max-width: 767px) {
     .header {
+      margin: 0 calc(var(--main-block-spacing) * -1);
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 10px;
     }
+    .two-columns-layout {
+      flex-direction: column;
+    }
+    .two-columns-layout > * {
+      width: 100%;
+    }
+    h2 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  }
+  .show-more-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 1rem;
   }
 </style>

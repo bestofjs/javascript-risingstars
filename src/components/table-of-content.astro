@@ -17,9 +17,8 @@ function getMinCount(count: number, index: number) {
 }
 ---
 
-<div class="toc nav container container-section small-container">
-  <h2 class="toc-header">{t("introduction.table_of_contents")}</h2>
-
+<div class="toc container small-container">
+  <h2>{t("introduction.table_of_contents")}</h2>
   <ol>
     {
       categories.map((item, i) => {
@@ -47,3 +46,63 @@ function getMinCount(count: number, index: number) {
     </li>
   </ol>
 </div>
+
+<style>
+  .toc {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  ul,
+  ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* Make introduction and conclusion span the 2 columns */
+  li:first-child,
+  li:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .toc-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--larger-font);
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    border: 1px dashed var(--border-color);
+    padding: var(--spacing);
+  }
+  .toc-link:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .toc-link:hover img {
+    filter: none;
+    opacity: 1;
+  }
+
+  .toc-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .toc-projects :global(img) {
+    filter: grayscale(100%);
+    opacity: 0.7;
+  }
+
+  @media (max-width: 499px) {
+    ol {
+      grid-template-columns: 1fr;
+    }
+    /* Show only the 5 first projects on small screens */
+    .toc-projects :global(img:nth-child(n + 6)) {
+      display: none;
+    }
+  }
+</style>
