@@ -71,20 +71,20 @@ const topCategoryCount = 7; // categories loaded eagerly
     }
     {
       categories.slice(topCategoryCount).map((category) => (
-        <div
+        <section
+          class="section"
+          id={`section-${category.key}`}
           hx-get={`/${year}/${language}/${category.key}`}
           hx-select="section"
+          hx-swap="outerHTML"
           hx-trigger="revealed"
         >
-          <section class="section" id={`category-${category.key}`}>
-            <div class={`container small-container`}>
-              <a id={`section-${category.key}`} aria-hidden="true" />
-              <div class="skeleton">
-                <LoadingIndicator width={76} height={76} />
-              </div>
+          <div class={`container small-container`}>
+            <div class="skeleton">
+              <LoadingIndicator width={76} height={76} />
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       ))
     }
   </div>
