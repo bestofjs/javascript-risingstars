@@ -1,7 +1,7 @@
-import fs from "fs-extra";
+import { getEntry } from "astro:content";
 import { flatten } from "flat";
 import { createInstance } from "i18next";
-import path from "path";
+import invariant from "tiny-invariant";
 
 export async function useTranslations(language: string, year: number) {
   const messages = await loadAllMessages(language, year);
@@ -25,19 +25,20 @@ export async function useTranslations(language: string, year: number) {
 }
 
 async function loadAllMessages(language: string, year: number) {
-  const root = path.join(process.cwd(), "i18n", "messages");
-
-  const specificMessages = await fs.readJSON(
-    path.join(root, year.toString(), `${language}.json`)
+  const specificMessages = await getEntry("messages", year + "/" + language);
+  invariant(
+    specificMessages,
+    `No messages found for year ${year} and language ${language}`
   );
-
-  const commonMessages = await fs.readJSON(
-    path.join(root, "common", `${language}.json`)
+  const commonMessages = await getEntry("messages", "common/" + language);
+  invariant(
+    commonMessages,
+    `No common messages found for language ${language}`
   );
 
   const messages = flatten({
-    common: commonMessages,
-    ...specificMessages,
+    common: commonMessages.data,
+    ...specificMessages.data,
   });
 
   return messages;
