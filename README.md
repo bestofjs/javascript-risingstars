@@ -51,35 +51,27 @@ Requirements: [PNPM](https://pnpm.io/), Node.js 18+
 
 There are 2 types of file to translate:
 
-- markdown content inside the `src/content/comments` folder (handled using Astro [content collection](https://docs.astro.build/en/guides/content-collections/)) feature)
-- key/values messages stored as JSON in the `i18n/messages` folder
+- markdown content inside the `src/content/comments` folder, used for comments related to each category: `introduction.md`, `react.md`...
+- key/values messages stored as JSON in the `src/content/messages` folder, used for simple strings used in the UI: `en.json`, `ja.json`...
+
+File system overview:
 
 ```
-./i18n
+./src/content
+├── categories
+├── comments
+│   └── 2023
+│       ├── en
+│       │   ├── categories
+│       │   └── guests
+│       ├── es
+│       │   ├── categories
+│       │   └── guests
+│       └── zh
+│           ├── categories
+│           └── guests
+├── contributors
 └── messages
-    ├── 2024
-    │   └── en.json
+    ├── 2023
     └── common
-        ├── en.json
-```
-
-```
-./src
-└── content
-   └── comments
-       └── 2024
-           └── en
-               ├── categories
-               │   ├── all.md
-               │   ├── build.md
-               │   ├── framework.md
-               │   ├── nodejs-framework.md
-               │   ├── react.md
-               │   └── vue.md
-               ├── conclusion.md
-               ├── guests
-               │   ├── atinux.md
-               │   ├── bblackwo.md
-               │   └── leerob.md
-               └── introduction.md
 ```
