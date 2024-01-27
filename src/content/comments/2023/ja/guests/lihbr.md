@@ -3,6 +3,6 @@ id: lihbr
 language: ja
 ---
 
-### Guest Writer: [Lucie Haberer](https://lihbr.com/)
+### ゲストライター: [Lucie Haberer](https://lihbr.com/)
 
-Core team member of {nuxt}, speaker, open-source enjoyer, and Developer Experience Engineer at [Prismic](https://prismic.io/).
+{nuxt}のコアチームメンバーで、講演者で、OSSの渡り鳥で、そして[Prismic](https://prismic.io/)のデベロッパーエクスペリエンスエンジニアです。
