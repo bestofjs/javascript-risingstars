@@ -3,16 +3,20 @@ id: nodejs-framework
 language: ja
 ---
 
-This year too {nextjs} is the leading project in the backend/fullstack category.
+今年もバックエンド/フルスタックカテゴリの勝者は{nextjs}でした。
 
-The [version 14](https://nextjs.org/blog/next-14) focuses on improving server actions and introduces a new Partial Preview rendering mode.
+[バージョン14](https://nextjs.org/blog/next-14)ではサーバアクションの改善に主眼が置かれ、Partial Previewモードなどが導入されました。
 
-With React Server Components, developers can build web applications with new paradigms that can simplify drastically the code: fetching data directly from a component that is made `async` and mutating data by binding forms to server actions.
+さらにReact Server Componentsと一緒に使うことで、コードを大幅に簡素化する新しいパラダイムを手に入れることができます。
+コンポーネントから直接データを非同期に取得し、データの更新もフォームをサーバアクションにバインドするだけです。
 
-A lot has been said about [this presentation](https://www.youtube.com/watch?v=9CN9RCzznZc&t=0s) that showcases making an SQL request directly from a component, but people may have missed the point: React Server Components can behave like self-contained components that can be dropped any where in your application, without any tedious wiring, the video does a great job to help building the new mental model made possible by RSC, showing a mix of server and client components that work seamlessly.
+コンポーネントから直接SQLを発行する[プレゼンテーション](https://www.youtube.com/watch?v=9CN9RCzznZc&t=0s)については多くの言及がなされていますが、しかし多くの人が要点を見逃しているようにも見受けられます。
+React Server Componentsはアプリケーション内のどこにでも置いておける自己完結型コンポーネントです。
+この動画は、RSCが可能としたサーバコンポーネントとクライアントコンポーネントのシームレスな結合という新しいメンタルモデルの構築に非常に役立つものです。
 
-At two, {astro} keeps climbing the rankings. Besides the original concept (generate ultra fast static sites that run without JavaScript and add interactivity with islands using the UI framework of your choice) it can be used to generate pages dynamically too.
+2位の{astro}は、評価をどんどん上げてきています。
+本来はJavaScriptのない静的サイトを超高速に表示した後からインタラクティブ性を追加するというコンセプトでしたが、さらに動的ページ生成にも使用することができます。
 
-I was impressed by the simplicity the templating system of `.astro` files (very close to JSX) and by the great DX (the CLI is a beauty!).
+`.astro`ファイルのテンプレートのシンプルさ(JSXにとてもよく似ている)と、優れたDX(美麗なCLI)に感銘を受けることでしょう。
 
-[Version 4](https://astro.build/blog/astro-4/) introduces a new toolbar for development, automatic i18n routing and a new View Transition API to improve the UX.
+[バージョン4](https://astro.build/blog/astro-4/)では、開発に役立つツールバー、全自動i18nルーティング、UIをさらに改善するためのView Transition APIなどが実装されました。

@@ -3,40 +3,48 @@ id: all
 language: ja
 ---
 
-#### Overall winner: shadcn/ui 🏆
+#### 優勝: shadcn/ui 🏆
 
-The hottest project of the year is shadcn/ui, a collection of UI components written in React, allowing customizable styling through TailwindCSS.
+2023年、最もホットだったプロジェクトはshadcn/uiです。
+これはTailwindを通してスタイルをカスタマイズすることができる、Reactで書かれたUIコンポーネントのコレクションです。
 
-Built on top of {radix}, a set of headless components providing primitives for concerns like accessibility and keyboard interactions, shadcn/ui distinguishes itself from other popular libraries (such as MUI, ChakraUI, React Spectrum) by not being a downloadable NPM package. Instead, you integrate the shadcn/ui components through a terminal command that installs the underlying dependencies and copies the component source code directly into your codebase for further modification.
+shadcn/uiは、アクセシビリティやキーボード操作などに対する一連のUIを提供するヘッドレスコンポーネントである{radix}上に構築されています。
+shadcn/uiはNPMパッケージとしてダウンロードすることができないという点で、他の似たようなライブラリ(MUI・ChakraUI・React Spectrum等)と一線を画しています。
+かわりにターミナルコマンドを実行することで、必要なコンポーネントだけを直接プロジェクトに組み込みます。
+そしてコンポーネントをカスタマイズしたい場合は、自分のコードベースにあるコンポーネントのソースコードを直接編集します。
 
-The project's success is closely tied to the widespread popularity of {tailwind-css} (number 20 overall), its compatibility with React Server Components, and the presence of excellent documentation.
+このプロジェクトが大成功した背景には、総合20位に入った{tailwind-css}の人気、React Server Componentsとの互換性、そして優れたドキュメントの存在があるでしょう。
 
-It seems all new shiny React projects have adopted shadcn/ui. It was even chosen by Kent C. Dodds for his cutting-edge [Epic Stack](https://www.epicweb.dev/epic-stack).
+現在、新進気鋭のReactプロジェクトはほとんどがshadcn/uiを採用しています。
+またKent C. Doddsによって、[Epic Stack](https://www.epicweb.dev/epic-stack)にも選出されました。
 
-Another example involving AI: from a user prompt describing the features and the look-and-feel of a piece of UI, the application [v0.dev](https://v0.dev) generates the JSX code made of shadcn/ui components. Mesmerizing!
+他の例としてAIを挙げましょう。
+[v0.dev](https://v0.dev/)はプロンプトから、shadcn/uiコンポーネントで構成されるJSXを生成します。素敵！
 
-Last but not least, [Best of JS](https://bestofjs.org) uses them too, after the rewrite I did to transition from a SPA to a Next.js app.
+おっと大事なことを忘れていました。
+[Best of JS](https://bestofjs.org/)は先日SPAからNext.jsに書き換えを行ったのですが、その後shadcn/uiを使っています。
 
-Its approach has already inspired other projects:
+shadcn/uiのアプローチは、既にほかのプロジェクトに影響を与え始めています。
 
-- [shad-cn/svelte](https://shadcn-svelte.com/) is the port for Svelte framework.
-- [Draft UI](https://github.com/IHIutch/draft-ui) is built on top of [React Aria](https://react-spectrum.adobe.com/react-aria/) instead of Radix.
+- [shad-cn/svelte](https://shadcn-svelte.com/)はSvelte移植版です。
+- [Draft UI](https://github.com/IHIutch/draft-ui)はRadixのかわりに[React Aria](https://react-spectrum.adobe.com/react-aria/)に構築された版です。
 
-For an in-depth analysis, refer to the article [The anatomy of shadcn/ui](https://manupa.dev/blog/anatomy-of-shadcn-ui).
+もっと詳しい分析については、[The anatomy of shadcn/ui](https://manupa.dev/blog/anatomy-of-shadcn-ui)を参照するとよいでしょう。
 
-#### Number two: Bun
+#### 準優勝: Bun
 
-Bun, the champion of 2022, keeps its tremendous momentum.
 
-Bun aims to be a fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript applications.
+2022年の王者Bunは、今年もその勢いを保っています。
 
-The [version 1](https://bun.sh/blog/bun-v1.0) was officially released in September (check the peak in the graph!) and Bun claims to be "production-ready".
+Bunは、JavaScriptおよびTypeScriptアプリケーションを実行、ビルド、テスト、デバッグするオールインワンツールキットになることを目指しています。
 
-The docs provide great recipes to help get started as fast as possible with Bun APIs and common tasks such as file manipulation and handling database interactions.
+[正式バージョン1.0](https://bun.sh/blog/bun-v1.0)が9月にリリースされ(グラフのピークを見てください)、Bunはついにプロダクションレベルになったと主張しました。
 
-A [strong statement](https://twitter.com/bunjavascript/status/1732945030007099510) was made at the end of the year:
+ドキュメントでは、Bunを今すぐ始めるのに役立つAPIおよびファイル操作、データベース操作などの優れたレシピが公開されています。
 
-> We have one goal for 2024
-> Flip the default backend JavaScript runtime from Node.js to Bun
+2023年末には[非常に力強い声明](https://twitter.com/bunjavascript/status/1732945030007099510)を発表しました。
 
-The compatibility with most of the Node.js eco-system (including the support of good old CommonJS imports via `require`) and the support of the main full-stack frameworks (Next.js, Nuxt, Astro...) can make it possible!
+> We have one goal for 2024 Flip the default backend JavaScript runtime from Node.js to Bun
+> ( 2024年のゴールは、デフォルトのJavaScriptランタイムをNode.jsからBunにすることだ。 )
+
+`require`のような古き良きCommonJSを含むほとんどのNode.jsエコシステムとの互換性、そしてNext.js・Nuxt・Astroといった優れたフルスタックフレームワークの存在により、いずれはそれを実現してのけるかもしれません。

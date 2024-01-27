@@ -5,37 +5,56 @@ language: ja
 
 #### React
 
-In 2023, React maintains its position as a frontrunner in the JavaScript ecosystem, a trend persisting from 2021 and 2022, despite occasional criticism and controversies.
 
-Celebrating its 10th anniversary, React earned a documentary (watch it [here](https://www.youtube.com/watch?v=8pDqJVdNa44)); it says a lot about its popularity!
+批判や論争がしばしば巻き起こるにも関わらず、Reactは2021年以降JavaScriptエコシステムのトップをひた走っています。
+そして2023年もフロントエンドフレームワークのトップに立ちました。
 
-However, React is not without its skeptics. Some view it as a relic of the past, a sentiment expertly explored in [this article](https://joshcollinsworth.com/blog/antiquated-react), which also delves into alternative solutions. On the flip side, proponents laud React for its remarkable adaptability and capacity for reinvention.
+Reactは10周年を記念した[ドキュメンタリー](https://www.youtube.com/watch?v=8pDqJVdNa44)を公開しました。
+Reactがいかにして評価を勝ち得てきたが語られています。
 
-One point of contention revolves around the absence of "signals", a reactivity handling mechanism employed by libraries such as {solid} or {preact}, while React enthusiasts appreciate the predictability offered by React's data flow.
+しかし、Reactに批判的でない人もいないわけではありません。
+Reactは古臭い過去の遺物と見る向きもあり、[Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react)の記事ではその理由と代替ソリューションについて詳しく調査がなされています。
+一方で支持者たちはReactの優れた適応力と再発明能力を高く評価しています。
 
-From [a tweet](https://twitter.com/devongovett/status/1629540226589663233) by Devon Govett, the creator of Parcel, about signals:
+争点のひとつは"signals"の欠如です。
+これは{solid}や{preact}などで採用されている状態管理メカニズムです。
+いっぽうReactの愛好者たちは、Reactのデータフローの予測可能性を支持しています。
+
+Percelの開発者であるDevon Govettは、signalsについて[以下のようにツイートしています](https://twitter.com/devongovett/status/1629540226589663233)。
 
 > The simplicity of UI as a function of state is lost when updates flow unpredictably.
+> (予期せぬ流れで更新が行われると、UIのシンプルさが失われます。)
 
-To know more about signals, read [The Evolution of Signals](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob), a comprehensive exploration of one of the year's buzzwords.
+signalsについてさらに知りたい場合は、signalsを歴史的にまとめた[The Evolution of Signals](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob)を参照ください。
 
 #### htmx
 
-At two {htmx} is a library that takes a different approach to provide interactivity to HTML page: rather than writing several lines of JavaScript code, developers enhance HTML with specific attributes to enable real-time interactivity and dynamic updates.
 
-It was lauded for its small file size and seamless integration with existing server-side frameworks, as it's part of the trend "send HTML over the wire": ask the server to send partial blocks of HTML instead of handling JSON in the client.
+第二位となった{htmx}は、HTMLにインタラクティブを導入するために異なるアプローチをとったライブラリです。
+JavaScriptを記述するのではなく、HTMLに属性を記述することで、リアルタイムの対話性や動的な更新が可能になります。
 
-In the same space of "tagging libraries", {alpinejs} is a popular solution (number 13 this year).
+ファイルサイズが小さいこと、また既存のサーバ側フレームワークとシームレスに結合できることが高く評価されています。
+htmxは`send HTML over the wire`と呼ばれるトレンドに従っており、クライアントはサーバから送られてきたJSONを処理するのではなく、HTMLをそのまま持ってくるという仕組みになっています。
+
+同じような"属性ライブラリ"分野の有名どころとしては、{alpinejs}が13位に入っています。
 
 #### Svelte
 
-At three, Svelte popularity keeps growing. It's often seen as a modern alternative to React.
-A big change is coming soon with Svelte 5, "the most anticipated release in the project's history", that introduces [runes](https://svelte.dev/blog/runes) to address some of the "pain points" when handling state reactivity. [This short video](https://www.youtube.com/watch?v=RVnxF3j3N8U) from Rich Harris does a great job of explaining the problems fixed by the runes.
+3位には、人気が高まり続けているSvelteが入りました。
+ポストReactとしても名をよく上げられます。
 
-One of the stories of the year is related to Svelte and caused a lot debates (E.g. [Hacker News](https://news.ycombinator.com/item?id=35892250)): the Svelte team has chosen to use JavaScript with JSDoc annotations instead of TypeScript, to avoid the additional complexity and drawbacks associated with TypeScript, while still providing the benefits of type safety.
+「プロジェクト史上最も期待されているリリース」と自称しているSvelte 5では、リアクティビティに関する問題点を解消する[runes](https://svelte.dev/blog/runes)が導入されます。
+Rich Harrisによる[この動画](https://www.youtube.com/watch?v=RVnxF3j3N8U)が、runesによって解決される事象について解説しています。
 
-#### Other frameworks updates
+2023年に起きた焦点の幾つかはSvelteであり、たとえば[Hacker News](https://news.ycombinator.com/item?id=35892250)などが多くの議論を引き起こしました。
+SvelteチームはTypeScriptを辞め、アノテーション付きJavaScriptを使うことを選択したのです。
+タイプセーフの利点は保ちつつ、TypeScriptがもたらす複雑さや欠点を回避することを選びました。
 
-- [Million v3](https://million.dev/blog/million-3) is a lightweight library that enables "React components to run at the speed of raw JavaScript."
-- [Angular 17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b) introduced significant improvements in performance, refreshed documentation, and a new branding (including nice colors for the logo)
-- [Qwik reached v1](https://www.builder.io/blog/qwik-v1) in April. The framework for building "resumable" apps that ship zero JS (initially) while delivering HTML that becomes instantly interactive.
+#### その他注目プロジェクト
+
+- [Million v3](https://million.dev/blog/million-3)は、ピュアJavaScript並の速度でReactコンポーネントを動かすことを可能にする軽量ライブラリです。
+
+- [Angular 17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b)では、大幅なパフォーマンス向上、ドキュメントのリニューアル、ロゴの刷新などが行われました。
+
+- [Qwik](https://www.builder.io/blog/qwik-v1)はバージョン1に達しました。
+最初はJavaScriptを含まないただのHTMLを高速に返しながらも、即座にインタラクティブな操作が可能になるフレームワークです

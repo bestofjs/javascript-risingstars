@@ -3,10 +3,20 @@ id: vue
 language: ja
 ---
 
-With [Vue 2](https://blog.vuejs.org/posts/vue-2-eol) announced to sunset at the end of 2023, this year was deemed to be a turning point for Vue and its community with lots of us embarking on the journey to upgrade to version 3.
+[Vue2](https://blog.vuejs.org/posts/vue-2-eol)がEOLになるとの発表を受け、2023年はVue3への大移動が行われました。
 
-In that regard, efforts were made to help with migrating, the ecosystem caught up and kept on developing itself: it showed great results! [Nuxt 3](https://nuxt.com/) now has more downloads than Nuxt 2. UI frameworks, like [Vuetify](https://vuetifyjs.com/en/) and [PrimeVue](https://primevue.org/), are readier than ever to help build large (and less large!) applications. Libraries such as [VueUse](https://vueuse.org/), [Pinia](https://pinia.vuejs.org/), or even [TresJS](https://tresjs.org/) kept on growing and enhancing themselves to better empower us all.
+その過程において、移行を支援するための多くの努力が形になり、エコシステムが追い付き、発展は続きました。
+要するに、素晴らしい結果が残ったということです。
 
-Like in 2022, the Developer Experience was still was still a top priority. [Vue 3.3](https://blog.vuejs.org/posts/vue-3-3) brought in improved TypeScript support for `<script setup>`. Nuxt released 8 minor versions and unveiled [Nuxt DevTools](https://devtools.nuxt.com/), a creative and insightful UI to help us better understand our apps and develop them faster.
+[Nuxt3](https://nuxt.com/)のダウンロード数は既にNuxt2を追い越しました。
+[Vuetify](https://vuetifyjs.com/en/)や[PrimeVue](https://primevue.org/)などのUIフレームワークは、大規模な、もしくは大規模でないアプリケーションの構築を、これまで以上に楽にしてくれます。
+[VueUse](https://vueuse.org/)、[Pinia](https://pinia.vuejs.org/)、そして[TresJS](https://tresjs.org/)といった数多くのライブラリが、より良い開発者体験を提供するために成長と努力を続けています。
 
-Looking forward, and as Evan said, 2024 is set to be an exciting year for Vue. Vue 3.4 is right around the corner and [Vapor mode](https://github.com/vuejs/core-vapor), now open-sourced, is progressing well. All of it tuning the new year for more performance improvements and community innovation.
+2022年に引き続き、開発者体験は最優先事項のひとつであり続けています。
+[Vue3.3](https://blog.vuejs.org/posts/vue-3-3)では、`<script setup>`のTypeScriptサポートが強化されました。
+Nuxtは8回のマイナーバージョンアップを行い、さらに[Nuxt DevTools](https://devtools.nuxt.com/)を公開しました。
+アプリをより深く理解し、迅速な開発を助けるための分析力を提供します。
+
+Evan Youが言ったとおり、2024年はVueにとってさらにエキサイティングな年になるでしょう。
+まもなくVue 3.4がリリースされ、そして満を持して[Vapor mode](https://github.com/vuejs/core-vapor)が登場します。
+さらなるパフォーマンス向上と、コミュニティの革新を目指して開発が続けられています。

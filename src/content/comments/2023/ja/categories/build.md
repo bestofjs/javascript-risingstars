@@ -3,19 +3,22 @@ id: build
 language: ja
 ---
 
-{bun} is also a [bundler](https://bun.sh/docs/bundler) so we included it this year in the "Building Tools" category.
+ご存じ{bun}は[バンドラ](https://bun.sh/docs/bundler)でもあるため、今回からビルドツールカテゴリに移動しました。
 
-At two {vite} is still the most popular versatile bundler, powering meta frameworks such as Astro, Nuxt, Remix, SolidStart, SvelteKit...
+2位の{vite}は、今最も使われている多目的バンドラで、Astro・Nuxt・Remix・SolidStart・SvelteKitなどなど様々なメタフレームワークを支えています。
+11月にリリースされた[バージョン5](https://vitejs.dev/blog/announcing-vite5)は{rollup}4をベースとしており、さらにパフォーマンスが向上しています。
 
-[Version 5](https://vitejs.dev/blog/announcing-vite5) released in November, is built on top of {rollup} 4, bringing performance improvements.
+さらにEvan Youは、Rust製RollupであるRolldownに取り組んでいることを[明らかにしました](https://twitter.com/youyuxi/status/1709943106215530867)。
+Viteはさらに進化することでしょう。
 
-Evan You [announced](https://twitter.com/youyuxi/status/1709943106215530867) he was working on Rolldown a port of Rollup in Rust that will be integrated to Vite. So the future of Vite is bright!
+3位の{biome}は、2023年のトピックのひとつです。
+これは、コンパイラでありLinterでありフォーマッターでありバンドラでありテスターでもあるという非常に野心的であったプロジェクト[Romeの崩壊](https://bytes.dev/archives/175)に起因しています。
+Romeはプロジェクトを支えていた会社が倒産し、Rome自体も中断してしまいましたが、幸いなことにそのforkがBiomeとして生まれ変わりました。
 
-At three, the rise of {biome} is one of the stories of the year. It's related to the [fall of Rome](https://bytes.dev/archives/175), an ambitious project that aimed to unify web tooling (compiling, linting, formatting, bundling, testing). The company behind the project failed and the project was stopped this year.
+そして11月には『Prettierのテストの95%以上に合格するRust製コードフォーマッタを作る』というコンテスト、[Prettier Challenge](https://biomejs.dev/blog/biome-wins-prettier-challenge/)で優勝しました。
+Prettierはこの業界の標準であるため、2024年にはBiomeの採用が増えていくことが予想されます。
 
-Fortunately the project was forked and re-born under the name of Biome.
+Rustといえば、ByteDanceチームからの新星{oxc}と{rspack}も現れました。
+RspackはWebpackと互換しつつも比類なきパフォーマンスを発揮します。
 
-In November, Biome won the [Prettier Challenge](https://biomejs.dev/blog/biome-wins-prettier-challenge/): creating "a Rust-powered code formatter that could pass over 95% of Prettier’s tests". Prettier being such a standard, we can expect more adoption of Biome in 2024.
-
-Speaking of Rust, {oxc} and {rspack} are the new players in this space, coming from the ByteDance team.
-{rspack} provides compatibility with Webpack while delivering unmatched performance. For the first time since we started Rising Stars, it's weird not to see Webpack in the rankings given the number of projects that use it!
+それにしても、Rising Starsを始めて以来初めてWebpackがランキング外になりましたが、Webpackを採用しているプロジェクトの数を考えると実に不思議なことに感じられます。

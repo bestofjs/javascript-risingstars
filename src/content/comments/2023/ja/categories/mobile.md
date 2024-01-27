@@ -3,12 +3,21 @@ id: mobile
 language: ja
 ---
 
-In 2023, the mobile space made significant progress towards unifying the web and native development experiences. This is evident from the top projects Expo (#1), Tamagui (#3), and Nativewind (#6) which share the goal of maximizing code reuse and increasing accessibility for web developers.
+2023年、モバイルはWebアプリとネイティブアプリの開発者経験の統合に向けて、大きな進歩を遂げました。
+ランキング上位に入ったExpo (1位)、Tamagui (3位)、Nativewind (6位)などを見れば明らかで、これらはコードの再利用性を最大限に高め、Web開発者のアクセシビリティを高めるという同じ目的をもって開発されています。
 
-There's a clear trend toward better styling solutions in React Native with Tamagui (#3), Nativewind (#6), and React Native Paper (#7) leading the way. This mirrors the web community, where shadcn-ui ranked #1 in overall popularity. I doubt this movement will slow down in 2024.
+Tamagui (3位)、Nativewind (6位)、そしてReact Native Paper (7位) など、より良いスタイリングを目指すトレンドが間違いなく存在します。
+これは全体ランキングで`shadcn-ui`がトップに立ったのと同じ傾向です。
+この傾向は2024年も止まらないでしょう。
 
-In 2022, the official recommendation from the React team shifted from boilerplate solutions like Create React App to framework-first solutions like Remix and Next.js. A year later, we can see a similar shift in the React Native ecosystem. Tools like Expo, Tamagui, and Ignite, which offer many framework-first attributes, have all trended upward in popularity. This shift indicates a move away from framework-less React Native towards more opinionated solutions by default, signaling the evolution of mobile development paradigms. I predict this trend will continue in 2024.
+2022年、Reactチームは推奨するボイラープレートをCreate React Appから、RemixやNext.jsのようなフレームワークに変更しました。
+それから1年経って、React Nativeのエコシステムにも同様な変化が現れました。
+Expo・Tamagui・Igniteのようなフレームワークがいずれも人気を伸ばしており、React Nativeの開発パラダイムが進化しつつあることを示しています。
+私が思うに、2024年にもこの流れは続くことでしょう。
 
-React Native's dominance is evident with seven of the top ten projects based on this library. However, the presence of three webview-based projects in this list suggests a lingering interest in deploying websites directly to app stores as-is. Perhaps 2024 will be the year that we see these two approaches start to converge.
+React Nativeの優位性は、トップ10プロジェクトのうち7つがReact Nativeに関連していることからも明らかです。
+残りの3プロジェクトはWebViewに関連するものであり、Webサイトをそのままアプリとして展開したい需要も間違いなく存在することを示しています。
+おそらく2024年は、この両者のアプローチがひとつに統合され始める年になるでしょう。
 
-Overall it was a fantastic year for mobile development. I predict 2024 will have continued interest in styling solutions for React Native, more rendering patterns for native (likely with React Server Components on native), better server integration to support AI-driven apps, and possibly some interesting visionOS projects.
+全体として、2023年はモバイル開発にとって素晴らしい年でした。
+2024年のトレンドの予想ですが、React Nativeのスタイリングソリューション、React Server Componentsなどを用いたネイティブのレンダリングパターンへの関心が高まっていくことはこれまで同様で、さらにAIドリブンのプロジェクトのサポート、またvisionOS関連プロジェクトに興味深いものが幾つか出てきそうです。
