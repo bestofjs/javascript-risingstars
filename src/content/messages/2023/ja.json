@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "2023 JavaScript Rising Stars",
+    "description": "A complete overview of the JavaScript landscape in 2023: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management..."
+  },
+  "header": {
+    "title": "2023 JavaScript Rising Stars"
+  },
+  "introduction": {
+    "table_of_contents": "Table of Contents",
+    "explanation": "The following graphs compare the number of stars added on GitHub over the last 12 months. We analyzed projects coming from {{link}}, a curated list of the best projects related to the web platform. Note that you can click on a project to get more info."
+  },
+  "conclusion": "Conclusion",
+  "categories": {
+    "all": "Most Popular Projects Overall",
+    "framework": "Front-end Frameworks",
+    "nodejsframework": "Back-end/Full-stack",
+    "react": "React Ecosystem",
+    "vue": "Vue Ecosystem",
+    "angular": "Angular Ecosystem",
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "compiler": "JS Flavors/Compilers",
+    "build": "Build Tools",
+    "testframework": "Testing",
+    "ide": "IDEs & Editors",
+    "ssg": "Static Sites",
+    "cssinjs": "Styling / CSS in JS",
+    "cssframework": "CSS Frameworks",
+    "statemanagement": "State Management",
+    "graphql": "GraphQL",
+    "misc": "Miscellaneous",
+    "learning": "Learning Resource",
+    "ml": "AI",
+    "csslib": "CSS libraries",
+    "chart": "Charting libraries",
+    "component": "UI Component Sets"
+  },
+  "social": {
+    "text": "Check the JavaScript landscape in 2023"
+  }
+}
