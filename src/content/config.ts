@@ -1,13 +1,4 @@
-import { string } from "astro/zod";
 import { defineCollection, z } from "astro:content";
-
-// type Category = {
-//   key: string;
-//   limit: number;
-//   count: number;
-//   tags?:string[];
-//   excluded?:string[];
-// }
 
 const commentCollection = defineCollection({
   schema: z.object({
@@ -41,8 +32,13 @@ const categoryCollection = defineCollection({
   ),
 });
 
+const messagesCollection = defineCollection({
+  type: "data",
+});
+
 export const collections = {
   categories: categoryCollection,
   comments: commentCollection,
   contributors: contributorCollection,
+  messages: messagesCollection,
 };
