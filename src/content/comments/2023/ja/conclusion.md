@@ -3,20 +3,23 @@ id: conclusion
 language: ja
 ---
 
-Let's recap some of the stories and dramas of 2023:
+2023年のドラマをいくつか振り返ってみよう。
 
-- Svelte code base ditching TypeScript files (while preserving type safety)
-- Controversies around React (either too old, too complicated, PHP-like...)
-- The fall of Rome and the rise of Biome
-- Angular rejuvenated
-- The release of Bun v1
-- Astro 4.0 released
-- Stylex open-sourced by Meta, at last!
+- Svelteは型安全を維持しつつTypeScriptを投げ捨てた
+- React論争(古すぎる、難しすぎる、PHPじゃん)
+- Romeの崩壊とBiomeの台頭
+- Angularが若返った
+- Bunがバージョン1になった
+- Astroが4.0になった
+- Stylexがついにオープンソースになった
 
-We saw the rise of AI tools that can generate UI from prompts and even images making people wonder if there will be frontend developers in a few years.
+プロンプトや画像からUIを生成できるAIツールが現れ始めており、もしかしたら数年内にはAIフロントエンドエンジニアが現れるのではないかと期待しています。
 
-As I pen down this summary for the eighth time, one can't help but wonder: Could an AI take over this task next year? 
+しかし、このまとめを8回も書いていると、次のような疑問を抱かざるを得ません。
+来年、AIはこのタスクを引き継いでくれるのだろうか？
 
-If you enjoyed this roundup, share your appreciation, and who knows, we might be back in a year for the 2024 Rising Stars!
+今回のランキングは楽しめたでしょうか。
+みんなにも共有してあげてください。
+もしかしたら1年後には、2024年のライジングスターが帰ってくるかもしれませんよ！
 
 

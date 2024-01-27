@@ -3,6 +3,7 @@ id: introduction
 language: ja
 ---
 
-Welcome to the 8th edition of the JavaScript Rising Stars, the place to see the trends about the JS ecosystem in 2023.
+8回目のJavaScript ライジングスターにようこそ！
+ここでは、2023年のJavaScriptエコシステムのトレンドを俯瞰することができます。
 
-Let's see how a set of UI components you copy-paste took the world by storm!
+コピペで世界を獲ったUIコンポーネントを見守っていきましょう。
