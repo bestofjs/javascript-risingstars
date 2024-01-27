@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "JavaScript ライジングスター 2022",
-    "description": "2022年のJavaScript白書。フロントエンド、フルスタック・Node.jsフレームワーク、React/Vueエコシステム、ビルドツール、状態管理などのトレンドを徹底調査。"
+    "title": "JavaScript ライジングスター 2023",
+    "description": "2023年のJavaScript白書。フロントエンド、フルスタック・Node.jsフレームワーク、React/Vueエコシステム、ビルドツール、状態管理などのトレンドを徹底調査。"
   },
   "header": {
-    "title": "JavaScript ライジングスター 2022"
+    "title": "JavaScript ライジングスター 2023"
   },
   "introduction": {
     "table_of_contents": "目次",
@@ -30,9 +30,13 @@
     "statemanagement": "状態管理",
     "graphql": "GraphQL",
     "misc": "その他",
-    "learning": "学習リソース"
+    "learning": "学習リソース",
+    "ml": "AI",
+    "csslib": "CSSライブラリ",
+    "chart": "図形描画ライブラリ",
+    "component": "UI Component Sets"
   },
   "social": {
-    "text": "2022年のJavaScriptの動きを俯瞰しよう"
+    "text": "2023年のJavaScriptの動きを俯瞰しよう"
   }
 }
