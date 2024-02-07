@@ -54,7 +54,7 @@
     "excluded": [],
     "count": 10,
     "guest": "evanbacon",
-    "availableComments": ["en", "es", "ja"]
+    "availableComments": ["en", "es", "ja", "ko"]
   },
   {
     "key": "css-in-js",
