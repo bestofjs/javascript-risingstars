@@ -5,4 +5,4 @@ url: "https://jusangkim.vercel.app/"
 userId: 57928024
 ---
 
-Software Engineer
+Software Engineer at UXPin

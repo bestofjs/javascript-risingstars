@@ -3,18 +3,18 @@ id: conclusion
 language: ko
 ---
 
-Let's recap some of the stories and dramas of 2023:
+2023년의 이야기와 드라마를 몇 가지 요약해 보겠습니다:
 
-- Svelte code base ditching TypeScript files (while preserving type safety)
-- Controversies around React (either too old, too complicated, PHP-like...)
-- The fall of Rome and the rise of Biome
-- Angular rejuvenated
-- The release of Bun v1
-- Astro 4.0 released
-- Stylex open-sourced by Meta, at last!
+- TypeScript 파일을 삭제하는 Svelte 코드 베이스(타입 안전을 유지하는 동안)
+- 리액트에 대한 논란(너무 오래되거나, 너무 복잡하거나, PHP와 같은...)
+- 로마의 멸망과 바이옴의 발흥
+- 각진 회춘
+- 분 v1 발매
+- Astro 4.0 출시
+- 드디어 메타가 오픈소스한 스타일렉스!
 
-We saw the rise of AI tools that can generate UI from prompts and even images making people wonder if there will be frontend developers in a few years.
+프롬프트와 이미지에서 UI를 생성할 수 있는 AI 도구가 부상하면서 몇 년 안에 프론트엔드 개발자가 나올 것인지 궁금해졌습니다.
 
-As I pen down this summary for the eighth time, one can't help but wonder: Could an AI take over this task next year?
+이 요약본을 여덟 번째로 쓰다 보면, 내년에 인공지능이 이 일을 맡을 수 있을지 궁금할 수밖에 없습니다?
 
-If you enjoyed this roundup, share your appreciation, and who knows, we might be back in a year for the 2024 Rising Stars!
+만약 여러분이 이 라운드를 즐겼다면, 감사를 나누고, 누가 알겠어요, 우리는 2024년 라이징 스타를 위해 1년 안에 돌아올지도 모릅니다!

@@ -3,6 +3,6 @@ id: introduction
 language: ko
 ---
 
-Welcome to the 8th edition of the JavaScript Rising Stars, the place to see the trends about the JS ecosystem in 2023.
+2023년 JS 생태계에 대한 트렌드를 볼 수 있는 자리인 자바스크립트 라이징 스타즈 8판에 오신 것을 환영합니다.
 
-Let's see how a set of UI components you copy-paste took the world by storm!
+복사 붙여넣기하는 UI 구성 요소 세트가 어떻게 세상을 휩쓸었는지 살펴보겠습니다!

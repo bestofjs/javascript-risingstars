@@ -3,16 +3,16 @@ id: nodejs-framework
 language: ko
 ---
 
-This year too {nextjs} is the leading project in the backend/fullstack category.
+올해도 {nextjs}는 백엔드/풀스택 부문에서 선두를 달리고 있는 프로젝트입니다.
 
-The [version 14](https://nextjs.org/blog/next-14) focuses on improving server actions and introduces a new Partial Preview rendering mode.
+[버전 14](https://nextjs.org/blog/next-14)는 서버 작업을 개선하는 데 초점을 맞추고 새로운 부분 미리보기 렌더링 모드를 도입합니다.
 
-With React Server Components, developers can build web applications with new paradigms that can simplify drastically the code: fetching data directly from a component that is made `async` and mutating data by binding forms to server actions.
+React Server Components를 사용하면 개발자는 코드를 대폭 간소화할 수 있는 새로운 패러다임으로 웹 애플리케이션을 구축할 수 있습니다. '비동기'로 만들어진 구성 요소에서 데이터를 직접 가져오는 것과 서버 작업에 양식을 바인딩하여 데이터를 변형하는 것입니다.
 
-A lot has been said about [this presentation](https://www.youtube.com/watch?v=9CN9RCzznZc&t=0s) that showcases making an SQL request directly from a component, but people may have missed the point: React Server Components can behave like self-contained components that can be dropped any where in your application, without any tedious wiring, the video does a great job to help building the new mental model made possible by RSC, showing a mix of server and client components that work seamlessly.
+구성 요소에서 직접 SQL 요청을 하는 방법을 소개하는 [이 프레젠테이션](https://www.youtube.com/watch?v=9CN9RCzznZc&t=0s) 에 대해 많은 이야기가 있었지만, 사람들이 핵심을 놓쳤을 수도 있습니다. React Server Components는 지루한 배선 없이 애플리케이션 어디에서나 삭제할 수 있는 자체 contained 구성 요소처럼 동작할 수 있습니다. 비디오는 RSC가 가능하게 하는 새로운 정신 모델을 구축하는 데 도움이 되며, 서버와 클라이언트 구성 요소가 원활하게 작동하는 것을 보여줍니다.
 
-At two, {astro} keeps climbing the rankings. Besides the original concept (generate ultra fast static sites that run without JavaScript and add interactivity with islands using the UI framework of your choice) it can be used to generate pages dynamically too.
+둘에서 {astro}가 계속 순위를 상승합니다. 원래 개념 외에도 (자바스크립트 없이 실행되는 초고속 정적 사이트를 생성하고 원하는 UI 프레임워크를 사용하여 섬과의 상호 작용을 추가하는) 페이지를 동적으로 생성하는 데 사용할 수 있습니다.
 
-I was impressed by the simplicity the templating system of `.astro` files (very close to JSX) and by the great DX (the CLI is a beauty!).
+저는 '.astro' 파일의 단순한 템플릿 시스템(JSX에 매우 가깝습니다)과 훌륭한 DX(CLI는 아름다움입니다!)에 깊은 인상을 받았습니다.
 
-[Version 4](https://astro.build/blog/astro-4/) introduces a new toolbar for development, automatic i18n routing and a new View Transition API to improve the UX.
+[버전 4](https://astro.build/blog/astro-4/)는 개발을 위한 새로운 도구 모음, 자동 i18n 라우팅 및 UX 향상을 위한 새로운 View Transition API를 도입합니다.

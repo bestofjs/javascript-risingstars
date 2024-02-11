@@ -3,6 +3,6 @@ id: evanbacon
 language: ko
 ---
 
-### Guest Writer: [Evan Bacon](https://twitter.com/Baconbrix)
+### 객원 작가: [Evan Bacon](https://twitter.com/Baconbrix)
 
-Lead of Developer Tools at Expo. Native iOS and Android developer. Author of Config Plugins and Expo CLI.
+엑스포의 도구 개발 리더. 안드로이드와 iOS의 토종 시스템 개발자. Config Plugins와 Expo CLI의 저자.

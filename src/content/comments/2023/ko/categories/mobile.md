@@ -3,12 +3,12 @@ id: mobile
 language: ko
 ---
 
-In 2023, the mobile space made significant progress towards unifying the web and native development experiences. This is evident from the top projects Expo (#1), Tamagui (#3), and Nativewind (#6) which share the goal of maximizing code reuse and increasing accessibility for web developers.
+2023년 모바일 공간은 웹과 네이티브 개발 경험을 통합하는 방향으로 상당한 진전을 이루었습니다. 이는 코드 재사용을 극대화하고 웹 개발자의 접근성을 높이는 목표를 공유하는 상위 프로젝트 엑스포(#1), 타마구이(#3), 네이티브윈드(#6)에서 분명히 알 수 있습니다.
 
-There's a clear trend toward better styling solutions in React Native with Tamagui (#3), Nativewind (#6), and React Native Paper (#7) leading the way. This mirrors the web community, where shadcn-ui ranked #1 in overall popularity. I doubt this movement will slow down in 2024.
+리액트 네이티브 위드 타마구이(#3), 네이티브윈드(#6), 리액트 네이티브 페이퍼(#7)가 선두를 달리고 있는 리액트 네이티브에서 더 나은 스타일링 솔루션을 향한 분명한 추세가 있습니다. 이것은 shadcn-ui가 전체 인기에서 1위를 차지했던 웹 커뮤니티를 반영합니다. 이 움직임이 2024년에는 둔화될지 의심스럽습니다.
 
-In 2022, the official recommendation from the React team shifted from boilerplate solutions like Create React App to framework-first solutions like Remix and Next.js. A year later, we can see a similar shift in the React Native ecosystem. Tools like Expo, Tamagui, and Ignite, which offer many framework-first attributes, have all trended upward in popularity. This shift indicates a move away from framework-less React Native towards more opinionated solutions by default, signaling the evolution of mobile development paradigms. I predict this trend will continue in 2024.
+2022년 리액트 팀의 공식 권장 사항은 Create React App과 같은 보일러 플레이트 솔루션에서 Remix 및 Next.js와 같은 프레임워크 우선 솔루션으로 전환되었습니다. 1년 후 리액트 네이티브 생태계에서도 비슷한 변화가 나타났습니다. 많은 프레임워크 우선 속성을 제공하는 Expo, Tamagui 및 Ignite와 같은 도구는 모두 인기가 상승하는 추세를 보였습니다. 이러한 변화는 기본적으로 프레임워크가 없는 리액트 네이티브에서 더 많은 의견을 제시하는 솔루션으로 이동하고 있으며, 이는 모바일 개발 패러다임의 진화를 예고합니다. 이러한 추세는 2024년에도 계속될 것으로 예상합니다.
 
-React Native's dominance is evident with seven of the top ten projects based on this library. However, the presence of three webview-based projects in this list suggests a lingering interest in deploying websites directly to app stores as-is. Perhaps 2024 will be the year that we see these two approaches start to converge.
+리액트 네이티브의 우세는 이 라이브러리를 기반으로 한 상위 10개 프로젝트 중 7개에서 뚜렷합니다. 그러나 이 목록에 웹뷰 기반 프로젝트가 3개 존재한다는 것은 웹사이트를 그대로 앱스토어에 배포하는 데 여전히 관심이 있음을 시사합니다. 아마도 2024년은 이 두 가지 접근 방식이 융합되기 시작하는 해가 될 것입니다.
 
-Overall it was a fantastic year for mobile development. I predict 2024 will have continued interest in styling solutions for React Native, more rendering patterns for native (likely with React Server Components on native), better server integration to support AI-driven apps, and possibly some interesting visionOS projects.
+전반적으로 모바일 개발에 있어 환상적인 한 해였습니다. 2024년에는 리액트 네이티브를 위한 솔루션 스타일링, 네이티브를 위한 더 많은 렌더링 패턴(네이티브에 있는 리액트 서버 구성 요소), AI 기반 앱을 지원하기 위한 더 나은 서버 통합 및 일부 흥미로운 비전 OS 프로젝트에 대한 지속적인 관심이 있을 것으로 예상합니다.

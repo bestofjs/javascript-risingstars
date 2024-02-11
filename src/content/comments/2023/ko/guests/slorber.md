@@ -3,8 +3,8 @@ id: slorber
 language: ko
 ---
 
-### Guest Writer: [Sébastien Lorber](https://sebastienlorber.com)
+### 객원 작가: [Sébastien Lorber](https://sebastienlorber.com)
 
-Sébastien is a React early adopter, working with Facebook Open-Source on {docusaurus}.
+Sébastien은 {docusaurus}에서 Facebook Open-Source와 협력하는 React 얼리어답터입니다.
 
-He runs a weekly newsletter about React and React Native: [This Week in React](https://thisweekinreact.com)
+리액트 앤 리액트 네이티브에 관한 주간 뉴스레터를 운영하고 있습니다. [이번 주 리액트] (https://thisweekinreact.com )
