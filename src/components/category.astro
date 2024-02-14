@@ -43,18 +43,22 @@ const hasComment = !availableComments || availableComments.includes(language);
           starDeltaReference={projects[0].delta}
         />
 
-        <button
-          type="button"
-          class="button show-more-button"
-          hx-get={`/${year}/${language}/${tag}`}
-          hx-select=".extra-projects"
-          hx-trigger="click"
-          hx-target="this"
-          hx-swap="outerHTML"
-        >
-          SHOW MORE
-          <LoadingIndicator />
-        </button>
+        {
+          topProjects.length > limit && (
+            <button
+              type="button"
+              class="button show-more-button"
+              hx-get={`/${year}/${language}/${tag}`}
+              hx-select=".extra-projects"
+              hx-trigger="click"
+              hx-target="this"
+              hx-swap="outerHTML"
+            >
+              SHOW MORE
+              <LoadingIndicator />
+            </button>
+          )
+        }
       </div>
       {
         hasComment && (
