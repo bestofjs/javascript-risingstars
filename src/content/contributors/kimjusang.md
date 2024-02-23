@@ -1,7 +1,7 @@
 ---
 userName: kimjusang
 name: "Jusang Kim"
-url: "https://jusangkim.vercel.app/"
+url: "https://github.com/kimjusang"
 userId: 57928024
 ---
 
