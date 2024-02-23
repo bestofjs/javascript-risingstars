@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "2023 자바스크립트 라이징스타",
+    "description": "2023년 자바스크립트 환경에 대한 전체 개요: 프론트엔드, 풀스택 및 Node.js 프레임워크, React 및 Vue.js 생태계, 빌드 도구, 상태 관리..."
+  },
+  "header": {
+    "title": "2023 자바스크립트 라이징스타"
+  },
+  "introduction": {
+    "table_of_contents": "목차",
+    "explanation": "다음 그래프는 지난 12개월 동안 깃허브에 추가된 별의 개수를 비교한 것입니다. 웹 플랫폼과 관련된 최고의 프로젝트 목록인 {{link}}에서 나온 프로젝트를 분석했습니다. 더 많은 정보를 얻기 위해 프로젝트를 클릭할 수 있습니다."
+  },
+  "conclusion": "결론",
+  "categories": {
+    "all": "전체적으로 가장 인기 있는 프로젝트",
+    "framework": "프론트엔드 프레임워크",
+    "nodejsframework": "백엔드/풀스택",
+    "react": "React 생태계",
+    "vue": "Vue 생태계",
+    "angular": "Angular 생태계",
+    "mobile": "모바일",
+    "desktop": "데스크탑",
+    "compiler": "자바스크립트 컴파일러",
+    "build": "빌드 도구",
+    "testframework": "테스팅 프레임워크",
+    "ide": "통합 개발 환경 & 에디터",
+    "ssg": "정적 사이트",
+    "cssinjs": "스타일링 / JS에서의 CSS",
+    "cssframework": "CSS 프레임워크",
+    "statemanagement": "상태 관리",
+    "graphql": "GraphQL",
+    "misc": "기타",
+    "learning": "학습 리소스",
+    "ml": "AI",
+    "csslib": "CSS 라이브러리",
+    "chart": "차트 작성 라이브러리",
+    "component": "UI 컴포넘트 세트"
+  },
+  "social": {
+    "text": "2023년의 자바스크립트 환경을 확인하세요"
+  }
+}
