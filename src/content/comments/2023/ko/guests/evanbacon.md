@@ -5,4 +5,4 @@ language: ko
 
 ### 객원 작가: [Evan Bacon](https://twitter.com/Baconbrix)
 
-엑스포의 도구 개발 리더. 안드로이드와 iOS의 토종 시스템 개발자. Config Plugins와 Expo CLI의 저자.
+Expo의 툴 개발 리더. 안드로이드와 iOS의 네이티브 시스템 개발자. Config Plugins와 Expo CLI의 저자.
