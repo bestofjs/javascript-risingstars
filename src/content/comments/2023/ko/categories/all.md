@@ -5,15 +5,15 @@ language: ko
 
 #### 종합 우승: shadcn/ui 🏆
 
-올해 가장 핫한 프로젝트는 Shadcn/ui입니다. 리액트로 작성된 UI 구성 요소 모음으로 Tailwind CSS를 통해 맞춤형 스타일링이 가능합니다.
+올해 가장 핫한 프로젝트는 Shadcn/ui입니다. React로 작성된 UI 구성 요소 모음으로 Tailwind CSS를 통해 맞춤형 스타일링이 가능합니다.
 
 shadcn/ui는 접근성 및 키보드 상호 작용과 같은 문제에 대한 기본 요소를 제공하는 헤드리스 구성 요소 집합인 {radix} 위에 구축 되었습니다. shadcn/ui는 다운로드 가능한 NPM 패키지가 아니라는 점에서 다른 인기 라이브러리(예: MUI, ChakraUI, React Spectrum)와 구별됩니다. 대신 하위 dependency들을 설치하고 추가 수정을 위해 구성 요소 소스 코드를 코드베이스에 직접 복사하는 터미널 명령을 통해 shadcn/ui 구성 요소를 통합합니다.
 
 이 프로젝트의 성공은 {tailwind-css}(전체 20위)의 광범위한 인기, React Server Components와의 호환성 및 우수한 문서의 존재와 밀접한 관련이 있습니다.
 
-모든 새로운 리액트 프로젝트는 shadcn/ui를 채택한 것 같습니다. 심지어 켄트 C. 도즈가 자신의 최첨단 [에픽 스택](https://www.epicweb.dev/epic-stack)으로 선택했습니다.
+모든 새로운 React 프로젝트는 shadcn/ui를 채택한 것 같습니다. 심지어 켄트 C. 도즈가 자신의 최첨단 [에픽 스택](https://www.epicweb.dev/epic-stack)으로 선택했습니다.
 
-AI와 관련된 또 다른 예: UI 조각의 특징과 외관을 설명하는 사용자 프롬프트에서 응용 프로그램 [v0.dev](https://v0.dev)은 shadcn/ui 구성 요소로 구성된 JSX 코드를 생성합니다.
+AI와 관련된 또 다른 예: UI 조각의 특징과 외관을 설명하는 사용자 프롬트에서 응용 프로그램 [v0.dev](https://v0.dev)은 shadcn/ui 구성 요소로 구성된 JSX 코드를 생성합니다.
 
 마지막으로 [Best of JS](https://bestofjs.org)도 다시 작성한 후 SPA에서 Next.js 앱으로 전환하기 위해 사용했습니다.
 
@@ -36,7 +36,7 @@ Bun은 자바스크립트 및 타입스크립트 응용 프로그램을 실행, 
 
 번의 [발표](https://twitter.com/bunjavascript/status/1732945030007099510)는 연말에 있었습니다:
 
-> 2024년 목표가 하나 있습니다.
+> 2024년에는 목표가 하나 있습니다.
 > 그 목표는 기본 백엔드 JavaScript 런타임을 Node.js에서 Bun으로 뒤집는것입니다.
 
 대부분의 Node.js 에코 시스템과의 호환성('require'를 통한 좋은 이전 CommonJS 가져오기 지원 포함)과 주요 풀 스택 프레임워크(Next.js, Nuxt, Astro...)의 지원이 가능합니다!
