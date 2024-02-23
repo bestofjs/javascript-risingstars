@@ -11,6 +11,7 @@ An overview of the JavaScript landscape in 2023: trends about frontend, backend 
 - [Frank Xu](https://github.com/frankyxhl)
 - [Evan Trujillo](https://github.com/Evomatic)
 - [Javier Valencia](http://www.jvalen.com)
+- [Jusang Kim](https://github.com/kimjusang)
 - [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Mihai Badescu](https://github.com/zawarudo)
