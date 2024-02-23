@@ -15,9 +15,9 @@
     "all": "전체적으로 가장 인기 있는 프로젝트",
     "framework": "프론트엔드 프레임워크",
     "nodejsframework": "백엔드/풀스택",
-    "react": "리액트 개발환경",
-    "vue": "뷰 개발환경",
-    "angular": "앵귤러 개발환경",
+    "react": "React 생태계",
+    "vue": "Vue 생태계",
+    "angular": "Angular 생태계",
     "mobile": "모바일",
     "desktop": "데스크탑",
     "compiler": "자바스크립트 컴파일러",
@@ -25,7 +25,7 @@
     "testframework": "테스팅 프레임워크",
     "ide": "통합 개발 환경 & 에디터",
     "ssg": "정적 사이트",
-    "cssinjs": "스타일링 / 자바스크립트에서의 CSS",
+    "cssinjs": "스타일링 / JS에서의 CSS",
     "cssframework": "CSS 프레임워크",
     "statemanagement": "상태 관리",
     "graphql": "GraphQL",
@@ -37,6 +37,6 @@
     "component": "UI 컴포넘트 세트"
   },
   "social": {
-    "text": "2023년 자바스크립트 환경을 확인하세요"
+    "text": "2023년의 자바스크립트 환경을 확인하세요"
   }
 }
