@@ -476,7 +476,7 @@
       "icon": "vue.svg"
     },
     {
-      "name": "MUI",
+      "name": "Material UI",
       "full_name": "mui/material-ui",
       "description": " A robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster",
       "stars": 83770,
