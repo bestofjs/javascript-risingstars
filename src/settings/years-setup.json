@@ -29,7 +29,11 @@
   },
   {
     "year": 2023,
-    "languages": ["en", "es", "zh", "ja", "ko"],
+    "languages": ["en", "es", "zh", "ja", "ko"]
+  },
+  {
+    "year": 2024,
+    "languages": ["en"],
     "current": true
   }
 ]

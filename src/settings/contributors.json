@@ -66,5 +66,14 @@
       "ja": ["NurseAngel"],
       "ko": ["kimjusang"]
     }
+  },
+  "2024": {
+    "authors": ["michaelrambeau"],
+    "translators": {
+      "es": ["jvalen"],
+      "zh": ["poozhu"],
+      "ja": ["NurseAngel"],
+      "ko": ["kimjusang"]
+    }
   }
 }

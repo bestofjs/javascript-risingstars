@@ -38,7 +38,7 @@ export async function getStaticPaths() {
 }
 
 const searchSchema = z.object({
-  year: z.coerce.number().int().min(2016).max(2023),
+  year: z.coerce.number().int().min(2016).max(2024),
   category: z.string(),
   language: z.string(),
 });
