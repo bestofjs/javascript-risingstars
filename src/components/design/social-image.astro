@@ -1,0 +1,94 @@
+---
+import ProjectAvatarGrid from "./project-avatar-grid.astro";
+
+export type Props = {
+  language: string;
+  year: number;
+  projects: RisingStars.Project[];
+};
+
+const { language, year, projects } = Astro.props;
+---
+
+<section>
+  <div id="inner">
+    <ProjectAvatarGrid projects={projects} columns={10} size={100} />
+  </div>
+  <div id="heading">
+    {
+      language === "en" && (
+        <>
+          {year} JavaScript
+          <br />
+          Rising Stars
+        </>
+      )
+    }
+    {
+      language === "ja" && (
+        <>
+          JavaScript
+          <br />
+          <span style={{ fontSize: 80 }}>ライジングスター{year}</span>
+        </>
+      )
+    }
+    {language === "fr" && `Le Meilleur du JavaScript en ${year}`}
+    {
+      language === "zh" && (
+        <>
+          {year}年<br />
+          JavaScript
+          <br />
+          明星项目
+        </>
+      )
+    }
+    {
+      language === "es" && (
+        <>
+          Lo mejor
+          <br />
+          de JavaScript
+          <br />
+          en {year}
+        </>
+      )
+    }
+    {
+      language === "ko" && (
+        <>
+          JavaScript
+          <br />
+          라이징스타 {year}
+        </>
+      )
+    }
+  </div>
+</section>
+
+<style>
+  section {
+    width: 1280px;
+    height: 640px;
+    background: linear-gradient(135deg, #ed8518, #e75f16, #b94100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #inner {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  #heading {
+    color: white;
+    font-size: 120px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 6px 6px rgba(143, 50, 0, 0.99);
+    font-weight: bold;
+  }
+</style>

@@ -1,0 +1,65 @@
+---
+/*
+Component only used to generate the header background image
+saved in `/public/img/:year/banner.png`
+*/
+import ProjectAvatar from "~/components/project-avatar.astro";
+
+export interface Props {
+  projects: RisingStars.Project[];
+  size?: number;
+  columns?: number;
+}
+
+const { projects, columns = 14, size = 75 } = Astro.props;
+
+const cellStyle = {
+  width: size + "px",
+  height: size + "px",
+};
+---
+
+<div class="grid">
+  {
+    projects.map((project, i) => {
+      const rowNumber = Math.floor(i / (columns / 2));
+      const evenRow = rowNumber % 2 === 0;
+      if (evenRow) {
+        return (
+          <>
+            <div style={cellStyle} class="cell empty-cell" />
+            <div style={cellStyle} class="cell">
+              <ProjectAvatar project={project} size={size} />
+            </div>
+          </>
+        );
+      } else {
+        return (
+          <>
+            <div style={cellStyle} class="cell">
+              <ProjectAvatar project={project} size={size} />
+            </div>
+            <div style={cellStyle} class="cell empty-cell" />
+          </>
+        );
+      }
+    })
+  }
+</div>
+
+<style>
+  .grid {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .cell {
+    opacity: 0.3;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .empty-cell {
+    background-color: #b94100;
+  }
+</style>
