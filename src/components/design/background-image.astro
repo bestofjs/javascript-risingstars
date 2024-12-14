@@ -1,0 +1,27 @@
+---
+import ProjectAvatarGrid from "./project-avatar-grid.astro";
+
+export interface Props {
+  projects: RisingStars.Project[];
+}
+
+const { projects } = Astro.props;
+
+const size = 75;
+const columns = 16;
+const rows = 4;
+const width = columns * size + "px";
+const height = rows * size + "px";
+---
+
+<div
+  style={{
+    width,
+    height,
+    position: "relative",
+    overflow: "hidden",
+    backgroundColor: "rgba(230, 80, 0, 0.9)",
+  }}
+>
+  <ProjectAvatarGrid projects={projects} columns={columns} size={size} />;
+</div>
