@@ -1,0 +1,48 @@
+---
+/**
+ * This is an hidden page used to generate two types of images:
+ * - the banner showing in the background at the top of the image
+ * - the OG image used when sharing the page on social media, Include the site title.
+ */
+import Layout from "~/layouts/layout.astro";
+import settings from "~/settings/years-setup.json";
+import BackgroundImage from "~/components/design/background-image.astro";
+import SocialImage from "~/components/design/social-image.astro";
+import { fetchPageProps } from "~/fetch-page-props";
+
+export function getStaticPaths() {
+  return settings
+    .flatMap(({ year, languages }) =>
+      languages.map((language) => ({ year: year.toString(), language }))
+    )
+    .map(({ year, language }) => ({ params: { year, language } }));
+}
+
+const { year: yearParam, language } = Astro.params;
+const year = parseInt(yearParam!, 0);
+
+const { projectsByTag } = await fetchPageProps(year, language);
+
+const projects = projectsByTag["all"];
+---
+
+<Layout year={year} language={language}>
+  <main>
+    <h1>Design components - {year}/{language}</h1>
+    <h2>Background banner</h2>
+    <BackgroundImage projects={projects} />
+    <hr />
+    <h2>Social Image (1280x640)</h2>
+    <SocialImage year={year} language={language} projects={projects} />
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  hr {
+    margin: 2rem 0;
+  }
+</style>
