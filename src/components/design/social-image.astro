@@ -1,0 +1,94 @@
+---
+import ProjectAvatarGrid from "./project-avatar-grid.astro";
+
+export type Props = {
+  language: string;
+  year: number;
+  projects: RisingStars.Project[];
+};
+
+const { language, year, projects } = Astro.props;
+---
+
+<div
+  style={{
+    width: 1280 + "px",
+    height: 640 + "px",
+    background: "linear-gradient(135deg,#ed8518,#e75f16,#b94100)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    position: "relative",
+  }}
+>
+  <div
+    style={{
+      width: 1000 + "px",
+      height: 500 + "px",
+      position: "relative",
+      overflow: "hidden",
+    }}
+  >
+    <ProjectAvatarGrid projects={projects} columns={10} size={100} />
+  </div>
+  <div
+    style={{
+      color: "white",
+      fontSize: 120 + "px",
+      position: "absolute",
+      textAlign: "center",
+      textShadow: "0 6px 6px rgba(143,50,0,.99)",
+      fontWeight: "bold",
+    }}
+  >
+    {
+      language === "en" && (
+        <>
+          {year} JavaScript
+          <br />
+          Rising Stars
+        </>
+      )
+    }
+    {
+      language === "ja" && (
+        <>
+          JavaScript
+          <br />
+          <span style={{ fontSize: 80 }}>ライジングスター{year}</span>
+        </>
+      )
+    }
+    {language === "fr" && `Le Meilleur du JavaScript en ${year}`}
+    {
+      language === "zh" && (
+        <>
+          {year}年<br />
+          JavaScript
+          <br />
+          明星项目
+        </>
+      )
+    }
+    {
+      language === "es" && (
+        <>
+          Lo mejor
+          <br />
+          de JavaScript
+          <br />
+          en {year}
+        </>
+      )
+    }
+    {
+      language === "ko" && (
+        <>
+          JavaScript
+          <br />
+          라이징스타 {year}
+        </>
+      )
+    }
+  </div>
+</div>
