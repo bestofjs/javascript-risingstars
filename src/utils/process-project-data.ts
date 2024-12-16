@@ -17,8 +17,14 @@ function getSortedProjects(projectsBySlug: Map<string, RisingStars.Project>) {
 }
 
 function isMatchingTag(category, project) {
-  const tags = category.tags || [category.key];
-  return tags.some((tag) => project.tags.includes(tag));
+  const hasIncludedTag = (category.tags || [category.key]).some((tag) =>
+    project.tags.includes(tag),
+  );
+  const hasExcludedTag = (category.excludedTags || []).some((tag) =>
+    project.tags.includes(tag),
+  );
+
+  return hasIncludedTag && !hasExcludedTag;
 }
 
 function filterByTag(sortedProjects, category) {
@@ -41,7 +47,7 @@ function getProjectsByTag(sortedProjects, categories) {
       Object.assign({}, result, {
         [category.key]: filterByTag(sortedProjects, category),
       }),
-    {}
+    {},
   );
 }
 

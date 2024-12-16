@@ -18,24 +18,8 @@
   {
     "key": "vue",
     "count": 10,
-    "excluded": [
-      "autoanimate",
-      "headless-ui",
-      "ionic",
-      "directus",
-      "mitosis",
-      "storybook",
-      "swiper",
-      "tanstack-query",
-      "tanstack-table",
-      "tiptap",
-      "vercel-ai-sdk",
-      "vuejs",
-      "vuejs-2",
-      "vite",
-      "vitest",
-      "wikijs"
-    ],
+    "excluded": ["vuejs", "vuejs-2", "directus", "wikijs"],
+    "excludedTags": ["react"],
     "guest": "lihbr"
   },
   {
@@ -51,7 +35,6 @@
   {
     "key": "mobile",
     "tags": ["mobile", "react-native"],
-    "excluded": [],
     "count": 10,
     "guest": "evanbacon",
     "availableComments": ["en", "es", "ja", "ko"]
