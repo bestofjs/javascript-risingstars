@@ -12,8 +12,8 @@
     "key": "react",
     "tags": ["react", "react-native"],
     "count": 15,
-    "excluded": ["draw-a-ui", "react", "react-native", "storybook", "trpc"],
-    "guest": "slorber"
+    "excluded": ["react", "react-native", "storybook", "trpc", "expo"],
+    "guest": "rwieruch"
   },
   {
     "key": "vue",
@@ -30,7 +30,8 @@
   {
     "key": "build",
     "limit": 5,
-    "count": 10
+    "count": 10,
+    "guest": "slorber"
   },
   {
     "key": "mobile",
@@ -83,6 +84,7 @@
   },
   {
     "key": "ml",
+    "tags": ["ml", "ai"],
     "count": 10,
     "excluded": ["draw-a-ui"],
     "availableComments": []
