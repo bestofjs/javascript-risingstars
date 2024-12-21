@@ -19,7 +19,7 @@
     "key": "vue",
     "count": 10,
     "excluded": ["vuejs", "vuejs-2", "directus", "wikijs"],
-    "excludedTags": ["react"],
+    "excludedTags": ["react", "nextjs"],
     "guest": "lihbr"
   },
   {
