@@ -2,1027 +2,948 @@
   "projects": [
     {
       "name": "Vue.js",
-      "url": "http://vuejs.org",
       "full_name": "vuejs/vue",
       "description": "🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-      "owner_id": 6128107,
-      "tags": ["framework", "vdom", "vue"],
-      "delta": 26402,
       "stars": 79318,
-      "created_at": "2013-07-29T03:24:51.000Z",
-      "twitter": "vuejs",
+      "delta": 26402,
       "monthly": [
         2959, 3158, 3671, 2725, 2208, 2055, 1700, 2033, 2026, 1302, 948, 1617
       ],
-      "icon": "vue.svg"
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "icon": "vue.svg",
+      "created_at": "2013-07-29T03:24:51.000Z",
+      "url": "http://vuejs.org",
+      "slug": "vuejs"
     },
     {
       "name": "React",
-      "url": "https://reactjs.org",
       "full_name": "facebook/react",
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-      "owner_id": 69631,
-      "tags": ["framework", "vdom", "react"],
-      "delta": 22894,
       "stars": 85350,
-      "created_at": "2013-05-24T16:15:54.000Z",
-      "twitter": "reactjs",
+      "delta": 22894,
       "monthly": [
         1819, 2079, 2166, 2412, 1840, 1954, 1593, 1577, 1955, 2189, 1514, 1796
       ],
-      "icon": "react.svg"
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "icon": "react.svg",
+      "created_at": "2013-05-24T16:15:54.000Z",
+      "url": "https://reactjs.org",
+      "slug": "react"
     },
     {
       "name": "Electron",
-      "url": "https://electronjs.org",
       "full_name": "electron/electron",
       "description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
-      "owner_id": 13409222,
-      "tags": ["desktop"],
-      "delta": 18177,
       "stars": 55064,
-      "created_at": "2013-04-12T01:47:36.000Z",
-      "twitter": "electronjs",
+      "delta": 18177,
       "monthly": [
         1152, 1214, 1178, 1364, 1290, 1304, 1517, 3401, 1294, 1840, 1131, 1492
       ],
-      "icon": "electron.svg"
+      "tags": ["desktop"],
+      "owner_id": 13409222,
+      "icon": "electron.svg",
+      "created_at": "2013-04-12T01:47:36.000Z",
+      "url": "https://electronjs.org",
+      "slug": "electron"
     },
     {
       "name": "React Native",
-      "url": "http://facebook.github.io/react-native/",
       "full_name": "facebook/react-native",
       "description": "A framework for building native apps with React.",
-      "owner_id": 69631,
-      "tags": ["mobile", "react-native"],
-      "delta": 17471,
       "stars": 58274,
-      "created_at": "2015-01-09T18:10:16.000Z",
-      "twitter": "reactnative",
+      "delta": 17471,
       "monthly": [
         1199, 1331, 1370, 1368, 1332, 1378, 1353, 1417, 1814, 1788, 1321, 1800
       ],
-      "icon": "react-native.svg"
+      "tags": ["mobile", "react-native"],
+      "owner_id": 69631,
+      "icon": "react-native.svg",
+      "created_at": "2015-01-09T18:10:16.000Z",
+      "url": "http://facebook.github.io/react-native/",
+      "slug": "react-native"
     },
     {
       "name": "Redux",
-      "url": "http://redux.js.org",
       "full_name": "reactjs/redux",
       "description": "Predictable state container for JavaScript apps",
-      "owner_id": 6412038,
-      "tags": ["flux", "redux", "state"],
-      "delta": 15245,
       "stars": 37158,
-      "created_at": "2015-05-29T23:53:15.000Z",
+      "delta": 15245,
       "monthly": [
         932, 1099, 1115, 1171, 1186, 1120, 1244, 1295, 1280, 1525, 1540, 1738
       ],
-      "icon": "redux.svg"
+      "tags": ["flux", "redux", "state"],
+      "owner_id": 6412038,
+      "icon": "redux.svg",
+      "created_at": "2015-05-29T23:53:15.000Z",
+      "url": "http://redux.js.org",
+      "slug": "redux"
     },
     {
       "name": "Bootstrap",
-      "url": "http://getbootstrap.com",
       "full_name": "twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first project",
-      "owner_id": 2918581,
-      "tags": ["css-lib"],
-      "delta": 14499,
       "stars": 120175,
-      "created_at": "2011-07-29T21:19:00.000Z",
-      "twitter": "getbootstrap",
+      "delta": 14499,
       "monthly": [
         1183, 1071, 1174, 1797, 1075, 1210, 1066, 1157, 1168, 1266, 966, 1366
       ],
-      "icon": "bootstrap.svg"
+      "tags": ["css-lib"],
+      "owner_id": 2918581,
+      "icon": "bootstrap.svg",
+      "created_at": "2011-07-29T21:19:00.000Z",
+      "url": "http://getbootstrap.com",
+      "slug": "bootstrap"
     },
     {
       "name": "D3",
-      "url": "https://d3js.org",
       "full_name": "d3/d3",
       "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
-      "owner_id": 1562726,
-      "tags": ["chart", "d3", "svg", "canvas"],
-      "delta": 13623,
       "stars": 71527,
-      "created_at": "2010-09-27T17:22:42.000Z",
-      "twitter": "d3js_org",
+      "delta": 13623,
       "monthly": [
         1159, 1123, 976, 1077, 1111, 1176, 1539, 1099, 1162, 1209, 1001, 991
-      ]
+      ],
+      "tags": ["chart", "d3", "svg", "canvas"],
+      "owner_id": 1562726,
+      "created_at": "2010-09-27T17:22:42.000Z",
+      "url": "https://d3js.org",
+      "slug": "d3"
     },
     {
       "name": "VS Code",
-      "url": "https://code.visualstudio.com",
       "full_name": "Microsoft/vscode",
       "description": "Visual Studio Code",
-      "owner_id": 6154722,
-      "tags": ["ide"],
-      "delta": 11774,
       "stars": 41758,
-      "created_at": "2015-09-03T20:23:38.000Z",
-      "twitter": "code",
+      "delta": 11774,
       "monthly": [
         1014, 1073, 984, 938, 763, 775, 813, 989, 1796, 983, 739, 907
       ],
-      "icon": "vscode.svg"
+      "tags": ["ide"],
+      "owner_id": 6154722,
+      "icon": "vscode.svg",
+      "created_at": "2015-09-03T20:23:38.000Z",
+      "url": "https://code.visualstudio.com",
+      "slug": "vs-code"
     },
     {
       "name": "Node.js",
-      "url": "https://nodejs.org",
       "full_name": "nodejs/node",
       "description": "Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:",
-      "owner_id": 9950313,
-      "tags": ["node.js"],
-      "delta": 11518,
       "stars": 44280,
-      "created_at": "2014-11-26T19:57:11.000Z",
-      "twitter": "nodejs",
+      "delta": 11518,
       "monthly": [
         881, 953, 1197, 984, 950, 827, 799, 949, 1087, 1034, 780, 1077
-      ]
+      ],
+      "tags": ["node.js"],
+      "owner_id": 9950313,
+      "created_at": "2014-11-26T19:57:11.000Z",
+      "url": "https://nodejs.org",
+      "slug": "nodejs"
     },
     {
       "name": "Webpack",
-      "url": "https://webpack.js.org",
       "full_name": "webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting a",
-      "owner_id": 2105791,
-      "tags": ["build", "module"],
-      "delta": 11237,
       "stars": 35713,
-      "created_at": "2012-03-10T10:08:14.000Z",
+      "delta": 11237,
       "monthly": [
         1020, 1095, 1208, 885, 1008, 918, 856, 755, 883, 892, 805, 912
       ],
-      "icon": "webpack.svg"
+      "tags": ["build", "module"],
+      "owner_id": 2105791,
+      "icon": "webpack.svg",
+      "created_at": "2012-03-10T10:08:14.000Z",
+      "url": "https://webpack.js.org",
+      "slug": "webpack"
     },
     {
       "name": "Angular",
-      "url": "https://angular.io",
       "full_name": "angular/angular",
       "description": "One framework. Mobile & desktop.",
-      "owner_id": 139426,
-      "tags": ["framework", "angular"],
-      "delta": 10362,
       "stars": 31827,
+      "delta": 10362,
+      "monthly": [901, 688, 675, 8098],
+      "tags": ["framework", "angular"],
+      "owner_id": 139426,
       "created_at": "2014-09-18T16:12:01.000Z",
-      "twitter": "angular",
-      "monthly": [901, 688, 675, 8098]
+      "url": "https://angular.io",
+      "slug": "angular"
     },
     {
       "name": "Atom",
-      "url": "https://atom.io",
       "full_name": "atom/atom",
       "description": ":atom: The hackable text editor",
-      "owner_id": 1089146,
-      "tags": ["ide"],
-      "delta": 10102,
       "stars": 42749,
-      "created_at": "2012-01-20T18:18:21.000Z",
-      "twitter": "atomeditor",
+      "delta": 10102,
       "monthly": [733, 780, 847, 797, 885, 669, 787, 841, 969, 1000, 817, 977],
-      "icon": "atom.svg"
+      "tags": ["ide"],
+      "owner_id": 1089146,
+      "icon": "atom.svg",
+      "created_at": "2012-01-20T18:18:21.000Z",
+      "url": "https://atom.io",
+      "slug": "atom"
     },
     {
       "name": "Create React App",
-      "url": "",
       "full_name": "facebookincubator/create-react-app",
       "description": "Create React apps with no build configuration.",
-      "owner_id": 19538647,
-      "tags": ["boilerplate", "react"],
-      "delta": 9536,
       "stars": 40707,
-      "created_at": "2016-07-17T14:55:11.000Z",
+      "delta": 9536,
       "monthly": [1786, 1682, 2102, 2395, 1571],
-      "icon": "cra.svg"
+      "tags": ["boilerplate", "react"],
+      "owner_id": 19538647,
+      "icon": "cra.svg",
+      "created_at": "2016-07-17T14:55:11.000Z",
+      "url": "",
+      "slug": "create-react-app"
     },
     {
       "name": "TypeScript",
-      "url": "http://www.typescriptlang.org",
       "full_name": "Microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "owner_id": 6154722,
-      "tags": ["compiler"],
-      "delta": 9423,
       "stars": 29771,
-      "created_at": "2014-06-17T15:28:39.000Z",
-      "twitter": "typescriptlang",
+      "delta": 9423,
       "monthly": [732, 846, 877, 966, 805, 971, 794, 685, 741, 754, 601, 651],
-      "icon": "typescript.svg"
+      "tags": ["compiler"],
+      "owner_id": 6154722,
+      "icon": "typescript.svg",
+      "created_at": "2014-06-17T15:28:39.000Z",
+      "url": "http://www.typescriptlang.org",
+      "slug": "typescript"
     },
     {
       "name": "Material UI",
-      "url": "http://www.material-ui.com",
       "full_name": "mui-org/material-ui",
       "description": "React components that implement Google's Material Design.",
-      "owner_id": 33663932,
-      "tags": ["material", "react", "component"],
-      "delta": 9363,
       "stars": 32115,
-      "created_at": "2014-08-18T19:11:54.000Z",
-      "twitter": "materialui",
+      "delta": 9363,
       "monthly": [722, 750, 761, 794, 821, 796, 753, 854, 879, 860, 668, 705],
-      "icon": "material-ui.svg"
+      "tags": ["material", "react", "component"],
+      "owner_id": 33663932,
+      "icon": "material-ui.svg",
+      "created_at": "2014-08-18T19:11:54.000Z",
+      "url": "http://www.material-ui.com",
+      "slug": "material-ui"
     },
     {
       "name": "React Router",
-      "url": "https://reacttraining.com/react-router/",
       "full_name": "ReactTraining/react-router",
       "description": "Declarative routing for React",
-      "owner_id": 11823761,
-      "tags": ["react", "routing"],
-      "delta": 9073,
       "stars": 27448,
+      "delta": 9073,
+      "monthly": [647, 661, 756, 1018, 753, 673, 716, 709, 744, 750, 685, 961],
+      "tags": ["react", "routing"],
+      "owner_id": 11823761,
       "created_at": "2014-05-16T22:22:51.000Z",
-      "monthly": [647, 661, 756, 1018, 753, 673, 716, 709, 744, 750, 685, 961]
+      "url": "https://reacttraining.com/react-router/",
+      "slug": "react-router"
     },
     {
       "name": "React boilerplate",
-      "url": "https://www.reactboilerplate.com",
       "full_name": "react-boilerplate/react-boilerplate",
       "description": ":fire: A highly scalable, offline-first foundation with the best developer experience and a focus on",
-      "owner_id": 25323389,
-      "tags": ["boilerplate", "react", "redux", "offline"],
-      "delta": 8949,
       "stars": 16657,
+      "delta": 8949,
+      "monthly": [532, 536, 478, 675, 473, 523, 843, 3562, 170, 276, 178, 703],
+      "tags": ["boilerplate", "react", "redux", "offline"],
+      "owner_id": 25323389,
       "created_at": "2015-02-18T14:36:32.000Z",
-      "monthly": [532, 536, 478, 675, 473, 523, 843, 3562, 170, 276, 178, 703]
+      "url": "https://www.reactboilerplate.com",
+      "slug": "react-boilerplate"
     },
     {
       "name": "Angular 1",
-      "url": "https://angularjs.org",
       "full_name": "angular/angular.js",
       "description": "AngularJS - HTML enhanced for web apps!",
-      "owner_id": 139426,
-      "tags": ["framework", "angular"],
-      "delta": 8530,
       "stars": 57787,
-      "created_at": "2010-01-06T00:34:37.000Z",
-      "twitter": "",
+      "delta": 8530,
       "monthly": [532, 575, 533, 746, 717, 707, 708, 714, 653, 843, 829, 973],
-      "icon": "angularjs.svg"
+      "tags": ["framework", "angular"],
+      "owner_id": 139426,
+      "icon": "angularjs.svg",
+      "created_at": "2010-01-06T00:34:37.000Z",
+      "url": "https://angularjs.org",
+      "slug": "angular-1"
     },
     {
       "name": "Express",
-      "url": "https://expressjs.com",
       "full_name": "expressjs/express",
       "description": "Fast, unopinionated, minimalist web framework for node.",
-      "owner_id": 5658226,
-      "tags": ["nodejs-framework", "express"],
-      "delta": 6876,
       "stars": 36006,
-      "created_at": "2009-06-26T18:56:01.000Z",
-      "twitter": "expressjs",
+      "delta": 6876,
       "monthly": [483, 582, 458, 490, 559, 566, 551, 618, 643, 736, 655, 535],
-      "icon": "express.svg"
+      "tags": ["nodejs-framework", "express"],
+      "owner_id": 5658226,
+      "icon": "express.svg",
+      "created_at": "2009-06-26T18:56:01.000Z",
+      "url": "https://expressjs.com",
+      "slug": "express"
     },
     {
       "name": "Inferno",
-      "url": "http://infernojs.org",
       "full_name": "infernojs/inferno",
       "description": "An extremely fast, React-like JavaScript library for building modern user interfaces",
-      "owner_id": 14214240,
-      "tags": ["vdom", "framework"],
-      "delta": 6873,
       "stars": 12025,
+      "delta": 6873,
+      "monthly": [2445, 652, 217, 1122, 127, 453, 1468, 48, 114, 52, 95, 80],
+      "tags": ["vdom", "framework"],
+      "owner_id": 14214240,
       "created_at": "2015-02-01T22:07:38.000Z",
-      "twitter": "inferno_js",
-      "monthly": [2445, 652, 217, 1122, 127, 453, 1468, 48, 114, 52, 95, 80]
+      "url": "http://infernojs.org",
+      "slug": "inferno"
     },
     {
       "name": "Babel",
-      "url": "https://babeljs.io/",
       "full_name": "babel/babel",
       "description": ":tropical_fish: Babel is a compiler for writing next generation JavaScript.",
-      "owner_id": 9637642,
-      "tags": ["compiler"],
-      "delta": 6570,
       "stars": 25206,
+      "delta": 6570,
+      "monthly": [483, 437, 497, 484, 529, 482, 484, 548, 570, 660, 624, 772],
+      "tags": ["compiler"],
+      "owner_id": 9637642,
       "created_at": "2014-09-28T13:38:23.000Z",
-      "twitter": "babeljs",
-      "monthly": [483, 437, 497, 484, 529, 482, 484, 548, 570, 660, 624, 772]
+      "url": "https://babeljs.io/",
+      "slug": "babel"
     },
     {
       "name": "React Starter Kit",
-      "url": "https://reactstarter.com",
       "full_name": "kriasoft/react-starter-kit",
       "description": "React Starter Kit — isomorphic web app boilerplate (Node.js, Express, GraphQL, React.js, Babel, Post",
-      "owner_id": 773036,
-      "tags": ["react", "isomorphic", "boilerplate", "graphql"],
-      "delta": 6306,
       "stars": 16551,
+      "delta": 6306,
+      "monthly": [368, 489, 474, 517, 613, 525, 551, 571, 540, 569, 516, 573],
+      "tags": ["react", "isomorphic", "boilerplate", "graphql"],
+      "owner_id": 773036,
       "created_at": "2014-04-16T13:08:18.000Z",
-      "monthly": [368, 489, 474, 517, 613, 525, 551, 571, 540, 569, 516, 573]
+      "url": "https://reactstarter.com",
+      "slug": "react-starter-kit"
     },
     {
       "name": "Gulp",
-      "url": "http://gulpjs.com",
       "full_name": "gulpjs/gulp",
       "description": "The streaming build system",
-      "owner_id": 6200624,
-      "tags": ["build"],
-      "delta": 6284,
       "stars": 28419,
-      "created_at": "2013-07-04T05:26:06.000Z",
-      "twitter": "gulpjs",
+      "delta": 6284,
       "monthly": [357, 481, 489, 470, 510, 547, 497, 532, 573, 657, 549, 622],
-      "icon": "gulp.svg"
+      "tags": ["build"],
+      "owner_id": 6200624,
+      "icon": "gulp.svg",
+      "created_at": "2013-07-04T05:26:06.000Z",
+      "url": "http://gulpjs.com",
+      "slug": "gulp"
     },
     {
       "name": "Ionic",
-      "url": "https://ionicframework.com/",
       "full_name": "ionic-team/ionic",
       "description": "Build amazing native and progressive web apps with open web technologies. One app running on everyth",
-      "owner_id": 3171503,
-      "tags": ["mobile"],
-      "delta": 6024,
       "stars": 32895,
-      "created_at": "2013-08-20T23:06:02.000Z",
-      "twitter": "Ionicframework",
+      "delta": 6024,
       "monthly": [438, 471, 444, 480, 438, 459, 504, 468, 488, 581, 548, 705],
-      "icon": "ionic.svg"
+      "tags": ["mobile"],
+      "owner_id": 3171503,
+      "icon": "ionic.svg",
+      "created_at": "2013-08-20T23:06:02.000Z",
+      "url": "https://ionicframework.com/",
+      "slug": "ionic"
     },
     {
       "name": "Hexo",
-      "url": "https://hexo.io",
       "full_name": "hexojs/hexo",
       "description": "A fast, simple & powerful blog framework, powered by Node.js.",
-      "owner_id": 6375567,
-      "tags": ["ssg", "blog"],
-      "delta": 5879,
       "stars": 20089,
-      "created_at": "2012-09-23T15:17:08.000Z",
-      "twitter": "hexojs",
+      "delta": 5879,
       "monthly": [516, 464, 446, 510, 526, 449, 428, 562, 559, 516, 406, 497],
-      "icon": "hexo.svg"
+      "tags": ["ssg", "blog"],
+      "owner_id": 6375567,
+      "icon": "hexo.svg",
+      "created_at": "2012-09-23T15:17:08.000Z",
+      "url": "https://hexo.io",
+      "slug": "hexo"
     },
     {
       "name": "AVA",
-      "url": "",
       "full_name": "avajs/ava",
       "description": ":rocket: Futuristic JavaScript test runner",
-      "owner_id": 8527916,
-      "tags": ["test-framework", "test"],
-      "delta": 5466,
       "stars": 12419,
+      "delta": 5466,
+      "monthly": [333, 321, 363, 381, 450, 428, 421, 408, 447, 989, 604, 321],
+      "tags": ["test-framework", "test"],
+      "owner_id": 8527916,
       "created_at": "2014-11-18T17:20:26.000Z",
-      "twitter": "ava__js",
-      "monthly": [333, 321, 363, 381, 450, 428, 421, 408, 447, 989, 604, 321]
+      "url": "",
+      "slug": "ava"
     },
     {
       "name": "React Redux Universal Hot Example",
-      "url": "",
       "full_name": "erikras/react-redux-universal-hot-example",
       "description": "A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transfo",
-      "owner_id": 4396759,
-      "tags": ["boilerplate", "react", "redux"],
-      "delta": 5396,
       "stars": 10783,
+      "delta": 5396,
+      "monthly": [322, 342, 294, 312, 418, 398, 448, 574, 555, 617, 553, 563],
+      "tags": ["boilerplate", "react", "redux"],
+      "owner_id": 4396759,
       "created_at": "2015-06-23T16:39:21.000Z",
-      "monthly": [322, 342, 294, 312, 418, 398, 448, 574, 555, 617, 553, 563]
+      "url": "",
+      "slug": "react-redux-universal-hot-example"
     },
     {
       "name": "Enzyme",
-      "url": "http://airbnb.io/enzyme/",
       "full_name": "airbnb/enzyme",
       "description": "JavaScript Testing utilities for React",
-      "owner_id": 698437,
-      "tags": ["test", "react"],
-      "delta": 5389,
       "stars": 12262,
+      "delta": 5389,
+      "monthly": [331, 349, 332, 367, 414, 428, 394, 459, 434, 1009, 470, 402],
+      "tags": ["test", "react"],
+      "owner_id": 698437,
       "created_at": "2015-11-10T21:45:38.000Z",
-      "monthly": [331, 349, 332, 367, 414, 428, 394, 459, 434, 1009, 470, 402]
+      "url": "http://airbnb.io/enzyme/",
+      "slug": "enzyme"
     },
     {
       "name": "Preact",
-      "url": "https://preactjs.com",
       "full_name": "developit/preact",
       "description": "⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
-      "owner_id": 105127,
-      "tags": ["vdom", "framework"],
-      "delta": 5185,
       "stars": 17096,
-      "created_at": "2015-09-11T02:40:18.000Z",
-      "twitter": "preactjs",
+      "delta": 5185,
       "monthly": [1029, 924, 630, 251, 351, 264, 352, 286, 172, 173, 521, 232],
-      "icon": "preact.svg"
+      "tags": ["vdom", "framework"],
+      "owner_id": 105127,
+      "icon": "preact.svg",
+      "created_at": "2015-09-11T02:40:18.000Z",
+      "url": "https://preactjs.com",
+      "slug": "preact"
     },
     {
       "name": "Rollup",
-      "url": "http://rollupjs.org",
       "full_name": "rollup/rollup",
       "description": "Next-generation ES6 module bundler",
-      "owner_id": 12554859,
-      "tags": ["module", "build"],
-      "delta": 5159,
       "stars": 11463,
-      "created_at": "2015-05-14T22:26:28.000Z",
-      "twitter": "rollupjs",
+      "delta": 5159,
       "monthly": [324, 341, 481, 610, 721, 321, 340, 387, 322, 452, 458, 402],
-      "icon": "rollup.svg"
+      "tags": ["module", "build"],
+      "owner_id": 12554859,
+      "icon": "rollup.svg",
+      "created_at": "2015-05-14T22:26:28.000Z",
+      "url": "http://rollupjs.org",
+      "slug": "rollup"
     },
     {
       "name": "Koa",
-      "url": "http://koajs.com",
       "full_name": "koajs/koa",
       "description": "Expressive middleware for node.js using ES2017 async functions",
-      "owner_id": 5055057,
-      "tags": ["nodejs-framework"],
-      "delta": 5012,
       "stars": 19116,
+      "delta": 5012,
+      "monthly": [402, 380, 374, 425, 466, 367, 342, 436, 414, 428, 387, 591],
+      "tags": ["nodejs-framework"],
+      "owner_id": 5055057,
       "created_at": "2013-07-20T18:53:45.000Z",
-      "monthly": [402, 380, 374, 425, 466, 367, 342, 436, 414, 428, 387, 591]
+      "url": "http://koajs.com",
+      "slug": "koa"
     },
     {
       "name": "Gatsby",
-      "url": "https://www.gatsbyjs.org",
       "full_name": "gatsbyjs/gatsby",
       "description": "⚛️📄🚀 Blazing fast static site generator for React",
-      "owner_id": 12551863,
-      "tags": ["ssg", "react", "graphql"],
-      "delta": 4908,
       "stars": 17146,
-      "created_at": "2015-05-21T22:43:05.000Z",
-      "twitter": "gatsbyjs",
+      "delta": 4908,
       "monthly": [382, 1042, 469, 279, 385, 1310, 175, 126, 182, 211, 235, 112],
-      "icon": "gatsby.svg"
+      "tags": ["ssg", "react", "graphql"],
+      "owner_id": 12551863,
+      "icon": "gatsby.svg",
+      "created_at": "2015-05-21T22:43:05.000Z",
+      "url": "https://www.gatsbyjs.org",
+      "slug": "gatsby"
     },
     {
       "name": "Next.js",
-      "url": "https://zeit.co/blog/next4",
       "full_name": "zeit/next.js",
       "description": "Framework for server-rendered or statically-exported React apps",
-      "owner_id": 14985020,
-      "tags": ["boilerplate", "isomorphic", "react"],
-      "delta": 4567,
       "stars": 20992,
+      "delta": 4567,
+      "monthly": [975, 2012, 1580],
+      "tags": ["boilerplate", "isomorphic", "react"],
+      "owner_id": 14985020,
       "created_at": "2016-10-05T23:32:51.000Z",
-      "monthly": [975, 2012, 1580]
+      "url": "https://zeit.co/blog/next4",
+      "slug": "nextjs"
     },
     {
       "name": "Recharts",
-      "url": "http://recharts.org",
       "full_name": "recharts/recharts",
       "description": "Redefined chart library built with React and D3",
-      "owner_id": 13690587,
-      "tags": ["chart", "react", "d3", "svg"],
-      "delta": 4222,
       "stars": 7656,
+      "delta": 4222,
+      "monthly": [300, 292, 239, 349, 2528, 42, 61, 76, 225, 35, 75],
+      "tags": ["chart", "react", "d3", "svg"],
+      "owner_id": 13690587,
       "created_at": "2015-08-07T06:50:27.000Z",
-      "monthly": [300, 292, 239, 349, 2528, 42, 61, 76, 225, 35, 75]
+      "url": "http://recharts.org",
+      "slug": "recharts"
     },
     {
       "name": "Feathers",
-      "url": "https://feathersjs.com",
       "full_name": "feathersjs/feathers",
       "description": "A REST and realtime API layer for modern applications.",
-      "owner_id": 5321853,
-      "tags": ["api", "nodejs-framework", "realtime"],
-      "delta": 4082,
       "stars": 8180,
+      "delta": 4082,
+      "monthly": [201, 267, 180, 140, 217, 131, 158, 212, 428, 2032, 59, 57],
+      "tags": ["api", "nodejs-framework", "realtime"],
+      "owner_id": 5321853,
       "created_at": "2011-10-19T22:45:16.000Z",
-      "twitter": "FeatherJS",
-      "monthly": [201, 267, 180, 140, 217, 131, 158, 212, 428, 2032, 59, 57]
+      "url": "https://feathersjs.com",
+      "slug": "feathers"
     },
     {
       "name": "Jest",
-      "url": "http://facebook.github.io/jest/",
       "full_name": "facebook/jest",
       "description": "🃏 Delightful JavaScript Testing.",
-      "owner_id": 69631,
-      "tags": ["test-framework", "test"],
-      "delta": 3918,
       "stars": 14703,
-      "created_at": "2013-12-10T00:18:04.000Z",
-      "twitter": "fbjest",
+      "delta": 3918,
       "monthly": [792, 475, 502, 929, 222, 139, 153, 139, 189, 166, 96, 116],
-      "icon": "jest.svg"
+      "tags": ["test-framework", "test"],
+      "owner_id": 69631,
+      "icon": "jest.svg",
+      "created_at": "2013-12-10T00:18:04.000Z",
+      "url": "http://facebook.github.io/jest/",
+      "slug": "jest"
     },
     {
       "name": "Aurelia",
-      "url": "http://aurelia.io/",
       "full_name": "aurelia/framework",
       "description": "The aurelia framework brings together all the required core aurelia libraries into a ready-to-go app",
-      "owner_id": 9808864,
-      "tags": ["framework"],
-      "delta": 3749,
       "stars": 10346,
+      "delta": 3749,
+      "monthly": [270, 266, 310, 340, 535, 440, 339, 228, 218, 265, 301, 237],
+      "tags": ["framework"],
+      "owner_id": 9808864,
       "created_at": "2014-12-10T19:22:29.000Z",
-      "monthly": [270, 266, 310, 340, 535, 440, 339, 228, 218, 265, 301, 237]
+      "url": "http://aurelia.io/",
+      "slug": "aurelia"
     },
     {
       "name": "NativeScript",
-      "url": "http://www.nativescript.org",
       "full_name": "NativeScript/NativeScript",
       "description": "NativeScript is an open source framework for building truly native mobile apps with JavaScript. Use ",
-      "owner_id": 7392261,
-      "tags": ["mobile"],
-      "delta": 3749,
       "stars": 12115,
-      "created_at": "2015-03-01T09:47:08.000Z",
-      "twitter": "NativeScript",
+      "delta": 3749,
       "monthly": [294, 313, 281, 312, 281, 365, 270, 416, 262, 273, 342, 340],
-      "icon": "nativescript.svg"
+      "tags": ["mobile"],
+      "owner_id": 7392261,
+      "icon": "nativescript.svg",
+      "created_at": "2015-03-01T09:47:08.000Z",
+      "url": "http://www.nativescript.org",
+      "slug": "nativescript"
     },
     {
       "name": "Keystone",
-      "url": "http://www.keystonejs.com",
       "full_name": "keystonejs/keystone",
       "description": "node.js cms and web app framework",
-      "owner_id": 6118534,
-      "tags": ["nodejs-framework", "cms"],
-      "delta": 3579,
       "stars": 11742,
+      "delta": 3579,
+      "monthly": [282, 321, 267, 315, 318, 278, 290, 293, 336, 300, 290, 289],
+      "tags": ["nodejs-framework", "cms"],
+      "owner_id": 6118534,
       "created_at": "2013-07-02T05:01:55.000Z",
-      "twitter": "keystonejs",
-      "monthly": [282, 321, 267, 315, 318, 278, 290, 293, 336, 300, 290, 289]
+      "url": "http://www.keystonejs.com",
+      "slug": "keystone"
     },
     {
       "name": "Sails",
-      "url": "https://sailsjs.com",
       "full_name": "balderdashy/sails",
       "description": "Realtime MVC Framework for Node.js",
-      "owner_id": 1445252,
-      "tags": ["nodejs-framework"],
-      "delta": 3176,
       "stars": 18239,
+      "delta": 3176,
+      "monthly": [223, 249, 214, 201, 241, 234, 246, 295, 290, 354, 334, 295],
+      "tags": ["nodejs-framework"],
+      "owner_id": 1445252,
       "created_at": "2012-03-18T19:46:15.000Z",
-      "twitter": "sailsjs",
-      "monthly": [223, 249, 214, 201, 241, 234, 246, 295, 290, 354, 334, 295]
+      "url": "https://sailsjs.com",
+      "slug": "sails"
     },
     {
-      "name": "RiotJS",
-      "url": "http://riotjs.com",
+      "name": "Riot",
       "full_name": "riot/riot",
       "description": "Simple and elegant component-based UI library",
-      "owner_id": 12729373,
-      "tags": ["framework", "vdom"],
-      "delta": 3005,
       "stars": 12675,
+      "delta": 3005,
+      "monthly": [163, 304, 217, 283, 308, 232, 208, 329, 250, 208, 219, 284],
+      "tags": ["framework", "vdom"],
+      "owner_id": 12729373,
       "created_at": "2013-09-27T05:21:01.000Z",
-      "monthly": [163, 304, 217, 283, 308, 232, 208, 329, 250, 208, 219, 284]
+      "url": "http://riotjs.com",
+      "slug": "riot"
     },
     {
       "name": "Mocha",
-      "url": "https://mochajs.org",
       "full_name": "mochajs/mocha",
       "description": "☕️ simple, flexible, fun javascript test framework for node.js & the browser",
-      "owner_id": 8770005,
-      "tags": ["test-framework", "test"],
-      "delta": 2942,
       "stars": 14345,
+      "delta": 2942,
+      "monthly": [242, 260, 215, 202, 281, 279, 256, 238, 203, 280, 219, 267],
+      "tags": ["test-framework", "test"],
+      "owner_id": 8770005,
       "created_at": "2011-03-07T18:44:25.000Z",
-      "monthly": [242, 260, 215, 202, 281, 279, 256, 238, 203, 280, 219, 267]
+      "url": "https://mochajs.org",
+      "slug": "mocha"
     },
     {
       "name": "Polymer",
-      "url": "https://www.polymer-project.org/",
       "full_name": "Polymer/polymer",
       "description": "Build modern apps using web components",
-      "owner_id": 2159051,
-      "tags": ["framework"],
-      "delta": 2930,
       "stars": 18984,
+      "delta": 2930,
+      "monthly": [187, 243, 249, 224, 209, 218, 208, 198, 235, 300, 309, 350],
+      "tags": ["framework"],
+      "owner_id": 2159051,
       "created_at": "2012-08-23T20:56:30.000Z",
-      "monthly": [187, 243, 249, 224, 209, 218, 208, 198, 235, 300, 309, 350]
+      "url": "https://www.polymer-project.org/",
+      "slug": "polymer"
     },
     {
       "name": "Cycle.js",
-      "url": "http://cycle.js.org",
       "full_name": "cyclejs/cyclejs",
       "description": "A functional and reactive JavaScript framework for predictable code",
-      "owner_id": 12686838,
-      "tags": ["fp", "vdom", "framework"],
-      "delta": 2896,
       "stars": 7884,
+      "delta": 2896,
+      "monthly": [197, 215, 205, 211, 240, 183, 177, 192, 198, 274, 280, 524],
+      "tags": ["fp", "vdom", "framework"],
+      "owner_id": 12686838,
       "created_at": "2014-11-07T11:28:45.000Z",
-      "monthly": [197, 215, 205, 211, 240, 183, 177, 192, 198, 274, 280, 524]
+      "url": "http://cycle.js.org",
+      "slug": "cyclejs"
     },
     {
       "name": "Nodal",
-      "url": "http://www.nodaljs.com/",
       "full_name": "keithwhor/nodal",
       "description": "API Services Made Easy With Node.js",
-      "owner_id": 3936867,
-      "tags": ["nodejs-framework"],
-      "delta": 2670,
       "stars": 4523,
+      "delta": 2670,
+      "monthly": [84, 47, 30, 56, 101, 256, 192, 338, 230, 268, 275, 793],
+      "tags": ["nodejs-framework"],
+      "owner_id": 3936867,
       "created_at": "2015-04-19T06:34:05.000Z",
-      "monthly": [84, 47, 30, 56, 101, 256, 192, 338, 230, 268, 275, 793]
+      "url": "http://www.nodaljs.com/",
+      "slug": "nodal"
     },
     {
       "name": "Loopback",
-      "url": "http://loopback.io",
+      "slug": "loopback-3",
       "full_name": "strongloop/loopback",
       "description": "LoopBack makes it easy to build modern applications that require complex integrations.",
-      "owner_id": 3020012,
-      "tags": ["api", "nodejs-framework"],
-      "delta": 2480,
       "stars": 10385,
+      "delta": 2480,
+      "monthly": [173, 191, 168, 157, 197, 173, 210, 209, 201, 238, 306, 257],
+      "tags": ["api", "nodejs-framework"],
+      "owner_id": 3020012,
       "created_at": "2013-04-09T16:02:18.000Z",
-      "monthly": [173, 191, 168, 157, 197, 173, 210, 209, 201, 238, 306, 257]
+      "url": "http://loopback.io"
     },
     {
       "name": "Brackets",
-      "url": "http://brackets.io",
       "full_name": "adobe/brackets",
       "description": "An open source code editor for the web, written in JavaScript, HTML and CSS.",
-      "owner_id": 476009,
-      "tags": ["ide"],
-      "delta": 2369,
       "stars": 28559,
-      "created_at": "2011-12-07T21:14:40.000Z",
-      "twitter": "brackets",
+      "delta": 2369,
       "monthly": [161, 226, 173, 168, 144, 176, 225, 199, 174, 209, 251, 263],
-      "icon": "brackets.svg"
+      "tags": ["ide"],
+      "owner_id": 476009,
+      "icon": "brackets.svg",
+      "created_at": "2011-12-07T21:14:40.000Z",
+      "url": "http://brackets.io",
+      "slug": "brackets"
     },
     {
       "name": "Relay",
-      "url": "https://facebook.github.io/relay/",
       "full_name": "facebook/relay",
       "description": "Relay is a JavaScript framework for building data-driven React applications.",
-      "owner_id": 69631,
-      "tags": ["framework", "graphql"],
-      "delta": 2341,
       "stars": 10268,
-      "created_at": "2015-08-10T22:09:16.000Z",
-      "twitter": "",
+      "delta": 2341,
       "monthly": [160, 155, 208, 208, 213, 119, 158, 176, 200, 263, 258, 223],
-      "icon": "relay.svg"
+      "tags": ["framework", "graphql"],
+      "owner_id": 69631,
+      "icon": "relay.svg",
+      "created_at": "2015-08-10T22:09:16.000Z",
+      "url": "https://facebook.github.io/relay/",
+      "slug": "relay"
     },
     {
       "name": "Backbone",
-      "url": "http://backbonejs.org",
       "full_name": "jashkenas/backbone",
       "description": "Give your JS App some Backbone with Models, Views, Collections, and Events",
-      "owner_id": 4732,
-      "tags": ["framework"],
-      "delta": 2116,
       "stars": 26927,
-      "created_at": "2010-09-30T19:41:28.000Z",
+      "delta": 2116,
       "monthly": [118, 101, 133, 138, 189, 179, 177, 187, 209, 240, 210, 235],
-      "icon": "backbone.svg"
+      "tags": ["framework"],
+      "owner_id": 4732,
+      "icon": "backbone.svg",
+      "created_at": "2010-09-30T19:41:28.000Z",
+      "url": "http://backbonejs.org",
+      "slug": "backbone"
     },
     {
       "name": "Hapi",
-      "url": "hapijs.com",
       "full_name": "hapijs/hapi",
       "description": "Server Framework  for Node.js",
-      "owner_id": 3774533,
-      "tags": ["nodejs-framework"],
-      "delta": 1937,
       "stars": 8924,
+      "delta": 1937,
+      "monthly": [146, 138, 174, 164, 139, 140, 149, 173, 176, 172, 171, 195],
+      "tags": ["nodejs-framework"],
+      "owner_id": 3774533,
       "created_at": "2011-08-06T00:35:39.000Z",
-      "monthly": [146, 138, 174, 164, 139, 140, 149, 173, 176, 172, 171, 195]
+      "url": "hapijs.com",
+      "slug": "hapi"
     },
     {
       "name": "Ember",
-      "url": "http://www.emberjs.com",
       "full_name": "emberjs/ember.js",
       "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
-      "owner_id": 1253363,
-      "tags": ["framework"],
-      "delta": 1932,
       "stars": 18601,
+      "delta": 1932,
+      "monthly": [150, 146, 172, 122, 177, 145, 135, 153, 149, 197, 182, 204],
+      "tags": ["framework"],
+      "owner_id": 1253363,
       "created_at": "2011-05-25T23:39:40.000Z",
-      "monthly": [150, 146, 172, 122, 177, 145, 135, 153, 149, 197, 182, 204]
+      "url": "http://www.emberjs.com",
+      "slug": "ember"
     },
     {
       "name": "Choo",
-      "url": "https://choo.io/",
       "full_name": "choojs/choo",
       "description": ":steam_locomotive::train: - sturdy 4kb frontend framework",
-      "owner_id": 29929674,
-      "tags": ["framework"],
-      "delta": 1908,
       "stars": 4940,
+      "delta": 1908,
+      "monthly": [123, 256, 148, 166, 271, 688, 256],
+      "tags": ["framework"],
+      "owner_id": 29929674,
       "created_at": "2016-05-10T17:50:35.000Z",
-      "monthly": [123, 256, 148, 166, 271, 688, 256]
+      "url": "https://choo.io/",
+      "slug": "choo"
     },
     {
       "name": "Reason",
-      "url": "http://reasonml.github.io",
       "full_name": "facebook/reason",
       "description": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems",
-      "owner_id": 69631,
-      "tags": ["compiler"],
-      "delta": 1857,
       "stars": 4556,
-      "created_at": "2015-11-16T08:22:32.000Z",
-      "twitter": "reasonml",
+      "delta": 1857,
       "monthly": [99, 94, 152, 133, 63, 112, 98, 1106],
-      "icon": "reason.svg"
+      "tags": ["compiler"],
+      "owner_id": 69631,
+      "icon": "reason.svg",
+      "created_at": "2015-11-16T08:22:32.000Z",
+      "url": "http://reasonml.github.io",
+      "slug": "reason"
     },
     {
       "name": "Jasmine",
-      "url": "http://jasmine.github.io/",
       "full_name": "jasmine/jasmine",
       "description": "Simple JavaScript testing framework for browsers and node.js",
-      "owner_id": 4624349,
-      "tags": ["test-framework", "test"],
-      "delta": 1833,
       "stars": 13183,
+      "delta": 1833,
+      "monthly": [99, 127, 113, 167, 144, 162, 140, 150, 183, 184, 172, 192],
+      "tags": ["test-framework", "test"],
+      "owner_id": 4624349,
       "created_at": "2008-12-02T23:46:37.000Z",
-      "monthly": [99, 127, 113, 167, 144, 162, 140, 150, 183, 184, 172, 192]
+      "url": "http://jasmine.github.io/",
+      "slug": "jasmine"
     },
     {
       "name": "Restify",
-      "url": "http://restify.com",
       "full_name": "restify/node-restify",
       "description": "The future of Node.js REST development",
-      "owner_id": 6948699,
-      "tags": ["api", "nodejs-framework"],
-      "delta": 1709,
       "stars": 7662,
+      "delta": 1709,
+      "monthly": [123, 119, 143, 113, 158, 121, 202, 146, 128, 167, 133, 156],
+      "tags": ["api", "nodejs-framework"],
+      "owner_id": 6948699,
       "created_at": "2011-04-25T21:19:26.000Z",
-      "monthly": [123, 119, 143, 113, 158, 121, 202, 146, 128, 167, 133, 156]
+      "url": "http://restify.com",
+      "slug": "restify"
     },
     {
       "name": "Svelte",
-      "url": "https://svelte.technology",
       "full_name": "sveltejs/svelte",
       "description": "The magical disappearing UI framework",
-      "owner_id": 23617963,
-      "tags": ["framework"],
-      "delta": 1666,
       "stars": 6146,
+      "delta": 1666,
+      "monthly": [1666],
+      "tags": ["framework"],
+      "owner_id": 23617963,
       "created_at": "2016-11-20T18:13:05.000Z",
-      "monthly": [1666]
+      "url": "https://svelte.technology",
+      "slug": "svelte"
     },
     {
       "name": "Browserify",
-      "url": "http://browserify.org/",
       "full_name": "browserify/browserify",
       "description": "browser-side require() the node.js way",
-      "owner_id": 6320506,
-      "tags": ["build", "module"],
-      "delta": 1661,
       "stars": 11675,
+      "delta": 1661,
+      "monthly": [80, 120, 127, 129, 133, 141, 129, 124, 143, 163, 188, 184],
+      "tags": ["build", "module"],
+      "owner_id": 6320506,
       "created_at": "2010-09-22T16:11:32.000Z",
-      "monthly": [80, 120, 127, 129, 133, 141, 129, 124, 143, 163, 188, 184]
+      "url": "http://browserify.org/",
+      "slug": "browserify"
     },
     {
       "name": "Tape",
-      "url": "",
       "full_name": "substack/tape",
       "description": "tap-producing test harness for node and browsers",
-      "owner_id": 12631,
-      "tags": ["test-framework", "test"],
-      "delta": 1659,
       "stars": 4339,
+      "delta": 1659,
+      "monthly": [123, 108, 166, 122, 119, 114, 147, 128, 144, 172, 142, 174],
+      "tags": ["test-framework", "test"],
+      "owner_id": 12631,
       "created_at": "2012-11-25T17:08:02.000Z",
-      "monthly": [123, 108, 166, 122, 119, 114, 147, 128, 144, 172, 142, 174]
+      "url": "",
+      "slug": "tape"
     },
     {
       "name": "CoffeeScript",
-      "url": "http://coffeescript.org/",
       "full_name": "jashkenas/coffeescript",
       "description": "Unfancy JavaScript",
-      "owner_id": 4732,
-      "tags": ["compiler"],
-      "delta": 1224,
       "stars": 14502,
-      "created_at": "2009-12-18T01:39:53.000Z",
-      "twitter": "",
+      "delta": 1224,
       "monthly": [98, 69, 74, 84, 91, 83, 103, 114, 124, 127, 121, 136],
-      "icon": "coffeescript.svg"
+      "tags": ["compiler"],
+      "owner_id": 4732,
+      "icon": "coffeescript.svg",
+      "created_at": "2009-12-18T01:39:53.000Z",
+      "url": "http://coffeescript.org/",
+      "slug": "coffeescript"
     },
     {
       "name": "Metalsmith",
-      "url": "http://metalsmith.io",
       "full_name": "segmentio/metalsmith",
       "description": "An extremely simple, pluggable static site generator.",
-      "owner_id": 819518,
-      "tags": ["ssg"],
-      "delta": 1218,
       "stars": 6487,
+      "delta": 1218,
+      "monthly": [75, 52, 89, 101, 120, 89, 98, 97, 112, 108, 151, 126],
+      "tags": ["ssg"],
+      "owner_id": 819518,
       "created_at": "2014-02-04T03:46:22.000Z",
-      "monthly": [75, 52, 89, 101, 120, 89, 98, 97, 112, 108, 151, 126]
+      "url": "http://metalsmith.io",
+      "slug": "metalsmith"
     },
     {
       "name": "ClojureScript",
-      "url": "http://clojurescript.org/",
       "full_name": "clojure/clojurescript",
       "description": "Clojure to JS compiler",
-      "owner_id": 317875,
-      "tags": ["compiler"],
-      "delta": 1156,
       "stars": 7464,
+      "delta": 1156,
+      "monthly": [108, 100, 61, 85, 82, 82, 91, 112, 103, 106, 100, 126],
+      "tags": ["compiler"],
+      "owner_id": 317875,
       "created_at": "2011-07-20T23:29:13.000Z",
-      "monthly": [108, 100, 61, 85, 82, 82, 91, 112, 103, 106, 100, 126]
+      "url": "http://clojurescript.org/",
+      "slug": "clojurescript"
     },
     {
       "name": "Deco IDE",
-      "url": "https://www.decosoftware.com/",
       "full_name": "decosoftware/deco-ide",
       "description": "The React Native IDE",
-      "owner_id": 14793641,
-      "tags": ["ide"],
-      "delta": 1141,
       "stars": 5463,
+      "delta": 1141,
+      "monthly": [76, 112, 84, 124, 161, 176, 408],
+      "tags": ["ide"],
+      "owner_id": 14793641,
       "created_at": "2016-05-19T21:29:00.000Z",
-      "monthly": [76, 112, 84, 124, 161, 176, 408]
+      "url": "https://www.decosoftware.com/",
+      "slug": "deco-ide"
     },
     {
       "name": "Purescript",
-      "url": "http://purescript.org",
       "full_name": "purescript/purescript",
       "description": "A strongly-typed language that compiles to Javascript",
-      "owner_id": 6556677,
-      "tags": ["compiler"],
-      "delta": 1081,
       "stars": 4371,
+      "delta": 1081,
+      "monthly": [77, 108, 74, 121, 78, 69, 67, 87, 115, 79, 85, 121],
+      "tags": ["compiler"],
+      "owner_id": 6556677,
       "created_at": "2013-09-30T05:29:23.000Z",
-      "monthly": [77, 108, 74, 121, 78, 69, 67, 87, 115, 79, 85, 121]
+      "url": "http://purescript.org",
+      "slug": "purescript"
     },
     {
       "name": "Adonis",
-      "url": "http://adonisjs.com",
       "full_name": "adonisjs/adonis-framework",
       "description": "NodeJs Web Application Framework. Makes it easy for you to write webapps with less code :smiley:",
-      "owner_id": 13810373,
-      "tags": ["nodejs-framework"],
-      "delta": 1036,
       "stars": 3394,
+      "delta": 1036,
+      "monthly": [75, 135, 115, 227, 123, 54, 70, 51, 76, 110],
+      "tags": ["nodejs-framework"],
+      "owner_id": 13810373,
       "created_at": "2015-08-15T17:03:54.000Z",
-      "twitter": "adonisframework",
-      "monthly": [75, 135, 115, 227, 123, 54, 70, 51, 76, 110]
+      "url": "http://adonisjs.com",
+      "slug": "adonis"
     },
     {
       "name": "Grunt",
-      "url": "http://gruntjs.com/",
       "full_name": "gruntjs/grunt",
       "description": "Grunt: The JavaScript Task Runner",
-      "owner_id": 1630826,
-      "tags": ["build"],
-      "delta": 889,
       "stars": 11702,
+      "delta": 889,
+      "monthly": [70, 63, 54, 39, 62, 76, 64, 66, 89, 100, 107, 99],
+      "tags": ["build"],
+      "owner_id": 1630826,
       "created_at": "2011-09-21T15:16:20.000Z",
-      "monthly": [70, 63, 54, 39, 62, 76, 64, 66, 89, 100, 107, 99]
+      "url": "http://gruntjs.com/",
+      "slug": "grunt"
     },
     {
       "name": "Flow",
-      "url": "https://flow.org/",
       "full_name": "facebook/flow",
       "description": "Adds static typing to JavaScript to improve developer productivity and code quality.",
-      "owner_id": 69631,
-      "tags": ["compiler"],
-      "delta": 624,
       "stars": 14950,
-      "created_at": "2014-10-28T17:17:45.000Z",
-      "twitter": "flowtype",
+      "delta": 624,
       "monthly": [343, 281],
-      "icon": "flow.svg"
+      "tags": ["compiler"],
+      "owner_id": 69631,
+      "icon": "flow.svg",
+      "created_at": "2014-10-28T17:17:45.000Z",
+      "url": "https://flow.org/",
+      "slug": "flow"
     }
   ],
   "tags": [
-    {
-      "name": "API builder",
-      "code": "api"
-    },
-    {
-      "name": "Angular",
-      "code": "angular"
-    },
-    {
-      "name": "Blog",
-      "code": "blog"
-    },
-    {
-      "name": "Boilerplate",
-      "code": "boilerplate"
-    },
-    {
-      "name": "Building tool",
-      "code": "build"
-    },
-    {
-      "name": "CMS",
-      "code": "cms"
-    },
-    {
-      "name": "CSS Toolkit",
-      "code": "css-lib"
-    },
-    {
-      "name": "Canvas",
-      "code": "canvas"
-    },
-    {
-      "name": "Charting",
-      "code": "chart"
-    },
-    {
-      "name": "Compiler",
-      "code": "compiler"
-    },
-    {
-      "name": "Component Toolkit",
-      "code": "component"
-    },
-    {
-      "name": "D3",
-      "code": "d3"
-    },
-    {
-      "name": "Desktop app",
-      "code": "desktop"
-    },
-    {
-      "name": "Express",
-      "code": "express"
-    },
-    {
-      "name": "Flux",
-      "code": "flux"
-    },
-    {
-      "name": "Functional programming",
-      "code": "fp"
-    },
-    {
-      "name": "GraphQL",
-      "code": "graphql"
-    },
-    {
-      "name": "IDE",
-      "code": "ide"
-    },
-    {
-      "name": "Material design",
-      "code": "material"
-    },
-    {
-      "name": "Mobile",
-      "code": "mobile"
-    },
-    {
-      "name": "Module - bundler",
-      "code": "module"
-    },
-    {
-      "name": "Node.js core",
-      "code": "node.js"
-    },
-    {
-      "name": "Node.js framework",
-      "code": "nodejs-framework"
-    },
-    {
-      "name": "Offline",
-      "code": "offline"
-    },
-    {
-      "name": "React",
-      "code": "react"
-    },
-    {
-      "name": "React Native",
-      "code": "react-native"
-    },
-    {
-      "name": "Real-time",
-      "code": "realtime"
-    },
-    {
-      "name": "Redux",
-      "code": "redux"
-    },
-    {
-      "name": "Routing",
-      "code": "routing"
-    },
-    {
-      "name": "SVG",
-      "code": "svg"
-    },
-    {
-      "name": "State management",
-      "code": "state"
-    },
-    {
-      "name": "Static site generator",
-      "code": "ssg"
-    },
-    {
-      "name": "Testing",
-      "code": "test"
-    },
-    {
-      "name": "Testing framework",
-      "code": "test-framework"
-    },
-    {
-      "name": "UI Framework",
-      "code": "framework"
-    },
-    {
-      "name": "Virtual DOM",
-      "code": "vdom"
-    },
-    {
-      "name": "Vue",
-      "code": "vue"
-    }
+    { "name": "API builder", "code": "api" },
+    { "name": "Angular", "code": "angular" },
+    { "name": "Blog", "code": "blog" },
+    { "name": "Boilerplate", "code": "boilerplate" },
+    { "name": "Building tool", "code": "build" },
+    { "name": "CMS", "code": "cms" },
+    { "name": "CSS Toolkit", "code": "css-lib" },
+    { "name": "Canvas", "code": "canvas" },
+    { "name": "Charting", "code": "chart" },
+    { "name": "Compiler", "code": "compiler" },
+    { "name": "Component Toolkit", "code": "component" },
+    { "name": "D3", "code": "d3" },
+    { "name": "Desktop app", "code": "desktop" },
+    { "name": "Express", "code": "express" },
+    { "name": "Flux", "code": "flux" },
+    { "name": "Functional programming", "code": "fp" },
+    { "name": "GraphQL", "code": "graphql" },
+    { "name": "IDE", "code": "ide" },
+    { "name": "Material design", "code": "material" },
+    { "name": "Mobile", "code": "mobile" },
+    { "name": "Module - bundler", "code": "module" },
+    { "name": "Node.js core", "code": "node.js" },
+    { "name": "Node.js framework", "code": "nodejs-framework" },
+    { "name": "Offline", "code": "offline" },
+    { "name": "React", "code": "react" },
+    { "name": "React Native", "code": "react-native" },
+    { "name": "Real-time", "code": "realtime" },
+    { "name": "Redux", "code": "redux" },
+    { "name": "Routing", "code": "routing" },
+    { "name": "SVG", "code": "svg" },
+    { "name": "State management", "code": "state" },
+    { "name": "Static site generator", "code": "ssg" },
+    { "name": "Testing", "code": "test" },
+    { "name": "Testing framework", "code": "test-framework" },
+    { "name": "UI Framework", "code": "framework" },
+    { "name": "Virtual DOM", "code": "vdom" },
+    { "name": "Vue", "code": "vue" }
   ]
 }

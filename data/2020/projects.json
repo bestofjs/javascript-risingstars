@@ -12,7 +12,8 @@
       ],
       "tags": ["learning", "data-structure"],
       "owner_id": 3000285,
-      "created_at": "2018-03-24T07:47:04.000Z"
+      "created_at": "2018-03-24T07:47:04.000Z",
+      "slug": "js-algorithms-and-data-structures"
     },
     {
       "name": "Deno",
@@ -26,9 +27,10 @@
       ],
       "tags": ["runtime", "types", "deno"],
       "owner_id": 42048915,
+      "icon": "deno.svg",
       "created_at": "2018-05-15T01:34:26.000Z",
       "url": "https://deno.land",
-      "icon": "deno.svg"
+      "slug": "deno"
     },
     {
       "name": "Vue.js",
@@ -42,9 +44,10 @@
       ],
       "tags": ["framework", "vdom", "vue"],
       "owner_id": 6128107,
+      "icon": "vue.svg",
       "created_at": "2013-07-29T03:24:51.000Z",
       "url": "http://vuejs.org",
-      "icon": "vue.svg"
+      "slug": "vuejs"
     },
     {
       "name": "Node.js Best Practices",
@@ -58,7 +61,8 @@
       ],
       "tags": ["learning"],
       "owner_id": 8571500,
-      "created_at": "2017-09-15T08:33:19.000Z"
+      "created_at": "2017-09-15T08:33:19.000Z",
+      "slug": "nodejs-best-practices"
     },
     {
       "name": "React",
@@ -72,9 +76,10 @@
       ],
       "tags": ["framework", "vdom", "react"],
       "owner_id": 69631,
+      "icon": "react.svg",
       "created_at": "2013-05-24T16:15:54.000Z",
       "url": "https://reactjs.org",
-      "icon": "react.svg"
+      "slug": "react"
     },
     {
       "name": "Playwright",
@@ -87,9 +92,10 @@
       ],
       "tags": ["auto"],
       "owner_id": 6154722,
+      "icon": "playwright.svg",
       "created_at": "2019-11-15T18:32:42.000Z",
       "url": "https://playwright.dev",
-      "icon": "playwright.svg"
+      "slug": "playwright"
     },
     {
       "name": "VS Code",
@@ -103,9 +109,10 @@
       ],
       "tags": ["ide"],
       "owner_id": 6154722,
+      "icon": "vscode.svg",
       "created_at": "2015-09-03T20:23:38.000Z",
       "url": "https://code.visualstudio.com",
-      "icon": "vscode.svg"
+      "slug": "vs-code"
     },
     {
       "name": "You Don't Know JS",
@@ -119,8 +126,9 @@
       ],
       "tags": ["learning", "book"],
       "owner_id": 150330,
+      "icon": "js.svg",
       "created_at": "2013-11-16T02:37:24.000Z",
-      "icon": "js.svg"
+      "slug": "you-dont-know-js"
     },
     {
       "name": "esbuild",
@@ -131,9 +139,10 @@
       "monthly": [749, 819, 1898, 0],
       "tags": ["module", "build"],
       "owner_id": 406394,
+      "icon": "esbuild.svg",
       "created_at": "2016-06-14T16:08:50.000Z",
       "url": "https://esbuild.github.io/",
-      "icon": "esbuild.svg"
+      "slug": "esbuild"
     },
     {
       "name": "Vue Element Admin",
@@ -147,8 +156,9 @@
       ],
       "tags": ["vue", "dashboard"],
       "owner_id": 8121621,
+      "icon": "vueelementadmin.png",
       "created_at": "2017-04-17T03:35:49.000Z",
-      "icon": "vueelementadmin.png"
+      "slug": "vue-element-admin"
     },
     {
       "name": "eDEX-UI",
@@ -161,7 +171,8 @@
       ],
       "tags": ["cli"],
       "owner_id": 24496417,
-      "created_at": "2017-01-28T09:35:02.000Z"
+      "created_at": "2017-01-28T09:35:02.000Z",
+      "slug": "edex-ui"
     },
     {
       "name": "Next.js",
@@ -182,9 +193,10 @@
         "prerender"
       ],
       "owner_id": 14985020,
+      "icon": "nextjs.svg",
       "created_at": "2016-10-05T23:32:51.000Z",
       "url": "https://nextjs.org",
-      "icon": "nextjs.svg"
+      "slug": "nextjs"
     },
     {
       "name": "Tailwind CSS",
@@ -198,9 +210,10 @@
       ],
       "tags": ["css-lib"],
       "owner_id": 67109815,
+      "icon": "tailwindcss.svg",
       "created_at": "2017-10-06T14:59:14.000Z",
       "url": "https://tailwindcss.com/",
-      "icon": "tailwindcss.svg"
+      "slug": "tailwind-css"
     },
     {
       "name": "Clean Code",
@@ -213,7 +226,8 @@
       ],
       "tags": ["learning"],
       "owner_id": 5114666,
-      "created_at": "2016-11-25T22:25:41.000Z"
+      "created_at": "2016-11-25T22:25:41.000Z",
+      "slug": "clean-code"
     },
     {
       "name": "Rome",
@@ -224,9 +238,10 @@
       "monthly": [374, 128, 283, 359, 3640, 438, 156, 626, 777, 979],
       "tags": ["build", "lint"],
       "owner_id": 44216277,
+      "icon": "rome.svg",
       "created_at": "2020-02-20T05:57:33.000Z",
       "url": "https://rome.tools/",
-      "icon": "rome.svg"
+      "slug": "rome"
     },
     {
       "name": "Vite",
@@ -238,10 +253,12 @@
       "tags": ["build", "vue"],
       "owner_id": 65625612,
       "created_at": "2020-04-21T05:03:57.000Z",
-      "url": "http://vitejs.dev/"
+      "url": "http://vitejs.dev/",
+      "slug": "vite"
     },
     {
       "name": "React Query",
+      "slug": "tanstack-query",
       "full_name": "tannerlinsley/react-query",
       "description": "Hooks for fetching, caching and updating asynchronous data in React",
       "stars": 16688,
@@ -251,9 +268,9 @@
       ],
       "tags": ["react", "data", "graphql", "caching"],
       "owner_id": 5580297,
+      "icon": "react-query.svg",
       "created_at": "2019-09-10T19:23:58.000Z",
-      "url": "https://react-query.tanstack.com",
-      "icon": "react-query.svg"
+      "url": "https://react-query.tanstack.com"
     },
     {
       "name": "Angular",
@@ -267,9 +284,10 @@
       ],
       "tags": ["framework", "angular"],
       "owner_id": 139426,
+      "icon": "angular.svg",
       "created_at": "2014-09-18T16:12:01.000Z",
       "url": "https://angular.io",
-      "icon": "angular.svg"
+      "slug": "angular"
     },
     {
       "name": "30 seconds of code",
@@ -283,7 +301,8 @@
       "tags": ["learning"],
       "owner_id": 43479428,
       "created_at": "2017-11-29T17:35:03.000Z",
-      "url": "https://www.30secondsofcode.org/js/p/1"
+      "url": "https://www.30secondsofcode.org/js/p/1",
+      "slug": "30-seconds-of-code"
     },
     {
       "name": "Storybook",
@@ -296,9 +315,10 @@
       ],
       "tags": ["playground", "test", "react", "vue", "angular"],
       "owner_id": 22632046,
+      "icon": "storybook.svg",
       "created_at": "2016-03-18T04:23:44.000Z",
       "url": "https://storybook.js.org",
-      "icon": "storybook.svg"
+      "slug": "storybook"
     },
     {
       "name": "Axios",
@@ -311,7 +331,8 @@
       ],
       "tags": ["http"],
       "owner_id": 32372333,
-      "created_at": "2014-08-18T22:30:27.000Z"
+      "created_at": "2014-08-18T22:30:27.000Z",
+      "slug": "axios"
     },
     {
       "name": "Svelte",
@@ -324,9 +345,10 @@
       ],
       "tags": ["framework"],
       "owner_id": 23617963,
+      "icon": "svelte.svg",
       "created_at": "2016-11-20T18:13:05.000Z",
       "url": "https://svelte.dev",
-      "icon": "svelte.svg"
+      "slug": "svelte"
     },
     {
       "name": "Strapi",
@@ -339,9 +361,10 @@
       ],
       "tags": ["nodejs-framework", "cms"],
       "owner_id": 19872173,
+      "icon": "strapi.svg",
       "created_at": "2015-09-30T15:34:48.000Z",
       "url": "https://strapi.io",
-      "icon": "strapi.svg"
+      "slug": "strapi"
     },
     {
       "name": "Airbnb Style Guide",
@@ -354,7 +377,8 @@
       ],
       "tags": ["learning"],
       "owner_id": 698437,
-      "created_at": "2012-11-01T23:13:50.000Z"
+      "created_at": "2012-11-01T23:13:50.000Z",
+      "slug": "airbnb-style-guide"
     },
     {
       "name": "Alpine.js",
@@ -367,8 +391,9 @@
       ],
       "tags": ["framework"],
       "owner_id": 59030169,
+      "icon": "alpine.svg",
       "created_at": "2019-11-28T13:51:55.000Z",
-      "icon": "alpine.svg"
+      "slug": "alpinejs"
     },
     {
       "name": "Recoil",
@@ -379,9 +404,10 @@
       "monthly": [351, 504, 554, 557, 593, 673, 1687, 4215],
       "tags": ["state", "react"],
       "owner_id": 12853545,
+      "icon": "recoil.svg",
       "created_at": "2020-05-04T19:44:15.000Z",
       "url": "http://recoiljs.org/",
-      "icon": "recoil.svg"
+      "slug": "recoil"
     },
     {
       "name": "Ant Design",
@@ -394,9 +420,10 @@
       ],
       "tags": ["component", "react"],
       "owner_id": 12101536,
+      "icon": "ant.svg",
       "created_at": "2015-04-24T15:37:24.000Z",
       "url": "https://ant.design",
-      "icon": "ant.svg"
+      "slug": "ant-design"
     },
     {
       "name": "React Hook Form",
@@ -409,9 +436,10 @@
       ],
       "tags": ["form", "react"],
       "owner_id": 53986236,
+      "icon": "react-hook-form.svg",
       "created_at": "2019-03-05T23:47:10.000Z",
       "url": "https://react-hook-form.com",
-      "icon": "react-hook-form.svg"
+      "slug": "react-hook-form"
     },
     {
       "name": "Heroicons",
@@ -422,9 +450,10 @@
       "monthly": [293, 265, 275, 600, 3317, 109],
       "tags": ["icon"],
       "owner_id": 67109815,
+      "icon": "heroicons.svg",
       "created_at": "2020-02-24T14:16:00.000Z",
       "url": "https://heroicons.com",
-      "icon": "heroicons.svg"
+      "slug": "heroicons"
     },
     {
       "name": "Tech Interview Handbook",
@@ -438,9 +467,10 @@
       ],
       "tags": ["learning"],
       "owner_id": 1315101,
+      "icon": "tech-interview.svg",
       "created_at": "2016-07-05T05:00:48.000Z",
       "url": "https://yangshun.github.io/tech-interview-handbook/",
-      "icon": "tech-interview.svg"
+      "slug": "tech-interview-handbook"
     },
     {
       "name": "Material UI",
@@ -453,9 +483,10 @@
       ],
       "tags": ["material", "react", "component"],
       "owner_id": 33663932,
+      "icon": "material-ui.svg",
       "created_at": "2014-08-18T19:11:54.000Z",
       "url": "https://material-ui.com/",
-      "icon": "material-ui.svg"
+      "slug": "material-ui"
     },
     {
       "name": "Puppeteer",
@@ -468,9 +499,10 @@
       ],
       "tags": ["auto"],
       "owner_id": 6906516,
+      "icon": "puppeteer.svg",
       "created_at": "2017-05-09T22:16:13.000Z",
       "url": "https://pptr.dev/",
-      "icon": "puppeteer.svg"
+      "slug": "puppeteer"
     },
     {
       "name": "TypeScript",
@@ -483,9 +515,10 @@
       ],
       "tags": ["compiler", "types"],
       "owner_id": 6154722,
+      "icon": "typescript.svg",
       "created_at": "2014-06-17T15:28:39.000Z",
       "url": "https://www.typescriptlang.org",
-      "icon": "typescript.svg"
+      "slug": "typescript"
     },
     {
       "name": "freeCodeCamp",
@@ -498,7 +531,8 @@
       ],
       "tags": ["learning"],
       "owner_id": 9892522,
-      "created_at": "2014-12-24T17:49:19.000Z"
+      "created_at": "2014-12-24T17:49:19.000Z",
+      "slug": "freecodecamp"
     },
     {
       "name": "Nest",
@@ -511,9 +545,10 @@
       ],
       "tags": ["nodejs-framework", "microservice"],
       "owner_id": 28507035,
+      "icon": "nest.svg",
       "created_at": "2017-02-04T20:12:52.000Z",
       "url": "https://nestjs.com",
-      "icon": "nest.svg"
+      "slug": "nest"
     },
     {
       "name": "Create React App",
@@ -526,9 +561,10 @@
       ],
       "tags": ["boilerplate", "react", "serviceworker"],
       "owner_id": 69631,
+      "icon": "cra.svg",
       "created_at": "2016-07-17T14:55:11.000Z",
       "url": "https://create-react-app.dev",
-      "icon": "cra.svg"
+      "slug": "create-react-app"
     },
     {
       "name": "Snowpack",
@@ -541,9 +577,10 @@
       ],
       "tags": ["build"],
       "owner_id": 44914786,
+      "icon": "snowpack.svg",
       "created_at": "2019-02-26T15:45:38.000Z",
       "url": "https://www.snowpack.dev",
-      "icon": "snowpack.svg"
+      "slug": "snowpack"
     },
     {
       "name": "Chakra UI",
@@ -556,9 +593,10 @@
       ],
       "tags": ["component", "react", "access"],
       "owner_id": 54212428,
+      "icon": "chakra-ui.svg",
       "created_at": "2019-08-17T14:27:54.000Z",
       "url": "https://chakra-ui.com",
-      "icon": "chakra-ui.svg"
+      "slug": "chakra-ui"
     },
     {
       "name": "Tabler Icons",
@@ -570,7 +608,8 @@
       "tags": ["icon"],
       "owner_id": 35471246,
       "created_at": "2020-02-27T15:10:04.000Z",
-      "url": "https://tablericons.com/"
+      "url": "https://tablericons.com/",
+      "slug": "tabler-icons"
     },
     {
       "name": "Front-End Checklist",
@@ -583,9 +622,10 @@
       ],
       "tags": ["learning"],
       "owner_id": 237229,
+      "icon": "frontendchecklist.jpg",
       "created_at": "2017-10-16T10:12:36.000Z",
       "url": "https://frontendchecklist.io",
-      "icon": "frontendchecklist.jpg"
+      "slug": "front-end-checklist"
     },
     {
       "name": "Cypress",
@@ -598,9 +638,10 @@
       ],
       "tags": ["test", "auto"],
       "owner_id": 8908513,
+      "icon": "cypress.svg",
       "created_at": "2015-03-04T00:46:28.000Z",
       "url": "https://www.cypress.io",
-      "icon": "cypress.svg"
+      "slug": "cypress"
     },
     {
       "name": "swr",
@@ -613,9 +654,10 @@
       ],
       "tags": ["data", "caching", "react"],
       "owner_id": 14985020,
+      "icon": "swr.svg",
       "created_at": "2019-10-28T18:16:01.000Z",
       "url": "https://swr.vercel.app",
-      "icon": "swr.svg"
+      "slug": "swr"
     },
     {
       "name": "Node.js",
@@ -628,9 +670,10 @@
       ],
       "tags": ["runtime", "node.js"],
       "owner_id": 9950313,
+      "icon": "nodejs.svg",
       "created_at": "2014-11-26T19:57:11.000Z",
       "url": "https://nodejs.org/",
-      "icon": "nodejs.svg"
+      "slug": "nodejs"
     },
     {
       "name": "React Native",
@@ -643,9 +686,10 @@
       ],
       "tags": ["mobile", "react-native"],
       "owner_id": 69631,
+      "icon": "react-native.svg",
       "created_at": "2015-01-09T18:10:16.000Z",
       "url": "https://reactnative.dev/",
-      "icon": "react-native.svg"
+      "slug": "react-native"
     },
     {
       "name": "Electron",
@@ -658,9 +702,10 @@
       ],
       "tags": ["desktop"],
       "owner_id": 13409222,
+      "icon": "electron.svg",
       "created_at": "2013-04-12T01:47:36.000Z",
       "url": "https://electronjs.org",
-      "icon": "electron.svg"
+      "slug": "electron"
     },
     {
       "name": "Three.js",
@@ -674,7 +719,8 @@
       "tags": ["3d"],
       "owner_id": 97088,
       "created_at": "2010-03-23T18:58:01.000Z",
-      "url": "https://threejs.org/"
+      "url": "https://threejs.org/",
+      "slug": "threejs"
     },
     {
       "name": "Bootstrap",
@@ -687,9 +733,10 @@
       ],
       "tags": ["css-lib", "bootstrap"],
       "owner_id": 2918581,
+      "icon": "bootstrap.svg",
       "created_at": "2011-07-29T21:19:00.000Z",
       "url": "https://getbootstrap.com",
-      "icon": "bootstrap.svg"
+      "slug": "bootstrap"
     },
     {
       "name": "Nuxt",
@@ -702,9 +749,10 @@
       ],
       "tags": ["vue", "universal", "nodejs-framework", "ssg"],
       "owner_id": 23360933,
+      "icon": "nuxt.svg",
       "created_at": "2016-10-26T11:18:47.000Z",
       "url": "https://nuxtjs.org",
-      "icon": "nuxt.svg"
+      "slug": "nuxt"
     },
     {
       "name": "Vanilla Web Projects",
@@ -715,7 +763,8 @@
       "monthly": [136, 117, 150, 380, 196, 576, 1256],
       "tags": ["learning"],
       "owner_id": 5550850,
-      "created_at": "2020-01-28T14:11:32.000Z"
+      "created_at": "2020-01-28T14:11:32.000Z",
+      "slug": "vanilla-web-projects"
     },
     {
       "name": "react-use",
@@ -729,7 +778,8 @@
       "tags": ["react"],
       "owner_id": 9773803,
       "created_at": "2018-10-27T10:16:05.000Z",
-      "url": "http://streamich.github.io/react-use"
+      "url": "http://streamich.github.io/react-use",
+      "slug": "react-use"
     },
     {
       "name": "Gatsby",
@@ -742,9 +792,10 @@
       ],
       "tags": ["ssg", "react", "graphql", "prefetch"],
       "owner_id": 12551863,
+      "icon": "gatsby.svg",
       "created_at": "2015-05-21T22:43:05.000Z",
       "url": "https://www.gatsbyjs.com",
-      "icon": "gatsby.svg"
+      "slug": "gatsby"
     },
     {
       "name": "Element Plus",
@@ -756,7 +807,8 @@
       "tags": ["component", "vue"],
       "owner_id": 68583457,
       "created_at": "2020-07-21T06:51:19.000Z",
-      "url": "https://element-plus.org/"
+      "url": "https://element-plus.org/",
+      "slug": "element-plus"
     },
     {
       "name": "json-server",
@@ -769,7 +821,8 @@
       ],
       "tags": ["test", "filesystem"],
       "owner_id": 5502029,
-      "created_at": "2013-11-27T13:21:13.000Z"
+      "created_at": "2013-11-27T13:21:13.000Z",
+      "slug": "json-server"
     },
     {
       "name": "Docusaurus",
@@ -782,9 +835,10 @@
       ],
       "tags": ["doc", "react", "ssg"],
       "owner_id": 69631,
+      "icon": "docusaurus.svg",
       "created_at": "2017-06-20T16:13:53.000Z",
       "url": "https://docusaurus.io",
-      "icon": "docusaurus.svg"
+      "slug": "docusaurus"
     },
     {
       "name": "Headless Recorder",
@@ -798,7 +852,8 @@
       "tags": ["auto"],
       "owner_id": 25982255,
       "created_at": "2018-08-13T19:31:11.000Z",
-      "url": "https://checklyhq.com/headless-recorder"
+      "url": "https://checklyhq.com/headless-recorder",
+      "slug": "headless-recorder"
     },
     {
       "name": "Blitz",
@@ -810,7 +865,8 @@
       "tags": ["fullstack", "react", "nodejs-framework"],
       "owner_id": 61243378,
       "created_at": "2020-02-17T21:54:15.000Z",
-      "url": "https://Blitzjs.com"
+      "url": "https://Blitzjs.com",
+      "slug": "blitz"
     },
     {
       "name": "Formik",
@@ -823,9 +879,10 @@
       ],
       "tags": ["form", "react"],
       "owner_id": 50745844,
+      "icon": "formik.svg",
       "created_at": "2017-06-14T19:50:59.000Z",
       "url": "https://formik.org",
-      "icon": "formik.svg"
+      "slug": "formik"
     },
     {
       "name": "Hasura GraphQL Engine",
@@ -838,12 +895,14 @@
       ],
       "tags": ["graphql"],
       "owner_id": 13966722,
+      "icon": "hasura.svg",
       "created_at": "2018-06-18T07:57:36.000Z",
       "url": "https://hasura.io",
-      "icon": "hasura.svg"
+      "slug": "hasura-graphql-engine"
     },
     {
       "name": "vue-next",
+      "slug": "vuejs",
       "full_name": "vuejs/vue-next",
       "description": "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
       "stars": 20022,
@@ -865,9 +924,10 @@
       ],
       "tags": ["vue", "material", "component"],
       "owner_id": 22138497,
+      "icon": "vuetify.svg",
       "created_at": "2016-09-12T00:39:35.000Z",
       "url": "https://vuetifyjs.com",
-      "icon": "vuetify.svg"
+      "slug": "vuetify"
     },
     {
       "name": "Wiki.js",
@@ -881,7 +941,8 @@
       "tags": ["doc", "vue"],
       "owner_id": 16729233,
       "created_at": "2016-08-16T19:35:26.000Z",
-      "url": "https://wiki.js.org"
+      "url": "https://wiki.js.org",
+      "slug": "wikijs"
     },
     {
       "name": "Redwood",
@@ -892,9 +953,10 @@
       "monthly": [656, 366, 188, 178, 173, 232, 287, 436, 352, 649, 0],
       "tags": ["fullstack", "graphql", "nodejs-framework"],
       "owner_id": 45050444,
+      "icon": "redwood.svg",
       "created_at": "2019-06-09T20:17:57.000Z",
       "url": "https://redwoodjs.com",
-      "icon": "redwood.svg"
+      "slug": "redwood"
     },
     {
       "name": "Element",
@@ -907,9 +969,10 @@
       ],
       "tags": ["vue", "component"],
       "owner_id": 12810740,
+      "icon": "element.svg",
       "created_at": "2016-09-03T06:19:26.000Z",
       "url": "https://element.eleme.io/",
-      "icon": "element.svg"
+      "slug": "element"
     },
     {
       "name": "visx",
@@ -922,12 +985,14 @@
       ],
       "tags": ["chart", "react", "d3", "svg"],
       "owner_id": 698437,
+      "icon": "visx.svg",
       "created_at": "2017-03-15T16:25:41.000Z",
       "url": "https://airbnb.io/visx",
-      "icon": "visx.svg"
+      "slug": "visx"
     },
     {
       "name": "Motion",
+      "slug": "framer-motion",
       "full_name": "framer/motion",
       "description": "Production-ready animation and gesture library for React ",
       "stars": 8968,
@@ -937,9 +1002,9 @@
       ],
       "tags": ["react", "animation", "touch"],
       "owner_id": 42876,
+      "icon": "motion.svg",
       "created_at": "2018-11-16T09:48:38.000Z",
-      "url": "https://framer.com/motion",
-      "icon": "motion.svg"
+      "url": "https://framer.com/motion"
     },
     {
       "name": "XState",
@@ -952,9 +1017,10 @@
       ],
       "tags": ["state-machine", "state"],
       "owner_id": 1093738,
+      "icon": "xstate.svg",
       "created_at": "2015-09-14T15:04:15.000Z",
       "url": "https://xstate.js.org/docs",
-      "icon": "xstate.svg"
+      "slug": "xstate"
     },
     {
       "name": "react-three-fiber",
@@ -967,7 +1033,8 @@
       ],
       "tags": ["react", "3d"],
       "owner_id": 45790596,
-      "created_at": "2019-02-25T14:31:51.000Z"
+      "created_at": "2019-02-25T14:31:51.000Z",
+      "slug": "react-three-fiber"
     },
     {
       "name": "Styled Components",
@@ -981,7 +1048,8 @@
       "tags": ["css-in-js"],
       "owner_id": 20658825,
       "created_at": "2016-08-16T06:41:32.000Z",
-      "url": "https://styled-components.com"
+      "url": "https://styled-components.com",
+      "slug": "styled-components"
     },
     {
       "name": "react-admin",
@@ -995,7 +1063,8 @@
       "tags": ["dashboard", "react", "redux", "material"],
       "owner_id": 3116319,
       "created_at": "2016-07-13T07:58:54.000Z",
-      "url": "http://marmelab.com/react-admin"
+      "url": "http://marmelab.com/react-admin",
+      "slug": "react-admin"
     },
     {
       "name": "Jest",
@@ -1008,9 +1077,10 @@
       ],
       "tags": ["test-framework", "test"],
       "owner_id": 69631,
+      "icon": "jest.svg",
       "created_at": "2013-12-10T00:18:04.000Z",
       "url": "https://jestjs.io",
-      "icon": "jest.svg"
+      "slug": "jest"
     },
     {
       "name": "Express",
@@ -1023,9 +1093,10 @@
       ],
       "tags": ["nodejs-framework", "express"],
       "owner_id": 5658226,
+      "icon": "express.svg",
       "created_at": "2009-06-26T18:56:01.000Z",
       "url": "https://expressjs.com",
-      "icon": "express.svg"
+      "slug": "express"
     },
     {
       "name": "Webpack",
@@ -1038,9 +1109,10 @@
       ],
       "tags": ["build", "module"],
       "owner_id": 2105791,
+      "icon": "webpack.svg",
       "created_at": "2012-03-10T10:08:14.000Z",
       "url": "https://webpack.js.org",
-      "icon": "webpack.svg"
+      "slug": "webpack"
     },
     {
       "name": "Expo",
@@ -1053,9 +1125,10 @@
       ],
       "tags": ["mobile", "react-native"],
       "owner_id": 12504344,
+      "icon": "expo.svg",
       "created_at": "2016-08-15T17:14:25.000Z",
       "url": "https://docs.expo.io",
-      "icon": "expo.svg"
+      "slug": "expo"
     },
     {
       "name": "Ant Design Vue",
@@ -1068,9 +1141,10 @@
       ],
       "tags": ["vue", "component"],
       "owner_id": 32120805,
+      "icon": "antvue.svg",
       "created_at": "2017-09-20T06:04:01.000Z",
       "url": "https://antdv.com/",
-      "icon": "antvue.svg"
+      "slug": "ant-design-vue"
     },
     {
       "name": "Bulma",
@@ -1083,9 +1157,10 @@
       ],
       "tags": ["css-lib"],
       "owner_id": 1254808,
+      "icon": "bulma.svg",
       "created_at": "2016-01-23T23:48:34.000Z",
       "url": "https://bulma.io",
-      "icon": "bulma.svg"
+      "slug": "bulma"
     },
     {
       "name": "Immer",
@@ -1098,9 +1173,10 @@
       ],
       "tags": ["state"],
       "owner_id": 45853199,
+      "icon": "immer.svg",
       "created_at": "2017-12-29T12:25:47.000Z",
       "url": "https://immerjs.github.io/immer/",
-      "icon": "immer.svg"
+      "slug": "immer"
     },
     {
       "name": "Vant",
@@ -1114,7 +1190,8 @@
       "tags": ["vue", "component"],
       "owner_id": 11404085,
       "created_at": "2017-04-19T07:55:31.000Z",
-      "url": "https://vant-contrib.gitee.io/vant"
+      "url": "https://vant-contrib.gitee.io/vant",
+      "slug": "vant"
     },
     {
       "name": "Quasar",
@@ -1128,7 +1205,8 @@
       "tags": ["mobile", "vue"],
       "owner_id": 23064371,
       "created_at": "2015-10-05T15:45:36.000Z",
-      "url": "https://quasar.dev"
+      "url": "https://quasar.dev",
+      "slug": "quasar"
     },
     {
       "name": "Prisma",
@@ -1139,9 +1217,10 @@
       "monthly": [622, 500, 470, 510, 533, 422, 510, 271],
       "tags": ["graphql", "db", "data", "orm"],
       "owner_id": 17219288,
+      "icon": "prisma.svg",
       "created_at": "2019-06-20T13:33:47.000Z",
       "url": "https://www.prisma.io",
-      "icon": "prisma.svg"
+      "slug": "prisma"
     },
     {
       "name": "Fastify",
@@ -1154,9 +1233,10 @@
       ],
       "tags": ["nodejs-framework"],
       "owner_id": 24939410,
+      "icon": "fastify.svg",
       "created_at": "2016-09-28T19:10:14.000Z",
       "url": "https://www.fastify.io",
-      "icon": "fastify.svg"
+      "slug": "fastify"
     },
     {
       "name": "Headless UI",
@@ -1167,9 +1247,10 @@
       "monthly": [504, 419, 586],
       "tags": ["react", "vue", "component"],
       "owner_id": 67109815,
+      "icon": "headlessui.svg",
       "created_at": "2020-09-16T09:53:09.000Z",
       "url": "https://headlessui.dev",
-      "icon": "headlessui.svg"
+      "slug": "headless-ui"
     },
     {
       "name": "TSdx",
@@ -1183,7 +1264,8 @@
       "tags": ["scaffolding", "build"],
       "owner_id": 50745844,
       "created_at": "2019-01-24T13:04:18.000Z",
-      "url": "https://tsdx.io"
+      "url": "https://tsdx.io",
+      "slug": "tsdx"
     },
     {
       "name": "swc",
@@ -1195,7 +1277,8 @@
       "tags": ["compiler"],
       "owner_id": 26715726,
       "created_at": "2017-12-22T11:40:14.000Z",
-      "url": "https://swc.rs"
+      "url": "https://swc.rs",
+      "slug": "swc"
     },
     {
       "name": "Solid",
@@ -1208,7 +1291,8 @@
       ],
       "tags": ["reactive", "framework"],
       "owner_id": 2768267,
-      "created_at": "2018-04-24T16:36:27.000Z"
+      "created_at": "2018-04-24T16:36:27.000Z",
+      "slug": "solid"
     },
     {
       "name": "react-testing-library",
@@ -1222,7 +1306,8 @@
       "tags": ["test", "react"],
       "owner_id": 49996085,
       "created_at": "2018-03-19T13:39:49.000Z",
-      "url": "https://testing-library.com/react"
+      "url": "https://testing-library.com/react",
+      "slug": "react-testing-library"
     },
     {
       "name": "Zustand",
@@ -1234,7 +1319,8 @@
       "tags": ["state", "react", "flux"],
       "owner_id": 45790596,
       "created_at": "2019-04-09T09:10:06.000Z",
-      "url": "https://zustand.surge.sh"
+      "url": "https://zustand.surge.sh",
+      "slug": "zustand"
     },
     {
       "name": "Parcel",
@@ -1247,9 +1333,10 @@
       ],
       "tags": ["module", "build"],
       "owner_id": 32607881,
+      "icon": "parcel.svg",
       "created_at": "2017-08-07T16:36:47.000Z",
       "url": "https://parceljs.org",
-      "icon": "parcel.svg"
+      "slug": "parcel"
     },
     {
       "name": "Redux",
@@ -1262,9 +1349,10 @@
       ],
       "tags": ["state", "flux", "redux"],
       "owner_id": 13142323,
+      "icon": "redux.svg",
       "created_at": "2015-05-29T23:53:15.000Z",
       "url": "https://redux.js.org",
-      "icon": "redux.svg"
+      "slug": "redux"
     },
     {
       "name": "wmr",
@@ -1275,7 +1363,8 @@
       "monthly": [2836],
       "tags": ["build", "universal", "prefetch"],
       "owner_id": 26872990,
-      "created_at": "2020-05-21T22:19:03.000Z"
+      "created_at": "2020-05-21T22:19:03.000Z",
+      "slug": "wmr"
     },
     {
       "name": "new.css",
@@ -1287,7 +1376,8 @@
       "tags": ["css-lib"],
       "owner_id": 58664567,
       "created_at": "2020-05-03T03:18:57.000Z",
-      "url": "https://newcss.net"
+      "url": "https://newcss.net",
+      "slug": "newcss"
     },
     {
       "name": "Vuex",
@@ -1301,7 +1391,8 @@
       "tags": ["flux", "vue", "state"],
       "owner_id": 6128107,
       "created_at": "2015-07-16T04:21:26.000Z",
-      "url": "https://vuex.vuejs.org"
+      "url": "https://vuex.vuejs.org",
+      "slug": "vuex"
     },
     {
       "name": "Preact",
@@ -1314,9 +1405,10 @@
       ],
       "tags": ["framework", "vdom"],
       "owner_id": 26872990,
+      "icon": "preact.svg",
       "created_at": "2015-09-11T02:40:18.000Z",
       "url": "https://preactjs.com",
-      "icon": "preact.svg"
+      "slug": "preact"
     },
     {
       "name": "umi",
@@ -1330,7 +1422,8 @@
       "tags": ["nodejs-framework", "react"],
       "owner_id": 33895495,
       "created_at": "2017-11-22T10:09:36.000Z",
-      "url": "https://umijs.org"
+      "url": "https://umijs.org",
+      "slug": "umi"
     },
     {
       "name": "Twin",
@@ -1341,7 +1434,8 @@
       "monthly": [370, 0],
       "tags": ["css-in-js", "react"],
       "owner_id": 21288568,
-      "created_at": "2020-02-19T04:45:25.000Z"
+      "created_at": "2020-02-19T04:45:25.000Z",
+      "slug": "twin"
     },
     {
       "name": "Ionic",
@@ -1354,9 +1448,10 @@
       ],
       "tags": ["mobile", "vue", "angular", "react"],
       "owner_id": 3171503,
+      "icon": "ionic.svg",
       "created_at": "2013-08-20T23:06:02.000Z",
       "url": "https://ionicframework.com",
-      "icon": "ionic.svg"
+      "slug": "ionic"
     },
     {
       "name": "htmx",
@@ -1367,9 +1462,10 @@
       "monthly": [203, 165, 122, 115, 206, 70, 582, 0],
       "tags": ["framework"],
       "owner_id": 48798027,
+      "icon": "htmx.svg",
       "created_at": "2020-04-13T16:17:51.000Z",
       "url": "https://htmx.org",
-      "icon": "htmx.svg"
+      "slug": "htmx"
     },
     {
       "name": "Babel",
@@ -1382,9 +1478,10 @@
       ],
       "tags": ["compiler", "code-parser"],
       "owner_id": 9637642,
+      "icon": "babel.svg",
       "created_at": "2014-09-28T13:38:23.000Z",
       "url": "https://babel.dev",
-      "icon": "babel.svg"
+      "slug": "babel"
     },
     {
       "name": "ngx-admin",
@@ -1398,7 +1495,8 @@
       "tags": ["angular", "dashboard"],
       "owner_id": 11921694,
       "created_at": "2016-05-25T10:09:03.000Z",
-      "url": "https://akveo.github.io/ngx-admin/"
+      "url": "https://akveo.github.io/ngx-admin/",
+      "slug": "ngx-admin"
     },
     {
       "name": "Emotion",
@@ -1412,7 +1510,8 @@
       "tags": ["css-in-js"],
       "owner_id": 31557565,
       "created_at": "2017-05-27T04:23:45.000Z",
-      "url": "https://emotion.sh/"
+      "url": "https://emotion.sh/",
+      "slug": "emotion"
     },
     {
       "name": "Jotai",
@@ -1424,7 +1523,8 @@
       "tags": ["state"],
       "owner_id": 45790596,
       "created_at": "2020-08-11T23:15:36.000Z",
-      "url": "https://jotai.surge.sh"
+      "url": "https://jotai.surge.sh",
+      "slug": "jotai"
     },
     {
       "name": "Apollo client",
@@ -1437,9 +1537,10 @@
       ],
       "tags": ["graphql", "caching", "data"],
       "owner_id": 17189275,
+      "icon": "apollo.svg",
       "created_at": "2016-02-26T20:25:00.000Z",
       "url": "https://apollographql.com/client",
-      "icon": "apollo.svg"
+      "slug": "apollo-client"
     },
     {
       "name": "Webiny",
@@ -1453,7 +1554,8 @@
       "tags": ["graphql", "cms", "serverless", "fullstack"],
       "owner_id": 3808429,
       "created_at": "2018-01-09T13:09:44.000Z",
-      "url": "https://www.webiny.com/"
+      "url": "https://www.webiny.com/",
+      "slug": "webiny"
     },
     {
       "name": "rrweb",
@@ -1467,7 +1569,8 @@
       "tags": ["debug", "auto"],
       "owner_id": 43396833,
       "created_at": "2018-10-06T13:35:55.000Z",
-      "url": "https://www.rrweb.io/"
+      "url": "https://www.rrweb.io/",
+      "slug": "rrweb"
     },
     {
       "name": "Koa",
@@ -1481,7 +1584,8 @@
       "tags": ["nodejs-framework"],
       "owner_id": 5055057,
       "created_at": "2013-07-20T18:53:45.000Z",
-      "url": "https://koajs.com"
+      "url": "https://koajs.com",
+      "slug": "koa"
     },
     {
       "name": "GraphQL Code Generator",
@@ -1495,7 +1599,8 @@
       "tags": ["graphql", "scaffolding"],
       "owner_id": 3680083,
       "created_at": "2016-12-05T19:15:11.000Z",
-      "url": "https://graphql-code-generator.com"
+      "url": "https://graphql-code-generator.com",
+      "slug": "graphql-code-generator"
     },
     {
       "name": "Rollup",
@@ -1508,9 +1613,10 @@
       ],
       "tags": ["module", "build"],
       "owner_id": 12554859,
+      "icon": "rollup.svg",
       "created_at": "2015-05-14T22:26:28.000Z",
       "url": "https://rollupjs.org",
-      "icon": "rollup.svg"
+      "slug": "rollup"
     },
     {
       "name": "TypeGraphQL",
@@ -1522,7 +1628,8 @@
       "tags": ["graphql", "nodejs-framework"],
       "owner_id": 10618781,
       "created_at": "2018-01-09T15:58:38.000Z",
-      "url": "https://typegraphql.com"
+      "url": "https://typegraphql.com",
+      "slug": "typegraphql"
     },
     {
       "name": "Mock Service Worker",
@@ -1534,7 +1641,8 @@
       "tags": ["test", "serviceworker"],
       "owner_id": 64637271,
       "created_at": "2018-11-13T14:58:44.000Z",
-      "url": "https://mswjs.io"
+      "url": "https://mswjs.io",
+      "slug": "mock-service-worker"
     },
     {
       "name": "Halfmoon",
@@ -1545,9 +1653,10 @@
       "monthly": [79, 163, 95, 363, 513],
       "tags": ["css-lib"],
       "owner_id": 67643916,
+      "icon": "halfmoon.svg",
       "created_at": "2020-06-30T19:26:01.000Z",
       "url": "https://www.gethalfmoon.com",
-      "icon": "halfmoon.svg"
+      "slug": "halfmoon"
     },
     {
       "name": "Stimulus",
@@ -1558,9 +1667,10 @@
       "monthly": [662, 81, 100, 73, 76, 154, 305, 104, 122, 91, 96, 104, 70, 4],
       "tags": ["framework"],
       "owner_id": 75388917,
+      "icon": "stimulus.svg",
       "created_at": "2016-12-17T00:19:29.000Z",
       "url": "https://stimulus.hotwire.dev/",
-      "icon": "stimulus.svg"
+      "slug": "stimulus"
     },
     {
       "name": "Apollo Server",
@@ -1573,9 +1683,10 @@
       ],
       "tags": ["graphql", "express"],
       "owner_id": 17189275,
+      "icon": "apollo.svg",
       "created_at": "2016-04-21T09:26:01.000Z",
       "url": "https://www.apollographql.com/docs/apollo-server/",
-      "icon": "apollo.svg"
+      "slug": "apollo-server"
     },
     {
       "name": "Gridsome",
@@ -1589,7 +1700,8 @@
       "tags": ["ssg", "vue", "graphql"],
       "owner_id": 17981963,
       "created_at": "2018-07-31T22:55:06.000Z",
-      "url": "https://gridsome.org"
+      "url": "https://gridsome.org",
+      "slug": "gridsome"
     },
     {
       "name": "Egg",
@@ -1603,7 +1715,8 @@
       "tags": ["nodejs-framework"],
       "owner_id": 15833670,
       "created_at": "2016-06-18T06:53:23.000Z",
-      "url": "https://eggjs.org"
+      "url": "https://eggjs.org",
+      "slug": "egg"
     },
     {
       "name": "MobX",
@@ -1616,9 +1729,10 @@
       ],
       "tags": ["state"],
       "owner_id": 17475736,
+      "icon": "mobx.svg",
       "created_at": "2015-03-14T14:31:38.000Z",
       "url": "http://mobx.js.org",
-      "icon": "mobx.svg"
+      "slug": "mobx"
     },
     {
       "name": "Keystone",
@@ -1631,9 +1745,10 @@
       ],
       "tags": ["nodejs-framework", "cms", "express"],
       "owner_id": 6118534,
+      "icon": "keystone.svg",
       "created_at": "2018-04-05T10:48:37.000Z",
       "url": "https://www.keystonejs.com/",
-      "icon": "keystone.svg"
+      "slug": "keystone"
     },
     {
       "name": "Linaria",
@@ -1646,9 +1761,10 @@
       ],
       "tags": ["css-in-js"],
       "owner_id": 42239399,
+      "icon": "linaria.svg",
       "created_at": "2017-05-23T00:52:34.000Z",
       "url": "https://linaria.dev",
-      "icon": "linaria.svg"
+      "slug": "linaria"
     },
     {
       "name": "Theme UI",
@@ -1660,10 +1776,12 @@
       "tags": ["css-in-js"],
       "owner_id": 48816045,
       "created_at": "2019-04-03T22:10:49.000Z",
-      "url": "https://theme-ui.com"
+      "url": "https://theme-ui.com",
+      "slug": "theme-ui"
     },
     {
       "name": "Sonar",
+      "slug": "flipper",
       "full_name": "facebook/flipper",
       "description": "A desktop debugging platform for mobile developers.",
       "stars": 7892,
@@ -1687,8 +1805,9 @@
       ],
       "tags": ["test"],
       "owner_id": 9271229,
+      "icon": "jsdom.svg",
       "created_at": "2010-01-19T06:55:19.000Z",
-      "icon": "jsdom.svg"
+      "slug": "jsdom"
     },
     {
       "name": "SemanticUI",
@@ -1701,9 +1820,10 @@
       ],
       "tags": ["css-lib"],
       "owner_id": 5796209,
+      "icon": "semantic-ui.svg",
       "created_at": "2013-04-08T23:32:04.000Z",
       "url": "http://www.semantic-ui.com",
-      "icon": "semantic-ui.svg"
+      "slug": "semanticui"
     },
     {
       "name": "Adonis",
@@ -1717,7 +1837,8 @@
       "tags": ["nodejs-framework"],
       "owner_id": 13810373,
       "created_at": "2015-08-15T17:03:54.000Z",
-      "url": "https://preview.adonisjs.com"
+      "url": "https://preview.adonisjs.com",
+      "slug": "adonis"
     },
     {
       "name": "Crank.js",
@@ -1729,7 +1850,8 @@
       "tags": ["framework"],
       "owner_id": 51215678,
       "created_at": "2019-09-05T00:27:50.000Z",
-      "url": "https://crank.js.org"
+      "url": "https://crank.js.org",
+      "slug": "crankjs"
     },
     {
       "name": "Stencil",
@@ -1742,9 +1864,10 @@
       ],
       "tags": ["framework", "webcomponent"],
       "owner_id": 3171503,
+      "icon": "stencil.svg",
       "created_at": "2017-02-15T18:57:07.000Z",
       "url": "https://stenciljs.com",
-      "icon": "stencil.svg"
+      "slug": "stencil"
     },
     {
       "name": "Stitches",
@@ -1755,9 +1878,10 @@
       "monthly": [94, 56, 104, 542],
       "tags": ["css-in-js"],
       "owner_id": 28682402,
+      "icon": "stitches.svg",
       "created_at": "2020-04-14T07:07:35.000Z",
       "url": "https://stitches.dev",
-      "icon": "stitches.svg"
+      "slug": "stitches"
     },
     {
       "name": "Material Design for Angular",
@@ -1771,7 +1895,8 @@
       "tags": ["material", "angular", "component"],
       "owner_id": 139426,
       "created_at": "2016-01-04T18:50:02.000Z",
-      "url": "https://material.angular.io"
+      "url": "https://material.angular.io",
+      "slug": "material-design-for-angular"
     },
     {
       "name": "NativeScript",
@@ -1784,9 +1909,10 @@
       ],
       "tags": ["mobile", "angular", "vue"],
       "owner_id": 7392261,
+      "icon": "nativescript.svg",
       "created_at": "2015-03-01T09:47:08.000Z",
       "url": "https://www.nativescript.org",
-      "icon": "nativescript.svg"
+      "slug": "nativescript"
     },
     {
       "name": "Material Components",
@@ -1800,7 +1926,8 @@
       "tags": ["material", "css-lib"],
       "owner_id": 19478152,
       "created_at": "2016-12-05T16:04:09.000Z",
-      "url": "https://material.io/develop/web"
+      "url": "https://material.io/develop/web",
+      "slug": "material-components"
     },
     {
       "name": "CSS Modules",
@@ -1813,7 +1940,8 @@
       ],
       "tags": ["css-in-js"],
       "owner_id": 12612655,
-      "created_at": "2015-05-25T21:54:47.000Z"
+      "created_at": "2015-05-25T21:54:47.000Z",
+      "slug": "css-modules"
     },
     {
       "name": "Valtio",
@@ -1824,7 +1952,8 @@
       "monthly": [283, 1083],
       "tags": ["state", "react"],
       "owner_id": 45790596,
-      "created_at": "2020-11-16T22:30:51.000Z"
+      "created_at": "2020-11-16T22:30:51.000Z",
+      "slug": "valtio"
     },
     {
       "name": "Scully",
@@ -1836,7 +1965,8 @@
       "tags": ["ssg", "angular"],
       "owner_id": 58822549,
       "created_at": "2019-12-12T16:51:23.000Z",
-      "url": "https://scully.io/"
+      "url": "https://scully.io/",
+      "slug": "scully"
     },
     {
       "name": "Gun",
@@ -1849,9 +1979,10 @@
       ],
       "tags": ["db", "realtime", "nodejs-framework", "decentralized"],
       "owner_id": 433412,
+      "icon": "gun.svg",
       "created_at": "2014-07-31T15:52:10.000Z",
       "url": "https://gun.eco/docs",
-      "icon": "gun.svg"
+      "slug": "gun"
     },
     {
       "name": "Microbundle",
@@ -1864,7 +1995,8 @@
       ],
       "tags": ["module", "build"],
       "owner_id": 105127,
-      "created_at": "2017-12-11T21:51:02.000Z"
+      "created_at": "2017-12-11T21:51:02.000Z",
+      "slug": "microbundle"
     },
     {
       "name": "Capacitor",
@@ -1876,7 +2008,8 @@
       "tags": ["mobile"],
       "owner_id": 3171503,
       "created_at": "2017-11-18T21:38:09.000Z",
-      "url": "https://capacitorjs.com"
+      "url": "https://capacitorjs.com",
+      "slug": "capacitor"
     },
     {
       "name": "NativeBase",
@@ -1890,7 +2023,8 @@
       "tags": ["react-native", "mobile"],
       "owner_id": 18482943,
       "created_at": "2016-04-15T11:37:23.000Z",
-      "url": "https://nativebase.io/"
+      "url": "https://nativebase.io/",
+      "slug": "nativebase"
     },
     {
       "name": "Materialize CSS",
@@ -1901,9 +2035,10 @@
       "monthly": [63, 86, 82, 72, 91, 129, 132, 149, 152, 114, 99, 90, 151, 8],
       "tags": ["css-lib", "material"],
       "owner_id": 2775751,
+      "icon": "materializecss.svg",
       "created_at": "2014-09-12T19:35:38.000Z",
       "url": "https://materializecss.com",
-      "icon": "materializecss.svg"
+      "slug": "materialize-css"
     },
     {
       "name": "Unstated Next",
@@ -1914,7 +2049,8 @@
       "monthly": [64, 67, 85, 78, 94, 87, 124, 161, 136, 132, 114, 95, 145],
       "tags": ["react", "state"],
       "owner_id": 952783,
-      "created_at": "2019-05-02T00:44:35.000Z"
+      "created_at": "2019-05-02T00:44:35.000Z",
+      "slug": "unstated-next"
     },
     {
       "name": "UIkit",
@@ -1925,9 +2061,10 @@
       "monthly": [63, 74, 94, 89, 88, 185, 129, 119, 106, 96, 116, 77, 94, 2],
       "tags": ["css-lib"],
       "owner_id": 4173184,
+      "icon": "uikit.svg",
       "created_at": "2013-07-18T16:00:26.000Z",
       "url": "http://getuikit.com",
-      "icon": "uikit.svg"
+      "slug": "uikit"
     },
     {
       "name": "Angular CLI",
@@ -1941,7 +2078,8 @@
       "tags": ["angular", "scaffolding"],
       "owner_id": 139426,
       "created_at": "2015-06-04T19:49:37.000Z",
-      "url": "https://cli.angular.io"
+      "url": "https://cli.angular.io",
+      "slug": "angular-cli"
     },
     {
       "name": "Relay",
@@ -1952,9 +2090,10 @@
       "monthly": [79, 80, 87, 94, 73, 118, 97, 209, 118, 78, 99, 79, 111, 12],
       "tags": ["framework", "graphql"],
       "owner_id": 69631,
+      "icon": "relay.svg",
       "created_at": "2015-08-10T22:09:16.000Z",
       "url": "https://relay.dev",
-      "icon": "relay.svg"
+      "slug": "relay"
     },
     {
       "name": "NG-ZORRO",
@@ -1966,7 +2105,8 @@
       "tags": ["angular", "component"],
       "owner_id": 30223759,
       "created_at": "2017-08-08T14:59:33.000Z",
-      "url": "https://ng.ant.design"
+      "url": "https://ng.ant.design",
+      "slug": "ng-zorro"
     },
     {
       "name": "Moon",
@@ -1977,9 +2117,10 @@
       "monthly": [6, 8, 54, 1021, 11, 13, 11, 15, 21, 13, 8, 9, 31, -1],
       "tags": ["framework"],
       "owner_id": 15644571,
+      "icon": "moon.svg",
       "created_at": "2016-07-14T04:53:09.000Z",
       "url": "https://moonjs.org",
-      "icon": "moon.svg"
+      "slug": "moon"
     },
     {
       "name": "Hyperapp",
@@ -1990,8 +2131,9 @@
       "monthly": [34, 32, 41, 74, 109, 380, 22, 39, 49, 50, 67, 67, 33, 3],
       "tags": ["framework", "state"],
       "owner_id": 56996,
+      "icon": "hyperapp.svg",
       "created_at": "2017-01-20T05:20:21.000Z",
-      "icon": "hyperapp.svg"
+      "slug": "hyperapp"
     },
     {
       "name": "styled-system",
@@ -2003,7 +2145,8 @@
       "tags": ["css-in-js"],
       "owner_id": 47362392,
       "created_at": "2017-06-14T23:21:17.000Z",
-      "url": "https://styled-system.com"
+      "url": "https://styled-system.com",
+      "slug": "styled-system"
     },
     {
       "name": "Rax",
@@ -2014,8 +2157,9 @@
       "monthly": [80, 69, 78, 70, 66, 106, 74, 120, 99, 123, 103, 101, 219, 2],
       "tags": ["vdom", "framework"],
       "owner_id": 1961952,
+      "icon": "rax.svg",
       "created_at": "2016-10-14T07:53:50.000Z",
-      "icon": "rax.svg"
+      "slug": "rax"
     },
     {
       "name": "dva",
@@ -2027,7 +2171,8 @@
       "tags": ["framework", "redux"],
       "owner_id": 20552239,
       "created_at": "2016-06-24T09:06:16.000Z",
-      "url": "https://dvajs.com/"
+      "url": "https://dvajs.com/",
+      "slug": "dva"
     },
     {
       "name": "Feathers",
@@ -2038,9 +2183,10 @@
       "monthly": [70, 50, 77, 82, 68, 95, 88, 127, 107, 95, 97, 96, 103, 11],
       "tags": ["nodejs-framework", "realtime", "express"],
       "owner_id": 5321853,
+      "icon": "feathers.svg",
       "created_at": "2011-10-19T22:45:16.000Z",
       "url": "https://feathersjs.com",
-      "icon": "feathers.svg"
+      "slug": "feathers"
     },
     {
       "name": "Primer",
@@ -2052,7 +2198,8 @@
       "tags": ["css-lib"],
       "owner_id": 7143434,
       "created_at": "2015-03-19T23:31:21.000Z",
-      "url": "https://primer.style/css"
+      "url": "https://primer.style/css",
+      "slug": "primer"
     },
     {
       "name": "Omi",
@@ -2063,9 +2210,10 @@
       "monthly": [84, 71, 37, 76, 60, 76, 72, 79, 121, 109, 84, 165, 176, 0],
       "tags": ["framework"],
       "owner_id": 18461506,
+      "icon": "omi.svg",
       "created_at": "2015-05-31T14:24:58.000Z",
       "url": "http://omijs.org",
-      "icon": "omi.svg"
+      "slug": "omi"
     },
     {
       "name": "NgRx",
@@ -2077,7 +2225,8 @@
       "tags": ["angular", "reactive", "state"],
       "owner_id": 16272733,
       "created_at": "2017-03-02T19:34:15.000Z",
-      "url": "https://ngrx.io"
+      "url": "https://ngrx.io",
+      "slug": "ngrx"
     },
     {
       "name": "Hapi",
@@ -2088,9 +2237,10 @@
       "monthly": [68, 69, 50, 70, 80, 104, 82, 87, 87, 105, 99, 94, 96, 4],
       "tags": ["nodejs-framework"],
       "owner_id": 3774533,
+      "icon": "hapi.svg",
       "created_at": "2011-08-06T00:35:39.000Z",
       "url": "https://hapi.dev",
-      "icon": "hapi.svg"
+      "slug": "hapi"
     },
     {
       "name": "Nebular",
@@ -2102,7 +2252,8 @@
       "tags": ["angular", "component"],
       "owner_id": 11921694,
       "created_at": "2017-09-20T08:33:06.000Z",
-      "url": "https://akveo.github.io/nebular"
+      "url": "https://akveo.github.io/nebular",
+      "slug": "nebular"
     },
     {
       "name": "tinyhttp",
@@ -2114,7 +2265,8 @@
       "tags": ["nodejs-framework", "express"],
       "owner_id": 35937217,
       "created_at": "2020-06-13T01:19:08.000Z",
-      "url": "https://tinyhttp.v1rtl.site"
+      "url": "https://tinyhttp.v1rtl.site",
+      "slug": "tinyhttp"
     },
     {
       "name": "Angular Electron",
@@ -2125,7 +2277,8 @@
       "monthly": [71, 68, 59, 76, 54, 87, 105, 123, 101, 97, 87, 44],
       "tags": ["desktop", "angular"],
       "owner_id": 10827551,
-      "created_at": "2017-04-02T11:15:28.000Z"
+      "created_at": "2017-04-02T11:15:28.000Z",
+      "slug": "angular-electron"
     },
     {
       "name": "cube-ui",
@@ -2137,7 +2290,8 @@
       "tags": ["vue", "mobile"],
       "owner_id": 27521938,
       "created_at": "2017-11-03T06:17:27.000Z",
-      "url": "https://didi.github.io/cube-ui/"
+      "url": "https://didi.github.io/cube-ui/",
+      "slug": "cube-ui"
     },
     {
       "name": "Polka",
@@ -2148,7 +2302,8 @@
       "monthly": [73, 55, 41, 121, 50, 70, 77, 58, 89, 125, 62, 102, 31, 4],
       "tags": ["nodejs-framework"],
       "owner_id": 5855893,
-      "created_at": "2017-12-22T05:55:41.000Z"
+      "created_at": "2017-12-22T05:55:41.000Z",
+      "slug": "polka"
     },
     {
       "name": "Neo.mjs",
@@ -2160,7 +2315,8 @@
       "tags": ["framework", "webworker"],
       "owner_id": 55371235,
       "created_at": "2019-11-10T23:56:02.000Z",
-      "url": "https://neomjs.github.io/pages/"
+      "url": "https://neomjs.github.io/pages/",
+      "slug": "neomjs"
     },
     {
       "name": "ag-grid",
@@ -2172,7 +2328,8 @@
       "tags": ["table", "react", "angular"],
       "owner_id": 30720768,
       "created_at": "2014-12-23T16:20:14.000Z",
-      "url": "http://www.ag-grid.com"
+      "url": "http://www.ag-grid.com",
+      "slug": "ag-grid"
     },
     {
       "name": "Styled JSX",
@@ -2183,7 +2340,8 @@
       "monthly": [56, 75, 68, 60, 47, 63, 72, 77, 92, 94, 81, 74, 84, 4],
       "tags": ["css-in-js"],
       "owner_id": 14985020,
-      "created_at": "2016-12-05T13:58:02.000Z"
+      "created_at": "2016-12-05T13:58:02.000Z",
+      "slug": "styled-jsx"
     },
     {
       "name": "Polished",
@@ -2195,7 +2353,8 @@
       "tags": ["css-in-js"],
       "owner_id": 20658825,
       "created_at": "2016-11-03T14:39:21.000Z",
-      "url": "https://polished.js.org/"
+      "url": "https://polished.js.org/",
+      "slug": "polished"
     },
     {
       "name": "LoopBack 4",
@@ -2206,9 +2365,10 @@
       "monthly": [51, 71, 70, 56, 77, 80, 75, 98, 82, 74, 50, 66, 51],
       "tags": ["nodejs-framework"],
       "owner_id": 3020012,
+      "icon": "loopback.svg",
       "created_at": "2017-01-09T17:27:14.000Z",
       "url": "https://loopback.io/",
-      "icon": "loopback.svg"
+      "slug": "loopback-4"
     },
     {
       "name": "Framework7",
@@ -2220,7 +2380,8 @@
       "tags": ["mobile"],
       "owner_id": 31954178,
       "created_at": "2014-02-23T12:15:53.000Z",
-      "url": "http://framework7.io"
+      "url": "http://framework7.io",
+      "slug": "framework7"
     },
     {
       "name": "Angular Fire",
@@ -2232,7 +2393,8 @@
       "tags": ["angular"],
       "owner_id": 139426,
       "created_at": "2016-01-11T20:47:23.000Z",
-      "url": "https://firebaseopensource.com/projects/angular/angularfire2"
+      "url": "https://firebaseopensource.com/projects/angular/angularfire2",
+      "slug": "angular-fire"
     },
     {
       "name": "Reason",
@@ -2243,9 +2405,10 @@
       "monthly": [75, 45, 37, 58, 52, 46, 60, 72, 92, 79, 79, 97, 121, 6],
       "tags": ["compiler", "types"],
       "owner_id": 20414525,
+      "icon": "reason.svg",
       "created_at": "2015-11-16T08:22:32.000Z",
       "url": "http://reasonml.github.io",
-      "icon": "reason.svg"
+      "slug": "reason"
     },
     {
       "name": "Flow",
@@ -2256,9 +2419,10 @@
       "monthly": [36, 47, 44, 74, 61, 87, 87, 75, 51, 69, 71, 66, 60, 6],
       "tags": ["compiler", "types"],
       "owner_id": 69631,
+      "icon": "flow.svg",
       "created_at": "2014-10-28T17:17:45.000Z",
       "url": "https://flow.org/",
-      "icon": "flow.svg"
+      "slug": "flow"
     },
     {
       "name": "Sucrase",
@@ -2270,7 +2434,8 @@
       "tags": ["compiler", "code-parser"],
       "owner_id": 211605,
       "created_at": "2017-10-03T16:54:00.000Z",
-      "url": "https://sucrase.io"
+      "url": "https://sucrase.io",
+      "slug": "sucrase"
     },
     {
       "name": "Vidact",
@@ -2282,7 +2447,8 @@
       "tags": ["framework"],
       "owner_id": 6104558,
       "created_at": "2020-03-07T06:19:40.000Z",
-      "url": "https://mohebifar.github.io/vidact/"
+      "url": "https://mohebifar.github.io/vidact/",
+      "slug": "vidact"
     },
     {
       "name": "PureScript",
@@ -2294,7 +2460,8 @@
       "tags": ["compiler", "types"],
       "owner_id": 6556677,
       "created_at": "2013-09-30T05:29:23.000Z",
-      "url": "https://www.purescript.org"
+      "url": "https://www.purescript.org",
+      "slug": "purescript"
     },
     {
       "name": "Elm",
@@ -2305,9 +2472,10 @@
       "monthly": [32, 33, 36, 52, 42, 33, 35, 38, 63, 52, 51, 69, 74, 3],
       "tags": ["compiler", "fp"],
       "owner_id": 20698192,
+      "icon": "elm.svg",
       "created_at": "2012-04-19T06:24:43.000Z",
       "url": "https://elm-lang.org/",
-      "icon": "elm.svg"
+      "slug": "elm"
     },
     {
       "name": "Reframe",
@@ -2319,305 +2487,84 @@
       "tags": ["compiler"],
       "owner_id": 3033386,
       "created_at": "2014-12-05T11:08:39.000Z",
-      "url": "http://day8.github.io/re-frame/"
+      "url": "http://day8.github.io/re-frame/",
+      "slug": "reframe"
     }
   ],
   "tags": [
-    {
-      "name": "3D",
-      "code": "3d"
-    },
-    {
-      "name": "Accessibility",
-      "code": "access"
-    },
-    {
-      "name": "Angular",
-      "code": "angular"
-    },
-    {
-      "name": "Animation",
-      "code": "animation"
-    },
-    {
-      "name": "Boilerplate",
-      "code": "boilerplate"
-    },
-    {
-      "name": "Book",
-      "code": "book"
-    },
-    {
-      "name": "Bootstrap",
-      "code": "bootstrap"
-    },
-    {
-      "name": "Browser automation",
-      "code": "auto"
-    },
-    {
-      "name": "Building tool",
-      "code": "build"
-    },
-    {
-      "name": "CLI",
-      "code": "cli"
-    },
-    {
-      "name": "CMS",
-      "code": "cms"
-    },
-    {
-      "name": "CSS Toolkit",
-      "code": "css-lib"
-    },
-    {
-      "name": "CSS in JS",
-      "code": "css-in-js"
-    },
-    {
-      "name": "Caching",
-      "code": "caching"
-    },
-    {
-      "name": "Charting",
-      "code": "chart"
-    },
-    {
-      "name": "Code Parser",
-      "code": "code-parser"
-    },
-    {
-      "name": "Compiler",
-      "code": "compiler"
-    },
-    {
-      "name": "Component Toolkit",
-      "code": "component"
-    },
-    {
-      "name": "D3",
-      "code": "d3"
-    },
-    {
-      "name": "Dashboard",
-      "code": "dashboard"
-    },
-    {
-      "name": "Data fetching",
-      "code": "data"
-    },
-    {
-      "name": "Data structure",
-      "code": "data-structure"
-    },
-    {
-      "name": "Database",
-      "code": "db"
-    },
-    {
-      "name": "Debugging",
-      "code": "debug"
-    },
-    {
-      "name": "Decentralized",
-      "code": "decentralized"
-    },
-    {
-      "name": "Deno",
-      "code": "deno"
-    },
-    {
-      "name": "Desktop app",
-      "code": "desktop"
-    },
-    {
-      "name": "Documentation",
-      "code": "doc"
-    },
-    {
-      "name": "Express",
-      "code": "express"
-    },
-    {
-      "name": "File system",
-      "code": "filesystem"
-    },
-    {
-      "name": "Flux",
-      "code": "flux"
-    },
-    {
-      "name": "Form",
-      "code": "form"
-    },
-    {
-      "name": "Full-stack framework",
-      "code": "fullstack"
-    },
-    {
-      "name": "Functional programming",
-      "code": "fp"
-    },
-    {
-      "name": "Gesture - Touch",
-      "code": "touch"
-    },
-    {
-      "name": "GraphQL",
-      "code": "graphql"
-    },
-    {
-      "name": "HTTP client • Fetch • AJAX",
-      "code": "http"
-    },
-    {
-      "name": "IDE",
-      "code": "ide"
-    },
-    {
-      "name": "Icon set",
-      "code": "icon"
-    },
-    {
-      "name": "Learning resource",
-      "code": "learning"
-    },
-    {
-      "name": "Linter",
-      "code": "lint"
-    },
-    {
-      "name": "Material design",
-      "code": "material"
-    },
-    {
-      "name": "Microservices",
-      "code": "microservice"
-    },
-    {
-      "name": "Mobile",
-      "code": "mobile"
-    },
-    {
-      "name": "Module - bundler",
-      "code": "module"
-    },
-    {
-      "name": "Node.js core",
-      "code": "node.js"
-    },
-    {
-      "name": "Node.js framework",
-      "code": "nodejs-framework"
-    },
-    {
-      "name": "ORM",
-      "code": "orm"
-    },
-    {
-      "name": "Playground",
-      "code": "playground"
-    },
-    {
-      "name": "Prefetch",
-      "code": "prefetch"
-    },
-    {
-      "name": "Prerender",
-      "code": "prerender"
-    },
-    {
-      "name": "React",
-      "code": "react"
-    },
-    {
-      "name": "React Native",
-      "code": "react-native"
-    },
-    {
-      "name": "Reactive programming",
-      "code": "reactive"
-    },
-    {
-      "name": "Real-time",
-      "code": "realtime"
-    },
-    {
-      "name": "Redux",
-      "code": "redux"
-    },
-    {
-      "name": "Runtime",
-      "code": "runtime"
-    },
-    {
-      "name": "SVG",
-      "code": "svg"
-    },
-    {
-      "name": "Scaffolding - generator",
-      "code": "scaffolding"
-    },
-    {
-      "name": "Serverless",
-      "code": "serverless"
-    },
-    {
-      "name": "Service Worker",
-      "code": "serviceworker"
-    },
-    {
-      "name": "State machine",
-      "code": "state-machine"
-    },
-    {
-      "name": "State management",
-      "code": "state"
-    },
-    {
-      "name": "Static site generator",
-      "code": "ssg"
-    },
-    {
-      "name": "Table",
-      "code": "table"
-    },
-    {
-      "name": "Testing",
-      "code": "test"
-    },
-    {
-      "name": "Testing framework",
-      "code": "test-framework"
-    },
-    {
-      "name": "Types",
-      "code": "types"
-    },
-    {
-      "name": "UI Framework",
-      "code": "framework"
-    },
-    {
-      "name": "Universal",
-      "code": "universal"
-    },
-    {
-      "name": "Virtual DOM",
-      "code": "vdom"
-    },
-    {
-      "name": "Vue",
-      "code": "vue"
-    },
-    {
-      "name": "Web Components",
-      "code": "webcomponent"
-    },
-    {
-      "name": "Web workers",
-      "code": "webworker"
-    }
+    { "name": "3D", "code": "3d" },
+    { "name": "Accessibility", "code": "access" },
+    { "name": "Angular", "code": "angular" },
+    { "name": "Animation", "code": "animation" },
+    { "name": "Boilerplate", "code": "boilerplate" },
+    { "name": "Book", "code": "book" },
+    { "name": "Bootstrap", "code": "bootstrap" },
+    { "name": "Browser automation", "code": "auto" },
+    { "name": "Building tool", "code": "build" },
+    { "name": "CLI", "code": "cli" },
+    { "name": "CMS", "code": "cms" },
+    { "name": "CSS Toolkit", "code": "css-lib" },
+    { "name": "CSS in JS", "code": "css-in-js" },
+    { "name": "Caching", "code": "caching" },
+    { "name": "Charting", "code": "chart" },
+    { "name": "Code Parser", "code": "code-parser" },
+    { "name": "Compiler", "code": "compiler" },
+    { "name": "Component Toolkit", "code": "component" },
+    { "name": "D3", "code": "d3" },
+    { "name": "Dashboard", "code": "dashboard" },
+    { "name": "Data fetching", "code": "data" },
+    { "name": "Data structure", "code": "data-structure" },
+    { "name": "Database", "code": "db" },
+    { "name": "Debugging", "code": "debug" },
+    { "name": "Decentralized", "code": "decentralized" },
+    { "name": "Deno", "code": "deno" },
+    { "name": "Desktop app", "code": "desktop" },
+    { "name": "Documentation", "code": "doc" },
+    { "name": "Express", "code": "express" },
+    { "name": "File system", "code": "filesystem" },
+    { "name": "Flux", "code": "flux" },
+    { "name": "Form", "code": "form" },
+    { "name": "Full-stack framework", "code": "fullstack" },
+    { "name": "Functional programming", "code": "fp" },
+    { "name": "Gesture - Touch", "code": "touch" },
+    { "name": "GraphQL", "code": "graphql" },
+    { "name": "HTTP client • Fetch • AJAX", "code": "http" },
+    { "name": "IDE", "code": "ide" },
+    { "name": "Icon set", "code": "icon" },
+    { "name": "Learning resource", "code": "learning" },
+    { "name": "Linter", "code": "lint" },
+    { "name": "Material design", "code": "material" },
+    { "name": "Microservices", "code": "microservice" },
+    { "name": "Mobile", "code": "mobile" },
+    { "name": "Module - bundler", "code": "module" },
+    { "name": "Node.js core", "code": "node.js" },
+    { "name": "Node.js framework", "code": "nodejs-framework" },
+    { "name": "ORM", "code": "orm" },
+    { "name": "Playground", "code": "playground" },
+    { "name": "Prefetch", "code": "prefetch" },
+    { "name": "Prerender", "code": "prerender" },
+    { "name": "React", "code": "react" },
+    { "name": "React Native", "code": "react-native" },
+    { "name": "Reactive programming", "code": "reactive" },
+    { "name": "Real-time", "code": "realtime" },
+    { "name": "Redux", "code": "redux" },
+    { "name": "Runtime", "code": "runtime" },
+    { "name": "SVG", "code": "svg" },
+    { "name": "Scaffolding - generator", "code": "scaffolding" },
+    { "name": "Serverless", "code": "serverless" },
+    { "name": "Service Worker", "code": "serviceworker" },
+    { "name": "State machine", "code": "state-machine" },
+    { "name": "State management", "code": "state" },
+    { "name": "Static site generator", "code": "ssg" },
+    { "name": "Table", "code": "table" },
+    { "name": "Testing", "code": "test" },
+    { "name": "Testing framework", "code": "test-framework" },
+    { "name": "Types", "code": "types" },
+    { "name": "UI Framework", "code": "framework" },
+    { "name": "Universal", "code": "universal" },
+    { "name": "Virtual DOM", "code": "vdom" },
+    { "name": "Vue", "code": "vue" },
+    { "name": "Web Components", "code": "webcomponent" },
+    { "name": "Web workers", "code": "webworker" }
   ]
 }
