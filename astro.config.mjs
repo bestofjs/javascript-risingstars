@@ -19,6 +19,6 @@ export default defineConfig({
     "/": `/${currentYear}/en`,
   },
   integrations: [preact()],
-  output: "hybrid",
+  output: "static",
   adapter: vercel({ includeFiles }),
 });
