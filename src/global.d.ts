@@ -15,9 +15,7 @@ declare namespace RisingStars {
     url: string;
   };
 
-  type Entities = {
-    [key: string]: Project;
-  };
+  type Entities = Map<string, Project>;
 
   type Tag = {
     name: string;
@@ -28,7 +26,7 @@ declare namespace RisingStars {
 
   type Category = {
     key: string;
-    count: number;
+    count?: number;
     limit?: number;
     tags?: string[];
     excluded?: Project["slug"][];

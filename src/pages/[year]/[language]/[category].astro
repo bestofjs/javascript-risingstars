@@ -5,9 +5,10 @@
 import { getCollection, z } from "astro:content";
 import settings from "~/settings/years-setup.json";
 
-import Category from "~/components/category.astro";
+import Section from "~/components/category.astro";
 import ProjectList from "~/components/project-list.astro";
 import { fetchPageProps } from "~/fetch-page-props";
+import invariant from "tiny-invariant";
 
 export const partial = true;
 export const prerender = true;
@@ -18,7 +19,7 @@ export async function getStaticPaths() {
     .flatMap(({ year, languages }) =>
       languages.flatMap((language) => {
         const collectionItem = collectionItems.find(
-          (item) => item.id === year.toString()
+          (item) => item.id === year.toString(),
         );
         const categorySlugs = collectionItem!.data.map((item) => item.key);
         return categorySlugs.map((category) => ({
@@ -26,7 +27,7 @@ export async function getStaticPaths() {
           language,
           category,
         }));
-      })
+      }),
     )
     .map(({ year, language, category }) => ({
       params: {
@@ -53,11 +54,12 @@ const { projectsByTag, categories } = await fetchPageProps(year, language!);
 
 const projects = projectsByTag[categorySlug];
 const category = categories.find((cat) => cat.key === categorySlug);
+invariant(category, `Category not found: ${categorySlug}`);
 const offset = category?.limit || 5;
 const extraProjects = projects.slice(offset);
 ---
 
-<Category
+<Section
   projects={projects}
   year={year}
   language={language}
