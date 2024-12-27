@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import preact from "@astrojs/preact";
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel";
 import { globbySync } from "globby";
 
 import settings from "./src/settings/years-setup.json";
