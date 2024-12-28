@@ -13,9 +13,10 @@ export async function useTranslations(language: string, year: number) {
       [language]: { translation: messages },
     },
   };
+  // @ts-expect-error TODsO
   const instance = createInstance(options);
-  // instance.use(initReactI18next);
 
+  // @ts-expect-error TODO
   await instance.init(options);
 
   return {
@@ -28,12 +29,12 @@ async function loadAllMessages(language: string, year: number) {
   const specificMessages = await getEntry("messages", year + "/" + language);
   invariant(
     specificMessages,
-    `No messages found for year ${year} and language ${language}`
+    `No messages found for year ${year} and language ${language}`,
   );
   const commonMessages = await getEntry("messages", "common/" + language);
   invariant(
     commonMessages,
-    `No common messages found for language ${language}`
+    `No common messages found for language ${language}`,
   );
 
   const messages = flatten({

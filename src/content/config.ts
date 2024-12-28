@@ -17,19 +17,23 @@ const contributorCollection = defineCollection({
   }),
 });
 
+const categorySchema = z.object({
+  key: z.string(),
+  limit: z.number().optional(),
+  count: z.number().optional(),
+  tags: z.array(z.string()).optional(),
+  excluded: z.array(z.string()).optional(),
+  excludedTags: z.array(z.string()).optional(),
+  availableComments: z.array(z.string()).optional(),
+  guest: z.string().optional(),
+  disabled: z.boolean().optional(),
+});
+
+export type Category = z.infer<typeof categorySchema>;
+
 const categoryCollection = defineCollection({
   type: "data",
-  schema: z.array(
-    z.object({
-      key: z.string(),
-      limit: z.number().optional(),
-      count: z.number().optional(),
-      tags: z.array(z.string()).optional(),
-      excluded: z.array(z.string()).optional(),
-      availableComments: z.array(z.string()).optional(),
-      guest: z.string().optional(),
-    })
-  ),
+  schema: z.array(categorySchema),
 });
 
 const messagesCollection = defineCollection({

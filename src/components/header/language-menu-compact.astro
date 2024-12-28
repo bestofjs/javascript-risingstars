@@ -15,9 +15,9 @@ function getPath(year: number, language: string) {
 <script>
   document
     .getElementById("language-dropdown")!
-    .addEventListener("change", (event) => {
-      const path = event!.target.value;
-      window.location.push(path);
+    .addEventListener("change", (event: Event) => {
+      const path = (event.target as HTMLSelectElement).value;
+      window.location.href = path;
     });
 </script>
 <div class="language-menu-mobile">
