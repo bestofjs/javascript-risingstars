@@ -47,7 +47,7 @@ function getProjectsByTag(
 export function getProjectsBySlug(projects: RisingStars.Project[]) {
   const map = new Map<string, RisingStars.Project>();
   projects.forEach((project) => {
-    map.set(project.ref || project.slug, project);
+    map.set(project.overrideSlugInComments || project.slug, project);
   });
   return map;
 }
