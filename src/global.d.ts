@@ -8,6 +8,7 @@ declare namespace RisingStars {
     monthly: number[];
     name: string;
     owner_id: number;
+    ref?: string; //TODO refactor to use Project schema as the source of truth
     repository: string;
     slug: string;
     stars: number;

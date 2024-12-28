@@ -195,7 +195,8 @@
       "icon": "vue.svg",
       "created_at": "2013-07-29T03:24:51.000Z",
       "url": "http://vuejs.org",
-      "slug": "vuejs"
+      "slug": "vuejs-2",
+      "ref": "vuejs"
     },
     {
       "name": "Svelte",
@@ -761,6 +762,7 @@
     {
       "name": "vue-next",
       "slug": "vuejs",
+      "ref": "vue-next",
       "full_name": "vuejs/vue-next",
       "description": "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
       "stars": 26669,
