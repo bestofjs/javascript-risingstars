@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { orderBy } from "es-toolkit";
 
 import LoadingIndicator from "./loading-indicator.astro";
 
@@ -17,9 +18,13 @@ const hasNextYear = years.includes(year + 1);
 
 async function getAvailableYears() {
   const items = await getCollection("categories");
-  return items
-    .filter((item) => item.data.find((cat) => cat.key === category))
-    .map((item) => parseInt(item.id, 10));
+  const categories = orderBy(
+    items.filter((item) => item.data.find((cat) => cat.key === category)),
+    ["id"],
+    ["asc"],
+  );
+
+  return categories.map((item) => parseInt(item.id, 10));
 }
 
 function getRequestURL(year?: number) {
