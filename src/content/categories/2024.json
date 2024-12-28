@@ -41,6 +41,13 @@
     "availableComments": ["en", "es", "ja", "ko"]
   },
   {
+    "key": "statemanagement",
+    "tags": ["state"],
+    "limit": 5,
+    "count": 10,
+    "guest": "jherr"
+  },
+  {
     "key": "css-in-js",
     "tags": ["css-in-js", "atomic-css"],
     "count": 10,
@@ -67,13 +74,6 @@
   },
   {
     "key": "ssg",
-    "count": 10,
-    "availableComments": []
-  },
-  {
-    "key": "statemanagement",
-    "tags": ["state"],
-    "limit": 5,
     "count": 10,
     "availableComments": []
   },
