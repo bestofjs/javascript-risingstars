@@ -82,6 +82,12 @@ export const byYear: { [year: string]: unknown } = {
       ko: ["kimjusang"],
     },
   },
+  "2024": {
+    authors: ["michaelrambeau"],
+    translators: {
+      es: ["jvalen"],
+    },
+  },
 };
 
 export function getContributorsByYear(year: number) {
