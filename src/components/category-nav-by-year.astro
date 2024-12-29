@@ -13,8 +13,11 @@ export interface Props {
 const { language, year, category } = Astro.props;
 
 const years = await getAvailableYears();
-const hasPreviousYear = years.includes(year - 1);
-const hasNextYear = years.includes(year + 1);
+const index = years.indexOf(year);
+const previousYear = index > 0 ? years[index - 1] : null;
+const nextYear = index < year.length ? years[index + 1] : null;
+const hasPreviousYear = previousYear !== null;
+const hasNextYear = nextYear !== null;
 
 async function getAvailableYears() {
   const items = await getCollection("categories");
@@ -72,8 +75,8 @@ function getRequestURL(year?: number) {
         class="button"
         disabled={!hasPreviousYear}
         aria-label="Previous year"
-        title={hasPreviousYear ? `Go to ${year - 1}` : undefined}
-        hx-get={getRequestURL(year - 1)}
+        title={hasPreviousYear ? `Go to ${previousYear}` : undefined}
+        hx-get={getRequestURL(previousYear!)}
         hx-select="section"
         hx-trigger="click"
         hx-target="closest section"
@@ -89,8 +92,8 @@ function getRequestURL(year?: number) {
         class="button"
         disabled={!hasNextYear}
         aria-label="Next year"
-        title={hasNextYear ? `Go to ${year + 1}` : undefined}
-        hx-get={getRequestURL(year + 1)}
+        title={hasNextYear ? `Go to ${nextYear}` : undefined}
+        hx-get={getRequestURL(nextYear!)}
         hx-select="section"
         hx-trigger="click"
         hx-target="closest section"
