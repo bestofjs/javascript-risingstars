@@ -9,13 +9,21 @@ As in 2023, {shadcn-ui} is the hottest project of the year. It found a perfect b
 
 The idea of letting developers own the code of their components, instead of providing components you have to `import`, was really a game changer.
 
-A lot of features were added in 2024: themes, blocks, new components.
+A lot of features were added in 2024:
+
+- [Charts](https://ui.shadcn.com/charts) powered by the library [Recharts](http://recharts.org/)
+- Themes to generate sets of CSS variables you can customize in your code base
+- [Blocks](https://ui.shadcn.com/blocks): collection of layouts to address needs of typical web apps
+- New components such as a responsive and extensible sidebar.
 
 The new CLI is much more powerful and flexible:
 
 - `shadcn add` can now install components, themes, hooks, utils, dependencies…
 - It supports multiple frameworks: Next.js, Remix, Vite, Laravel...
 - It can update your Tailwind config instead of overriding it
+- Support for monorepos
+
+Another reason of its success is the tight integration with the service [v0](https://v0.dev) that can generate components built on top of shadcn/ui.
 
 #### Number 2: Excalidraw
 
@@ -23,7 +31,7 @@ The new CLI is much more powerful and flexible:
 
 AI features include: Text to Diagram, Mermaid to Excalidraw, and Wireframe to Code.
 
-#### Number 3: Affine
+#### Number 3: AFFiNE
 
 {affine} is an open-source knowledge base and project management tool that combines the capabilities of tools like Notion (with documents made of blocks) and Miro (infinite canvas for drawing).
 

@@ -48,17 +48,16 @@
     "guest": "jherr"
   },
   {
+    "key": "ai",
+    "tags": ["ml", "ai"],
+    "count": 10
+  },
+  {
     "key": "css-in-js",
-    "tags": ["css-in-js", "atomic-css"],
+    "tags": ["css-in-js", "atomic-css", "css-lib"],
     "count": 10,
     "availableComments": [],
     "excluded": ["chakra-ui"]
-  },
-  {
-    "key": "css-lib",
-    "count": 10,
-    "availableComments": [],
-    "excluded": ["tailwind-css"]
   },
   {
     "key": "test-framework",
@@ -80,13 +79,6 @@
   {
     "key": "graphql",
     "count": 10,
-    "availableComments": []
-  },
-  {
-    "key": "ml",
-    "tags": ["ml", "ai"],
-    "count": 10,
-    "excluded": ["draw-a-ui"],
     "availableComments": []
   }
 ]
