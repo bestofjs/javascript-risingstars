@@ -1,7 +1,8 @@
 ---
-import contributorsByYear from "~/settings/contributors.json";
-import TeamMember from "~/components/team-member.astro";
 import { getCollection } from "astro:content";
+
+import TeamMember from "~/components/team-member.astro";
+import { getContributorsByYear } from "~/settings/contributors-by-year";
 
 export interface Props {
   year: number;
@@ -12,8 +13,16 @@ const { year, language, availableLanguages } = Astro.props;
 
 const contributors = await getCollection("contributors");
 
+const thisYearContributors = getContributorsByYear(year);
+
 function getContributorByUserName(userName: string) {
-  return contributors.find((member) => member.data.userName === userName);
+  const found = contributors.find(
+    (member) => member.data.userName === userName,
+  );
+  if (!found) {
+    throw new Error(`Contributor not found: ${userName}`);
+  }
+  return found;
 }
 
 const translations = {
@@ -25,12 +34,14 @@ const translations = {
   ko: "Korean version",
 };
 
-const thisYearTranslators = (
-  contributorsByYear[year.toString()]?.translators?.[language] || []
-).map(getContributorByUserName);
+// TODO type correctly language parameters
+const thisYearTranslators =
+  thisYearContributors.translators?.[
+    language as keyof typeof translations
+  ]?.map(getContributorByUserName) || [];
 
-const thisYearAuthors = contributorsByYear[year.toString()]?.authors.map(
-  getContributorByUserName
+const thisYearAuthors = thisYearContributors.authors.map(
+  getContributorByUserName,
 );
 ---
 
@@ -39,7 +50,9 @@ const thisYearAuthors = contributorsByYear[year.toString()]?.authors.map(
     {
       thisYearTranslators.length > 0 && (
         <div>
-          <p class="member-list-header">{translations[language]}</p>
+          <p class="member-list-header">
+            {translations[language as keyof typeof translations]}
+          </p>
           <div class="translator-list">
             {thisYearTranslators.map((translator) => (
               <TeamMember member={translator} />

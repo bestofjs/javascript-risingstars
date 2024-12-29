@@ -2,6 +2,7 @@
   "projects": [
     {
       "name": "Vue.js",
+      "slug": "vuejs",
       "full_name": "vuejs/vue",
       "description": "A progressive, incrementally-adoptable framework for building UI on the web",
       "stars": 155562,
@@ -11,12 +12,13 @@
       ],
       "tags": ["framework", "vdom", "vue"],
       "owner_id": 6128107,
+      "icon": "vue.svg",
       "created_at": "2013-07-29T03:24:51.000Z",
-      "url": "http://vuejs.org",
-      "icon": "vue.svg"
+      "url": "http://vuejs.org"
     },
     {
       "name": "VS Code",
+      "slug": "vs-code",
       "full_name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "stars": 90044,
@@ -26,12 +28,13 @@
       ],
       "tags": ["ide"],
       "owner_id": 6154722,
+      "icon": "vscode.svg",
       "created_at": "2015-09-03T20:23:38.000Z",
-      "url": "https://code.visualstudio.com",
-      "icon": "vscode.svg"
+      "url": "https://code.visualstudio.com"
     },
     {
       "name": "React",
+      "slug": "react",
       "full_name": "facebook/react",
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "stars": 142251,
@@ -41,12 +44,13 @@
       ],
       "tags": ["framework", "vdom", "react"],
       "owner_id": 69631,
+      "icon": "react.svg",
       "created_at": "2013-05-24T16:15:54.000Z",
-      "url": "https://reactjs.org",
-      "icon": "react.svg"
+      "url": "https://reactjs.org"
     },
     {
       "name": "Vue Element Admin",
+      "slug": "vue-element-admin",
       "full_name": "PanJiaChen/vue-element-admin",
       "description": "A magical vue admin",
       "stars": 48069,
@@ -56,11 +60,12 @@
       ],
       "tags": ["vue", "dashboard"],
       "owner_id": 8121621,
-      "created_at": "2017-04-17T03:35:49.000Z",
-      "icon": "vueelementadmin.png"
+      "icon": "vueelementadmin.png",
+      "created_at": "2017-04-17T03:35:49.000Z"
     },
     {
       "name": "You Don't Know JS",
+      "slug": "you-dont-know-js",
       "full_name": "getify/You-Dont-Know-JS",
       "description": "A book series on JavaScript",
       "stars": 114696,
@@ -70,11 +75,12 @@
       ],
       "tags": ["learning", "book"],
       "owner_id": 150330,
-      "created_at": "2013-11-16T02:37:24.000Z",
-      "icon": "js.svg"
+      "icon": "js.svg",
+      "created_at": "2013-11-16T02:37:24.000Z"
     },
     {
       "name": "Svelte",
+      "slug": "svelte",
       "full_name": "sveltejs/svelte",
       "description": "Cybernetically enhanced web apps",
       "stars": 29406,
@@ -84,12 +90,13 @@
       ],
       "tags": ["framework"],
       "owner_id": 23617963,
+      "icon": "svelte.svg",
       "created_at": "2016-11-20T18:13:05.000Z",
-      "url": "https://svelte.dev",
-      "icon": "svelte.svg"
+      "url": "https://svelte.dev"
     },
     {
       "name": "30 seconds of code",
+      "slug": "30-seconds-of-code",
       "full_name": "30-seconds/30-seconds-of-code",
       "description": "Short JavaScript code snippets for all your development needs",
       "stars": 53794,
@@ -104,6 +111,7 @@
     },
     {
       "name": "JS Algorithms & Data Structures",
+      "slug": "js-algorithms-and-data-structures",
       "full_name": "trekhleb/javascript-algorithms",
       "description": "Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
       "stars": 60268,
@@ -117,6 +125,7 @@
     },
     {
       "name": "Node.js Best Practices",
+      "slug": "nodejs-best-practices",
       "full_name": "goldbergyoni/nodebestpractices",
       "description": "The largest Node.js best practices list (December 2019)",
       "stars": 38135,
@@ -130,6 +139,7 @@
     },
     {
       "name": "Axios",
+      "slug": "axios",
       "full_name": "axios/axios",
       "description": "Promise based HTTP client for the browser and node.js",
       "stars": 68643,
@@ -139,10 +149,12 @@
       ],
       "tags": ["http"],
       "owner_id": 32372333,
-      "created_at": "2014-08-18T22:30:27.000Z"
+      "created_at": "2014-08-18T22:30:27.000Z",
+      "icon": "axios.svg"
     },
     {
       "name": "Ant Design",
+      "slug": "ant-design",
       "full_name": "ant-design/ant-design",
       "description": "A UI Design Language and React UI library",
       "stars": 55416,
@@ -152,12 +164,13 @@
       ],
       "tags": ["react", "component"],
       "owner_id": 12101536,
+      "icon": "ant.svg",
       "created_at": "2015-04-24T15:37:24.000Z",
-      "url": "https://ant.design",
-      "icon": "ant.svg"
+      "url": "https://ant.design"
     },
     {
       "name": "TypeScript",
+      "slug": "typescript",
       "full_name": "microsoft/TypeScript",
       "description": "A superset of JavaScript that compiles to clean JavaScript output.",
       "stars": 57222,
@@ -167,12 +180,13 @@
       ],
       "tags": ["compiler", "types"],
       "owner_id": 6154722,
+      "icon": "typescript.svg",
       "created_at": "2014-06-17T15:28:39.000Z",
-      "url": "https://www.typescriptlang.org",
-      "icon": "typescript.svg"
+      "url": "https://www.typescriptlang.org"
     },
     {
       "name": "Puppeteer",
+      "slug": "puppeteer",
       "full_name": "puppeteer/puppeteer",
       "description": "Headless Chrome Node.js API",
       "stars": 57494,
@@ -182,12 +196,13 @@
       ],
       "tags": ["auto"],
       "owner_id": 6906516,
+      "icon": "puppeteer.svg",
       "created_at": "2017-05-09T22:16:13.000Z",
-      "url": "https://pptr.dev/",
-      "icon": "puppeteer.svg"
+      "url": "https://pptr.dev/"
     },
     {
       "name": "Create React App",
+      "slug": "create-react-app",
       "full_name": "facebook/create-react-app",
       "description": "Set up a modern web app by running one command.",
       "stars": 75202,
@@ -197,12 +212,13 @@
       ],
       "tags": ["boilerplate", "react", "serviceworker"],
       "owner_id": 69631,
+      "icon": "cra.svg",
       "created_at": "2016-07-17T14:55:11.000Z",
-      "url": "https://create-react-app.dev",
-      "icon": "cra.svg"
+      "url": "https://create-react-app.dev"
     },
     {
       "name": "Tech Interview Handbook",
+      "slug": "tech-interview-handbook",
       "full_name": "yangshun/tech-interview-handbook",
       "description": "Materials to help you rock your next coding interview",
       "stars": 38699,
@@ -211,10 +227,12 @@
       "tags": ["learning"],
       "owner_id": 1315101,
       "created_at": "2016-07-05T05:00:48.000Z",
-      "url": "https://yangshun.github.io/tech-interview-handbook/"
+      "url": "https://yangshun.github.io/tech-interview-handbook/",
+      "icon": "tech-interview.svg"
     },
     {
       "name": "Storybook",
+      "slug": "storybook",
       "full_name": "storybookjs/storybook",
       "description": "UI component dev & test: React, Vue, Angular, React Native, Ember, Web Components & more!",
       "stars": 44739,
@@ -224,12 +242,13 @@
       ],
       "tags": ["react", "vue", "angular", "test"],
       "owner_id": 22632046,
+      "icon": "storybook.svg",
       "created_at": "2016-03-18T04:23:44.000Z",
-      "url": "https://storybook.js.org",
-      "icon": "storybook.svg"
+      "url": "https://storybook.js.org"
     },
     {
       "name": "Angular",
+      "slug": "angular",
       "full_name": "angular/angular",
       "description": "One framework. Mobile & desktop.",
       "stars": 56348,
@@ -239,12 +258,13 @@
       ],
       "tags": ["framework", "angular"],
       "owner_id": 139426,
+      "icon": "angular.svg",
       "created_at": "2014-09-18T16:12:01.000Z",
-      "url": "https://angular.io",
-      "icon": "angular.svg"
+      "url": "https://angular.io"
     },
     {
       "name": "Deno",
+      "slug": "deno",
       "full_name": "denoland/deno",
       "description": "A secure JavaScript and TypeScript runtime",
       "stars": 40835,
@@ -254,12 +274,13 @@
       ],
       "tags": ["runtime", "types"],
       "owner_id": 42048915,
+      "icon": "deno.svg",
       "created_at": "2018-05-15T01:34:26.000Z",
-      "url": "https://deno.land/",
-      "icon": "deno.svg"
+      "url": "https://deno.land/"
     },
     {
       "name": "Electron",
+      "slug": "electron",
       "full_name": "electron/electron",
       "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
       "stars": 80059,
@@ -269,12 +290,13 @@
       ],
       "tags": ["desktop"],
       "owner_id": 13409222,
+      "icon": "electron.svg",
       "created_at": "2013-04-12T01:47:36.000Z",
-      "url": "https://electronjs.org",
-      "icon": "electron.svg"
+      "url": "https://electronjs.org"
     },
     {
       "name": "Gatsby",
+      "slug": "gatsby",
       "full_name": "gatsbyjs/gatsby",
       "description": "Build blazing fast, modern apps and websites with React",
       "stars": 41401,
@@ -284,12 +306,13 @@
       ],
       "tags": ["ssg", "react", "graphql", "prefetch"],
       "owner_id": 12551863,
+      "icon": "gatsby.svg",
       "created_at": "2015-05-21T22:43:05.000Z",
-      "url": "https://www.gatsbyjs.org",
-      "icon": "gatsby.svg"
+      "url": "https://www.gatsbyjs.org"
     },
     {
       "name": "Airbnb Style Guide",
+      "slug": "airbnb-style-guide",
       "full_name": "airbnb/javascript",
       "description": "JavaScript Style Guide",
       "stars": 91798,
@@ -303,6 +326,7 @@
     },
     {
       "name": "Nest",
+      "slug": "nest",
       "full_name": "nestjs/nest",
       "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8)",
       "stars": 23249,
@@ -310,12 +334,13 @@
       "monthly": [944, 928, 879, 925, 822, 960, 936, 993, 1129, 987, 833, 808],
       "tags": ["nodejs-framework", "microservice"],
       "owner_id": 28507035,
+      "icon": "nest.svg",
       "created_at": "2017-02-04T20:12:52.000Z",
-      "url": "https://nestjs.com/",
-      "icon": "nest.svg"
+      "url": "https://nestjs.com/"
     },
     {
       "name": "React Native",
+      "slug": "react-native",
       "full_name": "facebook/react-native",
       "description": "A framework for building native apps with React.",
       "stars": 84103,
@@ -325,12 +350,13 @@
       ],
       "tags": ["mobile", "react-native"],
       "owner_id": 69631,
+      "icon": "react-native.svg",
       "created_at": "2015-01-09T18:10:16.000Z",
-      "url": "https://facebook.github.io/react-native/",
-      "icon": "react-native.svg"
+      "url": "https://facebook.github.io/react-native/"
     },
     {
       "name": "freeCodeCamp",
+      "slug": "freecodecamp",
       "full_name": "freeCodeCamp/freeCodeCamp",
       "description": "The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.",
       "stars": 308088,
@@ -344,6 +370,7 @@
     },
     {
       "name": "Next.js",
+      "slug": "nextjs",
       "full_name": "zeit/next.js",
       "description": "The React Framework",
       "stars": 43976,
@@ -353,12 +380,13 @@
       ],
       "tags": ["isomorphic", "react", "nodejs-framework", "ssg", "prefetch"],
       "owner_id": 14985020,
+      "icon": "nextjs.svg",
       "created_at": "2016-10-05T23:32:51.000Z",
-      "url": "https://nextjs.org",
-      "icon": "nextjs.svg"
+      "url": "https://nextjs.org"
     },
     {
       "name": "Strapi",
+      "slug": "strapi",
       "full_name": "strapi/strapi",
       "description": "Open source Node.js Headless CMS to easily build customisable APIs",
       "stars": 21028,
@@ -366,12 +394,13 @@
       "monthly": [804, 883, 1123, 753, 607, 844, 803, 724, 790, 1160, 666, 767],
       "tags": ["nodejs-framework", "cms"],
       "owner_id": 19872173,
+      "icon": "strapi.svg",
       "created_at": "2015-09-30T15:34:48.000Z",
-      "url": "https://strapi.io",
-      "icon": "strapi.svg"
+      "url": "https://strapi.io"
     },
     {
       "name": "Material UI",
+      "slug": "material-ui",
       "full_name": "mui-org/material-ui",
       "description": "React components for faster and easier web development. Build your own design system, or start with Material Design.",
       "stars": 53603,
@@ -379,12 +408,13 @@
       "monthly": [741, 763, 770, 828, 866, 864, 873, 1010, 741, 870, 677, 875],
       "tags": ["material", "react", "component"],
       "owner_id": 33663932,
+      "icon": "material-ui.svg",
       "created_at": "2014-08-18T19:11:54.000Z",
-      "url": "https://material-ui.com/",
-      "icon": "material-ui.svg"
+      "url": "https://material-ui.com/"
     },
     {
       "name": "Node.js",
+      "slug": "nodejs",
       "full_name": "nodejs/node",
       "description": "Node.js JavaScript runtime",
       "stars": 67100,
@@ -392,12 +422,13 @@
       "monthly": [697, 745, 770, 604, 723, 717, 733, 894, 1088, 1044, 727, 906],
       "tags": ["node.js", "runtime"],
       "owner_id": 9950313,
+      "icon": "nodejs.svg",
       "created_at": "2014-11-26T19:57:11.000Z",
-      "url": "https://nodejs.org/",
-      "icon": "nodejs.svg"
+      "url": "https://nodejs.org/"
     },
     {
       "name": "Three.js",
+      "slug": "threejs",
       "full_name": "mrdoob/three.js",
       "description": "JavaScript 3D library.",
       "stars": 57821,
@@ -406,10 +437,12 @@
       "tags": ["3d"],
       "owner_id": 97088,
       "created_at": "2010-03-23T18:58:01.000Z",
-      "url": "https://threejs.org/"
+      "url": "https://threejs.org/",
+      "icon": "threejs.svg"
     },
     {
       "name": "Tailwind CSS",
+      "slug": "tailwind-css",
       "full_name": "tailwindcss/tailwindcss",
       "description": "A utility-first CSS framework for rapid UI development.",
       "stars": 18488,
@@ -417,12 +450,13 @@
       "monthly": [799, 1603, 674, 694, 689, 624, 782, 1167, 901, 629, 440, 446],
       "tags": ["css-lib"],
       "owner_id": 30317862,
+      "icon": "tailwindcss.svg",
       "created_at": "2017-10-06T14:59:14.000Z",
-      "url": "https://tailwindcss.com/",
-      "icon": "tailwindcss.svg"
+      "url": "https://tailwindcss.com/"
     },
     {
       "name": "Element",
+      "slug": "element",
       "full_name": "ElemeFE/element",
       "description": "A Vue.js 2.0 UI Toolkit for Web",
       "stars": 43450,
@@ -430,12 +464,13 @@
       "monthly": [645, 630, 591, 653, 968, 806, 734, 849, 862, 908, 550, 913],
       "tags": ["vue", "component"],
       "owner_id": 12810740,
+      "icon": "element.svg",
       "created_at": "2016-09-03T06:19:26.000Z",
-      "url": "https://element.eleme.io/",
-      "icon": "element.svg"
+      "url": "https://element.eleme.io/"
     },
     {
       "name": "Uppy",
+      "slug": "uppy",
       "full_name": "transloadit/uppy",
       "description": "The next open source file uploader for web browsers",
       "stars": 21684,
@@ -445,12 +480,13 @@
       ],
       "tags": ["upload"],
       "owner_id": 125754,
+      "icon": "uppy.svg",
       "created_at": "2015-11-16T12:32:33.000Z",
-      "url": "https://uppy.io",
-      "icon": "uppy.svg"
+      "url": "https://uppy.io"
     },
     {
       "name": "anime.js",
+      "slug": "animejs",
       "full_name": "juliangarnier/anime",
       "description": "JavaScript animation engine",
       "stars": 33666,
@@ -458,12 +494,13 @@
       "monthly": [341, 266, 307, 283, 349, 400, 296, 328, 417, 489, 872, 3957],
       "tags": ["animation"],
       "owner_id": 1268691,
+      "icon": "anime.svg",
       "created_at": "2016-03-13T21:37:45.000Z",
-      "url": "https://animejs.com",
-      "icon": "anime.svg"
+      "url": "https://animejs.com"
     },
     {
       "name": "Bootstrap",
+      "slug": "bootstrap",
       "full_name": "twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "stars": 138094,
@@ -471,12 +508,13 @@
       "monthly": [538, 727, 551, 513, 543, 625, 629, 693, 817, 898, 743, 657],
       "tags": ["css-lib", "bootstrap"],
       "owner_id": 2918581,
+      "icon": "bootstrap.svg",
       "created_at": "2011-07-29T21:19:00.000Z",
-      "url": "https://getbootstrap.com",
-      "icon": "bootstrap.svg"
+      "url": "https://getbootstrap.com"
     },
     {
       "name": "Hasura GraphQL Engine",
+      "slug": "hasura-graphql-engine",
       "full_name": "hasura/graphql-engine",
       "description": "Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.",
       "stars": 13975,
@@ -484,12 +522,13 @@
       "monthly": [628, 481, 593, 453, 446, 500, 1008, 609, 713, 915, 481, 1043],
       "tags": ["graphql"],
       "owner_id": 13966722,
+      "icon": "hasura.svg",
       "created_at": "2018-06-18T07:57:36.000Z",
-      "url": "https://hasura.io",
-      "icon": "hasura.svg"
+      "url": "https://hasura.io"
     },
     {
       "name": "Ant Design Pro",
+      "slug": "ant-design-pro",
       "full_name": "ant-design/ant-design-pro",
       "description": "Use Ant Design like a Pro!",
       "stars": 23418,
@@ -497,12 +536,13 @@
       "monthly": [432, 509, 591, 764, 568, 675, 616, 636, 782, 874, 580, 770],
       "tags": ["dashboard", "react"],
       "owner_id": 12101536,
+      "icon": "ant.svg",
       "created_at": "2017-08-25T10:40:44.000Z",
-      "url": "http://pro.ant.design/",
-      "icon": "ant.svg"
+      "url": "http://pro.ant.design/"
     },
     {
       "name": "D3",
+      "slug": "d3",
       "full_name": "d3/d3",
       "description": "Bring data to life with SVG, Canvas and HTML.",
       "stars": 89516,
@@ -510,12 +550,13 @@
       "monthly": [476, 550, 527, 698, 656, 714, 575, 674, 731, 838, 595, 752],
       "tags": ["chart", "d3", "svg", "canvas"],
       "owner_id": 1562726,
+      "icon": "d3.svg",
       "created_at": "2010-09-27T17:22:42.000Z",
-      "url": "https://d3js.org",
-      "icon": "d3.svg"
+      "url": "https://d3js.org"
     },
     {
       "name": "Formik",
+      "slug": "formik",
       "full_name": "jaredpalmer/formik",
       "description": "Build forms in React, without the tears",
       "stars": 20003,
@@ -523,12 +564,13 @@
       "monthly": [435, 598, 639, 574, 569, 632, 594, 759, 660, 720, 693, 766],
       "tags": ["react", "form"],
       "owner_id": 4060187,
+      "icon": "formik.svg",
       "created_at": "2017-06-14T19:50:59.000Z",
-      "url": "https://jaredpalmer.com/formik",
-      "icon": "formik.svg"
+      "url": "https://jaredpalmer.com/formik"
     },
     {
       "name": "Cypress",
+      "slug": "cypress",
       "full_name": "cypress-io/cypress",
       "description": "Fast, easy and reliable testing for anything that runs in a browser.",
       "stars": 17556,
@@ -536,12 +578,13 @@
       "monthly": [710, 837, 725, 475, 651, 569, 540, 762, 693, 578, 545, 537],
       "tags": ["test", "auto"],
       "owner_id": 8908513,
+      "icon": "cypress.svg",
       "created_at": "2015-03-04T00:46:28.000Z",
-      "url": "https://www.cypress.io",
-      "icon": "cypress.svg"
+      "url": "https://www.cypress.io"
     },
     {
       "name": "react-use",
+      "slug": "react-use",
       "full_name": "streamich/react-use",
       "description": "Collection of essential React Hooks",
       "stars": 9962,
@@ -554,6 +597,7 @@
     },
     {
       "name": "Day.js",
+      "slug": "dayjs",
       "full_name": "iamkun/dayjs",
       "description": "Day.js 2KB immutable date library alternative to Moment.js with the same modern API",
       "stars": 25313,
@@ -565,6 +609,7 @@
     },
     {
       "name": "json-server",
+      "slug": "json-server",
       "full_name": "typicode/json-server",
       "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
       "stars": 44831,
@@ -576,6 +621,7 @@
     },
     {
       "name": "Animate.css",
+      "slug": "animatecss",
       "full_name": "daneden/animate.css",
       "description": "A cross-browser library of CSS animations. As easy to use as an easy thing.",
       "stars": 64249,
@@ -588,6 +634,7 @@
     },
     {
       "name": "Vuetify",
+      "slug": "vuetify",
       "full_name": "vuetifyjs/vuetify",
       "description": "Material Component Framework for Vue",
       "stars": 23333,
@@ -595,12 +642,13 @@
       "monthly": [395, 442, 468, 456, 612, 884, 644, 591, 651, 755, 689, 701],
       "tags": ["vue", "material", "component"],
       "owner_id": 22138497,
+      "icon": "vuetify.svg",
       "created_at": "2016-09-12T00:39:35.000Z",
-      "url": "https://vuetifyjs.com",
-      "icon": "vuetify.svg"
+      "url": "https://vuetifyjs.com"
     },
     {
       "name": "Nuxt",
+      "slug": "nuxt",
       "full_name": "nuxt/nuxt.js",
       "description": "The Vue.js Framework",
       "stars": 24805,
@@ -608,12 +656,13 @@
       "monthly": [771, 613, 672, 415, 508, 549, 517, 665, 585, 665, 579, 639],
       "tags": ["vue", "isomorphic", "nodejs-framework", "ssg"],
       "owner_id": 23360933,
+      "icon": "nuxt.svg",
       "created_at": "2016-10-26T11:18:47.000Z",
-      "url": "https://nuxtjs.org",
-      "icon": "nuxt.svg"
+      "url": "https://nuxtjs.org"
     },
     {
       "name": "33 JS Concepts",
+      "slug": "33-js-concepts",
       "full_name": "leonardomso/33-js-concepts",
       "description": "33 concepts every JavaScript developer should know.",
       "stars": 30727,
@@ -625,6 +674,7 @@
     },
     {
       "name": "Echarts",
+      "slug": "echarts",
       "full_name": "apache/incubator-echarts",
       "description": "A powerful, interactive charting and visualization library for browser",
       "stars": 39012,
@@ -637,6 +687,7 @@
     },
     {
       "name": "Pixi.js",
+      "slug": "pixijs",
       "full_name": "pixijs/pixi.js",
       "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
       "stars": 28271,
@@ -649,6 +700,7 @@
     },
     {
       "name": "TypeORM",
+      "slug": "typeorm",
       "full_name": "typeorm/typeorm",
       "description": "ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.",
       "stars": 17004,
@@ -661,6 +713,7 @@
     },
     {
       "name": "Jest",
+      "slug": "jest",
       "full_name": "facebook/jest",
       "description": "Delightful JavaScript Testing.",
       "stars": 29185,
@@ -668,12 +721,13 @@
       "monthly": [446, 406, 413, 415, 505, 538, 442, 543, 501, 733, 609, 743],
       "tags": ["test-framework", "test"],
       "owner_id": 69631,
+      "icon": "jest.svg",
       "created_at": "2013-12-10T00:18:04.000Z",
-      "url": "https://jestjs.io",
-      "icon": "jest.svg"
+      "url": "https://jestjs.io"
     },
     {
       "name": "React-spring",
+      "slug": "react-spring",
       "full_name": "react-spring/react-spring",
       "description": "A spring physics based React animation library",
       "stars": 15652,
@@ -686,6 +740,7 @@
     },
     {
       "name": "Webpack",
+      "slug": "webpack",
       "full_name": "webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
       "stars": 52594,
@@ -693,12 +748,13 @@
       "monthly": [385, 358, 423, 466, 472, 553, 511, 572, 576, 620, 498, 667],
       "tags": ["build", "module"],
       "owner_id": 2105791,
+      "icon": "webpack.svg",
       "created_at": "2012-03-10T10:08:14.000Z",
-      "url": "https://webpack.js.org",
-      "icon": "webpack.svg"
+      "url": "https://webpack.js.org"
     },
     {
       "name": "Styled Components",
+      "slug": "styled-components",
       "full_name": "styled-components/styled-components",
       "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
       "stars": 27412,
@@ -711,6 +767,7 @@
     },
     {
       "name": "Ink",
+      "slug": "ink",
       "full_name": "vadimdemedes/ink",
       "description": "React for interactive command-line apps",
       "stars": 12608,
@@ -722,6 +779,7 @@
     },
     {
       "name": "vue-cli",
+      "slug": "vue-cli",
       "full_name": "vuejs/vue-cli",
       "description": "Standard Tooling for Vue.js Development",
       "stars": 24019,
@@ -734,6 +792,7 @@
     },
     {
       "name": "React Testing Library",
+      "slug": "react-testing-library",
       "full_name": "testing-library/react-testing-library",
       "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
       "stars": 10285,
@@ -746,6 +805,7 @@
     },
     {
       "name": "react-beautiful-dnd",
+      "slug": "react-beautiful-dnd",
       "full_name": "atlassian/react-beautiful-dnd",
       "description": "Beautiful and accessible drag and drop for lists with React",
       "stars": 17601,
@@ -753,12 +813,13 @@
       "monthly": [326, 350, 479, 366, 366, 433, 559, 512, 464, 719, 296, 458],
       "tags": ["react", "dnd"],
       "owner_id": 168166,
+      "icon": "rbd.svg",
       "created_at": "2017-08-09T03:37:15.000Z",
-      "url": "https://react-beautiful-dnd.netlify.com",
-      "icon": "rbd.svg"
+      "url": "https://react-beautiful-dnd.netlify.com"
     },
     {
       "name": "Parcel",
+      "slug": "parcel",
       "full_name": "parcel-bundler/parcel",
       "description": "Blazing fast, zero configuration web application bundler",
       "stars": 34482,
@@ -766,12 +827,13 @@
       "monthly": [287, 291, 381, 271, 384, 297, 394, 504, 573, 633, 449, 742],
       "tags": ["module", "build"],
       "owner_id": 32607881,
+      "icon": "parcel.svg",
       "created_at": "2017-08-07T16:36:47.000Z",
-      "url": "https://parceljs.org",
-      "icon": "parcel.svg"
+      "url": "https://parceljs.org"
     },
     {
       "name": "Docz",
+      "slug": "docz",
       "full_name": "doczjs/docz",
       "description": "It has never been so easy to document your things!",
       "stars": 17798,
@@ -779,12 +841,13 @@
       "monthly": [279, 324, 483, 318, 280, 399, 358, 460, 662, 599, 493, 473],
       "tags": ["react", "doc"],
       "owner_id": 39714731,
+      "icon": "docz.svg",
       "created_at": "2018-03-17T04:24:10.000Z",
-      "url": "https://docz.site",
-      "icon": "docz.png"
+      "url": "https://docz.site"
     },
     {
       "name": "Vant",
+      "slug": "vant",
       "full_name": "youzan/vant",
       "description": "Lightweight Mobile UI Components built on Vue",
       "stars": 12378,
@@ -797,6 +860,7 @@
     },
     {
       "name": "Express",
+      "slug": "express",
       "full_name": "expressjs/express",
       "description": "Fast, unopinionated, minimalist web framework for node.",
       "stars": 46905,
@@ -804,12 +868,13 @@
       "monthly": [397, 356, 370, 319, 377, 417, 360, 477, 488, 469, 444, 451],
       "tags": ["nodejs-framework", "express"],
       "owner_id": 5658226,
+      "icon": "express.svg",
       "created_at": "2009-06-26T18:56:01.000Z",
-      "url": "https://expressjs.com",
-      "icon": "express.svg"
+      "url": "https://expressjs.com"
     },
     {
       "name": "Quasar",
+      "slug": "quasar",
       "full_name": "quasarframework/quasar",
       "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps, Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same codebase.",
       "stars": 13296,
@@ -818,10 +883,12 @@
       "tags": ["mobile", "vue"],
       "owner_id": 23064371,
       "created_at": "2015-10-05T15:45:36.000Z",
-      "url": "https://quasar.dev"
+      "url": "https://quasar.dev",
+      "icon": "quasar.svg"
     },
     {
       "name": "ngx-admin",
+      "slug": "ngx-admin",
       "full_name": "akveo/ngx-admin",
       "description": "Customizable admin dashboard template based on Angular 8+",
       "stars": 19473,
@@ -834,6 +901,7 @@
     },
     {
       "name": "Papers we love",
+      "slug": "papers-we-love",
       "full_name": "papers-we-love/papers-we-love",
       "description": "Papers from the computer science community to read and discuss.",
       "stars": 37616,
@@ -846,6 +914,7 @@
     },
     {
       "name": "Front-end Job Interview Questions",
+      "slug": "front-end-job-interview-questions",
       "full_name": "h5bp/Front-end-Developer-Interview-Questions",
       "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
       "stars": 43301,
@@ -858,6 +927,7 @@
     },
     {
       "name": "Docusaurus",
+      "slug": "docusaurus",
       "full_name": "facebook/docusaurus",
       "description": "Easy to maintain open source documentation websites.",
       "stars": 15080,
@@ -865,12 +935,13 @@
       "monthly": [281, 332, 505, 231, 297, 645, 329, 375, 423, 323, 376, 351],
       "tags": ["doc", "react"],
       "owner_id": 69631,
+      "icon": "docusaurus.svg",
       "created_at": "2017-06-20T16:13:53.000Z",
-      "url": "https://docusaurus.io",
-      "icon": "docusaurus.svg"
+      "url": "https://docusaurus.io"
     },
     {
       "name": "React Router",
+      "slug": "react-router",
       "full_name": "ReactTraining/react-router",
       "description": "Declarative routing for React",
       "stars": 38831,
@@ -878,12 +949,13 @@
       "monthly": [253, 324, 315, 363, 337, 361, 298, 413, 398, 578, 373, 420],
       "tags": ["react", "routing"],
       "owner_id": 11823761,
+      "icon": "react-router.svg",
       "created_at": "2014-05-16T22:22:51.000Z",
-      "url": "https://reacttraining.com/react-router/",
-      "icon": "react-router.svg"
+      "url": "https://reacttraining.com/react-router/"
     },
     {
       "name": "VuePress",
+      "slug": "vuepress",
       "full_name": "vuejs/vuepress",
       "description": "Minimalistic Vue-powered static site generator",
       "stars": 15238,
@@ -896,6 +968,7 @@
     },
     {
       "name": "Prisma",
+      "slug": "prisma",
       "full_name": "prisma/prisma",
       "description": "Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)",
       "stars": 16536,
@@ -903,12 +976,13 @@
       "monthly": [227, 192, 259, 239, 327, 358, 375, 355, 649, 537, 398, 474],
       "tags": ["graphql"],
       "owner_id": 17219288,
+      "icon": "prisma.svg",
       "created_at": "2016-09-25T12:54:40.000Z",
-      "url": "https://www.prisma.io",
-      "icon": "prisma.svg"
+      "url": "https://www.prisma.io"
     },
     {
       "name": "react-admin",
+      "slug": "react-admin",
       "full_name": "marmelab/react-admin",
       "description": "A frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design",
       "stars": 10902,
@@ -921,6 +995,7 @@
     },
     {
       "name": "React Window",
+      "slug": "react-window",
       "full_name": "bvaughn/react-window",
       "description": "React components for efficiently rendering large lists and tabular data",
       "stars": 6977,
@@ -933,6 +1008,7 @@
     },
     {
       "name": "Babel",
+      "slug": "babel",
       "full_name": "babel/babel",
       "description": "A compiler for writing next generation JavaScript.",
       "stars": 35533,
@@ -940,12 +1016,13 @@
       "monthly": [269, 288, 259, 256, 264, 408, 342, 349, 341, 451, 386, 457],
       "tags": ["compiler", "code-parser"],
       "owner_id": 9637642,
+      "icon": "babel.svg",
       "created_at": "2014-09-28T13:38:23.000Z",
-      "url": "https://babeljs.io/",
-      "icon": "babel.svg"
+      "url": "https://babeljs.io/"
     },
     {
       "name": "Vuex",
+      "slug": "vuex",
       "full_name": "vuejs/vuex",
       "description": "Centralized State Management for Vue.js.",
       "stars": 22576,
@@ -958,6 +1035,7 @@
     },
     {
       "name": "React Table",
+      "slug": "tanstack-table",
       "full_name": "tannerlinsley/react-table",
       "description": "Hooks for building fast and extendable tables and datagrids for React",
       "stars": 9061,
@@ -969,6 +1047,7 @@
     },
     {
       "name": "React Native for Web",
+      "slug": "react-native-for-web",
       "full_name": "necolas/react-native-web",
       "description": "React Native for Web",
       "stars": 15581,
@@ -981,6 +1060,7 @@
     },
     {
       "name": "Fastify",
+      "slug": "fastify",
       "full_name": "fastify/fastify",
       "description": "Fast and low overhead web framework, for Node.js",
       "stars": 13189,
@@ -988,12 +1068,13 @@
       "monthly": [371, 219, 251, 337, 368, 271, 242, 278, 480, 332, 350, 247],
       "tags": ["nodejs-framework"],
       "owner_id": 24939410,
+      "icon": "fastify.svg",
       "created_at": "2016-09-28T19:10:14.000Z",
-      "url": "https://www.fastify.io",
-      "icon": "fastify.svg"
+      "url": "https://www.fastify.io"
     },
     {
       "name": "Omi",
+      "slug": "omi",
       "full_name": "Tencent/omi",
       "description": "Next Front End Framework",
       "stars": 10633,
@@ -1001,12 +1082,13 @@
       "monthly": [176, 327, 147, 153, 210, 230, 181, 323, 446, 908, 118, 328],
       "tags": ["framework"],
       "owner_id": 18461506,
+      "icon": "omi.svg",
       "created_at": "2015-05-31T14:24:58.000Z",
-      "url": "http://omijs.org",
-      "icon": "omi.svg"
+      "url": "http://omijs.org"
     },
     {
       "name": "Preact",
+      "slug": "preact",
       "full_name": "preactjs/preact",
       "description": "Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
       "stars": 25145,
@@ -1014,12 +1096,13 @@
       "monthly": [338, 327, 537, 252, 193, 263, 250, 346, 291, 435, 245, 233],
       "tags": ["vdom", "framework"],
       "owner_id": 26872990,
+      "icon": "preact.svg",
       "created_at": "2015-09-11T02:40:18.000Z",
-      "url": "https://preactjs.com",
-      "icon": "preact.svg"
+      "url": "https://preactjs.com"
     },
     {
       "name": "iView",
+      "slug": "iview",
       "full_name": "iview/iview",
       "description": "A high quality UI Toolkit built on Vue.js 2.0",
       "stars": 22955,
@@ -1027,12 +1110,13 @@
       "monthly": [99, 113, 136, 193, 232, 345, 286, 390, 537, 550, 290, 521],
       "tags": ["vue", "component"],
       "owner_id": 20693613,
+      "icon": "iview.svg",
       "created_at": "2016-07-28T01:52:59.000Z",
-      "url": "http://iview.talkingdata.com",
-      "icon": "iview.svg"
+      "url": "http://iview.talkingdata.com"
     },
     {
       "name": "Gridsome",
+      "slug": "gridsome",
       "full_name": "gridsome/gridsome",
       "description": "️Build modern JAMstack websites with Vue.js",
       "stars": 5248,
@@ -1045,6 +1129,7 @@
     },
     {
       "name": "Koa",
+      "slug": "koa",
       "full_name": "koajs/koa",
       "description": "Expressive middleware for node.js using ES2017 async functions",
       "stars": 28296,
@@ -1057,6 +1142,7 @@
     },
     {
       "name": "Filepond",
+      "slug": "filepond",
       "full_name": "pqina/filepond",
       "description": "A flexible and fun JavaScript file upload library",
       "stars": 8494,
@@ -1069,6 +1155,7 @@
     },
     {
       "name": "Ionic",
+      "slug": "ionic",
       "full_name": "ionic-team/ionic",
       "description": "Build amazing Native and Progressive Web Apps with web technologies. One app running on everything",
       "stars": 40003,
@@ -1076,12 +1163,13 @@
       "monthly": [262, 236, 292, 208, 191, 246, 305, 269, 297, 362, 324, 539],
       "tags": ["mobile"],
       "owner_id": 3171503,
+      "icon": "ionic.svg",
       "created_at": "2013-08-20T23:06:02.000Z",
-      "url": "https://ionicframework.com/",
-      "icon": "ionic.svg"
+      "url": "https://ionicframework.com/"
     },
     {
       "name": "umi",
+      "slug": "umi",
       "full_name": "umijs/umi",
       "description": "Pluggable enterprise-level react application framework.",
       "stars": 6943,
@@ -1094,6 +1182,7 @@
     },
     {
       "name": "Expo",
+      "slug": "expo",
       "full_name": "expo/expo",
       "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
       "stars": 8456,
@@ -1102,10 +1191,12 @@
       "tags": ["mobile", "react-native"],
       "owner_id": 12504344,
       "created_at": "2016-08-15T17:14:25.000Z",
-      "url": "https://docs.expo.io/"
+      "url": "https://docs.expo.io/",
+      "icon": "expo.svg"
     },
     {
       "name": "Egg",
+      "slug": "egg",
       "full_name": "eggjs/egg",
       "description": "Born to build better enterprise frameworks and apps with Node.js & Koa",
       "stars": 14713,
@@ -1118,6 +1209,7 @@
     },
     {
       "name": "Apollo client",
+      "slug": "apollo-client",
       "full_name": "apollographql/apollo-client",
       "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
       "stars": 12999,
@@ -1125,12 +1217,13 @@
       "monthly": [219, 236, 203, 292, 250, 276, 314, 284, 275, 291, 266, 370],
       "tags": ["graphql", "caching", "data"],
       "owner_id": 17189275,
+      "icon": "apollo.svg",
       "created_at": "2016-02-26T20:25:00.000Z",
-      "url": "https://apollographql.com/client",
-      "icon": "apollo.svg"
+      "url": "https://apollographql.com/client"
     },
     {
       "name": "Emotion",
+      "slug": "emotion",
       "full_name": "emotion-js/emotion",
       "description": "CSS-in-JS library designed for high performance style composition",
       "stars": 9823,
@@ -1143,6 +1236,7 @@
     },
     {
       "name": "Apollo Server",
+      "slug": "apollo-server",
       "full_name": "apollographql/apollo-server",
       "description": "GraphQL server for Express, Connect, Hapi, Koa and more",
       "stars": 8828,
@@ -1150,12 +1244,13 @@
       "monthly": [183, 178, 237, 180, 211, 251, 233, 243, 229, 209, 228, 299],
       "tags": ["graphql", "express"],
       "owner_id": 17189275,
+      "icon": "apollo.svg",
       "created_at": "2016-04-21T09:26:01.000Z",
-      "url": "https://www.apollographql.com/docs/apollo-server/",
-      "icon": "apollo.svg"
+      "url": "https://www.apollographql.com/docs/apollo-server/"
     },
     {
       "name": "Linaria",
+      "slug": "linaria",
       "full_name": "callstack/linaria",
       "description": "Zero-runtime CSS in JS library",
       "stars": 4750,
@@ -1164,10 +1259,12 @@
       "tags": ["css-in-js"],
       "owner_id": 42239399,
       "created_at": "2017-05-23T00:52:34.000Z",
-      "url": "https://linaria.now.sh"
+      "url": "https://linaria.now.sh",
+      "icon": "linaria.svg"
     },
     {
       "name": "Rollup",
+      "slug": "rollup",
       "full_name": "rollup/rollup",
       "description": "Next-generation ES module bundler",
       "stars": 17318,
@@ -1175,12 +1272,13 @@
       "monthly": [165, 237, 205, 218, 276, 189, 233, 214, 203, 278, 190, 263],
       "tags": ["module", "build"],
       "owner_id": 12554859,
+      "icon": "rollup.svg",
       "created_at": "2015-05-14T22:26:28.000Z",
-      "url": "https://rollupjs.org",
-      "icon": "rollup.svg"
+      "url": "https://rollupjs.org"
     },
     {
       "name": "cube-ui",
+      "slug": "cube-ui",
       "full_name": "didi/cube-ui",
       "description": "A fantastic mobile ui lib implement by Vue",
       "stars": 7660,
@@ -1193,6 +1291,7 @@
     },
     {
       "name": "Stencil",
+      "slug": "stencil",
       "full_name": "ionic-team/stencil",
       "description": "A Web Component compiler for building fast, reusable UI components and Progressive Web Apps  Built by the Ionic Framework team",
       "stars": 7183,
@@ -1200,12 +1299,13 @@
       "monthly": [170, 139, 152, 321, 139, 161, 365, 259, 233, 162, 148, 185],
       "tags": ["framework", "webcomponent"],
       "owner_id": 3171503,
+      "icon": "stencil.svg",
       "created_at": "2017-02-15T18:57:07.000Z",
-      "url": "https://stenciljs.com/",
-      "icon": "stencil.svg"
+      "url": "https://stenciljs.com/"
     },
     {
       "name": "GraphiQL",
+      "slug": "graphiql",
       "full_name": "graphql/graphiql",
       "description": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
       "stars": 9852,
@@ -1217,6 +1317,7 @@
     },
     {
       "name": "styled-system",
+      "slug": "styled-system",
       "full_name": "styled-system/styled-system",
       "description": "⬢ Style props for rapid UI development",
       "stars": 5305,
@@ -1229,6 +1330,7 @@
     },
     {
       "name": "Material Design for Angular",
+      "slug": "material-design-for-angular",
       "full_name": "angular/components",
       "description": "Component infrastructure and Material Design components for Angular",
       "stars": 19253,
@@ -1241,6 +1343,7 @@
     },
     {
       "name": "dva",
+      "slug": "dva",
       "full_name": "dvajs/dva",
       "description": "React and redux based, lightweight and elm-style framework. (Inspired by elm and choo)",
       "stars": 14337,
@@ -1253,6 +1356,7 @@
     },
     {
       "name": "NativeBase",
+      "slug": "nativebase",
       "full_name": "GeekyAnts/NativeBase",
       "description": "Essential cross-platform UI components for React Native",
       "stars": 13233,
@@ -1261,10 +1365,12 @@
       "tags": ["react-native", "mobile"],
       "owner_id": 18482943,
       "created_at": "2016-04-15T11:37:23.000Z",
-      "url": "https://nativebase.io/"
+      "url": "https://nativebase.io/",
+      "icon": "nativebase.svg"
     },
     {
       "name": "Puppeteer Recorder",
+      "slug": "headless-recorder",
       "full_name": "checkly/puppeteer-recorder",
       "description": "A Chrome extension that records your browser interactions and generates a Puppeteer script.",
       "stars": 6499,
@@ -1276,6 +1382,7 @@
     },
     {
       "name": "Enzyme",
+      "slug": "enzyme",
       "full_name": "airbnb/enzyme",
       "description": "JavaScript Testing utilities for React",
       "stars": 18348,
@@ -1288,6 +1395,7 @@
     },
     {
       "name": "NativeScript",
+      "slug": "nativescript",
       "full_name": "NativeScript/NativeScript",
       "description": "NativeScript is an open source framework for building truly native mobile apps with JavaScript. Use web skills, like Angular and Vue.js, FlexBox and CSS, and get native UI and performance on iOS and Android.",
       "stars": 18054,
@@ -1295,12 +1403,13 @@
       "monthly": [119, 105, 114, 134, 169, 196, 167, 204, 221, 234, 248, 222],
       "tags": ["mobile", "angular", "vue"],
       "owner_id": 7392261,
+      "icon": "nativescript.svg",
       "created_at": "2015-03-01T09:47:08.000Z",
-      "url": "https://www.nativescript.org",
-      "icon": "nativescript.svg"
+      "url": "https://www.nativescript.org"
     },
     {
       "name": "URQL",
+      "slug": "urql",
       "full_name": "FormidableLabs/urql",
       "description": "A highly customizable and versatile GraphQL client for React",
       "stars": 4016,
@@ -1313,6 +1422,7 @@
     },
     {
       "name": "Mint UI",
+      "slug": "mint-ui",
       "full_name": "ElemeFE/mint-ui",
       "description": "Mobile UI elements for Vue.js",
       "stars": 15405,
@@ -1320,12 +1430,13 @@
       "monthly": [126, 123, 97, 135, 154, 144, 191, 217, 299, 256, 169, 195],
       "tags": ["vue", "component", "mobile"],
       "owner_id": 12810740,
+      "icon": "mint-ui.svg",
       "created_at": "2016-05-17T09:54:10.000Z",
-      "url": "http://mint-ui.github.io/#!/en",
-      "icon": "mint-ui.svg"
+      "url": "http://mint-ui.github.io/#!/en"
     },
     {
       "name": "Angular CLI",
+      "slug": "angular-cli",
       "full_name": "angular/angular-cli",
       "description": "CLI tool for Angular",
       "stars": 22867,
@@ -1338,6 +1449,7 @@
     },
     {
       "name": "Adonis",
+      "slug": "adonis",
       "full_name": "adonisjs/adonis-framework",
       "description": "The Node.js Framework highly focused on developer ergonomics, stability and confidence",
       "stars": 7531,
@@ -1350,6 +1462,7 @@
     },
     {
       "name": "Relay",
+      "slug": "relay",
       "full_name": "facebook/relay",
       "description": "Relay is a JavaScript framework for building data-driven React applications.",
       "stars": 14010,
@@ -1357,12 +1470,13 @@
       "monthly": [111, 243, 137, 168, 117, 104, 129, 427, 103, 201, 183, 129],
       "tags": ["framework", "graphql"],
       "owner_id": 69631,
+      "icon": "relay.svg",
       "created_at": "2015-08-10T22:09:16.000Z",
-      "url": "https://relay.dev",
-      "icon": "relay.svg"
+      "url": "https://relay.dev"
     },
     {
       "name": "jsdom",
+      "slug": "jsdom",
       "full_name": "jsdom/jsdom",
       "description": "A JavaScript implementation of various web standards, for use with Node.js",
       "stars": 13429,
@@ -1370,11 +1484,12 @@
       "monthly": [134, 148, 139, 141, 176, 172, 132, 179, 199, 191, 165, 188],
       "tags": ["test"],
       "owner_id": 9271229,
-      "created_at": "2010-01-19T06:55:19.000Z",
-      "icon": "jsdom.svg"
+      "icon": "jsdom.svg",
+      "created_at": "2010-01-19T06:55:19.000Z"
     },
     {
       "name": "GraphQL Playground",
+      "slug": "graphql-playground",
       "full_name": "prisma-labs/graphql-playground",
       "description": "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)",
       "stars": 5557,
@@ -1386,6 +1501,7 @@
     },
     {
       "name": "Mocha",
+      "slug": "mocha",
       "full_name": "mochajs/mocha",
       "description": "️ simple, flexible, fun javascript test framework for node.js & the browser",
       "stars": 18864,
@@ -1393,12 +1509,13 @@
       "monthly": [93, 125, 114, 129, 139, 169, 131, 195, 190, 196, 219, 189],
       "tags": ["test-framework", "test"],
       "owner_id": 8770005,
+      "icon": "mocha.svg",
       "created_at": "2011-03-07T18:44:25.000Z",
-      "url": "https://mochajs.org",
-      "icon": "mocha.svg"
+      "url": "https://mochajs.org"
     },
     {
       "name": "AVA",
+      "slug": "ava",
       "full_name": "avajs/ava",
       "description": "JavaScript test runner",
       "stars": 17361,
@@ -1406,11 +1523,12 @@
       "monthly": [193, 104, 115, 133, 115, 142, 141, 160, 155, 173, 188, 212],
       "tags": ["test-framework", "test"],
       "owner_id": 8527916,
-      "created_at": "2014-11-18T17:20:26.000Z",
-      "icon": "ava.svg"
+      "icon": "ava.svg",
+      "created_at": "2014-11-18T17:20:26.000Z"
     },
     {
       "name": "CSS Modules",
+      "slug": "css-modules",
       "full_name": "css-modules/css-modules",
       "description": "Documentation about css-modules",
       "stars": 13022,
@@ -1422,6 +1540,7 @@
     },
     {
       "name": "Weex",
+      "slug": "weex",
       "full_name": "apache/incubator-weex",
       "description": "A framework for building Mobile cross-platform UI.",
       "stars": 13280,
@@ -1429,12 +1548,13 @@
       "monthly": [79, 87, 98, 111, 124, 131, 148, 167, 199, 211, 161, 237],
       "tags": ["vue", "mobile"],
       "owner_id": 47359,
+      "icon": "weex.svg",
       "created_at": "2017-01-06T08:00:06.000Z",
-      "url": "https://weex.apache.org",
-      "icon": "weex.svg"
+      "url": "https://weex.apache.org"
     },
     {
       "name": "Feathers",
+      "slug": "feathers",
       "full_name": "feathersjs/feathers",
       "description": "A framework for real-time applications and REST APIs with JavaScript and TypeScript",
       "stars": 12035,
@@ -1442,12 +1562,13 @@
       "monthly": [103, 94, 168, 231, 166, 132, 99, 103, 148, 153, 136, 154],
       "tags": ["nodejs-framework", "realtime", "express"],
       "owner_id": 5321853,
+      "icon": "feathers.svg",
       "created_at": "2011-10-19T22:45:16.000Z",
-      "url": "https://feathersjs.com",
-      "icon": "feathers.svg"
+      "url": "https://feathersjs.com"
     },
     {
       "name": "NG-ZORRO",
+      "slug": "ng-zorro",
       "full_name": "NG-ZORRO/ng-zorro-antd",
       "description": "An enterprise-class UI components based on Ant Design and Angular.",
       "stars": 5988,
@@ -1460,6 +1581,7 @@
     },
     {
       "name": "Flow",
+      "slug": "flow",
       "full_name": "facebook/flow",
       "description": "Adds static typing to JavaScript to improve developer productivity and code quality.",
       "stars": 20323,
@@ -1467,12 +1589,13 @@
       "monthly": [60, 75, 100, 115, 95, 144, 130, 160, 136, 245, 156, 176],
       "tags": ["compiler", "types"],
       "owner_id": 69631,
+      "icon": "flow.svg",
       "created_at": "2014-10-28T17:17:45.000Z",
-      "url": "https://flow.org/",
-      "icon": "flow.svg"
+      "url": "https://flow.org/"
     },
     {
       "name": "Gun",
+      "slug": "gun",
       "full_name": "amark/gun",
       "description": "A realtime, decentralized, offline-first, graph protocol to sync the web.",
       "stars": 11028,
@@ -1480,12 +1603,13 @@
       "monthly": [169, 85, 116, 114, 107, 121, 83, 266, 124, 126, 83, 120],
       "tags": ["db", "realtime", "nodejs-framework"],
       "owner_id": 433412,
+      "icon": "gun.svg",
       "created_at": "2014-07-31T15:52:10.000Z",
-      "url": "https://gun.eco/docs",
-      "icon": "gun.svg"
+      "url": "https://gun.eco/docs"
     },
     {
       "name": "Mithril",
+      "slug": "mithril",
       "full_name": "MithrilJS/mithril.js",
       "description": "A JavaScript Framework for Building Brilliant Applications",
       "stars": 11971,
@@ -1493,12 +1617,13 @@
       "monthly": [40, 47, 40, 83, 99, 236, 32, 146, 169, 214, 144, 188],
       "tags": ["framework", "vdom"],
       "owner_id": 19475707,
+      "icon": "mithril.svg",
       "created_at": "2014-03-17T01:59:39.000Z",
-      "url": "https://mithril.js.org",
-      "icon": "mithril.svg"
+      "url": "https://mithril.js.org"
     },
     {
       "name": "Vue Native",
+      "slug": "vue-native",
       "full_name": "GeekyAnts/vue-native-core",
       "description": "Vue Native is a framework to build cross platform native mobile apps using JavaScript",
       "stars": 6827,
@@ -1511,6 +1636,7 @@
     },
     {
       "name": "Marko",
+      "slug": "marko",
       "full_name": "marko-js/marko",
       "description": "A declarative, HTML-based language that makes building web apps fun",
       "stars": 9364,
@@ -1518,12 +1644,13 @@
       "monthly": [46, 42, 52, 36, 49, 39, 57, 240, 230, 213, 195, 184],
       "tags": ["framework"],
       "owner_id": 11873696,
+      "icon": "marko.svg",
       "created_at": "2014-01-07T23:58:21.000Z",
-      "url": "https://markojs.com/",
-      "icon": "marko.svg"
+      "url": "https://markojs.com/"
     },
     {
       "name": "Reason",
+      "slug": "reason",
       "full_name": "facebook/reason",
       "description": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems",
       "stars": 8412,
@@ -1531,12 +1658,13 @@
       "monthly": [121, 68, 89, 95, 73, 67, 82, 108, 159, 118, 112, 198],
       "tags": ["compiler", "types"],
       "owner_id": 69631,
+      "icon": "reason.svg",
       "created_at": "2015-11-16T08:22:32.000Z",
-      "url": "http://reasonml.github.io",
-      "icon": "reason.svg"
+      "url": "http://reasonml.github.io"
     },
     {
       "name": "Hapi",
+      "slug": "hapi",
       "full_name": "hapijs/hapi",
       "description": "The Simple, Secure Framework Developers Trust",
       "stars": 11959,
@@ -1544,12 +1672,13 @@
       "monthly": [96, 111, 150, 139, 94, 70, 63, 114, 126, 94, 110, 121],
       "tags": ["nodejs-framework"],
       "owner_id": 3774533,
+      "icon": "hapi.svg",
       "created_at": "2011-08-06T00:35:39.000Z",
-      "url": "https://hapi.dev",
-      "icon": "hapi.svg"
+      "url": "https://hapi.dev"
     },
     {
       "name": "NgRx",
+      "slug": "ngrx",
       "full_name": "ngrx/platform",
       "description": "Reactive libraries for Angular",
       "stars": 5533,
@@ -1562,6 +1691,7 @@
     },
     {
       "name": "Microbundle",
+      "slug": "microbundle",
       "full_name": "developit/microbundle",
       "description": "Zero-configuration bundler for tiny modules.",
       "stars": 4222,
@@ -1573,6 +1703,7 @@
     },
     {
       "name": "RE:DOM",
+      "slug": "re:dom",
       "full_name": "redom/redom",
       "description": "Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.",
       "stars": 2830,
@@ -1585,6 +1716,7 @@
     },
     {
       "name": "ag-grid",
+      "slug": "ag-grid",
       "full_name": "ag-grid/ag-grid",
       "description": "Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components",
       "stars": 5905,
@@ -1597,6 +1729,7 @@
     },
     {
       "name": "Moleculer",
+      "slug": "moleculer",
       "full_name": "moleculerjs/moleculer",
       "description": "Progressive microservices framework for Node.js",
       "stars": 3185,
@@ -1609,6 +1742,7 @@
     },
     {
       "name": "Polished",
+      "slug": "polished",
       "full_name": "styled-components/polished",
       "description": "A lightweight toolset for writing styles in JavaScript",
       "stars": 5696,
@@ -1621,6 +1755,7 @@
     },
     {
       "name": "Stimulus",
+      "slug": "stimulus",
       "full_name": "stimulusjs/stimulus",
       "description": "A modest JavaScript framework for the HTML you already have",
       "stars": 7827,
@@ -1629,10 +1764,12 @@
       "tags": ["framework"],
       "owner_id": 32970053,
       "created_at": "2016-12-17T00:19:29.000Z",
-      "url": "https://stimulusjs.org/"
+      "url": "https://stimulusjs.org/",
+      "icon": "stimulus.svg"
     },
     {
       "name": "Micro",
+      "slug": "micro",
       "full_name": "zeit/micro",
       "description": "Asynchronous HTTP microservices",
       "stars": 8997,
@@ -1644,6 +1781,7 @@
     },
     {
       "name": "Hyperapp",
+      "slug": "hyperapp",
       "full_name": "jorgebucaran/hyperapp",
       "description": "The tiny framework for building web interfaces.",
       "stars": 17102,
@@ -1651,12 +1789,13 @@
       "monthly": [33, 43, 53, 51, 36, 32, 50, 92, 155, 190, 157, 207],
       "tags": ["framework", "state"],
       "owner_id": 56996,
+      "icon": "hyperapp.svg",
       "created_at": "2017-01-20T05:20:21.000Z",
-      "url": "https://hyperapp.dev",
-      "icon": "hyperapp.svg"
+      "url": "https://hyperapp.dev"
     },
     {
       "name": "Styled JSX",
+      "slug": "styled-jsx",
       "full_name": "zeit/styled-jsx",
       "description": "Full CSS support for JSX without compromises",
       "stars": 5105,
@@ -1668,6 +1807,7 @@
     },
     {
       "name": "Sucrase",
+      "slug": "sucrase",
       "full_name": "alangpierce/sucrase",
       "description": "Super-fast alternative to Babel for when you can target modern JS runtimes",
       "stars": 2187,
@@ -1680,6 +1820,7 @@
     },
     {
       "name": "AMP",
+      "slug": "amp",
       "full_name": "ampproject/amphtml",
       "description": "The AMP web component framework.",
       "stars": 13381,
@@ -1687,12 +1828,13 @@
       "monthly": [66, 86, 84, 92, 112, 87, 79, 145, 109, 84, 67, 53],
       "tags": ["performance", "framework", "webcomponent"],
       "owner_id": 14114390,
+      "icon": "amp.svg",
       "created_at": "2015-09-01T22:10:53.000Z",
-      "url": "https://amp.dev",
-      "icon": "amp.svg"
+      "url": "https://amp.dev"
     },
     {
       "name": "Clarity Design System",
+      "slug": "clarity-design-system",
       "full_name": "vmware/clarity",
       "description": "UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences",
       "stars": 5492,
@@ -1705,6 +1847,7 @@
     },
     {
       "name": "Sails",
+      "slug": "sails",
       "full_name": "balderdashy/sails",
       "description": "Realtime MVC Framework for Node.js",
       "stars": 21108,
@@ -1712,12 +1855,13 @@
       "monthly": [60, 76, 79, 55, 70, 99, 52, 102, 103, 86, 97, 107],
       "tags": ["nodejs-framework"],
       "owner_id": 1445252,
+      "icon": "sails.svg",
       "created_at": "2012-03-18T19:46:15.000Z",
-      "url": "https://sailsjs.com",
-      "icon": "sails.svg"
+      "url": "https://sailsjs.com"
     },
     {
       "name": "Rax",
+      "slug": "rax",
       "full_name": "alibaba/rax",
       "description": "The fastest way to build universal application",
       "stars": 5895,
@@ -1725,11 +1869,12 @@
       "monthly": [219, 82, 91, 55, 49, 68, 38, 58, 78, 112, 58, 67],
       "tags": ["vdom", "framework"],
       "owner_id": 1961952,
-      "created_at": "2016-10-14T07:53:50.000Z",
-      "icon": "rax.svg"
+      "icon": "rax.svg",
+      "created_at": "2016-10-14T07:53:50.000Z"
     },
     {
       "name": "Ember",
+      "slug": "ember",
       "full_name": "emberjs/ember.js",
       "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
       "stars": 21322,
@@ -1737,12 +1882,13 @@
       "monthly": [34, 20, 34, 52, 31, 62, 63, 59, 91, 181, 94, 225],
       "tags": ["framework"],
       "owner_id": 1253363,
+      "icon": "ember.svg",
       "created_at": "2011-05-25T23:39:40.000Z",
-      "url": "https://emberjs.com",
-      "icon": "ember.svg"
+      "url": "https://emberjs.com"
     },
     {
       "name": "JSS",
+      "slug": "jss",
       "full_name": "cssinjs/jss",
       "description": "JSS is an authoring tool for CSS which uses JavaScript as a host language.",
       "stars": 5432,
@@ -1755,6 +1901,7 @@
     },
     {
       "name": "Node API boilerplate",
+      "slug": "node-api-boilerplate",
       "full_name": "talyssonoc/node-api-boilerplate",
       "description": "DDD/Clean Architecture inspired boilerplate for Node web APIs",
       "stars": 1952,
@@ -1766,6 +1913,7 @@
     },
     {
       "name": "NG Bootstrap",
+      "slug": "ng-bootstrap",
       "full_name": "ng-bootstrap/ng-bootstrap",
       "description": "Angular powered Bootstrap",
       "stars": 7306,
@@ -1778,6 +1926,7 @@
     },
     {
       "name": "PrimeNG",
+      "slug": "primeng",
       "full_name": "primefaces/primeng",
       "description": "The Most Complete UI Component Library for Angular",
       "stars": 5741,
@@ -1790,6 +1939,7 @@
     },
     {
       "name": "Meteor",
+      "slug": "meteor",
       "full_name": "meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
       "stars": 41524,
@@ -1797,12 +1947,13 @@
       "monthly": [54, 60, 42, 50, 64, 71, 63, 77, 84, 96, 87, 67],
       "tags": ["fullstack", "meteor", "nodejs-framework"],
       "owner_id": 789528,
+      "icon": "meteor.svg",
       "created_at": "2012-01-19T01:58:17.000Z",
-      "url": "https://www.meteor.com",
-      "icon": "meteor.svg"
+      "url": "https://www.meteor.com"
     },
     {
       "name": "Gulp",
+      "slug": "gulp",
       "full_name": "gulpjs/gulp",
       "description": "The streaming build system",
       "stars": 31611,
@@ -1810,12 +1961,13 @@
       "monthly": [41, 43, 52, 66, 59, 47, 53, 115, 77, 75, 85, 106],
       "tags": ["build"],
       "owner_id": 6200624,
+      "icon": "gulp.svg",
       "created_at": "2013-07-04T05:26:06.000Z",
-      "url": "http://gulpjs.com",
-      "icon": "gulp.svg"
+      "url": "http://gulpjs.com"
     },
     {
       "name": "NGXS",
+      "slug": "ngxs",
       "full_name": "ngxs/store",
       "description": "NGXS - State Management for Angular",
       "stars": 2597,
@@ -1828,6 +1980,7 @@
     },
     {
       "name": "Loopback",
+      "slug": "loopback-3",
       "full_name": "strongloop/loopback",
       "description": "LoopBack makes it easy to build modern applications that require complex integrations.",
       "stars": 12994,
@@ -1835,12 +1988,13 @@
       "monthly": [46, 31, 43, 33, 28, 46, 25, 73, 105, 126, 105, 120],
       "tags": ["nodejs-framework"],
       "owner_id": 3020012,
+      "icon": "loopback3.svg",
       "created_at": "2013-04-09T16:02:18.000Z",
-      "url": "http://loopback.io",
-      "icon": "loopback.svg"
+      "url": "http://loopback.io"
     },
     {
       "name": "Hybrids",
+      "slug": "hybrids",
       "full_name": "hybridsjs/hybrids",
       "description": "UI library for creating web components with plain objects and pure functions",
       "stars": 1679,
@@ -1848,12 +2002,13 @@
       "monthly": [34, 85, 32, 45, 36, 71, 58, 220, 45, 52, 34, 58],
       "tags": ["webcomponent", "framework"],
       "owner_id": 22907385,
+      "icon": "hybrids.svg",
       "created_at": "2016-12-06T20:19:43.000Z",
-      "url": "https://hybrids.js.org",
-      "icon": "hybrids.svg"
+      "url": "https://hybrids.js.org"
     },
     {
       "name": "Inferno",
+      "slug": "inferno",
       "full_name": "infernojs/inferno",
       "description": "An extremely fast, React-like JavaScript library for building modern user interfaces",
       "stars": 14131,
@@ -1861,12 +2016,13 @@
       "monthly": [42, 67, 43, 73, 65, 57, 41, 79, 88, 72, 72, 61],
       "tags": ["vdom", "framework"],
       "owner_id": 14214240,
+      "icon": "inferno.svg",
       "created_at": "2015-02-01T22:07:38.000Z",
-      "url": "https://infernojs.org",
-      "icon": "inferno.svg"
+      "url": "https://infernojs.org"
     },
     {
       "name": "Polymer",
+      "slug": "polymer",
       "full_name": "Polymer/polymer",
       "description": "Our original Web Component library.",
       "stars": 21336,
@@ -1874,12 +2030,13 @@
       "monthly": [33, 24, 32, 52, 36, 45, 57, 75, 135, 105, 74, 79],
       "tags": ["framework"],
       "owner_id": 2159051,
+      "icon": "polymer.svg",
       "created_at": "2012-08-23T20:56:30.000Z",
-      "url": "https://polymer-library.polymer-project.org/",
-      "icon": "polymer.svg"
+      "url": "https://polymer-library.polymer-project.org/"
     },
     {
       "name": "Polka",
+      "slug": "polka",
       "full_name": "lukeed/polka",
       "description": "A micro web server so fast, it'll make you dance!",
       "stars": 3547,
@@ -1891,277 +2048,73 @@
     }
   ],
   "tags": [
-    {
-      "name": "3D",
-      "code": "3d"
-    },
-    {
-      "name": "Angular",
-      "code": "angular"
-    },
-    {
-      "name": "Animation",
-      "code": "animation"
-    },
-    {
-      "name": "Boilerplate",
-      "code": "boilerplate"
-    },
-    {
-      "name": "Book",
-      "code": "book"
-    },
-    {
-      "name": "Bootstrap",
-      "code": "bootstrap"
-    },
-    {
-      "name": "Browser automation",
-      "code": "auto"
-    },
-    {
-      "name": "Building tool",
-      "code": "build"
-    },
-    {
-      "name": "CLI",
-      "code": "cli"
-    },
-    {
-      "name": "CMS",
-      "code": "cms"
-    },
-    {
-      "name": "CSS Toolkit",
-      "code": "css-lib"
-    },
-    {
-      "name": "CSS in JS",
-      "code": "css-in-js"
-    },
-    {
-      "name": "Caching",
-      "code": "caching"
-    },
-    {
-      "name": "Canvas",
-      "code": "canvas"
-    },
-    {
-      "name": "Charting",
-      "code": "chart"
-    },
-    {
-      "name": "Code Parser",
-      "code": "code-parser"
-    },
-    {
-      "name": "Compiler",
-      "code": "compiler"
-    },
-    {
-      "name": "Component Toolkit",
-      "code": "component"
-    },
-    {
-      "name": "D3",
-      "code": "d3"
-    },
-    {
-      "name": "Dashboard",
-      "code": "dashboard"
-    },
-    {
-      "name": "Data fetching",
-      "code": "data"
-    },
-    {
-      "name": "Data structure",
-      "code": "data-structure"
-    },
-    {
-      "name": "Database",
-      "code": "db"
-    },
-    {
-      "name": "Date & time",
-      "code": "date"
-    },
-    {
-      "name": "Desktop app",
-      "code": "desktop"
-    },
-    {
-      "name": "Documentation",
-      "code": "doc"
-    },
-    {
-      "name": "Drag and drop",
-      "code": "dnd"
-    },
-    {
-      "name": "Express",
-      "code": "express"
-    },
-    {
-      "name": "File system",
-      "code": "filesystem"
-    },
-    {
-      "name": "File upload",
-      "code": "upload"
-    },
-    {
-      "name": "Flux",
-      "code": "flux"
-    },
-    {
-      "name": "Form",
-      "code": "form"
-    },
-    {
-      "name": "Full-stack framework",
-      "code": "fullstack"
-    },
-    {
-      "name": "Game engine",
-      "code": "game"
-    },
-    {
-      "name": "GraphQL",
-      "code": "graphql"
-    },
-    {
-      "name": "HTTP client • Fetch • AJAX",
-      "code": "http"
-    },
-    {
-      "name": "IDE",
-      "code": "ide"
-    },
-    {
-      "name": "Learning resource",
-      "code": "learning"
-    },
-    {
-      "name": "Material design",
-      "code": "material"
-    },
-    {
-      "name": "Meteor",
-      "code": "meteor"
-    },
-    {
-      "name": "Microservices",
-      "code": "microservice"
-    },
-    {
-      "name": "Mobile",
-      "code": "mobile"
-    },
-    {
-      "name": "Module - bundler",
-      "code": "module"
-    },
-    {
-      "name": "Node.js core",
-      "code": "node.js"
-    },
-    {
-      "name": "Node.js framework",
-      "code": "nodejs-framework"
-    },
-    {
-      "name": "Performance",
-      "code": "performance"
-    },
-    {
-      "name": "Prefetch",
-      "code": "prefetch"
-    },
-    {
-      "name": "React",
-      "code": "react"
-    },
-    {
-      "name": "React Native",
-      "code": "react-native"
-    },
-    {
-      "name": "Reactive programming",
-      "code": "reactive"
-    },
-    {
-      "name": "Real-time",
-      "code": "realtime"
-    },
-    {
-      "name": "Redux",
-      "code": "redux"
-    },
-    {
-      "name": "Routing",
-      "code": "routing"
-    },
-    {
-      "name": "Runtime",
-      "code": "runtime"
-    },
-    {
-      "name": "SVG",
-      "code": "svg"
-    },
-    {
-      "name": "Scaffolding - generator",
-      "code": "scaffolding"
-    },
-    {
-      "name": "Scrolling",
-      "code": "scrolling"
-    },
-    {
-      "name": "Service Worker",
-      "code": "serviceworker"
-    },
-    {
-      "name": "State management",
-      "code": "state"
-    },
-    {
-      "name": "Static site generator",
-      "code": "ssg"
-    },
-    {
-      "name": "Table",
-      "code": "table"
-    },
-    {
-      "name": "Testing",
-      "code": "test"
-    },
-    {
-      "name": "Testing framework",
-      "code": "test-framework"
-    },
-    {
-      "name": "Types",
-      "code": "types"
-    },
-    {
-      "name": "UI Framework",
-      "code": "framework"
-    },
-    {
-      "name": "Virtual DOM",
-      "code": "vdom"
-    },
-    {
-      "name": "Vue",
-      "code": "vue"
-    },
-    {
-      "name": "Web Components",
-      "code": "webcomponent"
-    }
+    { "name": "3D", "code": "3d" },
+    { "name": "Angular", "code": "angular" },
+    { "name": "Animation", "code": "animation" },
+    { "name": "Boilerplate", "code": "boilerplate" },
+    { "name": "Book", "code": "book" },
+    { "name": "Bootstrap", "code": "bootstrap" },
+    { "name": "Browser automation", "code": "auto" },
+    { "name": "Building tool", "code": "build" },
+    { "name": "CLI", "code": "cli" },
+    { "name": "CMS", "code": "cms" },
+    { "name": "CSS Toolkit", "code": "css-lib" },
+    { "name": "CSS in JS", "code": "css-in-js" },
+    { "name": "Caching", "code": "caching" },
+    { "name": "Canvas", "code": "canvas" },
+    { "name": "Charting", "code": "chart" },
+    { "name": "Code Parser", "code": "code-parser" },
+    { "name": "Compiler", "code": "compiler" },
+    { "name": "Component Toolkit", "code": "component" },
+    { "name": "D3", "code": "d3" },
+    { "name": "Dashboard", "code": "dashboard" },
+    { "name": "Data fetching", "code": "data" },
+    { "name": "Data structure", "code": "data-structure" },
+    { "name": "Database", "code": "db" },
+    { "name": "Date & time", "code": "date" },
+    { "name": "Desktop app", "code": "desktop" },
+    { "name": "Documentation", "code": "doc" },
+    { "name": "Drag and drop", "code": "dnd" },
+    { "name": "Express", "code": "express" },
+    { "name": "File system", "code": "filesystem" },
+    { "name": "File upload", "code": "upload" },
+    { "name": "Flux", "code": "flux" },
+    { "name": "Form", "code": "form" },
+    { "name": "Full-stack framework", "code": "fullstack" },
+    { "name": "Game engine", "code": "game" },
+    { "name": "GraphQL", "code": "graphql" },
+    { "name": "HTTP client • Fetch • AJAX", "code": "http" },
+    { "name": "IDE", "code": "ide" },
+    { "name": "Learning resource", "code": "learning" },
+    { "name": "Material design", "code": "material" },
+    { "name": "Meteor", "code": "meteor" },
+    { "name": "Microservices", "code": "microservice" },
+    { "name": "Mobile", "code": "mobile" },
+    { "name": "Module - bundler", "code": "module" },
+    { "name": "Node.js core", "code": "node.js" },
+    { "name": "Node.js framework", "code": "nodejs-framework" },
+    { "name": "Performance", "code": "performance" },
+    { "name": "Prefetch", "code": "prefetch" },
+    { "name": "React", "code": "react" },
+    { "name": "React Native", "code": "react-native" },
+    { "name": "Reactive programming", "code": "reactive" },
+    { "name": "Real-time", "code": "realtime" },
+    { "name": "Redux", "code": "redux" },
+    { "name": "Routing", "code": "routing" },
+    { "name": "Runtime", "code": "runtime" },
+    { "name": "SVG", "code": "svg" },
+    { "name": "Scaffolding - generator", "code": "scaffolding" },
+    { "name": "Scrolling", "code": "scrolling" },
+    { "name": "Service Worker", "code": "serviceworker" },
+    { "name": "State management", "code": "state" },
+    { "name": "Static site generator", "code": "ssg" },
+    { "name": "Table", "code": "table" },
+    { "name": "Testing", "code": "test" },
+    { "name": "Testing framework", "code": "test-framework" },
+    { "name": "Types", "code": "types" },
+    { "name": "UI Framework", "code": "framework" },
+    { "name": "Virtual DOM", "code": "vdom" },
+    { "name": "Vue", "code": "vue" },
+    { "name": "Web Components", "code": "webcomponent" }
   ]
 }

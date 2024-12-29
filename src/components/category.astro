@@ -24,12 +24,17 @@ const topProjects = projects.slice(0, limit);
 const hasComment = !availableComments || availableComments.includes(language);
 ---
 
-<section class="section" id={`section-${tag}`}>
+<section class="section">
   <div class:list={["container", !hasComment && "small-container"]}>
     <div class="header">
       <h2>
         {t(`categories.${key}`)}
       </h2>
+      <a id={`section-${tag}`} href={`#section-${tag}`} class="anchor">
+        <svg width="16" height="16">
+          <use href={`/sprite.svg#link-icon`}></use>
+        </svg>
+      </a>
       <CategoryNavByYear language={language} year={year} category={tag} />
     </div>
 
@@ -80,6 +85,7 @@ const hasComment = !availableComments || availableComments.includes(language);
   .header {
     padding: calc(var(--spacing) * 1.5) 0;
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--border-color);
@@ -114,6 +120,19 @@ const hasComment = !availableComments || availableComments.includes(language);
       font-size: 1.3rem;
       text-align: center;
     }
+  }
+  .anchor {
+    position: absolute;
+    left: -28px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .header:hover .anchor {
+    opacity: 1;
   }
   .show-more-button {
     width: 100%;

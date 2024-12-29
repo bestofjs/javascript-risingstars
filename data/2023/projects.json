@@ -4,6 +4,7 @@
   "projects": [
     {
       "name": "shadcn/ui",
+      "slug": "shadcnui",
       "full_name": "shadcn-ui/ui",
       "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
       "stars": 48364,
@@ -13,12 +14,13 @@
       ],
       "tags": ["component", "tailwind", "react"],
       "owner_id": 139895814,
+      "icon": "shadcnui.svg",
       "created_at": "2023-01-04T12:43:27.000Z",
-      "url": "https://ui.shadcn.com",
-      "icon": "shadcnui.svg"
+      "url": "https://ui.shadcn.com"
     },
     {
       "name": "Bun",
+      "slug": "bun",
       "full_name": "oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "stars": 68101,
@@ -28,12 +30,13 @@
       ],
       "tags": ["runtime", "bun", "build"],
       "owner_id": 108928776,
+      "icon": "bun.svg",
       "created_at": "2021-04-14T00:48:17.000Z",
-      "url": "https://bun.sh",
-      "icon": "bun.svg"
+      "url": "https://bun.sh"
     },
     {
       "name": "Excalidraw",
+      "slug": "excalidraw",
       "full_name": "excalidraw/excalidraw",
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "stars": 67903,
@@ -43,12 +46,13 @@
       ],
       "tags": ["drawing", "canvas", "react"],
       "owner_id": 59452120,
+      "icon": "excalidraw.svg",
       "created_at": "2020-01-02T01:04:43.000Z",
-      "url": "https://excalidraw.com",
-      "icon": "excalidraw.svg"
+      "url": "https://excalidraw.com"
     },
     {
       "name": "tldraw",
+      "slug": "tldraw",
       "full_name": "tldraw/tldraw",
       "description": "Infinite canvas.",
       "stars": 31168,
@@ -58,12 +62,13 @@
       ],
       "tags": ["drawing", "svg"],
       "owner_id": 86724562,
+      "icon": "tldraw.svg",
       "created_at": "2021-05-09T11:48:37.000Z",
-      "url": "https://tldraw.com",
-      "icon": "tldraw.svg"
+      "url": "https://tldraw.com"
     },
     {
       "name": "Next.js",
+      "slug": "nextjs",
       "full_name": "vercel/next.js",
       "description": "The React Framework",
       "stars": 118047,
@@ -81,12 +86,13 @@
         "rsc"
       ],
       "owner_id": 14985020,
+      "icon": "nextjs.svg",
       "created_at": "2016-10-05T23:32:51.000Z",
-      "url": "https://nextjs.org",
-      "icon": "nextjs.svg"
+      "url": "https://nextjs.org"
     },
     {
       "name": "Supabase",
+      "slug": "supabase",
       "full_name": "supabase/supabase",
       "description": "The open source Firebase alternative",
       "stars": 62839,
@@ -97,10 +103,12 @@
       "tags": ["realtime", "websocket", "baas", "auth"],
       "owner_id": 54469796,
       "created_at": "2019-10-12T05:56:49.000Z",
-      "url": "https://supabase.com"
+      "url": "https://supabase.com",
+      "icon": "supabase.svg"
     },
     {
       "name": "React",
+      "slug": "react",
       "full_name": "facebook/react",
       "description": "The library for web and native user interfaces.",
       "stars": 218523,
@@ -110,12 +118,13 @@
       ],
       "tags": ["framework", "vdom", "react"],
       "owner_id": 69631,
+      "icon": "react.svg",
       "created_at": "2013-05-24T16:15:54.000Z",
-      "url": "https://react.dev",
-      "icon": "react.svg"
+      "url": "https://react.dev"
     },
     {
       "name": "Tauri",
+      "slug": "tauri",
       "full_name": "tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
       "stars": 74295,
@@ -125,12 +134,13 @@
       ],
       "tags": ["desktop", "rust"],
       "owner_id": 54536011,
+      "icon": "tauri.svg",
       "created_at": "2019-07-13T09:09:37.000Z",
-      "url": "https://tauri.app",
-      "icon": "tauri.svg"
+      "url": "https://tauri.app"
     },
     {
       "name": "Drizzle ORM",
+      "slug": "drizzle-orm",
       "full_name": "drizzle-team/drizzle-orm",
       "description": "Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too",
       "stars": 17143,
@@ -145,6 +155,7 @@
     },
     {
       "name": "htmx",
+      "slug": "htmx",
       "full_name": "bigskysoftware/htmx",
       "description": "Access AJAX, WebSockets and Server Sent Events directly in HTML",
       "stars": 29681,
@@ -154,12 +165,13 @@
       ],
       "tags": ["framework", "html-tagging"],
       "owner_id": 48798027,
+      "icon": "htmx.svg",
       "created_at": "2020-04-13T16:17:51.000Z",
-      "url": "https://htmx.org",
-      "icon": "htmx.svg"
+      "url": "https://htmx.org"
     },
     {
       "name": "Astro",
+      "slug": "astro",
       "full_name": "withastro/astro",
       "description": "A website build tool for the modern web — powerful developer experience meets lightweight output.",
       "stars": 39802,
@@ -169,12 +181,13 @@
       ],
       "tags": ["ssg", "fullstack", "astro"],
       "owner_id": 44914786,
+      "icon": "astro.svg",
       "created_at": "2021-03-15T17:19:47.000Z",
-      "url": "https://astro.build",
-      "icon": "astro.svg"
+      "url": "https://astro.build"
     },
     {
       "name": "VS Code",
+      "slug": "vs-code",
       "full_name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "stars": 155847,
@@ -184,12 +197,13 @@
       ],
       "tags": ["ide", "desktop-app"],
       "owner_id": 6154722,
+      "icon": "vscode.svg",
       "created_at": "2015-09-03T20:23:38.000Z",
-      "url": "https://code.visualstudio.com",
-      "icon": "vscode.svg"
+      "url": "https://code.visualstudio.com"
     },
     {
       "name": "Zustand",
+      "slug": "zustand",
       "full_name": "pmndrs/zustand",
       "description": "Bear necessities for state management in React",
       "stars": 40058,
@@ -200,10 +214,12 @@
       "tags": ["state", "react"],
       "owner_id": 45790596,
       "created_at": "2019-04-09T09:10:06.000Z",
-      "url": "https://zustand-demo.pmnd.rs/"
+      "url": "https://zustand-demo.pmnd.rs/",
+      "icon": "zustand.webp"
     },
     {
       "name": "tRPC",
+      "slug": "trpc",
       "full_name": "trpc/trpc",
       "description": "Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
       "stars": 31580,
@@ -221,12 +237,13 @@
         "fullstack"
       ],
       "owner_id": 78011399,
+      "icon": "trpc.svg",
       "created_at": "2020-07-18T01:17:11.000Z",
-      "url": "https://tRPC.io",
-      "icon": "trpc.svg"
+      "url": "https://tRPC.io"
     },
     {
       "name": "draw-a-ui",
+      "slug": "draw-a-ui",
       "full_name": "SawyerHood/draw-a-ui",
       "description": "Draw a mockup and generate html for it",
       "stars": 12523,
@@ -252,6 +269,7 @@
     },
     {
       "name": "Playwright",
+      "slug": "playwright",
       "full_name": "microsoft/playwright",
       "description": "A framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
       "stars": 59329,
@@ -259,12 +277,13 @@
       "monthly": [779, 923, 777, 867, 866, 902, 872, 1596, 990, 972, 958, 1152],
       "tags": ["auto", "test"],
       "owner_id": 6154722,
+      "icon": "playwright.svg",
       "created_at": "2019-11-15T18:32:42.000Z",
-      "url": "https://playwright.dev",
-      "icon": "playwright.svg"
+      "url": "https://playwright.dev"
     },
     {
       "name": "DaisyUI",
+      "slug": "daisyui",
       "full_name": "saadeghi/daisyui",
       "description": "Component classes to Tailwind CSS",
       "stars": 29059,
@@ -274,12 +293,13 @@
       ],
       "tags": ["css-lib", "tailwind"],
       "owner_id": 7342023,
+      "icon": "daisy.svg",
       "created_at": "2020-11-28T22:57:27.000Z",
-      "url": "https://daisyui.com",
-      "icon": "daisy.svg"
+      "url": "https://daisyui.com"
     },
     {
       "name": "Zod",
+      "slug": "zod",
       "full_name": "colinhacks/zod",
       "description": "TypeScript-first schema validation with static type inference",
       "stars": 28767,
@@ -289,12 +309,13 @@
       ],
       "tags": ["validation", "types", "schema"],
       "owner_id": 3084745,
+      "icon": "zod.svg",
       "created_at": "2020-03-07T20:59:08.000Z",
-      "url": "https://zod.dev",
-      "icon": "zod.svg"
+      "url": "https://zod.dev"
     },
     {
       "name": "Mermaid",
+      "slug": "mermaid",
       "full_name": "mermaid-js/mermaid",
       "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
       "stars": 65021,
@@ -309,6 +330,7 @@
     },
     {
       "name": "Tailwind CSS",
+      "slug": "tailwind-css",
       "full_name": "tailwindlabs/tailwindcss",
       "description": "A utility-first CSS framework for rapid UI development.",
       "stars": 76074,
@@ -318,12 +340,13 @@
       ],
       "tags": ["css-lib", "atomic-css", "tailwind", "rsc"],
       "owner_id": 67109815,
+      "icon": "tailwindcss.svg",
       "created_at": "2017-10-06T14:59:14.000Z",
-      "url": "https://tailwindcss.com/",
-      "icon": "tailwindcss.svg"
+      "url": "https://tailwindcss.com/"
     },
     {
       "name": "Tabby",
+      "slug": "tabby",
       "full_name": "Eugeny/tabby",
       "description": "A terminal for a more modern age",
       "stars": 53757,
@@ -331,12 +354,13 @@
       "monthly": [500, 644, 896, 743, 654, 1311, 797, 982, 1958, 966, 844, 836],
       "tags": ["cli"],
       "owner_id": 161476,
+      "icon": "tabby.svg",
       "created_at": "2016-12-23T09:06:10.000Z",
-      "url": "https://tabby.sh",
-      "icon": "tabby.svg"
+      "url": "https://tabby.sh"
     },
     {
       "name": "Vite",
+      "slug": "vite",
       "full_name": "vitejs/vite",
       "description": "Next generation frontend tooling. It's fast!",
       "stars": 63215,
@@ -346,12 +370,13 @@
       ],
       "tags": ["build", "vite"],
       "owner_id": 65625612,
+      "icon": "vite.svg",
       "created_at": "2020-04-21T05:03:57.000Z",
-      "url": "http://vitejs.dev",
-      "icon": "vite.svg"
+      "url": "http://vitejs.dev"
     },
     {
       "name": "Refine",
+      "slug": "refine",
       "full_name": "refinedev/refine",
       "description": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
       "stars": 21553,
@@ -362,10 +387,12 @@
       "tags": ["react", "dashboard"],
       "owner_id": 104967037,
       "created_at": "2021-01-20T12:01:32.000Z",
-      "url": "https://refine.dev"
+      "url": "https://refine.dev",
+      "icon": "refine.svg"
     },
     {
       "name": "Svelte",
+      "slug": "svelte",
       "full_name": "sveltejs/svelte",
       "description": "Cybernetically enhanced web apps",
       "stars": 75390,
@@ -373,12 +400,13 @@
       "monthly": [544, 776, 462, 695, 640, 1085, 2311, 816, 681, 652, 768, 864],
       "tags": ["framework", "svelte"],
       "owner_id": 23617963,
+      "icon": "svelte.svg",
       "created_at": "2016-11-20T18:13:05.000Z",
-      "url": "https://svelte.dev",
-      "icon": "svelte.svg"
+      "url": "https://svelte.dev"
     },
     {
       "name": "Docusaurus",
+      "slug": "docusaurus",
       "full_name": "facebook/docusaurus",
       "description": "Easy to maintain open source documentation websites.",
       "stars": 51242,
@@ -386,12 +414,13 @@
       "monthly": [617, 732, 895, 801, 744, 785, 726, 846, 842, 851, 777, 956],
       "tags": ["doc", "react", "ssg"],
       "owner_id": 69631,
+      "icon": "docusaurus.svg",
       "created_at": "2017-06-20T16:13:53.000Z",
-      "url": "https://docusaurus.io",
-      "icon": "docusaurus.svg"
+      "url": "https://docusaurus.io"
     },
     {
       "name": "LangChain.js",
+      "slug": "langchainjs",
       "full_name": "langchain-ai/langchainjs",
       "description": " Building applications with LLMs through composability",
       "stars": 9960,
@@ -417,6 +446,7 @@
     },
     {
       "name": "create-t3-app",
+      "slug": "create-t3-app",
       "full_name": "t3-oss/create-t3-app",
       "description": "The best way to start a full-stack, typesafe Next.js app",
       "stars": 22350,
@@ -438,6 +468,7 @@
     },
     {
       "name": "n8n",
+      "slug": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
       "stars": 38485,
@@ -446,10 +477,12 @@
       "tags": ["workflow"],
       "owner_id": 45487711,
       "created_at": "2019-06-22T09:24:21.000Z",
-      "url": "https://n8n.io"
+      "url": "https://n8n.io",
+      "icon": "n8n.svg"
     },
     {
       "name": "nvm",
+      "slug": "nvm",
       "full_name": "nvm-sh/nvm",
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
       "stars": 73746,
@@ -461,6 +494,7 @@
     },
     {
       "name": "NextUI",
+      "slug": "nextui",
       "full_name": "nextui-org/nextui",
       "description": "Beautiful, fast and modern React UI library.",
       "stars": 18257,
@@ -473,6 +507,7 @@
     },
     {
       "name": "Three.js",
+      "slug": "threejs",
       "full_name": "mrdoob/three.js",
       "description": "JavaScript 3D Library.",
       "stars": 97418,
@@ -480,12 +515,13 @@
       "monthly": [606, 680, 599, 549, 646, 632, 589, 1146, 825, 903, 841, 722],
       "tags": ["3d"],
       "owner_id": 97088,
+      "icon": "threejs.svg",
       "created_at": "2010-03-23T18:58:01.000Z",
-      "url": "https://threejs.org/",
-      "icon": "threejs.svg"
+      "url": "https://threejs.org/"
     },
     {
       "name": "TypeScript",
+      "slug": "typescript",
       "full_name": "microsoft/TypeScript",
       "description": "A superset of JavaScript that compiles to clean JavaScript output.",
       "stars": 96679,
@@ -493,12 +529,13 @@
       "monthly": [479, 511, 564, 615, 749, 671, 730, 859, 817, 1086, 767, 890],
       "tags": ["compiler", "types"],
       "owner_id": 6154722,
+      "icon": "typescript.svg",
       "created_at": "2014-06-17T15:28:39.000Z",
-      "url": "https://www.typescriptlang.org",
-      "icon": "typescript.svg"
+      "url": "https://www.typescriptlang.org"
     },
     {
       "name": "Nest",
+      "slug": "nest",
       "full_name": "nestjs/nest",
       "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript",
       "stars": 62820,
@@ -506,12 +543,13 @@
       "monthly": [610, 661, 628, 786, 666, 763, 755, 779, 699, 900, 732, 712],
       "tags": ["nodejs-framework", "microservice"],
       "owner_id": 28507035,
+      "icon": "nest.svg",
       "created_at": "2017-02-04T20:12:52.000Z",
-      "url": "https://nestjs.com",
-      "icon": "nest.svg"
+      "url": "https://nestjs.com"
     },
     {
       "name": "Tremor",
+      "slug": "tremor",
       "full_name": "tremorlabs/tremor",
       "description": "The React library to build dashboards fast.",
       "stars": 14476,
@@ -524,6 +562,7 @@
     },
     {
       "name": "Node.js",
+      "slug": "nodejs",
       "full_name": "nodejs/node",
       "description": "Node.js JavaScript runtime",
       "stars": 101799,
@@ -531,12 +570,13 @@
       "monthly": [1319, 646, 710, 913, 521, 596, 572, 647, 767, 646, 579, 690],
       "tags": ["runtime"],
       "owner_id": 9950313,
+      "icon": "nodejs.svg",
       "created_at": "2014-11-26T19:57:11.000Z",
-      "url": "https://nodejs.org",
-      "icon": "nodejs.svg"
+      "url": "https://nodejs.org"
     },
     {
       "name": "Affine",
+      "slug": "affine",
       "full_name": "toeverything/AFFiNE",
       "description": "A next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use - a free replacement for Notion & Miro",
       "stars": 26292,
@@ -558,10 +598,12 @@
       "tags": ["crdt", "realtime", "vite", "drawing"],
       "owner_id": 78728988,
       "created_at": "2022-07-31T18:45:21.000Z",
-      "url": "https://affine.pro"
+      "url": "https://affine.pro",
+      "icon": "affine.svg"
     },
     {
       "name": "Million",
+      "slug": "million",
       "full_name": "aidenybai/million",
       "description": "<1KB Virtual DOM Implementation",
       "stars": 14345,
@@ -569,12 +611,13 @@
       "monthly": [481, 174, 223, 228, 1022, 677, 3601, 332, 898, 458, 49, 51],
       "tags": ["vdom", "framework"],
       "owner_id": 38025074,
+      "icon": "million.svg",
       "created_at": "2021-05-29T18:38:23.000Z",
-      "url": "https://million.dev",
-      "icon": "million.svg"
+      "url": "https://million.dev"
     },
     {
       "name": "Serverless Stack",
+      "slug": "sst",
       "full_name": "sst/sst",
       "description": "A framework that makes it easy to build serverless apps",
       "stars": 19257,
@@ -587,6 +630,7 @@
     },
     {
       "name": "Vue.js",
+      "slug": "vuejs",
       "full_name": "vuejs/core",
       "description": "A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
       "stars": 43206,
@@ -594,12 +638,13 @@
       "monthly": [571, 767, 506, 564, 827, 587, 608, 731, 715, 815, 691, 491],
       "tags": ["vue", "framework"],
       "owner_id": 6128107,
+      "icon": "vue.svg",
       "created_at": "2018-06-12T13:49:36.000Z",
-      "url": "https://vuejs.org/",
-      "icon": "vue.svg"
+      "url": "https://vuejs.org/"
     },
     {
       "name": "Nuxt",
+      "slug": "nuxt",
       "full_name": "nuxt/nuxt",
       "description": "The Intuitive Vue Framework.",
       "stars": 50410,
@@ -607,12 +652,13 @@
       "monthly": [661, 583, 523, 385, 617, 481, 585, 506, 533, 591, 862, 1312],
       "tags": ["vue", "universal", "nodejs-framework", "ssg", "fullstack"],
       "owner_id": 23360933,
+      "icon": "nuxt.svg",
       "created_at": "2016-10-26T11:18:47.000Z",
-      "url": "https://nuxt.com",
-      "icon": "nuxt.svg"
+      "url": "https://nuxt.com"
     },
     {
       "name": "Prisma",
+      "slug": "prisma",
       "full_name": "prisma/prisma",
       "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
       "stars": 36171,
@@ -620,12 +666,13 @@
       "monthly": [569, 447, 474, 466, 518, 644, 684, 735, 782, 779, 645, 781],
       "tags": ["orm", "sql", "mongodb"],
       "owner_id": 17219288,
+      "icon": "prisma.svg",
       "created_at": "2019-06-20T13:33:47.000Z",
-      "url": "https://www.prisma.io",
-      "icon": "prisma.svg"
+      "url": "https://www.prisma.io"
     },
     {
       "name": "Payload",
+      "slug": "payload",
       "full_name": "payloadcms/payload",
       "description": "The best way to build a modern backend + admin UI. No black magic, all TypeScript, and fully open-source, Payload is both an app framework and a headless CMS.",
       "stars": 17447,
@@ -636,10 +683,12 @@
       "tags": ["cms", "mongodb"],
       "owner_id": 62968818,
       "created_at": "2021-01-05T18:49:45.000Z",
-      "url": "https://payloadcms.com"
+      "url": "https://payloadcms.com",
+      "icon": "payload.svg"
     },
     {
       "name": "Angular",
+      "slug": "angular",
       "full_name": "angular/angular",
       "description": "Deliver web apps with confidence",
       "stars": 93516,
@@ -647,12 +696,13 @@
       "monthly": [296, 1820, 435, 562, 493, 416, 616, 520, 671, 556, 555, 436],
       "tags": ["framework", "angular"],
       "owner_id": 139426,
+      "icon": "angular.svg",
       "created_at": "2014-09-18T16:12:01.000Z",
-      "url": "https://angular.dev",
-      "icon": "angular.svg"
+      "url": "https://angular.dev"
     },
     {
       "name": "TypeChat",
+      "slug": "typechat",
       "full_name": "microsoft/TypeChat",
       "description": "TypeChat is a library that makes it easy to build natural language interfaces using types.",
       "stars": 7464,
@@ -678,6 +728,7 @@
     },
     {
       "name": "ts-reset",
+      "slug": "ts-reset",
       "full_name": "total-typescript/ts-reset",
       "description": "A 'CSS reset' for TypeScript, improving types for common JavaScript API's",
       "stars": 7378,
@@ -690,6 +741,7 @@
     },
     {
       "name": "Strapi",
+      "slug": "strapi",
       "full_name": "strapi/strapi",
       "description": "The leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.",
       "stars": 58795,
@@ -697,12 +749,13 @@
       "monthly": [549, 487, 743, 570, 567, 531, 593, 603, 656, 629, 608, 660],
       "tags": ["nodejs-framework", "cms"],
       "owner_id": 19872173,
+      "icon": "strapi.svg",
       "created_at": "2015-09-30T15:34:48.000Z",
-      "url": "https://strapi.io",
-      "icon": "strapi.svg"
+      "url": "https://strapi.io"
     },
     {
       "name": "NextAuth.js",
+      "slug": "nextauthjs",
       "full_name": "nextauthjs/next-auth",
       "description": "Authentication for the Web.",
       "stars": 21181,
@@ -715,6 +768,7 @@
     },
     {
       "name": "Bruno",
+      "slug": "bruno",
       "full_name": "usebruno/bruno",
       "description": "Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia)",
       "stars": 11893,
@@ -735,12 +789,13 @@
       ],
       "tags": ["http", "desktop-app"],
       "owner_id": 114530840,
+      "icon": "bruno.svg",
       "created_at": "2022-09-27T20:51:45.000Z",
-      "url": "https://www.usebruno.com/",
-      "icon": "bruno.svg"
+      "url": "https://www.usebruno.com/"
     },
     {
       "name": "Biome",
+      "slug": "biome",
       "full_name": "biomejs/biome",
       "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
       "stars": 8620,
@@ -761,12 +816,13 @@
       ],
       "tags": ["build", "lint", "rust", "formatter"],
       "owner_id": 140182603,
+      "icon": "biome.svg",
       "created_at": "2023-07-27T20:30:22.000Z",
-      "url": "https://biomejs.dev",
-      "icon": "biome.svg"
+      "url": "https://biomejs.dev"
     },
     {
       "name": "Expo",
+      "slug": "expo",
       "full_name": "expo/expo",
       "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
       "stars": 26916,
@@ -774,12 +830,13 @@
       "monthly": [546, 657, 506, 545, 589, 1319, 498, 477, 411, 502, 405, 373],
       "tags": ["mobile", "react-native"],
       "owner_id": 12504344,
+      "icon": "expo.svg",
       "created_at": "2016-08-15T17:14:25.000Z",
-      "url": "https://docs.expo.dev",
-      "icon": "expo.svg"
+      "url": "https://docs.expo.dev"
     },
     {
       "name": "React Native",
+      "slug": "react-native",
       "full_name": "facebook/react-native",
       "description": "A framework for building native applications using React",
       "stars": 114276,
@@ -787,12 +844,13 @@
       "monthly": [476, 484, 391, 701, 502, 629, 522, 601, 576, 757, 551, 623],
       "tags": ["mobile", "react-native"],
       "owner_id": 69631,
+      "icon": "react-native.svg",
       "created_at": "2015-01-09T18:10:16.000Z",
-      "url": "https://reactnative.dev/",
-      "icon": "react-native.svg"
+      "url": "https://reactnative.dev/"
     },
     {
       "name": "Stylex",
+      "slug": "stylex",
       "full_name": "facebook/stylex",
       "description": "The styling system for ambitious user interface",
       "stars": 7629,
@@ -813,12 +871,13 @@
       ],
       "tags": ["css-in-js", "rsc", "atomic-css"],
       "owner_id": 69631,
+      "icon": "stylex.svg",
       "created_at": "2022-12-08T06:38:09.000Z",
-      "url": "https://stylexjs.com",
-      "icon": "stylex.svg"
+      "url": "https://stylexjs.com"
     },
     {
       "name": "Wasp",
+      "slug": "wasp",
       "full_name": "wasp-lang/wasp",
       "description": "The fastest way to develop full-stack web apps with React & Node.js.",
       "stars": 9472,
@@ -831,6 +890,7 @@
     },
     {
       "name": "Wails",
+      "slug": "wails",
       "full_name": "wailsapp/wails",
       "description": "Build desktop applications using Go & Web Technologies",
       "stars": 20953,
@@ -843,6 +903,7 @@
     },
     {
       "name": "Oxc",
+      "slug": "oxc",
       "full_name": "oxc-project/oxc",
       "description": "A collection of JavaScript tools written in Rust.",
       "stars": 7688,
@@ -864,10 +925,12 @@
       "tags": ["compiler", "lint", "rust", "code-parser", "formatter", "build"],
       "owner_id": 149946238,
       "created_at": "2023-02-09T05:46:51.000Z",
-      "url": "https://oxc-project.github.io"
+      "url": "https://oxc-project.github.io",
+      "icon": "oxc.svg"
     },
     {
       "name": "Rspack",
+      "slug": "rspack",
       "full_name": "web-infra-dev/rspack",
       "description": "A fast Rust-based web bundler",
       "stars": 6891,
@@ -876,10 +939,12 @@
       "tags": ["build"],
       "owner_id": 87694465,
       "created_at": "2022-04-01T08:45:30.000Z",
-      "url": "https://rspack.dev"
+      "url": "https://rspack.dev",
+      "icon": "rspack.svg"
     },
     {
       "name": "Material UI",
+      "slug": "material-ui",
       "full_name": "mui/material-ui",
       "description": " A robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster",
       "stars": 90693,
@@ -887,12 +952,13 @@
       "monthly": [346, 379, 384, 584, 504, 430, 502, 849, 649, 609, 611, 640],
       "tags": ["material", "react", "component", "design-system"],
       "owner_id": 33663932,
+      "icon": "material-ui.svg",
       "created_at": "2014-08-18T19:11:54.000Z",
-      "url": "https://mui.com/material-ui/",
-      "icon": "material-ui.svg"
+      "url": "https://mui.com/material-ui/"
     },
     {
       "name": "UnoCSS",
+      "slug": "unocss",
       "full_name": "unocss/unocss",
       "description": "The instant on-demand atomic CSS engine.",
       "stars": 14895,
@@ -900,12 +966,13 @@
       "monthly": [391, 259, 309, 369, 494, 409, 441, 683, 1359, 433, 497, 743],
       "tags": ["css-in-js", "atomic-css"],
       "owner_id": 93899228,
+      "icon": "unocss.svg",
       "created_at": "2021-09-30T17:06:46.000Z",
-      "url": "https://unocss.dev",
-      "icon": "unocss.svg"
+      "url": "https://unocss.dev"
     },
     {
       "name": "Mantine",
+      "slug": "mantine",
       "full_name": "mantinedev/mantine",
       "description": "A fully featured React components library",
       "stars": 23378,
@@ -913,12 +980,13 @@
       "monthly": [376, 340, 470, 508, 359, 420, 463, 660, 574, 696, 648, 788],
       "tags": ["component", "react"],
       "owner_id": 79146003,
+      "icon": "mantine.svg",
       "created_at": "2021-01-07T14:02:19.000Z",
-      "url": "https://mantine.dev",
-      "icon": "mantine.svg"
+      "url": "https://mantine.dev"
     },
     {
       "name": "Radix",
+      "slug": "radix",
       "full_name": "radix-ui/primitives",
       "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
       "stars": 13426,
@@ -926,12 +994,13 @@
       "monthly": [327, 287, 337, 316, 622, 549, 605, 574, 657, 434, 530, 719],
       "tags": ["component", "react", "access", "headless"],
       "owner_id": 75042455,
+      "icon": "radix.svg",
       "created_at": "2020-06-19T13:23:22.000Z",
-      "url": "https://radix-ui.com/primitives",
-      "icon": "radix.svg"
+      "url": "https://radix-ui.com/primitives"
     },
     {
       "name": "TanStack Query",
+      "slug": "tanstack-query",
       "full_name": "TanStack/query",
       "description": "Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
       "stars": 38450,
@@ -944,6 +1013,7 @@
     },
     {
       "name": "Storybook",
+      "slug": "storybook",
       "full_name": "storybookjs/storybook",
       "description": "A frontend workshop for building UI components and pages in isolation. Made for UI development, testing, and documentation.",
       "stars": 81816,
@@ -951,12 +1021,13 @@
       "monthly": [252, 341, 272, 264, 621, 295, 385, 637, 516, 708, 679, 636],
       "tags": ["playground", "test", "react", "vue", "angular"],
       "owner_id": 22632046,
+      "icon": "storybook.svg",
       "created_at": "2016-03-18T04:23:44.000Z",
-      "url": "https://storybook.js.org",
-      "icon": "storybook.svg"
+      "url": "https://storybook.js.org"
     },
     {
       "name": "Vercel AI SDK",
+      "slug": "vercel-ai-sdk",
       "full_name": "vercel/ai",
       "description": "Build AI-powered applications with React, Svelte, Vue, and Solid",
       "stars": 5853,
@@ -982,6 +1053,7 @@
     },
     {
       "name": "Solid",
+      "slug": "solid",
       "full_name": "solidjs/solid",
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "stars": 30445,
@@ -989,12 +1061,13 @@
       "monthly": [298, 275, 238, 242, 277, 344, 398, 428, 502, 782, 830, 846],
       "tags": ["reactive", "framework", "solid"],
       "owner_id": 79226042,
+      "icon": "solid.svg",
       "created_at": "2018-04-24T16:36:27.000Z",
-      "url": "https://solidjs.com",
-      "icon": "solid.svg"
+      "url": "https://solidjs.com"
     },
     {
       "name": "Turborepo",
+      "slug": "turborepo",
       "full_name": "vercel/turbo",
       "description": "Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.",
       "stars": 24179,
@@ -1002,12 +1075,13 @@
       "monthly": [241, 272, 241, 425, 366, 358, 416, 437, 561, 751, 603, 731],
       "tags": ["build", "monorepo", "scaffolding", "caching"],
       "owner_id": 14985020,
+      "icon": "turborepo.svg",
       "created_at": "2021-10-05T17:37:11.000Z",
-      "url": "https://turbo.build",
-      "icon": "turborepo.svg"
+      "url": "https://turbo.build"
     },
     {
       "name": "Qwik",
+      "slug": "qwik",
       "full_name": "BuilderIO/qwik",
       "description": "Instant-loading web apps, without effort",
       "stars": 19781,
@@ -1015,12 +1089,13 @@
       "monthly": [186, 211, 193, 223, 242, 319, 431, 1111, 553, 497, 594, 824],
       "tags": ["framework", "universal", "vite", "fullstack"],
       "owner_id": 35700027,
+      "icon": "qwik.svg",
       "created_at": "2021-05-19T15:33:32.000Z",
-      "url": "https://qwik.dev",
-      "icon": "qwik.svg"
+      "url": "https://qwik.dev"
     },
     {
       "name": "Transformers.js",
+      "slug": "transformersjs",
       "full_name": "xenova/transformers.js",
       "description": "Run ML models in the browser",
       "stars": 5859,
@@ -1033,6 +1108,7 @@
     },
     {
       "name": "Slidev",
+      "slug": "slidev",
       "full_name": "slidevjs/slidev",
       "description": "Presentation Slides for Developers",
       "stars": 30078,
@@ -1040,12 +1116,13 @@
       "monthly": [338, 458, 437, 330, 375, 291, 412, 366, 389, 505, 526, 875],
       "tags": ["presentation", "vue"],
       "owner_id": 83095831,
+      "icon": "slidev.svg",
       "created_at": "2021-04-24T01:25:23.000Z",
-      "url": "https://sli.dev",
-      "icon": "slidev.svg"
+      "url": "https://sli.dev"
     },
     {
       "name": "Bootstrap",
+      "slug": "bootstrap",
       "full_name": "twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "stars": 166794,
@@ -1053,12 +1130,13 @@
       "monthly": [288, 304, 272, 350, 327, 391, 351, 914, 478, 557, 514, 555],
       "tags": ["css-lib", "bootstrap"],
       "owner_id": 2918581,
+      "icon": "bootstrap.svg",
       "created_at": "2011-07-29T21:19:00.000Z",
-      "url": "https://getbootstrap.com",
-      "icon": "bootstrap.svg"
+      "url": "https://getbootstrap.com"
     },
     {
       "name": "Directus",
+      "slug": "directus",
       "full_name": "directus/directus",
       "description": "A real-time API and App dashboard for managing SQL database content.",
       "stars": 24686,
@@ -1079,6 +1157,7 @@
     },
     {
       "name": "Tamagui",
+      "slug": "tamagui",
       "full_name": "tamagui/tamagui",
       "description": "Universal UI kit and style system for React Native + Web - with an optimizing compiler",
       "stars": 9360,
@@ -1091,6 +1170,7 @@
     },
     {
       "name": "Electron",
+      "slug": "electron",
       "full_name": "electron/electron",
       "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
       "stars": 110576,
@@ -1098,12 +1178,13 @@
       "monthly": [326, 351, 244, 333, 381, 496, 400, 506, 480, 496, 413, 520],
       "tags": ["desktop"],
       "owner_id": 13409222,
+      "icon": "electron.svg",
       "created_at": "2013-04-12T01:47:36.000Z",
-      "url": "https://electronjs.org",
-      "icon": "electron.svg"
+      "url": "https://electronjs.org"
     },
     {
       "name": "Vue Element Admin",
+      "slug": "vue-element-admin",
       "full_name": "PanJiaChen/vue-element-admin",
       "description": "A magical vue admin",
       "stars": 85424,
@@ -1111,11 +1192,12 @@
       "monthly": [319, 330, 300, 320, 414, 412, 427, 474, 493, 624, 475, 354],
       "tags": ["vue", "dashboard"],
       "owner_id": 8121621,
-      "created_at": "2017-04-17T03:35:49.000Z",
-      "icon": "vueelementadmin.png"
+      "icon": "vueelementadmin.png",
+      "created_at": "2017-04-17T03:35:49.000Z"
     },
     {
       "name": "Nx",
+      "slug": "nx",
       "full_name": "nrwl/nx",
       "description": "Smart Monorepos · Fast CI",
       "stars": 21193,
@@ -1123,12 +1205,13 @@
       "monthly": [261, 361, 489, 628, 373, 441, 373, 302, 354, 347, 389, 405],
       "tags": ["monorepo", "build", "scaffolding", "react", "angular"],
       "owner_id": 23692104,
+      "icon": "nx.svg",
       "created_at": "2017-08-11T18:50:23.000Z",
-      "url": "https://nx.dev",
-      "icon": "nx.svg"
+      "url": "https://nx.dev"
     },
     {
       "name": "Nue",
+      "slug": "nue",
       "full_name": "nuejs/nue",
       "description": "The Content First Web Framework",
       "stars": 5128,
@@ -1154,6 +1237,7 @@
     },
     {
       "name": "VueUse",
+      "slug": "vueuse",
       "full_name": "vueuse/vueuse",
       "description": "Collection of essential Vue Composition Utilities for Vue 2 and 3",
       "stars": 18152,
@@ -1166,6 +1250,7 @@
     },
     {
       "name": "Pico.css",
+      "slug": "picocss",
       "full_name": "picocss/pico",
       "description": "Minimal CSS Framework for semantic HTML",
       "stars": 11393,
@@ -1178,6 +1263,7 @@
     },
     {
       "name": "Remix",
+      "slug": "remix",
       "full_name": "remix-run/remix",
       "description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
       "stars": 26553,
@@ -1185,12 +1271,13 @@
       "monthly": [328, 429, 455, 267, 313, 273, 298, 345, 355, 447, 481, 588],
       "tags": ["fullstack", "nodejs-framework", "react", "remix"],
       "owner_id": 64235328,
+      "icon": "remix.svg",
       "created_at": "2020-10-26T19:57:28.000Z",
-      "url": "https://remix.run",
-      "icon": "remix.svg"
+      "url": "https://remix.run"
     },
     {
       "name": "Jotai",
+      "slug": "jotai",
       "full_name": "pmndrs/jotai",
       "description": "Primitive and flexible state management for React",
       "stars": 16572,
@@ -1199,10 +1286,12 @@
       "tags": ["state", "react"],
       "owner_id": 45790596,
       "created_at": "2020-08-11T23:15:36.000Z",
-      "url": "https://jotai.org"
+      "url": "https://jotai.org",
+      "icon": "jotai.webp"
     },
     {
       "name": "Vue.js 2",
+      "slug": "vuejs-2",
       "full_name": "vuejs/vue",
       "description": "A progressive, incrementally-adoptable framework for building UI on the web",
       "stars": 206360,
@@ -1210,12 +1299,13 @@
       "monthly": [210, 221, 210, 320, 478, 348, 397, 499, 364, 464, 457, 569],
       "tags": ["framework", "vdom", "vue"],
       "owner_id": 6128107,
+      "icon": "vue.svg",
       "created_at": "2013-07-29T03:24:51.000Z",
-      "url": "http://v2.vuejs.org",
-      "icon": "vue.svg"
+      "url": "http://v2.vuejs.org"
     },
     {
       "name": "SvelteKit",
+      "slug": "sveltekit",
       "full_name": "sveltejs/kit",
       "description": "web development, streamlined",
       "stars": 17248,
@@ -1228,6 +1318,7 @@
     },
     {
       "name": "Nextra",
+      "slug": "nextra",
       "full_name": "shuding/nextra",
       "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
       "stars": 9950,
@@ -1235,12 +1326,13 @@
       "monthly": [217, 231, 304, 268, 292, 324, 391, 400, 513, 389, 355, 504],
       "tags": ["nextjs", "ssg", "doc"],
       "owner_id": 3676859,
+      "icon": "nextra.svg",
       "created_at": "2020-06-15T16:39:34.000Z",
-      "url": "https://nextra.site",
-      "icon": "nextra.svg"
+      "url": "https://nextra.site"
     },
     {
       "name": "Puppeteer",
+      "slug": "puppeteer",
       "full_name": "puppeteer/puppeteer",
       "description": "Node.js API for Chrome",
       "stars": 86111,
@@ -1248,12 +1340,13 @@
       "monthly": [294, 294, 257, 219, 361, 280, 330, 527, 447, 381, 421, 324],
       "tags": ["auto"],
       "owner_id": 6906516,
+      "icon": "puppeteer.svg",
       "created_at": "2017-05-09T22:16:13.000Z",
-      "url": "https://pptr.dev",
-      "icon": "puppeteer.svg"
+      "url": "https://pptr.dev"
     },
     {
       "name": "Panda",
+      "slug": "panda",
       "full_name": "chakra-ui/panda",
       "description": "Universal, Type-Safe, CSS-in-JS Framework for Product Teams",
       "stars": 4312,
@@ -1274,12 +1367,13 @@
       ],
       "tags": ["css-in-js", "atomic-css", "react", "astro", "nextjs", "rsc"],
       "owner_id": 54212428,
+      "icon": "panda.svg",
       "created_at": "2022-07-27T06:49:27.000Z",
-      "url": "https://panda-css.com",
-      "icon": "panda.svg"
+      "url": "https://panda-css.com"
     },
     {
       "name": "Element Plus",
+      "slug": "element-plus",
       "full_name": "element-plus/element-plus",
       "description": "A Vue.js 3 UI Library made by Element team",
       "stars": 22530,
@@ -1292,6 +1386,7 @@
     },
     {
       "name": "swc",
+      "slug": "swc",
       "full_name": "swc-project/swc",
       "description": "A super-fast compiler written in rust",
       "stars": 29519,
@@ -1299,12 +1394,13 @@
       "monthly": [182, 230, 174, 241, 297, 262, 315, 336, 357, 440, 620, 343],
       "tags": ["compiler", "build"],
       "owner_id": 26715726,
+      "icon": "swc.svg",
       "created_at": "2017-12-22T11:40:14.000Z",
-      "url": "https://swc.rs",
-      "icon": "swc.svg"
+      "url": "https://swc.rs"
     },
     {
       "name": "Amplication",
+      "slug": "amplication",
       "full_name": "amplication/amplication",
       "description": "Instantly generate quality Node.js resources",
       "stars": 13112,
@@ -1317,6 +1413,7 @@
     },
     {
       "name": "Vitest",
+      "slug": "vitest",
       "full_name": "vitest-dev/vitest",
       "description": "Next generation testing framework powered by Vite.",
       "stars": 11288,
@@ -1324,12 +1421,13 @@
       "monthly": [287, 193, 208, 208, 368, 259, 296, 256, 324, 309, 372, 458],
       "tags": ["test-framework", "test", "vue", "react", "vite"],
       "owner_id": 95747107,
+      "icon": "vitest.svg",
       "created_at": "2021-12-03T19:19:49.000Z",
-      "url": "https://vitest.dev",
-      "icon": "vitest.svg"
+      "url": "https://vitest.dev"
     },
     {
       "name": "Fastify",
+      "slug": "fastify",
       "full_name": "fastify/fastify",
       "description": "Fast and low overhead web framework, for Node.js",
       "stars": 29961,
@@ -1337,12 +1435,13 @@
       "monthly": [289, 312, 243, 250, 277, 346, 312, 296, 275, 323, 251, 326],
       "tags": ["nodejs-framework"],
       "owner_id": 24939410,
+      "icon": "fastify.svg",
       "created_at": "2016-09-28T19:10:14.000Z",
-      "url": "https://www.fastify.dev",
-      "icon": "fastify.svg"
+      "url": "https://www.fastify.dev"
     },
     {
       "name": "Yew",
+      "slug": "yew",
       "full_name": "yewstack/yew",
       "description": "Rust / Wasm framework for creating reliable and efficient web applications",
       "stars": 29481,
@@ -1355,6 +1454,7 @@
     },
     {
       "name": "Cypress",
+      "slug": "cypress",
       "full_name": "cypress-io/cypress",
       "description": "Fast, easy and reliable testing for anything that runs in a browser.",
       "stars": 45797,
@@ -1362,12 +1462,13 @@
       "monthly": [263, 125, 143, 182, 519, 553, 261, 228, 264, 263, 273, 295],
       "tags": ["test", "auto"],
       "owner_id": 8908513,
+      "icon": "cypress.svg",
       "created_at": "2015-03-04T00:46:28.000Z",
-      "url": "https://cypress.io",
-      "icon": "cypress.svg"
+      "url": "https://cypress.io"
     },
     {
       "name": "Lit",
+      "slug": "lit",
       "full_name": "lit/lit",
       "description": "A simple library for building fast, lightweight web components",
       "stars": 17084,
@@ -1375,12 +1476,13 @@
       "monthly": [207, 269, 497, 184, 208, 316, 444, 247, 235, 267, 255, 239],
       "tags": ["webcomponent", "framework"],
       "owner_id": 18489846,
+      "icon": "lit.svg",
       "created_at": "2017-06-29T16:27:16.000Z",
-      "url": "https://lit.dev",
-      "icon": "lit.svg"
+      "url": "https://lit.dev"
     },
     {
       "name": "VitePress",
+      "slug": "vitepress",
       "full_name": "vuejs/vitepress",
       "description": "Vite & Vue powered static site generator.",
       "stars": 10167,
@@ -1393,6 +1495,7 @@
     },
     {
       "name": "XState",
+      "slug": "xstate",
       "full_name": "statelyai/xstate",
       "description": "Actor-based state management & orchestration for complex app logic.",
       "stars": 25742,
@@ -1400,12 +1503,13 @@
       "monthly": [268, 203, 165, 151, 184, 366, 203, 266, 245, 487, 318, 432],
       "tags": ["state-machine", "state"],
       "owner_id": 61783956,
+      "icon": "xstate.svg",
       "created_at": "2015-09-14T15:04:15.000Z",
-      "url": "https://stately.ai/docs",
-      "icon": "xstate.svg"
+      "url": "https://stately.ai/docs"
     },
     {
       "name": "Alpine.js",
+      "slug": "alpinejs",
       "full_name": "alpinejs/alpine",
       "description": "A rugged, minimal framework for composing JavaScript behavior in your markup.",
       "stars": 26203,
@@ -1413,12 +1517,13 @@
       "monthly": [374, 195, 214, 232, 250, 344, 282, 244, 193, 252, 238, 401],
       "tags": ["framework", "html-tagging"],
       "owner_id": 59030169,
+      "icon": "alpine.svg",
       "created_at": "2019-11-28T13:51:55.000Z",
-      "url": "https://alpinejs.dev",
-      "icon": "alpine.svg"
+      "url": "https://alpinejs.dev"
     },
     {
       "name": "Tesseract.js",
+      "slug": "tesseractjs",
       "full_name": "naptha/tesseract.js",
       "description": "Pure Javascript OCR for more than 100 Languages",
       "stars": 32656,
@@ -1431,6 +1536,7 @@
     },
     {
       "name": "Express",
+      "slug": "express",
       "full_name": "expressjs/express",
       "description": "Fast, unopinionated, minimalist web framework for node.",
       "stars": 63061,
@@ -1438,12 +1544,13 @@
       "monthly": [226, 216, 200, 252, 228, 255, 271, 258, 286, 363, 318, 321],
       "tags": ["nodejs-framework", "express"],
       "owner_id": 5658226,
+      "icon": "express.svg",
       "created_at": "2009-06-26T18:56:01.000Z",
-      "url": "https://expressjs.com",
-      "icon": "express.svg"
+      "url": "https://expressjs.com"
     },
     {
       "name": "tsup",
+      "slug": "tsup",
       "full_name": "egoist/tsup",
       "description": "The simplest and fastest way to bundle your TypeScript libraries.",
       "stars": 7611,
@@ -1456,6 +1563,7 @@
     },
     {
       "name": "Naive UI",
+      "slug": "naive-ui",
       "full_name": "tusen-ai/naive-ui",
       "description": "A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.",
       "stars": 14713,
@@ -1463,12 +1571,13 @@
       "monthly": [225, 172, 217, 176, 293, 243, 241, 297, 304, 387, 261, 299],
       "tags": ["vue", "component"],
       "owner_id": 109735111,
+      "icon": "naiveui.svg",
       "created_at": "2021-06-04T13:47:28.000Z",
-      "url": "https://www.naiveui.com",
-      "icon": "naiveui.svg"
+      "url": "https://www.naiveui.com"
     },
     {
       "name": "VanJS",
+      "slug": "vanjs",
       "full_name": "vanjs-org/van",
       "description": "An ultra-lightweight, zero-dependency and unopinionated Reactive UI framework based on pure vanilla JavaScript and DOM",
       "stars": 3277,
@@ -1481,6 +1590,7 @@
     },
     {
       "name": "Selenium",
+      "slug": "selenium",
       "full_name": "SeleniumHQ/selenium",
       "description": "A browser automation framework and ecosystem.",
       "stars": 28786,
@@ -1493,6 +1603,7 @@
     },
     {
       "name": "Mock Service Worker",
+      "slug": "mock-service-worker",
       "full_name": "mswjs/msw",
       "description": "Seamless REST/GraphQL API mocking library for browser and Node.js.",
       "stars": 14381,
@@ -1505,6 +1616,7 @@
     },
     {
       "name": "PrimeVue",
+      "slug": "primevue",
       "full_name": "primefaces/primevue",
       "description": "Next Generation Vue UI Component Library",
       "stars": 6604,
@@ -1517,6 +1629,7 @@
     },
     {
       "name": "Starlight",
+      "slug": "starlight",
       "full_name": "withastro/starlight",
       "description": "Build beautiful, accessible, high-performance documentation websites with Astro",
       "stars": 3046,
@@ -1542,6 +1655,7 @@
     },
     {
       "name": "rrweb",
+      "slug": "rrweb",
       "full_name": "rrweb-io/rrweb",
       "description": "record and replay the web",
       "stars": 15169,
@@ -1554,6 +1668,7 @@
     },
     {
       "name": "Vuetify",
+      "slug": "vuetify",
       "full_name": "vuetifyjs/vuetify",
       "description": "Vue Component Framework",
       "stars": 38714,
@@ -1561,12 +1676,13 @@
       "monthly": [148, 143, 246, 121, 309, 148, 172, 269, 199, 211, 181, 228],
       "tags": ["vue", "material", "component", "design-system"],
       "owner_id": 22138497,
+      "icon": "vuetify.svg",
       "created_at": "2016-09-12T00:39:35.000Z",
-      "url": "https://vuetifyjs.com",
-      "icon": "vuetify.svg"
+      "url": "https://vuetifyjs.com"
     },
     {
       "name": "esbuild",
+      "slug": "esbuild",
       "full_name": "evanw/esbuild",
       "description": "An extremely fast bundler for the web",
       "stars": 36792,
@@ -1574,12 +1690,13 @@
       "monthly": [137, 151, 147, 214, 172, 175, 167, 190, 206, 280, 247, 253],
       "tags": ["module", "build"],
       "owner_id": 406394,
+      "icon": "esbuild.svg",
       "created_at": "2016-06-14T16:08:50.000Z",
-      "url": "https://esbuild.github.io/",
-      "icon": "esbuild.svg"
+      "url": "https://esbuild.github.io/"
     },
     {
       "name": "Pinia",
+      "slug": "pinia",
       "full_name": "vuejs/pinia",
       "description": "Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
       "stars": 11996,
@@ -1587,12 +1704,13 @@
       "monthly": [165, 136, 117, 159, 318, 152, 183, 198, 189, 211, 251, 198],
       "tags": ["state", "vue"],
       "owner_id": 6128107,
+      "icon": "pinia.svg",
       "created_at": "2019-11-18T21:05:01.000Z",
-      "url": "https://pinia.vuejs.org",
-      "icon": "pinia.svg"
+      "url": "https://pinia.vuejs.org"
     },
     {
       "name": "Eleventy",
+      "slug": "eleventy",
       "full_name": "11ty/eleventy",
       "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
       "stars": 15814,
@@ -1605,6 +1723,7 @@
     },
     {
       "name": "Jest",
+      "slug": "jest",
       "full_name": "jestjs/jest",
       "description": "Delightful JavaScript Testing.",
       "stars": 43315,
@@ -1612,12 +1731,13 @@
       "monthly": [142, 114, 114, 180, 174, 222, 154, 157, 159, 202, 221, 293],
       "tags": ["test-framework", "test"],
       "owner_id": 103283236,
+      "icon": "jest.svg",
       "created_at": "2013-12-10T00:18:04.000Z",
-      "url": "https://jestjs.io",
-      "icon": "jest.svg"
+      "url": "https://jestjs.io"
     },
     {
       "name": "Quasar",
+      "slug": "quasar",
       "full_name": "quasarframework/quasar",
       "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps, Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same codebase.",
       "stars": 24937,
@@ -1625,12 +1745,13 @@
       "monthly": [168, 106, 147, 142, 230, 189, 163, 230, 200, 255, 138, 159],
       "tags": ["mobile", "vue"],
       "owner_id": 23064371,
+      "icon": "quasar.svg",
       "created_at": "2015-10-05T15:45:36.000Z",
-      "url": "https://quasar.dev",
-      "icon": "quasar.svg"
+      "url": "https://quasar.dev"
     },
     {
       "name": "Preact",
+      "slug": "preact",
       "full_name": "preactjs/preact",
       "description": "Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
       "stars": 35759,
@@ -1638,12 +1759,13 @@
       "monthly": [130, 243, 111, 125, 147, 171, 160, 150, 133, 234, 234, 191],
       "tags": ["framework", "vdom"],
       "owner_id": 26872990,
+      "icon": "preact.svg",
       "created_at": "2015-09-11T02:40:18.000Z",
-      "url": "https://preactjs.com",
-      "icon": "preact.svg"
+      "url": "https://preactjs.com"
     },
     {
       "name": "Capacitor",
+      "slug": "capacitor",
       "full_name": "ionic-team/capacitor",
       "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web",
       "stars": 10791,
@@ -1656,6 +1778,7 @@
     },
     {
       "name": "Nano stores",
+      "slug": "nano-stores",
       "full_name": "nanostores/nanostores",
       "description": "A tiny (298 bytes) state manager for React/RN/Preact/Vue/Svelte with many atomic tree-shakable stores",
       "stars": 4485,
@@ -1667,6 +1790,7 @@
     },
     {
       "name": "Hexo",
+      "slug": "hexo",
       "full_name": "hexojs/hexo",
       "description": "A fast, simple & powerful blog framework, powered by Node.js.",
       "stars": 38097,
@@ -1674,12 +1798,13 @@
       "monthly": [158, 145, 126, 136, 232, 142, 146, 148, 210, 213, 163, 167],
       "tags": ["ssg", "blog"],
       "owner_id": 6375567,
+      "icon": "hexo.svg",
       "created_at": "2012-09-23T15:17:08.000Z",
-      "url": "https://hexo.io",
-      "icon": "hexo.svg"
+      "url": "https://hexo.io"
     },
     {
       "name": "Nativefier",
+      "slug": "nativefier",
       "full_name": "nativefier/nativefier",
       "description": "Make any web page a desktop application",
       "stars": 34543,
@@ -1691,6 +1816,7 @@
     },
     {
       "name": "NativeWind",
+      "slug": "nativewind",
       "full_name": "marklawlor/nativewind",
       "description": "React Native utility-first universal design system - powered by Tailwind CSS",
       "stars": 3765,
@@ -1703,6 +1829,7 @@
     },
     {
       "name": "vanilla-extract",
+      "slug": "vanilla-extract",
       "full_name": "vanilla-extract-css/vanilla-extract",
       "description": "Zero-runtime Stylesheets-in-TypeScript",
       "stars": 9108,
@@ -1710,12 +1837,13 @@
       "monthly": [93, 75, 100, 101, 124, 147, 133, 211, 158, 249, 189, 344],
       "tags": ["css-in-js", "rsc"],
       "owner_id": 112610040,
+      "icon": "vanilla.svg",
       "created_at": "2021-03-26T05:10:54.000Z",
-      "url": "https://vanilla-extract.style",
-      "icon": "vanilla.svg"
+      "url": "https://vanilla-extract.style"
     },
     {
       "name": "Valtio",
+      "slug": "valtio",
       "full_name": "pmndrs/valtio",
       "description": "Valtio makes proxy-state simple  for React and Vanilla",
       "stars": 8128,
@@ -1728,6 +1856,7 @@
     },
     {
       "name": "Nhost",
+      "slug": "nhost",
       "full_name": "nhost/nhost",
       "description": "The Open Source Firebase Alternative with GraphQL.",
       "stars": 7371,
@@ -1740,6 +1869,7 @@
     },
     {
       "name": "Styled Components",
+      "slug": "styled-components",
       "full_name": "styled-components/styled-components",
       "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
       "stars": 39908,
@@ -1752,6 +1882,7 @@
     },
     {
       "name": "Gluon",
+      "slug": "gluon",
       "full_name": "gluon-framework/gluon",
       "description": "A new framework for creating desktop apps from websites, using system installed browsers and NodeJS",
       "stars": 3126,
@@ -1764,6 +1895,7 @@
     },
     {
       "name": "Hasura GraphQL Engine",
+      "slug": "hasura-graphql-engine",
       "full_name": "hasura/graphql-engine",
       "description": "Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.",
       "stars": 30678,
@@ -1771,12 +1903,13 @@
       "monthly": [90, 70, 284, 35, 81, 89, 117, 166, 163, 181, 169, 224],
       "tags": ["graphql"],
       "owner_id": 13966722,
+      "icon": "hasura.svg",
       "created_at": "2018-06-18T07:57:36.000Z",
-      "url": "https://hasura.io",
-      "icon": "hasura.svg"
+      "url": "https://hasura.io"
     },
     {
       "name": "chatgpt.js",
+      "slug": "chatgptjs",
       "full_name": "KudoAI/chatgpt.js",
       "description": "A powerful, open source client-side JavaScript library for ChatGPT",
       "stars": 1706,
@@ -1802,6 +1935,7 @@
     },
     {
       "name": "Signals",
+      "slug": "signals",
       "full_name": "preactjs/signals",
       "description": "Manage state with style in every framework",
       "stars": 3324,
@@ -1814,6 +1948,7 @@
     },
     {
       "name": "React Native Paper",
+      "slug": "react-native-paper",
       "full_name": "callstack/react-native-paper",
       "description": "Material Design for React Native (Android & iOS)",
       "stars": 11938,
@@ -1821,12 +1956,13 @@
       "monthly": [163, 108, 141, 114, 130, 139, 111, 139, 128, 152, 112, 125],
       "tags": ["react-native", "material", "component"],
       "owner_id": 42239399,
+      "icon": "react-native-paper.svg",
       "created_at": "2016-10-19T05:56:53.000Z",
-      "url": "https://reactnativepaper.com",
-      "icon": "react-native-paper.svg"
+      "url": "https://reactnativepaper.com"
     },
     {
       "name": "Ionic",
+      "slug": "ionic",
       "full_name": "ionic-team/ionic-framework",
       "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
       "stars": 50160,
@@ -1834,12 +1970,13 @@
       "monthly": [80, 36, 309, 19, 137, 209, 62, 83, 141, 168, 112, 141],
       "tags": ["webcomponent", "mobile", "angular", "react", "vue"],
       "owner_id": 3171503,
+      "icon": "ionic.svg",
       "created_at": "2013-08-20T23:06:02.000Z",
-      "url": "https://ionicframework.com",
-      "icon": "ionic.svg"
+      "url": "https://ionicframework.com"
     },
     {
       "name": "Kuma UI",
+      "slug": "kuma-ui",
       "full_name": "kuma-ui/kuma-ui",
       "description": "A Headless, Utility-First, and Zero-Runtime UI Component Library",
       "stars": 1569,
@@ -1852,6 +1989,7 @@
     },
     {
       "name": "Ignite",
+      "slug": "ignite",
       "full_name": "infinitered/ignite",
       "description": "Battle-tested React Native boilerplate",
       "stars": 16303,
@@ -1863,6 +2001,7 @@
     },
     {
       "name": "AI Emojis",
+      "slug": "ai-emojis",
       "full_name": "Pondorasti/emojis",
       "description": "Turn your ideas into emojis in seconds. Generate your favorite Slack emojis with just one click.",
       "stars": 1434,
@@ -1888,6 +2027,7 @@
     },
     {
       "name": "Legend-State",
+      "slug": "legend-state",
       "full_name": "LegendApp/legend-state",
       "description": " A super fast and powerful state manager for JavaScript apps",
       "stars": 2286,
@@ -1900,6 +2040,7 @@
     },
     {
       "name": "Hermes",
+      "slug": "hermes",
       "full_name": "facebook/hermes",
       "description": " A small and lightweight JavaScript engine optimized for running React Native on Android",
       "stars": 9202,
@@ -1907,12 +2048,13 @@
       "monthly": [158, 344, 267, 251, 55, 52, 30, 33, 37, 70, 35, 54],
       "tags": ["runtime", "react-native"],
       "owner_id": 69631,
+      "icon": "hermes.svg",
       "created_at": "2018-10-22T19:13:00.000Z",
-      "url": "https://hermesengine.dev/",
-      "icon": "hermes.svg"
+      "url": "https://hermesengine.dev/"
     },
     {
       "name": "jsdom",
+      "slug": "jsdom",
       "full_name": "jsdom/jsdom",
       "description": "A JavaScript implementation of various web standards, for use with Node.js",
       "stars": 19718,
@@ -1920,11 +2062,12 @@
       "monthly": [121, 109, 87, 110, 100, 80, 95, 112, 100, 133, 101, 126],
       "tags": ["test"],
       "owner_id": 9271229,
-      "created_at": "2010-01-19T06:55:19.000Z",
-      "icon": "jsdom.svg"
+      "icon": "jsdom.svg",
+      "created_at": "2010-01-19T06:55:19.000Z"
     },
     {
       "name": "Garph",
+      "slug": "garph",
       "full_name": "stepci/garph",
       "description": "Fullstack GraphQL Framework for TypeScript",
       "stars": 1259,
@@ -1937,6 +2080,7 @@
     },
     {
       "name": "Analog",
+      "slug": "analog",
       "full_name": "analogjs/analog",
       "description": "The fullstack meta-framework for Angular. Powered by Vite",
       "stars": 1964,
@@ -1949,6 +2093,7 @@
     },
     {
       "name": "face-api.js",
+      "slug": "face-apijs",
       "full_name": "justadudewhohacks/face-api.js",
       "description": "JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js",
       "stars": 15899,
@@ -1960,6 +2105,7 @@
     },
     {
       "name": "TinyBase",
+      "slug": "tinybase",
       "full_name": "tinyplex/tinybase",
       "description": "The reactive data store for local‑first apps.",
       "stars": 2769,
@@ -1972,6 +2118,7 @@
     },
     {
       "name": "Bulma",
+      "slug": "bulma",
       "full_name": "jgthms/bulma",
       "description": "Modern CSS framework based on Flexbox",
       "stars": 47918,
@@ -1979,12 +2126,13 @@
       "monthly": [97, 77, 70, 91, 83, 85, 104, 92, 118, 141, 111, 130],
       "tags": ["css-lib"],
       "owner_id": 1254808,
+      "icon": "bulma.svg",
       "created_at": "2016-01-23T23:48:34.000Z",
-      "url": "https://bulma.io",
-      "icon": "bulma.svg"
+      "url": "https://bulma.io"
     },
     {
       "name": "Redux",
+      "slug": "redux",
       "full_name": "reduxjs/redux",
       "description": "Predictable state container for JavaScript apps",
       "stars": 60262,
@@ -1992,12 +2140,13 @@
       "monthly": [85, 54, 69, 93, 79, 82, 88, 89, 113, 135, 101, 128],
       "tags": ["state", "flux", "redux"],
       "owner_id": 13142323,
+      "icon": "redux.svg",
       "created_at": "2015-05-29T23:53:15.000Z",
-      "url": "https://redux.js.org",
-      "icon": "redux.svg"
+      "url": "https://redux.js.org"
     },
     {
       "name": "Emotion",
+      "slug": "emotion",
       "full_name": "emotion-js/emotion",
       "description": "CSS-in-JS library designed for high performance style composition",
       "stars": 17048,
@@ -2010,6 +2159,7 @@
     },
     {
       "name": "Redwood",
+      "slug": "redwood",
       "full_name": "redwoodjs/redwood",
       "description": "The App Framework for Startups",
       "stars": 16630,
@@ -2017,12 +2167,13 @@
       "monthly": [84, 70, 77, 61, 95, 79, 89, 70, 87, 119, 90, 166],
       "tags": ["fullstack", "graphql", "nodejs-framework"],
       "owner_id": 45050444,
+      "icon": "redwood.svg",
       "created_at": "2019-06-09T20:17:57.000Z",
-      "url": "https://redwoodjs.com",
-      "icon": "redwood.svg"
+      "url": "https://redwoodjs.com"
     },
     {
       "name": "HuggingFace.js",
+      "slug": "huggingfacejs",
       "full_name": "huggingface/huggingface.js",
       "description": "Utilities to use the Hugging Face hub API",
       "stars": 1119,
@@ -2035,6 +2186,7 @@
     },
     {
       "name": "TensorFlow.js",
+      "slug": "tensorflowjs",
       "full_name": "tensorflow/tfjs",
       "description": "A WebGL accelerated JavaScript library for training and deploying ML models.",
       "stars": 17960,
@@ -2042,12 +2194,13 @@
       "monthly": [54, 55, 55, 56, 78, 53, 124, 107, 100, 103, 120, 99],
       "tags": ["ml", "webgl"],
       "owner_id": 15658638,
+      "icon": "tensorflow.svg",
       "created_at": "2018-03-05T05:41:02.000Z",
-      "url": "https://js.tensorflow.org",
-      "icon": "tensorflow.svg"
+      "url": "https://js.tensorflow.org"
     },
     {
       "name": "GraphiQL",
+      "slug": "graphiql",
       "full_name": "graphql/graphiql",
       "description": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
       "stars": 15526,
@@ -2059,6 +2212,7 @@
     },
     {
       "name": "Gatsby",
+      "slug": "gatsby",
       "full_name": "gatsbyjs/gatsby",
       "description": "The best React-based framework with performance, scalability and security built in.",
       "stars": 54937,
@@ -2066,12 +2220,13 @@
       "monthly": [47, 47, 39, 30, 63, 63, 76, 114, 102, 108, 109, 110],
       "tags": ["ssg", "react", "graphql", "prefetch"],
       "owner_id": 12551863,
+      "icon": "gatsby.svg",
       "created_at": "2015-05-21T22:43:05.000Z",
-      "url": "https://www.gatsbyjs.com",
-      "icon": "gatsby.svg"
+      "url": "https://www.gatsbyjs.com"
     },
     {
       "name": "GraphQL Code Generator",
+      "slug": "graphql-code-generator",
       "full_name": "dotansimha/graphql-code-generator",
       "description": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.",
       "stars": 10531,
@@ -2079,12 +2234,13 @@
       "monthly": [42, 52, 48, 52, 67, 76, 83, 97, 64, 105, 101, 79],
       "tags": ["graphql", "scaffolding"],
       "owner_id": 3680083,
+      "icon": "graphql-code-generator.svg",
       "created_at": "2016-12-05T19:15:11.000Z",
-      "url": "https://the-guild.dev/graphql/codegen/",
-      "icon": "graphql-code-generator.svg"
+      "url": "https://the-guild.dev/graphql/codegen/"
     },
     {
       "name": "Primer",
+      "slug": "primer",
       "full_name": "primer/css",
       "description": "The CSS design system that powers GitHub",
       "stars": 12396,
@@ -2097,6 +2253,7 @@
     },
     {
       "name": "SemanticUI",
+      "slug": "semanticui",
       "full_name": "Semantic-Org/Semantic-UI",
       "description": "A UI component framework based around useful principles from natural language",
       "stars": 50936,
@@ -2104,12 +2261,13 @@
       "monthly": [41, 40, 43, 50, 37, 51, 41, 57, 60, 38, 61, 52],
       "tags": ["css-lib"],
       "owner_id": 5796209,
+      "icon": "semantic-ui.svg",
       "created_at": "2013-04-08T23:32:04.000Z",
-      "url": "http://www.semantic-ui.com",
-      "icon": "semantic-ui.svg"
+      "url": "http://www.semantic-ui.com"
     },
     {
       "name": "PureCSS",
+      "slug": "purecss",
       "full_name": "pure-css/pure",
       "description": "A set of small, responsive CSS modules that you can use in every web project.",
       "stars": 23315,
@@ -2122,6 +2280,7 @@
     },
     {
       "name": "Windi CSS",
+      "slug": "windi-css",
       "full_name": "windicss/windicss",
       "description": "Next generation utility-first CSS framework.",
       "stars": 6488,
@@ -2134,6 +2293,7 @@
     },
     {
       "name": "Material Components",
+      "slug": "material-components",
       "full_name": "material-components/material-components-web",
       "description": "Modular and customizable Material Design UI components for the web",
       "stars": 17036,
@@ -2146,6 +2306,7 @@
     },
     {
       "name": "Bootswatch",
+      "slug": "bootswatch",
       "full_name": "thomaspark/bootswatch",
       "description": "Themes for Bootstrap",
       "stars": 14377,

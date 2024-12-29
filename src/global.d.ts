@@ -8,6 +8,7 @@ declare namespace RisingStars {
     monthly: number[];
     name: string;
     owner_id: number;
+    overrideSlugInComments?: string; //TODO refactor to use Project schema as the source of truth
     repository: string;
     slug: string;
     stars: number;
@@ -15,9 +16,7 @@ declare namespace RisingStars {
     url: string;
   };
 
-  type Entities = {
-    [key: string]: Project;
-  };
+  type Entities = Map<string, Project>;
 
   type Tag = {
     name: string;
@@ -28,7 +27,7 @@ declare namespace RisingStars {
 
   type Category = {
     key: string;
-    count: number;
+    count?: number;
     limit?: number;
     tags?: string[];
     excluded?: Project["slug"][];

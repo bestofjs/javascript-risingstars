@@ -26,14 +26,14 @@ type YearSetting = { year: number; languages: string[] };
 
 export async function fetchPageProps(
   year: number,
-  language: string
+  language: string,
 ): Promise<MainPageProps> {
   const { projects, tags } = await getProjectData(year);
 
   const categories = await getCategories(year);
   const { projectsBySlug, projectsByTag } = processProjectData(
     projects,
-    categories
+    categories,
   );
 
   const allYears = settings.map(({ year: y }) => y);
@@ -41,9 +41,9 @@ export async function fetchPageProps(
     (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
     [];
 
-  const languages = languageCodes.map((code) =>
-    allLanguages.find((item) => item.code === code)
-  );
+  const languages = languageCodes
+    .map((code) => allLanguages.find((item) => item.code === code))
+    .filter((language) => language !== undefined);
 
   return {
     year,
@@ -62,7 +62,7 @@ export async function getProjectData(year: number) {
     process.cwd(),
     `data`,
     year.toString(),
-    "projects.json"
+    "projects.json",
   );
   return fs.readJSON(filepath);
 }

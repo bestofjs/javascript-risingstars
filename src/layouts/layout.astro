@@ -24,7 +24,7 @@ const pageURL = `${rootURL}/${year}/${language}`;
 const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitter needs an absolute URL?
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={language}>
   <head>
     <meta charset="UTF-8" />
@@ -71,10 +71,10 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
     <slot />
     <script is:inline src="/htmx.min.js"></script>
     <script
+      is:inline
       data-goatcounter="https://risingstars.goatcounter.com/count"
       async
-      src="//gc.zgo.at/count.js"
-    ></script>
+      src="//gc.zgo.at/count.js"></script>
     <style is:global>
       :root {
         --spacing: 20px;

@@ -31,6 +31,7 @@ const {
         100
       ).toFixed();
       return (
+        // @ts-expect-error todo: fix this type, how to type correctly slots with Preact?
         <ProjectInteractive
           client:visible
           defaultIsOpen={openFirstProject && index === 0}

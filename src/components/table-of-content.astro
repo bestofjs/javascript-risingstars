@@ -29,7 +29,7 @@ function getMinCount(count: number, index: number) {
               <span class="toc-link-label">{t(`categories.${key}`)}</span>
               <div class="toc-projects">
                 {projects[item.key]
-                  .slice(0, getMinCount(item.count, i))
+                  .slice(0, getMinCount(item.count || 10, i))
                   .map((project) => (
                     <ProjectAvatar project={project} size={30} />
                   ))}
@@ -80,7 +80,7 @@ function getMinCount(count: number, index: number) {
   .toc-link:hover {
     background: rgba(255, 255, 255, 0.5);
   }
-  .toc-link:hover img {
+  .toc-link:hover :global(img) {
     filter: none;
     opacity: 1;
   }
