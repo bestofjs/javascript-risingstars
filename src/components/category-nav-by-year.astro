@@ -15,7 +15,7 @@ const { language, year, category } = Astro.props;
 const years = await getAvailableYears();
 const index = years.indexOf(year);
 const previousYear = index > 0 ? years[index - 1] : null;
-const nextYear = index < year.length ? years[index + 1] : null;
+const nextYear = index < years.length - 1 ? years[index + 1] : null;
 const hasPreviousYear = previousYear !== null;
 const hasNextYear = nextYear !== null;
 
