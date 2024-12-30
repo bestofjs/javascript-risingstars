@@ -1,19 +1,18 @@
 declare namespace RisingStars {
   type Project = {
-    created_at: string;
+    created_at: Date;
     delta: number;
     description: string;
     full_name: string;
-    icon: string;
-    monthly: number[];
+    icon?: string;
+    monthly: (number | null)[];
     name: string;
     owner_id: number;
     overrideSlugInComments?: string; //TODO refactor to use Project schema as the source of truth
-    repository: string;
     slug: string;
     stars: number;
-    tags: string;
-    url: string;
+    tags: string[];
+    url?: string;
   };
 
   type Entities = Map<string, Project>;

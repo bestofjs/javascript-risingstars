@@ -15,7 +15,7 @@ const { url, full_name, stars, slug } = project;
 const bestOfJsURL = `https://bestofjs.org/projects/${slug}`;
 
 function formatProjectCreationDate(project: RisingStars.Project) {
-  const date = project.created_at;
+  const date = project.created_at.toISOString();
   const yearAndMonth = date.slice(0, 7); // TODO format using i18n
   return yearAndMonth;
 }

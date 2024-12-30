@@ -16,7 +16,7 @@ const months = t("common.view_project.months").split(" ");
 const monthlyDeltas = (project.monthly || [])
   .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
   .slice(0, 12)
-  .reverse(); // sort by date ascending (from January to December)
+  .reverse() as number[]; // sort by date ascending (from January to December)
 const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
 ---
 

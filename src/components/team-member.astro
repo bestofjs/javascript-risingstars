@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 
 export interface Props {
   member: CollectionEntry<"contributors">;
@@ -14,7 +15,7 @@ function getAvatarURL(userId: number) {
 const { name, isOpenToWork, url, userId } = member.data;
 
 const avatarURL = getAvatarURL(userId);
-const { Content } = await member.render();
+const { Content } = await render(member);
 ---
 
 <div class="contributor">
