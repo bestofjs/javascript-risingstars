@@ -3,8 +3,6 @@ id: conclusion
 language: en
 ---
 
-At the very end of the year, one of the biggest news items is the support of TypeScript by Node.j without experimental flag, starting from version 23. This highlights the rise of TypeScript as the default way to author JavaScript code.
-
 2024 was full of exciting releases:
 
 - [JSR: a new package registry](https://deno.com/blog/jsr-is-not-another-package-manager) from the Deno team that supports TypeScript natively.
@@ -17,3 +15,7 @@ At the very end of the year, one of the biggest news items is the support of Typ
 - [Vite 6](https://vite.dev/blog/announcing-vite6.html) with the new [Environment API](https://green.sapphi.red/blog/increasing-vites-potential-with-the-environment-api) that opens new possibilities to expand beyond the browser.
 - [TailwindCSS 4](https://tailwindcss.com/blog/tailwindcss-v4-beta) provides CSS-first configuration and better performance.
 - [React Router v7](https://remix.run/blog/react-router-v7) brings back to the library features and improvements coming from Remix. The merger between projects is made clear by the docs that mention two ways to start, using either the library or the full framework.
+
+One of the biggest news items came at the very end of the year: [Node.js 23 supports TypeScript](https://www.totaltypescript.com/typescript-is-coming-to-node-23) without the need for an experimental flag.
+
+However, the most significant changes are not related to the libraries or frameworks we use to write code. Instead, they revolve around the incredible tools powered by AI. IDEs like [Cursor](https://www.cursor.com/) and services such as {bolt}, [Lovable](https://lovable.dev/), [Replit](https://replit.com/), and [v0.dev](https://v0.dev) can generate and even deploy full-stack applications with just a few prompts. If you can say it, you can build it! In 2025, competition in this field will skyrocket, and developers will need to adapt to leverage these powerful tools to their fullest potential.
