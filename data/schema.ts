@@ -10,14 +10,19 @@ export const projectSchema = z.object({
   overrideSlugInComments: z.string().optional(),
   full_name: z.string(),
   description: z.string(),
-  stars: z.number().nullable(),
+  stars: z.number(),
   delta: z.number(),
-  monthly: z.array(z.number().nullable().optional()),
+  monthly: z.array(z.number().nullable()),
   tags: z.array(z.string()),
   owner_id: z.number(),
   icon: z.string().optional(),
   created_at: z.coerce.date(),
   url: z.string().optional(),
+});
+
+export const tagSchema = z.object({
+  name: z.string(),
+  code: z.string(),
 });
 
 export type RawProject = z.infer<typeof projectSchema>;

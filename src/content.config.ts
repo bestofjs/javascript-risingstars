@@ -1,5 +1,14 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
+import { projectSchema, tagSchema } from "data/schema";
+
+const projectsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./data" }),
+  schema: z.object({
+    projects: z.array(projectSchema),
+    tags: z.array(tagSchema),
+  }),
+});
 
 const commentCollection = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/comments" }),
@@ -48,4 +57,5 @@ export const collections = {
   comments: commentCollection,
   contributors: contributorCollection,
   messages: messagesCollection,
+  projects: projectsCollection,
 };
