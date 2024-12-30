@@ -58,12 +58,7 @@ export async function fetchPageProps(
 }
 
 export async function getProjectData(year: number) {
-  const filepath = path.join(
-    process.cwd(),
-    `data`,
-    year.toString(),
-    "projects.json",
-  );
+  const filepath = path.join(process.cwd(), `data`, year.toString() + ".json");
   return fs.readJSON(filepath);
 }
 
