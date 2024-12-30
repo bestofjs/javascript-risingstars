@@ -1,5 +1,5 @@
 import { orderBy } from "es-toolkit";
-import type { Category } from "~/content/config";
+import type { Category } from "~/content.config";
 
 function getSortedProjects(projectsBySlug: Map<string, RisingStars.Project>) {
   return orderBy(Array.from(projectsBySlug.values()), ["delta"], ["desc"]);

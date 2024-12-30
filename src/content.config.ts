@@ -1,6 +1,17 @@
 import { defineCollection, z } from "astro:content";
+import { glob } from "astro/loaders";
+import { projectSchema, tagSchema } from "data/schema";
+
+const projectsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./data" }),
+  schema: z.object({
+    projects: z.array(projectSchema),
+    tags: z.array(tagSchema),
+  }),
+});
 
 const commentCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/comments" }),
   schema: z.object({
     id: z.string(),
     language: z.string(), // z.enum(['en', 'es']),
@@ -8,6 +19,7 @@ const commentCollection = defineCollection({
 });
 
 const contributorCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/contributors" }),
   schema: z.object({
     userName: z.string(),
     userId: z.number(),
@@ -32,12 +44,12 @@ const categorySchema = z.object({
 export type Category = z.infer<typeof categorySchema>;
 
 const categoryCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.json", base: "./src/content/categories" }),
   schema: z.array(categorySchema),
 });
 
 const messagesCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.json", base: "./src/content/messages" }),
 });
 
 export const collections = {
@@ -45,4 +57,5 @@ export const collections = {
   comments: commentCollection,
   contributors: contributorCollection,
   messages: messagesCollection,
+  projects: projectsCollection,
 };
