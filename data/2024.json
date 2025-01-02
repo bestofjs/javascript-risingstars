@@ -1,5 +1,5 @@
 {
-  "date": "2024-12-31T23:47:20.984Z",
+  "date": "2025-01-02T09:25:01.710Z",
   "count": 148,
   "projects": [
     {
@@ -959,19 +959,6 @@
       "icon": "motion.svg"
     },
     {
-      "name": "tiptap",
-      "slug": "tiptap",
-      "full_name": "ueberdosis/tiptap",
-      "description": "The headless rich text editor framework for web artisans.",
-      "stars": 28120,
-      "delta": 5673,
-      "monthly": [381, 432, 451, 407, 617, 1236, 362, 364, 428, 394, 257, 344],
-      "tags": ["rich-text-editor", "vue"],
-      "owner_id": 16939337,
-      "created_at": "2018-08-20T19:58:58.000Z",
-      "url": "https://tiptap.dev"
-    },
-    {
       "name": "TanStack Query",
       "slug": "tanstack-query",
       "full_name": "TanStack/query",
@@ -1694,6 +1681,20 @@
       "owner_id": 64637271,
       "created_at": "2018-11-13T14:58:44.000Z",
       "url": "https://mswjs.io"
+    },
+    {
+      "name": "Naive UI",
+      "slug": "naive-ui",
+      "full_name": "tusen-ai/naive-ui",
+      "description": "A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.",
+      "stars": 16469,
+      "delta": 2111,
+      "monthly": [181, 139, 130, 187, 160, 141, 147, 178, 181, 199, 170, 298],
+      "tags": ["vue", "component"],
+      "owner_id": 109735111,
+      "created_at": "2021-06-04T13:47:28.000Z",
+      "url": "https://www.naiveui.com",
+      "icon": "naiveui.svg"
     },
     {
       "name": "tsup",
