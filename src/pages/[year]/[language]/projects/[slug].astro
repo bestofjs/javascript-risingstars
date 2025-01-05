@@ -1,0 +1,52 @@
+---
+import { getCollection, z } from "astro:content";
+import { orderBy } from "es-toolkit";
+import invariant from "tiny-invariant";
+
+import { fetchPageProps } from "~/fetch-page-props";
+import { useTranslations } from "~/i18n/utils";
+import BarChart from "~/components/bar-chart.astro";
+
+export const partial = true;
+export const prerender = false;
+
+// TODO pre-remnder some paths?
+// export async function getStaticPaths() {
+//   return [
+//     {
+//       params: { slug: "react" },
+//     },
+//   ];
+// }
+
+const searchSchema = z.object({
+  slug: z.string(),
+  year: z.coerce.number(),
+  language: z.string(),
+});
+const { slug, year, language } = searchSchema.parse(Astro.params);
+
+const { t } = await useTranslations(language, year);
+
+const { projectsBySlug } = await fetchPageProps(year, language);
+const project = projectsBySlug.get(slug);
+invariant(project, `Project not found: ${slug}`);
+
+const rawItems = await getCollection("projects");
+
+const byYearData = orderBy(rawItems, ["id"], ["asc"]).map((item) => ({
+  x: `'` + item.id.slice(2),
+  y: item.data.projects.find((project) => project.slug === slug)?.delta || 0,
+}));
+
+const showByYearData = byYearData.filter((item) => item.y > 0).length > 1;
+---
+
+{
+  showByYearData ? (
+    <div>
+      <h4>{t("common.view_project.allYears")}</h4>
+      <BarChart data={byYearData} />
+    </div>
+  ) : null
+}

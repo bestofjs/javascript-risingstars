@@ -1,5 +1,5 @@
 import { h } from "preact";
-import { useState } from "preact/hooks";
+import { useEffect, useRef, useState } from "preact/hooks";
 
 export type Props = {
   defaultIsOpen: boolean;
@@ -13,8 +13,15 @@ export default function ProjectInteractive({
   summary,
 }: Props) {
   const [isOpen, setIsOpen] = useState(defaultIsOpen);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const element = ref.current;
+    window.htmx.process(element!);
+  }, [isOpen]);
+
   return (
-    <div className={isOpen ? "project-is-open" : "project-is-closed"}>
+    <div ref={ref} className={isOpen ? "project-is-open" : "project-is-closed"}>
       <div
         className="project-table-row"
         onClick={() => setIsOpen((current) => !current)}
