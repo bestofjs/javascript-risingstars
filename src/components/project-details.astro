@@ -2,6 +2,7 @@
 import { useTranslations } from "~/i18n/utils";
 import { formatStarNumber } from "./project-shared";
 import BarChartByMonth from "./bar-chart-by-month.astro";
+import LoadingIndicator from "./loading-indicator.astro";
 
 export interface Props {
   project: RisingStars.Project;
@@ -34,6 +35,14 @@ const { t } = await useTranslations(language, year);
       {t("common.view_project.trends", { year })}
     </h4>
     <BarChartByMonth project={project} language={language} year={year} />
+  </div>
+
+  <div
+    hx-trigger="load"
+    hx-get={`/${year}/${language}/projects/${project.slug}`}
+    hx-swap="outerHTML"
+  >
+    <LoadingIndicator />
   </div>
 
   <div>
@@ -83,30 +92,29 @@ const { t } = await useTranslations(language, year);
   </div>
 </div>
 
-<style>
+<style is:global>
   .project-details {
     background: white;
     z-index: 100;
     overflow: hidden;
     padding: 10px var(--spacing) var(--spacing);
     display: flex;
-    gap: calc(var(--spacing) / 2);
+    gap: var(--spacing);
     flex-direction: column;
-  }
-
-  h4 {
-    width: 100%;
-    margin-bottom: 10px;
-    border: 1px dashed var(--grey3);
-    text-align: center;
-    font-size: var(--smallish-font);
-    color: var(--mediumgrey);
-    padding: 2px 0;
-  }
-  .data-list {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 5px;
-    font-size: var(--smallish-font);
+    h4 {
+      width: 100%;
+      margin-bottom: 10px;
+      border: 1px dashed var(--grey3);
+      text-align: center;
+      font-size: var(--smallish-font);
+      color: var(--mediumgrey);
+      padding: 2px 0;
+    }
+    .data-list {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 5px;
+      font-size: var(--smallish-font);
+    }
   }
 </style>
