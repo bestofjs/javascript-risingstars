@@ -22,12 +22,7 @@ export default function ProjectInteractive({
 
   return (
     <div ref={ref} className={isOpen ? "project-is-open" : "project-is-closed"}>
-      <div
-        className="project-table-row"
-        onClick={() => setIsOpen((current) => !current)}
-      >
-        {summary}
-      </div>
+      <div onClick={() => setIsOpen((current) => !current)}>{summary}</div>
       {isOpen && <>{details}</>}
     </div>
   );
