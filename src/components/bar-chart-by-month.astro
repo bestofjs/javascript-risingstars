@@ -1,0 +1,27 @@
+---
+import { useTranslations } from "~/i18n/utils";
+import BarChart from "./bar-chart.astro";
+
+export interface Props {
+  project: RisingStars.Project;
+  year: number;
+  language: string;
+}
+
+const { project, year, language } = Astro.props;
+
+const { t } = await useTranslations(language, year);
+
+const months = t("common.view_project.months").split(" ");
+const monthlyDeltas = (project.monthly || [])
+  .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
+  .slice(0, 12)
+  .reverse() as number[]; // sort by date ascending (from January to December)
+
+const data = monthlyDeltas.map((d, i) => ({
+  y: d,
+  x: months[i],
+}));
+---
+
+<BarChart data={data} />

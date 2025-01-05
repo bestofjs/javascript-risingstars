@@ -1,7 +1,7 @@
 ---
 import { useTranslations } from "~/i18n/utils";
 import { formatStarNumber } from "./project-shared";
-import ProjectChart from "./project-chart.astro";
+import BarChartByMonth from "./bar-chart-by-month.astro";
 
 export interface Props {
   project: RisingStars.Project;
@@ -33,7 +33,7 @@ const { t } = await useTranslations(language, year);
     <h4>
       {t("common.view_project.trends", { year })}
     </h4>
-    <ProjectChart project={project} language={language} year={year} />
+    <BarChartByMonth project={project} language={language} year={year} />
   </div>
 
   <div>
