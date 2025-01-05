@@ -53,6 +53,12 @@
     "count": 10
   },
   {
+    "key": "component",
+    "count": 10,
+    "availableComments": [],
+    "excluded": []
+  },
+  {
     "key": "css-in-js",
     "tags": ["css-in-js", "atomic-css", "css-lib"],
     "count": 10,

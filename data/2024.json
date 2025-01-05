@@ -1,6 +1,6 @@
 {
-  "date": "2025-01-02T09:25:01.710Z",
-  "count": 148,
+  "date": "2025-01-05T07:24:21.333Z",
+  "count": 155,
   "projects": [
     {
       "name": "shadcn/ui",
@@ -998,6 +998,19 @@
       "url": "https://sdk.vercel.ai/docs"
     },
     {
+      "name": "NextUI",
+      "slug": "nextui",
+      "full_name": "nextui-org/nextui",
+      "description": "Beautiful, fast and modern React UI library.",
+      "stars": 22480,
+      "delta": 4945,
+      "monthly": [336, 276, 290, 326, 391, 481, 586, 424, 470, 428, 387, 550],
+      "tags": ["react", "component", "tailwind"],
+      "owner_id": 86160567,
+      "created_at": "2021-04-22T13:06:23.000Z",
+      "url": "https://nextui.org"
+    },
+    {
       "name": "Electron",
       "slug": "electron",
       "full_name": "electron/electron",
@@ -1062,6 +1075,20 @@
       "icon": "slidev.svg"
     },
     {
+      "name": "Mantine",
+      "slug": "mantine",
+      "full_name": "mantinedev/mantine",
+      "description": "A fully featured React components library",
+      "stars": 27260,
+      "delta": 4531,
+      "monthly": [297, 315, 347, 350, 348, 391, 391, 524, 345, 395, 348, 480],
+      "tags": ["react", "component"],
+      "owner_id": 79146003,
+      "created_at": "2021-01-07T14:02:19.000Z",
+      "url": "https://mantine.dev",
+      "icon": "mantine.svg"
+    },
+    {
       "name": "Remix",
       "slug": "remix",
       "full_name": "remix-run/remix",
@@ -1098,6 +1125,20 @@
       "url": "https://directus.io"
     },
     {
+      "name": "Material UI",
+      "slug": "material-ui",
+      "full_name": "mui/material-ui",
+      "description": " A robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster",
+      "stars": 94363,
+      "delta": 4234,
+      "monthly": [275, 278, 308, 394, 306, 432, 346, 351, 364, 361, 390, 429],
+      "tags": ["react", "material", "component", "design-system"],
+      "owner_id": 33663932,
+      "created_at": "2014-08-18T19:11:54.000Z",
+      "url": "https://mui.com/material-ui/",
+      "icon": "material-ui.svg"
+    },
+    {
       "name": "create-t3-app",
       "slug": "create-t3-app",
       "full_name": "t3-oss/create-t3-app",
@@ -1116,6 +1157,20 @@
       "owner_id": 108266839,
       "created_at": "2022-05-24T13:31:01.000Z",
       "url": "https://create.t3.gg"
+    },
+    {
+      "name": "Ant Design",
+      "slug": "ant-design",
+      "full_name": "ant-design/ant-design",
+      "description": "An enterprise-class UI design language and React UI library",
+      "stars": 93016,
+      "delta": 4161,
+      "monthly": [325, 328, 354, 282, 347, 483, 301, 337, 345, 438, 311, 310],
+      "tags": ["react", "component", "design-system"],
+      "owner_id": 12101536,
+      "created_at": "2015-04-24T15:37:24.000Z",
+      "url": "https://ant.design",
+      "icon": "ant.svg"
     },
     {
       "name": "shadcn-vue",
@@ -1281,6 +1336,20 @@
       "icon": "express.svg"
     },
     {
+      "name": "Headless UI",
+      "slug": "headless-ui",
+      "full_name": "tailwindlabs/headlessui",
+      "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+      "stars": 26482,
+      "delta": 3354,
+      "monthly": [194, 245, 236, 233, 285, 293, 300, 444, 252, 311, 231, 330],
+      "tags": ["react", "vue", "component", "headless", "tailwind"],
+      "owner_id": 67109815,
+      "created_at": "2020-09-16T09:53:09.000Z",
+      "url": "https://headlessui.com",
+      "icon": "headlessui.svg"
+    },
+    {
       "name": "Vue Element Admin",
       "slug": "vue-element-admin",
       "full_name": "PanJiaChen/vue-element-admin",
@@ -1292,6 +1361,19 @@
       "owner_id": 8121621,
       "created_at": "2017-04-17T03:35:49.000Z",
       "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "shadcn-svelte",
+      "slug": "shadcn-svelte",
+      "full_name": "huntabyte/shadcn-svelte",
+      "description": "Accessible and customizable components that you can copy and paste into your apps.",
+      "stars": 5724,
+      "delta": 3280,
+      "monthly": [186, 215, 322, 223, 218, 212, 226, 218, 252, 269, 456, 483],
+      "tags": ["component", "svelte"],
+      "owner_id": 64506580,
+      "created_at": "2023-05-16T03:26:53.000Z",
+      "url": "https://next.shadcn-svelte.com"
     },
     {
       "name": "Tesseract.js",
@@ -1319,6 +1401,20 @@
       "created_at": "2016-09-28T19:10:14.000Z",
       "url": "https://www.fastify.dev",
       "icon": "fastify.svg"
+    },
+    {
+      "name": "Radix Primitives",
+      "slug": "radix",
+      "full_name": "radix-ui/primitives",
+      "description": "An open-source UI component library for building high-quality, accessible design systems and web apps",
+      "stars": 16158,
+      "delta": 3221,
+      "monthly": [199, 205, 244, 223, 229, 248, 261, 309, 335, 327, 258, 383],
+      "tags": ["react", "access", "component", "headless"],
+      "owner_id": 75042455,
+      "created_at": "2020-06-19T13:23:22.000Z",
+      "url": "https://radix-ui.com/primitives",
+      "icon": "radix.svg"
     },
     {
       "name": "React Strict DOM",
@@ -2314,6 +2410,7 @@
     { "name": "Next.js", "code": "nextjs" },
     { "name": "CRDT", "code": "crdt" },
     { "name": "Graph", "code": "graph" },
+    { "name": "Design System", "code": "design-system" },
     { "name": "Headless components", "code": "headless" },
     { "name": "TailwindCSS", "code": "tailwind" },
     { "name": "Solid", "code": "solid" },
