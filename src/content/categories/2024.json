@@ -20,7 +20,7 @@
     "count": 10,
     "excluded": ["vuejs", "vuejs-2", "directus", "wikijs", "tiptap"],
     "excludedTags": ["react", "nextjs"],
-    "guest": "lihbr"
+    "guest": "danielroe"
   },
   {
     "key": "nodejs-framework",
