@@ -12,18 +12,20 @@ The idea of letting developers own the code of their components, instead of prov
 A lot of features were added in 2024:
 
 - [Charts](https://ui.shadcn.com/charts) powered by the library [Recharts](http://recharts.org/)
-- Themes to generate sets of CSS variables you can customize in your code base
-- [Blocks](https://ui.shadcn.com/blocks): collection of layouts to address needs of typical web apps
-- New components such as a responsive and extensible sidebar.
+- [Themes](https://ui.shadcn.com/themes) to generate sets of CSS variables you can customize in your codebase
+- [Blocks](https://ui.shadcn.com/blocks): a collection of layouts to address the needs of typical web apps
+- New components such as a responsive and extensible sidebar
 
 The new CLI is much more powerful and flexible:
 
-- `shadcn add` can now install components, themes, hooks, utils, dependencies…
-- It supports multiple frameworks: Next.js, Remix, Vite, Laravel...
+- `shadcn add` can now install components, themes, hooks, utils, dependencies, etc.
+- It supports multiple frameworks: Next.js, Remix, Vite, Laravel, etc.
 - It can update your Tailwind config instead of overriding it
 - Support for monorepos
 
-Another reason of its success is the tight integration with the service [v0](https://v0.dev) that can generate components built on top of shadcn/ui.
+Another reason for its success is the tight integration with the service [v0](https://v0.dev) that can generate components built on top of shadcn/ui.
+
+It's also a great learning resource to show how to create composable components that are easy to extend, as components are right in your source folder.
 
 #### Number 2: Excalidraw
 
