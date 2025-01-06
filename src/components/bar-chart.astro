@@ -24,7 +24,7 @@ const yMax = maxBy(data, (d) => d.y)?.y;
                 height: yMax ? `${Math.round((y * 100) / yMax)}%` : `0px`,
               }}
             >
-              <div class="project-chart-stars">
+              <div class:list={["project-chart-stars", y === yMax && "max"]}>
                 {y > 0 && <>{formatStarNumber(y, 1)}</>}
               </div>
             </div>
@@ -44,10 +44,11 @@ const yMax = maxBy(data, (d) => d.y)?.y;
   .project-chart {
     width: 100%;
     margin-top: 30px;
+    container-type: inline-size;
   }
 
   .project-chart-columns {
-    min-height: 150px;
+    min-height: 120px;
     display: flex;
     gap: 3px;
   }
@@ -65,15 +66,27 @@ const yMax = maxBy(data, (d) => d.y)?.y;
   }
 
   .project-chart-stars {
+    display: none; /* hidden by default on small screens */
     text-align: center;
     font-family: "Space Mono", monospace;
     font-weight: 400;
     color: var(--lighter-text-color);
-    font-size: var(--small-font);
+    font-size: 10px;
     position: absolute;
     top: -22px;
     width: 100%;
+
+    &.max {
+      display: block; /* show only the highest ba on small screens */
+    }
+    @container (min-width: 300px) {
+      display: block;
+    }
+    @container (min-width: 500px) {
+      font-size: 12px;
+    }
   }
+
   .project-chart-stars span {
     margin-left: -100%;
     margin-right: -100%;
