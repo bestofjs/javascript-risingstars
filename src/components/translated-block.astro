@@ -42,7 +42,7 @@ function replaceProjectSlugsWithLinks(
   md: string,
 ) {
   const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
-    const project = projectsBySlug.get(slug);
+    const project = projectsBySlug.get(slug.toLowerCase());
     if (!project) {
       return slug;
     }

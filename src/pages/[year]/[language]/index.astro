@@ -22,7 +22,7 @@ type YearSetting = { year: number; languages: string[] };
 export function getStaticPaths() {
   return settings
     .flatMap(({ year, languages }) =>
-      languages.map((language) => ({ year: year.toString(), language }))
+      languages.map((language) => ({ year: year.toString(), language })),
     )
     .map(({ year, language }) => ({ params: { year, language } }));
 }
@@ -37,12 +37,12 @@ const languageCodes =
   [];
 
 const languages = languageCodes.map((code) =>
-  allLanguages.find((item) => item.code === code)
+  allLanguages.find((item) => item.code === code),
 ) as RisingStars.Language[];
 
 const { categories, projectsByTag } = await fetchPageProps(year, language);
 
-const topCategoryCount = 7; // categories loaded eagerly
+const topCategoryCount = 8; // categories loaded eagerly
 ---
 
 <Layout year={year} language={language}>

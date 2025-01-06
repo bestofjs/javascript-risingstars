@@ -1,8 +1,8 @@
-[![image](https://github.com/bestofjs/javascript-risingstars/blob/develop/public/img/2023/en/rising-stars.png?raw=true)](https://risingstars.js.org/)
+[![image](public/img/2024/en/rising-stars.png)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2023: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
+An overview of the JavaScript landscape in 2024: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
 
 ## Team members
 
@@ -40,7 +40,7 @@ Special thanks:
 
 ## How to contribute?
 
-Requirements: [PNPM](https://pnpm.io/), Node.js 18+
+Requirements: [PNPM](https://pnpm.io/), Node.js 20+
 
 - Clone the repo
 - Install the dependencies: `pnpm install`
@@ -61,7 +61,7 @@ File system overview:
 ./src/content
 ├── categories
 ├── comments
-│   └── 2023
+│   └── 2024
 │       ├── en
 │       │   ├── categories
 │       │   └── guests
@@ -73,6 +73,6 @@ File system overview:
 │           └── guests
 ├── contributors
 └── messages
-    ├── 2023
+    ├── 2024
     └── common
 ```
