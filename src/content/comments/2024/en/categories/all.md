@@ -31,10 +31,17 @@ It's also a great learning resource to show how to create composable components 
 
 {excalidraw} is an open-source online tool designed for creating digital drawings and visualizations with a distinctive hand-drawn style that makes it the perfect tool to brainstorm ideas or explain concepts and workflows.
 
-AI features include: Text to Diagram, Mermaid to Excalidraw, and Wireframe to Code.
+AI features include: Text to Diagram, {Mermaid} to Excalidraw, and Wireframe to Code.
 
 #### Number 3: AFFiNE
 
 {affine} is an open-source knowledge base and project management tool that combines the capabilities of tools like Notion (with documents made of blocks) and Miro (infinite canvas for drawing).
 
 Being offline-first, it's a great tool to build one's Personal Knowledge Base.
+
+#### Special mentions
+
+If you want to see what a browser is capable of, check out:
+
+- {PGLite}: a Postgres database using WebAssembly
+- [WebVM](https://labs.leaningtech.com/blog/webvm-20): a virtual machine running in the browser
