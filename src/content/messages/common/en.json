@@ -14,6 +14,7 @@
     "created": "Created",
     "homepage": "Homepage",
     "trends": "Trends in {{year}}",
+    "allYears": "By year",
     "data": "GitHub data",
     "stars_total": "Total stars",
     "links": "Links"

@@ -1,39 +1,31 @@
 ---
-import { useTranslations } from "~/i18n/utils";
 import { formatStarNumber } from "./project-shared";
+import { maxBy } from "es-toolkit";
 
 export interface Props {
-  project: RisingStars.Project;
-  year: number;
-  language: string;
+  data: { y: number; x: string }[];
 }
 
-const { project, year, language } = Astro.props;
+const { data } = Astro.props;
 
-const { t } = await useTranslations(language, year);
-
-const months = t("common.view_project.months").split(" ");
-const monthlyDeltas = (project.monthly || [])
-  .concat([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) // fill with 0 for missing data
-  .slice(0, 12)
-  .reverse() as number[]; // sort by date ascending (from January to December)
-const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
+const yMax = maxBy(data, (d) => d.y)?.y;
 ---
 
+<!-- Generic bar chart component to render data by month or by year -->
 <div class="project-chart">
   <div class="project-chart-columns">
     {
-      monthlyDeltas.map((d) => (
+      data.map(({ y }) => (
         <div class="project-chart-column">
-          {d > 0 ? (
+          {y > 0 ? (
             <div
               class="project-chart-bar"
               style={{
-                height: `${Math.round((d * 100) / monthlyDeltaMax)}%`,
+                height: yMax ? `${Math.round((y * 100) / yMax)}%` : `0px`,
               }}
             >
-              <div class="project-chart-stars">
-                {d > 0 && <>{formatStarNumber(d, 1)}</>}
+              <div class:list={["project-chart-stars", y === yMax && "max"]}>
+                {y > 0 && <>{formatStarNumber(y, 1)}</>}
               </div>
             </div>
           ) : (
@@ -44,7 +36,7 @@ const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
     }
   </div>
   <div class="project-chart-months">
-    {months.map((m) => <div class="project-chart-month">{m}</div>)}
+    {data.map(({ x }) => <div class="project-chart-month">{x}</div>)}
   </div>
 </div>
 
@@ -52,10 +44,11 @@ const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
   .project-chart {
     width: 100%;
     margin-top: 30px;
+    container-type: inline-size;
   }
 
   .project-chart-columns {
-    min-height: 150px;
+    min-height: 120px;
     display: flex;
     gap: 3px;
   }
@@ -73,15 +66,27 @@ const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
   }
 
   .project-chart-stars {
+    display: none; /* hidden by default on small screens */
     text-align: center;
     font-family: "Space Mono", monospace;
     font-weight: 400;
     color: var(--lighter-text-color);
-    font-size: var(--small-font);
+    font-size: 10px;
     position: absolute;
     top: -22px;
     width: 100%;
+
+    &.max {
+      display: block; /* show only the highest ba on small screens */
+    }
+    @container (min-width: 300px) {
+      display: block;
+    }
+    @container (min-width: 500px) {
+      font-size: 12px;
+    }
   }
+
   .project-chart-stars span {
     margin-left: -100%;
     margin-right: -100%;
@@ -100,5 +105,11 @@ const monthlyDeltaMax = monthlyDeltas.reduce((a, b) => Math.max(a, b), 0);
   .project-chart-no-data {
     font-style: italic;
     margin-bottom: 0.5rem;
+  }
+  .non-available {
+    color: var(--lighter-text-color);
+    text-align: center;
+    font-size: var(--small-font);
+    border-bottom: 1px dotted var(--grey3);
   }
 </style>
