@@ -1,15 +1,19 @@
-// TODO cleanup and add types
-
 import { orderBy } from "es-toolkit";
-import type { Category } from "~/content/config";
+import type { Category } from "~/content.config";
 
 function getSortedProjects(projectsBySlug: Map<string, RisingStars.Project>) {
   return orderBy(Array.from(projectsBySlug.values()), ["delta"], ["desc"]);
 }
 
 function isMatchingTag(category: Category, project: RisingStars.Project) {
-  const tags = category.tags || [category.key];
-  return tags.some((tag) => project.tags.includes(tag));
+  const hasIncludedTag = (category.tags || [category.key]).some((tag) =>
+    project.tags.includes(tag),
+  );
+  const hasExcludedTag = (category.excludedTags || []).some((tag) =>
+    project.tags.includes(tag),
+  );
+
+  return hasIncludedTag && !hasExcludedTag;
 }
 
 function filterByTag(

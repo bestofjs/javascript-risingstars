@@ -1,10 +1,9 @@
 import { getEntry } from "astro:content";
-import fs from "fs-extra";
-import path from "path";
 
 import settings from "~/settings/years-setup.json";
 import allLanguages from "~/settings/languages.json";
 import { processProjectData } from "~/utils/process-project-data";
+import invariant from "tiny-invariant";
 
 /*
 Shared logic between pages /:year/:language/index and /:year/:language/design pages
@@ -58,13 +57,9 @@ export async function fetchPageProps(
 }
 
 export async function getProjectData(year: number) {
-  const filepath = path.join(
-    process.cwd(),
-    `data`,
-    year.toString(),
-    "projects.json",
-  );
-  return fs.readJSON(filepath);
+  const entry = await getEntry("projects", year.toString());
+  invariant(entry, `No projects found for year ${year}`);
+  return entry.data;
 }
 
 async function getCategories(year: number) {

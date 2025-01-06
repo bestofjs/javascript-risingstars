@@ -1285,6 +1285,20 @@
       "icon": "apollo.svg"
     },
     {
+      "name": "Svelte",
+      "slug": "svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "stars": 5742,
+      "delta": 2178,
+      "monthly": [219, 123, 103, 163, 98, 102, 115, 192, 166, 227, 200, 470],
+      "tags": ["framework", "svelte"],
+      "owner_id": 23617963,
+      "created_at": "2016-11-20T18:13:05.000Z",
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
       "name": "Reason",
       "slug": "reason",
       "full_name": "facebook/reason",

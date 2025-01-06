@@ -1,0 +1,123 @@
+---
+import ProjectAvatar from "./project-avatar.astro";
+import { formatStarNumber } from "./project-shared";
+
+interface Props {
+  project: RisingStars.Project;
+  starDeltaReference?: number;
+  position: number;
+}
+
+const { position, project, starDeltaReference } = Astro.props;
+
+const widthPercent =
+  starDeltaReference && ((project.delta / starDeltaReference) * 100).toFixed();
+---
+
+<div class="project-table-row">
+  <div class="ranking">{position}</div>
+  <div class="inner">
+    <div class="icon">
+      <ProjectAvatar project={project} size={50} />
+    </div>
+    <div class="main-column">
+      {
+        widthPercent && (
+          <div class="project-table-bar" style={`width: ${widthPercent}%;`} />
+        )
+      }
+      <h3 class="project-name">{project.name}</h3>
+      <div class="description">{project.description}</div>
+    </div>
+    <div class="stars">+{formatStarNumber(project.delta, 1)}☆</div>
+  </div>
+</div>
+
+<style is:global>
+  .project-table-row {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .project-table-row:first-child {
+    border-top: 1px dashed var(--light-border-color);
+  }
+
+  .project-table-row:hover {
+    background-color: white;
+  }
+  .project-table-row:hover .project-table-bar {
+    opacity: 0;
+  }
+  .project-is-open .project-table-row {
+    background: white;
+  }
+</style>
+
+<style>
+  @media (max-width: 399px) {
+    .project-list {
+      margin: 0 calc(var(--main-block-spacing) * -1);
+    }
+  }
+
+  .project-table-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(212, 212, 212, 0.4);
+    opacity: 1;
+    z-index: -1;
+  }
+
+  .ranking {
+    position: absolute;
+    left: -50px;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--lightest-text-color);
+    font-size: 1.5rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    flex: 0 0 40px;
+  }
+  .inner {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    position: relative;
+    flex-grow: 1;
+    padding: 0 0 0 calc(var(--spacing) / 2);
+  }
+  .icon {
+    padding-right: 10px;
+  }
+  .main-column {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 0.7rem 0rem;
+  }
+  .project-name {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0.2rem;
+    color: var(--lighter-text-color);
+    font-size: var(--smallish-font);
+  }
+  .stars {
+    white-space: nowrap;
+    padding-right: 10px;
+  }
+</style>

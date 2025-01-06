@@ -1,16 +1,19 @@
 ---
+import { getProjectCustomLogoURL } from "~/utils/projects";
+
 export interface Props {
   project: RisingStars.Project;
   size: number;
+  colorMode?: "light" | "dark";
 }
-const { project, size } = Astro.props;
+const { project, size, colorMode } = Astro.props;
 
 const formatOwnerAvatar = (owner_id: number, size: number) =>
   `https://avatars.githubusercontent.com/u/${owner_id}?v=3&s=${size}`;
 
 const getProjectAvatarUrl = (project: RisingStars.Project, size: number) =>
   project.icon
-    ? `https://bestofjs.org/logos/${project.icon}`
+    ? getProjectCustomLogoURL(project.icon, colorMode || "light")
     : formatOwnerAvatar(project.owner_id, size);
 
 const projectAvatarURL = getProjectAvatarUrl(project, size);

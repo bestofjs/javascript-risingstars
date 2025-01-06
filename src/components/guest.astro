@@ -23,6 +23,7 @@ const { year, language, guestId } = Astro.props;
 <style>
   .guest {
     display: flex;
+    justify-content: space-between;
     gap: var(--spacing);
     margin-bottom: var(--spacing);
     padding: var(--spacing);
@@ -31,5 +32,6 @@ const { year, language, guestId } = Astro.props;
   }
   img {
     max-width: 120px;
+    display: block;
   }
 </style>
