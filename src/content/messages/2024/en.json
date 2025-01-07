@@ -21,7 +21,7 @@
     "mobile": "Mobile",
     "desktop": "Desktop",
     "compiler": "JS Flavors/Compilers",
-    "build": "Build Tools",
+    "build": "Tooling",
     "testframework": "Testing",
     "ide": "IDEs & Editors",
     "ssg": "Static Sites",

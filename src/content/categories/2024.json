@@ -29,6 +29,7 @@
   },
   {
     "key": "build",
+    "tags": ["build", "lint", "formatter"],
     "limit": 5,
     "count": 10,
     "guest": "slorber"

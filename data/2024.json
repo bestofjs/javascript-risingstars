@@ -1,6 +1,6 @@
 {
-  "date": "2025-01-06T22:05:54.197Z",
-  "count": 155,
+  "date": "2025-01-07T14:09:56.589Z",
+  "count": 154,
   "projects": [
     {
       "name": "shadcn/ui",
@@ -1791,19 +1791,6 @@
       "created_at": "2021-06-04T13:47:28.000Z",
       "url": "https://www.naiveui.com",
       "icon": "naiveui.svg"
-    },
-    {
-      "name": "tsup",
-      "slug": "tsup",
-      "full_name": "egoist/tsup",
-      "description": "The simplest and fastest way to bundle your TypeScript libraries.",
-      "stars": 9449,
-      "delta": 2108,
-      "monthly": [145, 136, 176, 139, 177, 221, 160, 176, 174, 221, 194, 189],
-      "tags": ["build", "module"],
-      "owner_id": 8784712,
-      "created_at": "2020-03-19T16:23:41.000Z",
-      "url": "https://tsup.egoist.dev"
     },
     {
       "name": "Cypress",
