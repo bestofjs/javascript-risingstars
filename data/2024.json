@@ -1,6 +1,6 @@
 {
-  "date": "2025-01-07T14:09:56.589Z",
-  "count": 154,
+  "date": "2025-01-08T12:44:58.913Z",
+  "count": 153,
   "projects": [
     {
       "name": "shadcn/ui",
@@ -1186,6 +1186,19 @@
       "url": "https://www.shadcn-vue.com/"
     },
     {
+      "name": "React Native Reusables",
+      "slug": "react-native-reusables",
+      "full_name": "mrzachnugent/react-native-reusables",
+      "description": "Universal shadcn/ui for React Native featuring a focused collection of components - Crafted with NativeWind v4 and accessibility in mind.",
+      "stars": 4330,
+      "delta": 3987,
+      "monthly": [415, 396, 332, 377, 311, 313, 291, 262, 241, 357, 466, 226],
+      "tags": ["react-native", "component", "tailwind"],
+      "owner_id": 63797719,
+      "created_at": "2023-12-16T16:47:00.000Z",
+      "url": "https://rnr-docs.vercel.app"
+    },
+    {
       "name": "Rspack",
       "slug": "rspack",
       "full_name": "web-infra-dev/rspack",
@@ -1401,20 +1414,6 @@
       "created_at": "2016-09-28T19:10:14.000Z",
       "url": "https://www.fastify.dev",
       "icon": "fastify.svg"
-    },
-    {
-      "name": "Radix Primitives",
-      "slug": "radix",
-      "full_name": "radix-ui/primitives",
-      "description": "An open-source UI component library for building high-quality, accessible design systems and web apps",
-      "stars": 16158,
-      "delta": 3221,
-      "monthly": [199, 205, 244, 223, 229, 248, 261, 309, 335, 327, 258, 383],
-      "tags": ["react", "access", "component", "headless"],
-      "owner_id": 75042455,
-      "created_at": "2020-06-19T13:23:22.000Z",
-      "url": "https://radix-ui.com/primitives",
-      "icon": "radix.svg"
     },
     {
       "name": "React Strict DOM",
@@ -2098,20 +2097,6 @@
       "icon": "preact.svg"
     },
     {
-      "name": "React Native Paper",
-      "slug": "react-native-paper",
-      "full_name": "callstack/react-native-paper",
-      "description": "Material Design for React Native (Android & iOS)",
-      "stars": 13135,
-      "delta": 1430,
-      "monthly": [107, 124, 110, 107, 95, 105, 126, 144, 76, 117, 147, 172],
-      "tags": ["material", "react-native", "component"],
-      "owner_id": 42239399,
-      "created_at": "2016-10-19T05:56:53.000Z",
-      "url": "https://reactnativepaper.com",
-      "icon": "react-native-paper.svg"
-    },
-    {
       "name": "Nano stores",
       "slug": "nano-stores",
       "full_name": "nanostores/nanostores",
@@ -2279,7 +2264,7 @@
       "name": "Hasura GraphQL Engine",
       "slug": "hasura-graphql-engine",
       "full_name": "hasura/graphql-engine",
-      "description": "Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.",
+      "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
       "stars": 31252,
       "delta": 664,
       "monthly": [55, 46, 60, 71, 37, 54, 65, 33, 71, 57, 59, 56],
