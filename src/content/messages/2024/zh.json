@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "2024年 JavaScript 明星项目",
+    "description": "2024 年 JavaScript 前景概述：有关前端、全栈和 Node.js 框架、React 和 Vue.js 生态系统、构建工具、状态管理的趋势……"
+  },
+  "header": {
+    "title": "2024年 JavaScript 明星项目"
+  },
+  "introduction": {
+    "table_of_contents": "目录",
+    "explanation": "下面的图表比较了各个项目过去 12 个月在 GitHub 上获得的 star。项目来源于 {{link}} 网站，一个收集了 Web 平台优秀项目的网站。你可以点击下面的项目来查看项目的更多信息。"
+  },
+  "conclusion": "总结",
+  "categories": {
+    "all": "最受欢迎的项目",
+    "framework": "前端框架",
+    "nodejsframework": "后端 / 全栈",
+    "react": "React 生态",
+    "vue": "Vue 生态",
+    "angular": "Angular 生态",
+    "mobile": "移动端",
+    "desktop": "桌面端",
+    "compiler": "编译器",
+    "build": "工具",
+    "testframework": "测试",
+    "ide": "IDEs & 编辑器",
+    "ssg": "静态站点",
+    "cssinjs": "样式 / CSS in JS",
+    "cssframework": "CSS 框架",
+    "statemanagement": "状态管理",
+    "graphql": "GraphQL",
+    "misc": "其他",
+    "learning": "学习资源",
+    "ai": "AI",
+    "csslib": "CSS 库",
+    "chart": "图表库",
+    "component": "UI组件库"
+  },
+  "social": {
+    "text": "了解 2024 年的 JavaScript 前景"
+  }
+}
