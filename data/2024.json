@@ -1,5 +1,5 @@
 {
-  "date": "2025-01-08T12:44:58.913Z",
+  "date": "2025-01-09T22:56:23.785Z",
   "count": 153,
   "projects": [
     {
@@ -176,6 +176,19 @@
       "created_at": "2013-05-24T16:15:54.000Z",
       "url": "https://react.dev",
       "icon": "react.svg"
+    },
+    {
+      "name": "Magic UI",
+      "slug": "magic-ui",
+      "full_name": "magicuidesign/magicui",
+      "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.",
+      "stars": 13157,
+      "delta": 13157,
+      "monthly": [1087, 1067, 1462, 1838, 1420, 1381, 1737, 3165, 0, 0, 0, 0],
+      "tags": ["react", "component", "tailwind"],
+      "owner_id": 166878038,
+      "created_at": "2023-06-26T19:17:10.000Z",
+      "url": "https://magicui.design"
     },
     {
       "name": "Next.js",
@@ -1376,19 +1389,6 @@
       "icon": "vueelementadmin.png"
     },
     {
-      "name": "shadcn-svelte",
-      "slug": "shadcn-svelte",
-      "full_name": "huntabyte/shadcn-svelte",
-      "description": "Accessible and customizable components that you can copy and paste into your apps.",
-      "stars": 5724,
-      "delta": 3280,
-      "monthly": [186, 215, 322, 223, 218, 212, 226, 218, 252, 269, 456, 483],
-      "tags": ["component", "svelte"],
-      "owner_id": 64506580,
-      "created_at": "2023-05-16T03:26:53.000Z",
-      "url": "https://next.shadcn-svelte.com"
-    },
-    {
       "name": "Tesseract.js",
       "slug": "tesseractjs",
       "full_name": "naptha/tesseract.js",
@@ -2122,6 +2122,20 @@
       "url": "https://tinybase.org"
     },
     {
+      "name": "Quasar",
+      "slug": "quasar",
+      "full_name": "quasarframework/quasar",
+      "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps, Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same codebase.",
+      "stars": 26116,
+      "delta": 1372,
+      "monthly": [94, 107, 121, 108, 104, 86, 133, 125, 126, 132, 84, 152],
+      "tags": ["framework", "mobile", "desktop", "vue"],
+      "owner_id": 23064371,
+      "created_at": "2015-10-05T15:45:36.000Z",
+      "url": "https://quasar.dev",
+      "icon": "quasar.svg"
+    },
+    {
       "name": "Panda",
       "slug": "panda",
       "full_name": "chakra-ui/panda",
@@ -2235,18 +2249,6 @@
       "owner_id": 48448799,
       "created_at": "2021-02-09T13:33:34.000Z",
       "url": "https://nhost.io"
-    },
-    {
-      "name": "Nextron",
-      "slug": "nextron",
-      "full_name": "saltyshiomix/nextron",
-      "description": "Next.js + Electron",
-      "stars": 4030,
-      "delta": 751,
-      "monthly": [55, 49, 51, 56, 67, 73, 67, 106, 60, 58, 58, 51],
-      "tags": ["desktop", "nextjs"],
-      "owner_id": 5608079,
-      "created_at": "2018-04-28T07:29:23.000Z"
     },
     {
       "name": "GraphiQL",
