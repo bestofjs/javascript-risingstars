@@ -86,7 +86,6 @@ export const byYear: { [year: string]: unknown } = {
     authors: ["michaelrambeau"],
     translators: {
       es: ["jvalen"],
-      zh: ["HuanBaby1314"],
     },
   },
 };

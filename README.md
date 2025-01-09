@@ -10,7 +10,6 @@ An overview of the JavaScript landscape in 2024: trends about frontend, backend 
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
 - [Frank Xu](https://github.com/frankyxhl)
 - [Evan Trujillo](https://github.com/Evomatic)
-- [Jack Huan](https://github.com/HuanBaby1314)
 - [Javier Valencia](http://www.jvalen.com)
 - [Jusang Kim](https://github.com/kimjusang)
 - [L1lith](https://github.com/L1lith)
