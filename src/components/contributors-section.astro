@@ -17,7 +17,7 @@ const thisYearContributors = getContributorsByYear(year);
 
 function getContributorByUserName(userName: string) {
   const found = contributors.find(
-    (member) => member.data.userName === userName,
+    (member) => member.data.userName === userName
   );
   if (!found) {
     throw new Error(`Contributor not found: ${userName}`);
@@ -41,7 +41,7 @@ const thisYearTranslators =
   ]?.map(getContributorByUserName) || [];
 
 const thisYearAuthors = thisYearContributors.authors.map(
-  getContributorByUserName,
+  getContributorByUserName
 );
 ---
 
@@ -62,7 +62,7 @@ const thisYearAuthors = thisYearContributors.authors.map(
       )
     }
     <div>
-      <p class="member-list-header">Authors</p>
+      <p class="member-list-header">Built by</p>
       <div class="translator-list">
         {thisYearAuthors.map((author) => <TeamMember member={author} />)}
       </div>
