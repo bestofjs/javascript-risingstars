@@ -11,7 +11,7 @@
   {
     "key": "react",
     "tags": ["react", "react-native"],
-    "count": 15,
+    "count": 20,
     "excluded": ["react", "react-native", "storybook", "trpc", "expo"],
     "guest": "rwieruch"
   },
@@ -39,7 +39,7 @@
     "tags": ["mobile", "react-native"],
     "count": 10,
     "guest": "evanbacon",
-    "availableComments": ["en", "es", "ja", "ko","zh"]
+    "availableComments": ["en", "es", "ja", "ko", "zh"]
   },
   {
     "key": "statemanagement",
