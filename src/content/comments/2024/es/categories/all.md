@@ -5,7 +5,7 @@ language: es
 
 #### Ganador: shadcn/ui lo hizo de nuevo 🏆
 
-Como en 2023, {shadcn-ui} es el proyecto más destacado del año. Encontró un equilibrio perfecto entre bases sólidas (proporcionadas por librerías de componentes como {radix}) y posibilidades de personalización.
+Como en 2023, {shadcn-ui} es el proyecto más destacado del año. Encontró un equilibrio perfecto teniendo unos sólidos cimientos (proporcionados por librerías de componentes como {radix}) y a la vez ofreciendo posibilidades de personalización.
 
 La idea de permitir a los desarrolladores poseer el código de sus componentes, en lugar de proporcionar componentes que debes `importar`, fue realmente revelador.
 

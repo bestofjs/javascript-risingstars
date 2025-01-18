@@ -1,7 +1,7 @@
 {
   "page": {
     "title": "2024 JavaScript Rising Stars",
-    "description": "Un análisis completo del universo JavaScript en 2023: tendencias en front-end, frameworks fullstack y Node.js, ecosistemas React y Vue.js, herramientas para el build, gestión del estado de la aplicación..."
+    "description": "Un análisis completo del universo JavaScript en 2024: tendencias en front-end, frameworks fullstack y Node.js, ecosistemas React y Vue.js, herramientas para el build, gestión del estado de la aplicación..."
   },
   "header": {
     "title": "2024 JavaScript Rising Stars"
@@ -12,7 +12,7 @@
   },
   "conclusion": "Conclusión",
   "categories": {
-    "all": "Proyectos más populares del 2023",
+    "all": "Proyectos más populares del 2024",
     "framework": "Frameworks Front-end",
     "nodejsframework": "Back-end/Full-stack",
     "react": "Ecosistema React",
@@ -21,20 +21,20 @@
     "mobile": "Móvil",
     "desktop": "Escritorio",
     "compiler": "Compiladores JS",
-    "build": "Build",
+    "build": "Herramientas",
     "testframework": "Testing",
     "ide": "IDEs & Editores",
     "ssg": "Static Sites",
     "cssinjs": "Estilo / CSS en JS",
     "cssframework": "Frameworks CSS",
-    "statemanagement": "Estado de la aplicación",
+    "statemanagement": "Gestión del Estado",
     "graphql": "GraphQL",
     "misc": "Miscelánea",
     "learning": "Recursos de aprendizaje",
     "ai": "IA",
     "csslib": "Librerías de CSS",
     "chart": "Librerías de Gráficos",
-    "component": "Librerías de Componentes"
+    "component": "Componentes"
   },
   "social": {
     "text": "Echa un vistazo al panorama JavaScript del 2024"

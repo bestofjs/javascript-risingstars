@@ -3,7 +3,7 @@ id: statemanagement
 language: es
 ---
 
-{zustand} continúa su meteórico ascenso como la librería de gestión de estado preferida para React, así como para React Native y más allá. Zustand es la librería de gestión de estado "esencial" y está claro que los desarrolladores buscan precisamente eso.
+{zustand} continúa su meteórico ascenso como la librería de gestión de estado preferida para React, así como para React Native y más allá. Zustand es la librería de gestión de estado con el "mínimo esencial" y está claro que los desarrolladores buscan precisamente eso.
 
 Si analizamos los resultados según el estilo de gestión de estado, surgen patrones interesantes. Zustand, {pinia}, {redux} y {boardgame} son unidireccionales: defines tu estado y las acciones que lo modifican. Con {jotai}, {nano-stores} y {Legend-State}, defines tu estado como átomos y creas átomos computados que dependen de otros átomos. {valtio} es una librería bidireccional para la gestión de estado. Y {XState} es una librería de máquinas de estados.
 

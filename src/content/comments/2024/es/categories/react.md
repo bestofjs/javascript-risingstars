@@ -5,7 +5,7 @@ language: es
 
 2024 ha visto cómo React ha tomado paradójicamente fuertes posicionamientos y a la vez ha sido también flexible con estos.
 
-Por un lado, React ha adoptado una fuerte posicionamiento respecto a la introducción de Componentes y Funciones de Servidor, guiando a los desarrolladores hacia arquitecturas que operan a través de la red. Sin embargo, ha mostrado una postura más flexible a medida que estos nuevos conceptos están siendo adoptados y abstraídos por varios frameworks, cada uno con su propio enfoque.
+Por un lado, React ha adoptado una postura firme respecto a la introducción de Componentes y Funciones de Servidor, guiando a los desarrolladores hacia arquitecturas que operan a través de la red. Sin embargo, ha mostrado un posicionamiento más flexible a medida que estos nuevos conceptos están siendo adoptados y abstraídos por varios frameworks, cada uno con su propio enfoque.
 
 React ya no es solo una librería. Está evolucionando hacia una especificación para frameworks, lo que representa un cambio significativo en el ecosistema hacia una mentalidad centrada en frameworks. Sin embargo, aún permite a los desarrolladores no adoptar esta mentalidad y permanecer más cerca del cliente si lo prefieren.
 
