@@ -23,6 +23,11 @@ The new CLI is much more powerful and flexible:
 - It can update your Tailwind config instead of overriding it
 - Support for monorepos
 
+Even more impressive: the `shadcn` CLI can import components from any "registry" (not just shadcn/ui), creating an ecosystem of compatible component libraries, as seen in the following projects included in the _Component Libraries_ rankings:
+
+- {motion-primitives}
+- {magic-ui}
+
 Another reason for its success is the tight integration with the service [v0](https://v0.dev) that can generate components built on top of shadcn/ui.
 
 It's also a great learning resource to show how to create composable components that are easy to extend, as components are right in your source folder.
