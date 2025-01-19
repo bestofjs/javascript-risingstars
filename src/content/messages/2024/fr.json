@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "2024 JavaScript Rising Stars",
+    "description": "Un panorama complet du paysage JavaScript en 2024 : tendances concernant les frameworks frontend, fullstack et Node.js, les écosystèmes React et Vue.js, les outils de build, la gestion d'état..."
+  },
+  "header": {
+    "title": "2024 JavaScript Rising Stars"
+  },
+  "introduction": {
+    "table_of_contents": "Catégories",
+    "explanation": "Les graphiques suivants comparent le nombre d'étoiles ajoutées sur GitHub au cours des 12 derniers mois. Nous avons analysé les projets provenant de {{link}}, une sélection des meilleurs projets liés au développement web. Notez que vous pouvez cliquer sur un projet pour obtenir plus d'informations."
+  },
+  "conclusion": "Conclusion",
+  "categories": {
+    "all": "Projets les plus populaires",
+    "framework": "Frameworks côté client",
+    "nodejsframework": "Back-end/Full-stack",
+    "react": "Écosystème React",
+    "vue": "Écosystème Vue",
+    "angular": "Écosystème Angular",
+    "mobile": "Mobile",
+    "desktop": "Bureau",
+    "compiler": "Variantes/Compilateurs JS",
+    "build": "Outils de développement",
+    "testframework": "Tests",
+    "ide": "Éditeurs de code",
+    "ssg": "Sites statiques",
+    "cssinjs": "Style / CSS dans JS",
+    "cssframework": "Frameworks CSS",
+    "statemanagement": "Gestion d'état",
+    "graphql": "GraphQL",
+    "misc": "Divers",
+    "learning": "Ressources pour apprendre",
+    "ai": "IA",
+    "csslib": "Librairies CSS",
+    "chart": "Librairies de graphiques",
+    "component": "Librairies de composants"
+  },
+  "social": {
+    "text": "Découvrez le paysage JavaScript en 2024"
+  }
+}
