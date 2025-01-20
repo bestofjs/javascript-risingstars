@@ -33,7 +33,18 @@ const { language, year, projects } = Astro.props;
         </>
       )
     }
-    {language === "fr" && `Le Meilleur du JavaScript en ${year}`}
+    {
+      language === "fr" && (
+        <>
+          {year} JavaScript
+          <br />
+          Rising Stars
+          <div style={{ fontSize: "56px", marginTop: "24px" }}>
+            Version française
+          </div>
+        </>
+      )
+    }
     {
       language === "zh" && (
         <>
