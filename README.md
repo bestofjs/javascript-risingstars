@@ -4,7 +4,7 @@
 
 An overview of the JavaScript landscape in 2024: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
 
-## Team members
+## Contributors
 
 - [Alexey Pyltsyn](https://lex111.ru/)
 - [Benjamin Blackwood](https://twitter.com/B_Blackwo)
@@ -13,6 +13,7 @@ An overview of the JavaScript landscape in 2024: trends about frontend, backend 
 - [Jack Huan](https://github.com/HuanBaby1314)
 - [Javier Valencia](http://www.jvalen.com)
 - [Jusang Kim](https://github.com/kimjusang)
+- [Hamid Dinar](https://github.com/codinHamster)
 - [L1lith](https://github.com/L1lith)
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Mihai Badescu](https://github.com/zawarudo)
