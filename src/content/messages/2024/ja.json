@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "JavaScript ライジングスター 2024",
+    "description": "2024年のJavaScript白書。フロントエンド、フルスタック・Node.jsフレームワーク、React/Vueエコシステム、ビルドツール、状態管理などのトレンドを徹底調査。"
+  },
+  "header": {
+    "title": "JavaScript ライジングスター 2024"
+  },
+  "introduction": {
+    "table_of_contents": "目次",
+    "explanation": "以下は、2024年の1年間で増加したGitHubのスター数によるランキングです。Webプラットフォームに関するベストプロジェクトを集めたリストである{{link}}からの一年間の分析です。各プロジェクトをクリックすると、より詳細な情報を閲覧することができます。"
+  },
+  "conclusion": "おわりに",
+  "categories": {
+    "all": "総合ランキング",
+    "framework": "フロントエンドフレームワーク",
+    "nodejsframework": "バックエンド/フルスタック",
+    "react": "React エコシステム",
+    "vue": "Vue エコシステム",
+    "angular": "Angular エコシステム",
+    "mobile": "モバイル",
+    "desktop": "デスクトップ",
+    "compiler": "JS コンパイラ",
+    "build": "ビルドツール",
+    "testframework": "テストツール",
+    "ide": "IDEとエディタ",
+    "ssg": "静的サイトジェネレータ",
+    "cssinjs": "CSS in JavaScript",
+    "cssframework": "CSS フレームワーク",
+    "statemanagement": "状態管理",
+    "graphql": "GraphQL",
+    "misc": "その他",
+    "learning": "学習リソース",
+    "ml": "AI",
+    "csslib": "CSSライブラリ",
+    "chart": "図形描画ライブラリ",
+    "component": "コンポーネントライブラリ"
+  },
+  "social": {
+    "text": "2024年のJavaScriptの動きを俯瞰しよう"
+  }
+}
