@@ -88,6 +88,7 @@ export const byYear: { [year: string]: unknown } = {
       es: ["jvalen"],
       fr: ["codinHamster"],
       zh: ["HuanBaby1314"],
+      ja: ["NurseAngel"],
     },
   },
 };
