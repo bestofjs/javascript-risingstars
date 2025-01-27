@@ -1,8 +1,8 @@
 ---
 id: jherr
-language: en
+language: ja
 ---
 
-### Guest Writer: [Jack Herrington](https://www.pronextjs.dev/)
+### ゲストライター: [Jack Herrington](https://www.pronextjs.dev/)
 
-Blue Collar Coder on [YouTube](youtube.com/c/JackHerrington)
+[YouTube](https://youtube.com/c/JackHerrington)のBlue Collar Coder。

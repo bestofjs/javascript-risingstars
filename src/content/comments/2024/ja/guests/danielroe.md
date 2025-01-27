@@ -1,9 +1,9 @@
 ---
 id: danielroe
-language: en
+language: ja
 ---
 
-### Guest Writer [Daniel Roe](https://roe.dev/)
+### ゲストライター [Daniel Roe](https://roe.dev/)
 
-Daniel leads the {Nuxt} core team.
-He's a full-time open source contributor, speaker, and consultant.
+{Nuxt}コアチームのリーダー。
+フルタイムのオープンソースコントリビューターであり、スピーカーであり、コンサルタント。

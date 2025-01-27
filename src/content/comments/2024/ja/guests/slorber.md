@@ -3,8 +3,8 @@ id: slorber
 language: en
 ---
 
-### Guest Writer: [Sébastien Lorber](https://thisweekinreact.com)
+### ゲストライター: [Sébastien Lorber](https://thisweekinreact.com)
 
-Sébastien runs [This Week in React](https://thisweekinreact.com/), keeping 45k+ React devs up to date.
+[This Week in React](https://thisweekinreact.com/)を運営し、45000人以上のReact開発者に最新情報を提供している。
 
-He’s also the lead maintainer of [Docusaurus](https://docusaurus.io/), working for Meta Open Source
+Meta Open Sourceの[Docusaurus](https://docusaurus.io/)のリードエンジニア。
