@@ -91,6 +91,10 @@ export const byYear: { [year: string]: unknown } = {
       ja: ["NurseAngel"],
     },
   },
+  "2025": {
+    authors: ["michaelrambeau"],
+    translators: {},
+  },
 };
 
 export function getContributorsByYear(year: number) {

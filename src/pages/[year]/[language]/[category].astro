@@ -19,7 +19,7 @@ export async function getStaticPaths() {
     .flatMap(({ year, languages }) =>
       languages.flatMap((language) => {
         const collectionItem = collectionItems.find(
-          (item) => item.id === year.toString(),
+          (item) => item.id === year.toString()
         );
         const categorySlugs = collectionItem!.data.map((item) => item.key);
         return categorySlugs.map((category) => ({
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
           language,
           category,
         }));
-      }),
+      })
     )
     .map(({ year, language, category }) => ({
       params: {
@@ -39,7 +39,7 @@ export async function getStaticPaths() {
 }
 
 const searchSchema = z.object({
-  year: z.coerce.number().int().min(2016).max(2024),
+  year: z.coerce.number().int().min(2016).max(2025),
   category: z.string(),
   language: z.string(),
 });
