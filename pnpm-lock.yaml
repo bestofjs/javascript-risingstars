@@ -48,8 +48,8 @@ importers:
         specifier: ^16.0.0
         version: 16.0.0
       htmx.org:
-        specifier: ^1.9.12
-        version: 1.9.12
+        specifier: ^2.0.8
+        version: 2.0.8
       i18next:
         specifier: ^25.7.2
         version: 25.7.2(typescript@5.9.3)
@@ -1485,8 +1485,8 @@ packages:
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
 
-  htmx.org@1.9.12:
-    resolution: {integrity: sha512-VZAohXyF7xPGS52IM8d1T1283y+X4D+Owf3qY1NZ9RuBypyu9l8cGsxUMAG5fEAb/DhT7rDoJ9Hpu5/HxFD3cw==}
+  htmx.org@2.0.8:
+    resolution: {integrity: sha512-fm297iru0iWsNJlBrjvtN7V9zjaxd+69Oqjh4F/Vq9Wwi2kFisLcrLCiv5oBX0KLfOX/zG8AUo9ROMU5XUB44Q==}
 
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
@@ -4193,7 +4193,7 @@ snapshots:
 
   html-void-elements@3.0.0: {}
 
-  htmx.org@1.9.12: {}
+  htmx.org@2.0.8: {}
 
   http-cache-semantics@4.2.0: {}
 

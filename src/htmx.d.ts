@@ -1,7 +1,7 @@
-import * as Htmx from "htmx.org";
+import type htmx from "htmx.org";
 
 declare global {
   interface Window {
-    htmx: typeof Htmx;
+    htmx: typeof htmx;
   }
 }
