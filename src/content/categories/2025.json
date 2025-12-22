@@ -68,7 +68,7 @@
   },
   {
     "key": "test-framework",
-    "tags": ["test", "test-framework", "auto"],
+    "tags": ["test", "test-framework", "automation"],
     "excluded": ["json-server"],
     "count": 10,
     "availableComments": []
