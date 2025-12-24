@@ -3,5 +3,23 @@ id: all
 language: en
 ---
 
-#### Overall winner: TODO 🏆
+#### Overall winner: {n8n} 🏆
 
+{n8n} is the absolute winner of the 2025 rankings, and the numbers are insane: +110,000 stars in a single year. No project has received that amount of stars in a single year since we have been running the Rising Stars.
+
+n8n is an open-source workflow automation tool that allows you to connect various apps and services together. Its success says a lot about the rise of AI agents and the need for automation.
+
+At **{2}**, {shadcnui}, our champion of 2023 and 2024, keeps its tremendous momentum.
+
+If you have checked our previous editions, you already know it's a set of consistent React components crafted with taste and great attention to details (accessibility, keyboard interactions, etc.), gathering the best of headless components such as Radix UI, TanStack Table...
+
+It's also a registry that has made possible a new mode of distributing components.
+A lot of projects define themselves as "shadcn/ui" projects, and about 100 projects are listed in the official [Registry Directory](https://ui.shadcn.com/docs/directory).
+
+The most amazing feature of shadcn/ui: it found the sweet spot between functionality available out of the box and customizability.
+
+Beyond the newly added components, shadcn/ui is no longer tightly coupled to Radix UI and now supports [Base UI](https://base-ui.com/).
+
+There was a criticism that sites built tend to look similar; however, the ability to customize the look-and-feel has improved a lot with the introduction of new styles and a new [create page](https://ui.shadcn.com/create) to build your own custom theme.
+
+At **{3}**, {react-bits} is a collection of fancy animated components for React, perfect for building memorable websites. Interestingly, it's distributed as a shadcn/ui project, available from the shadcn/ui registry using the command line or via good old copy-paste in your codebase. The only dependency is the animation library [GSAP](https://greensock.com/gsap/).
