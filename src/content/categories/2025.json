@@ -38,19 +38,18 @@
     "key": "mobile",
     "tags": ["mobile", "react-native"],
     "count": 10,
-    "guest": "evanbacon",
-    "availableComments": ["en", "es", "ja", "ko", "zh", "fr"]
+    "guest": "jamiebirch"
+  },
+  {
+    "key": "ai",
+    "tags": ["ml", "ai"],
+    "count": 10,
+    "guest": "jherr"
   },
   {
     "key": "statemanagement",
     "tags": ["state"],
     "limit": 5,
-    "count": 10,
-    "guest": "jherr"
-  },
-  {
-    "key": "ai",
-    "tags": ["ml", "ai"],
     "count": 10
   },
   {
