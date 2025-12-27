@@ -11,4 +11,4 @@ So here's your 2026 homework: stop asking "how do I get better responses from my
 
 Chatbot's were just the training wheels. Time to take them off.
 
-Oh, also, pay attention to the dark horse of "code mode". It could be the biggest thing in this space since MCP.
+Oh, also, pay attention to the dark horse of ["code mode"](https://blog.cloudflare.com/code-mode/). It could be the biggest thing in this space since MCP.
