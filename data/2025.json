@@ -1,6 +1,6 @@
 {
-  "date": "2025-12-27T00:31:40.342Z",
-  "count": 154,
+  "date": "2025-12-28T06:29:31.642Z",
+  "count": 152,
   "projects": [
     {
       "name": "n8n",
@@ -759,28 +759,14 @@
       "url": "https://next-saas-start.vercel.app"
     },
     {
-      "name": "Svelte Flow",
-      "slug": "svelte-flow",
-      "full_name": "xyflow/xyflow",
-      "description": "A customizable Svelte component for building node-based editors and interactive diagrams by the creators of React Flow",
-      "stars": 34317,
-      "delta": 7649,
-      "monthly": [340, 459, 1742, 435, 520, 477, 484, 650, 589, 698, 608, 647],
-      "tags": ["diagram", "svelte", "graph"],
-      "owner_id": 7106853,
-      "created_at": "2019-07-15T14:47:30.000Z",
-      "url": "https://svelteflow.dev/",
-      "icon": "react-flow.svg"
-    },
-    {
-      "name": "React Flow",
+      "name": "React Flow + Svelte Flow",
       "slug": "react-flow",
       "full_name": "xyflow/xyflow",
-      "description": "A customizable React component for building node-based editors and interactive diagrams",
+      "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
       "stars": 34317,
       "delta": 7649,
       "monthly": [340, 459, 1742, 435, 520, 477, 484, 650, 589, 698, 608, 647],
-      "tags": ["react", "diagram", "graph"],
+      "tags": ["react", "diagram", "graph", "svelte"],
       "owner_id": 7106853,
       "created_at": "2019-07-15T14:47:30.000Z",
       "url": "https://reactflow.dev",
@@ -1200,40 +1186,14 @@
       "icon": "react-native.svg"
     },
     {
-      "name": "Oxc Parser",
-      "slug": "oxc-parser",
-      "full_name": "oxc-project/oxc",
-      "description": "Oxc Parser",
-      "stars": 17851,
-      "delta": 4885,
-      "monthly": [276, 332, 742, 298, 318, 448, 865, 250, 256, 572, 256, 272],
-      "tags": ["build", "code-parser", "rust"],
-      "owner_id": 149946238,
-      "created_at": "2023-02-09T05:46:51.000Z",
-      "url": "https://oxc.rs"
-    },
-    {
-      "name": "Oxfmt",
-      "slug": "oxfmt",
-      "full_name": "oxc-project/oxc",
-      "description": "Oxc formatter, Prettier-compatible",
-      "stars": 17851,
-      "delta": 4885,
-      "monthly": [276, 332, 742, 298, 318, 448, 865, 250, 256, 572, 256, 272],
-      "tags": ["rust", "formatter"],
-      "owner_id": 149946238,
-      "created_at": "2023-02-09T05:46:51.000Z",
-      "url": "https://oxc.rs"
-    },
-    {
-      "name": "Oxlint",
+      "name": "Oxlint + Oxc Parser + Oxfmt",
       "slug": "oxc",
       "full_name": "oxc-project/oxc",
-      "description": "Oxc linter, designed to catch erroneous or useless code without requiring any configurations by default",
+      "description": "A collection of high-performance JavaScript tools.",
       "stars": 17851,
       "delta": 4885,
       "monthly": [276, 332, 742, 298, 318, 448, 865, 250, 256, 572, 256, 272],
-      "tags": ["lint", "rust"],
+      "tags": ["lint", "rust", "build", "code-parser", "formatter"],
       "owner_id": 149946238,
       "created_at": "2023-02-09T05:46:51.000Z",
       "url": "https://oxc.rs",
@@ -1349,27 +1309,22 @@
       "icon": "vue.svg"
     },
     {
-      "name": "TanStack Start",
-      "slug": "tanstack-start",
-      "full_name": "TanStack/router",
-      "description": "A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more).",
-      "stars": 12728,
-      "delta": 4202,
-      "monthly": [302, 396, 562, 515, 248, 257, 296, 313, 338, 412, 293, 270],
-      "tags": ["react", "fullstack", "vue", "solid"],
-      "owner_id": 72518640,
-      "created_at": "2019-01-14T13:54:39.000Z",
-      "url": "https://tanstack.com/router"
-    },
-    {
-      "name": "TanStack Router",
+      "name": "TanStack Router + TanStack Start",
       "slug": "tanstack-router",
       "full_name": "TanStack/router",
       "description": "A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more).",
       "stars": 12728,
       "delta": 4202,
       "monthly": [302, 396, 562, 515, 248, 257, 296, 313, 338, 412, 293, 270],
-      "tags": ["angular", "react", "routing", "vue", "svelte", "solid"],
+      "tags": [
+        "angular",
+        "react",
+        "routing",
+        "vue",
+        "svelte",
+        "solid",
+        "fullstack"
+      ],
       "owner_id": 72518640,
       "created_at": "2019-01-14T13:54:39.000Z",
       "url": "https://tanstack.com/router"
@@ -1915,6 +1870,20 @@
       "icon": "cypress.svg"
     },
     {
+      "name": "Rspack",
+      "slug": "rspack",
+      "full_name": "web-infra-dev/rspack",
+      "description": "The fast Rust-based JavaScript bundler with webpack-compatible API",
+      "stars": 12312,
+      "delta": 1845,
+      "monthly": [55, 75, 124, 109, 144, 122, 148, 158, 172, 343, 181, 214],
+      "tags": ["build", "rust"],
+      "owner_id": 87694465,
+      "created_at": "2022-04-01T08:45:30.000Z",
+      "url": "https://rspack.rs",
+      "icon": "rspack.svg"
+    },
+    {
       "name": "Vue Element Admin",
       "slug": "vue-element-admin",
       "full_name": "PanJiaChen/vue-element-admin",
@@ -1940,6 +1909,32 @@
       "created_at": "2020-08-11T23:15:36.000Z",
       "url": "https://jotai.org",
       "icon": "jotai.webp"
+    },
+    {
+      "name": "tsdown",
+      "slug": "tsdown",
+      "full_name": "rolldown/tsdown",
+      "description": "The elegant bundler for libraries powered by Rolldown",
+      "stars": 3139,
+      "delta": 1744,
+      "monthly": [
+        100,
+        223,
+        301,
+        241,
+        200,
+        203,
+        249,
+        227,
+        null,
+        null,
+        null,
+        null
+      ],
+      "tags": ["build"],
+      "owner_id": 94954945,
+      "created_at": "2024-03-08T14:25:35.000Z",
+      "url": "https://tsdown.dev"
     },
     {
       "name": "Nuxt UI",
@@ -2003,7 +1998,8 @@
       "monthly": [21, 37, 64, 55, 68, 217, 74, 130, 220, 162, 223, 329],
       "tags": ["state", "reactive"],
       "owner_id": 28635252,
-      "created_at": "2023-10-20T03:03:20.000Z"
+      "created_at": "2023-10-20T03:03:20.000Z",
+      "url": "https://npmjs.com/package/alien-signals"
     },
     {
       "name": "XState",
