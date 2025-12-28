@@ -4,6 +4,7 @@ import { useTranslations } from "~/i18n/utils";
 import ProjectList from "./project-list.astro";
 import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
+import ExpertStory from "./expert-story.astro";
 import LoadingIndicator from "./loading-indicator.astro";
 import CategoryNavByYear from "./category-nav-by-year.astro";
 
@@ -14,7 +15,13 @@ export interface Props {
   category: RisingStars.Category;
 }
 const { language, year, projects, category } = Astro.props;
-const { availableComments, key: tag, limit = 5, guest } = category;
+const {
+  availableComments,
+  key: tag,
+  limit = 5,
+  guest,
+  expertStories,
+} = category;
 
 const key = tag.replace(/-/gi, "");
 const { t } = await useTranslations(language, year);
@@ -74,6 +81,18 @@ const hasComment = !availableComments || availableComments.includes(language);
               language={language}
               year={year}
             />
+            {expertStories && expertStories.length > 0 && (
+              <div class="expert-stories">
+                {expertStories.map((expertGuestId) => (
+                  <ExpertStory
+                    expertGuestId={expertGuestId}
+                    categoryKey={tag}
+                    language={language}
+                    year={year}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         )
       }
@@ -141,5 +160,11 @@ const hasComment = !availableComments || availableComments.includes(language);
     justify-content: center;
     gap: 4px;
     margin-top: 1rem;
+  }
+  .expert-stories {
+    margin-top: calc(var(--spacing) * 2);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
   }
 </style>

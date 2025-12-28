@@ -44,7 +44,8 @@
     "key": "ai",
     "tags": ["ml", "ai"],
     "count": 10,
-    "guest": "jherr"
+    "guest": "jherr",
+    "expertStories": ["raymondcamden"]
   },
   {
     "key": "statemanagement",

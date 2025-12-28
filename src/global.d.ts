@@ -31,6 +31,7 @@ declare namespace RisingStars {
     tags?: string[];
     excluded?: Project["slug"][];
     guest?: string;
+    expertStories?: string[];
     availableComments?: string[];
   };
 

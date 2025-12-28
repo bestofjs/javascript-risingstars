@@ -38,6 +38,7 @@ const categorySchema = z.object({
   excludedTags: z.array(z.string()).optional(),
   availableComments: z.array(z.string()).optional(),
   guest: z.string().optional(),
+  expertStories: z.array(z.string()).optional(),
   disabled: z.boolean().optional(),
 });
 
