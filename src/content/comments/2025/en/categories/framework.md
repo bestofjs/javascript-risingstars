@@ -15,7 +15,7 @@ Speaking of effects, a large part of the internet was down when Cloudflare DDoS'
 
 React started as a UI library, but the move to the server and the adoption of React Server Components is the biggest change over the previous years.
 
-It comes with great power but also great responsibility and risks, as we have seen with several critical vulnerabilities such as React2Shell, a critical remote code execution (RCE) vulnerability in React Server Components that required urgent patch releases of React. ([December 3, 2024](https://react.dev/blog/2024/12/03/critical-security-vulnerability-in-react-server-components), [December 11, 2024](https://react.dev/blog/2024/12/11/denial-of-service-and-source-code-exposure-in-react-server-components))
+It comes with great power but also great responsibility and risks, as we have seen with several critical vulnerabilities such as React2Shell, a critical remote code execution (RCE) vulnerability in React Server Components that required urgent patch releases of React. ([December 3, 2025](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components), [December 11, 2025](https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components))
 
 At **{2}**, {Ripple} is the newcomer in the TOP 5. It's a brand new UI framework that combines the best of React, Solid, and Svelte.
 
