@@ -7,13 +7,13 @@ language: en
 
 {n8n} is the absolute winner of the 2025 rankings, and the numbers are insane: +110,000 stars in a single year. No project has received that amount of stars in a single year since we started running the Rising Stars.
 
-n8n is an open-source workflow automation tool that allows you to connect various apps and services together. Its success says a lot about the rise of AI agents and the need for automation.
+n8n is a fair-code workflow automation platform with native AI capabilities that allows you to connect various apps and services together. Its success says a lot about the rise of AI agents and the need for automation.
 
 Three other projects related to AI make the TOP 10:
 
-- {onlook}
-- {dyad}
-- {stagehand}
+- {onlook}: brings AI-first visual editing to React apps
+- {dyad}: a free, local, open-source AI app builder and v0/lovable/Bolt alternative
+- {stagehand}: brings AI-powered browser automation
 
 #### Number 2: shadcn-ui
 
@@ -26,7 +26,7 @@ A lot of projects define themselves as "shadcn/ui" projects, and about 100 proje
 
 The most amazing feature of shadcn/ui is that it found the sweet spot between functionality available out of the box and customizability.
 
-Beyond the newly added components, shadcn/ui is no longer tightly coupled to Radix UI and now supports [Base UI](https://base-ui.com/).
+Beyond the newly added components, shadcn/ui is no longer tightly coupled to Radix UI and now supports [Base UI](https://base-ui.com/) (number 4 in the component libraries rankings)
 
 There was a criticism that sites built with it tend to look similar; however, the ability to customize the look-and-feel has improved a lot with the introduction of new styles and a new [create page](https://ui.shadcn.com/create) to build your own custom theme.
 
