@@ -35,17 +35,18 @@
     "guest": "slorber"
   },
   {
+    "key": "ai",
+    "tags": ["ml", "ai"],
+    "limit": 10,
+    "count": 20,
+    "guest": "jherr",
+    "expertStories": ["raymondcamden"]
+  },
+  {
     "key": "mobile",
     "tags": ["mobile", "react-native"],
     "count": 10,
     "guest": "jamiebirch"
-  },
-  {
-    "key": "ai",
-    "tags": ["ml", "ai"],
-    "count": 10,
-    "guest": "jherr",
-    "expertStories": ["raymondcamden"]
   },
   {
     "key": "statemanagement",
