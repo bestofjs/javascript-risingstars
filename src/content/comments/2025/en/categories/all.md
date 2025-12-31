@@ -5,7 +5,7 @@ language: en
 
 #### Overall winner: {n8n} 🏆
 
-{n8n} is the absolute winner of the 2025 rankings, and the numbers are insane: +110,000 stars in a single year. No project has received that amount of stars in a single year since we started running the Rising Stars.
+{n8n} is the absolute winner of the 2025 rankings, and the numbers are insane: +112,000 stars in a single year. No project has received that amount of stars in a single year since we started running the Rising Stars.
 
 n8n is a fair-code workflow automation platform with native AI capabilities that allows you to connect various apps and services together. Its success says a lot about the rise of AI agents and the need for automation.
 
