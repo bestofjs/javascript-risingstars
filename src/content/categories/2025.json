@@ -39,8 +39,7 @@
     "tags": ["ml", "ai"],
     "limit": 10,
     "count": 20,
-    "guest": "jherr",
-    "expertStories": ["raymondcamden"]
+    "guest": "jherr"
   },
   {
     "key": "mobile",
