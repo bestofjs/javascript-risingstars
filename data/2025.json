@@ -1046,7 +1046,7 @@
       "icon": "docusaurus.svg"
     },
     {
-      "name": "dioxus",
+      "name": "Dioxus",
       "slug": "dioxus",
       "full_name": "DioxusLabs/dioxus",
       "description": "Fullstack app framework for web, desktop, and mobile.",
