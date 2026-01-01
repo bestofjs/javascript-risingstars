@@ -5,11 +5,11 @@ language: en
 
 {react} regained its crown from {htmx}, which had topped the framework category in 2024.
 
-At **{1}**, React continues to dominate the frontend framework landscape. There were interesting debates about the fact that React is 12 years old and whether more modern alternatives like {solid} or {svelte} may be suitable for new projects. Check out [how React won by default](https://www.lorenstew.art/blog/react-won-by-default/).
+There were interesting debates about the fact that React is 12 years old and whether more modern alternatives like {solid} or {svelte} may be suitable for new projects. Check out [how React won by default](https://www.lorenstew.art/blog/react-won-by-default/).
 
 The fact that LLMs are trained with React codebases creates a situation that makes the emergence of alternative frameworks more difficult.
 
-Nevertheless, great improvements came with React 19, which brings many new features such as the `Actions` API and better hooks to manage events triggered by the user.
+Nevertheless, great improvements came with React 19, which brings many new features such as the `Activity` API and better hooks to manage events triggered by the user.
 
 Speaking of effects, a large part of the internet was down when Cloudflare DDoS'd themselves because of a `useEffect` making infinite calls to their API from their dashboards.
 
@@ -17,7 +17,7 @@ React started as a UI library, but the move to the server and the adoption of Re
 
 It comes with great power but also great responsibility and risks, as we have seen with several critical vulnerabilities such as React2Shell, a critical remote code execution (RCE) vulnerability in React Server Components that required urgent patch releases of React. ([December 3, 2025](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components), [December 11, 2025](https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components))
 
-At **{2}**, {Ripple} is the newcomer in the TOP 5. It's a brand new UI framework that combines the best of React, Solid, and Svelte.
+At #2, {Ripple} is the newcomer in the TOP 5. It's a brand new UI framework that combines the best of React, Solid, and Svelte.
 
 It has reactive primitives, a component-based architecture, and a template syntax.
 

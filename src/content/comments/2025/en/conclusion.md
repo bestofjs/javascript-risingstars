@@ -9,7 +9,7 @@ One of the biggest news of the year is [the acquisition of Bun](https://bun.com/
 
 > AI coding tools are getting really good, really fast and they're using Bun's single-file executables to ship CLIs and agents that run everywhere.
 
-Another news that matters for the JS community: [Lee Robinson](https://x.com/leerob) who was the face of Next.js for years (and our Guest Writer in 2020!) joined Cursor, providing educational content about AI to developers; see his [Learning Path](https://www.cursor.com/learn/), excellent for beginners.
+Another news that matters for the JS community: [Lee Robinson](https://x.com/leerob) who was the face of Next.js for years (and our Guest Writer in 2020!) joined Cursor, providing educational content about AI to developers; see his [Learning course](https://www.cursor.com/learn/), excellent for beginners.
 
 Speaking of familiar faces in the Open-source community, Anthony Fu ({vite}, {vitest} and so many projects!), Daniel Roe and Sébastien Chopin ({nuxt}) joined Vercel, it looks like a good sign for the diversity of the frameworks considering the company is known for its focus on Next.js and React.
 
@@ -31,6 +31,8 @@ Speaking of React, the directive pattern caused some controversy this year. Dire
 
 These directives rely on build-time conventions and not explicit runtime contracts, generating interesting discussions about the future of the language that is now 30 years old!
 Read about [Directives and the Platform Boundary](https://tanstack.com/blog/directives-and-the-platform-boundary#when-directives-look-like-the-platform-developers-treat-them-like-the-platform) from Tanner Linsley (the man behind the TanStack!)
+
+2025 was not all sunshine and innovation. We have already mentioned the React2Shell vulnerability found at the end of the year, but the whole npm ecosystem was under attack with the ["Shai-Hulud" supply chain attack](https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages), a sophisticated campaign that compromised thousands of npm packages and GitHub repositories. This attack highlighted the fragility of our dependency ecosystem and the critical need for better security practices, dependency auditing, and supply chain protection.
 
 What to expect in 2026? Mastering agent workflows seems to be a must-have skill for developers, in the same time we don't want to surrender all control to AI and compromise with quality and clean code.
 Finding the right balance will be the key!
