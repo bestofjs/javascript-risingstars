@@ -7,6 +7,10 @@ export function getYearSettings() {
   return parsedSettings;
 }
 
+export function getAllYears() {
+  return getYearSettings().map(({ year }) => year);
+}
+
 export function getAllLanguages() {
   const parsedLanguages = allLanguagesSchema.parse(allLanguages);
   return parsedLanguages;

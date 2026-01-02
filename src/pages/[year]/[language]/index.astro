@@ -15,11 +15,14 @@ import { fetchPageProps } from "~/fetch-page-props";
 import LoadingIndicator from "~/components/loading-indicator.astro";
 import HtmxExtension from "~/components/htmx-extension.astro";
 import { parsePageParams } from "~/utils/page-params";
-import { getYearSettings, getAvailableLanguages } from "~/settings";
-
-const settings = getYearSettings();
+import {
+  getYearSettings,
+  getAvailableLanguages,
+  getAllYears,
+} from "~/settings";
 
 export function getStaticPaths() {
+  const settings = getYearSettings();
   return settings
     .flatMap(({ year, languages }) =>
       languages.map((language) => ({ year: year.toString(), language }))
@@ -28,13 +31,9 @@ export function getStaticPaths() {
 }
 
 const { year, language } = parsePageParams(Astro.params);
-
-const allYears = settings.map((item) => item.year);
-
+const allYears = getAllYears();
 const languages = getAvailableLanguages(year);
-
 const { categories, projectsByTag } = await fetchPageProps(year, language);
-
 const topCategoryCount = 8; // categories loaded eagerly
 ---
 
