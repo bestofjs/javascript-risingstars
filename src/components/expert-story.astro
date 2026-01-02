@@ -1,12 +1,13 @@
 ---
 import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
   expertGuestId: string;
   categoryKey: string;
   year: number;
-  language: string;
+  language: LanguageCode;
 }
 const { year, language, expertGuestId, categoryKey } = Astro.props;
 ---
