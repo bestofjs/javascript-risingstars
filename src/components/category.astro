@@ -1,5 +1,6 @@
 ---
 import { useTranslations } from "~/i18n/utils";
+import type { Category, LanguageCode, RawProject } from "~/schema";
 
 import ProjectList from "./project-list.astro";
 import TranslatedBlock from "./translated-block.astro";
@@ -9,10 +10,10 @@ import LoadingIndicator from "./loading-indicator.astro";
 import CategoryNavByYear from "./category-nav-by-year.astro";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
-  projects: RisingStars.Project[];
-  category: RisingStars.Category;
+  projects: RawProject[];
+  category: Category;
 }
 const { language, year, projects, category } = Astro.props;
 const {

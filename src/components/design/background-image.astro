@@ -1,8 +1,9 @@
 ---
+import type { RawProject } from "~/schema";
 import ProjectAvatarGrid from "./project-avatar-grid.astro";
 
 export interface Props {
-  projects: RisingStars.Project[];
+  projects: RawProject[];
 }
 
 const { projects } = Astro.props;

@@ -3,10 +3,11 @@ import { getCollection } from "astro:content";
 import { orderBy } from "es-toolkit";
 
 import LoadingIndicator from "./loading-indicator.astro";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
   year: number;
-  language: string;
+  language: LanguageCode;
   category: string;
 }
 
@@ -24,7 +25,7 @@ async function getAvailableYears() {
   const categories = orderBy(
     items.filter((item) => item.data.find((cat) => cat.key === category)),
     ["id"],
-    ["asc"],
+    ["asc"]
   );
 
   return categories.map((item) => parseInt(item.id, 10));

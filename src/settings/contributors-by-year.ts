@@ -1,16 +1,9 @@
 import { z } from "astro:content";
+import { languageCodeSchema } from "../schema";
 
 const yearContributorsSchema = z.object({
   authors: z.array(z.string()),
-  translators: z.object({
-    es: z.array(z.string()).optional(),
-    fr: z.array(z.string()).optional(),
-    ja: z.array(z.string()).optional(),
-    zh: z.array(z.string()).optional(),
-    id: z.array(z.string()).optional(),
-    ko: z.array(z.string()).optional(),
-    ru: z.array(z.string()).optional(),
-  }),
+  translators: z.record(languageCodeSchema, z.array(z.string()).optional()),
 });
 
 export const byYear: { [year: string]: unknown } = {
