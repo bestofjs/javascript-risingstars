@@ -10,7 +10,7 @@ import type {
   RawProject,
   Tag,
 } from "./schema";
-import { getLanguages, getYearSettings } from "./settings";
+import { getAvailableLanguages, getYearSettings } from "./settings";
 
 /*
 Shared logic between pages /:year/:language/index and /:year/:language/design pages
@@ -40,13 +40,8 @@ export async function fetchPageProps(
     categories,
   );
 
-  const allYears = getYearSettings().map(({ year: y }) => y);
-  const languageCodes =
-    getYearSettings().find(({ year: y }) => y === year)?.languages || [];
-
-  const languages = languageCodes
-    .map((code) => getLanguages().find((item) => item.code === code))
-    .filter((language) => language !== undefined);
+  const allYears = getYearSettings().map(({ year }) => year);
+  const languages = getAvailableLanguages(year);
 
   return {
     year,

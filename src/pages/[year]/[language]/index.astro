@@ -11,15 +11,13 @@ import ContributorsSection from "~/components/contributors-section.astro";
 import Footer from "~/components/footer.astro";
 import HtmxStyles from "~/components/htmx-styles.astro";
 
-import settings from "~/settings/years-setup.json";
-import allLanguages from "~/settings/languages.json";
 import { fetchPageProps } from "~/fetch-page-props";
 import LoadingIndicator from "~/components/loading-indicator.astro";
 import HtmxExtension from "~/components/htmx-extension.astro";
-import type { Language } from "~/schema";
 import { parsePageParams } from "~/utils/page-params";
+import { getYearSettings, getAvailableLanguages } from "~/settings";
 
-type YearSetting = { year: number; languages: string[] };
+const settings = getYearSettings();
 
 export function getStaticPaths() {
   return settings
@@ -31,15 +29,9 @@ export function getStaticPaths() {
 
 const { year, language } = parsePageParams(Astro.params);
 
-const allYears = (settings as YearSetting[]).map((item) => item.year);
+const allYears = settings.map((item) => item.year);
 
-const languageCodes =
-  (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
-  [];
-
-const languages = languageCodes.map((code) =>
-  allLanguages.find((item) => item.code === code)
-) as Language[];
+const languages = getAvailableLanguages(year);
 
 const { categories, projectsByTag } = await fetchPageProps(year, language);
 

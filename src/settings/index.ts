@@ -7,7 +7,15 @@ export function getYearSettings() {
   return parsedSettings;
 }
 
-export function getLanguages() {
+export function getAllLanguages() {
   const parsedLanguages = allLanguagesSchema.parse(allLanguages);
   return parsedLanguages;
+}
+
+export function getAvailableLanguages(year: number) {
+  const languageCodes =
+    getYearSettings().find(({ year: y }) => y === year)?.languages || [];
+  return languageCodes
+    .map((code) => getAllLanguages().find((item) => item.code === code))
+    .filter((language) => language !== undefined);
 }
