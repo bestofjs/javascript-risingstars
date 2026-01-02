@@ -1,13 +1,13 @@
 ---
 import { useTranslations } from "~/i18n/utils";
 import ProjectAvatar from "./project-avatar.astro";
-import type { Category } from "~/content.config";
+import type { Category, LanguageCode } from "~/schema";
 import type { ProjectsByCategory } from "~/schema";
 
 export interface Props {
   categories: Category[];
   projects: ProjectsByCategory;
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 const { language, year, projects, categories } = Astro.props;

@@ -2,8 +2,8 @@ import { getEntry } from "astro:content";
 import invariant from "tiny-invariant";
 
 import { processProjectData } from "~/utils/process-project-data";
-import type { Category } from "./content.config";
 import type {
+  Category,
   Language,
   LanguageCode,
   ProjectsByCategory,

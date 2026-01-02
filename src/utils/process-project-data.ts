@@ -1,6 +1,5 @@
 import { orderBy } from "es-toolkit";
-import type { Category } from "~/content.config";
-import type { RawProject } from "~/schema";
+import type { Category, RawProject } from "~/schema";
 
 function getSortedProjects(projectsBySlug: Map<string, RawProject>) {
   return orderBy(Array.from(projectsBySlug.values()), ["delta"], ["desc"]);

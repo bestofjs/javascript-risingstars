@@ -1,6 +1,6 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
-import { projectSchema, tagSchema } from "~/schema";
+import { categorySchema, projectSchema, tagSchema } from "~/schema";
 
 const projectsCollection = defineCollection({
   loader: glob({ pattern: "**/*.json", base: "./data" }),
@@ -28,20 +28,6 @@ const contributorCollection = defineCollection({
     isOpenToWork: z.boolean().optional(),
   }),
 });
-
-const categorySchema = z.object({
-  key: z.string(),
-  limit: z.number().optional(),
-  count: z.number().optional(),
-  tags: z.array(z.string()).optional(),
-  excluded: z.array(z.string()).optional(),
-  excludedTags: z.array(z.string()).optional(),
-  availableComments: z.array(z.string()).optional(),
-  guest: z.string().optional(),
-  disabled: z.boolean().optional(),
-});
-
-export type Category = z.infer<typeof categorySchema>;
 
 const categoryCollection = defineCollection({
   loader: glob({ pattern: "**/*.json", base: "./src/content/categories" }),
