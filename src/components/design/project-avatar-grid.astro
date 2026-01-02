@@ -3,10 +3,11 @@
 Component only used to generate the header background image
 saved in `/public/img/:year/banner.png`
 */
+import type { RawProject } from "~/schema";
 import ProjectAvatar from "~/components/project-avatar.astro";
 
 export interface Props {
-  projects: RisingStars.Project[];
+  projects: RawProject[];
   size?: number;
   columns?: number;
 }

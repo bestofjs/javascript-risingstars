@@ -6,6 +6,7 @@ import invariant from "tiny-invariant";
 import { fetchPageProps } from "~/fetch-page-props";
 import { useTranslations } from "~/i18n/utils";
 import BarChart from "~/components/bar-chart.astro";
+import { languageCodeSchema, yearSchema } from "~/schema";
 
 export const partial = true;
 export const prerender = false;
@@ -21,8 +22,8 @@ export const prerender = false;
 
 const searchSchema = z.object({
   slug: z.string(),
-  year: z.coerce.number(),
-  language: z.string(),
+  year: yearSchema,
+  language: languageCodeSchema,
 });
 const { slug, year, language } = searchSchema.parse(Astro.params);
 

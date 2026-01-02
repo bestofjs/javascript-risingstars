@@ -1,10 +1,11 @@
 ---
+import type { RawProject } from "~/schema";
 import ProjectInteractive from "./project-interactive.tsx";
 import ProjectDetails from "./project-details.astro";
 import ProjectSummary from "./project-summary.astro";
 
 interface Props {
-  projects: RisingStars.Project[];
+  projects: RawProject[];
   language: string;
   year: number;
   openFirstProject?: boolean;

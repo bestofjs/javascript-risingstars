@@ -2,12 +2,13 @@
 import { getCollection } from "astro:content";
 
 import TeamMember from "~/components/team-member.astro";
+import type { Language } from "~/schema";
 import { getContributorsByYear } from "~/settings/contributors-by-year";
 
 export interface Props {
   year: number;
   language: string;
-  availableLanguages: RisingStars.Language[];
+  availableLanguages: Language[];
 }
 const { year, language, availableLanguages } = Astro.props;
 

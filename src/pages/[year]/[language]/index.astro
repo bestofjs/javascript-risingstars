@@ -16,19 +16,20 @@ import allLanguages from "~/settings/languages.json";
 import { fetchPageProps } from "~/fetch-page-props";
 import LoadingIndicator from "~/components/loading-indicator.astro";
 import HtmxExtension from "~/components/htmx-extension.astro";
+import type { Language } from "~/schema";
+import { parsePageParams } from "~/utils/page-params";
 
 type YearSetting = { year: number; languages: string[] };
 
 export function getStaticPaths() {
   return settings
     .flatMap(({ year, languages }) =>
-      languages.map((language) => ({ year: year.toString(), language })),
+      languages.map((language) => ({ year: year.toString(), language }))
     )
     .map(({ year, language }) => ({ params: { year, language } }));
 }
 
-const { year: yearParam, language } = Astro.params;
-const year = parseInt(yearParam!, 0);
+const { year, language } = parsePageParams(Astro.params);
 
 const allYears = (settings as YearSetting[]).map((item) => item.year);
 
@@ -37,8 +38,8 @@ const languageCodes =
   [];
 
 const languages = languageCodes.map((code) =>
-  allLanguages.find((item) => item.code === code),
-) as RisingStars.Language[];
+  allLanguages.find((item) => item.code === code)
+) as Language[];
 
 const { categories, projectsByTag } = await fetchPageProps(year, language);
 

@@ -6,12 +6,14 @@ import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
 import LoadingIndicator from "./loading-indicator.astro";
 import CategoryNavByYear from "./category-nav-by-year.astro";
+import type { Category } from "~/content.config";
+import type { RawProject } from "~/schema";
 
 export interface Props {
   language: string;
   year: number;
-  projects: RisingStars.Project[];
-  category: RisingStars.Category;
+  projects: RawProject[];
+  category: Category;
 }
 const { language, year, projects, category } = Astro.props;
 const { availableComments, key: tag, limit = 5, guest } = category;

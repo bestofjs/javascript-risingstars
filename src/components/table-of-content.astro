@@ -1,10 +1,12 @@
 ---
 import { useTranslations } from "~/i18n/utils";
 import ProjectAvatar from "./project-avatar.astro";
+import type { Category } from "~/content.config";
+import type { ProjectsByCategory } from "~/schema";
 
 export interface Props {
-  categories: RisingStars.Category[];
-  projects: RisingStars.ProjectsByCategory;
+  categories: Category[];
+  projects: ProjectsByCategory;
   language: string;
   year: number;
 }

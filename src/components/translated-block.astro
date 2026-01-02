@@ -6,6 +6,7 @@ import { getCollection } from "astro:content";
 
 import { getProjectData } from "~/fetch-page-props";
 import { getProjectsBySlug } from "~/utils/process-project-data";
+import type { RawProject } from "~/schema";
 
 export interface Props {
   id: string;
@@ -18,7 +19,7 @@ const { id, language, year } = Astro.props;
 const comments = await getCollection("comments");
 
 const comment = comments.find(
-  (comment) => comment.id === `${year}/${language}/${id}`,
+  (comment) => comment.id === `${year}/${language}/${id}`
 );
 if (!comment) throw new Error(`Content not found: ${year}/${language}/${id}`);
 if (!comment.body)
@@ -29,7 +30,7 @@ const { projects } = await getProjectData(year);
 const projectsBySlug = getProjectsBySlug(projects);
 const processedContent = replaceProjectSlugsWithLinks(
   projectsBySlug,
-  comment.body,
+  comment.body
 );
 
 const html = await remark().use(remarkHtml).process(processedContent);
@@ -38,8 +39,8 @@ const html = await remark().use(remarkHtml).process(processedContent);
 // const { Content } = await comment.render();
 
 function replaceProjectSlugsWithLinks(
-  projectsBySlug: Map<string, RisingStars.Project>,
-  md: string,
+  projectsBySlug: Map<string, RawProject>,
+  md: string
 ) {
   const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
     const project = projectsBySlug.get(slug.toLowerCase());

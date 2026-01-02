@@ -25,4 +25,39 @@ export const tagSchema = z.object({
   code: z.string(),
 });
 
+export type Tag = z.infer<typeof tagSchema>;
+
 export type RawProject = z.infer<typeof projectSchema>;
+
+export type ProjectsByCategory = { [category: string]: RawProject[] };
+
+export const languageCodeSchema = z.enum([
+  "en",
+  "zh",
+  "ja",
+  "fr",
+  "es",
+  "id",
+  "ru",
+  "ko",
+]);
+
+export type LanguageCode = z.infer<typeof languageCodeSchema>;
+
+export const languageSchema = z.object({
+  code: languageCodeSchema,
+  text: z.string(),
+});
+
+export const allLanguagesSchema = z.array(languageSchema);
+
+export type Language = z.infer<typeof languageSchema>;
+
+export const yearSchema = z.coerce.number().min(2016).max(2025);
+
+export const allYearsSchema = z.array(
+  z.object({
+    year: yearSchema,
+    languages: z.array(languageCodeSchema),
+  }),
+);

@@ -1,9 +1,16 @@
 import { getEntry } from "astro:content";
-
-import settings from "~/settings/years-setup.json";
-import allLanguages from "~/settings/languages.json";
-import { processProjectData } from "~/utils/process-project-data";
 import invariant from "tiny-invariant";
+
+import { processProjectData } from "~/utils/process-project-data";
+import type { Category } from "./content.config";
+import type {
+  Language,
+  LanguageCode,
+  ProjectsByCategory,
+  RawProject,
+  Tag,
+} from "./schema";
+import { getLanguages, getYearSettings } from "./settings";
 
 /*
 Shared logic between pages /:year/:language/index and /:year/:language/design pages
@@ -12,20 +19,18 @@ used to feed either `getStaticProps` or `getServerSideProps`
 
 export type MainPageProps = {
   allYears: number[];
-  categories: RisingStars.Category[];
-  projectsBySlug: RisingStars.Entities;
-  language: string;
-  languages: RisingStars.Language[];
-  projectsByTag: RisingStars.ProjectsByCategory;
-  tags: RisingStars.Tag[];
+  categories: Category[];
+  projectsBySlug: Map<string, RawProject>;
+  language: LanguageCode;
+  languages: Language[];
+  projectsByTag: ProjectsByCategory;
+  tags: Tag[];
   year: number;
 };
 
-type YearSetting = { year: number; languages: string[] };
-
 export async function fetchPageProps(
   year: number,
-  language: string,
+  language: LanguageCode,
 ): Promise<MainPageProps> {
   const { projects, tags } = await getProjectData(year);
 
@@ -35,13 +40,12 @@ export async function fetchPageProps(
     categories,
   );
 
-  const allYears = settings.map(({ year: y }) => y);
+  const allYears = getYearSettings().map(({ year: y }) => y);
   const languageCodes =
-    (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
-    [];
+    getYearSettings().find(({ year: y }) => y === year)?.languages || [];
 
   const languages = languageCodes
-    .map((code) => allLanguages.find((item) => item.code === code))
+    .map((code) => getLanguages().find((item) => item.code === code))
     .filter((language) => language !== undefined);
 
   return {
