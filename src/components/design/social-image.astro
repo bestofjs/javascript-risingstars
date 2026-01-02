@@ -1,10 +1,11 @@
 ---
+import type { LanguageCode, RawProject } from "~/schema";
 import ProjectAvatarGrid from "./project-avatar-grid.astro";
 
 export type Props = {
-  language: string;
+  language: LanguageCode;
   year: number;
-  projects: RisingStars.Project[];
+  projects: RawProject[];
 };
 
 const { language, year, projects } = Astro.props;

@@ -1,8 +1,10 @@
 ---
+import type { Language, LanguageCode } from "~/schema";
+
 export type Props = {
   year: number;
-  languages: RisingStars.Language[];
-  currentLanguage: string;
+  languages: Language[];
+  currentLanguage: LanguageCode;
 };
 
 const { year, languages, currentLanguage } = Astro.props;
