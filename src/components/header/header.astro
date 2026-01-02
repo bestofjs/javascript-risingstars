@@ -1,10 +1,10 @@
 ---
-import type { Language } from "~/schema";
+import type { Language, LanguageCode } from "~/schema";
 import LanguageMenuCompact from "./language-menu-compact.astro";
 import LanguageMenuFullSize from "./language-menu-fullsize.astro";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
   availableLanguages: Language[];
 }

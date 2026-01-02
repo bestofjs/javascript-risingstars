@@ -1,15 +1,15 @@
 ---
 import { useTranslations } from "~/i18n/utils";
+import type { Category, LanguageCode, RawProject } from "~/schema";
 
 import ProjectList from "./project-list.astro";
 import TranslatedBlock from "./translated-block.astro";
 import Guest from "./guest.astro";
 import LoadingIndicator from "./loading-indicator.astro";
 import CategoryNavByYear from "./category-nav-by-year.astro";
-import type { Category, RawProject } from "~/schema";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
   projects: RawProject[];
   category: Category;

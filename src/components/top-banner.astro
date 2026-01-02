@@ -1,8 +1,9 @@
 ---
 import { useTranslations } from "~/i18n/utils";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 

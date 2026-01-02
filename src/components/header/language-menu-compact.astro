@@ -1,15 +1,15 @@
 ---
-import type { Language } from "~/schema";
+import type { Language, LanguageCode } from "~/schema";
 
 export type Props = {
-  currentLanguage: string;
+  currentLanguage: LanguageCode;
   year: number;
   languages: Language[];
 };
 
 const { currentLanguage, year, languages } = Astro.props;
 
-function getPath(year: number, language: string) {
+function getPath(year: number, language: LanguageCode) {
   return `/${year}/${language}`;
 }
 ---

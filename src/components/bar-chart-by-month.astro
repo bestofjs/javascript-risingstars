@@ -1,12 +1,12 @@
 ---
 import { useTranslations } from "~/i18n/utils";
 import BarChart from "./bar-chart.astro";
-import type { RawProject } from "~/schema";
+import type { LanguageCode, RawProject } from "~/schema";
 
 export interface Props {
   project: RawProject;
   year: number;
-  language: string;
+  language: LanguageCode;
 }
 
 const { project, year, language } = Astro.props;

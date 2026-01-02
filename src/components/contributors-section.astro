@@ -2,12 +2,12 @@
 import { getCollection } from "astro:content";
 
 import TeamMember from "~/components/team-member.astro";
-import type { Language } from "~/schema";
+import type { Language, LanguageCode } from "~/schema";
 import { getContributorsByYear } from "~/settings/contributors-by-year";
 
 export interface Props {
   year: number;
-  language: string;
+  language: LanguageCode;
   availableLanguages: Language[];
 }
 const { year, language, availableLanguages } = Astro.props;

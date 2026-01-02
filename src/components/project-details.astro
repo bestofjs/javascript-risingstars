@@ -3,11 +3,11 @@ import { useTranslations } from "~/i18n/utils";
 import { formatStarNumber } from "./project-shared";
 import BarChartByMonth from "./bar-chart-by-month.astro";
 import LoadingIndicator from "./loading-indicator.astro";
-import type { RawProject } from "~/schema";
+import type { LanguageCode, RawProject } from "~/schema";
 
 export interface Props {
   project: RawProject;
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 

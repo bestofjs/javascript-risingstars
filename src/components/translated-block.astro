@@ -6,11 +6,11 @@ import { getCollection } from "astro:content";
 
 import { getProjectData } from "~/fetch-page-props";
 import { getProjectsBySlug } from "~/utils/process-project-data";
-import type { RawProject } from "~/schema";
+import type { LanguageCode, RawProject } from "~/schema";
 
 export interface Props {
   id: string;
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 

@@ -1,12 +1,12 @@
 ---
-import type { RawProject } from "~/schema";
+import type { LanguageCode, RawProject } from "~/schema";
 import ProjectInteractive from "./project-interactive.tsx";
 import ProjectDetails from "./project-details.astro";
 import ProjectSummary from "./project-summary.astro";
 
 interface Props {
   projects: RawProject[];
-  language: string;
+  language: LanguageCode;
   year: number;
   openFirstProject?: boolean;
   offset?: number;

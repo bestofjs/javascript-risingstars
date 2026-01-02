@@ -1,9 +1,9 @@
 ---
-import type { RawProject } from "~/schema";
+import type { LanguageCode, RawProject } from "~/schema";
 import ProjectAvatarGrid from "./project-avatar-grid.astro";
 
 export type Props = {
-  language: string;
+  language: LanguageCode;
   year: number;
   projects: RawProject[];
 };
