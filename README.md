@@ -1,8 +1,8 @@
-[![image](public/img/2024/en/rising-stars.png)](https://risingstars.js.org/)
+[![image](public/img/2025/en/rising-stars.png)](https://risingstars.js.org/)
 
 # JavaScript Rising Stars
 
-An overview of the JavaScript landscape in 2024: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
+An overview of the JavaScript landscape in 2025: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
 
 ## Contributors
 
@@ -42,7 +42,7 @@ Special thanks:
 
 ## How to contribute?
 
-Requirements: [PNPM](https://pnpm.io/), Node.js 20+
+Requirements: [PNPM](https://pnpm.io/), Node.js 22+
 
 - Clone the repo
 - Install the dependencies: `pnpm install`

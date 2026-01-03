@@ -1,11 +1,11 @@
 import { orderBy } from "es-toolkit";
-import type { Category } from "~/content.config";
+import type { Category, RawProject } from "~/schema";
 
-function getSortedProjects(projectsBySlug: Map<string, RisingStars.Project>) {
+function getSortedProjects(projectsBySlug: Map<string, RawProject>) {
   return orderBy(Array.from(projectsBySlug.values()), ["delta"], ["desc"]);
 }
 
-function isMatchingTag(category: Category, project: RisingStars.Project) {
+function isMatchingTag(category: Category, project: RawProject) {
   const hasIncludedTag = (category.tags || [category.key]).some((tag) =>
     project.tags.includes(tag),
   );
@@ -16,19 +16,16 @@ function isMatchingTag(category: Category, project: RisingStars.Project) {
   return hasIncludedTag && !hasExcludedTag;
 }
 
-function filterByTag(
-  sortedProjects: RisingStars.Project[],
-  category: Category,
-) {
+function filterByTag(sortedProjects: RawProject[], category: Category) {
   const { key, excluded, count } = category;
-  const isMatching = (project: RisingStars.Project) => {
+  const isMatching = (project: RawProject) => {
     if (key === "all") {
       return !["learning", "meta"].some((tag) => project.tags.includes(tag));
     }
     return isMatchingTag(category, project);
   };
 
-  const isExcluded = (project: RisingStars.Project) =>
+  const isExcluded = (project: RawProject) =>
     excluded && excluded.includes(project.slug);
   return sortedProjects
     .filter((project) => isMatching(project) && !isExcluded(project))
@@ -36,7 +33,7 @@ function filterByTag(
 }
 
 function getProjectsByTag(
-  sortedProjects: RisingStars.Project[],
+  sortedProjects: RawProject[],
   categories: Category[],
 ) {
   return categories.reduce(
@@ -48,8 +45,8 @@ function getProjectsByTag(
   );
 }
 
-export function getProjectsBySlug(projects: RisingStars.Project[]) {
-  const map = new Map<string, RisingStars.Project>();
+export function getProjectsBySlug(projects: RawProject[]) {
+  const map = new Map<string, RawProject>();
   projects.forEach((project) => {
     map.set(project.overrideSlugInComments || project.slug, project);
   });
@@ -57,7 +54,7 @@ export function getProjectsBySlug(projects: RisingStars.Project[]) {
 }
 
 export function processProjectData(
-  projectData: RisingStars.Project[],
+  projectData: RawProject[],
   categories: Category[],
 ) {
   const projectsBySlug = getProjectsBySlug(projectData);

@@ -1,9 +1,10 @@
 ---
 import { useTranslations } from "~/i18n/utils";
 import TranslatedBlock from "./translated-block.astro";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 

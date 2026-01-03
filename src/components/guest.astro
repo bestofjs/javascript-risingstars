@@ -1,10 +1,11 @@
 ---
+import type { LanguageCode } from "~/schema";
 import TranslatedBlock from "./translated-block.astro";
 
 export interface Props {
   guestId: string;
   year: number;
-  language: string;
+  language: LanguageCode;
 }
 const { year, language, guestId } = Astro.props;
 ---

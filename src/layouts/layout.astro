@@ -6,10 +6,11 @@ import { AstroFont } from "astro-font";
 import "~/css/button.css";
 import "~/css/dropdown.css";
 import { useTranslations } from "~/i18n/utils";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
   year: number;
-  language: string;
+  language: LanguageCode;
 }
 
 const { year, language } = Astro.props;
@@ -235,9 +236,6 @@ const imageURL = `${rootURL}/img/${year}/${language}/rising-stars.png`; // Twitt
         border-color: var(--border-color);
       }
 
-      code {
-        font-weight: 600;
-      }
       code:before,
       code:after {
         content: "`";

@@ -3,10 +3,11 @@ import { useTranslations } from "~/i18n/utils";
 import { formatStarNumber } from "./project-shared";
 import BarChartByMonth from "./bar-chart-by-month.astro";
 import LoadingIndicator from "./loading-indicator.astro";
+import type { LanguageCode, RawProject } from "~/schema";
 
 export interface Props {
-  project: RisingStars.Project;
-  language: string;
+  project: RawProject;
+  language: LanguageCode;
   year: number;
 }
 
@@ -15,7 +16,7 @@ const { url, full_name, stars, slug } = project;
 
 const bestOfJsURL = `https://bestofjs.org/projects/${slug}`;
 
-function formatProjectCreationDate(project: RisingStars.Project) {
+function formatProjectCreationDate(project: RawProject) {
   const date = project.created_at.toISOString();
   const yearAndMonth = date.slice(0, 7); // TODO format using i18n
   return yearAndMonth;

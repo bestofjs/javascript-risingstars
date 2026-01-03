@@ -2,55 +2,60 @@
 import { remark } from "remark";
 import remarkHtml from "remark-html";
 
-import { getCollection } from "astro:content";
-
-import { getProjectData } from "~/fetch-page-props";
-import { getProjectsBySlug } from "~/utils/process-project-data";
+import LoadingIndicator from "./loading-indicator.astro";
+import type { LanguageCode } from "~/schema";
+import { getProcessedCategoryMarkdown } from "~/utils/markdown";
 
 export interface Props {
   id: string;
-  language: string;
+  language: LanguageCode;
   year: number;
+  isTruncated?: boolean;
 }
 
-const { id, language, year } = Astro.props;
+const { id, language, year, isTruncated = false } = Astro.props;
 
-const comments = await getCollection("comments");
-
-const comment = comments.find(
-  (comment) => comment.id === `${year}/${language}/${id}`,
-);
-if (!comment) throw new Error(`Content not found: ${year}/${language}/${id}`);
-if (!comment.body)
-  throw new Error(`Content is empty: ${year}/${language}/${id}`);
-
-const { projects } = await getProjectData(year);
-
-const projectsBySlug = getProjectsBySlug(projects);
-const processedContent = replaceProjectSlugsWithLinks(
-  projectsBySlug,
-  comment.body,
-);
+const processedContent = await getProcessedCategoryMarkdown({
+  year,
+  language,
+  id,
+  isTruncated,
+});
 
 const html = await remark().use(remarkHtml).process(processedContent);
-
-// TODO create a plugin to process the markdown so that we can use this:
-// const { Content } = await comment.render();
-
-function replaceProjectSlugsWithLinks(
-  projectsBySlug: Map<string, RisingStars.Project>,
-  md: string,
-) {
-  const processed = md.replace(/{(.+?)}/gi, (_, slug) => {
-    const project = projectsBySlug.get(slug.toLowerCase());
-    if (!project) {
-      return slug;
-    }
-    const url = project.url || `https://github.com/${project.full_name}`;
-    return `[${project.name}](${url})`;
-  });
-  return processed;
-}
+const htmlString = String(html);
 ---
 
-<div class="markdown-body" set:html={html} />
+<div class="translated-block-wrapper">
+  <div class="markdown-body" set:html={htmlString} />
+  {
+    isTruncated && (
+      <button
+        type="button"
+        class="button show-more-button"
+        hx-get={`/${year}/${language}/content/${id}`}
+        hx-select=".full-content"
+        hx-trigger="click"
+        hx-target="closest .translated-block-wrapper"
+        hx-swap="outerHTML"
+      >
+        SHOW MORE
+        <LoadingIndicator />
+      </button>
+    )
+  }
+</div>
+
+<style>
+  .translated-block-wrapper {
+    position: relative;
+  }
+  .show-more-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 1rem;
+  }
+</style>

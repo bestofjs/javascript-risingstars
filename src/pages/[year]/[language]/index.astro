@@ -11,37 +11,29 @@ import ContributorsSection from "~/components/contributors-section.astro";
 import Footer from "~/components/footer.astro";
 import HtmxStyles from "~/components/htmx-styles.astro";
 
-import settings from "~/settings/years-setup.json";
-import allLanguages from "~/settings/languages.json";
 import { fetchPageProps } from "~/fetch-page-props";
 import LoadingIndicator from "~/components/loading-indicator.astro";
 import HtmxExtension from "~/components/htmx-extension.astro";
-
-type YearSetting = { year: number; languages: string[] };
+import { parsePageParams } from "~/utils/page-params";
+import {
+  getYearSettings,
+  getAvailableLanguages,
+  getAllYears,
+} from "~/settings";
 
 export function getStaticPaths() {
+  const settings = getYearSettings();
   return settings
     .flatMap(({ year, languages }) =>
-      languages.map((language) => ({ year: year.toString(), language })),
+      languages.map((language) => ({ year: year.toString(), language }))
     )
     .map(({ year, language }) => ({ params: { year, language } }));
 }
 
-const { year: yearParam, language } = Astro.params;
-const year = parseInt(yearParam!, 0);
-
-const allYears = (settings as YearSetting[]).map((item) => item.year);
-
-const languageCodes =
-  (settings as YearSetting[]).find(({ year: y }) => y === year)?.languages ||
-  [];
-
-const languages = languageCodes.map((code) =>
-  allLanguages.find((item) => item.code === code),
-) as RisingStars.Language[];
-
+const { year, language } = parsePageParams(Astro.params);
+const allYears = getAllYears();
+const languages = getAvailableLanguages(year);
 const { categories, projectsByTag } = await fetchPageProps(year, language);
-
 const topCategoryCount = 8; // categories loaded eagerly
 ---
 

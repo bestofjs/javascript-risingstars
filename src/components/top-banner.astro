@@ -1,8 +1,9 @@
 ---
 import { useTranslations } from "~/i18n/utils";
+import type { LanguageCode } from "~/schema";
 
 export interface Props {
-  language: string;
+  language: LanguageCode;
   year: number;
 }
 
@@ -44,6 +45,9 @@ const { t } = await useTranslations(language, year);
   }
   .year2024 .banner {
     background-image: url("/img/2024/banner.png");
+  }
+  .year2025 .banner {
+    background-image: url("/img/2025/banner.png");
   }
 
   .banner {
