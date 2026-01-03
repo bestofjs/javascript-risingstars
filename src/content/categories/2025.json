@@ -1,0 +1,92 @@
+[
+  {
+    "key": "all",
+    "limit": 10,
+    "count": 50
+  },
+  {
+    "key": "framework",
+    "count": 15
+  },
+  {
+    "key": "react",
+    "tags": ["react", "react-native"],
+    "count": 20,
+    "excluded": ["react", "react-native", "storybook", "trpc", "expo"],
+    "guest": "rwieruch"
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "vuejs-2", "directus", "wikijs", "tiptap"],
+    "excludedTags": ["react", "nextjs"],
+    "guest": "danielroe"
+  },
+  {
+    "key": "nodejs-framework",
+    "tags": ["nodejs-framework", "fullstack"],
+    "count": 20
+  },
+  {
+    "key": "build",
+    "tags": ["build", "lint", "formatter"],
+    "limit": 5,
+    "count": 10,
+    "guest": "slorber"
+  },
+  {
+    "key": "ai",
+    "tags": ["ml", "ai"],
+    "limit": 10,
+    "count": 20,
+    "guest": "jherr"
+  },
+  {
+    "key": "mobile",
+    "tags": ["mobile", "react-native"],
+    "count": 10,
+    "guest": "jamiebirch"
+  },
+  {
+    "key": "statemanagement",
+    "tags": ["state"],
+    "limit": 5,
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "css-in-js",
+    "tags": ["css-in-js", "atomic-css", "css-lib"],
+    "count": 10,
+    "availableComments": [],
+    "excluded": ["chakra-ui"]
+  },
+  {
+    "key": "component",
+    "count": 10,
+    "availableComments": [],
+    "excluded": []
+  },
+  {
+    "key": "test-framework",
+    "tags": ["test", "test-framework", "automation"],
+    "excluded": ["json-server"],
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "desktop",
+    "count": 5,
+    "availableComments": []
+  },
+  {
+    "key": "ssg",
+    "count": 10,
+    "availableComments": []
+  },
+  {
+    "key": "graphql",
+    "count": 10,
+    "availableComments": []
+  }
+]

@@ -1,0 +1,39 @@
+---
+import TranslatedBlock from "./translated-block.astro";
+import Guest from "./guest.astro";
+import type { LanguageCode } from "~/schema";
+
+export interface Props {
+  expertGuestId: string;
+  categoryKey: string;
+  year: number;
+  language: LanguageCode;
+}
+const { year, language, expertGuestId, categoryKey } = Astro.props;
+---
+
+<div class="expert-story">
+  <hr class="expert-separator" />
+  <Guest guestId={expertGuestId} language={language} year={year} />
+  <div class="expert-content">
+    <TranslatedBlock
+      id={`categories/${categoryKey}/expert-${expertGuestId}`}
+      year={year}
+      language={language}
+    />
+  </div>
+</div>
+
+<style>
+  .expert-story {
+    /* margin-top: calc(var(--spacing) * 2); */
+  }
+  .expert-separator {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: calc(var(--spacing) * 2) 0;
+  }
+  .expert-content {
+    margin-top: var(--spacing);
+  }
+</style>
