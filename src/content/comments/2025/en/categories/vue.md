@@ -3,4 +3,4 @@ id: vue
 language: en
 ---
 
-TODO
+Coming soon!
