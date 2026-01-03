@@ -1,0 +1,47 @@
+---
+import { z } from "astro:content";
+import remarkHtml from "remark-html";
+import { remark } from "remark";
+
+import { getAllCategories } from "~/settings";
+import { languageCodeSchema, yearSchema } from "~/schema";
+import { getProcessedCategoryMarkdown } from "~/utils/markdown";
+
+export const partial = true;
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const categories = await getAllCategories();
+  return categories
+    .filter((item) => item.category.isTruncated)
+    .map((item) => ({
+      params: {
+        year: item.year,
+        language: item.language,
+        id: item.category.key,
+      },
+    }));
+}
+
+const searchSchema = z.object({
+  year: yearSchema,
+  language: languageCodeSchema,
+  id: z.string(),
+});
+
+const { year, language, id } = searchSchema.parse(Astro.params);
+
+const processedContent = await getProcessedCategoryMarkdown({
+  year,
+  language,
+  id: `categories/${id}`,
+  isTruncated: false,
+});
+
+const html = await remark().use(remarkHtml).process(processedContent);
+const htmlString = String(html);
+---
+
+<div class="full-content">
+  <div class="markdown-body" set:html={htmlString} />
+</div>

@@ -2,41 +2,27 @@
 // GET request made to load categories when:
 // - navigating between years inside a category
 // - lazy loading an extra category at the bottom of the page
-import { getCollection, z } from "astro:content";
-import settings from "~/settings/years-setup.json";
+import invariant from "tiny-invariant";
+import { z } from "astro:content";
 
 import Section from "~/components/category.astro";
 import ProjectList from "~/components/project-list.astro";
 import { fetchPageProps } from "~/fetch-page-props";
-import invariant from "tiny-invariant";
 import { languageCodeSchema, yearSchema } from "~/schema";
+import { getAllCategories } from "~/settings";
 
 export const partial = true;
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const collectionItems = await getCollection("categories");
-  return settings
-    .flatMap(({ year, languages }) =>
-      languages.flatMap((language) => {
-        const collectionItem = collectionItems.find(
-          (item) => item.id === year.toString()
-        );
-        const categorySlugs = collectionItem!.data.map((item) => item.key);
-        return categorySlugs.map((category) => ({
-          year: year.toString(),
-          language,
-          category,
-        }));
-      })
-    )
-    .map(({ year, language, category }) => ({
-      params: {
-        year,
-        language,
-        category,
-      },
-    }));
+  const categories = await getAllCategories();
+  return categories.map((category) => ({
+    params: {
+      year: category.year.toString(),
+      language: category.language,
+      category: category.category.key,
+    },
+  }));
 }
 
 const searchSchema = z.object({

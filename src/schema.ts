@@ -73,6 +73,7 @@ export const categorySchema = z.object({
   guest: z.string().optional(),
   expertStories: z.array(z.string()).optional(),
   disabled: z.boolean().optional(),
+  isTruncated: z.boolean().optional(),
 });
 
 export type Category = z.infer<typeof categorySchema>;
