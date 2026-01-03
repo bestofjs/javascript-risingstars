@@ -1,6 +1,6 @@
 {
-  "date": "2025-12-31T23:39:46.451Z",
-  "count": 161,
+  "date": "2026-01-03T08:34:34.605Z",
+  "count": 166,
   "projects": [
     {
       "name": "n8n",
@@ -29,7 +29,7 @@
       "monthly": [
         2840, 2212, 3079, 1756, 1869, 2087, 2147, 1625, 1760, 2535, 2087, 2325
       ],
-      "tags": ["component", "tailwind", "react", "shadcn", "registry"],
+      "tags": ["react", "component", "tailwind", "shadcn", "registry"],
       "owner_id": 139895814,
       "created_at": "2023-01-04T12:43:27.000Z",
       "url": "https://ui.shadcn.com",
@@ -56,7 +56,7 @@
         1295,
         null
       ],
-      "tags": ["react", "animation"],
+      "tags": ["animation", "react"],
       "owner_id": 48634587,
       "created_at": "2024-08-06T06:54:54.000Z",
       "url": "https://reactbits.dev",
@@ -72,7 +72,7 @@
       "monthly": [
         1949, 2052, 1707, 1522, 1622, 1831, 1812, 2271, 2462, 2835, 2520, 2470
       ],
-      "tags": ["drawing", "canvas", "react"],
+      "tags": ["react", "drawing", "canvas"],
       "owner_id": 59452120,
       "created_at": "2020-01-02T01:04:43.000Z",
       "url": "https://excalidraw.com",
@@ -88,7 +88,7 @@
       "monthly": [
         1672, 2701, 1748, 1515, 1422, 1336, 1326, 1931, 1734, 1915, 1433, 1138
       ],
-      "tags": ["realtime", "websocket", "baas", "auth", "self-hosted"],
+      "tags": ["realtime", "auth", "websocket", "baas", "self-hosted"],
       "owner_id": 54469796,
       "created_at": "2019-10-12T05:56:49.000Z",
       "url": "https://supabase.com",
@@ -104,7 +104,7 @@
       "monthly": [
         211, 341, 304, 528, 1039, 1594, 9659, 589, 346, 564, 2122, 2094
       ],
-      "tags": ["react", "offline", "lowcode", "tailwind"],
+      "tags": ["react", "offline", "tailwind", "lowcode"],
       "owner_id": 157326433,
       "created_at": "2024-06-25T19:16:02.000Z",
       "url": "https://onlook.com",
@@ -162,7 +162,7 @@
       "monthly": [
         1013, 1427, 3229, 907, 855, 1701, 884, 948, 1073, 3127, 969, 1139
       ],
-      "tags": ["crdt", "realtime", "vite", "drawing"],
+      "tags": ["realtime", "drawing", "crdt", "vite"],
       "owner_id": 78728988,
       "created_at": "2022-07-31T18:45:21.000Z",
       "url": "https://affine.pro",
@@ -227,7 +227,7 @@
       "name": "Mastra",
       "slug": "mastra",
       "full_name": "mastra-ai/mastra",
-      "description": "The TypeScript AI agent framework.  Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.",
+      "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
       "stars": 19057,
       "delta": 14969,
       "monthly": [
@@ -260,7 +260,7 @@
       "monthly": [
         720, 801, 2128, 897, 1029, 1277, 1537, 1537, 1016, 1085, 1214, 1327
       ],
-      "tags": ["ai", "lowcode", "ai-agents"],
+      "tags": ["lowcode", "ai", "ai-agents"],
       "owner_id": 128289781,
       "created_at": "2023-03-31T12:23:09.000Z",
       "url": "https://flowiseai.com"
@@ -328,7 +328,7 @@
         null,
         null
       ],
-      "tags": ["workflow", "self-hosted", "cron"],
+      "tags": ["workflow", "cron", "self-hosted"],
       "owner_id": 193029780,
       "created_at": "2025-01-02T17:45:02.000Z",
       "url": "https://motia.dev"
@@ -359,7 +359,7 @@
       "monthly": [
         926, 928, 1142, 1141, 1123, 1189, 1214, 790, 1154, 1372, 802, 776
       ],
-      "tags": ["automation", "test"],
+      "tags": ["test", "automation"],
       "owner_id": 6154722,
       "created_at": "2019-11-15T18:32:42.000Z",
       "url": "https://playwright.dev",
@@ -388,7 +388,7 @@
       "stars": 241951,
       "delta": 11040,
       "monthly": [969, 777, 825, 864, 765, 899, 961, 844, 1097, 1223, 865, 951],
-      "tags": ["framework", "vdom", "react"],
+      "tags": ["framework", "react", "vdom"],
       "owner_id": 69631,
       "created_at": "2013-05-24T16:15:54.000Z",
       "url": "https://react.dev",
@@ -415,7 +415,7 @@
         null,
         null
       ],
-      "tags": ["desktop-app", "http"],
+      "tags": ["http", "desktop-app"],
       "owner_id": 150165049,
       "created_at": "2023-02-16T04:37:02.000Z",
       "url": "https://yaak.app"
@@ -443,7 +443,7 @@
       "stars": 85815,
       "delta": 10752,
       "monthly": [3378, 526, 1264, 510, 727, 561, 500, 586, 595, 684, 619, 802],
-      "tags": ["runtime", "bun", "build"],
+      "tags": ["build", "runtime", "bun"],
       "owner_id": 108928776,
       "created_at": "2021-04-14T00:48:17.000Z",
       "url": "https://bun.com",
@@ -486,7 +486,7 @@
         null,
         null
       ],
-      "tags": ["crm", "self-hosted", "graphql"],
+      "tags": ["graphql", "self-hosted", "crm"],
       "owner_id": 119600397,
       "created_at": "2022-12-01T13:04:40.000Z",
       "url": "https://twenty.com"
@@ -514,14 +514,14 @@
       "delta": 9726,
       "monthly": [776, 734, 853, 870, 1084, 852, 742, 755, 772, 804, 792, 692],
       "tags": [
-        "sdk",
-        "nextjs",
-        "svelte",
-        "vue",
-        "ai",
         "react",
-        "ai-agents",
-        "chat"
+        "vue",
+        "svelte",
+        "sdk",
+        "chat",
+        "nextjs",
+        "ai",
+        "ai-agents"
       ],
       "owner_id": 14985020,
       "created_at": "2023-05-23T15:04:08.000Z",
@@ -610,7 +610,7 @@
       "monthly": [
         513, 194, 182, 177, 173, 299, 317, 493, 575, 1207, 2367, 2447
       ],
-      "tags": ["react", "devtool", "performance"],
+      "tags": ["react", "performance", "devtool"],
       "owner_id": 38025074,
       "created_at": "2024-09-02T21:52:12.000Z",
       "url": "https://react-scan.com",
@@ -624,7 +624,7 @@
       "stars": 39615,
       "delta": 8908,
       "monthly": [511, 628, 727, 531, 588, 744, 749, 627, 860, 791, 1096, 1056],
-      "tags": ["cms", "mongodb", "nextjs", "react", "nodejs-framework"],
+      "tags": ["nodejs-framework", "react", "cms", "mongodb", "nextjs"],
       "owner_id": 62968818,
       "created_at": "2021-01-05T18:49:45.000Z",
       "url": "https://payloadcms.com",
@@ -651,7 +651,7 @@
         null,
         null
       ],
-      "tags": ["react", "component", "shadcn", "tailwind"],
+      "tags": ["react", "component", "tailwind", "shadcn"],
       "owner_id": 82111591,
       "created_at": "2025-03-13T21:53:42.000Z",
       "url": "https://tweakcn.com"
@@ -665,11 +665,11 @@
       "delta": 8663,
       "monthly": [918, 555, 605, 660, 587, 717, 620, 714, 775, 944, 837, 731],
       "tags": [
-        "fullstack",
         "ssg",
-        "prefetch",
         "react",
         "universal",
+        "fullstack",
+        "prefetch",
         "nextjs",
         "rsc"
       ],
@@ -686,7 +686,7 @@
       "stars": 19115,
       "delta": 8537,
       "monthly": [260, 318, 350, 475, 461, 431, 420, 530, 1480, 891, 2489, 432],
-      "tags": ["bot", "ai", "boilerplate", "nextjs"],
+      "tags": ["boilerplate", "bot", "nextjs", "ai"],
       "owner_id": 14985020,
       "created_at": "2023-05-19T16:36:23.000Z",
       "url": "https://chat-sdk.dev"
@@ -714,7 +714,7 @@
       "monthly": [
         158, 194, 951, 204, 646, 1651, 1180, 104, 221, 254, 1068, 1657
       ],
-      "tags": ["json", "diagram", "devtool"],
+      "tags": ["json", "devtool", "diagram"],
       "owner_id": 47941171,
       "created_at": "2022-01-30T15:25:18.000Z",
       "url": "https://jsoncrack.com/"
@@ -727,7 +727,7 @@
       "stars": 10117,
       "delta": 8003,
       "monthly": [467, 647, 546, 568, 468, 445, 472, 618, 2352, 443, 702, 275],
-      "tags": ["nextjs", "doc", "ssg"],
+      "tags": ["ssg", "doc", "nextjs"],
       "owner_id": 76240755,
       "created_at": "2023-07-03T10:27:50.000Z",
       "url": "https://fumadocs.dev",
@@ -741,7 +741,7 @@
       "stars": 34538,
       "delta": 7870,
       "monthly": [561, 459, 1742, 435, 520, 477, 484, 650, 589, 698, 608, 647],
-      "tags": ["diagram", "react", "graph", "svelte"],
+      "tags": ["react", "diagram", "graph", "svelte"],
       "owner_id": 7106853,
       "created_at": "2019-07-15T14:47:30.000Z",
       "url": "https://reactflow.dev",
@@ -782,7 +782,7 @@
       "stars": 91774,
       "delta": 7564,
       "monthly": [481, 440, 459, 512, 550, 648, 548, 628, 747, 743, 838, 970],
-      "tags": ["css-lib", "atomic-css", "tailwind", "rsc"],
+      "tags": ["css-lib", "tailwind", "atomic-css", "rsc"],
       "owner_id": 67109815,
       "created_at": "2017-10-06T14:59:14.000Z",
       "url": "https://tailwindcss.com/",
@@ -837,7 +837,7 @@
       "stars": 56341,
       "delta": 7351,
       "monthly": [404, 487, 537, 503, 555, 640, 590, 636, 670, 762, 742, 825],
-      "tags": ["state", "react"],
+      "tags": ["react", "state"],
       "owner_id": 45790596,
       "created_at": "2019-04-09T09:10:06.000Z",
       "url": "https://zustand-demo.pmnd.rs/",
@@ -905,7 +905,7 @@
       "stars": 27988,
       "delta": 6800,
       "monthly": [562, 478, 461, 460, 522, 604, 468, 551, 625, 620, 778, 671],
-      "tags": ["deno", "bun", "nodejs-framework"],
+      "tags": ["nodejs-framework", "deno", "bun"],
       "owner_id": 98495527,
       "created_at": "2021-12-14T20:05:30.000Z",
       "url": "https://hono.dev"
@@ -932,7 +932,7 @@
       "stars": 19774,
       "delta": 6617,
       "monthly": [196, 221, 261, 416, 554, 681, 540, 642, 612, 824, 849, 821],
-      "tags": ["component", "react", "tailwind"],
+      "tags": ["react", "component", "tailwind"],
       "owner_id": 166878038,
       "created_at": "2023-06-26T19:17:10.000Z",
       "url": "https://magicui.design"
@@ -999,7 +999,7 @@
       "stars": 34292,
       "delta": 6172,
       "monthly": [553, 470, 462, 517, 549, 540, 539, 655, 502, 503, 511, 371],
-      "tags": ["vue", "rich-text-editor", "react", "solid"],
+      "tags": ["react", "rich-text-editor", "vue", "solid"],
       "owner_id": 16939337,
       "created_at": "2018-08-20T19:58:58.000Z",
       "url": "https://tiptap.dev"
@@ -1025,7 +1025,7 @@
       "stars": 7732,
       "delta": 5778,
       "monthly": [1341, 248, 384, 376, 341, 709, 1492, 152, 228, 186, 179, 142],
-      "tags": ["headless", "react", "component"],
+      "tags": ["react", "component", "headless"],
       "owner_id": 33663932,
       "created_at": "2024-02-23T13:23:54.000Z",
       "url": "https://base-ui.com",
@@ -1039,7 +1039,7 @@
       "stars": 63187,
       "delta": 5765,
       "monthly": [369, 365, 468, 442, 461, 524, 448, 462, 553, 555, 535, 583],
-      "tags": ["doc", "react", "ssg"],
+      "tags": ["ssg", "react", "doc"],
       "owner_id": 69631,
       "created_at": "2017-06-20T16:13:53.000Z",
       "url": "https://docusaurus.io",
@@ -1066,7 +1066,7 @@
         null,
         null
       ],
-      "tags": ["rust", "webassembly", "desktop", "mobile"],
+      "tags": ["mobile", "desktop", "webassembly", "rust"],
       "owner_id": 79236386,
       "created_at": "2021-01-15T01:57:26.000Z",
       "url": "https://dioxuslabs.com"
@@ -1093,7 +1093,7 @@
       "stars": 27764,
       "delta": 5284,
       "monthly": [275, 376, 259, 1496, 354, 329, 267, 365, 372, 426, 354, 411],
-      "tags": ["component", "react", "tailwind"],
+      "tags": ["react", "component", "tailwind"],
       "owner_id": 86160567,
       "created_at": "2021-04-22T13:06:23.000Z",
       "url": "https://heroui.com"
@@ -1109,8 +1109,8 @@
       "tags": [
         "nodejs-framework",
         "cms",
-        "graphql",
         "vue",
+        "graphql",
         "sql",
         "baas",
         "lowcode",
@@ -1184,7 +1184,7 @@
       "stars": 11083,
       "delta": 4849,
       "monthly": [326, 194, 162, 230, 393, 316, 431, 495, 999, 880, 423, null],
-      "tags": ["ai", "automation"],
+      "tags": ["automation", "ai"],
       "owner_id": 87694465,
       "created_at": "2024-07-23T04:03:50.000Z",
       "url": "https://midscenejs.com"
@@ -1197,7 +1197,7 @@
       "stars": 10274,
       "delta": 4820,
       "monthly": [167, 230, 185, 522, 1976, 265, 193, 144, 110, 203, 369, 456],
-      "tags": ["cms", "dnd", "react", "rich-text-editor"],
+      "tags": ["react", "rich-text-editor", "cms", "dnd"],
       "owner_id": 153829377,
       "created_at": "2023-06-02T12:23:41.000Z",
       "url": "https://puckeditor.com"
@@ -1210,7 +1210,7 @@
       "stars": 47962,
       "delta": 4806,
       "monthly": [376, 381, 383, 352, 404, 387, 333, 410, 444, 518, 409, 409],
-      "tags": ["data", "graphql", "caching", "react", "vue", "solid", "svelte"],
+      "tags": ["react", "data", "vue", "graphql", "caching", "svelte", "solid"],
       "owner_id": 72518640,
       "created_at": "2019-09-10T19:23:58.000Z",
       "url": "https://tanstack.com/query"
@@ -1264,7 +1264,7 @@
         null,
         null
       ],
-      "tags": ["ai", "chat", "ai-agents"],
+      "tags": ["chat", "ai", "ai-agents"],
       "owner_id": 201282378,
       "created_at": "2025-04-16T15:41:18.000Z",
       "url": "https://voltagent.dev"
@@ -1306,12 +1306,12 @@
       "delta": 4347,
       "monthly": [447, 396, 562, 515, 248, 257, 296, 313, 338, 412, 293, 270],
       "tags": [
-        "routing",
-        "react",
-        "vue",
         "angular",
-        "solid",
+        "react",
+        "routing",
+        "vue",
         "svelte",
+        "solid",
         "fullstack"
       ],
       "owner_id": 72518640,
@@ -1326,7 +1326,7 @@
       "stars": 52594,
       "delta": 4333,
       "monthly": [309, 257, 290, 292, 328, 431, 367, 456, 379, 519, 362, 343],
-      "tags": ["vue", "framework"],
+      "tags": ["framework", "vue"],
       "owner_id": 6128107,
       "created_at": "2018-06-12T13:49:36.000Z",
       "url": "https://vuejs.org/",
@@ -1340,7 +1340,7 @@
       "stars": 8913,
       "delta": 4295,
       "monthly": [70, 319, 2774, 100, 335, 87, 90, 92, 159, 126, 72, 71],
-      "tags": ["ecommerce", "graphql", "react"],
+      "tags": ["react", "graphql", "ecommerce"],
       "owner_id": 83757778,
       "created_at": "2021-05-06T09:23:37.000Z",
       "url": "https://evershop.io/"
@@ -1353,7 +1353,7 @@
       "stars": 97136,
       "delta": 4120,
       "monthly": [325, 308, 262, 385, 342, 276, 300, 494, 316, 284, 553, 275],
-      "tags": ["component", "react", "design-system"],
+      "tags": ["react", "component", "design-system"],
       "owner_id": 12101536,
       "created_at": "2015-04-24T15:37:24.000Z",
       "url": "https://ant.design",
@@ -1381,7 +1381,7 @@
       "stars": 88932,
       "delta": 3892,
       "monthly": [182, 253, 637, 234, 241, 300, 342, 239, 245, 288, 296, 635],
-      "tags": ["playground", "test", "react", "vue", "angular"],
+      "tags": ["test", "angular", "react", "vue", "playground"],
       "owner_id": 22632046,
       "created_at": "2016-03-18T04:23:44.000Z",
       "url": "https://storybook.js.org",
@@ -1399,10 +1399,10 @@
         "nodejs-framework",
         "react",
         "universal",
-        "rpc",
-        "websocket",
         "data",
-        "fullstack"
+        "fullstack",
+        "websocket",
+        "rpc"
       ],
       "owner_id": 78011399,
       "created_at": "2020-07-18T01:17:11.000Z",
@@ -1417,7 +1417,7 @@
       "stars": 27824,
       "delta": 3744,
       "monthly": [218, 241, 223, 284, 333, 340, 328, 351, 388, 357, 370, 311],
-      "tags": ["monorepo", "build", "scaffolding", "react", "angular"],
+      "tags": ["angular", "react", "build", "scaffolding", "monorepo"],
       "owner_id": 23692104,
       "created_at": "2017-08-11T18:50:23.000Z",
       "url": "https://nx.dev",
@@ -1444,7 +1444,7 @@
       "stars": 59197,
       "delta": 3651,
       "monthly": [236, 292, 355, 255, 263, 352, 302, 228, 254, 388, 375, 351],
-      "tags": ["vue", "universal", "nodejs-framework", "ssg", "fullstack"],
+      "tags": ["nodejs-framework", "ssg", "universal", "fullstack", "vue"],
       "owner_id": 23360933,
       "created_at": "2016-10-26T11:18:47.000Z",
       "url": "https://nuxt.com",
@@ -1471,7 +1471,7 @@
       "stars": 18027,
       "delta": 3478,
       "monthly": [83, 79, 119, 129, 133, 204, 217, 376, 651, 891, 280, 316],
-      "tags": ["compiler", "react", "rpc", "fullstack"],
+      "tags": ["react", "compiler", "fullstack", "rpc"],
       "owner_id": 55102317,
       "created_at": "2020-01-30T13:48:54.000Z",
       "url": "https://wasp.sh"
@@ -1497,7 +1497,7 @@
         null,
         null
       ],
-      "tags": ["ai", "scraping"],
+      "tags": ["scraping", "ai"],
       "owner_id": 5019072,
       "created_at": "2024-07-13T07:11:32.000Z",
       "url": "https://repomix.com"
@@ -1523,7 +1523,7 @@
         null,
         null
       ],
-      "tags": ["vue", "animation"],
+      "tags": ["animation", "vue"],
       "owner_id": 48634587,
       "created_at": "2025-07-07T18:48:50.000Z",
       "url": "https://vue-bits.dev/"
@@ -1536,7 +1536,7 @@
       "stars": 9045,
       "delta": 3426,
       "monthly": [272, 242, 242, 185, 226, 308, 265, 285, 274, 438, 362, 327],
-      "tags": ["component", "vue", "shadcn"],
+      "tags": ["vue", "component", "shadcn"],
       "owner_id": 137486839,
       "created_at": "2023-06-26T13:53:23.000Z",
       "url": "https://www.shadcn-vue.com/"
@@ -1549,7 +1549,7 @@
       "stars": 7673,
       "delta": 3343,
       "monthly": [219, 185, 250, 246, 350, 201, 260, 285, 282, 358, 356, 351],
-      "tags": ["component", "react-native", "tailwind", "shadcn"],
+      "tags": ["react-native", "component", "tailwind", "shadcn"],
       "owner_id": 198129370,
       "created_at": "2023-12-16T16:47:00.000Z",
       "url": "https://reactnativereusables.com"
@@ -1575,7 +1575,7 @@
         null,
         null
       ],
-      "tags": ["shadcn", "component"],
+      "tags": ["component", "shadcn"],
       "owner_id": 306868,
       "created_at": "2025-01-16T03:44:02.000Z",
       "url": "https://basecoatui.com",
@@ -1602,7 +1602,7 @@
       "stars": 97540,
       "delta": 3177,
       "monthly": [155, 480, 195, 208, 245, 247, 245, 279, 273, 306, 324, 220],
-      "tags": ["material", "react", "component", "design-system"],
+      "tags": ["react", "material", "component", "design-system"],
       "owner_id": 33663932,
       "created_at": "2014-08-18T19:11:54.000Z",
       "url": "https://mui.com/material-ui/",
@@ -1643,7 +1643,7 @@
       "stars": 99600,
       "delta": 3045,
       "monthly": [177, 231, 211, 396, 193, 151, 263, 358, 231, 316, 282, 236],
-      "tags": ["framework", "angular"],
+      "tags": ["angular", "framework"],
       "owner_id": 139426,
       "created_at": "2014-09-18T16:12:01.000Z",
       "url": "https://angular.dev",
@@ -1684,7 +1684,7 @@
       "stars": 13878,
       "delta": 2666,
       "monthly": [128, 136, 140, 165, 199, 196, 189, 225, 272, 310, 338, 368],
-      "tags": ["component", "vue"],
+      "tags": ["vue", "component"],
       "owner_id": 3494069,
       "created_at": "2018-12-04T07:04:14.000Z",
       "url": "https://primevue.org"
@@ -1710,7 +1710,7 @@
       "stars": 29372,
       "delta": 2656,
       "monthly": [197, 188, 220, 221, 236, 281, 251, 223, 205, 266, 212, 156],
-      "tags": ["build", "monorepo", "scaffolding", "caching", "rust"],
+      "tags": ["build", "scaffolding", "caching", "monorepo", "rust"],
       "owner_id": 14985020,
       "created_at": "2021-10-05T17:37:11.000Z",
       "url": "https://turborepo.com",
@@ -1752,12 +1752,12 @@
       "delta": 2549,
       "monthly": [114, 88, 159, 155, 184, 216, 215, 244, 293, 243, 348, 290],
       "tags": [
+        "react",
+        "boilerplate",
+        "fullstack",
         "rpc",
         "nextjs",
-        "boilerplate",
-        "tailwind",
-        "react",
-        "fullstack"
+        "tailwind"
       ],
       "owner_id": 108266839,
       "created_at": "2022-05-24T13:31:01.000Z",
@@ -1778,6 +1778,20 @@
       "icon": "express.svg"
     },
     {
+      "name": "React Router",
+      "slug": "react-router",
+      "full_name": "remix-run/react-router",
+      "description": "Declarative routing for React",
+      "stars": 56076,
+      "delta": 2444,
+      "monthly": [106, 151, 260, 127, 150, 157, 164, 296, 235, 266, 273, 259],
+      "tags": ["react", "routing", "fullstack"],
+      "owner_id": 64235328,
+      "created_at": "2014-05-16T22:22:51.000Z",
+      "url": "https://reactrouter.com",
+      "icon": "react-router.svg"
+    },
+    {
       "name": "Leptos",
       "slug": "leptos",
       "full_name": "leptos-rs/leptos",
@@ -1785,7 +1799,7 @@
       "stars": 19667,
       "delta": 2431,
       "monthly": [143, 159, 162, 205, 167, 150, 186, 230, 219, 303, 237, 270],
-      "tags": ["webassembly", "rust", "framework"],
+      "tags": ["framework", "webassembly", "rust"],
       "owner_id": 118319153,
       "created_at": "2022-07-31T20:40:30.000Z",
       "url": "https://leptos.dev"
@@ -1811,7 +1825,7 @@
       "stars": 10491,
       "delta": 2305,
       "monthly": [99, 93, 157, 94, 522, 122, 138, 154, 226, 237, 265, 198],
-      "tags": ["ai", "sdk"],
+      "tags": ["sdk", "ai"],
       "owner_id": 14957082,
       "created_at": "2021-12-14T22:32:58.000Z",
       "url": "https://www.npmjs.com/package/openai"
@@ -1851,7 +1865,7 @@
       "stars": 15623,
       "delta": 2154,
       "monthly": [166, 174, 246, 148, 176, 142, 163, 159, 196, 215, 169, 200],
-      "tags": ["test-framework", "test", "vue", "react", "vite"],
+      "tags": ["test", "react", "vue", "test-framework", "vite"],
       "owner_id": 95747107,
       "created_at": "2021-12-03T19:19:49.000Z",
       "url": "https://vitest.dev",
@@ -1865,7 +1879,7 @@
       "stars": 34834,
       "delta": 2140,
       "monthly": [182, 136, 211, 152, 145, 152, 162, 209, 205, 196, 202, 188],
-      "tags": ["reactive", "framework", "solid"],
+      "tags": ["framework", "reactive", "solid"],
       "owner_id": 79226042,
       "created_at": "2018-04-24T16:36:27.000Z",
       "url": "https://solidjs.com",
@@ -1879,7 +1893,7 @@
       "stars": 4165,
       "delta": 2131,
       "monthly": [237, 113, 57, 93, 78, 95, 117, 153, 198, 434, 365, 191],
-      "tags": ["ai", "react", "component"],
+      "tags": ["react", "component", "ai"],
       "owner_id": 12101536,
       "created_at": "2024-05-09T11:19:21.000Z",
       "url": "https://x.ant.design"
@@ -1892,7 +1906,7 @@
       "stars": 6005,
       "delta": 2102,
       "monthly": [106, 134, 179, 126, 173, 143, 160, 171, 200, 313, 207, 190],
-      "tags": ["component", "vue", "headless", "access"],
+      "tags": ["access", "vue", "component", "headless"],
       "owner_id": 137486839,
       "created_at": "2023-06-22T11:08:02.000Z",
       "url": "https://reka-ui.com"
@@ -1931,7 +1945,7 @@
       "stars": 27005,
       "delta": 2078,
       "monthly": [147, 139, 101, 128, 156, 180, 185, 289, 205, 232, 170, 146],
-      "tags": ["component", "vue"],
+      "tags": ["vue", "component"],
       "owner_id": 68583457,
       "created_at": "2020-07-21T06:51:19.000Z",
       "url": "https://element-plus.org"
@@ -1957,7 +1971,7 @@
         null,
         null
       ],
-      "tags": ["ai", "react", "vue", "sdk", "ai-agents", "chat"],
+      "tags": ["react", "vue", "sdk", "chat", "ai", "ai-agents"],
       "owner_id": 72518640,
       "created_at": "2025-10-08T17:52:48.000Z"
     },
@@ -2008,7 +2022,7 @@
       "stars": 7634,
       "delta": 2025,
       "monthly": [157, 154, 126, 133, 133, 158, 189, 242, 136, 210, 158, 229],
-      "tags": ["ssg", "astro", "doc"],
+      "tags": ["ssg", "doc", "astro"],
       "owner_id": 44914786,
       "created_at": "2023-03-16T15:55:33.000Z",
       "url": "https://starlight.astro.build"
@@ -2021,7 +2035,7 @@
       "stars": 21012,
       "delta": 2017,
       "monthly": [201, 182, 260, 223, 150, 120, 117, 175, 130, 154, 139, 166],
-      "tags": ["webcomponent", "framework"],
+      "tags": ["framework", "webcomponent"],
       "owner_id": 18489846,
       "created_at": "2017-06-29T16:27:16.000Z",
       "url": "https://lit.dev",
@@ -2035,7 +2049,7 @@
       "stars": 7451,
       "delta": 1914,
       "monthly": [115, 128, 174, 192, 160, 180, 159, 216, 152, 175, 113, 150],
-      "tags": ["react-native", "component", "tailwind", "css-in-js"],
+      "tags": ["css-in-js", "react-native", "component", "tailwind"],
       "owner_id": 114648228,
       "created_at": "2022-04-02T12:30:41.000Z",
       "url": "https://nativewind.dev"
@@ -2128,7 +2142,7 @@
       "stars": 20876,
       "delta": 1815,
       "monthly": [89, 109, 127, 111, 153, 152, 120, 134, 165, 195, 190, 270],
-      "tags": ["state", "react"],
+      "tags": ["react", "state"],
       "owner_id": 45790596,
       "created_at": "2020-08-11T23:15:36.000Z",
       "url": "https://jotai.org",
@@ -2155,7 +2169,7 @@
       "stars": 4762,
       "delta": 1736,
       "monthly": [114, 91, 113, 175, 143, 145, 126, 130, 138, 173, 191, 197],
-      "tags": ["component", "react-native", "headless", "access"],
+      "tags": ["access", "react-native", "component", "headless"],
       "owner_id": 120183344,
       "created_at": "2023-01-11T12:03:50.000Z",
       "url": "https://gluestack.io/"
@@ -2181,10 +2195,24 @@
       "stars": 13491,
       "delta": 1697,
       "monthly": [113, 116, 97, 112, 153, 134, 134, 148, 160, 186, 172, 172],
-      "tags": ["react-native", "css-in-js", "atomic-css", "component", "rsc"],
+      "tags": ["css-in-js", "react-native", "component", "atomic-css", "rsc"],
       "owner_id": 94025540,
       "created_at": "2020-10-16T21:19:51.000Z",
       "url": "https://tamagui.dev"
+    },
+    {
+      "name": "Remix",
+      "slug": "remix",
+      "full_name": "remix-run/remix",
+      "description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
+      "stars": 32083,
+      "delta": 1650,
+      "monthly": [66, 97, 229, 105, 108, 85, 112, 123, 136, 195, 215, 179],
+      "tags": ["nodejs-framework", "react", "fullstack", "remix"],
+      "owner_id": 64235328,
+      "created_at": "2020-10-26T19:57:28.000Z",
+      "url": "https://remix.run",
+      "icon": "remix.svg"
     },
     {
       "name": "alien-signals",
@@ -2247,7 +2275,7 @@
       "stars": 29082,
       "delta": 1566,
       "monthly": [113, 106, 103, 101, 103, 150, 128, 130, 129, 162, 156, 185],
-      "tags": ["state-machine", "state", "react", "vue", "solid", "svelte"],
+      "tags": ["react", "vue", "state", "state-machine", "svelte", "solid"],
       "owner_id": 61783956,
       "created_at": "2015-09-14T15:04:15.000Z",
       "url": "https://stately.ai/docs",
@@ -2288,7 +2316,7 @@
       "stars": 13479,
       "delta": 1429,
       "monthly": [72, 110, 96, 82, 121, 86, 107, 125, 126, 156, 166, 182],
-      "tags": ["nextjs", "ssg", "doc"],
+      "tags": ["ssg", "doc", "nextjs"],
       "owner_id": 3676859,
       "created_at": "2020-06-15T16:39:34.000Z",
       "url": "https://nextra.site",
@@ -2306,6 +2334,32 @@
       "owner_id": 25053004,
       "created_at": "2022-02-09T08:54:54.000Z",
       "url": "https://electron-vite.org"
+    },
+    {
+      "name": "Adonis",
+      "slug": "adonis",
+      "full_name": "adonisjs/core",
+      "description": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.",
+      "stars": 18547,
+      "delta": 1340,
+      "monthly": [103, 101, 87, 76, 106, 120, 113, 101, 100, 143, 163, 127],
+      "tags": ["nodejs-framework"],
+      "owner_id": 13810373,
+      "created_at": "2015-08-15T17:03:54.000Z",
+      "url": "https://adonisjs.com"
+    },
+    {
+      "name": "H3",
+      "slug": "h3",
+      "full_name": "h3js/h3",
+      "description": "Minimal H(TTP) framework built for high performance and portability",
+      "stars": 5108,
+      "delta": 1313,
+      "monthly": [66, 57, 89, 101, 97, 162, 375, 68, 104, 68, 66, 60],
+      "tags": ["nodejs-framework"],
+      "owner_id": 208435796,
+      "created_at": "2020-11-17T14:15:44.000Z",
+      "url": "https://h3.dev"
     },
     {
       "name": "Mock Service Worker",
@@ -2346,6 +2400,19 @@
       "url": "https://boardgame.io"
     },
     {
+      "name": "SvelteKit",
+      "slug": "sveltekit",
+      "full_name": "sveltejs/kit",
+      "description": "web development, streamlined",
+      "stars": 20121,
+      "delta": 1251,
+      "monthly": [110, 118, 127, 115, 88, 119, 96, 105, 99, 103, 81, 90],
+      "tags": ["nodejs-framework", "fullstack", "svelte", "vite"],
+      "owner_id": 23617963,
+      "created_at": "2020-10-15T14:00:23.000Z",
+      "url": "https://svelte.dev/docs/kit"
+    },
+    {
       "name": "Preact",
       "slug": "preact",
       "full_name": "preactjs/preact",
@@ -2367,7 +2434,7 @@
       "stars": 32262,
       "delta": 1219,
       "monthly": [112, 82, 41, 113, 115, 89, 100, 90, 105, 143, 109, 120],
-      "tags": ["webassembly", "framework", "rust"],
+      "tags": ["framework", "webassembly", "rust"],
       "owner_id": 49116234,
       "created_at": "2017-12-16T14:19:02.000Z",
       "url": "https://yew.rs"
@@ -2393,7 +2460,7 @@
         null,
         null
       ],
-      "tags": ["state", "realtime", "db"],
+      "tags": ["realtime", "db", "state"],
       "owner_id": 145756592,
       "created_at": "2023-09-21T14:34:08.000Z",
       "url": "https://livestore.dev"
@@ -2406,7 +2473,7 @@
       "stars": 14393,
       "delta": 1030,
       "monthly": [56, 68, 52, 76, 60, 75, 94, 92, 85, 141, 124, 107],
-      "tags": ["state", "vue"],
+      "tags": ["vue", "state"],
       "owner_id": 6128107,
       "created_at": "2019-11-18T21:05:01.000Z",
       "url": "https://pinia.vuejs.org",
@@ -2422,10 +2489,10 @@
       "monthly": [86, 50, 66, 55, 58, 70, 40, 279, 58, 92, 64, 71],
       "tags": [
         "realtime",
-        "websocket",
-        "graphql",
-        "serverless",
         "auth",
+        "graphql",
+        "websocket",
+        "serverless",
         "baas",
         "self-hosted"
       ],
@@ -2455,11 +2522,11 @@
       "delta": 905,
       "monthly": [44, 45, 59, 43, 86, 62, 68, 83, 116, 96, 132, 71],
       "tags": [
-        "mobile",
-        "vue",
-        "desktop",
         "framework",
+        "mobile",
+        "desktop",
         "fullstack",
+        "vue",
         "extension"
       ],
       "owner_id": 23064371,
@@ -2475,7 +2542,7 @@
       "stars": 4850,
       "delta": 849,
       "monthly": [39, 35, 44, 40, 54, 73, 57, 74, 127, 73, 137, 96],
-      "tags": ["state", "table", "react", "crdt"],
+      "tags": ["react", "table", "state", "crdt"],
       "owner_id": 96894742,
       "created_at": "2021-12-31T01:06:00.000Z",
       "url": "https://tinybase.org"
@@ -2488,7 +2555,7 @@
       "stars": 10055,
       "delta": 832,
       "monthly": [25, 74, 42, 62, 70, 86, 61, 80, 76, 84, 72, 100],
-      "tags": ["state", "react"],
+      "tags": ["react", "state"],
       "owner_id": 45790596,
       "created_at": "2020-11-16T22:30:51.000Z",
       "url": "https://valtio.dev"
@@ -2674,6 +2741,7 @@
     { "name": "Atomic CSS", "code": "atomic-css" },
     { "name": "CRON", "code": "cron" },
     { "name": "Rust", "code": "rust" },
+    { "name": "Remix", "code": "remix" },
     { "name": "Desktop app", "code": "desktop-app" },
     { "name": "React Server Components", "code": "rsc" },
     { "name": "HTML Tagging", "code": "html-tagging" },
