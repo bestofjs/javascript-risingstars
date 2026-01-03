@@ -328,7 +328,7 @@
         null,
         null
       ],
-      "tags": ["workflow", "cron", "self-hosted"],
+      "tags": ["workflow", "cron", "self-hosted", "nodejs-framework"],
       "owner_id": 193029780,
       "created_at": "2025-01-02T17:45:02.000Z",
       "url": "https://motia.dev"
