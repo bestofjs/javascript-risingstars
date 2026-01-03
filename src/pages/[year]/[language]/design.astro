@@ -5,13 +5,14 @@
  * - the OG image used when sharing the page on social media, Include the site title.
  */
 import Layout from "~/layouts/layout.astro";
-import settings from "~/settings/years-setup.json";
 import BackgroundImage from "~/components/design/background-image.astro";
 import SocialImage from "~/components/design/social-image.astro";
 import { fetchPageProps } from "~/fetch-page-props";
 import { parsePageParams } from "~/utils/page-params";
+import { getYearSettings } from "~/settings";
 
 export function getStaticPaths() {
+  const settings = getYearSettings();
   return settings
     .flatMap(({ year, languages }) =>
       languages.map((language) => ({ year: year.toString(), language }))

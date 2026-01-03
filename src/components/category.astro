@@ -19,6 +19,7 @@ const { language, year, projects, category } = Astro.props;
 const {
   availableComments,
   key: tag,
+  isTruncated,
   limit = 5,
   guest,
   expertStories,
@@ -79,6 +80,7 @@ const hasComment = !availableComments || availableComments.includes(language);
             {guest && <Guest guestId={guest} language={language} year={year} />}
             <TranslatedBlock
               id={`categories/${tag}`}
+              isTruncated={isTruncated}
               language={language}
               year={year}
             />
