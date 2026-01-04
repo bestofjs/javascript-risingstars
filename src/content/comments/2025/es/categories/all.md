@@ -45,8 +45,8 @@ La documentación incluye un [Background Studio](https://reactbits.dev/tools/bac
 
 También disponible en versión Vue: {vue-bits}.
 
-#### Selección especial
+#### Mención especial
 
 En el puesto número 7, {better-auth} es una excelente solución para gestionar la autenticación en tu aplicación utilizando tu propia infraestructura. Incluye un sistema de plugins para cubrir las necesidades más comunes: magic links, contraseñas de un solo uso, arquitectura multi-tenant para dar soporte a organizaciones con miembros y roles, y mucho más.
 
-Es agnóstico al framework y por lo tanto puede usarse con cualquier framework, pero además ofrece integraciones excelentes para los principales frameworks fullstack.
+Es agnóstico al framework y por lo tanto puede usarse con cualquier de ellos, pero además ofrece integraciones excelentes para los principales frameworks fullstack.

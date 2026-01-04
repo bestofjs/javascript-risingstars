@@ -9,6 +9,6 @@ La era del chatbot ha terminado. Las herramientas que están ganando protagonism
 
 Así que aquí tienes tus deberes para 2026: deja de preguntar “¿cómo consigo mejores respuestas de mi LLM?” y empieza a preguntar “¿qué flujos de trabajo puedo delegar por completo a la IA?”. Prueba n8n o {flowise} y construye algo que se dispare con un evento, razone entre distintas opciones y actúe sin pedir permiso. Conecta un agente de {mastra} que coordine múltiples herramientas y plataformas. Experimenta con {stagehand} para automatizar tareas en el navegador.
 
-Los chatbots solo eran los ruedines de aprendizaje. Ha llegado el momento de quitarlas.
+Los chatbots solo eran los ruedines de aprendizaje. Ha llegado el momento de quitarlos.
 
 Ah, y por cierto, presta atención en esta carrera: al ["code mode"](https://blog.cloudflare.com/code-mode/). Podría ser lo más importante en este ámbito desde MCP.
