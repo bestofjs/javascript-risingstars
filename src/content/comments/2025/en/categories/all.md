@@ -47,6 +47,6 @@ Also available as a Vue version: {vue-bits}.
 
 #### Special Pick
 
-At number 9, {better-auth} is a great solution to handle authentication in your application using your own infrastructure. It comes with a system of plugins to address the most common needs: magic links, one-time passwords, multi-tenant architecture to support organizations with members and roles, and many more.
+At number 7, {better-auth} is a great solution to handle authentication in your application using your own infrastructure. It comes with a system of plugins to address the most common needs: magic links, one-time passwords, multi-tenant architecture to support organizations with members and roles, and many more.
 
 It's framework-agnostic and can be used with any framework, but it comes with great integrations for all major fullstack frameworks.
