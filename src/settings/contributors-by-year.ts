@@ -86,7 +86,9 @@ export const byYear: { [year: string]: unknown } = {
   },
   "2025": {
     authors: ["michaelrambeau"],
-    translators: {},
+    translators: {
+      es: ["jvalen"],
+    },
   },
 };
 
