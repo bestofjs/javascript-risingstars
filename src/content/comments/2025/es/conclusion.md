@@ -14,7 +14,7 @@ Otra noticia relevante para la comunidad JS: [Lee Robinson](https://x.com/leerob
 Siguiendo con caras conocidas de la comunidad open source, Anthony Fu ({vite}, {vitest} y muchos otros proyectos), Daniel Roe y Sébastien Chopin ({nuxt}) se unieron a Vercel. Parece una buena señal para la diversidad de frameworks, teniendo en cuenta que la compañía es conocida por su fuerte enfoque en Next.js y React.
 
 El anuncio de [Remix 3](https://github.com/remix-run/remix/blob/main/README.md#welcome-to-remix-3) fue un movimiento atrevido, ya que los creadores de Remix (también creadores de React Router) decidieron abandonar React, apostando más que nunca por los estándares de la web.
-Esto no significa que los usuarios de React vayan a perder su framework favorito: Remix 2 ha evolucionado y se ha convertido en el framework React Router.
+Esto no significa que los usuarios de Remix vayan a perder su framework favorito: Remix 2 ha evolucionado y se ha convertido en el framework React Router.
 
 Un artículo muy interesante sobre cómo [React y Remix eligen futuros diferentes](https://laconicwit.com/react-and-remix-choose-different-futures/).
 
