@@ -37,7 +37,7 @@
   },
   {
     "year": 2025,
-    "languages": ["en"],
+    "languages": ["en", "es"],
     "current": true
   }
 ]
