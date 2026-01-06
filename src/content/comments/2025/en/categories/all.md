@@ -20,9 +20,19 @@ Three other projects related to AI make the TOP 10:
 - {dyad}: a free, local, open-source AI app builder and v0/lovable/Bolt alternative
 - {stagehand}: brings AI-powered browser automation
 
-#### Number 2: shadcn-ui
+#### Number 2: react-bits
 
-At #2, {shadcnui}, our champion of 2023 and 2024, keeps its tremendous momentum.
+{react-bits} is a collection of fancy animated components (background effects, text animations, cards...) for React, perfect for building memorable websites.
+
+Interestingly, it's distributed as a shadcn/ui project, available from the shadcn/ui registry using the command line or via good old copy-paste in your codebase. Some of the components require a dependency: either [GSAP](https://greensock.com/gsap/) or [motion](https://motion.dev/).
+
+The documentation comes with a [Background Studio](https://reactbits.dev/tools/background-studio) that lets you adjust and customize the setup of all components (colors, speed, number of particles...) and export as a snippet you can copy-paste in your codebase.
+
+Also available as a Vue version: {vue-bits}.
+
+#### Number 3: shadcn-ui
+
+At #3, {shadcnui}, our champion of 2023 and 2024, keeps its tremendous momentum.
 
 If you have checked our previous editions, you already know it's a set of consistent React components crafted with taste and great attention to details (accessibility, keyboard interactions, etc.), gathering the best of headless components such as Radix UI, TanStack Table...
 
@@ -34,16 +44,6 @@ The most amazing feature of shadcn/ui is that it found the sweet spot between fu
 Beyond the newly added components, shadcn/ui is no longer tightly coupled to Radix UI and now supports [Base UI](https://base-ui.com/) (number 4 in the component libraries rankings)
 
 There was a criticism that sites built with it tend to look similar; however, the ability to customize the look-and-feel has improved a lot with the introduction of new styles and a new [create page](https://ui.shadcn.com/create) to build your own custom theme.
-
-#### Number 3: react-bits
-
-{react-bits} is a collection of fancy animated components (background effects, text animations, cards...) for React, perfect for building memorable websites.
-
-Interestingly, it's distributed as a shadcn/ui project, available from the shadcn/ui registry using the command line or via good old copy-paste in your codebase. Some of the components require a dependency: either [GSAP](https://greensock.com/gsap/) or [motion](https://motion.dev/).
-
-The documentation comes with a [Background Studio](https://reactbits.dev/tools/background-studio) that lets you adjust and customize the setup of all components (colors, speed, number of particles...) and export as a snippet you can copy-paste in your codebase.
-
-Also available as a Vue version: {vue-bits}.
 
 #### Special Pick
 
