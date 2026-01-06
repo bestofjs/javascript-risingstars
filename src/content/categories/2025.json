@@ -16,13 +16,6 @@
     "guest": "rwieruch"
   },
   {
-    "key": "vue",
-    "count": 10,
-    "excluded": ["vuejs", "vuejs-2", "directus", "wikijs", "tiptap"],
-    "excludedTags": ["react", "nextjs"],
-    "guest": "danielroe"
-  },
-  {
     "key": "nodejs-framework",
     "tags": ["nodejs-framework", "fullstack"],
     "count": 20
@@ -48,6 +41,13 @@
     "count": 10,
     "guest": "jamiebirch",
     "isTruncated": true
+  },
+  {
+    "key": "vue",
+    "count": 10,
+    "excluded": ["vuejs", "vuejs-2", "directus", "wikijs", "tiptap"],
+    "excludedTags": ["react", "nextjs"],
+    "availableComments": []
   },
   {
     "key": "statemanagement",
