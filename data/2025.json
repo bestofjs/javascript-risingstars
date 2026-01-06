@@ -1,6 +1,6 @@
 {
-  "date": "2026-01-03T08:34:34.605Z",
-  "count": 166,
+  "date": "2026-01-06T00:07:40.940Z",
+  "count": 165,
   "projects": [
     {
       "name": "n8n",
@@ -20,6 +20,22 @@
       "icon": "n8n.svg"
     },
     {
+      "name": "React Bits",
+      "slug": "react-bits",
+      "full_name": "DavidHDev/react-bits",
+      "description": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
+      "stars": 32968,
+      "delta": 32762,
+      "monthly": [
+        1343, 1932, 2909, 3589, 3156, 4048, 4165, 659, 1212, 1857, 4388, 3504
+      ],
+      "tags": ["animation", "react"],
+      "owner_id": 48634587,
+      "created_at": "2024-08-06T06:54:54.000Z",
+      "url": "https://reactbits.dev",
+      "icon": "react-bits.svg"
+    },
+    {
       "name": "shadcn/ui",
       "slug": "shadcnui",
       "full_name": "shadcn-ui/ui",
@@ -34,33 +50,6 @@
       "created_at": "2023-01-04T12:43:27.000Z",
       "url": "https://ui.shadcn.com",
       "icon": "shadcnui.svg"
-    },
-    {
-      "name": "React Bits",
-      "slug": "react-bits",
-      "full_name": "DavidHDev/react-bits",
-      "description": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
-      "stars": 32968,
-      "delta": 26165,
-      "monthly": [
-        1343,
-        1932,
-        2909,
-        3589,
-        3156,
-        4048,
-        4165,
-        659,
-        1212,
-        1857,
-        1295,
-        null
-      ],
-      "tags": ["animation", "react"],
-      "owner_id": 48634587,
-      "created_at": "2024-08-06T06:54:54.000Z",
-      "url": "https://reactbits.dev",
-      "icon": "react-bits.svg"
     },
     {
       "name": "Excalidraw",
@@ -328,7 +317,7 @@
         null,
         null
       ],
-      "tags": ["workflow", "cron", "self-hosted", "nodejs-framework"],
+      "tags": ["nodejs-framework", "workflow", "cron", "self-hosted"],
       "owner_id": 193029780,
       "created_at": "2025-01-02T17:45:02.000Z",
       "url": "https://motia.dev"
@@ -1084,6 +1073,19 @@
       "created_at": "2017-02-04T20:12:52.000Z",
       "url": "https://nestjs.com",
       "icon": "nest.svg"
+    },
+    {
+      "name": "Elysia",
+      "slug": "elysia",
+      "full_name": "elysiajs/elysia",
+      "description": "Ergonomic Framework for Humans",
+      "stars": 16377,
+      "delta": 5424,
+      "monthly": [982, 829, 522, 564, 323, 375, 292, 291, 276, 342, 326, 302],
+      "tags": ["nodejs-framework", "websocket", "bun"],
+      "owner_id": 119793569,
+      "created_at": "2022-12-04T12:53:30.000Z",
+      "url": "https://elysiajs.com"
     },
     {
       "name": "HeroUI",
@@ -2339,7 +2341,7 @@
       "name": "Adonis",
       "slug": "adonis",
       "full_name": "adonisjs/core",
-      "description": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.",
+      "description": "TS-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more",
       "stars": 18547,
       "delta": 1340,
       "monthly": [103, 101, 87, 76, 106, 120, 113, 101, 100, 143, 163, 127],
@@ -2347,19 +2349,6 @@
       "owner_id": 13810373,
       "created_at": "2015-08-15T17:03:54.000Z",
       "url": "https://adonisjs.com"
-    },
-    {
-      "name": "H3",
-      "slug": "h3",
-      "full_name": "h3js/h3",
-      "description": "Minimal H(TTP) framework built for high performance and portability",
-      "stars": 5108,
-      "delta": 1313,
-      "monthly": [66, 57, 89, 101, 97, 162, 375, 68, 104, 68, 66, 60],
-      "tags": ["nodejs-framework"],
-      "owner_id": 208435796,
-      "created_at": "2020-11-17T14:15:44.000Z",
-      "url": "https://h3.dev"
     },
     {
       "name": "Mock Service Worker",
@@ -2398,19 +2387,6 @@
       "owner_id": 67186830,
       "created_at": "2017-11-21T23:47:35.000Z",
       "url": "https://boardgame.io"
-    },
-    {
-      "name": "SvelteKit",
-      "slug": "sveltekit",
-      "full_name": "sveltejs/kit",
-      "description": "web development, streamlined",
-      "stars": 20121,
-      "delta": 1251,
-      "monthly": [110, 118, 127, 115, 88, 119, 96, 105, 99, 103, 81, 90],
-      "tags": ["nodejs-framework", "fullstack", "svelte", "vite"],
-      "owner_id": 23617963,
-      "created_at": "2020-10-15T14:00:23.000Z",
-      "url": "https://svelte.dev/docs/kit"
     },
     {
       "name": "Preact",
