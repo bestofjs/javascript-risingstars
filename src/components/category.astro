@@ -68,7 +68,11 @@ const hasComment = !availableComments || availableComments.includes(language);
               hx-target="this"
               hx-swap="outerHTML"
             >
-              SHOW MORE
+              {
+                t("common.view_project.show_more", {
+                  defaultValue: "SHOW MORE",
+                })
+              }
               <LoadingIndicator />
             </button>
           )

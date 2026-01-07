@@ -16,6 +16,7 @@
     "trends": "{{year}}년 경향",
     "data": "GitHub 정보",
     "stars_total": "누적 별",
-    "links": "링크"
+    "links": "링크",
+    "show_more": "더 보기"
   }
 }

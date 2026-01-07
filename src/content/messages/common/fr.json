@@ -16,6 +16,7 @@
     "trends": "Tendances en {{year}}",
     "data": "Données GitHub",
     "stars_total": "Total stars",
-    "links": "Liens"
+    "links": "Liens",
+    "show_more": "SHOW MORE"
   }
 }

@@ -2,6 +2,7 @@
 import { remark } from "remark";
 import remarkHtml from "remark-html";
 
+import { useTranslations } from "~/i18n/utils";
 import LoadingIndicator from "./loading-indicator.astro";
 import type { LanguageCode } from "~/schema";
 import { getProcessedCategoryMarkdown } from "~/utils/markdown";
@@ -24,6 +25,7 @@ const processedContent = await getProcessedCategoryMarkdown({
 
 const html = await remark().use(remarkHtml).process(processedContent);
 const htmlString = String(html);
+const { t } = await useTranslations(language, year);
 ---
 
 <div class="translated-block-wrapper">
@@ -39,7 +41,11 @@ const htmlString = String(html);
         hx-target="closest .translated-block-wrapper"
         hx-swap="outerHTML"
       >
-        SHOW MORE
+        {
+          t("common.view_project.show_more", {
+            defaultValue: "SHOW MORE",
+          })
+        }
         <LoadingIndicator />
       </button>
     )
