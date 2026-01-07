@@ -3,7 +3,7 @@ id: jamiebirch
 language: ja
 ---
 
-### ゲストライター: ジェイミー・バーチ ([Jamie Birch](https://x.com/birch_js))
+### ゲストライター: [Jamie Birch](https://x.com/birch_js)
 
 Web技術とネイティブ技術の融合を目指すクロスプラットフォームアプリ開発者
 
