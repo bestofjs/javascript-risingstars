@@ -18,6 +18,7 @@ An overview of the JavaScript landscape in 2025: trends about frontend, backend 
 - [Michael Rambeau](https://michaelrambeau.com)
 - [Mihai Badescu](https://github.com/zawarudo)
 - [Misol Goh](https://github.com/melancholy14)
+- [Naoki Haba](https://github.com/naokihaba)
 - [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 - [Oh TaeJun](https://github.com/rewrite0w0)
 - [Rana Kualu](https://github.com/NurseAngel)
